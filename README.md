@@ -1,4 +1,4 @@
-# Abyss by Chimera Games
+# Chimera Games
 
 Kutztown University of Pennsylvania
 CSC 423: Game Development for Computer Scientists II
