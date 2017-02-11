@@ -6,6 +6,6 @@ Spring 2017
 
 Credits:
 Christian Carreras,
-Braden Luancing,
 Anthony Huynh,
+Braden Luancing,
 Nathaniel Yost
