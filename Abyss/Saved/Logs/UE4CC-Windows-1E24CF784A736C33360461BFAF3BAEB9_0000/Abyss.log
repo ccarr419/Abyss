@@ -1,0 +1,1082 @@
+﻿Log file open, 02/24/17 19:58:09
+LogInit:Display: Running engine for game: Abyss
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1193879755) SRandInit(-1193879755).
+LogTaskGraph: Started task graph with 5 named threads and 12 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.142501
+LogPluginManager: Loaded Plugin Paper2D, From E:/Game Data/Epic Games/4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin AudioCapture, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Editor/AudioCapture/AudioCapture.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin OSVR, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From E:/Game Data/Epic Games/4.14/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From E:/Game Data/Epic Games/4.14/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From E:/Game Data/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From E:/Game Data/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGameCircle, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGameCircle/OnlineSubsystemGameCircle.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin MIDIDevice, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Runtime/MIDIDevice/MIDIDevice.uplugin
+LogPluginManager: Loaded Plugin MobilePatchingUtils, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Runtime/MobilePatchingUtils/MobilePatchingUtils.uplugin
+LogPluginManager: Loaded Plugin Ansel, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Runtime/Nvidia/Ansel/Ansel.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From E:/Game Data/Epic Games/4.14/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogPluginManager: Loaded Plugin EditorTests, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Tests/EditorTests/EditorTests.uplugin
+LogPluginManager: Loaded Plugin FbxAutomationTestBuilder, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Tests/FbxAutomationTestBuilder/FbxAutomationTestBuilder.uplugin
+LogPluginManager: Loaded Plugin FunctionalTestingEditor, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Tests/FunctionalTestingEditor/FunctionalTestingEditor.uplugin
+LogPluginManager: Loaded Plugin RuntimeTests, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Tests/RuntimeTests/RuntimeTests.uplugin
+LogPluginManager: Loaded Plugin ScreenshotTools, From E:/Game Data/Epic Games/4.14/Engine/Plugins/Tests/ScreenshotTools/ScreenshotTools.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.14-CL-3249277
+LogInit: Engine Version: 4.14.3-3249277+++UE4+Release-4.14
+LogInit: Compatible Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Net CL: 3195953
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 7
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 8
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 17
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 1
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jan  6 2017 10:49:43
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.14
+LogInit: Command line:  
+LogInit: Base directory: E:/Game Data/Epic Games/4.14/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.02.25-00.58.10:062][  0]LogInit: Selected Device Profile: [Windows]
+[2017.02.25-00.58.10:062][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.02.25-00.58.10:075][  0]LogInit: Computer: RAGNARÖK
+[2017.02.25-00.58.10:075][  0]LogInit: User: Chris
+[2017.02.25-00.58.10:075][  0]LogInit: CPU Page size=65536, Cores=8
+[2017.02.25-00.58.10:075][  0]LogInit: High frequency timer resolution =3.135566 MHz
+[2017.02.25-00.58.10:075][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.02.25-00.58.10:075][  0]LogMemory: Platform Memory Stats for Windows
+[2017.02.25-00.58.10:075][  0]LogMemory: Process Physical Memory: 265.32 MB used, 265.32 MB peak
+[2017.02.25-00.58.10:075][  0]LogMemory: Process Virtual Memory: 266.44 MB used, 266.44 MB peak
+[2017.02.25-00.58.10:075][  0]LogMemory: Physical Memory: 5630.64 MB used,  10653.43 MB free, 16284.07 MB total
+[2017.02.25-00.58.10:075][  0]LogMemory: Virtual Memory: 667.27 MB used,  10653.43 MB free, 8388608.00 MB total
+[2017.02.25-00.58.10:143][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.02.25-00.58.11:041][  0]LogD3D11RHI: D3D11 adapters:
+[2017.02.25-00.58.11:062][  0]LogD3D11RHI:    0. 'AMD Radeon (TM) R9 380 Series' (Feature Level 11_0)
+[2017.02.25-00.58.11:062][  0]LogD3D11RHI:       4074/0/3840 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2017.02.25-00.58.11:062][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.02.25-00.58.11:072][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.02.25-00.58.11:072][  0]LogD3D11RHI:     GPU DeviceId: 0x6938 (for the marketing name, search the web for "GPU Device Id")
+[2017.02.25-00.58.11:072][  0]LogWindows: EnumDisplayDevices:
+[2017.02.25-00.58.11:072][  0]LogWindows:    0. 'AMD Radeon (TM) R9 380 Series' (P:1 D:1)
+[2017.02.25-00.58.11:073][  0]LogWindows:    1. 'AMD Radeon (TM) R9 380 Series' (P:0 D:0)
+[2017.02.25-00.58.11:073][  0]LogWindows:    2. 'AMD Radeon (TM) R9 380 Series' (P:0 D:0)
+[2017.02.25-00.58.11:074][  0]LogWindows:    3. 'AMD Radeon (TM) R9 380 Series' (P:0 D:0)
+[2017.02.25-00.58.11:074][  0]LogWindows:    4. 'AMD Radeon (TM) R9 380 Series' (P:0 D:0)
+[2017.02.25-00.58.11:075][  0]LogWindows:    5. 'AMD Radeon (TM) R9 380 Series' (P:0 D:0)
+[2017.02.25-00.58.11:075][  0]LogWindows:    6. 'RDPDD Chained DD' (P:0 D:0)
+[2017.02.25-00.58.11:075][  0]LogWindows:    7. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.02.25-00.58.11:075][  0]LogWindows:    8. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.02.25-00.58.11:076][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:6 
+[2017.02.25-00.58.11:076][  0]LogD3D11RHI:     Adapter Name: AMD Radeon (TM) R9 380 Series
+[2017.02.25-00.58.11:076][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 16.12.2 (internal:21.19.407.0, unified:21.19.407.0)
+[2017.02.25-00.58.11:076][  0]LogD3D11RHI:      Driver Date: 12-23-2016
+[2017.02.25-00.58.11:076][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.02.25-00.58.11:092][  0]LogD3D11RHI: Async texture creation enabled
+[2017.02.25-00.58.11:105][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2017.02.25-00.58.11:105][  0]LogShaderCompilers: Guid format shader working directory is -3 characters bigger than the processId version (../../../../../Unreal Projects/ChimeraGames/Abyss/Intermediate/Shaders/WorkingDirectory/6208/).
+[2017.02.25-00.58.11:105][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Chris/AppData/Local/Temp/UnrealShaderWorkingDir/FB0B203B470FEDF03871D1BFD0E67615/'.
+[2017.02.25-00.58.11:105][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.02.25-00.58.13:176][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.02.25-00.58.13:270][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.02.25-00.58.13:357][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.02.25-00.58.13:446][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.02.25-00.58.13:531][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.02.25-00.58.13:624][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.02.25-00.58.13:718][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.02.25-00.58.13:810][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.02.25-00.58.13:882][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.02.25-00.58.13:974][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.02.25-00.58.14:064][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.02.25-00.58.14:153][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.02.25-00.58.14:241][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.02.25-00.58.14:339][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.02.25-00.58.14:428][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.02.25-00.58.14:611][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.02.25-00.58.14:611][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.02.25-00.58.14:670][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.02.25-00.58.14:796][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.02.25-00.58.14:853][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.02.25-00.58.14:944][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.02.25-00.58.15:027][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.02.25-00.58.15:113][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.02.25-00.58.15:198][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.02.25-00.58.15:198][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.02.25-00.58.15:808][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.02.25-00.58.15:916][  0]LogDerivedDataCache: Loaded boot cache 0.11s 50MB C:/Users/Chris/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.02.25-00.58.15:916][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Chris/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2017.02.25-00.58.15:916][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Unreal Projects/ChimeraGames/Abyss/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.02.25-00.58.15:916][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.02.25-00.58.15:916][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Unreal Projects/ChimeraGames/Abyss/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.02.25-00.58.15:916][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.02.25-00.58.15:952][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.02.25-00.58.15:964][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Chris/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.02.25-00.58.16:297][  0]LogInit: Selected Device Profile: [Windows]
+[2017.02.25-00.58.16:303][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.02.25-00.58.16:608][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.02.25-00.58.16:682][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.02.25-00.58.16:754][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.02.25-00.58.16:754][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.02.25-00.58.16:754][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.02.25-00.58.17:569][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: abyss, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1595127573
+[2017.02.25-00.58.17:638][  0]LogAssetRegistry: FAssetRegistry took 0.0199 seconds to start up
+[2017.02.25-00.58.17:706][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.032820 seconds
+[2017.02.25-00.58.17:716][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
+[2017.02.25-00.58.17:716][  0]LogUObjectAllocator: 6935840 out of 0 bytes used by permanent object pool.
+[2017.02.25-00.58.17:716][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.02.25-00.58.17:815][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.02.25-00.58.19:076][  0]LogSlate: Using Freetype 2.6.0
+[2017.02.25-00.58.19:077][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.02.25-00.58.19:077][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.02.25-00.58.20:436][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.02.25-00.58.20:490][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.02.25-00.58.20:940][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.02.25-00.58.21:532][  0]SourceControl: Info Source control is disabled
+[2017.02.25-00.58.21:532][  0]SourceControl: Info Source control is disabled
+[2017.02.25-00.58.21:612][  0]SourceControl: Info Source control is disabled
+[2017.02.25-00.58.21:690][  0]SourceControl: Info Source control is disabled
+[2017.02.25-00.58.23:731][  0]LogEngine: Initializing Engine...
+[2017.02.25-00.58.23:732][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.02.25-00.58.24:085][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.02.25-00.58.24:126][  0]LogInit: XAudio2 using '1 - SE32HY27 (2- AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.25-00.58.24:193][  0]LogInit: FAudioDevice initialized.
+[2017.02.25-00.58.24:245][  0]LogDerivedDataCache: Saved boot cache 0.05s 50MB C:/Users/Chris/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.02.25-00.58.24:264][  0]LogInit: Texture streaming: Enabled
+[2017.02.25-00.58.24:539][  0]LogInit: Transaction tracking system initialized
+[2017.02.25-00.58.25:081][  0]BlueprintLog: New page: Editor Load
+[2017.02.25-00.58.26:444][  0]LocalizationService: Info Localization service is disabled
+[2017.02.25-00.58.27:507][  0]LogConsoleResponse:Display: 
+[2017.02.25-00.58.27:706][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.02.25-00.58.27:706][  0]LogCook:Display: Mobile HDR setting 1
+[2017.02.25-00.58.28:587][  0]LogFileCache: Scanning file cache for directory 'E:/Game Data/Unreal Projects/ChimeraGames/Abyss/Content/' took 0.01s
+[2017.02.25-00.58.29:324][  0]SourceControl: Info Source control is disabled
+[2017.02.25-00.58.29:325][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.02.25-00.58.29:325][  0]LightingResults: New page: Lighting Build
+[2017.02.25-00.58.29:384][  0]MapCheck: New page: Map Check
+[2017.02.25-00.58.29:384][  0]LightingResults: New page: Lighting Build
+[2017.02.25-00.58.29:793][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.02.25-00.58.29:794][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.02.25-00.58.29:800][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.02.25-00.58.29:806][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.02.25-00.58.29:868][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 62.556ms to complete.
+[2017.02.25-00.58.29:868][  0]LogFileHelpers: Loading map 'Template_Default' took 0.544
+[2017.02.25-00.58.30:028][  0]LogCollectionManager: Loaded 0 collections in 0.002524 seconds
+[2017.02.25-00.58.30:128][  0]LogFileCache: Scanning file cache for directory 'E:/Game Data/Unreal Projects/ChimeraGames/Abyss/Saved/Collections/' took 0.01s
+[2017.02.25-00.58.30:128][  0]LogFileCache: Scanning file cache for directory 'E:/Game Data/Unreal Projects/ChimeraGames/Abyss/Content/Developers/Chris/Collections/' took 0.01s
+[2017.02.25-00.58.30:128][  0]LogFileCache: Scanning file cache for directory 'E:/Game Data/Unreal Projects/ChimeraGames/Abyss/Content/Collections/' took 0.01s
+[2017.02.25-00.58.30:128][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2017.02.25-00.58.30:143][  0]LogContentBrowser: Native class hierarchy populated in 0.0148 seconds. Added 2190 classes and 428 folders.
+[2017.02.25-00.58.30:202][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.02.25-00.58.30:202][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.02.25-00.58.30:203][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0009 seconds. Added 13 classes and 0 folders.
+[2017.02.25-00.58.30:300][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.02.25-00.58.30:368][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.02.25-00.58.30:432][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.02.25-00.58.30:485][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.02.25-00.58.30:489][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.02.25-00.58.30:581][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2017.02.25-00.58.30:581][  0]LogLoad: (Engine Initialization) Total time: 23.30 seconds
+[2017.02.25-00.58.30:581][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.14 seconds
+[2017.02.25-00.58.30:581][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.02.25-00.58.30:581][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.02.25-00.58.30:590][  0]LogOcInput: OculusInput pre-init called
+[2017.02.25-00.58.30:612][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.02.25-00.58.30:789][  0]LogRenderer: Reallocating scene render targets to support 856x396 NumSamples 1 (Frame:2).
+[2017.02.25-00.58.30:946][  3]LogAssetRegistry: Asset discovery search completed in 13.3293 seconds
+[2017.02.25-00.58.30:946][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.02.25-00.58.30:946][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000020 seconds (updated 0 objects)
+[2017.02.25-00.58.44:507][599]LogAIModule: Creating AISystem for world NewMap
+[2017.02.25-00.58.44:508][599]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps-Levels/NewMap.NewMap:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.02.25-00.58.44:549][599]Cmd: MAP LOAD FILE="../../../../../Unreal Projects/ChimeraGames/Abyss/Content/Maps-Levels/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.02.25-00.58.44:549][599]LightingResults: New page: Lighting Build
+[2017.02.25-00.58.44:550][599]LoadErrors: New page: Loading map: NewMap.umap
+[2017.02.25-00.58.44:551][599]MapCheck: New page: Map Check
+[2017.02.25-00.58.44:551][599]LightingResults: New page: Lighting Build
+[2017.02.25-00.58.44:587][599]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.02.25-00.58.44:626][599]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.02.25-00.58.44:687][599]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 60.719ms to complete.
+[2017.02.25-00.58.44:687][599]LogFileHelpers: Loading map 'NewMap' took 0.139
+[2017.02.25-00.58.57:488][103]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.02.25-00.59.37:618][117]Cmd: DELETE
+[2017.02.25-00.59.37:618][117]Cmd: ACTOR DELETE
+[2017.02.25-00.59.37:619][117]LogEditorActor: Deleted Actor: Player_C
+[2017.02.25-00.59.37:676][117]LogEditorActor: Deleted 1 Actors (0.058 secs)
+[2017.02.25-00.59.39:453][330]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.02.25-00.59.55:587][137]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.02.25-00.59.56:776][270]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.02.25-01.00.24:842][ 44]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.02.25-01.01.22:746][185]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Abyss
+
+[2017.02.25-01.01.22:747][185]LogTemp:Display: CWD: E:\Game Data\Epic Games\4.14\Engine\Binaries\DotNet\IOS
+
+[2017.02.25-01.01.22:747][185]LogTemp:Display: Initial Dir: E:\Game Data\Epic Games\4.14
+
+[2017.02.25-01.01.22:747][185]LogTemp:Display: Env CWD: E:\Game Data\Epic Games\4.14\Engine\Binaries\DotNet\IOS
+
+[2017.02.25-01.01.22:747][185]LogTemp:Display: BranchPath = RAGNAR?K/E/Game Data/Epic Games/4.14/Engine/Binaries --- GameBranchPath = RAGNAR?K/E/Game Data/Epic Games/4.14/Engine/Binaries
+
+[2017.02.25-01.01.22:747][185]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.02.25-01.01.22:832][186]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\Chris\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles'.
+
+[2017.02.25-01.01.22:832][186]LogTemp:Display:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2017.02.25-01.01.22:832][186]LogTemp:Display:    at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2017.02.25-01.01.22:832][186]LogTemp:Display:    at System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2017.02.25-01.01.22:832][186]LogTemp:Display:    at iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2017.02.25-01.01.22:832][186]LogTemp:Display:    at iPhonePackager.Program.Main(String[] args)
+
+[2017.02.25-01.03.25:383][211]LogMetaData: Removing '/Game/BluePrints/abyssGameMode.abyssGameMode:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/BluePrints/GameMode.PackageMetaData'
+[2017.02.25-01.03.25:383][211]LogMetaData: Removing '/Game/BluePrints/abyssGameMode.SKEL_abyssGameMode_C' ref from Metadata '/Game/BluePrints/GameMode.PackageMetaData'
+[2017.02.25-01.03.25:384][211]LogMetaData: Removing '/Game/BluePrints/abyssGameMode.abyssGameMode_C' ref from Metadata '/Game/BluePrints/GameMode.PackageMetaData'
+[2017.02.25-01.03.25:384][211]LogMetaData: Removing '/Game/BluePrints/abyssGameMode.abyssGameMode:EventGraph.K2Node_Event_0' ref from Metadata '/Game/BluePrints/GameMode.PackageMetaData'
+[2017.02.25-01.03.25:384][211]LogMetaData: Removing '/Game/BluePrints/abyssGameMode.abyssGameMode:EventGraph.K2Node_Event_1' ref from Metadata '/Game/BluePrints/GameMode.PackageMetaData'
+[2017.02.25-01.03.25:422][211]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/abyssGameMode" FILE="../../../../../Unreal Projects/ChimeraGames/Abyss/Content/BluePrints/abyssGameMode.uasset" SILENT=true
+[2017.02.25-01.03.25:461][211]LogSavePackage: Save=28.30ms
+[2017.02.25-01.03.25:461][211]LogSavePackage: Moving '../../../../../Unreal Projects/ChimeraGames/Abyss/Saved/abyssGameMode5D66982F4EEE92413EB442975CA31A64.tmp' to '../../../../../Unreal Projects/ChimeraGames/Abyss/Content/BluePrints/abyssGameMode.uasset'
+[2017.02.25-01.03.25:463][211]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/ChimeraGames/Abyss/Content/BluePrints/abyssGameMode.uasset
+[2017.02.25-01.03.28:227][472]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0016 seconds. Added 111 classes and 0 folders.
+[2017.02.25-01.03.32:748][712]LogRenderer: Reallocating scene render targets to support 856x628 NumSamples 1 (Frame:15858).
+[2017.02.25-01.03.37:258][169]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.02.25-01.04.23:155][853]SourceControl: Info On branch master
+[2017.02.25-01.04.23:155][853]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2017.02.25-01.04.23:155][853]SourceControl: Info Changes not staged for commit:
+[2017.02.25-01.04.23:156][853]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
+[2017.02.25-01.04.23:156][853]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.02.25-01.04.23:156][853]SourceControl: Info 	modified:   Abyss/Intermediate/CachedAssetRegistry.bin
+[2017.02.25-01.04.23:156][853]SourceControl: Info 	modified:   Abyss/Saved/Autosaves/PackageRestoreData.json
+[2017.02.25-01.04.23:156][853]SourceControl: Info 	modified:   Abyss/Saved/Config/Windows/Editor.ini
+[2017.02.25-01.04.23:156][853]SourceControl: Info 	modified:   Abyss/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.02.25-01.04.23:156][853]SourceControl: Info 	modified:   Abyss/Saved/Config/Windows/Engine.ini
+[2017.02.25-01.04.23:156][853]SourceControl: Info 	deleted:    Abyss/Saved/Logs/Abyss-backup-2017.02.22-19.02.15.log
+[2017.02.25-01.04.23:156][853]SourceControl: Info 	modified:   Abyss/Saved/Logs/Abyss.log
+[2017.02.25-01.04.23:156][853]SourceControl: Info Untracked files:
+[2017.02.25-01.04.23:156][853]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2017.02.25-01.04.23:156][853]SourceControl: Info 	Abyss/Content/BluePrints/abyssGameMode.uasset
+[2017.02.25-01.04.23:156][853]SourceControl: Info 	Abyss/Saved/Logs/Abyss-backup-2017.02.24-19.58.09.log
+[2017.02.25-01.04.23:156][853]SourceControl: Info 	Abyss/Saved/Logs/UE4CC-Windows-1E24CF784A736C33360461BFAF3BAEB9/
+[2017.02.25-01.04.23:156][853]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2017.02.25-01.04.33:031][958]SourceControl: Info On branch master
+[2017.02.25-01.04.33:031][958]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2017.02.25-01.04.33:031][958]SourceControl: Info Changes not staged for commit:
+[2017.02.25-01.04.33:031][958]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
+[2017.02.25-01.04.33:031][958]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.02.25-01.04.33:031][958]SourceControl: Info 	modified:   Abyss/Intermediate/CachedAssetRegistry.bin
+[2017.02.25-01.04.33:031][958]SourceControl: Info 	modified:   Abyss/Saved/Autosaves/PackageRestoreData.json
+[2017.02.25-01.04.33:031][958]SourceControl: Info 	modified:   Abyss/Saved/Config/Windows/Editor.ini
+[2017.02.25-01.04.33:031][958]SourceControl: Info 	modified:   Abyss/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.02.25-01.04.33:031][958]SourceControl: Info 	modified:   Abyss/Saved/Config/Windows/Engine.ini
+[2017.02.25-01.04.33:031][958]SourceControl: Info 	deleted:    Abyss/Saved/Logs/Abyss-backup-2017.02.22-19.02.15.log
+[2017.02.25-01.04.33:031][958]SourceControl: Info 	modified:   Abyss/Saved/Logs/Abyss.log
+[2017.02.25-01.04.33:031][958]SourceControl: Info Untracked files:
+[2017.02.25-01.04.33:031][958]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2017.02.25-01.04.33:031][958]SourceControl: Info 	Abyss/Content/BluePrints/abyssGameMode.uasset
+[2017.02.25-01.04.33:031][958]SourceControl: Info 	Abyss/Saved/Logs/Abyss-backup-2017.02.24-19.58.09.log
+[2017.02.25-01.04.33:031][958]SourceControl: Info 	Abyss/Saved/Logs/UE4CC-Windows-1E24CF784A736C33360461BFAF3BAEB9/
+[2017.02.25-01.04.33:031][958]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2017.02.25-01.04.33:740][958]LogMetaData: Removing '/Game/BluePrints/playerHero.playerHero_C' ref from Metadata '/Game/BluePrints/Player.PackageMetaData'
+[2017.02.25-01.04.33:740][958]LogMetaData: Removing '/Game/BluePrints/playerHero.SKEL_playerHero_C' ref from Metadata '/Game/BluePrints/Player.PackageMetaData'
+[2017.02.25-01.04.33:762][958]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/playerHero" FILE="../../../../../Unreal Projects/ChimeraGames/Abyss/Content/BluePrints/playerHero.uasset" SILENT=true
+[2017.02.25-01.04.33:841][958]LogSavePackage: Save=76.77ms
+[2017.02.25-01.04.33:841][958]LogSavePackage: Moving '../../../../../Unreal Projects/ChimeraGames/Abyss/Saved/playerHero197FE10048330E96857E6E9560598F77.tmp' to '../../../../../Unreal Projects/ChimeraGames/Abyss/Content/BluePrints/playerHero.uasset'
+[2017.02.25-01.04.33:843][958]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/ChimeraGames/Abyss/Content/BluePrints/playerHero.uasset
+[2017.02.25-01.04.34:143][958]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Player" FILE="../../../../../Unreal Projects/ChimeraGames/Abyss/Content/BluePrints/Player.uasset" SILENT=true
+[2017.02.25-01.04.34:170][958]LogSavePackage: Save=20.50ms
+[2017.02.25-01.04.34:170][958]LogSavePackage: Moving '../../../../../Unreal Projects/ChimeraGames/Abyss/Saved/Player876CA59446BEBFEF09860DB4CB3CC021.tmp' to '../../../../../Unreal Projects/ChimeraGames/Abyss/Content/BluePrints/Player.uasset'
+[2017.02.25-01.04.34:172][958]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/ChimeraGames/Abyss/Content/BluePrints/Player.uasset
+[2017.02.25-01.04.45:037][208]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.02.25-01.05.02:992][336]BlueprintLog: New page: Compile abyssGameMode
+[2017.02.25-01.05.19:557][208]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps-Levels/NewMap" FILE="../../../../../Unreal Projects/ChimeraGames/Abyss/Content/Maps-Levels/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.02.25-01.05.19:676][208]LogSavePackage: Save=35.47ms
+[2017.02.25-01.05.19:676][208]LogSavePackage: Moving '../../../../../Unreal Projects/ChimeraGames/Abyss/Saved/NewMap5115834C48EC025447BBDDB117010F90.tmp' to '../../../../../Unreal Projects/ChimeraGames/Abyss/Content/Maps-Levels/NewMap.umap'
+[2017.02.25-01.05.19:678][208]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/ChimeraGames/Abyss/Content/Maps-Levels/NewMap.umap
+[2017.02.25-01.05.23:973][682]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/abyssGameMode" FILE="../../../../../Unreal Projects/ChimeraGames/Abyss/Content/BluePrints/abyssGameMode.uasset" SILENT=true
+[2017.02.25-01.05.23:989][682]LogSavePackage: Save=11.85ms
+[2017.02.25-01.05.23:989][682]LogSavePackage: Moving '../../../../../Unreal Projects/ChimeraGames/Abyss/Saved/abyssGameModeF4E4E96149E92B5D51CB00A2A667F92B.tmp' to '../../../../../Unreal Projects/ChimeraGames/Abyss/Content/BluePrints/abyssGameMode.uasset'
+[2017.02.25-01.05.23:991][682]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/ChimeraGames/Abyss/Content/BluePrints/abyssGameMode.uasset
+[2017.02.25-01.05.34:817][791]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.02.25-01.05.34:922][799]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Abyss
+
+[2017.02.25-01.05.34:922][799]LogTemp:Display: CWD: E:\Game Data\Epic Games\4.14\Engine\Binaries\DotNet\IOS
+
+[2017.02.25-01.05.34:922][799]LogTemp:Display: Initial Dir: E:\Game Data\Epic Games\4.14
+
+[2017.02.25-01.05.34:922][799]LogTemp:Display: Env CWD: E:\Game Data\Epic Games\4.14\Engine\Binaries\DotNet\IOS
+
+[2017.02.25-01.05.34:929][800]LogTemp:Display: BranchPath = RAGNAR?K/E/Game Data/Epic Games/4.14/Engine/Binaries --- GameBranchPath = RAGNAR?K/E/Game Data/Epic Games/4.14/Engine/Binaries
+
+[2017.02.25-01.05.34:945][802]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\Chris\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles'.
+
+[2017.02.25-01.05.34:960][802]LogTemp:Display:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2017.02.25-01.05.34:960][802]LogTemp:Display:    at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2017.02.25-01.05.34:960][802]LogTemp:Display:    at System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2017.02.25-01.05.34:966][803]LogTemp:Display:    at iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2017.02.25-01.05.37:340][ 85]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.02.25-01.05.42:170][647]SourceControl:Error: Error fatal: Could not switch to '/Script/': No such file or directory
+[2017.02.25-01.05.56:453][331]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps-Levels/NewMap" FILE="../../../../../Unreal Projects/ChimeraGames/Abyss/Content/Maps-Levels/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.02.25-01.05.56:574][331]LogSavePackage: Save=34.20ms
+[2017.02.25-01.05.56:574][331]LogSavePackage: Moving '../../../../../Unreal Projects/ChimeraGames/Abyss/Saved/NewMapEC5C35954DFDFE8C97BC20B557A4E307.tmp' to '../../../../../Unreal Projects/ChimeraGames/Abyss/Content/Maps-Levels/NewMap.umap'
+[2017.02.25-01.05.56:576][331]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/ChimeraGames/Abyss/Content/Maps-Levels/NewMap.umap
+[2017.02.25-01.06.08:697][760]LogTemp: Repeting last play command: Selected Viewport
+[2017.02.25-01.06.08:720][760]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.25-01.06.08:720][760]PIE: New page: PIE session: NewMap (Feb 24, 2017, 3:06:08 PM)
+[2017.02.25-01.06.08:721][760]LogPlayLevel: Creating play world package: /Game/Maps-Levels/UEDPIE_0_NewMap
+[2017.02.25-01.06.08:723][760]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002211s)
+[2017.02.25-01.06.08:724][760]LogAIModule: Creating AISystem for world NewMap
+[2017.02.25-01.06.08:725][760]LogPlayLevel: PIE: World Init took: (0.001653s)
+[2017.02.25-01.06.08:725][760]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps-Levels/NewMap.NewMap to /Game/Maps-Levels/UEDPIE_0_NewMap.NewMap (0.004368s)
+[2017.02.25-01.06.08:813][760]LogInit: XAudio2 using '1 - SE32HY27 (2- AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.25-01.06.08:825][760]LogInit: FAudioDevice initialized.
+[2017.02.25-01.06.08:867][760]LogLoad: Game class is 'abyssGameMode_C'
+[2017.02.25-01.06.08:870][760]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.02.24-20.06.08
+[2017.02.25-01.06.08:870][760]LogWorld: Bringing up level for play took: 0.000891
+[2017.02.25-01.06.08:929][760]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2017.02.25-01.06.08:931][760]PIE: Info Play in editor start time for /Game/Maps-Levels/UEDPIE_0_NewMap 0.243
+[2017.02.25-01.06.41:053][434]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2017.02.25-01.07.02:122][598]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/GameMode" FILE="../../../../../Unreal Projects/ChimeraGames/Abyss/Content/BluePrints/GameMode.uasset" SILENT=true
+[2017.02.25-01.07.02:125][598]LogSavePackage: Save=1.00ms
+[2017.02.25-01.07.02:125][598]LogSavePackage: Moving '../../../../../Unreal Projects/ChimeraGames/Abyss/Saved/GameMode29904B184B56F2FA1F4DD49C62DC17EF.tmp' to '../../../../../Unreal Projects/ChimeraGames/Abyss/Content/BluePrints/GameMode.uasset'
+[2017.02.25-01.07.02:127][598]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/ChimeraGames/Abyss/Content/BluePrints/GameMode.uasset
+[2017.02.25-01.07.02:560][598]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps-Levels/starterWorld" FILE="../../../../../Unreal Projects/ChimeraGames/Abyss/Content/Maps-Levels/starterWorld.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.02.25-01.07.02:631][598]LogSavePackage: Save=11.76ms
+[2017.02.25-01.07.02:631][598]LogSavePackage: Moving '../../../../../Unreal Projects/ChimeraGames/Abyss/Saved/starterWorld8FBD8BF645F9F5092947ACB198E98C31.tmp' to '../../../../../Unreal Projects/ChimeraGames/Abyss/Content/Maps-Levels/starterWorld.umap'
+[2017.02.25-01.07.02:632][598]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/ChimeraGames/Abyss/Content/Maps-Levels/starterWorld.umap
+[2017.02.25-01.07.02:918][598]LogFileHelpers: Saving map 'starterWorld' took 0.447
+[2017.02.25-01.07.02:939][598]Cmd: MAP LOAD FILE="../../../../../Unreal Projects/ChimeraGames/Abyss/Content/Maps-Levels/starterWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.02.25-01.07.02:939][598]LightingResults: New page: Lighting Build
+[2017.02.25-01.07.02:940][598]LoadErrors: New page: Loading map: starterWorld.umap
+[2017.02.25-01.07.02:953][598]MapCheck: New page: Map Check
+[2017.02.25-01.07.02:953][598]LightingResults: New page: Lighting Build
+[2017.02.25-01.07.03:012][598]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.02.25-01.07.03:012][598]LogAIModule: Creating AISystem for world starterWorld
+[2017.02.25-01.07.03:045][598]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.02.25-01.07.03:138][598]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 92.78ms to complete.
+[2017.02.25-01.07.03:139][598]LogFileHelpers: Loading map 'starterWorld' took 0.202
+[2017.02.25-01.07.38:217][731]LogTexture:Display: Building textures: Fort_WallTile_Mid (BGRA8)
+[2017.02.25-01.07.52:756][277]LogEditorViewport: Clicking Background
+[2017.02.25-01.07.53:281][339]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Fort_WallTile_Mid_Sprite)
+[2017.02.25-01.07.54:613][492]Cmd: DUPLICATE
+[2017.02.25-01.07.54:613][492]Cmd: ACTOR DUPLICATE
+[2017.02.25-01.08.14:556][630]LogEditorViewport: Clicking Background
+[2017.02.25-01.08.15:886][788]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Fort_WallTile_Mid_Sprite2)
+[2017.02.25-01.08.17:500][972]Cmd: DUPLICATE
+[2017.02.25-01.08.17:500][972]Cmd: ACTOR DUPLICATE
+[2017.02.25-01.08.30:507][350]LogEditorViewport: Clicking Background
+[2017.02.25-01.08.31:610][481]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Fort_WallTile_Mid_Sprite2)
+[2017.02.25-01.08.39:550][320]Cmd: DELETE
+[2017.02.25-01.08.39:550][320]Cmd: ACTOR DELETE
+[2017.02.25-01.08.39:550][320]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.02.25-01.08.39:630][320]LogEditorActor: Deleted 1 Actors (0.080 secs)
+[2017.02.25-01.08.49:634][478]LogTexture:Display: Building textures: Fort_WallTile_High (BGRA8)
+[2017.02.25-01.08.56:596][242]LogEditorViewport: Clicking Background
+[2017.02.25-01.08.57:555][356]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Fort_WallTile_High_Sprite)
+[2017.02.25-01.09.02:548][887]LogEditorViewport: Clicking Background
+[2017.02.25-01.09.03:071][949]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Fort_WallTile_High_Sprite)
+[2017.02.25-01.09.03:881][ 37]Cmd: DUPLICATE
+[2017.02.25-01.09.03:881][ 37]Cmd: ACTOR DUPLICATE
+[2017.02.25-01.09.12:195][913]LogEditorViewport: Clicking Background
+[2017.02.25-01.09.12:805][985]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Fort_WallTile_High_Sprite2)
+[2017.02.25-01.09.13:685][ 81]Cmd: DUPLICATE
+[2017.02.25-01.09.13:685][ 81]Cmd: ACTOR DUPLICATE
+[2017.02.25-01.09.21:572][908]LogEditorViewport: Clicking Background
+[2017.02.25-01.09.48:838][984]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Fort_WallTile_High_Sprite)
+[2017.02.25-01.09.49:412][ 44]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Fort_WallTile_High_Sprite2)
+[2017.02.25-01.09.50:167][115]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Fort_WallTile_High_Sprite3)
+[2017.02.25-01.09.53:978][505]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2017.02.25-01.10.09:287][238]Cmd: TRANSACTION UNDO
+[2017.02.25-01.10.09:287][238]LogEditorTransaction: Undo Set actor scale
+[2017.02.25-01.10.10:667][366]Cmd: TRANSACTION UNDO
+[2017.02.25-01.10.10:667][366]LogEditorTransaction: Undo Set actor scale
+[2017.02.25-01.10.11:551][464]LogEditorViewport: Clicking Background
+[2017.02.25-01.10.12:479][574]LogEditorViewport: Clicking Background
+[2017.02.25-01.10.12:843][617]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2017.02.25-01.10.17:704][167]LogEditorViewport: Clicking Background
+[2017.02.25-01.10.18:597][273]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2017.02.25-01.10.19:754][404]Cmd: TRANSACTION UNDO
+[2017.02.25-01.10.19:754][404]LogEditorTransaction: Undo Clicking on Actors
+[2017.02.25-01.10.20:235][442]Cmd: TRANSACTION UNDO
+[2017.02.25-01.10.20:236][442]LogEditorTransaction: Undo Clicking Background
+[2017.02.25-01.10.20:520][470]Cmd: TRANSACTION UNDO
+[2017.02.25-01.10.20:520][470]LogEditorTransaction: Undo Set actor scale
+[2017.02.25-01.10.20:813][502]Cmd: TRANSACTION UNDO
+[2017.02.25-01.10.20:813][502]LogEditorTransaction: Undo Clicking on Actors
+[2017.02.25-01.10.21:173][544]Cmd: TRANSACTION UNDO
+[2017.02.25-01.10.21:174][544]LogEditorTransaction: Undo Clicking Background
+[2017.02.25-01.10.21:583][592]Cmd: TRANSACTION UNDO
+[2017.02.25-01.10.21:583][592]LogEditorTransaction: Undo Clicking Background
+[2017.02.25-01.10.21:971][634]Cmd: TRANSACTION UNDO
+[2017.02.25-01.10.21:971][634]LogEditorTransaction: Undo Set actor scale
+[2017.02.25-01.10.22:390][681]Cmd: TRANSACTION UNDO
+[2017.02.25-01.10.22:390][681]LogEditorTransaction: Undo Clicking on Actors
+[2017.02.25-01.10.24:712][936]LogEditorViewport: Clicking Background
+[2017.02.25-01.10.25:623][ 44]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2017.02.25-01.10.26:427][134]Cmd: DELETE
+[2017.02.25-01.10.26:427][134]Cmd: ACTOR DELETE
+[2017.02.25-01.10.26:427][134]LogEditorActor: Deleted Actor: PlayerStart
+[2017.02.25-01.10.26:510][134]LogEditorActor: Deleted 1 Actors (0.084 secs)
+[2017.02.25-01.10.58:975][ 40]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Fort_WallTile_Mid_Sprite2)
+[2017.02.25-01.11.21:770][631]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2017.02.25-01.11.22:857][755]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2017.02.25-01.11.26:582][182]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.02.25-01.11.52:061][ 87]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.02.25-01.11.56:187][555]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.02.25-01.12.04:281][463]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.02.25-01.12.07:965][871]Cmd: TRANSACTION UNDO
+[2017.02.25-01.12.07:965][871]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2017.02.25-01.12.09:928][ 64]Cmd: TRANSACTION UNDO
+[2017.02.25-01.12.09:928][ 64]LogEditorTransaction: Undo Move Components
+[2017.02.25-01.12.19:253][ 79]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps-Levels/starterWorld" FILE="../../../../../Unreal Projects/ChimeraGames/Abyss/Content/Maps-Levels/starterWorld.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.02.25-01.12.19:414][ 79]LogSavePackage: Save=71.75ms
+[2017.02.25-01.12.19:414][ 79]LogSavePackage: Moving '../../../../../Unreal Projects/ChimeraGames/Abyss/Saved/starterWorldA74EA9A64830CFE03B1BCC8FEB219FA9.tmp' to '../../../../../Unreal Projects/ChimeraGames/Abyss/Content/Maps-Levels/starterWorld.umap'
+[2017.02.25-01.12.19:416][ 79]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/ChimeraGames/Abyss/Content/Maps-Levels/starterWorld.umap
+[2017.02.25-01.12.21:290][281]LogTemp: Repeting last play command: Selected Viewport
+[2017.02.25-01.12.21:315][281]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.25-01.12.21:315][281]PIE: New page: PIE session: starterWorld (Feb 24, 2017, 3:12:21 PM)
+[2017.02.25-01.12.21:315][281]LogPlayLevel: Creating play world package: /Game/Maps-Levels/UEDPIE_0_starterWorld
+[2017.02.25-01.12.21:317][281]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001470s)
+[2017.02.25-01.12.21:318][281]LogAIModule: Creating AISystem for world starterWorld
+[2017.02.25-01.12.21:318][281]LogPlayLevel: PIE: World Init took: (0.000895s)
+[2017.02.25-01.12.21:318][281]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps-Levels/starterWorld.starterWorld to /Game/Maps-Levels/UEDPIE_0_starterWorld.starterWorld (0.002599s)
+[2017.02.25-01.12.21:396][281]LogInit: XAudio2 using '1 - SE32HY27 (2- AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.25-01.12.21:408][281]LogInit: FAudioDevice initialized.
+[2017.02.25-01.12.21:437][281]LogLoad: Game class is 'abyssGameMode_C'
+[2017.02.25-01.12.21:440][281]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_starterWorld.starterWorld up for play (max tick rate 0) at 2017.02.24-20.12.21
+[2017.02.25-01.12.21:440][281]LogWorld: Bringing up level for play took: 0.001057
+[2017.02.25-01.12.21:442][281]PIE: Info Play in editor start time for /Game/Maps-Levels/UEDPIE_0_starterWorld 0.753
+[2017.02.25-01.12.31:971][542]LogCharacterMovement: playerHero_C_0 is stuck and failed to move! Velocity: X=-31.86 Y=0.00 Z=0.00 Location: X=31.12 Y=6.63 Z=31.05 Normal: X=0.00 Y=1.00 Z=0.00 PenetrationDepth:0.000 Actor:Fort_WallTile_High_Sprite2 Component:RenderComponent BoneName:None (0 other events since notify)
+[2017.02.25-01.12.32:972][662]LogCharacterMovement: playerHero_C_0 is stuck and failed to move! Velocity: X=101.83 Y=0.00 Z=0.00 Location: X=31.12 Y=6.63 Z=31.05 Normal: X=0.00 Y=1.00 Z=0.00 PenetrationDepth:0.000 Actor:Fort_WallTile_High_Sprite2 Component:RenderComponent BoneName:None (89 other events since notify)
+[2017.02.25-01.12.34:064][793]LogCharacterMovement: playerHero_C_0 is stuck and failed to move! Velocity: X=2.90 Y=0.00 Z=0.00 Location: X=31.12 Y=6.63 Z=31.05 Normal: X=0.00 Y=1.00 Z=0.00 PenetrationDepth:0.000 Actor:Fort_WallTile_High_Sprite2 Component:RenderComponent BoneName:None (80 other events since notify)
+[2017.02.25-01.12.41:946][613]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2017.02.25-01.12.44:264][876]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.02.25-01.13.09:237][500]Cmd: DELETE
+[2017.02.25-01.13.09:237][500]Cmd: ACTOR DELETE
+[2017.02.25-01.13.09:238][500]LogEditorActor: Deleted Actor: PlayerStart
+[2017.02.25-01.13.09:316][500]LogEditorActor: Deleted 1 Actors (0.078 secs)
+[2017.02.25-01.15.01:518][897]BlueprintLog: New page: Compile playerHero
+[2017.02.25-01.15.02:527][952]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/playerHero" FILE="../../../../../Unreal Projects/ChimeraGames/Abyss/Content/BluePrints/playerHero.uasset" SILENT=true
+[2017.02.25-01.15.02:654][952]LogSavePackage: Save=121.53ms
+[2017.02.25-01.15.02:654][952]LogSavePackage: Moving '../../../../../Unreal Projects/ChimeraGames/Abyss/Saved/playerHero84C3C6B543923ED55A6A50A6604D672F.tmp' to '../../../../../Unreal Projects/ChimeraGames/Abyss/Content/BluePrints/playerHero.uasset'
+[2017.02.25-01.15.02:656][952]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/ChimeraGames/Abyss/Content/BluePrints/playerHero.uasset
+[2017.02.25-01.15.04:359][154]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2017.02.25-01.15.05:193][253]Cmd: DELETE
+[2017.02.25-01.15.05:193][253]Cmd: ACTOR DELETE
+[2017.02.25-01.15.05:193][253]LogEditorActor: Deleted Actor: PlayerStart
+[2017.02.25-01.15.05:256][253]LogEditorActor: Deleted 1 Actors (0.063 secs)
+[2017.02.25-01.15.24:073][407]BlueprintLog: New page: Compile playerHero
+[2017.02.25-01.15.40:878][ 96]LogTemp: Repeting last play command: Selected Viewport
+[2017.02.25-01.15.40:911][ 96]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.25-01.15.40:911][ 96]PIE: New page: PIE session: starterWorld (Feb 24, 2017, 3:15:40 PM)
+[2017.02.25-01.15.40:911][ 96]LogPlayLevel: Creating play world package: /Game/Maps-Levels/UEDPIE_0_starterWorld
+[2017.02.25-01.15.40:913][ 96]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001561s)
+[2017.02.25-01.15.40:914][ 96]LogAIModule: Creating AISystem for world starterWorld
+[2017.02.25-01.15.40:914][ 96]LogPlayLevel: PIE: World Init took: (0.000969s)
+[2017.02.25-01.15.40:914][ 96]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps-Levels/starterWorld.starterWorld to /Game/Maps-Levels/UEDPIE_0_starterWorld.starterWorld (0.002746s)
+[2017.02.25-01.15.41:031][ 96]LogInit: XAudio2 using '1 - SE32HY27 (2- AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.25-01.15.41:043][ 96]LogInit: FAudioDevice initialized.
+[2017.02.25-01.15.41:072][ 96]LogLoad: Game class is 'abyssGameMode_C'
+[2017.02.25-01.15.41:075][ 96]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_starterWorld.starterWorld up for play (max tick rate 0) at 2017.02.24-20.15.41
+[2017.02.25-01.15.41:136][ 96]LogWorld: Bringing up level for play took: 0.061803
+[2017.02.25-01.15.41:138][ 96]PIE: Info Play in editor start time for /Game/Maps-Levels/UEDPIE_0_starterWorld 0.449
+[2017.02.25-01.15.58:119][918]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Fort_WallTile_Mid_Sprite2)
+[2017.02.25-01.15.59:236][ 42]LogEditorViewport: Clicking on Actor (LMB): playerHero_C (playerHero)
+[2017.02.25-01.16.00:564][169]LogTemp: Repeting last play command: Selected Viewport
+[2017.02.25-01.16.00:589][169]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.25-01.16.00:590][169]PIE: New page: PIE session: starterWorld (Feb 24, 2017, 3:16:00 PM)
+[2017.02.25-01.16.00:590][169]LogPlayLevel: Creating play world package: /Game/Maps-Levels/UEDPIE_0_starterWorld
+[2017.02.25-01.16.00:592][169]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001806s)
+[2017.02.25-01.16.00:592][169]LogAIModule: Creating AISystem for world starterWorld
+[2017.02.25-01.16.00:593][169]LogPlayLevel: PIE: World Init took: (0.000872s)
+[2017.02.25-01.16.00:593][169]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps-Levels/starterWorld.starterWorld to /Game/Maps-Levels/UEDPIE_0_starterWorld.starterWorld (0.002903s)
+[2017.02.25-01.16.00:708][169]LogInit: XAudio2 using '1 - SE32HY27 (2- AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.25-01.16.00:719][169]LogInit: FAudioDevice initialized.
+[2017.02.25-01.16.00:750][169]LogLoad: Game class is 'abyssGameMode_C'
+[2017.02.25-01.16.00:753][169]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_starterWorld.starterWorld up for play (max tick rate 0) at 2017.02.24-20.16.00
+[2017.02.25-01.16.00:753][169]LogWorld: Bringing up level for play took: 0.001378
+[2017.02.25-01.16.00:755][169]PIE: Info Play in editor start time for /Game/Maps-Levels/UEDPIE_0_starterWorld 0.066
+[2017.02.25-01.16.05:524][591]LogTemp: Repeting last play command: Selected Viewport
+[2017.02.25-01.16.05:544][591]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.25-01.16.05:545][591]PIE: New page: PIE session: starterWorld (Feb 24, 2017, 3:16:05 PM)
+[2017.02.25-01.16.05:545][591]LogPlayLevel: Creating play world package: /Game/Maps-Levels/UEDPIE_0_starterWorld
+[2017.02.25-01.16.05:546][591]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001483s)
+[2017.02.25-01.16.05:547][591]LogAIModule: Creating AISystem for world starterWorld
+[2017.02.25-01.16.05:547][591]LogPlayLevel: PIE: World Init took: (0.000776s)
+[2017.02.25-01.16.05:547][591]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps-Levels/starterWorld.starterWorld to /Game/Maps-Levels/UEDPIE_0_starterWorld.starterWorld (0.002474s)
+[2017.02.25-01.16.05:663][591]LogInit: XAudio2 using '1 - SE32HY27 (2- AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.25-01.16.05:675][591]LogInit: FAudioDevice initialized.
+[2017.02.25-01.16.05:705][591]LogLoad: Game class is 'abyssGameMode_C'
+[2017.02.25-01.16.05:708][591]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_starterWorld.starterWorld up for play (max tick rate 0) at 2017.02.24-20.16.05
+[2017.02.25-01.16.05:709][591]LogWorld: Bringing up level for play took: 0.001466
+[2017.02.25-01.16.05:710][591]PIE: Info Play in editor start time for /Game/Maps-Levels/UEDPIE_0_starterWorld 1.021
+[2017.02.25-01.16.20:476][150]LogEditorTransaction: Undo Clicking on Actors
+[2017.02.25-01.16.21:567][240]LogEditorTransaction: Undo Clicking on Actors
+[2017.02.25-01.16.22:790][381]LogEditorTransaction: Undo Set actor location
+[2017.02.25-01.16.22:794][381]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps-Levels/starterWorld.starterWorld:PersistentLevel.playerHero_598.CollisionCylinder) Component already registered.
+[2017.02.25-01.16.23:286][439]LogEditorTransaction: Undo Set actor location
+[2017.02.25-01.16.23:289][439]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps-Levels/starterWorld.starterWorld:PersistentLevel.playerHero_598.CollisionCylinder) Component already registered.
+[2017.02.25-01.16.23:731][492]LogEditorTransaction: Undo Set actor location
+[2017.02.25-01.16.23:734][492]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps-Levels/starterWorld.starterWorld:PersistentLevel.playerHero_598.CollisionCylinder) Component already registered.
+[2017.02.25-01.16.24:209][549]LogEditorTransaction: Undo Move Actors
+[2017.02.25-01.16.25:235][671]LogEditorTransaction: Undo Modify Component(s)
+[2017.02.25-01.16.32:086][380]LogTemp: Repeting last play command: Selected Viewport
+[2017.02.25-01.16.32:107][380]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.25-01.16.32:107][380]PIE: New page: PIE session: starterWorld (Feb 24, 2017, 3:16:32 PM)
+[2017.02.25-01.16.32:107][380]LogPlayLevel: Creating play world package: /Game/Maps-Levels/UEDPIE_0_starterWorld
+[2017.02.25-01.16.32:109][380]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001547s)
+[2017.02.25-01.16.32:109][380]LogAIModule: Creating AISystem for world starterWorld
+[2017.02.25-01.16.32:110][380]LogPlayLevel: PIE: World Init took: (0.000767s)
+[2017.02.25-01.16.32:110][380]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps-Levels/starterWorld.starterWorld to /Game/Maps-Levels/UEDPIE_0_starterWorld.starterWorld (0.002521s)
+[2017.02.25-01.16.32:223][380]LogInit: XAudio2 using '1 - SE32HY27 (2- AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.25-01.16.32:234][380]LogInit: FAudioDevice initialized.
+[2017.02.25-01.16.32:265][380]LogLoad: Game class is 'abyssGameMode_C'
+[2017.02.25-01.16.32:268][380]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_starterWorld.starterWorld up for play (max tick rate 0) at 2017.02.24-20.16.32
+[2017.02.25-01.16.32:269][380]LogWorld: Bringing up level for play took: 0.001483
+[2017.02.25-01.16.32:270][380]PIE: Info Play in editor start time for /Game/Maps-Levels/UEDPIE_0_starterWorld -0.418
+[2017.02.25-01.16.42:574][473]LogTemp: Repeting last play command: Selected Viewport
+[2017.02.25-01.16.42:598][473]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.25-01.16.42:598][473]PIE: New page: PIE session: starterWorld (Feb 24, 2017, 3:16:42 PM)
+[2017.02.25-01.16.42:598][473]LogPlayLevel: Creating play world package: /Game/Maps-Levels/UEDPIE_0_starterWorld
+[2017.02.25-01.16.42:600][473]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001508s)
+[2017.02.25-01.16.42:601][473]LogAIModule: Creating AISystem for world starterWorld
+[2017.02.25-01.16.42:601][473]LogPlayLevel: PIE: World Init took: (0.000793s)
+[2017.02.25-01.16.42:601][473]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps-Levels/starterWorld.starterWorld to /Game/Maps-Levels/UEDPIE_0_starterWorld.starterWorld (0.002499s)
+[2017.02.25-01.16.42:725][473]LogInit: XAudio2 using '1 - SE32HY27 (2- AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.25-01.16.42:737][473]LogInit: FAudioDevice initialized.
+[2017.02.25-01.16.42:764][473]LogLoad: Game class is 'abyssGameMode_C'
+[2017.02.25-01.16.42:767][473]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_starterWorld.starterWorld up for play (max tick rate 0) at 2017.02.24-20.16.42
+[2017.02.25-01.16.42:768][473]LogWorld: Bringing up level for play took: 0.001436
+[2017.02.25-01.16.42:769][473]PIE: Info Play in editor start time for /Game/Maps-Levels/UEDPIE_0_starterWorld 0.08
+[2017.02.25-01.16.53:793][590]LogEditorViewport: Clicking on Actor (LMB): playerHero_C (playerHero)
+[2017.02.25-01.17.00:251][241]LogTemp: Repeting last play command: Selected Viewport
+[2017.02.25-01.17.00:276][241]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.25-01.17.00:276][241]PIE: New page: PIE session: starterWorld (Feb 24, 2017, 3:17:00 PM)
+[2017.02.25-01.17.00:276][241]LogPlayLevel: Creating play world package: /Game/Maps-Levels/UEDPIE_0_starterWorld
+[2017.02.25-01.17.00:278][241]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001476s)
+[2017.02.25-01.17.00:278][241]LogAIModule: Creating AISystem for world starterWorld
+[2017.02.25-01.17.00:279][241]LogPlayLevel: PIE: World Init took: (0.000790s)
+[2017.02.25-01.17.00:279][241]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps-Levels/starterWorld.starterWorld to /Game/Maps-Levels/UEDPIE_0_starterWorld.starterWorld (0.002474s)
+[2017.02.25-01.17.00:403][241]LogInit: XAudio2 using '1 - SE32HY27 (2- AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.25-01.17.00:414][241]LogInit: FAudioDevice initialized.
+[2017.02.25-01.17.00:445][241]LogLoad: Game class is 'abyssGameMode_C'
+[2017.02.25-01.17.00:448][241]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_starterWorld.starterWorld up for play (max tick rate 0) at 2017.02.24-20.17.00
+[2017.02.25-01.17.00:448][241]LogWorld: Bringing up level for play took: 0.001439
+[2017.02.25-01.17.00:450][241]PIE: Info Play in editor start time for /Game/Maps-Levels/UEDPIE_0_starterWorld -0.24
+[2017.02.25-01.17.09:571][119]LogEditorViewport: Clicking on Actor (LMB): playerHero_C (playerHero)
+[2017.02.25-01.17.12:238][381]LogTemp: Repeting last play command: Selected Viewport
+[2017.02.25-01.17.12:259][381]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.25-01.17.12:259][381]PIE: New page: PIE session: starterWorld (Feb 24, 2017, 3:17:12 PM)
+[2017.02.25-01.17.12:259][381]LogPlayLevel: Creating play world package: /Game/Maps-Levels/UEDPIE_0_starterWorld
+[2017.02.25-01.17.12:261][381]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001507s)
+[2017.02.25-01.17.12:262][381]LogAIModule: Creating AISystem for world starterWorld
+[2017.02.25-01.17.12:262][381]LogPlayLevel: PIE: World Init took: (0.000799s)
+[2017.02.25-01.17.12:262][381]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps-Levels/starterWorld.starterWorld to /Game/Maps-Levels/UEDPIE_0_starterWorld.starterWorld (0.002519s)
+[2017.02.25-01.17.12:377][381]LogInit: XAudio2 using '1 - SE32HY27 (2- AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.25-01.17.12:389][381]LogInit: FAudioDevice initialized.
+[2017.02.25-01.17.12:419][381]LogLoad: Game class is 'abyssGameMode_C'
+[2017.02.25-01.17.12:422][381]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_starterWorld.starterWorld up for play (max tick rate 0) at 2017.02.24-20.17.12
+[2017.02.25-01.17.12:423][381]LogWorld: Bringing up level for play took: 0.001358
+[2017.02.25-01.17.12:424][381]PIE: Info Play in editor start time for /Game/Maps-Levels/UEDPIE_0_starterWorld -0.266
+[2017.02.25-01.17.19:385][ 33]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Fort_WallTile_Mid_Sprite)
+[2017.02.25-01.17.20:424][147]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Fort_WallTile_Mid_Sprite2)
+[2017.02.25-01.17.21:012][211]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Fort_WallTile_Mid_Sprite3)
+[2017.02.25-01.17.23:035][444]LogEditorViewport: Clicking on Actor (LMB): playerHero_C (playerHero)
+[2017.02.25-01.17.24:062][542]Cmd: DELETE
+[2017.02.25-01.17.24:062][542]Cmd: ACTOR DELETE
+[2017.02.25-01.17.24:063][542]LogEditorActor: Deleted Actor: playerHero_C
+[2017.02.25-01.17.24:169][542]LogEditorActor: Deleted 1 Actors (0.107 secs)
+[2017.02.25-01.17.25:086][651]LogTemp: Repeting last play command: Selected Viewport
+[2017.02.25-01.17.25:109][651]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.25-01.17.25:109][651]PIE: New page: PIE session: starterWorld (Feb 24, 2017, 3:17:25 PM)
+[2017.02.25-01.17.25:109][651]LogPlayLevel: Creating play world package: /Game/Maps-Levels/UEDPIE_0_starterWorld
+[2017.02.25-01.17.25:111][651]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001138s)
+[2017.02.25-01.17.25:111][651]LogAIModule: Creating AISystem for world starterWorld
+[2017.02.25-01.17.25:111][651]LogPlayLevel: PIE: World Init took: (0.000772s)
+[2017.02.25-01.17.25:112][651]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps-Levels/starterWorld.starterWorld to /Game/Maps-Levels/UEDPIE_0_starterWorld.starterWorld (0.002142s)
+[2017.02.25-01.17.25:207][651]LogInit: XAudio2 using '1 - SE32HY27 (2- AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.25-01.17.25:219][651]LogInit: FAudioDevice initialized.
+[2017.02.25-01.17.25:250][651]LogLoad: Game class is 'abyssGameMode_C'
+[2017.02.25-01.17.25:253][651]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_starterWorld.starterWorld up for play (max tick rate 0) at 2017.02.24-20.17.25
+[2017.02.25-01.17.25:253][651]LogWorld: Bringing up level for play took: 0.001130
+[2017.02.25-01.17.25:255][651]PIE: Info Play in editor start time for /Game/Maps-Levels/UEDPIE_0_starterWorld 0.565
+[2017.02.25-01.17.29:537][ 53]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Fort_WallTile_Mid_Sprite2)
+[2017.02.25-01.17.30:382][148]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Fort_WallTile_Mid_Sprite)
+[2017.02.25-01.17.33:669][532]LogEditorViewport: Clicking Background
+[2017.02.25-01.17.35:612][763]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Fort_WallTile_Mid_Sprite2)
+[2017.02.25-01.17.51:432][620]LogTemp: Repeting last play command: Selected Viewport
+[2017.02.25-01.17.51:455][620]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.25-01.17.51:455][620]PIE: New page: PIE session: starterWorld (Feb 24, 2017, 3:17:51 PM)
+[2017.02.25-01.17.51:455][620]LogPlayLevel: Creating play world package: /Game/Maps-Levels/UEDPIE_0_starterWorld
+[2017.02.25-01.17.51:456][620]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001114s)
+[2017.02.25-01.17.51:457][620]LogAIModule: Creating AISystem for world starterWorld
+[2017.02.25-01.17.51:457][620]LogPlayLevel: PIE: World Init took: (0.000762s)
+[2017.02.25-01.17.51:457][620]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps-Levels/starterWorld.starterWorld to /Game/Maps-Levels/UEDPIE_0_starterWorld.starterWorld (0.002091s)
+[2017.02.25-01.17.51:559][620]LogInit: XAudio2 using '1 - SE32HY27 (2- AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.25-01.17.51:570][620]LogInit: FAudioDevice initialized.
+[2017.02.25-01.17.51:597][620]LogLoad: Game class is 'abyssGameMode_C'
+[2017.02.25-01.17.51:600][620]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_starterWorld.starterWorld up for play (max tick rate 0) at 2017.02.24-20.17.51
+[2017.02.25-01.17.51:600][620]LogWorld: Bringing up level for play took: 0.001045
+[2017.02.25-01.17.51:602][620]PIE: Info Play in editor start time for /Game/Maps-Levels/UEDPIE_0_starterWorld 0.912
+[2017.02.25-01.17.52:748][757]LogCharacterMovement: playerHero_C_0 is stuck and failed to move! Velocity: X=2.90 Y=0.00 Z=0.00 Location: X=34.77 Y=5.00 Z=32.00 Normal: X=0.00 Y=1.00 Z=0.00 PenetrationDepth:0.000 Actor:Fort_WallTile_High_Sprite2 Component:RenderComponent BoneName:None (0 other events since notify)
+[2017.02.25-01.17.53:756][878]LogCharacterMovement: playerHero_C_0 is stuck and failed to move! Velocity: X=2.90 Y=0.00 Z=0.00 Location: X=34.77 Y=5.00 Z=32.00 Normal: X=0.00 Y=1.00 Z=0.00 PenetrationDepth:0.000 Actor:Fort_WallTile_High_Sprite2 Component:RenderComponent BoneName:None (85 other events since notify)
+[2017.02.25-01.17.54:756][998]LogCharacterMovement: playerHero_C_0 is stuck and failed to move! Velocity: X=-5.79 Y=0.00 Z=0.00 Location: X=34.77 Y=5.00 Z=32.00 Normal: X=0.00 Y=1.00 Z=0.00 PenetrationDepth:0.000 Actor:Fort_WallTile_High_Sprite2 Component:RenderComponent BoneName:None (48 other events since notify)
+[2017.02.25-01.17.55:756][118]LogCharacterMovement: playerHero_C_0 is stuck and failed to move! Velocity: X=-17.38 Y=0.00 Z=0.00 Location: X=34.77 Y=5.00 Z=32.00 Normal: X=0.00 Y=1.00 Z=0.00 PenetrationDepth:0.000 Actor:Fort_WallTile_High_Sprite2 Component:RenderComponent BoneName:None (91 other events since notify)
+[2017.02.25-01.17.56:956][262]LogCharacterMovement: playerHero_C_0 is stuck and failed to move! Velocity: X=2.90 Y=0.00 Z=0.00 Location: X=34.77 Y=5.00 Z=32.00 Normal: X=0.00 Y=1.00 Z=0.00 PenetrationDepth:0.000 Actor:Fort_WallTile_High_Sprite2 Component:RenderComponent BoneName:None (74 other events since notify)
+[2017.02.25-01.18.00:432][566]LogTemp: Repeting last play command: Selected Viewport
+[2017.02.25-01.18.00:455][566]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.25-01.18.00:455][566]PIE: New page: PIE session: starterWorld (Feb 24, 2017, 3:18:00 PM)
+[2017.02.25-01.18.00:455][566]LogPlayLevel: Creating play world package: /Game/Maps-Levels/UEDPIE_0_starterWorld
+[2017.02.25-01.18.00:457][566]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001267s)
+[2017.02.25-01.18.00:457][566]LogAIModule: Creating AISystem for world starterWorld
+[2017.02.25-01.18.00:457][566]LogPlayLevel: PIE: World Init took: (0.000836s)
+[2017.02.25-01.18.00:458][566]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps-Levels/starterWorld.starterWorld to /Game/Maps-Levels/UEDPIE_0_starterWorld.starterWorld (0.002339s)
+[2017.02.25-01.18.00:537][566]LogInit: XAudio2 using '1 - SE32HY27 (2- AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.25-01.18.00:548][566]LogInit: FAudioDevice initialized.
+[2017.02.25-01.18.00:578][566]LogLoad: Game class is 'abyssGameMode_C'
+[2017.02.25-01.18.00:581][566]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_starterWorld.starterWorld up for play (max tick rate 0) at 2017.02.24-20.18.00
+[2017.02.25-01.18.00:581][566]LogWorld: Bringing up level for play took: 0.001166
+[2017.02.25-01.18.00:583][566]PIE: Info Play in editor start time for /Game/Maps-Levels/UEDPIE_0_starterWorld -0.106
+[2017.02.25-01.18.01:913][725]LogCharacterMovement: playerHero_C_0 is stuck and failed to move! Velocity: X=-2.90 Y=0.00 Z=0.00 Location: X=34.77 Y=5.00 Z=32.00 Normal: X=0.00 Y=1.00 Z=0.00 PenetrationDepth:0.000 Actor:Fort_WallTile_High_Sprite2 Component:RenderComponent BoneName:None (0 other events since notify)
+[2017.02.25-01.18.02:913][845]LogCharacterMovement: playerHero_C_0 is stuck and failed to move! Velocity: X=86.90 Y=0.00 Z=0.00 Location: X=34.77 Y=5.00 Z=32.00 Normal: X=0.00 Y=1.00 Z=0.00 PenetrationDepth:0.000 Actor:Fort_WallTile_High_Sprite2 Component:RenderComponent BoneName:None (64 other events since notify)
+[2017.02.25-01.18.03:914][965]LogCharacterMovement: playerHero_C_0 is stuck and failed to move! Velocity: X=14.48 Y=0.00 Z=0.00 Location: X=34.77 Y=5.00 Z=32.00 Normal: X=0.00 Y=1.00 Z=0.00 PenetrationDepth:0.000 Actor:Fort_WallTile_High_Sprite2 Component:RenderComponent BoneName:None (54 other events since notify)
+[2017.02.25-01.18.05:064][103]LogCharacterMovement: playerHero_C_0 is stuck and failed to move! Velocity: X=2.90 Y=0.00 Z=0.00 Location: X=34.77 Y=5.00 Z=32.00 Normal: X=0.00 Y=1.00 Z=0.00 PenetrationDepth:0.000 Actor:Fort_WallTile_High_Sprite2 Component:RenderComponent BoneName:None (68 other events since notify)
+[2017.02.25-01.18.06:072][224]LogCharacterMovement: playerHero_C_0 is stuck and failed to move! Velocity: X=23.17 Y=0.00 Z=0.00 Location: X=34.77 Y=5.00 Z=32.00 Normal: X=0.00 Y=1.00 Z=0.00 PenetrationDepth:0.000 Actor:Fort_WallTile_High_Sprite2 Component:RenderComponent BoneName:None (97 other events since notify)
+[2017.02.25-01.18.09:288][492]LogEditorViewport: Clicking Background
+[2017.02.25-01.18.42:679][892]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.02.25-01.18.56:328][507]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.02.25-01.18.57:020][587]LogTemp: Repeting last play command: Selected Viewport
+[2017.02.25-01.18.57:043][587]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.25-01.18.57:043][587]PIE: New page: PIE session: starterWorld (Feb 24, 2017, 3:18:57 PM)
+[2017.02.25-01.18.57:043][587]LogPlayLevel: Creating play world package: /Game/Maps-Levels/UEDPIE_0_starterWorld
+[2017.02.25-01.18.57:045][587]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001230s)
+[2017.02.25-01.18.57:045][587]LogAIModule: Creating AISystem for world starterWorld
+[2017.02.25-01.18.57:046][587]LogPlayLevel: PIE: World Init took: (0.000798s)
+[2017.02.25-01.18.57:046][587]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps-Levels/starterWorld.starterWorld to /Game/Maps-Levels/UEDPIE_0_starterWorld.starterWorld (0.002245s)
+[2017.02.25-01.18.57:137][587]LogInit: XAudio2 using '1 - SE32HY27 (2- AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.25-01.18.57:149][587]LogInit: FAudioDevice initialized.
+[2017.02.25-01.18.57:180][587]LogLoad: Game class is 'abyssGameMode_C'
+[2017.02.25-01.18.57:183][587]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_starterWorld.starterWorld up for play (max tick rate 0) at 2017.02.24-20.18.57
+[2017.02.25-01.18.57:183][587]LogWorld: Bringing up level for play took: 0.001081
+[2017.02.25-01.18.57:185][587]PIE: Info Play in editor start time for /Game/Maps-Levels/UEDPIE_0_starterWorld 0.496
+[2017.02.25-01.19.01:477][989]LogEditorViewport: Clicking Background
+[2017.02.25-01.19.02:268][ 83]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2017.02.25-01.19.07:012][645]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.02.25-01.19.07:604][714]LogTemp: Repeting last play command: Selected Viewport
+[2017.02.25-01.19.07:627][714]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.25-01.19.07:627][714]PIE: New page: PIE session: starterWorld (Feb 24, 2017, 3:19:07 PM)
+[2017.02.25-01.19.07:627][714]LogPlayLevel: Creating play world package: /Game/Maps-Levels/UEDPIE_0_starterWorld
+[2017.02.25-01.19.07:628][714]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001209s)
+[2017.02.25-01.19.07:629][714]LogAIModule: Creating AISystem for world starterWorld
+[2017.02.25-01.19.07:629][714]LogPlayLevel: PIE: World Init took: (0.000791s)
+[2017.02.25-01.19.07:629][714]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps-Levels/starterWorld.starterWorld to /Game/Maps-Levels/UEDPIE_0_starterWorld.starterWorld (0.002199s)
+[2017.02.25-01.19.07:722][714]LogInit: XAudio2 using '1 - SE32HY27 (2- AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.25-01.19.07:733][714]LogInit: FAudioDevice initialized.
+[2017.02.25-01.19.07:763][714]LogLoad: Game class is 'abyssGameMode_C'
+[2017.02.25-01.19.07:766][714]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_starterWorld.starterWorld up for play (max tick rate 0) at 2017.02.24-20.19.07
+[2017.02.25-01.19.07:766][714]LogWorld: Bringing up level for play took: 0.001259
+[2017.02.25-01.19.07:768][714]PIE: Info Play in editor start time for /Game/Maps-Levels/UEDPIE_0_starterWorld 1.079
+[2017.02.25-01.19.10:347][909]LogTemp: Repeting last play command: Selected Viewport
+[2017.02.25-01.19.10:365][909]Cmd: SELECT NONE
+[2017.02.25-01.19.10:372][909]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.25-01.19.10:372][909]PIE: New page: PIE session: starterWorld (Feb 24, 2017, 3:19:10 PM)
+[2017.02.25-01.19.10:372][909]LogPlayLevel: Creating play world package: /Game/Maps-Levels/UEDPIE_0_starterWorld
+[2017.02.25-01.19.10:373][909]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001455s)
+[2017.02.25-01.19.10:374][909]LogAIModule: Creating AISystem for world starterWorld
+[2017.02.25-01.19.10:374][909]LogPlayLevel: PIE: World Init took: (0.000861s)
+[2017.02.25-01.19.10:375][909]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps-Levels/starterWorld.starterWorld to /Game/Maps-Levels/UEDPIE_0_starterWorld.starterWorld (0.002569s)
+[2017.02.25-01.19.10:447][909]LogInit: XAudio2 using '1 - SE32HY27 (2- AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.25-01.19.10:458][909]LogInit: FAudioDevice initialized.
+[2017.02.25-01.19.10:486][909]LogLoad: Game class is 'abyssGameMode_C'
+[2017.02.25-01.19.10:489][909]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_starterWorld.starterWorld up for play (max tick rate 0) at 2017.02.24-20.19.10
+[2017.02.25-01.19.10:489][909]LogWorld: Bringing up level for play took: 0.001160
+[2017.02.25-01.19.10:491][909]PIE: Info Play in editor start time for /Game/Maps-Levels/UEDPIE_0_starterWorld -0.197
+[2017.02.25-01.19.13:309][139]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2017.02.25-01.19.20:860][ 36]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.02.25-01.19.24:177][429]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.02.25-01.19.24:934][497]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps-Levels/starterWorld" FILE="../../../../../Unreal Projects/ChimeraGames/Abyss/Content/Maps-Levels/starterWorld.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.02.25-01.19.25:042][497]LogSavePackage: Save=19.13ms
+[2017.02.25-01.19.25:042][497]LogSavePackage: Moving '../../../../../Unreal Projects/ChimeraGames/Abyss/Saved/starterWorldF7606A2C437D67F568D6DC889D99A88F.tmp' to '../../../../../Unreal Projects/ChimeraGames/Abyss/Content/Maps-Levels/starterWorld.umap'
+[2017.02.25-01.19.25:045][497]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/ChimeraGames/Abyss/Content/Maps-Levels/starterWorld.umap
+[2017.02.25-01.19.29:576][ 26]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2017.02.25-01.19.31:162][210]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.02.25-01.19.40:214][286]LogTemp: Repeting last play command: Selected Viewport
+[2017.02.25-01.19.40:237][286]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.25-01.19.40:237][286]PIE: New page: PIE session: starterWorld (Feb 24, 2017, 3:19:40 PM)
+[2017.02.25-01.19.40:238][286]LogPlayLevel: Creating play world package: /Game/Maps-Levels/UEDPIE_0_starterWorld
+[2017.02.25-01.19.40:239][286]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001246s)
+[2017.02.25-01.19.40:239][286]LogAIModule: Creating AISystem for world starterWorld
+[2017.02.25-01.19.40:240][286]LogPlayLevel: PIE: World Init took: (0.000766s)
+[2017.02.25-01.19.40:240][286]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps-Levels/starterWorld.starterWorld to /Game/Maps-Levels/UEDPIE_0_starterWorld.starterWorld (0.002225s)
+[2017.02.25-01.19.40:334][286]LogInit: XAudio2 using '1 - SE32HY27 (2- AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.25-01.19.40:345][286]LogInit: FAudioDevice initialized.
+[2017.02.25-01.19.40:373][286]LogLoad: Game class is 'abyssGameMode_C'
+[2017.02.25-01.19.40:376][286]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_starterWorld.starterWorld up for play (max tick rate 0) at 2017.02.24-20.19.40
+[2017.02.25-01.19.40:376][286]LogWorld: Bringing up level for play took: 0.001181
+[2017.02.25-01.19.40:378][286]PIE: Info Play in editor start time for /Game/Maps-Levels/UEDPIE_0_starterWorld -0.31
+[2017.02.25-01.19.41:218][386]LogCharacterMovement: playerHero_C_0 is stuck and failed to move! Velocity: X=2.90 Y=0.00 Z=0.00 Location: X=32.00 Y=5.00 Z=32.00 Normal: X=0.00 Y=1.00 Z=0.00 PenetrationDepth:0.000 Actor:Fort_WallTile_High_Sprite2 Component:RenderComponent BoneName:None (0 other events since notify)
+[2017.02.25-01.19.42:217][506]LogCharacterMovement: playerHero_C_0 is stuck and failed to move! Velocity: X=-17.38 Y=0.00 Z=0.00 Location: X=32.00 Y=5.00 Z=32.00 Normal: X=0.00 Y=1.00 Z=0.00 PenetrationDepth:0.000 Actor:Fort_WallTile_High_Sprite2 Component:RenderComponent BoneName:None (113 other events since notify)
+[2017.02.25-01.19.43:576][669]LogCharacterMovement: playerHero_C_0 is stuck and failed to move! Velocity: X=72.01 Y=57.61 Z=0.00 Location: X=32.00 Y=5.00 Z=32.00 Normal: X=0.00 Y=1.00 Z=0.00 PenetrationDepth:0.000 Actor:Fort_WallTile_High_Sprite2 Component:RenderComponent BoneName:None (100 other events since notify)
+[2017.02.25-01.19.44:576][789]LogCharacterMovement: playerHero_C_0 is stuck and failed to move! Velocity: X=78.21 Y=0.00 Z=0.00 Location: X=32.00 Y=5.00 Z=32.00 Normal: X=0.00 Y=1.00 Z=0.00 PenetrationDepth:0.000 Actor:Fort_WallTile_High_Sprite2 Component:RenderComponent BoneName:None (66 other events since notify)
+[2017.02.25-01.19.46:334][  0]LogCharacterMovement: playerHero_C_0 is stuck and failed to move! Velocity: X=-2.90 Y=0.00 Z=0.00 Location: X=32.00 Y=5.00 Z=32.00 Normal: X=0.00 Y=1.00 Z=0.00 PenetrationDepth:0.000 Actor:Fort_WallTile_High_Sprite2 Component:RenderComponent BoneName:None (94 other events since notify)
+[2017.02.25-01.19.47:334][120]LogCharacterMovement: playerHero_C_0 is stuck and failed to move! Velocity: X=-101.83 Y=0.00 Z=0.00 Location: X=32.00 Y=5.00 Z=32.00 Normal: X=0.00 Y=1.00 Z=0.00 PenetrationDepth:0.000 Actor:Fort_WallTile_High_Sprite2 Component:RenderComponent BoneName:None (119 other events since notify)
+[2017.02.25-01.19.48:334][240]LogCharacterMovement: playerHero_C_0 is stuck and failed to move! Velocity: X=-31.86 Y=0.00 Z=0.00 Location: X=32.00 Y=5.00 Z=32.00 Normal: X=0.00 Y=1.00 Z=0.00 PenetrationDepth:0.000 Actor:Fort_WallTile_High_Sprite2 Component:RenderComponent BoneName:None (81 other events since notify)
+[2017.02.25-01.19.49:335][360]LogCharacterMovement: playerHero_C_0 is stuck and failed to move! Velocity: X=-52.14 Y=0.00 Z=0.00 Location: X=32.00 Y=5.00 Z=32.00 Normal: X=0.00 Y=1.00 Z=0.00 PenetrationDepth:0.000 Actor:Fort_WallTile_High_Sprite2 Component:RenderComponent BoneName:None (73 other events since notify)
+[2017.02.25-01.19.51:553][514]Cmd: SELECT NONE
+[2017.02.25-01.19.53:040][692]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2017.02.25-01.19.54:035][808]Cmd: DELETE
+[2017.02.25-01.19.54:035][808]Cmd: ACTOR DELETE
+[2017.02.25-01.19.54:036][808]LogEditorActor: Deleted Actor: PlayerStart
+[2017.02.25-01.19.54:101][808]LogEditorActor: Deleted 1 Actors (0.065 secs)
+[2017.02.25-01.20.02:579][764]LogTemp: Repeting last play command: Selected Viewport
+[2017.02.25-01.20.02:604][764]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.25-01.20.02:604][764]PIE: New page: PIE session: starterWorld (Feb 24, 2017, 3:20:02 PM)
+[2017.02.25-01.20.02:604][764]LogPlayLevel: Creating play world package: /Game/Maps-Levels/UEDPIE_0_starterWorld
+[2017.02.25-01.20.02:606][764]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001495s)
+[2017.02.25-01.20.02:606][764]LogAIModule: Creating AISystem for world starterWorld
+[2017.02.25-01.20.02:607][764]LogPlayLevel: PIE: World Init took: (0.000764s)
+[2017.02.25-01.20.02:607][764]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps-Levels/starterWorld.starterWorld to /Game/Maps-Levels/UEDPIE_0_starterWorld.starterWorld (0.002483s)
+[2017.02.25-01.20.02:730][764]LogInit: XAudio2 using '1 - SE32HY27 (2- AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.25-01.20.02:741][764]LogInit: FAudioDevice initialized.
+[2017.02.25-01.20.02:770][764]LogLoad: Game class is 'abyssGameMode_C'
+[2017.02.25-01.20.02:773][764]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_starterWorld.starterWorld up for play (max tick rate 0) at 2017.02.24-20.20.02
+[2017.02.25-01.20.02:773][764]LogWorld: Bringing up level for play took: 0.001366
+[2017.02.25-01.20.02:774][764]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=20.562 Y=5.865 Z=31.886] for [playerHero_C]
+[2017.02.25-01.20.02:774][764]LogGameMode:Warning: Couldn't spawn Pawn of type playerHero_C at Rotation: 0.000000 -0.000000 0.000000 1.000000
+Translation: 19.813522 0.000000 18.692604
+Scale3D: 1.000000 1.000000 1.000000
+
+[2017.02.25-01.20.02:775][764]PIE: Info Play in editor start time for /Game/Maps-Levels/UEDPIE_0_starterWorld 0.086
+[2017.02.25-01.20.09:304][350]LogEditorViewport: Clicking Background
+[2017.02.25-01.20.09:965][425]LogTemp: Repeting last play command: Selected Viewport
+[2017.02.25-01.20.09:985][425]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.25-01.20.09:985][425]PIE: New page: PIE session: starterWorld (Feb 24, 2017, 3:20:09 PM)
+[2017.02.25-01.20.09:986][425]LogPlayLevel: Creating play world package: /Game/Maps-Levels/UEDPIE_0_starterWorld
+[2017.02.25-01.20.09:987][425]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001544s)
+[2017.02.25-01.20.09:988][425]LogAIModule: Creating AISystem for world starterWorld
+[2017.02.25-01.20.09:988][425]LogPlayLevel: PIE: World Init took: (0.000760s)
+[2017.02.25-01.20.09:988][425]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps-Levels/starterWorld.starterWorld to /Game/Maps-Levels/UEDPIE_0_starterWorld.starterWorld (0.002513s)
+[2017.02.25-01.20.10:078][425]LogInit: XAudio2 using '1 - SE32HY27 (2- AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.25-01.20.10:090][425]LogInit: FAudioDevice initialized.
+[2017.02.25-01.20.10:119][425]LogLoad: Game class is 'abyssGameMode_C'
+[2017.02.25-01.20.10:122][425]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_starterWorld.starterWorld up for play (max tick rate 0) at 2017.02.24-20.20.10
+[2017.02.25-01.20.10:123][425]LogWorld: Bringing up level for play took: 0.001458
+[2017.02.25-01.20.10:124][425]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=12.251 Y=7.951 Z=34.370] for [playerHero_C]
+[2017.02.25-01.20.10:124][425]LogGameMode:Warning: Couldn't spawn Pawn of type playerHero_C at Rotation: 0.000000 -0.000000 0.000000 1.000000
+Translation: 19.813522 0.000000 18.692604
+Scale3D: 1.000000 1.000000 1.000000
+
+[2017.02.25-01.20.10:125][425]PIE: Info Play in editor start time for /Game/Maps-Levels/UEDPIE_0_starterWorld -0.564
+[2017.02.25-01.20.13:137][674]LogEditorViewport: Clicking on Actor (LMB): playerHero_C (playerHero)
+[2017.02.25-01.20.29:615][525]BlueprintLog: New page: Compile playerHero
+[2017.02.25-01.20.40:129][551]LogTemp: Repeting last play command: Selected Viewport
+[2017.02.25-01.20.40:154][551]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.25-01.20.40:154][551]PIE: New page: PIE session: starterWorld (Feb 24, 2017, 3:20:40 PM)
+[2017.02.25-01.20.40:154][551]LogPlayLevel: Creating play world package: /Game/Maps-Levels/UEDPIE_0_starterWorld
+[2017.02.25-01.20.40:155][551]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001537s)
+[2017.02.25-01.20.40:156][551]LogAIModule: Creating AISystem for world starterWorld
+[2017.02.25-01.20.40:156][551]LogPlayLevel: PIE: World Init took: (0.000820s)
+[2017.02.25-01.20.40:156][551]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps-Levels/starterWorld.starterWorld to /Game/Maps-Levels/UEDPIE_0_starterWorld.starterWorld (0.002570s)
+[2017.02.25-01.20.40:268][551]LogInit: XAudio2 using '1 - SE32HY27 (2- AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.25-01.20.40:279][551]LogInit: FAudioDevice initialized.
+[2017.02.25-01.20.40:310][551]LogLoad: Game class is 'abyssGameMode_C'
+[2017.02.25-01.20.40:313][551]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_starterWorld.starterWorld up for play (max tick rate 0) at 2017.02.24-20.20.40
+[2017.02.25-01.20.40:313][551]LogWorld: Bringing up level for play took: 0.001376
+[2017.02.25-01.20.40:315][551]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=11.381 Y=9.856 Z=16.765] for [playerHero_C]
+[2017.02.25-01.20.40:315][551]LogGameMode:Warning: Couldn't spawn Pawn of type playerHero_C at Rotation: 0.000000 -0.000000 0.000000 1.000000
+Translation: 16.858046 0.000000 18.559774
+Scale3D: 1.000000 1.000000 1.000000
+
+[2017.02.25-01.20.40:315][551]PIE: Info Play in editor start time for /Game/Maps-Levels/UEDPIE_0_starterWorld -0.372
+[2017.02.25-01.20.42:403][680]Cmd: SELECT NONE
+[2017.02.25-01.20.42:638][705]LogTemp: Repeting last play command: Selected Viewport
+[2017.02.25-01.20.42:664][705]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.25-01.20.42:664][705]PIE: New page: PIE session: starterWorld (Feb 24, 2017, 3:20:42 PM)
+[2017.02.25-01.20.42:664][705]LogPlayLevel: Creating play world package: /Game/Maps-Levels/UEDPIE_0_starterWorld
+[2017.02.25-01.20.42:666][705]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001783s)
+[2017.02.25-01.20.42:667][705]LogAIModule: Creating AISystem for world starterWorld
+[2017.02.25-01.20.42:667][705]LogPlayLevel: PIE: World Init took: (0.000858s)
+[2017.02.25-01.20.42:667][705]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps-Levels/starterWorld.starterWorld to /Game/Maps-Levels/UEDPIE_0_starterWorld.starterWorld (0.002857s)
+[2017.02.25-01.20.42:759][705]LogInit: XAudio2 using '1 - SE32HY27 (2- AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.25-01.20.42:770][705]LogInit: FAudioDevice initialized.
+[2017.02.25-01.20.42:799][705]LogLoad: Game class is 'abyssGameMode_C'
+[2017.02.25-01.20.42:802][705]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_starterWorld.starterWorld up for play (max tick rate 0) at 2017.02.24-20.20.42
+[2017.02.25-01.20.42:802][705]LogWorld: Bringing up level for play took: 0.001433
+[2017.02.25-01.20.42:804][705]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=11.381 Y=9.856 Z=16.765] for [playerHero_C]
+[2017.02.25-01.20.42:804][705]LogGameMode:Warning: Couldn't spawn Pawn of type playerHero_C at Rotation: 0.000000 -0.000000 0.000000 1.000000
+Translation: 16.858046 0.000000 18.559774
+Scale3D: 1.000000 1.000000 1.000000
+
+[2017.02.25-01.20.42:804][705]PIE: Info Play in editor start time for /Game/Maps-Levels/UEDPIE_0_starterWorld 0.116
+[2017.02.25-01.21.03:473][ 75]LogEditorViewport: Clicking on Actor (LMB): playerHero_C (playerHero)
+[2017.02.25-01.21.12:234][989]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Fort_WallTile_High_Sprite3)
+[2017.02.25-01.21.12:843][ 55]LogEditorViewport: Clicking on Actor (LMB): playerHero_C (playerHero)
+[2017.02.25-01.21.13:737][134]LogTemp: Repeting last play command: Selected Viewport
+[2017.02.25-01.21.13:761][134]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.25-01.21.13:762][134]PIE: New page: PIE session: starterWorld (Feb 24, 2017, 3:21:13 PM)
+[2017.02.25-01.21.13:762][134]LogPlayLevel: Creating play world package: /Game/Maps-Levels/UEDPIE_0_starterWorld
+[2017.02.25-01.21.13:764][134]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001845s)
+[2017.02.25-01.21.13:764][134]LogAIModule: Creating AISystem for world starterWorld
+[2017.02.25-01.21.13:764][134]LogPlayLevel: PIE: World Init took: (0.000849s)
+[2017.02.25-01.21.13:765][134]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps-Levels/starterWorld.starterWorld to /Game/Maps-Levels/UEDPIE_0_starterWorld.starterWorld (0.002996s)
+[2017.02.25-01.21.13:878][134]LogInit: XAudio2 using '1 - SE32HY27 (2- AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.25-01.21.13:889][134]LogInit: FAudioDevice initialized.
+[2017.02.25-01.21.13:919][134]LogLoad: Game class is 'abyssGameMode_C'
+[2017.02.25-01.21.13:922][134]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_starterWorld.starterWorld up for play (max tick rate 0) at 2017.02.24-20.21.13
+[2017.02.25-01.21.13:923][134]LogWorld: Bringing up level for play took: 0.001373
+[2017.02.25-01.21.13:924][134]PIE: Info Play in editor start time for /Game/Maps-Levels/UEDPIE_0_starterWorld -0.764
+[2017.02.25-01.21.19:799][680]LogEditorViewport: Clicking on Actor (LMB): playerHero_C (playerHero)
+[2017.02.25-01.21.20:652][768]Cmd: DELETE
+[2017.02.25-01.21.20:652][768]Cmd: ACTOR DELETE
+[2017.02.25-01.21.20:653][768]LogEditorActor: Deleted Actor: playerHero_C
+[2017.02.25-01.21.20:754][768]LogEditorActor: Deleted 1 Actors (0.102 secs)
+[2017.02.25-01.21.24:464][212]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/Engine/Actors/Types/index.html?utm_source=editor&utm_medium=docs&utm_campaign=doc_anchors
+[2017.02.25-01.23.25:276][884]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (Fort_WallTile_High_Sprite2)
+[2017.02.25-01.23.27:127][ 58]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2017.02.25-01.23.27:664][118]LogEditorViewport: Clicking on Actor (context menu): PlayerStart (PlayerStart)
+[2017.02.25-01.23.33:670][735]LogEditorViewport: Clicking Background
+[2017.02.25-01.23.34:577][843]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2017.02.25-01.23.36:414][ 59]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.02.25-01.23.38:633][319]LogTemp: Repeting last play command: Selected Viewport
+[2017.02.25-01.23.38:659][319]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.25-01.23.38:659][319]PIE: New page: PIE session: starterWorld (Feb 24, 2017, 3:23:38 PM)
+[2017.02.25-01.23.38:659][319]LogPlayLevel: Creating play world package: /Game/Maps-Levels/UEDPIE_0_starterWorld
+[2017.02.25-01.23.38:661][319]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001255s)
+[2017.02.25-01.23.38:661][319]LogAIModule: Creating AISystem for world starterWorld
+[2017.02.25-01.23.38:662][319]LogPlayLevel: PIE: World Init took: (0.000820s)
+[2017.02.25-01.23.38:662][319]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps-Levels/starterWorld.starterWorld to /Game/Maps-Levels/UEDPIE_0_starterWorld.starterWorld (0.002287s)
+[2017.02.25-01.23.38:760][319]LogInit: XAudio2 using '1 - SE32HY27 (2- AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.25-01.23.38:772][319]LogInit: FAudioDevice initialized.
+[2017.02.25-01.23.38:802][319]LogLoad: Game class is 'abyssGameMode_C'
+[2017.02.25-01.23.38:805][319]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_starterWorld.starterWorld up for play (max tick rate 0) at 2017.02.24-20.23.38
+[2017.02.25-01.23.38:805][319]LogWorld: Bringing up level for play took: 0.001125
+[2017.02.25-01.23.38:807][319]PIE: Info Play in editor start time for /Game/Maps-Levels/UEDPIE_0_starterWorld 0.118
+[2017.02.25-01.24.34:249][ 97]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Fort_WallTile_High_Sprite)
+[2017.02.25-01.24.35:502][241]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Fort_WallTile_High_Sprite2)
+[2017.02.25-01.24.36:502][355]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Fort_WallTile_High_Sprite3)
+[2017.02.25-01.24.37:745][498]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Fort_WallTile_Mid_Sprite)
+[2017.02.25-01.24.38:597][594]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Fort_WallTile_Mid_Sprite2)
+[2017.02.25-01.24.39:279][670]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Fort_WallTile_Mid_Sprite3)
+[2017.02.25-01.24.39:885][737]LogEditorViewport: Clicking Background
+[2017.02.25-01.24.40:449][804]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2017.02.25-01.25.26:327][166]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Fort_WallTile_High_Sprite)
+[2017.02.25-01.25.27:380][270]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Fort_WallTile_High_Sprite2)
+[2017.02.25-01.25.27:943][331]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Fort_WallTile_High_Sprite3)
+[2017.02.25-01.25.31:777][756]LogEditorViewport: Clicking Background
+[2017.02.25-01.25.33:675][982]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2017.02.25-01.25.43:467][112]LogEditorViewport: Clicking Background
+[2017.02.25-01.25.45:323][312]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps-Levels/starterWorld" FILE="../../../../../Unreal Projects/ChimeraGames/Abyss/Content/Maps-Levels/starterWorld.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.02.25-01.25.45:426][312]LogSavePackage: Save=19.05ms
+[2017.02.25-01.25.45:426][312]LogSavePackage: Moving '../../../../../Unreal Projects/ChimeraGames/Abyss/Saved/starterWorld576EA6F84F978113C8838AA06C034CCD.tmp' to '../../../../../Unreal Projects/ChimeraGames/Abyss/Content/Maps-Levels/starterWorld.umap'
+[2017.02.25-01.25.45:428][312]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/ChimeraGames/Abyss/Content/Maps-Levels/starterWorld.umap
+[2017.02.25-01.25.53:856][288]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2017.02.25-01.25.55:520][482]LogTemp: Repeting last play command: Selected Viewport
+[2017.02.25-01.25.55:543][482]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.25-01.25.55:544][482]PIE: New page: PIE session: starterWorld (Feb 24, 2017, 3:25:55 PM)
+[2017.02.25-01.25.55:544][482]LogPlayLevel: Creating play world package: /Game/Maps-Levels/UEDPIE_0_starterWorld
+[2017.02.25-01.25.55:545][482]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001470s)
+[2017.02.25-01.25.55:546][482]LogAIModule: Creating AISystem for world starterWorld
+[2017.02.25-01.25.55:546][482]LogPlayLevel: PIE: World Init took: (0.000847s)
+[2017.02.25-01.25.55:546][482]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps-Levels/starterWorld.starterWorld to /Game/Maps-Levels/UEDPIE_0_starterWorld.starterWorld (0.002534s)
+[2017.02.25-01.25.55:646][482]LogInit: XAudio2 using '1 - SE32HY27 (2- AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.25-01.25.55:657][482]LogInit: FAudioDevice initialized.
+[2017.02.25-01.25.55:687][482]LogLoad: Game class is 'abyssGameMode_C'
+[2017.02.25-01.25.55:690][482]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_starterWorld.starterWorld up for play (max tick rate 0) at 2017.02.24-20.25.55
+[2017.02.25-01.25.55:690][482]LogWorld: Bringing up level for play took: 0.001073
+[2017.02.25-01.25.55:692][482]PIE: Info Play in editor start time for /Game/Maps-Levels/UEDPIE_0_starterWorld 1.003
+[2017.02.25-01.26.37:471][298]BlueprintLog: New page: Compile playerHero
+[2017.02.25-01.26.40:675][647]LogTemp: Repeting last play command: Selected Viewport
+[2017.02.25-01.26.40:698][647]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.25-01.26.40:698][647]PIE: New page: PIE session: starterWorld (Feb 24, 2017, 3:26:40 PM)
+[2017.02.25-01.26.40:698][647]LogPlayLevel: Creating play world package: /Game/Maps-Levels/UEDPIE_0_starterWorld
+[2017.02.25-01.26.40:699][647]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001245s)
+[2017.02.25-01.26.40:700][647]LogAIModule: Creating AISystem for world starterWorld
+[2017.02.25-01.26.40:700][647]LogPlayLevel: PIE: World Init took: (0.000790s)
+[2017.02.25-01.26.40:700][647]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps-Levels/starterWorld.starterWorld to /Game/Maps-Levels/UEDPIE_0_starterWorld.starterWorld (0.002236s)
+[2017.02.25-01.26.40:794][647]LogInit: XAudio2 using '1 - SE32HY27 (2- AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.25-01.26.40:805][647]LogInit: FAudioDevice initialized.
+[2017.02.25-01.26.40:833][647]LogLoad: Game class is 'abyssGameMode_C'
+[2017.02.25-01.26.40:836][647]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_starterWorld.starterWorld up for play (max tick rate 0) at 2017.02.24-20.26.40
+[2017.02.25-01.26.40:836][647]LogWorld: Bringing up level for play took: 0.001214
+[2017.02.25-01.26.40:838][647]PIE: Info Play in editor start time for /Game/Maps-Levels/UEDPIE_0_starterWorld 0.148
+[2017.02.25-01.26.49:653][594]Cmd: SELECT NONE
+[2017.02.25-01.26.50:757][725]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2017.02.25-01.27.02:557][128]BlueprintLog: New page: Compile playerHero
+[2017.02.25-01.27.09:039][870]LogTemp: Repeting last play command: Selected Viewport
+[2017.02.25-01.27.09:062][870]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.25-01.27.09:062][870]PIE: New page: PIE session: starterWorld (Feb 24, 2017, 3:27:09 PM)
+[2017.02.25-01.27.09:062][870]LogPlayLevel: Creating play world package: /Game/Maps-Levels/UEDPIE_0_starterWorld
+[2017.02.25-01.27.09:063][870]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001267s)
+[2017.02.25-01.27.09:064][870]LogAIModule: Creating AISystem for world starterWorld
+[2017.02.25-01.27.09:064][870]LogPlayLevel: PIE: World Init took: (0.000799s)
+[2017.02.25-01.27.09:064][870]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps-Levels/starterWorld.starterWorld to /Game/Maps-Levels/UEDPIE_0_starterWorld.starterWorld (0.002272s)
+[2017.02.25-01.27.09:159][870]LogInit: XAudio2 using '1 - SE32HY27 (2- AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.25-01.27.09:171][870]LogInit: FAudioDevice initialized.
+[2017.02.25-01.27.09:202][870]LogLoad: Game class is 'abyssGameMode_C'
+[2017.02.25-01.27.09:205][870]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_starterWorld.starterWorld up for play (max tick rate 0) at 2017.02.24-20.27.09
+[2017.02.25-01.27.09:205][870]LogWorld: Bringing up level for play took: 0.001030
+[2017.02.25-01.27.09:206][870]PIE: Info Play in editor start time for /Game/Maps-Levels/UEDPIE_0_starterWorld 0.516
+[2017.02.25-01.27.51:881][619]BlueprintLog: New page: Compile playerHero
+[2017.02.25-01.27.54:286][865]LogTemp: Repeting last play command: Selected Viewport
+[2017.02.25-01.27.54:309][865]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.25-01.27.54:309][865]PIE: New page: PIE session: starterWorld (Feb 24, 2017, 3:27:54 PM)
+[2017.02.25-01.27.54:309][865]LogPlayLevel: Creating play world package: /Game/Maps-Levels/UEDPIE_0_starterWorld
+[2017.02.25-01.27.54:311][865]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001308s)
+[2017.02.25-01.27.54:311][865]LogAIModule: Creating AISystem for world starterWorld
+[2017.02.25-01.27.54:312][865]LogPlayLevel: PIE: World Init took: (0.000794s)
+[2017.02.25-01.27.54:312][865]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps-Levels/starterWorld.starterWorld to /Game/Maps-Levels/UEDPIE_0_starterWorld.starterWorld (0.002312s)
+[2017.02.25-01.27.54:401][865]LogInit: XAudio2 using '1 - SE32HY27 (2- AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.25-01.27.54:413][865]LogInit: FAudioDevice initialized.
+[2017.02.25-01.27.54:443][865]LogLoad: Game class is 'abyssGameMode_C'
+[2017.02.25-01.27.54:446][865]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_starterWorld.starterWorld up for play (max tick rate 0) at 2017.02.24-20.27.54
+[2017.02.25-01.27.54:446][865]LogWorld: Bringing up level for play took: 0.001087
+[2017.02.25-01.27.54:447][865]PIE: Info Play in editor start time for /Game/Maps-Levels/UEDPIE_0_starterWorld -0.242
+[2017.02.25-01.28.13:261][985]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/playerHero" FILE="../../../../../Unreal Projects/ChimeraGames/Abyss/Content/BluePrints/playerHero.uasset" SILENT=true
+[2017.02.25-01.28.13:392][985]LogSavePackage: Save=125.88ms
+[2017.02.25-01.28.13:392][985]LogSavePackage: Moving '../../../../../Unreal Projects/ChimeraGames/Abyss/Saved/playerHeroFEA577244E96D2C90BF0948FB4D1D449.tmp' to '../../../../../Unreal Projects/ChimeraGames/Abyss/Content/BluePrints/playerHero.uasset'
+[2017.02.25-01.28.13:394][985]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/ChimeraGames/Abyss/Content/BluePrints/playerHero.uasset
+[2017.02.25-01.29.33:480][477]BlueprintLog: New page: Compile playerHero
+[2017.02.25-01.29.48:062][355]SourceControl: Info fatal: E:/Game Data/Epic Games/4.14/Engine/Content/: 'E:/Game Data/Epic Games/4.14/Engine/Content/' is outside repository
+[2017.02.25-01.29.51:104][355]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/playerHero" FILE="../../../../../Unreal Projects/ChimeraGames/Abyss/Content/BluePrints/playerHero.uasset" SILENT=true
+[2017.02.25-01.29.51:170][355]LogSavePackage: Save=62.37ms
+[2017.02.25-01.29.51:170][355]LogSavePackage: Moving '../../../../../Unreal Projects/ChimeraGames/Abyss/Saved/playerHero9C8C148545EC0C4830389CA0ACB5EABD.tmp' to '../../../../../Unreal Projects/ChimeraGames/Abyss/Content/BluePrints/playerHero.uasset'
+[2017.02.25-01.29.51:173][355]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/ChimeraGames/Abyss/Content/BluePrints/playerHero.uasset
+[2017.02.25-01.29.51:175][355]LogPackageName:Error: Illegal call to DoesPackageExist: '../../../../../Unreal Projects/ChimeraGames/Abyss/Abyss.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+[2017.02.25-01.29.51:302][355]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.127 s
+[2017.02.25-01.29.51:302][355]LogOutputDevice:Error: === Handled ensure: ===
+[2017.02.25-01.29.51:302][355]LogOutputDevice:Error: 
+[2017.02.25-01.29.51:302][355]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.14+Compile\Sync\Engine\Source\Runtime\CoreUObject\Private\Misc\PackageName.cpp] [Line: 624]
+[2017.02.25-01.29.51:302][355]LogOutputDevice:Error: Illegal call to DoesPackageExist: '../../../../../Unreal Projects/ChimeraGames/Abyss/Abyss.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+[2017.02.25-01.29.51:302][355]LogOutputDevice:Error: Stack: 
+[2017.02.25-01.29.51:302][355]LogOutputDevice:Error: UE4Editor-Core.dll
+[2017.02.25-01.29.51:302][355]LogOutputDevice:Error: UE4Editor-Core.dll
+[2017.02.25-01.29.51:302][355]LogOutputDevice:Error: UE4Editor-Core.dll
+[2017.02.25-01.29.51:302][355]LogOutputDevice:Error: UE4Editor-CoreUObject.dll
+[2017.02.25-01.29.51:302][355]LogOutputDevice:Error: UE4Editor-SourceControl.dll
+[2017.02.25-01.29.51:302][355]LogOutputDevice:Error: UE4Editor-SourceControl.dll
+[2017.02.25-01.29.51:302][355]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll
+[2017.02.25-01.29.51:302][355]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll
+[2017.02.25-01.29.51:302][355]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll
+[2017.02.25-01.29.51:302][355]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll
+[2017.02.25-01.29.51:302][355]LogOutputDevice:Error: UE4Editor-GitSourceControl.dll
+[2017.02.25-01.29.51:302][355]LogOutputDevice:Error: UE4Editor-GitSourceControl.dll
+[2017.02.25-01.29.51:302][355]LogOutputDevice:Error: UE4Editor-SourceControl.dll
+[2017.02.25-01.29.51:302][355]LogOutputDevice:Error: UE4Editor-UnrealEd.dll
+[2017.02.25-01.29.51:302][355]LogOutputDevice:Error: UE4Editor-UnrealEd.dll
+[2017.02.25-01.29.51:302][355]LogOutputDevice:Error: UE4Editor.exe
+[2017.02.25-01.29.51:302][355]LogOutputDevice:Error: UE4Editor.exe
+[2017.02.25-01.29.51:302][355]LogOutputDevice:Error: UE4Editor.exe
+[2017.02.25-01.29.51:302][355]LogOutputDevice:Error: UE4Editor.exe
+[2017.02.25-01.29.51:302][355]LogOutputDevice:Error: UE4Editor.exe
+[2017.02.25-01.29.51:302][355]LogOutputDevice:Error: kernel32.dll
+[2017.02.25-01.29.51:302][355]LogOutputDevice:Error: ntdll.dll
+[2017.02.25-01.29.51:302][355]LogOutputDevice:Error: 
+[2017.02.25-01.29.51:305][355]LogStats:                SubmitErrorReport -  0.000 s
