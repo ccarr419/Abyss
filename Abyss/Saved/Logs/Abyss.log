@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿Log file open, 02/26/17 20:12:08
 LogInit:Display: Running engine for game: Abyss
 LogPlatformFile: Not using cached read wrapper
@@ -1339,3 +1340,5 @@ Make sure 'BS_Actor_C' has been compiled for  K2Node_VariableGet_1543
 [2017.02.27-03.52.56:327][988]LogModuleManager: Shutting down and abandoning module PakFile (1)
 [2017.02.27-03.52.56:330][988]LogExit: Exiting.
 [2017.02.27-03.52.56:332][988]Log file closed, 02/26/17 22:52:56
+=======
+>>>>>>> 5e002661a34f08db9e2a196815b436f3f786091a
