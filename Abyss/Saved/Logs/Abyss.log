@@ -474,3 +474,868 @@ LogInit: Object subsystem initialized
 [2017.02.27-01.54.25:200][880]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps-Levels/Battle_Scene" FILE="C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
 [2017.02.27-01.54.25:418][880]LogSavePackage: Save=163.34ms
 [2017.02.27-01.54.25:418][880]LogSavePackage: Moving 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/Battle_Scene5B7BFAE14916960DB0D56F9B3BDD99BB.tmp' to 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene.umap'
+[2017.02.27-01.54.25:425][880]LogSavePackage:Display: Finished SavePackage C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene.umap
+[2017.02.27-01.54.25:500][880]LogFileHelpers: Saving map 'Battle_Scene' took 0.354
+[2017.02.27-01.54.25:503][880]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/BattleHUD" FILE="C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/UMG/BattleHUD.uasset" SILENT=true
+[2017.02.27-01.54.25:568][880]LogSavePackage: Save=36.55ms
+[2017.02.27-01.54.25:568][880]LogSavePackage: Moving 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/BattleHUD3EA336C5497C06AB2C417BABDB2F2C1A.tmp' to 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/UMG/BattleHUD.uasset'
+[2017.02.27-01.54.25:575][880]LogSavePackage:Display: Finished SavePackage C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/UMG/BattleHUD.uasset
+[2017.02.27-01.57.40:995][573]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2017.02.27-01.57.47:182][158]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2017.02.27-01.57.48:443][242]LogEditorViewport: Clicking Background
+[2017.02.27-01.59.23:064][501]LogTemp: Repeting last play command: Selected Viewport
+[2017.02.27-01.59.23:099][501]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel.Battle_Scene' with GeneratedClass '/Game/Maps-Levels/Battle_Scene.Battle_Scene_C' with ClassGeneratedBy '/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel.Battle_Scene'
+[2017.02.27-01.59.23:099][501]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.27-01.59.23:099][501]PIE: New page: PIE session: Battle_Scene (Feb 26, 2017, 3:59:23 PM)
+[2017.02.27-01.59.23:100][501]LogPlayLevel: Creating play world package: /Game/Maps-Levels/UEDPIE_0_Battle_Scene
+[2017.02.27-01.59.23:104][501]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004469s)
+[2017.02.27-01.59.23:105][501]LogAIModule: Creating AISystem for world Battle_Scene
+[2017.02.27-01.59.23:105][501]LogPlayLevel: PIE: World Init took: (0.000992s)
+[2017.02.27-01.59.23:105][501]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps-Levels/Battle_Scene.Battle_Scene to /Game/Maps-Levels/UEDPIE_0_Battle_Scene.Battle_Scene (0.005706s)
+[2017.02.27-01.59.23:185][501]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.02.27-01.59.23:201][501]LogInit: FAudioDevice initialized.
+[2017.02.27-01.59.23:236][501]LogLoad: Game class is 'abyssBattleScene_C'
+[2017.02.27-01.59.23:240][501]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_Battle_Scene.Battle_Scene up for play (max tick rate 0) at 2017.02.26-20.59.23
+[2017.02.27-01.59.23:347][501]LogWorld: Bringing up level for play took: 0.108156
+[2017.02.27-01.59.23:361][501]PIE: Info Play in editor start time for /Game/Maps-Levels/UEDPIE_0_Battle_Scene -0.679
+[2017.02.27-01.59.23:361][501]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel.Battle_Scene' with GeneratedClass '/Game/Maps-Levels/Battle_Scene.Battle_Scene_C' with ClassGeneratedBy '/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel.Battle_Scene'
+[2017.02.27-01.59.26:999][905]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel.Battle_Scene' with GeneratedClass '/Game/Maps-Levels/Battle_Scene.Battle_Scene_C' with ClassGeneratedBy '/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel.Battle_Scene'
+[2017.02.27-01.59.27:076][905]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel.Battle_Scene' with GeneratedClass '/Game/Maps-Levels/Battle_Scene.Battle_Scene_C' with ClassGeneratedBy '/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel.Battle_Scene'
+[2017.02.27-01.59.36:359][487]Cmd: DELETE
+[2017.02.27-01.59.36:359][487]Cmd: ACTOR DELETE
+[2017.02.27-01.59.36:360][487]LogEditorActor: Deleted Actor: BattleScene_Player_C
+[2017.02.27-01.59.36:440][487]LogEditorActor: Deleted 1 Actors (0.081 secs)
+[2017.02.27-01.59.37:242][576]LogEditorViewport: Clicking on Actor (LMB): BattleScene_Player_C (BattleScene_Player)
+[2017.02.27-01.59.37:540][592]Cmd: DELETE
+[2017.02.27-01.59.37:540][592]Cmd: ACTOR DELETE
+[2017.02.27-01.59.37:540][592]LogEditorActor: Deleted Actor: BattleScene_Player_C
+[2017.02.27-01.59.37:594][592]LogEditorActor: Deleted 1 Actors (0.054 secs)
+[2017.02.27-01.59.42:930][157]LogEditorViewport: Clicking on Actor (LMB): PaperFlipbookActor (Anim_Knight_Idle)
+[2017.02.27-02.00.48:314][247]BlueprintLog: New page: Compile BattleScene_Player
+[2017.02.27-02.01.13:499][892]LogRenderer: Reallocating scene render targets to support 1040x568 NumSamples 1 (Frame:79278).
+[2017.02.27-02.03.15:079][918]LogMetaData: Removing '/Game/BluePrints/BattleScene/BS_Player.BS_Player_C' ref from Metadata '/Game/BluePrints/BattleScene/BattleScene_Player.PackageMetaData'
+[2017.02.27-02.03.15:079][918]LogMetaData: Removing '/Game/BluePrints/BattleScene/BS_Player.BS_Player:hitChanceCalc.K2Node_FunctionEntry_131' ref from Metadata '/Game/BluePrints/BattleScene/BattleScene_Player.PackageMetaData'
+[2017.02.27-02.03.15:080][918]LogMetaData: Removing '/Game/BluePrints/BattleScene/BS_Player.BS_Player:damageCalc.K2Node_FunctionEntry_26' ref from Metadata '/Game/BluePrints/BattleScene/BattleScene_Player.PackageMetaData'
+[2017.02.27-02.03.15:080][918]LogMetaData: Removing '/Game/BluePrints/BattleScene/BS_Player.SKEL_BS_Player_C' ref from Metadata '/Game/BluePrints/BattleScene/BattleScene_Player.PackageMetaData'
+[2017.02.27-02.03.15:120][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BattleScene/BS_Player" FILE="C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/BluePrints/BattleScene/BS_Player.uasset" SILENT=true
+[2017.02.27-02.03.15:201][918]LogSavePackage: Save=78.57ms
+[2017.02.27-02.03.15:201][918]LogSavePackage: Moving 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/BS_Player4700698C444F25D263ABCA9353882465.tmp' to 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/BluePrints/BattleScene/BS_Player.uasset'
+[2017.02.27-02.03.15:206][918]LogSavePackage:Display: Finished SavePackage C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/BluePrints/BattleScene/BS_Player.uasset
+[2017.02.27-02.03.15:520][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/ArtTools/RenderToTexture/Blueprints/RenderToTexture_Game" FILE="../../../Engine/Content/ArtTools/RenderToTexture/Blueprints/RenderToTexture_Game.uasset" SILENT=true
+[2017.02.27-02.03.15:567][918]LogSavePackage: Save=16.22ms
+[2017.02.27-02.03.15:567][918]LogSavePackage: Moving 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/RenderToTexture_Game0F764AB5417B3639FC035D860DFBC5F3.tmp' to '../../../Engine/Content/ArtTools/RenderToTexture/Blueprints/RenderToTexture_Game.uasset'
+[2017.02.27-02.03.15:570][918]LogSavePackage:Display: Finished SavePackage ../../../Engine/Content/ArtTools/RenderToTexture/Blueprints/RenderToTexture_Game.uasset
+[2017.02.27-02.04.00:236][973]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BattleScene/BS_enemy" FILE="C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/BluePrints/BattleScene/BS_enemy.uasset" SILENT=true
+[2017.02.27-02.04.00:253][973]LogSavePackage: Save=14.96ms
+[2017.02.27-02.04.00:253][973]LogSavePackage: Moving 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/BS_enemy309B83824D0685207B67628AF37CD02D.tmp' to 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/BluePrints/BattleScene/BS_enemy.uasset'
+[2017.02.27-02.04.00:258][973]LogSavePackage:Display: Finished SavePackage C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/BluePrints/BattleScene/BS_enemy.uasset
+[2017.02.27-02.04.23:884][ 81]BlueprintLog: New page: Compile BS_Player
+[2017.02.27-02.05.15:588][ 51]LogEditorViewport: Clicking on Actor (context menu): PaperFlipbookActor (Anim_Knight_Idle)
+[2017.02.27-02.05.35:146][995]LogEditorActor: Deleted Actor: PaperFlipbookActor
+[2017.02.27-02.05.35:175][995]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2017.02.27-02.05.52:457][ 53]LogEditorViewport: Clicking on Actor (LMB): BS_Player_C (BS_Player)
+[2017.02.27-02.06.00:018][615]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2017.02.27-02.06.01:704][768]LogEditorViewport: Clicking on Actor (LMB): BS_Player_C (BS_Player)
+[2017.02.27-02.06.04:085][961]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2017.02.27-02.06.05:684][107]LogEditorViewport: Clicking on Actor (LMB): BS_Player_C (BS_Player)
+[2017.02.27-02.06.09:870][470]Cmd: DELETE
+[2017.02.27-02.06.09:870][470]Cmd: ACTOR DELETE
+[2017.02.27-02.06.09:871][470]LogEditorActor: Deleted Actor: BS_Player_C
+[2017.02.27-02.06.09:935][470]LogEditorActor: Deleted 1 Actors (0.065 secs)
+[2017.02.27-02.06.25:400][400]BlueprintLog: New page: Compile BS_Player
+[2017.02.27-02.06.26:193][434]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BattleScene/BS_Player" FILE="C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/BluePrints/BattleScene/BS_Player.uasset" SILENT=true
+[2017.02.27-02.06.26:289][434]LogSavePackage: Save=65.40ms
+[2017.02.27-02.06.26:289][434]LogSavePackage: Moving 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/BS_PlayerBDB9AA7447F874454267E2823120A56C.tmp' to 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/BluePrints/BattleScene/BS_Player.uasset'
+[2017.02.27-02.06.26:294][434]LogSavePackage:Display: Finished SavePackage C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/BluePrints/BattleScene/BS_Player.uasset
+[2017.02.27-02.06.33:594][ 34]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2017.02.27-02.06.56:666][198]LogEditorViewport: Clicking on Actor (LMB): BS_Player_C (BS_Player)
+[2017.02.27-02.07.06:296][ 38]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2017.02.27-02.07.10:665][432]LogEditorViewport: Clicking on Actor (LMB): BS_Player_C (BS_Player)
+[2017.02.27-02.07.14:843][781]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Enemy_Skeleton_Idle_Frame1_Sprite)
+[2017.02.27-02.07.16:916][989]Cmd: DELETE
+[2017.02.27-02.07.16:916][989]Cmd: ACTOR DELETE
+[2017.02.27-02.07.16:917][989]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.02.27-02.07.16:946][989]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2017.02.27-02.07.20:627][390]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2017.02.27-02.07.22:388][557]LogEditorViewport: Clicking on Actor (LMB): BS_Player_C (BS_Player)
+[2017.02.27-02.08.04:098][682]LogSavePackage: Save=159.08ms
+[2017.02.27-02.08.04:098][682]LogSavePackage: Moving 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/Battle_Scene_Auto47DDEC7F44077BECDC115AF90D0A1DBFC.tmp' to 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/Autosaves/Game/Maps-Levels/Battle_Scene_Auto4.umap'
+[2017.02.27-02.08.04:100][682]LogSavePackage:Display: Finished SavePackage C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/Autosaves/Game/Maps-Levels/Battle_Scene_Auto4.umap
+[2017.02.27-02.08.04:102][682]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps-Levels/Battle_Scene' took 0.217
+[2017.02.27-02.08.04:102][682]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.217
+[2017.02.27-02.10.00:736][944]BlueprintLog: New page: Compile BS_Player
+[2017.02.27-02.10.23:539][204]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BattleScene/BS_Player" FILE="C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/BluePrints/BattleScene/BS_Player.uasset" SILENT=true
+[2017.02.27-02.10.23:632][204]LogSavePackage: Save=67.73ms
+[2017.02.27-02.10.23:632][204]LogSavePackage: Moving 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/BS_Player412C1BEC4AE6713289AC77A692C4C2AE.tmp' to 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/BluePrints/BattleScene/BS_Player.uasset'
+[2017.02.27-02.10.23:635][204]LogSavePackage:Display: Finished SavePackage C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/BluePrints/BattleScene/BS_Player.uasset
+[2017.02.27-02.10.52:399][795]BlueprintLog: New page: Compile BS_Player
+[2017.02.27-02.13.10:561][105]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.02.27-02.13.10:708][107]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Abyss
+
+[2017.02.27-02.13.10:708][107]LogTemp:Display: CWD: D:\UE4\UE_4.14\Engine\Binaries\DotNet\IOS
+
+[2017.02.27-02.13.10:708][107]LogTemp:Display: Initial Dir: D:\UE4\UE_4.14
+
+[2017.02.27-02.13.10:708][107]LogTemp:Display: Env CWD: D:\UE4\UE_4.14\Engine\Binaries\DotNet\IOS
+
+[2017.02.27-02.13.10:708][107]LogTemp:Display: BranchPath = NATHAN-PC/D/UE4/UE_4.14/Engine/Binaries --- GameBranchPath = NATHAN-PC/D/UE4/UE_4.14/Engine/Binaries
+
+[2017.02.27-02.13.10:731][108]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\nathan\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles'.
+
+[2017.02.27-02.13.10:731][108]LogTemp:Display:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2017.02.27-02.13.10:731][108]LogTemp:Display:    at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2017.02.27-02.13.10:731][108]LogTemp:Display:    at System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2017.02.27-02.13.10:731][108]LogTemp:Display:    at iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2017.02.27-02.13.10:731][108]LogTemp:Display:    at iPhonePackager.Program.Main(String[] args)
+
+[2017.02.27-02.15.32:303][592]BlueprintLog: New page: Compile BS_Enemy
+[2017.02.27-02.15.33:077][621]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BattleScene/BS_enemy" FILE="C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/BluePrints/BattleScene/BS_enemy.uasset" SILENT=true
+[2017.02.27-02.15.33:122][621]LogSavePackage: Save=17.39ms
+[2017.02.27-02.15.33:122][621]LogSavePackage: Moving 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/BS_enemy0DF79158430D3BAF24B0C6BE405389CB.tmp' to 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/BluePrints/BattleScene/BS_enemy.uasset'
+[2017.02.27-02.15.33:127][621]LogSavePackage:Display: Finished SavePackage C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/BluePrints/BattleScene/BS_enemy.uasset
+[2017.02.27-02.16.08:772][640]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps-Levels/Battle_Scene" FILE="C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.02.27-02.16.09:008][640]LogSavePackage: Save=175.54ms
+[2017.02.27-02.16.09:008][640]LogSavePackage: Moving 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/Battle_SceneC2EDB5F84F9B7B94054F55A89D02B2EC.tmp' to 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene.umap'
+[2017.02.27-02.16.09:013][640]LogSavePackage:Display: Finished SavePackage C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene.umap
+[2017.02.27-02.16.09:083][640]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps-Levels/Battle_Scene_BuiltData" FILE="C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene_BuiltData.uasset" SILENT=true
+[2017.02.27-02.16.09:126][640]LogSavePackage: Save=15.99ms
+[2017.02.27-02.16.09:126][640]LogSavePackage: Moving 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/Battle_Scene_BuiltData41C81AC04A9251591AE535ABD8458712.tmp' to 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene_BuiltData.uasset'
+[2017.02.27-02.16.09:128][640]LogSavePackage:Display: Finished SavePackage C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene_BuiltData.uasset
+[2017.02.27-02.16.56:134][115]BlueprintLog: New page: Compile BS_Enemy
+[2017.02.27-02.17.11:422][200]LogEditorViewport: Clicking on Actor (LMB): BS_Enemy_C (BS_Enemy)
+[2017.02.27-02.17.11:894][253]Cmd: DELETE
+[2017.02.27-02.17.11:894][253]Cmd: ACTOR DELETE
+[2017.02.27-02.17.11:894][253]LogEditorActor: Deleted Actor: BS_Enemy_C
+[2017.02.27-02.17.11:921][253]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2017.02.27-02.17.13:082][355]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps-Levels/Battle_Scene" FILE="C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.02.27-02.17.13:278][355]LogSavePackage: Save=149.28ms
+[2017.02.27-02.17.13:278][355]LogSavePackage: Moving 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/Battle_Scene128F077B4D102DCFB7AF3893C8CF949F.tmp' to 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene.umap'
+[2017.02.27-02.17.13:283][355]LogSavePackage:Display: Finished SavePackage C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene.umap
+[2017.02.27-02.17.13:347][355]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps-Levels/Battle_Scene_BuiltData" FILE="C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene_BuiltData.uasset" SILENT=true
+[2017.02.27-02.17.13:402][355]LogSavePackage: Save=31.75ms
+[2017.02.27-02.17.13:402][355]LogSavePackage: Moving 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/Battle_Scene_BuiltDataA7A83C434B4F1C41DF8D55AA9CB0311C.tmp' to 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene_BuiltData.uasset'
+[2017.02.27-02.17.13:404][355]LogSavePackage:Display: Finished SavePackage C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene_BuiltData.uasset
+[2017.02.27-02.17.16:691][599]BlueprintLog: New page: Compile BS_Enemy
+[2017.02.27-02.17.18:362][682]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BattleScene/BS_enemy" FILE="C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/BluePrints/BattleScene/BS_enemy.uasset" SILENT=true
+[2017.02.27-02.17.18:400][682]LogSavePackage: Save=16.72ms
+[2017.02.27-02.17.18:400][682]LogSavePackage: Moving 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/BS_enemy685AB3E04238EE9FBB8A439798558566.tmp' to 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/BluePrints/BattleScene/BS_enemy.uasset'
+[2017.02.27-02.17.18:404][682]LogSavePackage:Display: Finished SavePackage C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/BluePrints/BattleScene/BS_enemy.uasset
+[2017.02.27-02.17.30:761][890]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps-Levels/Battle_Scene" FILE="C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.02.27-02.17.30:965][890]LogSavePackage: Save=152.00ms
+[2017.02.27-02.17.30:965][890]LogSavePackage: Moving 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/Battle_SceneA8BB69274D7489E90F80089FA03F71D7.tmp' to 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene.umap'
+[2017.02.27-02.17.30:969][890]LogSavePackage:Display: Finished SavePackage C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene.umap
+[2017.02.27-02.17.31:027][890]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps-Levels/Battle_Scene_BuiltData" FILE="C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene_BuiltData.uasset" SILENT=true
+[2017.02.27-02.17.31:062][890]LogSavePackage: Save=12.54ms
+[2017.02.27-02.17.31:062][890]LogSavePackage: Moving 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/Battle_Scene_BuiltDataBB10F84C42938205EA297FA9E7EBA847.tmp' to 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene_BuiltData.uasset'
+[2017.02.27-02.17.31:064][890]LogSavePackage:Display: Finished SavePackage C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene_BuiltData.uasset
+[2017.02.27-02.17.31:869][966]MapCheck: New page: Map Check
+[2017.02.27-02.17.31:899][966]Cmd: MAP REBUILD ALLVISIBLE
+[2017.02.27-02.17.31:899][966]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.02.27-02.17.32:072][966]LightingResults: New page: Lighting Build - Feb 26, 2017, 4:17:32 PM
+[2017.02.27-02.17.32:109][966]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.02.27-02.17.32:211][966]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.02.27-02.17.32:222][966]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.02.27-02.17.32:732][966]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.02.27-02.17.32:732][966]LogSwarmInterface: [TryOpenConnection] Local Process ID is 4028
+[2017.02.27-02.17.35:563][966]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.02.27-02.17.35:563][966]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.02.27-02.17.35:563][966]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.02.27-02.17.35:563][966]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.02.27-02.17.35:563][966]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.02.27-02.17.35:563][966]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.02.27-02.17.35:746][966]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.02.27-02.17.35:746][966]MapCheck: New page: Battle_Scene - Feb 26, 2017, 4:17:35 PM
+[2017.02.27-02.17.35:834][966]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 87.723ms to complete.
+[2017.02.27-02.17.35:857][966]LogEditorBuildUtils: Build time 0:03
+[2017.02.27-02.17.37:433][ 35]Job is a success!
+[2017.02.27-02.17.37:571][ 36]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2017.02.27-02.17.37:571][ 36]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2017.02.27-02.17.37:571][ 36]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2017.02.27-02.17.37:571][ 36]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2017.02.27-02.17.37:571][ 36]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8)
+[2017.02.27-02.17.37:571][ 36]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8)
+[2017.02.27-02.17.37:600][ 36]Lightmass on NATHAN-PC: 867 ms total, 138 ms importing, 23 ms setup, 277 ms photons, 398 ms processing, 0 ms extra exporting [2/2 mappings]. Threads: 2.62 sec total, 250 ms processing.
+[2017.02.27-02.17.37:657][ 36]LogStaticLightingSystem: Illumination: 5.54 sec (11 ms encoding lightmaps, 12 ms encoding shadowmaps)
+[2017.02.27-02.17.37:657][ 36]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.02.27-02.17.37:657][ 36]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.02.27-02.17.38:567][ 36]DumpUnbuiltLightIteractions
+[2017.02.27-02.17.38:567][ 36]Lights with unbuilt interactions: 0
+[2017.02.27-02.17.38:567][ 36]
+[2017.02.27-02.17.38:567][ 36]Primitives with unbuilt interactions: 0
+[2017.02.27-02.17.38:590][ 37]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.02.27-02.17.38:590][ 37]MapCheck: New page: Battle_Scene - Feb 26, 2017, 4:17:38 PM
+[2017.02.27-02.17.38:647][ 37]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 56.697ms to complete.
+[2017.02.27-02.17.42:822][419]LogEditorViewport: Clicking on Actor (LMB): BS_Player_C (BS_Player)
+[2017.02.27-02.17.55:132][516]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.02.27-02.17.55:679][569]LogEditorViewport: Clicking on Actor (LMB): BS_Player_C (BS_Player)
+[2017.02.27-02.17.59:738][934]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps-Levels/Battle_Scene" FILE="C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.02.27-02.17.59:939][934]LogSavePackage: Save=151.57ms
+[2017.02.27-02.17.59:940][934]LogSavePackage: Moving 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/Battle_SceneC13C38284F1F41CAC572E481080D8475.tmp' to 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene.umap'
+[2017.02.27-02.17.59:944][934]LogSavePackage:Display: Finished SavePackage C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene.umap
+[2017.02.27-02.18.00:004][934]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps-Levels/Battle_Scene_BuiltData" FILE="C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene_BuiltData.uasset" SILENT=true
+[2017.02.27-02.18.00:037][934]LogSavePackage: Save=12.29ms
+[2017.02.27-02.18.00:037][934]LogSavePackage: Moving 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/Battle_Scene_BuiltData56A667854E1E07710A0CF191CE491B67.tmp' to 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene_BuiltData.uasset'
+[2017.02.27-02.18.00:042][934]LogSavePackage:Display: Finished SavePackage C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene_BuiltData.uasset
+[2017.02.27-02.18.00:576][972]LogTemp: Repeting last play command: Selected Viewport
+[2017.02.27-02.18.00:610][972]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel.Battle_Scene' with GeneratedClass '/Game/Maps-Levels/Battle_Scene.Battle_Scene_C' with ClassGeneratedBy '/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel.Battle_Scene'
+[2017.02.27-02.18.00:610][972]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.27-02.18.00:610][972]PIE: New page: PIE session: Battle_Scene (Feb 26, 2017, 4:18:00 PM)
+[2017.02.27-02.18.00:610][972]LogPlayLevel: Creating play world package: /Game/Maps-Levels/UEDPIE_0_Battle_Scene
+[2017.02.27-02.18.00:613][972]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003182s)
+[2017.02.27-02.18.00:614][972]LogAIModule: Creating AISystem for world Battle_Scene
+[2017.02.27-02.18.00:614][972]LogPlayLevel: PIE: World Init took: (0.001028s)
+[2017.02.27-02.18.00:614][972]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps-Levels/Battle_Scene.Battle_Scene to /Game/Maps-Levels/UEDPIE_0_Battle_Scene.Battle_Scene (0.004497s)
+[2017.02.27-02.18.00:646][972]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.02.27-02.18.00:663][972]LogInit: FAudioDevice initialized.
+[2017.02.27-02.18.00:694][972]LogLoad: Game class is 'abyssBattleScene_C'
+[2017.02.27-02.18.00:698][972]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_Battle_Scene.Battle_Scene up for play (max tick rate 0) at 2017.02.26-21.18.00
+[2017.02.27-02.18.00:720][972]LogWorld: Bringing up level for play took: 0.023015
+[2017.02.27-02.18.00:723][972]PIE: Info Play in editor start time for /Game/Maps-Levels/UEDPIE_0_Battle_Scene 0.683
+[2017.02.27-02.18.00:723][972]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel.Battle_Scene' with GeneratedClass '/Game/Maps-Levels/Battle_Scene.Battle_Scene_C' with ClassGeneratedBy '/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel.Battle_Scene'
+[2017.02.27-02.18.54:974][306]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel.Battle_Scene' with GeneratedClass '/Game/Maps-Levels/Battle_Scene.Battle_Scene_C' with ClassGeneratedBy '/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel.Battle_Scene'
+[2017.02.27-02.18.55:052][306]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel.Battle_Scene' with GeneratedClass '/Game/Maps-Levels/Battle_Scene.Battle_Scene_C' with ClassGeneratedBy '/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel.Battle_Scene'
+[2017.02.27-02.19.07:568][375]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps-Levels/Battle_Scene" FILE="C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.02.27-02.19.07:769][375]LogSavePackage: Save=153.87ms
+[2017.02.27-02.19.07:777][375]LogSavePackage: Moving 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/Battle_Scene8170AEF84E203C23137CE3BBBC9E1514.tmp' to 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene.umap'
+[2017.02.27-02.19.07:781][375]LogSavePackage:Display: Finished SavePackage C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene.umap
+[2017.02.27-02.19.07:840][375]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps-Levels/Battle_Scene_BuiltData" FILE="C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene_BuiltData.uasset" SILENT=true
+[2017.02.27-02.19.07:876][375]LogSavePackage: Save=12.61ms
+[2017.02.27-02.19.07:876][375]LogSavePackage: Moving 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/Battle_Scene_BuiltData30BC1E434CBB73303D143E8F4686F6B8.tmp' to 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene_BuiltData.uasset'
+[2017.02.27-02.19.07:877][375]LogSavePackage:Display: Finished SavePackage C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene_BuiltData.uasset
+[2017.02.27-02.19.08:287][407]LogTemp: Repeting last play command: Selected Viewport
+[2017.02.27-02.19.08:316][407]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel.Battle_Scene' with GeneratedClass '/Game/Maps-Levels/Battle_Scene.Battle_Scene_C' with ClassGeneratedBy '/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel.Battle_Scene'
+[2017.02.27-02.19.08:316][407]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.27-02.19.08:316][407]PIE: New page: PIE session: Battle_Scene (Feb 26, 2017, 4:19:08 PM)
+[2017.02.27-02.19.08:317][407]LogPlayLevel: Creating play world package: /Game/Maps-Levels/UEDPIE_0_Battle_Scene
+[2017.02.27-02.19.08:320][407]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003605s)
+[2017.02.27-02.19.08:321][407]LogAIModule: Creating AISystem for world Battle_Scene
+[2017.02.27-02.19.08:321][407]LogPlayLevel: PIE: World Init took: (0.001236s)
+[2017.02.27-02.19.08:322][407]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps-Levels/Battle_Scene.Battle_Scene to /Game/Maps-Levels/UEDPIE_0_Battle_Scene.Battle_Scene (0.005144s)
+[2017.02.27-02.19.08:356][407]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.02.27-02.19.08:372][407]LogInit: FAudioDevice initialized.
+[2017.02.27-02.19.08:402][407]LogLoad: Game class is 'abyssBattleScene_C'
+[2017.02.27-02.19.08:406][407]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_Battle_Scene.Battle_Scene up for play (max tick rate 0) at 2017.02.26-21.19.08
+[2017.02.27-02.19.08:406][407]LogWorld: Bringing up level for play took: 0.001468
+[2017.02.27-02.19.08:409][407]PIE: Info Play in editor start time for /Game/Maps-Levels/UEDPIE_0_Battle_Scene 0.369
+[2017.02.27-02.19.08:409][407]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel.Battle_Scene' with GeneratedClass '/Game/Maps-Levels/Battle_Scene.Battle_Scene_C' with ClassGeneratedBy '/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel.Battle_Scene'
+[2017.02.27-02.19.12:316][843]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel.Battle_Scene' with GeneratedClass '/Game/Maps-Levels/Battle_Scene.Battle_Scene_C' with ClassGeneratedBy '/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel.Battle_Scene'
+[2017.02.27-02.19.12:395][843]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel.Battle_Scene' with GeneratedClass '/Game/Maps-Levels/Battle_Scene.Battle_Scene_C' with ClassGeneratedBy '/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel.Battle_Scene'
+[2017.02.27-02.19.22:849][794]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps-Levels/Battle_Scene" FILE="C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.02.27-02.19.23:042][794]LogSavePackage: Save=148.36ms
+[2017.02.27-02.19.23:042][794]LogSavePackage: Moving 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/Battle_SceneB79516D84CA3621A917552840A62F2B4.tmp' to 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene.umap'
+[2017.02.27-02.19.23:046][794]LogSavePackage:Display: Finished SavePackage C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene.umap
+[2017.02.27-02.19.23:110][794]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps-Levels/Battle_Scene_BuiltData" FILE="C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene_BuiltData.uasset" SILENT=true
+[2017.02.27-02.19.23:142][794]LogSavePackage: Save=11.99ms
+[2017.02.27-02.19.23:143][794]LogSavePackage: Moving 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/Battle_Scene_BuiltData2CD07D44490D414FA8B44EBCC65E5905.tmp' to 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene_BuiltData.uasset'
+[2017.02.27-02.19.23:145][794]LogSavePackage:Display: Finished SavePackage C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene_BuiltData.uasset
+[2017.02.27-02.19.23:704][833]LogTemp: Repeting last play command: Selected Viewport
+[2017.02.27-02.19.23:733][833]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel.Battle_Scene' with GeneratedClass '/Game/Maps-Levels/Battle_Scene.Battle_Scene_C' with ClassGeneratedBy '/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel.Battle_Scene'
+[2017.02.27-02.19.23:733][833]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.27-02.19.23:733][833]PIE: New page: PIE session: Battle_Scene (Feb 26, 2017, 4:19:23 PM)
+[2017.02.27-02.19.23:733][833]LogPlayLevel: Creating play world package: /Game/Maps-Levels/UEDPIE_0_Battle_Scene
+[2017.02.27-02.19.23:737][833]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003925s)
+[2017.02.27-02.19.23:738][833]LogAIModule: Creating AISystem for world Battle_Scene
+[2017.02.27-02.19.23:739][833]LogPlayLevel: PIE: World Init took: (0.001236s)
+[2017.02.27-02.19.23:739][833]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps-Levels/Battle_Scene.Battle_Scene to /Game/Maps-Levels/UEDPIE_0_Battle_Scene.Battle_Scene (0.005490s)
+[2017.02.27-02.19.23:770][833]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.02.27-02.19.23:785][833]LogInit: FAudioDevice initialized.
+[2017.02.27-02.19.23:816][833]LogLoad: Game class is 'abyssBattleScene_C'
+[2017.02.27-02.19.23:819][833]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_Battle_Scene.Battle_Scene up for play (max tick rate 0) at 2017.02.26-21.19.23
+[2017.02.27-02.19.23:820][833]LogWorld: Bringing up level for play took: 0.001910
+[2017.02.27-02.19.23:823][833]PIE: Info Play in editor start time for /Game/Maps-Levels/UEDPIE_0_Battle_Scene -0.217
+[2017.02.27-02.19.23:823][833]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel.Battle_Scene' with GeneratedClass '/Game/Maps-Levels/Battle_Scene.Battle_Scene_C' with ClassGeneratedBy '/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel.Battle_Scene'
+[2017.02.27-02.19.25:781][ 29]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps-Levels/Battle_Scene" FILE="C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.02.27-02.19.25:981][ 29]LogSavePackage: Save=152.68ms
+[2017.02.27-02.19.25:981][ 29]LogSavePackage: Moving 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/Battle_Scene47FC611D4C009266BA582CA1A522ADA2.tmp' to 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene.umap'
+[2017.02.27-02.19.25:983][ 29]LogSavePackage:Display: Finished SavePackage C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene.umap
+[2017.02.27-02.19.26:039][ 29]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps-Levels/Battle_Scene_BuiltData" FILE="C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene_BuiltData.uasset" SILENT=true
+[2017.02.27-02.19.26:071][ 29]LogSavePackage: Save=12.00ms
+[2017.02.27-02.19.26:071][ 29]LogSavePackage: Moving 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/Battle_Scene_BuiltData82B440504E79F172B085D69FEF099646.tmp' to 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene_BuiltData.uasset'
+[2017.02.27-02.19.26:073][ 29]LogSavePackage:Display: Finished SavePackage C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene_BuiltData.uasset
+[2017.02.27-02.19.26:848][114]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel.Battle_Scene' with GeneratedClass '/Game/Maps-Levels/Battle_Scene.Battle_Scene_C' with ClassGeneratedBy '/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel.Battle_Scene'
+[2017.02.27-02.19.26:922][114]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel.Battle_Scene' with GeneratedClass '/Game/Maps-Levels/Battle_Scene.Battle_Scene_C' with ClassGeneratedBy '/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel.Battle_Scene'
+[2017.02.27-02.19.39:073][135]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2017.02.27-02.19.47:879][954]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps-Levels/Battle_Scene" FILE="C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.02.27-02.19.48:083][954]LogSavePackage: Save=155.09ms
+[2017.02.27-02.19.48:083][954]LogSavePackage: Moving 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/Battle_Scene769B8E5E4E56D07379E53F8F518C82DC.tmp' to 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene.umap'
+[2017.02.27-02.19.48:085][954]LogSavePackage:Display: Finished SavePackage C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene.umap
+[2017.02.27-02.19.48:145][954]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps-Levels/Battle_Scene_BuiltData" FILE="C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene_BuiltData.uasset" SILENT=true
+[2017.02.27-02.19.48:178][954]LogSavePackage: Save=12.44ms
+[2017.02.27-02.19.48:178][954]LogSavePackage: Moving 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/Battle_Scene_BuiltData177F0C6841C83BDBFC177AB073E8CE16.tmp' to 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene_BuiltData.uasset'
+[2017.02.27-02.19.48:180][954]LogSavePackage:Display: Finished SavePackage C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene_BuiltData.uasset
+[2017.02.27-02.29.48:635][946]LogSavePackage: Save=156.73ms
+[2017.02.27-02.29.48:635][946]LogSavePackage: Moving 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/Battle_Scene_Auto5AA2B3AC14D43AAF687D14B934BC65EF2.tmp' to 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/Autosaves/Game/Maps-Levels/Battle_Scene_Auto5.umap'
+[2017.02.27-02.29.48:637][946]LogSavePackage:Display: Finished SavePackage C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/Autosaves/Game/Maps-Levels/Battle_Scene_Auto5.umap
+[2017.02.27-02.29.48:640][946]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps-Levels/Battle_Scene' took 0.216
+[2017.02.27-02.29.48:640][946]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.216
+[2017.02.27-02.29.48:642][946]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrints/BattleScene/BS_Player] ([1] browsable assets)...
+[2017.02.27-02.29.48:642][946]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/BattleScene/BS_Player]
+[2017.02.27-02.29.48:736][946]LogSavePackage: Save=65.85ms
+[2017.02.27-02.29.48:736][946]LogSavePackage: Moving 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/BS_Player_Auto5DC2691C143040FEDF8396EBE14024D05.tmp' to 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/Autosaves/Game/BluePrints/BattleScene/BS_Player_Auto5.uasset'
+[2017.02.27-02.29.48:738][946]LogSavePackage:Display: Finished SavePackage C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/Autosaves/Game/BluePrints/BattleScene/BS_Player_Auto5.uasset
+[2017.02.27-02.29.48:738][946]LogFileHelpers: Auto-saving content packages took 0.097
+[2017.02.27-02.36.40:487][632]BlueprintLog: New page: Compile Battle_Scene
+[2017.02.27-02.39.48:882][604]LogSavePackage: Save=161.68ms
+[2017.02.27-02.39.48:882][604]LogSavePackage: Moving 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/Battle_Scene_Auto6A616820948EF6C872C56EDAB478A1555.tmp' to 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/Autosaves/Game/Maps-Levels/Battle_Scene_Auto6.umap'
+[2017.02.27-02.39.48:884][604]LogSavePackage:Display: Finished SavePackage C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/Autosaves/Game/Maps-Levels/Battle_Scene_Auto6.umap
+[2017.02.27-02.39.48:888][604]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps-Levels/Battle_Scene' took 0.226
+[2017.02.27-02.39.48:888][604]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.226
+[2017.02.27-02.40.25:724][873]BlueprintLog: New page: Compile Battle_Scene
+[2017.02.27-02.44.57:229][ 53]BlueprintLog: New page: Compile Battle_Scene
+[2017.02.27-02.44.57:242][ 53]LogBlueprint:Error: [Compiler PersistentLevel.Battle_Scene] Error Internal Compiler Error:  Tried to create a property alive in scope isAlive, but BoolProperty /Game/Maps-Levels/Battle_Scene.Battle_Scene_C:isAlive.alive already exists there.
+[2017.02.27-02.44.57:516][ 53]BlueprintEditorCompileResults:Error: Error Internal Compiler Error:  Tried to create a property alive in scope isAlive, but BoolProperty /Game/Maps-Levels/Battle_Scene.Battle_Scene_C:isAlive.alive already exists there.
+[2017.02.27-02.44.57:516][ 53]LogBlueprint:Warning: [Compiler PersistentLevel.Battle_Scene] Warning [5570.45] Compile of PersistentLevel.Battle_Scene failed. 1 Fatal Issue(s) 0 Warning(s) [in 286 ms] (/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel.Battle_Scene)
+[2017.02.27-02.45.32:265][142]BlueprintLog: New page: Compile Battle_Scene
+[2017.02.27-02.48.04:380][845]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps-Levels/Battle_Scene" FILE="C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.02.27-02.48.04:612][845]LogSavePackage: Save=169.87ms
+[2017.02.27-02.48.04:612][845]LogSavePackage: Moving 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/Battle_SceneF76313D04CBBD27618D416B768CDD5A6.tmp' to 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene.umap'
+[2017.02.27-02.48.04:619][845]LogSavePackage:Display: Finished SavePackage C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene.umap
+[2017.02.27-02.48.04:682][845]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps-Levels/Battle_Scene_BuiltData" FILE="C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene_BuiltData.uasset" SILENT=true
+[2017.02.27-02.48.04:722][845]LogSavePackage: Save=11.83ms
+[2017.02.27-02.48.04:722][845]LogSavePackage: Moving 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/Battle_Scene_BuiltData3B0EC5844ED4470FBCE8D2A488D70340.tmp' to 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene_BuiltData.uasset'
+[2017.02.27-02.48.04:724][845]LogSavePackage:Display: Finished SavePackage C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene_BuiltData.uasset
+[2017.02.27-02.49.05:063][456]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps-Levels/Battle_Scene" FILE="C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.02.27-02.49.05:282][456]LogSavePackage: Save=172.37ms
+[2017.02.27-02.49.05:282][456]LogSavePackage: Moving 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/Battle_SceneFACFEDC946E13B41DC1F7682CCA21D35.tmp' to 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene.umap'
+[2017.02.27-02.49.05:285][456]LogSavePackage:Display: Finished SavePackage C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene.umap
+[2017.02.27-02.49.05:345][456]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps-Levels/Battle_Scene_BuiltData" FILE="C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene_BuiltData.uasset" SILENT=true
+[2017.02.27-02.49.05:381][456]LogSavePackage: Save=12.35ms
+[2017.02.27-02.49.05:381][456]LogSavePackage: Moving 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/Battle_Scene_BuiltData15C7C6164CA14323B51BEAA23BCD50B1.tmp' to 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene_BuiltData.uasset'
+[2017.02.27-02.49.05:382][456]LogSavePackage:Display: Finished SavePackage C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene_BuiltData.uasset
+[2017.02.27-02.52.13:838][402]BlueprintLog: New page: Compile Battle_Scene
+[2017.02.27-02.53.20:531][859]BlueprintLog: New page: Compile Battle_Scene
+[2017.02.27-02.53.41:376][164]BlueprintLog: New page: Compile Battle_Scene
+[2017.02.27-02.53.52:621][348]BlueprintLog: New page: Compile Battle_Scene
+[2017.02.27-02.54.25:862][145]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps-Levels/Battle_Scene" FILE="C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.02.27-02.54.26:087][145]LogSavePackage: Save=168.05ms
+[2017.02.27-02.54.26:087][145]LogSavePackage: Moving 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/Battle_Scene065625A74D2FC9048F3CBA9A39753F55.tmp' to 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene.umap'
+[2017.02.27-02.54.26:091][145]LogSavePackage:Display: Finished SavePackage C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene.umap
+[2017.02.27-02.54.26:153][145]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps-Levels/Battle_Scene_BuiltData" FILE="C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene_BuiltData.uasset" SILENT=true
+[2017.02.27-02.54.26:193][145]LogSavePackage: Save=12.13ms
+[2017.02.27-02.54.26:193][145]LogSavePackage: Moving 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/Battle_Scene_BuiltDataCD3E79644B5C563269E6C4B8CB8ACBD0.tmp' to 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene_BuiltData.uasset'
+[2017.02.27-02.54.26:195][145]LogSavePackage:Display: Finished SavePackage C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene_BuiltData.uasset
+[2017.02.27-02.59.56:357][903]BlueprintLog: New page: Compile Battle_Scene
+[2017.02.27-02.59.56:388][903]LogBlueprint:Warning: [Compiler PersistentLevel.Battle_Scene] Warning 'BS Enemy' does not inherit from 'BS Player' ( K2Node_DynamicCast_2  would always fail).
+[2017.02.27-02.59.56:500][903]BlueprintEditorCompileResults:Warning: Warning 'BS Enemy' does not inherit from 'BS Player' ( K2Node_DynamicCast_2  would always fail).
+[2017.02.27-02.59.56:500][903]LogBlueprint:Warning: [Compiler PersistentLevel.Battle_Scene] Warning [6469.44] Compile of PersistentLevel.Battle_Scene successful, but with 1 Warning(s) [in 143 ms] (/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel.Battle_Scene)
+[2017.02.27-03.03.20:872][600]LogMetaData: Removing '/Game/BluePrints/BattleScene/BS_Actor.BS_Actor:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/BluePrints/BattleScene/NewBlueprint.PackageMetaData'
+[2017.02.27-03.03.20:872][600]LogMetaData: Removing '/Game/BluePrints/BattleScene/BS_Actor.SKEL_BS_Actor_C' ref from Metadata '/Game/BluePrints/BattleScene/NewBlueprint.PackageMetaData'
+[2017.02.27-03.03.20:872][600]LogMetaData: Removing '/Game/BluePrints/BattleScene/BS_Actor.BS_Actor_C' ref from Metadata '/Game/BluePrints/BattleScene/NewBlueprint.PackageMetaData'
+[2017.02.27-03.03.20:872][600]LogMetaData: Removing '/Game/BluePrints/BattleScene/BS_Actor.BS_Actor:EventGraph.K2Node_Event_0' ref from Metadata '/Game/BluePrints/BattleScene/NewBlueprint.PackageMetaData'
+[2017.02.27-03.03.20:872][600]LogMetaData: Removing '/Game/BluePrints/BattleScene/BS_Actor.BS_Actor:EventGraph.K2Node_Event_1' ref from Metadata '/Game/BluePrints/BattleScene/NewBlueprint.PackageMetaData'
+[2017.02.27-03.03.20:872][600]LogMetaData: Removing '/Game/BluePrints/BattleScene/BS_Actor.BS_Actor:EventGraph.K2Node_Event_2' ref from Metadata '/Game/BluePrints/BattleScene/NewBlueprint.PackageMetaData'
+[2017.02.27-03.03.20:916][600]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BattleScene/BS_Actor" FILE="C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/BluePrints/BattleScene/BS_Actor.uasset" SILENT=true
+[2017.02.27-03.03.20:934][600]LogSavePackage: Save=14.96ms
+[2017.02.27-03.03.20:934][600]LogSavePackage: Moving 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/BS_Actor223D36634514C04DD2B6EEA3CE5A9CBC.tmp' to 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/BluePrints/BattleScene/BS_Actor.uasset'
+[2017.02.27-03.03.20:938][600]LogSavePackage:Display: Finished SavePackage C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/BluePrints/BattleScene/BS_Actor.uasset
+[2017.02.27-03.04.28:152][472]LogBlueprint:Warning: [BS_Actor] 'hit' variable not found. Base class was probably changed.
+[2017.02.27-03.04.28:152][472]LogBlueprint:Warning: [BS_Actor] 'hit' variable not found. Base class was probably changed.
+[2017.02.27-03.04.28:153][472]LogBlueprint:Warning: [BS_Actor] 'hit' variable not found. Base class was probably changed.
+[2017.02.27-03.04.28:153][472]LogBlueprint:Warning: [BS_Actor] 'hit' variable not found. Base class was probably changed.
+[2017.02.27-03.05.12:600][553]BlueprintLog: New page: Compile BS_Actor
+[2017.02.27-03.05.12:623][553]LogBlueprint:Warning: [Compiler BS_Actor] Warning Could not find a variable named "hit" in 'BS_Actor_C'.
+Make sure 'BS_Actor_C' has been compiled for  K2Node_VariableSet_46
+[2017.02.27-03.05.12:623][553]LogBlueprint:Warning: [Compiler BS_Actor] Warning Could not find a variable named "hit" in 'BS_Actor_C'.
+Make sure 'BS_Actor_C' has been compiled for  K2Node_VariableSet_20
+[2017.02.27-03.05.12:628][553]LogBlueprint:Error: [Compiler BS_Actor] Error The property associated with  hit  could not be found
+[2017.02.27-03.05.12:628][553]LogBlueprint:Error: [Compiler BS_Actor] Error The property associated with  hit  could not be found
+[2017.02.27-03.05.12:910][553]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "hit" in 'BS_Actor_C'.
+Make sure 'BS_Actor_C' has been compiled for  K2Node_VariableSet_46
+[2017.02.27-03.05.12:910][553]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "hit" in 'BS_Actor_C'.
+Make sure 'BS_Actor_C' has been compiled for  K2Node_VariableSet_20
+[2017.02.27-03.05.12:910][553]BlueprintEditorCompileResults:Error: Error The property associated with  hit  could not be found
+[2017.02.27-03.05.12:910][553]BlueprintEditorCompileResults:Error: Error The property associated with  hit  could not be found
+[2017.02.27-03.05.12:910][553]LogBlueprint:Warning: [Compiler BS_Actor] Warning [6785.85] Compile of BS_Actor failed. 2 Fatal Issue(s) 2 Warning(s) [in 309 ms] (/Game/BluePrints/BattleScene/BS_Actor.BS_Actor)
+[2017.02.27-03.05.21:177][336]BlueprintLog: New page: Compile BS_Actor
+[2017.02.27-03.05.21:184][336]LogBlueprint:Warning: [Compiler BS_Actor] Warning Could not find a variable named "hit" in 'BS_Actor_C'.
+Make sure 'BS_Actor_C' has been compiled for  K2Node_VariableSet_46
+[2017.02.27-03.05.21:185][336]LogBlueprint:Warning: [Compiler BS_Actor] Warning Could not find a variable named "hit" in 'BS_Actor_C'.
+Make sure 'BS_Actor_C' has been compiled for  K2Node_VariableSet_20
+[2017.02.27-03.05.21:185][336]LogBlueprint:Error: [Compiler BS_Actor] Error The property associated with  hit  could not be found
+[2017.02.27-03.05.21:185][336]LogBlueprint:Error: [Compiler BS_Actor] Error The property associated with  hit  could not be found
+[2017.02.27-03.05.21:387][336]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "hit" in 'BS_Actor_C'.
+Make sure 'BS_Actor_C' has been compiled for  K2Node_VariableSet_46
+[2017.02.27-03.05.21:387][336]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "hit" in 'BS_Actor_C'.
+Make sure 'BS_Actor_C' has been compiled for  K2Node_VariableSet_20
+[2017.02.27-03.05.21:387][336]BlueprintEditorCompileResults:Error: Error The property associated with  hit  could not be found
+[2017.02.27-03.05.21:387][336]BlueprintEditorCompileResults:Error: Error The property associated with  hit  could not be found
+[2017.02.27-03.05.21:387][336]LogBlueprint:Warning: [Compiler BS_Actor] Warning [6794.32] Compile of BS_Actor failed. 2 Fatal Issue(s) 2 Warning(s) [in 209 ms] (/Game/BluePrints/BattleScene/BS_Actor.BS_Actor)
+[2017.02.27-03.05.35:413][478]BlueprintLog: New page: Compile BS_Actor
+[2017.02.27-03.05.35:421][478]LogBlueprint:Warning: [Compiler BS_Actor] Warning Could not find a variable named "hit" in 'BS_Actor_C'.
+Make sure 'BS_Actor_C' has been compiled for  K2Node_VariableSet_46
+[2017.02.27-03.05.35:421][478]LogBlueprint:Warning: [Compiler BS_Actor] Warning Could not find a variable named "hit" in 'BS_Actor_C'.
+Make sure 'BS_Actor_C' has been compiled for  K2Node_VariableSet_20
+[2017.02.27-03.05.35:421][478]LogBlueprint:Error: [Compiler BS_Actor] Error The property associated with  hit  could not be found
+[2017.02.27-03.05.35:421][478]LogBlueprint:Error: [Compiler BS_Actor] Error The property associated with  hit  could not be found
+[2017.02.27-03.05.35:625][478]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "hit" in 'BS_Actor_C'.
+Make sure 'BS_Actor_C' has been compiled for  K2Node_VariableSet_46
+[2017.02.27-03.05.35:625][478]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "hit" in 'BS_Actor_C'.
+Make sure 'BS_Actor_C' has been compiled for  K2Node_VariableSet_20
+[2017.02.27-03.05.35:625][478]BlueprintEditorCompileResults:Error: Error The property associated with  hit  could not be found
+[2017.02.27-03.05.35:626][478]BlueprintEditorCompileResults:Error: Error The property associated with  hit  could not be found
+[2017.02.27-03.05.35:626][478]LogBlueprint:Warning: [Compiler BS_Actor] Warning [6808.56] Compile of BS_Actor failed. 2 Fatal Issue(s) 2 Warning(s) [in 213 ms] (/Game/BluePrints/BattleScene/BS_Actor.BS_Actor)
+[2017.02.27-03.05.46:605][490]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BattleScene/BS_Actor" FILE="C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/BluePrints/BattleScene/BS_Actor.uasset" SILENT=true
+[2017.02.27-03.05.46:658][490]LogSavePackage: Save=20.91ms
+[2017.02.27-03.05.46:658][490]LogSavePackage: Moving 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/BS_ActorC35B9AC248511BB81D5DF7BE3C923436.tmp' to 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/BluePrints/BattleScene/BS_Actor.uasset'
+[2017.02.27-03.05.46:661][490]LogSavePackage:Display: Finished SavePackage C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/BluePrints/BattleScene/BS_Actor.uasset
+[2017.02.27-03.05.47:721][596]BlueprintLog: New page: Compile BS_Actor
+[2017.02.27-03.05.47:729][596]LogBlueprint:Warning: [Compiler BS_Actor] Warning Could not find a variable named "hit" in 'BS_Actor_C'.
+Make sure 'BS_Actor_C' has been compiled for  K2Node_VariableSet_46
+[2017.02.27-03.05.47:730][596]LogBlueprint:Warning: [Compiler BS_Actor] Warning Could not find a variable named "hit" in 'BS_Actor_C'.
+Make sure 'BS_Actor_C' has been compiled for  K2Node_VariableSet_20
+[2017.02.27-03.05.47:730][596]LogBlueprint:Error: [Compiler BS_Actor] Error The property associated with  hit  could not be found
+[2017.02.27-03.05.47:730][596]LogBlueprint:Error: [Compiler BS_Actor] Error The property associated with  hit  could not be found
+[2017.02.27-03.05.47:938][596]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "hit" in 'BS_Actor_C'.
+Make sure 'BS_Actor_C' has been compiled for  K2Node_VariableSet_46
+[2017.02.27-03.05.47:938][596]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "hit" in 'BS_Actor_C'.
+Make sure 'BS_Actor_C' has been compiled for  K2Node_VariableSet_20
+[2017.02.27-03.05.47:938][596]BlueprintEditorCompileResults:Error: Error The property associated with  hit  could not be found
+[2017.02.27-03.05.47:938][596]BlueprintEditorCompileResults:Error: Error The property associated with  hit  could not be found
+[2017.02.27-03.05.47:938][596]LogBlueprint:Warning: [Compiler BS_Actor] Warning [6820.87] Compile of BS_Actor failed. 2 Fatal Issue(s) 2 Warning(s) [in 217 ms] (/Game/BluePrints/BattleScene/BS_Actor.BS_Actor)
+[2017.02.27-03.07.00:916][227]BlueprintLog: New page: Compile BS_Actor
+[2017.02.27-03.08.30:190][259]LogBlueprint:Warning: [Compiler PersistentLevel.Battle_Scene] Warning 'BS Enemy' does not inherit from 'BS Player' ( K2Node_DynamicCast_2  would always fail).
+[2017.02.27-03.08.30:193][259]LogBlueprint:Warning: [Compiler PersistentLevel.Battle_Scene] Warning [6983.13] Compile of PersistentLevel.Battle_Scene successful, but with 1 Warning(s) [in 7 ms] (/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel.Battle_Scene)
+[2017.02.27-03.08.30:193][259]LogBlueprint:Warning: [Compiler PersistentLevel.Battle_Scene] Warning [6983.13] Compile of PersistentLevel.Battle_Scene successful, but with 2 Warning(s) [in 0 ms] (/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel.Battle_Scene)
+[2017.02.27-03.08.30:194][259]LogBlueprint:Warning: [Compiler PersistentLevel.Battle_Scene] Warning [6983.13] Compile of PersistentLevel.Battle_Scene successful, but with 3 Warning(s) [in 0 ms] (/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel.Battle_Scene)
+[2017.02.27-03.08.30:282][259]LogBlueprint:Warning: [Compiler PersistentLevel.Battle_Scene] Warning [6983.22] Compile of PersistentLevel.Battle_Scene successful, but with 4 Warning(s) [in 88 ms] (/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel.Battle_Scene)
+[2017.02.27-03.08.30:285][259]LogBlueprint:Warning: [Compiler PersistentLevel.Battle_Scene] Warning [6983.22] Compile of PersistentLevel.Battle_Scene successful, but with 5 Warning(s) [in 3 ms] (/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel.Battle_Scene)
+[2017.02.27-03.08.30:285][259]LogBlueprint:Warning: [Compiler PersistentLevel.Battle_Scene] Warning [6983.22] Compile of PersistentLevel.Battle_Scene successful, but with 6 Warning(s) [in 0 ms] (/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel.Battle_Scene)
+[2017.02.27-03.08.30:373][259]LogSavePackage: Save=195.07ms
+[2017.02.27-03.08.30:373][259]LogSavePackage: Moving 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/Battle_Scene_Auto799D7C9204532A272DC7EEB9ADE1ECE43.tmp' to 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/Autosaves/Game/Maps-Levels/Battle_Scene_Auto7.umap'
+[2017.02.27-03.08.30:375][259]LogSavePackage:Display: Finished SavePackage C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/Autosaves/Game/Maps-Levels/Battle_Scene_Auto7.umap
+[2017.02.27-03.08.30:378][259]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps-Levels/Battle_Scene' took 0.257
+[2017.02.27-03.08.30:378][259]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.257
+[2017.02.27-03.08.30:380][259]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrints/BattleScene/BS_Player] ([1] browsable assets)...
+[2017.02.27-03.08.30:380][259]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/BattleScene/BS_Player]
+[2017.02.27-03.08.30:475][259]LogSavePackage: Save=66.08ms
+[2017.02.27-03.08.30:475][259]LogSavePackage: Moving 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/BS_Player_Auto798559B3F40ED48022240968A770C9027.tmp' to 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/Autosaves/Game/BluePrints/BattleScene/BS_Player_Auto7.uasset'
+[2017.02.27-03.08.30:477][259]LogSavePackage:Display: Finished SavePackage C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/Autosaves/Game/BluePrints/BattleScene/BS_Player_Auto7.uasset
+[2017.02.27-03.08.30:485][259]LogSavePackage: Save=4.77ms
+[2017.02.27-03.08.30:485][259]LogSavePackage: Moving 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/NewBlueprint_Auto77686D94543D06FBF7A3D02B75CEBB6EE.tmp' to 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/Autosaves/Game/BluePrints/BattleScene/NewBlueprint_Auto7.uasset'
+[2017.02.27-03.08.30:487][259]LogSavePackage:Display: Finished SavePackage C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/Autosaves/Game/BluePrints/BattleScene/NewBlueprint_Auto7.uasset
+[2017.02.27-03.08.30:488][259]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrints/BattleScene/BS_Actor] ([1] browsable assets)...
+[2017.02.27-03.08.30:488][259]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/BattleScene/BS_Actor]
+[2017.02.27-03.08.30:531][259]LogSavePackage: Save=21.96ms
+[2017.02.27-03.08.30:531][259]LogSavePackage: Moving 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/BS_Actor_Auto78077D4F346CC259FE85E4796FA6EC3D5.tmp' to 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/Autosaves/Game/BluePrints/BattleScene/BS_Actor_Auto7.uasset'
+[2017.02.27-03.08.30:533][259]LogSavePackage:Display: Finished SavePackage C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/Autosaves/Game/BluePrints/BattleScene/BS_Actor_Auto7.uasset
+[2017.02.27-03.08.30:533][259]LogFileHelpers: Auto-saving content packages took 0.153
+[2017.02.27-03.15.34:601][299]BlueprintLog: New page: Compile BS_Player
+[2017.02.27-03.15.39:452][639]BlueprintLog: New page: Compile BS_Player
+[2017.02.27-03.16.06:728][705]LogBlueprint:Warning: [BS_Actor] 'damage' variable not found. Base class was probably changed.
+[2017.02.27-03.16.06:728][705]LogBlueprint:Warning: [BS_Actor] 'damage' variable not found. Base class was probably changed.
+[2017.02.27-03.16.06:728][705]LogBlueprint:Warning: [BS_Actor] 'damage' variable not found. Base class was probably changed.
+[2017.02.27-03.16.06:728][705]LogBlueprint:Warning: [BS_Actor] 'damage' variable not found. Base class was probably changed.
+[2017.02.27-03.16.06:728][705]LogBlueprint:Warning: [BS_Actor] 'damage' variable not found. Base class was probably changed.
+[2017.02.27-03.16.06:728][705]LogBlueprint:Warning: [BS_Actor] 'damage' variable not found. Base class was probably changed.
+[2017.02.27-03.16.06:728][705]LogBlueprint:Warning: [BS_Actor] 'damage' variable not found. Base class was probably changed.
+[2017.02.27-03.16.47:394][907]BlueprintLog: New page: Compile BS_Actor
+[2017.02.27-03.16.47:408][907]LogBlueprint:Warning: [Compiler BS_Actor] Warning Could not find a variable named "damage" in 'BS_Actor_C'.
+Make sure 'BS_Actor_C' has been compiled for  K2Node_VariableSet_78
+[2017.02.27-03.16.47:408][907]LogBlueprint:Warning: [Compiler BS_Actor] Warning Could not find a variable named "damage" in 'BS_Actor_C'.
+Make sure 'BS_Actor_C' has been compiled for  K2Node_VariableSet_79
+[2017.02.27-03.16.47:408][907]LogBlueprint:Warning: [Compiler BS_Actor] Warning Could not find a variable named "damage" in 'BS_Actor_C'.
+Make sure 'BS_Actor_C' has been compiled for  K2Node_VariableSet_105
+[2017.02.27-03.16.47:408][907]LogBlueprint:Warning: [Compiler BS_Actor] Warning Could not find a variable named "damage" in 'BS_Actor_C'.
+Make sure 'BS_Actor_C' has been compiled for  K2Node_VariableGet_1543
+[2017.02.27-03.16.47:409][907]LogBlueprint:Error: [Compiler BS_Actor] Error The property associated with  damage  could not be found
+[2017.02.27-03.16.47:409][907]LogBlueprint:Error: [Compiler BS_Actor] Error The property associated with  damage  could not be found
+[2017.02.27-03.16.47:409][907]LogBlueprint:Error: [Compiler BS_Actor] Error The property associated with  damage  could not be found
+[2017.02.27-03.16.47:409][907]LogBlueprint:Error: [Compiler BS_Actor] Error The property associated with  damage  could not be found
+[2017.02.27-03.16.47:621][907]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "damage" in 'BS_Actor_C'.
+Make sure 'BS_Actor_C' has been compiled for  K2Node_VariableSet_78
+[2017.02.27-03.16.47:621][907]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "damage" in 'BS_Actor_C'.
+Make sure 'BS_Actor_C' has been compiled for  K2Node_VariableSet_79
+[2017.02.27-03.16.47:621][907]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "damage" in 'BS_Actor_C'.
+Make sure 'BS_Actor_C' has been compiled for  K2Node_VariableSet_105
+[2017.02.27-03.16.47:621][907]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "damage" in 'BS_Actor_C'.
+Make sure 'BS_Actor_C' has been compiled for  K2Node_VariableGet_1543
+[2017.02.27-03.16.47:621][907]BlueprintEditorCompileResults:Error: Error The property associated with  damage  could not be found
+[2017.02.27-03.16.47:621][907]BlueprintEditorCompileResults:Error: Error The property associated with  damage  could not be found
+[2017.02.27-03.16.47:621][907]BlueprintEditorCompileResults:Error: Error The property associated with  damage  could not be found
+[2017.02.27-03.16.47:621][907]BlueprintEditorCompileResults:Error: Error The property associated with  damage  could not be found
+[2017.02.27-03.16.47:621][907]LogBlueprint:Warning: [Compiler BS_Actor] Warning [7480.56] Compile of BS_Actor failed. 4 Fatal Issue(s) 4 Warning(s) [in 227 ms] (/Game/BluePrints/BattleScene/BS_Actor.BS_Actor)
+[2017.02.27-03.19.19:506][767]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps-Levels/Battle_Scene' took 0.031
+[2017.02.27-03.19.19:508][767]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrints/BattleScene/BS_Player] ([1] browsable assets)...
+[2017.02.27-03.19.19:508][767]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/BattleScene/BS_Player]
+[2017.02.27-03.19.19:616][767]LogSavePackage: Save=70.46ms
+[2017.02.27-03.19.19:616][767]LogSavePackage: Moving 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/BS_Player_Auto8995302734639AD8786241FA1DD6675A8.tmp' to 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/Autosaves/Game/BluePrints/BattleScene/BS_Player_Auto8.uasset'
+[2017.02.27-03.19.19:619][767]LogSavePackage:Display: Finished SavePackage C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/Autosaves/Game/BluePrints/BattleScene/BS_Player_Auto8.uasset
+[2017.02.27-03.19.19:620][767]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrints/BattleScene/BS_Actor] ([1] browsable assets)...
+[2017.02.27-03.19.19:620][767]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/BattleScene/BS_Actor]
+[2017.02.27-03.19.19:681][767]LogSavePackage: Save=31.65ms
+[2017.02.27-03.19.19:681][767]LogSavePackage: Moving 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/BS_Actor_Auto86FF2523149B857FD648AD2B3C4213960.tmp' to 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/Autosaves/Game/BluePrints/BattleScene/BS_Actor_Auto8.uasset'
+[2017.02.27-03.19.19:683][767]LogSavePackage:Display: Finished SavePackage C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/Autosaves/Game/BluePrints/BattleScene/BS_Actor_Auto8.uasset
+[2017.02.27-03.19.19:683][767]LogFileHelpers: Auto-saving content packages took 0.176
+[2017.02.27-03.28.12:804][418]BlueprintLog: New page: Compile BS_Player
+[2017.02.27-03.28.14:293][557]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BattleScene/BS_Player" FILE="C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/BluePrints/BattleScene/BS_Player.uasset" SILENT=true
+[2017.02.27-03.28.14:394][557]LogSavePackage: Save=70.83ms
+[2017.02.27-03.28.14:394][557]LogSavePackage: Moving 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/BS_PlayerBB94918D49A6EB56E04A6A8D75C2CCCD.tmp' to 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/BluePrints/BattleScene/BS_Player.uasset'
+[2017.02.27-03.28.14:403][557]LogSavePackage:Display: Finished SavePackage C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/BluePrints/BattleScene/BS_Player.uasset
+[2017.02.27-03.29.50:745][409]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps-Levels/Battle_Scene' took 0.028
+[2017.02.27-03.29.50:747][409]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrints/BattleScene/BS_Actor] ([1] browsable assets)...
+[2017.02.27-03.29.50:747][409]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/BattleScene/BS_Actor]
+[2017.02.27-03.29.50:812][409]LogSavePackage: Save=34.14ms
+[2017.02.27-03.29.50:813][409]LogSavePackage: Moving 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/BS_Actor_Auto935D96FA8446056E8C0D6BEAE0AE9787A.tmp' to 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/Autosaves/Game/BluePrints/BattleScene/BS_Actor_Auto9.uasset'
+[2017.02.27-03.29.50:815][409]LogSavePackage:Display: Finished SavePackage C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/Autosaves/Game/BluePrints/BattleScene/BS_Actor_Auto9.uasset
+[2017.02.27-03.29.50:815][409]LogFileHelpers: Auto-saving content packages took 0.070
+[2017.02.27-03.34.42:987][421]BlueprintLog: New page: Compile BS_Actor
+[2017.02.27-03.34.43:213][421]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  then
+[2017.02.27-03.34.43:213][421]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  then
+[2017.02.27-03.35.51:317][279]BlueprintLog: New page: Compile BS_Actor
+[2017.02.27-03.36.20:003][613]BlueprintLog: New page: Compile BS_Actor
+[2017.02.27-03.38.40:838][488]BlueprintLog: New page: Compile BS_Actor
+[2017.02.27-03.39.24:171][310]BlueprintLog: New page: Compile Battle_Scene
+[2017.02.27-03.39.24:183][310]LogBlueprint:Warning: [Compiler PersistentLevel.Battle_Scene] Warning 'BS Enemy' does not inherit from 'BS Player' ( K2Node_DynamicCast_2  would always fail).
+[2017.02.27-03.39.24:308][310]BlueprintEditorCompileResults:Warning: Warning 'BS Enemy' does not inherit from 'BS Player' ( K2Node_DynamicCast_2  would always fail).
+[2017.02.27-03.39.24:308][310]LogBlueprint:Warning: [Compiler PersistentLevel.Battle_Scene] Warning [8837.24] Compile of PersistentLevel.Battle_Scene successful, but with 1 Warning(s) [in 136 ms] (/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel.Battle_Scene)
+[2017.02.27-03.40.54:874][948]LogBlueprint:Warning: [Compiler PersistentLevel.Battle_Scene] Warning 'BS Enemy' does not inherit from 'BS Player' ( K2Node_DynamicCast_2  would always fail).
+[2017.02.27-03.40.54:877][948]LogBlueprint:Warning: [Compiler PersistentLevel.Battle_Scene] Warning [8927.81] Compile of PersistentLevel.Battle_Scene successful, but with 1 Warning(s) [in 7 ms] (/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel.Battle_Scene)
+[2017.02.27-03.40.54:877][948]LogBlueprint:Warning: [Compiler PersistentLevel.Battle_Scene] Warning [8927.81] Compile of PersistentLevel.Battle_Scene successful, but with 2 Warning(s) [in 0 ms] (/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel.Battle_Scene)
+[2017.02.27-03.40.54:877][948]LogBlueprint:Warning: [Compiler PersistentLevel.Battle_Scene] Warning [8927.81] Compile of PersistentLevel.Battle_Scene successful, but with 3 Warning(s) [in 0 ms] (/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel.Battle_Scene)
+[2017.02.27-03.40.54:967][948]LogBlueprint:Warning: [Compiler PersistentLevel.Battle_Scene] Warning [8927.90] Compile of PersistentLevel.Battle_Scene successful, but with 4 Warning(s) [in 89 ms] (/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel.Battle_Scene)
+[2017.02.27-03.40.54:968][948]LogBlueprint:Warning: [Compiler PersistentLevel.Battle_Scene] Warning [8927.90] Compile of PersistentLevel.Battle_Scene successful, but with 5 Warning(s) [in 0 ms] (/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel.Battle_Scene)
+[2017.02.27-03.40.54:968][948]LogBlueprint:Warning: [Compiler PersistentLevel.Battle_Scene] Warning [8927.90] Compile of PersistentLevel.Battle_Scene successful, but with 6 Warning(s) [in 0 ms] (/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel.Battle_Scene)
+[2017.02.27-03.40.55:044][948]LogSavePackage: Save=181.47ms
+[2017.02.27-03.40.55:044][948]LogSavePackage: Moving 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/Battle_Scene_Auto0D0B071FB4E826BC7E08921B5D975CBC9.tmp' to 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/Autosaves/Game/Maps-Levels/Battle_Scene_Auto0.umap'
+[2017.02.27-03.40.55:047][948]LogSavePackage:Display: Finished SavePackage C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/Autosaves/Game/Maps-Levels/Battle_Scene_Auto0.umap
+[2017.02.27-03.40.55:049][948]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps-Levels/Battle_Scene' took 0.249
+[2017.02.27-03.40.55:049][948]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.249
+[2017.02.27-03.40.55:052][948]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrints/BattleScene/BS_Actor] ([1] browsable assets)...
+[2017.02.27-03.40.55:052][948]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/BattleScene/BS_Actor]
+[2017.02.27-03.40.55:121][948]LogSavePackage: Save=38.16ms
+[2017.02.27-03.40.55:121][948]LogSavePackage: Moving 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/BS_Actor_Auto0DABE583D4534F04D84655D927895A67F.tmp' to 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/Autosaves/Game/BluePrints/BattleScene/BS_Actor_Auto0.uasset'
+[2017.02.27-03.40.55:124][948]LogSavePackage:Display: Finished SavePackage C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/Autosaves/Game/BluePrints/BattleScene/BS_Actor_Auto0.uasset
+[2017.02.27-03.40.55:125][948]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrints/BattleScene/BS_Player2] ([1] browsable assets)...
+[2017.02.27-03.40.55:125][948]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/BattleScene/BS_Player2]
+[2017.02.27-03.40.55:199][948]LogSavePackage: Save=71.85ms
+[2017.02.27-03.40.55:199][948]LogSavePackage: Moving 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/BS_Player2_Auto032A908D541B03472E7B7E8919AE5BFA4.tmp' to 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/Autosaves/Game/BluePrints/BattleScene/BS_Player2_Auto0.uasset'
+[2017.02.27-03.40.55:201][948]LogSavePackage:Display: Finished SavePackage C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/Autosaves/Game/BluePrints/BattleScene/BS_Player2_Auto0.uasset
+[2017.02.27-03.40.55:201][948]LogFileHelpers: Auto-saving content packages took 0.151
+[2017.02.27-03.41.11:625][ 80]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.02.27-03.41.30:700][244]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BattleScene/BS_Player2" FILE="C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/BluePrints/BattleScene/BS_Player2.uasset" SILENT=true
+[2017.02.27-03.41.30:774][244]LogSavePackage: Save=71.27ms
+[2017.02.27-03.41.30:774][244]LogSavePackage: Moving 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/BS_Player21C4C14DE44B7BFD7B71DDD99581242AB.tmp' to 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/BluePrints/BattleScene/BS_Player2.uasset'
+[2017.02.27-03.41.30:783][244]LogSavePackage:Display: Finished SavePackage C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/BluePrints/BattleScene/BS_Player2.uasset
+[2017.02.27-03.41.57:266][287]BlueprintLog: New page: Compile BS_Player2
+[2017.02.27-03.44.09:767][733]BlueprintLog: New page: Compile BS_Player2
+[2017.02.27-03.46.08:828][ 23]BlueprintLog: New page: Compile BS_Player2
+[2017.02.27-03.51.15:422][313]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.02.27-03.51.16:816][461]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.02.27-03.51.21:843][992]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.02.27-03.51.23:592][125]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps-Levels/Battle_Scene" FILE="C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.02.27-03.51.23:671][125]LogBlueprint:Warning: [Compiler PersistentLevel.Battle_Scene] Warning 'BS Enemy' does not inherit from 'BS Player' ( K2Node_DynamicCast_2  would always fail).
+[2017.02.27-03.51.23:673][125]LogBlueprint:Warning: [Compiler PersistentLevel.Battle_Scene] Warning [9556.61] Compile of PersistentLevel.Battle_Scene successful, but with 1 Warning(s) [in 6 ms] (/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel.Battle_Scene)
+[2017.02.27-03.51.23:673][125]LogBlueprint:Warning: [Compiler PersistentLevel.Battle_Scene] Warning [9556.61] Compile of PersistentLevel.Battle_Scene successful, but with 2 Warning(s) [in 0 ms] (/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel.Battle_Scene)
+[2017.02.27-03.51.23:673][125]LogBlueprint:Warning: [Compiler PersistentLevel.Battle_Scene] Warning [9556.61] Compile of PersistentLevel.Battle_Scene successful, but with 3 Warning(s) [in 0 ms] (/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel.Battle_Scene)
+[2017.02.27-03.51.23:757][125]LogBlueprint:Warning: [Compiler PersistentLevel.Battle_Scene] Warning [9556.69] Compile of PersistentLevel.Battle_Scene successful, but with 4 Warning(s) [in 83 ms] (/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel.Battle_Scene)
+[2017.02.27-03.51.23:758][125]LogBlueprint:Warning: [Compiler PersistentLevel.Battle_Scene] Warning [9556.69] Compile of PersistentLevel.Battle_Scene successful, but with 5 Warning(s) [in 0 ms] (/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel.Battle_Scene)
+[2017.02.27-03.51.23:758][125]LogBlueprint:Warning: [Compiler PersistentLevel.Battle_Scene] Warning [9556.69] Compile of PersistentLevel.Battle_Scene successful, but with 6 Warning(s) [in 0 ms] (/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel.Battle_Scene)
+[2017.02.27-03.51.23:834][125]LogSavePackage: Save=176.26ms
+[2017.02.27-03.51.23:834][125]LogSavePackage: Moving 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/Battle_Scene087010EB4710CBBF8C104AB6CF43106B.tmp' to 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene.umap'
+[2017.02.27-03.51.23:841][125]LogSavePackage:Display: Finished SavePackage C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene.umap
+[2017.02.27-03.51.23:899][125]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps-Levels/Battle_Scene_BuiltData" FILE="C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene_BuiltData.uasset" SILENT=true
+[2017.02.27-03.51.23:941][125]LogSavePackage: Save=12.24ms
+[2017.02.27-03.51.23:941][125]LogSavePackage: Moving 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/Battle_Scene_BuiltDataDD17FD4D494CEAC108CF129F4D398B4F.tmp' to 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene_BuiltData.uasset'
+[2017.02.27-03.51.23:943][125]LogSavePackage:Display: Finished SavePackage C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene_BuiltData.uasset
+[2017.02.27-03.51.28:932][456]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BattleScene/NewBlueprint" FILE="C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/BluePrints/BattleScene/NewBlueprint.uasset" SILENT=true
+[2017.02.27-03.51.28:950][456]LogSavePackage: Save=14.68ms
+[2017.02.27-03.51.28:950][456]LogSavePackage: Moving 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/NewBlueprint9BB0059244F0F661B0786B8F0D6C2755.tmp' to 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/BluePrints/BattleScene/NewBlueprint.uasset'
+[2017.02.27-03.51.28:956][456]LogSavePackage:Display: Finished SavePackage C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/BluePrints/BattleScene/NewBlueprint.uasset
+[2017.02.27-03.51.28:960][456]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BattleScene/BS_Actor" FILE="C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/BluePrints/BattleScene/BS_Actor.uasset" SILENT=true
+[2017.02.27-03.51.29:022][456]LogSavePackage: Save=32.39ms
+[2017.02.27-03.51.29:022][456]LogSavePackage: Moving 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/BS_Actor26E2B1874E8329A0702993950FE35769.tmp' to 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/BluePrints/BattleScene/BS_Actor.uasset'
+[2017.02.27-03.51.29:029][456]LogSavePackage:Display: Finished SavePackage C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/BluePrints/BattleScene/BS_Actor.uasset
+[2017.02.27-03.51.29:033][456]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BattleScene/BS_Player2" FILE="C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/BluePrints/BattleScene/BS_Player2.uasset" SILENT=true
+[2017.02.27-03.51.29:112][456]LogSavePackage: Save=48.99ms
+[2017.02.27-03.51.29:112][456]LogSavePackage: Moving 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/BS_Player233E9340547325C27E893029FBB9FBC0F.tmp' to 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/BluePrints/BattleScene/BS_Player2.uasset'
+[2017.02.27-03.51.29:117][456]LogSavePackage:Display: Finished SavePackage C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/BluePrints/BattleScene/BS_Player2.uasset
+[2017.02.27-03.51.29:120][456]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BattleScene/BS_Actor_Child" FILE="C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/BluePrints/BattleScene/BS_Actor_Child.uasset" SILENT=true
+[2017.02.27-03.51.29:138][456]LogSavePackage: Save=15.47ms
+[2017.02.27-03.51.29:138][456]LogSavePackage: Moving 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/BS_Actor_ChildF1091D1A447D657633E805BA1CAA635E.tmp' to 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/BluePrints/BattleScene/BS_Actor_Child.uasset'
+[2017.02.27-03.51.29:141][456]LogSavePackage:Display: Finished SavePackage C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/BluePrints/BattleScene/BS_Actor_Child.uasset
+[2017.02.27-03.52.26:165][753]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps-Levels/Battle_Scene" FILE="C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.02.27-03.52.26:228][753]LogBlueprint:Warning: [Compiler PersistentLevel.Battle_Scene] Warning 'BS Enemy' does not inherit from 'BS Player' ( K2Node_DynamicCast_2  would always fail).
+[2017.02.27-03.52.26:230][753]LogBlueprint:Warning: [Compiler PersistentLevel.Battle_Scene] Warning [9619.17] Compile of PersistentLevel.Battle_Scene successful, but with 1 Warning(s) [in 6 ms] (/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel.Battle_Scene)
+[2017.02.27-03.52.26:230][753]LogBlueprint:Warning: [Compiler PersistentLevel.Battle_Scene] Warning [9619.17] Compile of PersistentLevel.Battle_Scene successful, but with 2 Warning(s) [in 0 ms] (/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel.Battle_Scene)
+[2017.02.27-03.52.26:230][753]LogBlueprint:Warning: [Compiler PersistentLevel.Battle_Scene] Warning [9619.17] Compile of PersistentLevel.Battle_Scene successful, but with 3 Warning(s) [in 0 ms] (/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel.Battle_Scene)
+[2017.02.27-03.52.26:308][753]LogBlueprint:Warning: [Compiler PersistentLevel.Battle_Scene] Warning [9619.24] Compile of PersistentLevel.Battle_Scene successful, but with 4 Warning(s) [in 77 ms] (/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel.Battle_Scene)
+[2017.02.27-03.52.26:309][753]LogBlueprint:Warning: [Compiler PersistentLevel.Battle_Scene] Warning [9619.24] Compile of PersistentLevel.Battle_Scene successful, but with 5 Warning(s) [in 0 ms] (/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel.Battle_Scene)
+[2017.02.27-03.52.26:309][753]LogBlueprint:Warning: [Compiler PersistentLevel.Battle_Scene] Warning [9619.24] Compile of PersistentLevel.Battle_Scene successful, but with 6 Warning(s) [in 0 ms] (/Game/Maps-Levels/Battle_Scene.Battle_Scene:PersistentLevel.Battle_Scene)
+[2017.02.27-03.52.26:387][753]LogSavePackage: Save=170.76ms
+[2017.02.27-03.52.26:387][753]LogSavePackage: Moving 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/Battle_SceneD3FA2FEB474011E9786F6AAA882E0236.tmp' to 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene.umap'
+[2017.02.27-03.52.26:389][753]LogSavePackage:Display: Finished SavePackage C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene.umap
+[2017.02.27-03.52.26:459][753]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps-Levels/Battle_Scene_BuiltData" FILE="C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene_BuiltData.uasset" SILENT=true
+[2017.02.27-03.52.26:497][753]LogSavePackage: Save=13.12ms
+[2017.02.27-03.52.26:497][753]LogSavePackage: Moving 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/Battle_Scene_BuiltData5B5052344A9FCF4B69A2B2BA7F76688A.tmp' to 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene_BuiltData.uasset'
+[2017.02.27-03.52.26:499][753]LogSavePackage:Display: Finished SavePackage C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Maps-Levels/Battle_Scene_BuiltData.uasset
+[2017.02.27-03.52.52:676][988]Cmd: QUIT_EDITOR
+[2017.02.27-03.52.53:306][988]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.02.27-03.52.53:338][988]LogExit: Preparing to exit.
+[2017.02.27-03.52.54:636][988]LogExit: Editor shut down
+[2017.02.27-03.52.54:637][988]LogExit: Transaction tracking system shut down
+[2017.02.27-03.52.54:761][988]LogObj: Freed 0b from 0 cluster array pools.
+[2017.02.27-03.52.54:761][988]LogExit: Object subsystem successfully closed.
+[2017.02.27-03.52.54:782][988]LogD3D11RHI: Shutdown
+[2017.02.27-03.52.54:782][988]LogD3D11RHI: CleanupD3DDevice
+[2017.02.27-03.52.54:920][988]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.02.27-03.52.54:932][988]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.02.27-03.52.54:932][988]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE0BA6160-4BB4-1957-755F-CAB69CEBF931%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.3-3249277%2B%2B%2BUE4%2BRelease-4.14&UserID=ebd02eab4bf37fade98294bf0ac2928c%7Cdf2486657973442ea895399024942a3f%7C11ccd397-2015-4e95-b97f-e72c5e310a35&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.02.27-03.52.54:937][988]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (247)
+[2017.02.27-03.52.54:937][988]LogModuleManager: Shutting down and abandoning module SequencerWidgets (246)
+[2017.02.27-03.52.54:937][988]LogModuleManager: Shutting down and abandoning module BlueprintGraph (245)
+[2017.02.27-03.52.54:937][988]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (244)
+[2017.02.27-03.52.54:937][988]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (243)
+[2017.02.27-03.52.54:937][988]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (242)
+[2017.02.27-03.52.54:937][988]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (241)
+[2017.02.27-03.52.54:937][988]LogModuleManager: Shutting down and abandoning module CrashTracker (240)
+[2017.02.27-03.52.54:937][988]LogModuleManager: Shutting down and abandoning module SceneOutliner (239)
+[2017.02.27-03.52.54:937][988]LogModuleManager: Shutting down and abandoning module WidgetCarousel (238)
+[2017.02.27-03.52.54:937][988]LogModuleManager: Shutting down and abandoning module AddContentDialog (237)
+[2017.02.27-03.52.54:937][988]LogDirectoryWatcher: A directory notification for 'D:/UE4/UE_4.14/FeaturePacks/' was aborted.
+[2017.02.27-03.52.54:939][988]LogModuleManager: Shutting down and abandoning module GameplayTags (236)
+[2017.02.27-03.52.54:939][988]LogModuleManager: Shutting down and abandoning module EditorWidgets (235)
+[2017.02.27-03.52.54:939][988]LogModuleManager: Shutting down and abandoning module CollectionManager (234)
+[2017.02.27-03.52.54:939][988]LogDirectoryWatcher: A directory notification for 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Collections/' was aborted.
+[2017.02.27-03.52.54:939][988]LogDirectoryWatcher: A directory notification for 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/Developers/nathan/Collections/' was aborted.
+[2017.02.27-03.52.54:939][988]LogDirectoryWatcher: A directory notification for 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Saved/Collections/' was aborted.
+[2017.02.27-03.52.54:939][988]LogModuleManager: Shutting down and abandoning module StatsViewer (233)
+[2017.02.27-03.52.54:939][988]LogModuleManager: Shutting down and abandoning module FoliageEdit (232)
+[2017.02.27-03.52.54:939][988]LogModuleManager: Shutting down and abandoning module LandscapeEditor (231)
+[2017.02.27-03.52.54:939][988]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (230)
+[2017.02.27-03.52.54:939][988]LogModuleManager: Shutting down and abandoning module ActorPickerMode (229)
+[2017.02.27-03.52.54:939][988]LogModuleManager: Shutting down and abandoning module GeometryMode (228)
+[2017.02.27-03.52.54:939][988]LogModuleManager: Shutting down and abandoning module TextureAlignMode (227)
+[2017.02.27-03.52.54:939][988]LogModuleManager: Shutting down and abandoning module BspMode (226)
+[2017.02.27-03.52.54:939][988]LogModuleManager: Shutting down and abandoning module HardwareSurvey (225)
+[2017.02.27-03.52.54:939][988]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (224)
+[2017.02.27-03.52.54:939][988]LogModuleManager: Shutting down and abandoning module AutomationWorker (223)
+[2017.02.27-03.52.54:939][988]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (222)
+[2017.02.27-03.52.54:940][988]LogModuleManager: Shutting down and abandoning module PlacementMode (221)
+[2017.02.27-03.52.54:940][988]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (220)
+[2017.02.27-03.52.54:940][988]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (219)
+[2017.02.27-03.52.54:940][988]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (218)
+[2017.02.27-03.52.54:940][988]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (217)
+[2017.02.27-03.52.54:940][988]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (216)
+[2017.02.27-03.52.54:940][988]LogModuleManager: Shutting down and abandoning module Media (215)
+[2017.02.27-03.52.54:940][988]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (214)
+[2017.02.27-03.52.54:940][988]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (213)
+[2017.02.27-03.52.54:940][988]LogModuleManager: Shutting down and abandoning module CharacterAI (212)
+[2017.02.27-03.52.54:940][988]LogModuleManager: Shutting down and abandoning module SequenceRecorder (211)
+[2017.02.27-03.52.54:940][988]LogModuleManager: Shutting down and abandoning module AudioCapture (210)
+[2017.02.27-03.52.54:940][988]LogModuleManager: Shutting down and abandoning module SmartSnapping (209)
+[2017.02.27-03.52.54:940][988]LogModuleManager: Shutting down and abandoning module SessionServices (208)
+[2017.02.27-03.52.54:940][988]LogModuleManager: Shutting down and abandoning module ViewportSnapping (207)
+[2017.02.27-03.52.54:940][988]LogModuleManager: Shutting down and abandoning module ViewportInteraction (206)
+[2017.02.27-03.52.54:940][988]LogModuleManager: Shutting down and abandoning module LogVisualizer (205)
+[2017.02.27-03.52.54:940][988]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (204)
+[2017.02.27-03.52.54:940][988]LogModuleManager: Shutting down and abandoning module IntroTutorials (203)
+[2017.02.27-03.52.54:940][988]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (202)
+[2017.02.27-03.52.54:940][988]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (201)
+[2017.02.27-03.52.54:940][988]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (200)
+[2017.02.27-03.52.54:940][988]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (199)
+[2017.02.27-03.52.55:693][988]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (198)
+[2017.02.27-03.52.55:693][988]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (197)
+[2017.02.27-03.52.55:693][988]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (196)
+[2017.02.27-03.52.55:693][988]LogModuleManager: Shutting down and abandoning module InputBindingEditor (195)
+[2017.02.27-03.52.55:693][988]LogModuleManager: Shutting down and abandoning module NiagaraEditor (194)
+[2017.02.27-03.52.55:693][988]LogModuleManager: Shutting down and abandoning module MergeActors (193)
+[2017.02.27-03.52.55:693][988]LogModuleManager: Shutting down and abandoning module SizeMap (192)
+[2017.02.27-03.52.55:693][988]LogModuleManager: Shutting down and abandoning module TreeMap (191)
+[2017.02.27-03.52.55:693][988]LogModuleManager: Shutting down and abandoning module ReferenceViewer (190)
+[2017.02.27-03.52.55:693][988]LogModuleManager: Shutting down and abandoning module LocalizationService (189)
+[2017.02.27-03.52.55:693][988]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (188)
+[2017.02.27-03.52.55:693][988]LogModuleManager: Shutting down and abandoning module HardwareTargeting (187)
+[2017.02.27-03.52.55:693][988]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (186)
+[2017.02.27-03.52.55:693][988]LogModuleManager: Shutting down and abandoning module UndoHistory (185)
+[2017.02.27-03.52.55:693][988]LogModuleManager: Shutting down and abandoning module UserFeedback (184)
+[2017.02.27-03.52.55:693][988]LogModuleManager: Shutting down and abandoning module XmlParser (183)
+[2017.02.27-03.52.55:693][988]LogModuleManager: Shutting down and abandoning module Blutility (182)
+[2017.02.27-03.52.55:693][988]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (181)
+[2017.02.27-03.52.55:693][988]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (180)
+[2017.02.27-03.52.55:693][988]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (179)
+[2017.02.27-03.52.55:694][988]LogModuleManager: Shutting down and abandoning module SettingsEditor (178)
+[2017.02.27-03.52.55:694][988]LogModuleManager: Shutting down and abandoning module ProjectLauncher (177)
+[2017.02.27-03.52.55:694][988]LogModuleManager: Shutting down and abandoning module SessionFrontend (176)
+[2017.02.27-03.52.55:694][988]LogModuleManager: Shutting down and abandoning module ProfilerClient (175)
+[2017.02.27-03.52.55:694][988]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (174)
+[2017.02.27-03.52.55:694][988]LogModuleManager: Shutting down and abandoning module DeviceManager (173)
+[2017.02.27-03.52.55:747][988]LogModuleManager: Shutting down and abandoning module AutomationController (172)
+[2017.02.27-03.52.55:747][988]LogModuleManager: Shutting down and abandoning module AutomationWindow (171)
+[2017.02.27-03.52.55:747][988]LogModuleManager: Shutting down and abandoning module Layers (170)
+[2017.02.27-03.52.55:747][988]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (169)
+[2017.02.27-03.52.55:747][988]LogModuleManager: Shutting down and abandoning module DetailCustomizations (168)
+[2017.02.27-03.52.55:747][988]LogModuleManager: Shutting down and abandoning module PackagesDialog (167)
+[2017.02.27-03.52.55:747][988]LogModuleManager: Shutting down and abandoning module AnimGraph (166)
+[2017.02.27-03.52.55:747][988]LogModuleManager: Shutting down and abandoning module Persona (165)
+[2017.02.27-03.52.55:747][988]LogModuleManager: Shutting down and abandoning module Kismet (164)
+[2017.02.27-03.52.55:756][988]LogModuleManager: Shutting down and abandoning module GraphEditor (163)
+[2017.02.27-03.52.55:756][988]LogModuleManager: Shutting down and abandoning module ClassViewer (162)
+[2017.02.27-03.52.55:758][988]LogModuleManager: Shutting down and abandoning module Toolbox (161)
+[2017.02.27-03.52.55:758][988]LogModuleManager: Shutting down and abandoning module ModuleUI (160)
+[2017.02.27-03.52.55:758][988]LogModuleManager: Shutting down and abandoning module MovieSceneTools (159)
+[2017.02.27-03.52.55:758][988]LogModuleManager: Shutting down and abandoning module OutputLog (158)
+[2017.02.27-03.52.55:758][988]LogModuleManager: Shutting down and abandoning module GammaUI (157)
+[2017.02.27-03.52.55:758][988]LogModuleManager: Shutting down and abandoning module Documentation (156)
+[2017.02.27-03.52.55:759][988]LogModuleManager: Shutting down and abandoning module Niagara (155)
+[2017.02.27-03.52.55:759][988]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (154)
+[2017.02.27-03.52.55:759][988]LogModuleManager: Shutting down and abandoning module AnalyticsET (153)
+[2017.02.27-03.52.55:759][988]LogModuleManager: Shutting down and abandoning module PortalServices (152)
+[2017.02.27-03.52.55:759][988]LogModuleManager: Shutting down and abandoning module PortalRpc (151)
+[2017.02.27-03.52.55:759][988]LogModuleManager: Shutting down and abandoning module MessagingRpc (150)
+[2017.02.27-03.52.55:759][988]LogModuleManager: Shutting down and abandoning module GameplayDebugger (149)
+[2017.02.27-03.52.55:759][988]LogModuleManager: Shutting down and abandoning module AITestSuite (148)
+[2017.02.27-03.52.55:759][988]LogModuleManager: Shutting down and abandoning module AIModule (147)
+[2017.02.27-03.52.55:759][988]LogModuleManager: Shutting down and abandoning module ProfilerService (146)
+[2017.02.27-03.52.55:848][988]LogModuleManager: Shutting down and abandoning module TaskGraph (145)
+[2017.02.27-03.52.55:848][988]LogModuleManager: Shutting down and abandoning module SlateRemote (144)
+[2017.02.27-03.52.55:864][988]LogModuleManager: Shutting down and abandoning module SteamVRController (143)
+[2017.02.27-03.52.55:864][988]LogModuleManager: Shutting down and abandoning module SteamVR (142)
+[2017.02.27-03.52.55:864][988]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (141)
+[2017.02.27-03.52.55:864][988]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (140)
+[2017.02.27-03.52.55:864][988]LogModuleManager: Shutting down and abandoning module OculusLibrary (139)
+[2017.02.27-03.52.55:864][988]LogModuleManager: Shutting down and abandoning module OculusInput (138)
+[2017.02.27-03.52.55:864][988]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (137)
+[2017.02.27-03.52.55:864][988]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (136)
+[2017.02.27-03.52.55:864][988]LogModuleManager: Shutting down and abandoning module CableComponent (135)
+[2017.02.27-03.52.55:864][988]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (134)
+[2017.02.27-03.52.55:864][988]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (132)
+[2017.02.27-03.52.55:864][988]LogModuleManager: Shutting down and abandoning module HTML5Networking (131)
+[2017.02.27-03.52.55:864][988]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (130)
+[2017.02.27-03.52.55:864][988]LogModuleManager: Shutting down and abandoning module GeometryCache (129)
+[2017.02.27-03.52.55:864][988]LogModuleManager: Shutting down and abandoning module AlembicLibrary (128)
+[2017.02.27-03.52.55:864][988]LogModuleManager: Shutting down and abandoning module AlembicImporter (127)
+[2017.02.27-03.52.55:864][988]LogModuleManager: Shutting down and abandoning module SuperSearch (126)
+[2017.02.27-03.52.55:864][988]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (125)
+[2017.02.27-03.52.55:864][988]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (124)
+[2017.02.27-03.52.55:864][988]LogModuleManager: Shutting down and abandoning module PluginBrowser (123)
+[2017.02.27-03.52.55:865][988]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (122)
+[2017.02.27-03.52.55:865][988]LogModuleManager: Shutting down and abandoning module EpicSurvey (121)
+[2017.02.27-03.52.55:865][988]LogModuleManager: Shutting down and abandoning module DesktopPlatform (120)
+[2017.02.27-03.52.55:865][988]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (119)
+[2017.02.27-03.52.55:865][988]LogModuleManager: Shutting down and abandoning module UObjectPlugin (118)
+[2017.02.27-03.52.55:865][988]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (117)
+[2017.02.27-03.52.55:865][988]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (116)
+[2017.02.27-03.52.55:865][988]LogModuleManager: Shutting down and abandoning module SourceControl (115)
+[2017.02.27-03.52.55:865][988]LogModuleManager: Shutting down and abandoning module GitSourceControl (114)
+[2017.02.27-03.52.55:865][988]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (113)
+[2017.02.27-03.52.55:865][988]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (112)
+[2017.02.27-03.52.55:865][988]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (111)
+[2017.02.27-03.52.55:865][988]LogModuleManager: Shutting down and abandoning module MeshPaint (110)
+[2017.02.27-03.52.55:865][988]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (109)
+[2017.02.27-03.52.55:865][988]LogModuleManager: Shutting down and abandoning module HotReload (108)
+[2017.02.27-03.52.55:865][988]LogModuleManager: Shutting down and abandoning module MainFrame (107)
+[2017.02.27-03.52.55:865][988]LogModuleManager: Shutting down and abandoning module LevelEditor (106)
+[2017.02.27-03.52.55:866][988]LogModuleManager: Shutting down and abandoning module ContentBrowser (105)
+[2017.02.27-03.52.55:867][988]LogModuleManager: Shutting down and abandoning module Paper2DEditor (104)
+[2017.02.27-03.52.55:867][988]LogModuleManager: Shutting down and abandoning module UdpMessaging (103)
+[2017.02.27-03.52.55:968][988]LogModuleManager: Shutting down and abandoning module TcpMessaging (102)
+[2017.02.27-03.52.56:068][988]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (101)
+[2017.02.27-03.52.56:068][988]LogModuleManager: Shutting down and abandoning module Paper2D (100)
+[2017.02.27-03.52.56:068][988]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (99)
+[2017.02.27-03.52.56:068][988]LogModuleManager: Shutting down and abandoning module WmfMedia (98)
+[2017.02.27-03.52.56:068][988]LogModuleManager: Shutting down and abandoning module MediaAssets (97)
+[2017.02.27-03.52.56:068][988]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (96)
+[2017.02.27-03.52.56:068][988]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (95)
+[2017.02.27-03.52.56:068][988]LogModuleManager: Shutting down and abandoning module VREditor (94)
+[2017.02.27-03.52.56:068][988]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (93)
+[2017.02.27-03.52.56:068][988]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (92)
+[2017.02.27-03.52.56:068][988]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
+[2017.02.27-03.52.56:068][988]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
+[2017.02.27-03.52.56:069][988]LogModuleManager: Shutting down and abandoning module Sequencer (89)
+[2017.02.27-03.52.56:069][988]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (88)
+[2017.02.27-03.52.56:069][988]LogModuleManager: Shutting down and abandoning module MessageLog (87)
+[2017.02.27-03.52.56:069][988]LogModuleManager: Shutting down and abandoning module AssetTools (86)
+[2017.02.27-03.52.56:069][988]LogModuleManager: Shutting down and abandoning module UMGEditor (85)
+[2017.02.27-03.52.56:069][988]LogModuleManager: Shutting down and abandoning module UMG (84)
+[2017.02.27-03.52.56:069][988]LogModuleManager: Shutting down and abandoning module SlateReflector (83)
+[2017.02.27-03.52.56:069][988]LogModuleManager: Shutting down and abandoning module Slate (82)
+[2017.02.27-03.52.56:069][988]LogModuleManager: Shutting down and abandoning module EditorStyle (81)
+[2017.02.27-03.52.56:071][988]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (80)
+[2017.02.27-03.52.56:071][988]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (79)
+[2017.02.27-03.52.56:071][988]LogModuleManager: Shutting down and abandoning module XAudio2 (78)
+[2017.02.27-03.52.56:071][988]LogModuleManager: Shutting down and abandoning module Networking (76)
+[2017.02.27-03.52.56:071][988]LogModuleManager: Shutting down and abandoning module Core (75)
+[2017.02.27-03.52.56:071][988]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (74)
+[2017.02.27-03.52.56:071][988]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.02.27-03.52.56:071][988]LogDirectoryWatcher: A directory notification for 'C:/Users/nathan/Desktop/ChimeraGames/Abyss/Content/' was aborted.
+[2017.02.27-03.52.56:071][988]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.02.27-03.52.56:072][988]LogModuleManager: Shutting down and abandoning module AssetRegistry (73)
+[2017.02.27-03.52.56:230][988]LogModuleManager: Shutting down and abandoning module KismetCompiler (72)
+[2017.02.27-03.52.56:230][988]LogModuleManager: Shutting down and abandoning module PhysXFormats (71)
+[2017.02.27-03.52.56:230][988]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (70)
+[2017.02.27-03.52.56:230][988]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (69)
+[2017.02.27-03.52.56:230][988]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (68)
+[2017.02.27-03.52.56:230][988]LogModuleManager: Shutting down and abandoning module PropertyEditor (67)
+[2017.02.27-03.52.56:230][988]LogModuleManager: Shutting down and abandoning module MeshUtilities (66)
+[2017.02.27-03.52.56:230][988]LogModuleManager: Shutting down and abandoning module DerivedDataCache (65)
+[2017.02.27-03.52.56:318][988]LogDerivedDataCache: Shutdown
+[2017.02.27-03.52.56:318][988]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (64)
+[2017.02.27-03.52.56:318][988]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (63)
+[2017.02.27-03.52.56:318][988]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (62)
+[2017.02.27-03.52.56:318][988]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (61)
+[2017.02.27-03.52.56:318][988]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (60)
+[2017.02.27-03.52.56:318][988]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (59)
+[2017.02.27-03.52.56:318][988]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (58)
+[2017.02.27-03.52.56:318][988]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (57)
+[2017.02.27-03.52.56:318][988]LogModuleManager: Shutting down and abandoning module ImageWrapper (56)
+[2017.02.27-03.52.56:318][988]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (55)
+[2017.02.27-03.52.56:318][988]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (54)
+[2017.02.27-03.52.56:318][988]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (53)
+[2017.02.27-03.52.56:318][988]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (52)
+[2017.02.27-03.52.56:318][988]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (51)
+[2017.02.27-03.52.56:318][988]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (50)
+[2017.02.27-03.52.56:318][988]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (49)
+[2017.02.27-03.52.56:318][988]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (48)
+[2017.02.27-03.52.56:318][988]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (47)
+[2017.02.27-03.52.56:318][988]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (46)
+[2017.02.27-03.52.56:318][988]LogModuleManager: Shutting down and abandoning module Messaging (45)
+[2017.02.27-03.52.56:318][988]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (44)
+[2017.02.27-03.52.56:318][988]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (43)
+[2017.02.27-03.52.56:318][988]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (42)
+[2017.02.27-03.52.56:318][988]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (41)
+[2017.02.27-03.52.56:318][988]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (40)
+[2017.02.27-03.52.56:318][988]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (39)
+[2017.02.27-03.52.56:318][988]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (38)
+[2017.02.27-03.52.56:318][988]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (37)
+[2017.02.27-03.52.56:318][988]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (36)
+[2017.02.27-03.52.56:318][988]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (35)
+[2017.02.27-03.52.56:318][988]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (34)
+[2017.02.27-03.52.56:318][988]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (33)
+[2017.02.27-03.52.56:318][988]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (32)
+[2017.02.27-03.52.56:318][988]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (31)
+[2017.02.27-03.52.56:318][988]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (30)
+[2017.02.27-03.52.56:318][988]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (29)
+[2017.02.27-03.52.56:318][988]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (28)
+[2017.02.27-03.52.56:318][988]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (27)
+[2017.02.27-03.52.56:318][988]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
+[2017.02.27-03.52.56:318][988]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2017.02.27-03.52.56:318][988]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2017.02.27-03.52.56:319][988]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2017.02.27-03.52.56:319][988]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2017.02.27-03.52.56:319][988]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (21)
+[2017.02.27-03.52.56:319][988]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (20)
+[2017.02.27-03.52.56:319][988]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2017.02.27-03.52.56:319][988]LogOnline:Display: Unloading online subsystem: NULL
+[2017.02.27-03.52.56:319][988]LogModuleManager: Shutting down and abandoning module SSL (17)
+[2017.02.27-03.52.56:320][988]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2017.02.27-03.52.56:320][988]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2017.02.27-03.52.56:320][988]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.02.27-03.52.56:320][988]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.02.27-03.52.56:320][988]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.02.27-03.52.56:320][988]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.02.27-03.52.56:327][988]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.02.27-03.52.56:327][988]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.02.27-03.52.56:327][988]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.02.27-03.52.56:327][988]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.02.27-03.52.56:327][988]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.02.27-03.52.56:327][988]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.02.27-03.52.56:327][988]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.02.27-03.52.56:327][988]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.02.27-03.52.56:327][988]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.02.27-03.52.56:327][988]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.02.27-03.52.56:330][988]LogExit: Exiting.
+[2017.02.27-03.52.56:332][988]Log file closed, 02/26/17 22:52:56
