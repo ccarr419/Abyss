@@ -5,19 +5,9 @@
 	"Description": "",
 	"Plugins": [
 		{
-			"Name": "HGGifImporter",
-			"Enabled": true,
-			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/4b62266dcb0c4ffaac8e7ebdc61b4fba"
-		},
-		{
 			"Name": "MidiAsset",
 			"Enabled": false,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/aff69119f95d405abbab38236e258c2e"
-		},
-		{
-			"Name": "UnrealJS",
-			"Enabled": true,
-			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/be751eedc4a14cc09e39945bc5a531c4"
 		},
 		{
 			"Name": "AndroidMedia",
