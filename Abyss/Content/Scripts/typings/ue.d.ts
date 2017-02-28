@@ -3410,62 +3410,6 @@ declare class K2Node_LeaderboardQuery extends K2Node_BaseAsyncTask {
 	static C(Other: UObject): K2Node_LeaderboardQuery;
 }
 
-declare type ETrackedDeviceType = 'None' | 'HMD' | 'LTouch' | 'RTouch' | 'Touch' | 'All';
-declare var ETrackedDeviceType : { None:'None',HMD:'HMD',LTouch:'LTouch',RTouch:'RTouch',Touch:'Touch',All:'All', };
-declare class BoundaryTestResult { 
-	IsTriggering: boolean;
-	DeviceType: ETrackedDeviceType;
-	ClosestDistance: number;
-	ClosestPoint: Vector;
-	ClosestPointNormal: Vector;
-	clone() : BoundaryTestResult;
-	static C(Other: UObject): BoundaryTestResult;
-}
-
-declare class OculusRiftBoundaryComponent extends ActorComponent { 
-	OnOuterBoundaryTriggered: UnrealEngineMulticastDelegate<(OuterBoundsInteractionList: BoundaryTestResult[]) => void>;
-	OnOuterBoundaryReturned: UnrealEngineMulticastDelegate<() => void>;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): OculusRiftBoundaryComponent;
-	static Find(Outer: UObject, ResourceName: string): OculusRiftBoundaryComponent;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): OculusRiftBoundaryComponent;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): OculusRiftBoundaryComponent;
-	SetOuterBoundaryColor(InBoundaryColor: Color): boolean;
-	ResetOuterBoundaryColor(): boolean;
-	RequestOuterBoundaryVisible(BoundaryVisible: boolean): boolean;
-	IsOuterBoundaryTriggered(): boolean;
-	IsOuterBoundaryDisplayed(): boolean;
-	GetTriggeredPlayAreaInfo(DeviceType: ETrackedDeviceType): BoundaryTestResult;
-	GetTriggeredOuterBoundaryInfo(): BoundaryTestResult[];
-	GetPlayAreaPoints(): Vector[];
-	GetPlayAreaDimensions(): Vector;
-	GetOuterBoundaryPoints(): Vector[];
-	GetOuterBoundaryDimensions(): Vector;
-	CheckIfPointWithinPlayArea(Point: Vector): BoundaryTestResult;
-	CheckIfPointWithinOuterBounds(Point: Vector): BoundaryTestResult;
-	static C(Other: UObject): OculusRiftBoundaryComponent;
-}
-
-declare class SceneCubemapCapturer extends UObject { 
-	CaptureComponents: SceneCaptureComponent2D[];
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): SceneCubemapCapturer;
-	static Find(Outer: UObject, ResourceName: string): SceneCubemapCapturer;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): SceneCubemapCapturer;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): SceneCubemapCapturer;
-	static C(Other: UObject): SceneCubemapCapturer;
-}
-
 declare class SourceCodeAccessSettings extends UObject { 
 	PreferredAccessor: string;
 	constructor();
@@ -6639,47 +6583,6 @@ declare class JavascriptWebSocketServer extends UObject {
 	static C(Other: UObject): JavascriptWebSocketServer;
 }
 
-declare class TcpMessagingSettings extends UObject { 
-	EnableTransport: boolean;
-	ListenEndpoint: string;
-	ConnectToEndpoints: string[];
-	ConnectionRetryDelay: number;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): TcpMessagingSettings;
-	static Find(Outer: UObject, ResourceName: string): TcpMessagingSettings;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): TcpMessagingSettings;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): TcpMessagingSettings;
-	static C(Other: UObject): TcpMessagingSettings;
-}
-
-declare class UdpMessagingSettings extends UObject { 
-	EnableTransport: boolean;
-	UnicastEndpoint: string;
-	MulticastEndpoint: string;
-	MulticastTimeToLive: number;
-	StaticEndpoints: string[];
-	EnableTunnel: boolean;
-	TunnelUnicastEndpoint: string;
-	TunnelMulticastEndpoint: string;
-	RemoteTunnelEndpoints: string[];
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): UdpMessagingSettings;
-	static Find(Outer: UObject, ResourceName: string): UdpMessagingSettings;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): UdpMessagingSettings;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): UdpMessagingSettings;
-	static C(Other: UObject): UdpMessagingSettings;
-}
-
 declare class FlipbookEditorSettings extends UObject { 
 	BackgroundColor: Color;
 	bShowGridByDefault: boolean;
@@ -7852,206 +7755,6 @@ declare class HGGifFactory extends TextureFactory {
 	static C(Other: UObject): HGGifFactory;
 }
 
-declare class MidiAsset extends UObject { 
-	Data: number[];
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): MidiAsset;
-	static Find(Outer: UObject, ResourceName: string): MidiAsset;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): MidiAsset;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MidiAsset;
-	static C(Other: UObject): MidiAsset;
-}
-
-declare type ENoteEnum = 'NE_C' | 'NE_CS' | 'NE_D' | 'NE_DS' | 'NE_E' | 'NE_F' | 'NE_FS' | 'NE_G' | 'NE_GS' | 'NE_A' | 'NE_AS' | 'NE_B';
-declare var ENoteEnum : { NE_C:'NE_C',NE_CS:'NE_CS',NE_D:'NE_D',NE_DS:'NE_DS',NE_E:'NE_E',NE_F:'NE_F',NE_FS:'NE_FS',NE_G:'NE_G',NE_GS:'NE_GS',NE_A:'NE_A',NE_AS:'NE_AS',NE_B:'NE_B', };
-declare class MidiUtils extends BlueprintFunctionLibrary { 
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): MidiUtils;
-	static Find(Outer: UObject, ResourceName: string): MidiUtils;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): MidiUtils;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MidiUtils;
-	static NoteToFrequency(note: number): number;
-	static NoteToChord(note: number): ENoteEnum;
-	static FrequencyToNote(Frequency: number): number;
-	static DefaultNoteToFrequency(note: ENoteEnum): number;
-	static C(Other: UObject): MidiUtils;
-}
-
-declare type EMidiTypeEnum = 'MTE_NOTE' | 'MTE_NOTE_AFTERTOUCH' | 'MTE_CONTROLLER' | 'MTE_PROGRAM_CHANGE' | 'MTE_CHANNEL_AFTERTOUCH' | 'MTE_PITCH_BEND' | 'MTE_MAX' | 'None';
-declare var EMidiTypeEnum : { MTE_NOTE:'MTE_NOTE',MTE_NOTE_AFTERTOUCH:'MTE_NOTE_AFTERTOUCH',MTE_CONTROLLER:'MTE_CONTROLLER',MTE_PROGRAM_CHANGE:'MTE_PROGRAM_CHANGE',MTE_CHANNEL_AFTERTOUCH:'MTE_CHANNEL_AFTERTOUCH',MTE_PITCH_BEND:'MTE_PITCH_BEND',MTE_MAX:'MTE_MAX',None:'None', };
-declare class MidiEvent { 
-	Type: EMidiTypeEnum;
-	Channel: number;
-	Data1: number;
-	Data2: number;
-	clone() : MidiEvent;
-	static C(Other: UObject): MidiEvent;
-	SendMidiEvent(): void;
-	static SendMidiEvent(Event: MidiEvent): void;
-}
-
-declare class MidiComponent extends ActorComponent { 
-	PlaySpeed: number;
-	OnStart: UnrealEngineMulticastDelegate<(beginning: boolean) => void>;
-	OnStop: UnrealEngineMulticastDelegate<(finished: boolean) => void>;
-	OnMidiEvent: UnrealEngineMulticastDelegate<(Event: MidiEvent) => void>;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): MidiComponent;
-	static Find(Outer: UObject, ResourceName: string): MidiComponent;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): MidiComponent;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MidiComponent;
-	stop(): void;
-	start(): void;
-	reset(): void;
-	LoadFile(path: string): void;
-	LoadAsset(MidiAsset: MidiAsset): void;
-	isStarted(): boolean;
-	isRunning(): boolean;
-	GetResolution(): number;
-	static C(Other: UObject): MidiComponent;
-}
-
-declare class MidiAssetFactory extends Factory { 
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): MidiAssetFactory;
-	static Find(Outer: UObject, ResourceName: string): MidiAssetFactory;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): MidiAssetFactory;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MidiAssetFactory;
-	static C(Other: UObject): MidiAssetFactory;
-}
-
-declare class MidiAssetFactoryNew extends Factory { 
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): MidiAssetFactoryNew;
-	static Find(Outer: UObject, ResourceName: string): MidiAssetFactoryNew;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): MidiAssetFactoryNew;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MidiAssetFactoryNew;
-	static C(Other: UObject): MidiAssetFactoryNew;
-}
-
-declare class MidiInterface extends BlueprintFunctionLibrary { 
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): MidiInterface;
-	static Find(Outer: UObject, ResourceName: string): MidiInterface;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): MidiInterface;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MidiInterface;
-	static SendMidiEvent(Event: MidiEvent): void;
-	static OpenMidiOutput(port: number): boolean;
-	static IsMidiOutputOpen(): boolean;
-	static CloseMidiOutput(): void;
-	static C(Other: UObject): MidiInterface;
-}
-
-declare class MidiInterfaceComponent extends ActorComponent { 
-	OnReceiveEvent: UnrealEngineMulticastDelegate<(Event: MidiEvent, deltaTime: number) => void>;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): MidiInterfaceComponent;
-	static Find(Outer: UObject, ResourceName: string): MidiInterfaceComponent;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): MidiInterfaceComponent;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MidiInterfaceComponent;
-	OpenInput(port: number): boolean;
-	CloseInput(): void;
-	static C(Other: UObject): MidiInterfaceComponent;
-}
-
-declare class MMLComponent extends ActorComponent { 
-	OnNote: UnrealEngineMulticastDelegate<(freq: number) => void>;
-	OnRest: UnrealEngineMulticastDelegate<(ms: number) => void>;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): MMLComponent;
-	static Find(Outer: UObject, ResourceName: string): MMLComponent;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): MMLComponent;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MMLComponent;
-	LoadString(data: string): void;
-	static C(Other: UObject): MMLComponent;
-}
-
-declare class SoundWaveProceduralTest extends SoundWave { 
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): SoundWaveProceduralTest;
-	static Find(Outer: UObject, ResourceName: string): SoundWaveProceduralTest;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): SoundWaveProceduralTest;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): SoundWaveProceduralTest;
-	static C(Other: UObject): SoundWaveProceduralTest;
-}
-
-declare class SoundNodeProceduralTest extends SoundNode { 
-	Volume: number;
-	Frequency: number;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): SoundNodeProceduralTest;
-	static Find(Outer: UObject, ResourceName: string): SoundNodeProceduralTest;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): SoundNodeProceduralTest;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): SoundNodeProceduralTest;
-	static C(Other: UObject): SoundNodeProceduralTest;
-}
-
-declare class SoundUtils extends BlueprintFunctionLibrary { 
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): SoundUtils;
-	static Find(Outer: UObject, ResourceName: string): SoundUtils;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): SoundUtils;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): SoundUtils;
-	static ConstantNote(amplitude: number,frequency: number): SoundWave;
-	static AudioNote(amplitude: number,frequency: number,seconds: number): SoundWave;
-	static C(Other: UObject): SoundUtils;
-}
-
 declare class JavascriptAssetData { 
 	ObjectPath: string;
 	PackageName: string;
@@ -9166,6 +8869,20 @@ declare class TRASHCLASS_LevelEditorAttract_2 {
 	static SetDefaultSubobjectClass(Name: string): void;
 	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): TRASHCLASS_LevelEditorAttract_2;
 	static C(Other: UObject): TRASHCLASS_LevelEditorAttract_2;
+}
+
+declare class TRASHCLASS_LevelEditorOverview_3 { 
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): TRASHCLASS_LevelEditorOverview_3;
+	static Find(Outer: UObject, ResourceName: string): TRASHCLASS_LevelEditorOverview_3;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): TRASHCLASS_LevelEditorOverview_3;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): TRASHCLASS_LevelEditorOverview_3;
+	static C(Other: UObject): TRASHCLASS_LevelEditorOverview_3;
 }
 
 declare var Context : JavascriptContext;
