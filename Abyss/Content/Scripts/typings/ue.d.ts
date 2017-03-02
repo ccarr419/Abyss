@@ -8885,6 +8885,20 @@ declare class TRASHCLASS_LevelEditorOverview_3 {
 	static C(Other: UObject): TRASHCLASS_LevelEditorOverview_3;
 }
 
+declare class TRASHCLASS_BlueprintEditorTutorial_4 { 
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): TRASHCLASS_BlueprintEditorTutorial_4;
+	static Find(Outer: UObject, ResourceName: string): TRASHCLASS_BlueprintEditorTutorial_4;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): TRASHCLASS_BlueprintEditorTutorial_4;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): TRASHCLASS_BlueprintEditorTutorial_4;
+	static C(Other: UObject): TRASHCLASS_BlueprintEditorTutorial_4;
+}
+
 declare var Context : JavascriptContext;
 
 declare var Root : JavascriptEditorTick;
