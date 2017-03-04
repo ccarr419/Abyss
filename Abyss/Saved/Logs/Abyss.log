@@ -13917,3 +13917,667 @@ Script call stack:
 [2017.03.04-20.01.40:322][363]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration' with GeneratedClass '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration'
 [2017.03.04-20.01.40:357][363]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration' with GeneratedClass '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration'
 [2017.03.04-20.01.40:515][363]LogAudio:Warning: Audio Component is being destroyed without stopping looping sound 'ambientBackground'
+[2017.03.04-20.02.58:040][859]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.04-20.02.58:081][859]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration' with GeneratedClass '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration'
+[2017.03.04-20.02.58:081][859]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.04-20.02.58:081][859]PIE: New page: PIE session: Fort_Exploration (Mar 4, 2017, 10:02:58 AM)
+[2017.03.04-20.02.58:081][859]LogPlayLevel: Creating play world package: /Game/Maps-Levels/Fort/Exploration/UEDPIE_0_Fort_Exploration
+[2017.03.04-20.02.58:084][859]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002266s)
+[2017.03.04-20.02.58:084][859]LogAIModule: Creating AISystem for world Fort_Exploration
+[2017.03.04-20.02.58:085][859]LogPlayLevel: PIE: World Init took: (0.000799s)
+[2017.03.04-20.02.58:085][859]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration to /Game/Maps-Levels/Fort/Exploration/UEDPIE_0_Fort_Exploration.Fort_Exploration (0.003319s)
+[2017.03.04-20.02.58:263][859]LogInit: XAudio2 using '1 - SE32HY27 (2- AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.04-20.02.58:274][859]LogInit: FAudioDevice initialized.
+[2017.03.04-20.02.58:330][859]LogLoad: Game class is 'abyssExplorationMode_C'
+[2017.03.04-20.02.58:335][859]LogWorld: Bringing World /Game/Maps-Levels/Fort/Exploration/UEDPIE_0_Fort_Exploration.Fort_Exploration up for play (max tick rate 0) at 2017.03.04-15.02.58
+[2017.03.04-20.02.58:335][859]LogWorld: Bringing up level for play took: 0.002312
+[2017.03.04-20.02.58:347][859]PIE: Info Play in editor start time for /Game/Maps-Levels/Fort/Exploration/UEDPIE_0_Fort_Exploration 0.981
+[2017.03.04-20.02.58:348][859]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration' with GeneratedClass '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration'
+[2017.03.04-20.03.03:556][142]LogBlueprintUserMessages: [checkPoint_765] Checkpoint!
+[2017.03.04-20.04.03:558][454]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration' with GeneratedClass '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration'
+[2017.03.04-20.04.03:631][454]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration' with GeneratedClass '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration'
+[2017.03.04-20.04.03:788][454]LogAudio:Warning: Audio Component is being destroyed without stopping looping sound 'ambientBackground'
+[2017.03.04-20.05.20:239][ 73]LogSavePackage: Save=248.56ms
+[2017.03.04-20.05.20:239][ 73]LogSavePackage: Moving '../../../../../Unreal Projects/ChimeraGames/Abyss/Saved/Fort_ExplorationFBE5B2A24E4BEEFA4ED5B5AC5869C40D.tmp' to '../../../../../Unreal Projects/ChimeraGames/Abyss/Content/Maps-Levels/Fort/Exploration/Fort_Exploration.umap'
+[2017.03.04-20.05.20:241][ 73]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/ChimeraGames/Abyss/Content/Maps-Levels/Fort/Exploration/Fort_Exploration.umap
+[2017.03.04-20.06.19:277][180]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.04-20.06.19:319][180]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration' with GeneratedClass '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration'
+[2017.03.04-20.06.19:319][180]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.04-20.06.19:319][180]PIE: New page: PIE session: Fort_Exploration (Mar 4, 2017, 10:06:19 AM)
+[2017.03.04-20.06.19:320][180]LogPlayLevel: Creating play world package: /Game/Maps-Levels/Fort/Exploration/UEDPIE_0_Fort_Exploration
+[2017.03.04-20.06.19:322][180]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002197s)
+[2017.03.04-20.06.19:323][180]LogAIModule: Creating AISystem for world Fort_Exploration
+[2017.03.04-20.06.19:323][180]LogPlayLevel: PIE: World Init took: (0.000789s)
+[2017.03.04-20.06.19:323][180]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration to /Game/Maps-Levels/Fort/Exploration/UEDPIE_0_Fort_Exploration.Fort_Exploration (0.003229s)
+[2017.03.04-20.06.19:502][180]LogInit: XAudio2 using '1 - SE32HY27 (2- AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.04-20.06.19:514][180]LogInit: FAudioDevice initialized.
+[2017.03.04-20.06.19:541][180]LogLoad: Game class is 'abyssExplorationMode_C'
+[2017.03.04-20.06.19:544][180]LogWorld: Bringing World /Game/Maps-Levels/Fort/Exploration/UEDPIE_0_Fort_Exploration.Fort_Exploration up for play (max tick rate 0) at 2017.03.04-15.06.19
+[2017.03.04-20.06.19:545][180]LogWorld: Bringing up level for play took: 0.001921
+[2017.03.04-20.06.19:548][180]PIE: Info Play in editor start time for /Game/Maps-Levels/Fort/Exploration/UEDPIE_0_Fort_Exploration 0.182
+[2017.03.04-20.06.19:548][180]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration' with GeneratedClass '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration'
+[2017.03.04-20.06.26:276][986]LogBlueprintUserMessages: [checkPoint_765] Checkpoint!
+[2017.03.04-20.07.22:031][655]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration' with GeneratedClass '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration'
+[2017.03.04-20.07.22:067][655]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration' with GeneratedClass '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration'
+[2017.03.04-20.07.22:226][655]LogAudio:Warning: Audio Component is being destroyed without stopping looping sound 'ambientBackground'
+[2017.03.04-20.27.40:453][178]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.04-20.27.40:499][178]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration' with GeneratedClass '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration'
+[2017.03.04-20.27.40:499][178]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.04-20.27.40:499][178]PIE: New page: PIE session: Fort_Exploration (Mar 4, 2017, 10:27:40 AM)
+[2017.03.04-20.27.40:499][178]LogPlayLevel: Creating play world package: /Game/Maps-Levels/Fort/Exploration/UEDPIE_0_Fort_Exploration
+[2017.03.04-20.27.40:502][178]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002708s)
+[2017.03.04-20.27.40:503][178]LogAIModule: Creating AISystem for world Fort_Exploration
+[2017.03.04-20.27.40:503][178]LogPlayLevel: PIE: World Init took: (0.000881s)
+[2017.03.04-20.27.40:503][178]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration to /Game/Maps-Levels/Fort/Exploration/UEDPIE_0_Fort_Exploration.Fort_Exploration (0.003855s)
+[2017.03.04-20.27.40:684][178]LogInit: XAudio2 using '1 - SE32HY27 (2- AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.04-20.27.40:696][178]LogInit: FAudioDevice initialized.
+[2017.03.04-20.27.40:728][178]LogLoad: Game class is 'abyssExplorationMode_C'
+[2017.03.04-20.27.40:731][178]LogWorld: Bringing World /Game/Maps-Levels/Fort/Exploration/UEDPIE_0_Fort_Exploration.Fort_Exploration up for play (max tick rate 0) at 2017.03.04-15.27.40
+[2017.03.04-20.27.40:732][178]LogWorld: Bringing up level for play took: 0.001919
+[2017.03.04-20.27.40:735][178]PIE: Info Play in editor start time for /Game/Maps-Levels/Fort/Exploration/UEDPIE_0_Fort_Exploration -0.618
+[2017.03.04-20.27.40:735][178]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration' with GeneratedClass '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration'
+[2017.03.04-20.27.47:872][ 33]LogBlueprintUserMessages: [checkPoint_765] Checkpoint!
+[2017.03.04-20.28.48:865][329]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration' with GeneratedClass '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration'
+[2017.03.04-20.28.48:905][329]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration' with GeneratedClass '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration'
+[2017.03.04-20.28.49:063][329]LogAudio:Warning: Audio Component is being destroyed without stopping looping sound 'ambientBackground'
+[2017.03.04-20.35.24:126][427]LogEditorTransaction: Undo Edit Left
+[2017.03.04-20.35.24:173][427]LogMaterial: Missing cached shader map for material smokeParticle, compiling. 
+[2017.03.04-20.35.24:207][427]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-20.35.26:911][631]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 28 instructions
+[2017.03.04-20.35.26:911][631]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.03.04-20.35.26:911][631]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.03.04-20.36.45:640][952]BlueprintLog: New page: Compile mainMenu
+[2017.03.04-20.36.46:824][ 39]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/mainMenu" FILE="../../../../../Unreal Projects/ChimeraGames/Abyss/Content/UMG/mainMenu.uasset" SILENT=true
+[2017.03.04-20.36.46:841][ 39]LogSavePackage: Save=16.01ms
+[2017.03.04-20.36.46:841][ 39]LogSavePackage: Moving '../../../../../Unreal Projects/ChimeraGames/Abyss/Saved/mainMenu2FAA6B7747BECE4DEA8B708F3558F468.tmp' to '../../../../../Unreal Projects/ChimeraGames/Abyss/Content/UMG/mainMenu.uasset'
+[2017.03.04-20.36.46:842][ 39]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/ChimeraGames/Abyss/Content/UMG/mainMenu.uasset
+[2017.03.04-20.37.03:324][995]LogAIModule: Creating AISystem for world NewMap
+[2017.03.04-20.37.03:487][995]Cmd: MAP LOAD FILE="../../../../../Unreal Projects/ChimeraGames/Abyss/Content/Maps-Levels/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.04-20.37.03:487][995]LightingResults: New page: Lighting Build
+[2017.03.04-20.37.03:489][995]LoadErrors: New page: Loading map: NewMap.umap
+[2017.03.04-20.37.03:490][995]MapCheck: New page: Map Check
+[2017.03.04-20.37.03:490][995]LightingResults: New page: Lighting Build
+[2017.03.04-20.37.03:722][995]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.04-20.37.03:791][995]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.04-20.37.03:880][995]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 89.152ms to complete.
+[2017.03.04-20.37.03:881][995]LogFileHelpers: Loading map 'NewMap' took 0.396
+[2017.03.04-20.37.05:981][242]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.03.04-20.37.06:621][308]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.03.04-20.37.11:418][835]LogEditorActor: Deleted Actor: AtmosphericFog
+[2017.03.04-20.37.11:419][835]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.03.04-20.37.15:944][835]LogEditorActor: Deleted Actor: PlayerStart
+[2017.03.04-20.37.15:945][835]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
+[2017.03.04-20.37.16:126][835]LogEditorActor: Deleted 4 Actors (4.710 secs)
+[2017.03.04-20.37.17:777][ 22]LogEditorActor: Deleted Actor: DirectionalLight
+[2017.03.04-20.37.17:936][ 22]LogEditorActor: Deleted 1 Actors (0.159 secs)
+[2017.03.04-20.37.22:783][581]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps-Levels/startMenu" FILE="../../../../../Unreal Projects/ChimeraGames/Abyss/Content/Maps-Levels/startMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.03.04-20.37.22:976][581]LogSavePackage: Save=26.10ms
+[2017.03.04-20.37.22:976][581]LogSavePackage: Moving '../../../../../Unreal Projects/ChimeraGames/Abyss/Saved/startMenu114817014EA9CFD341106888F9B2F989.tmp' to '../../../../../Unreal Projects/ChimeraGames/Abyss/Content/Maps-Levels/startMenu.umap'
+[2017.03.04-20.37.22:977][581]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/ChimeraGames/Abyss/Content/Maps-Levels/startMenu.umap
+[2017.03.04-20.37.23:063][581]LogFileHelpers: Saving map 'startMenu' took 0.363
+[2017.03.04-20.38.20:688][761]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.03.04-20.38.25:024][874]LogMaterial: Missing cached shader map for material smokeParticle, compiling. 
+[2017.03.04-20.38.25:109][874]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-20.38.25:160][874]LogMaterial: Missing cached shader map for material smokeParticle, compiling. 
+[2017.03.04-20.38.25:308][874]LogMaterial: Missing cached shader map for material smokeParticle, compiling. 
+[2017.03.04-20.38.25:438][874]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-20.38.27:180][ 18]LogCascade: Quitting Cascade. FXSystem=0x000000006EEC74C0
+[2017.03.04-20.38.27:287][ 18]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloorComponent) Not registered. Aborting.
+[2017.03.04-20.38.32:638][430]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.04-20.38.32:708][430]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu' with GeneratedClass '/Game/Maps-Levels/startMenu.startMenu_C' with ClassGeneratedBy '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu'
+[2017.03.04-20.38.32:708][430]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.03.04-20.38.32:708][430]LogPlayLevel: [PlayLevel] Compiling startMenu before play...
+[2017.03.04-20.38.33:222][430]LogPlayLevel: PlayLevel: Blueprint regeneration took 513 ms (1 blueprints)
+[2017.03.04-20.38.33:222][430]PIE: New page: PIE session: startMenu (Mar 4, 2017, 10:38:33 AM)
+[2017.03.04-20.38.33:223][430]LogPlayLevel: Creating play world package: /Game/Maps-Levels/UEDPIE_0_startMenu
+[2017.03.04-20.38.33:224][430]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001386s)
+[2017.03.04-20.38.33:225][430]LogAIModule: Creating AISystem for world startMenu
+[2017.03.04-20.38.33:225][430]LogPlayLevel: PIE: World Init took: (0.001054s)
+[2017.03.04-20.38.33:226][430]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps-Levels/startMenu.startMenu to /Game/Maps-Levels/UEDPIE_0_startMenu.startMenu (0.002755s)
+[2017.03.04-20.38.33:417][430]LogInit: XAudio2 using '1 - SE32HY27 (2- AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.04-20.38.33:435][430]LogInit: FAudioDevice initialized.
+[2017.03.04-20.38.33:510][430]LogLoad: Game class is 'abyssGameMode_C'
+[2017.03.04-20.38.33:514][430]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_startMenu.startMenu up for play (max tick rate 0) at 2017.03.04-15.38.33
+[2017.03.04-20.38.33:514][430]LogWorld: Bringing up level for play took: 0.001043
+[2017.03.04-20.38.33:514][430]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.03.04-20.38.33:532][430]PIE: Info Play in editor start time for /Game/Maps-Levels/UEDPIE_0_startMenu 0.182
+[2017.03.04-20.38.33:533][430]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu' with GeneratedClass '/Game/Maps-Levels/startMenu.startMenu_C' with ClassGeneratedBy '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu'
+[2017.03.04-20.38.35:502][510]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu' with GeneratedClass '/Game/Maps-Levels/startMenu.startMenu_C' with ClassGeneratedBy '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu'
+[2017.03.04-20.38.35:592][510]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu' with GeneratedClass '/Game/Maps-Levels/startMenu.startMenu_C' with ClassGeneratedBy '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu'
+[2017.03.04-20.38.44:720][518]LogAIModule: Creating AISystem for world Fort_Exploration
+[2017.03.04-20.38.46:743][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Paricles/smokeParticle" FILE="../../../../../Unreal Projects/ChimeraGames/Abyss/Content/Assets/Paricles/smokeParticle.uasset" SILENT=true
+[2017.03.04-20.38.46:788][518]LogSavePackage: Save=14.81ms
+[2017.03.04-20.38.46:788][518]LogSavePackage: Moving '../../../../../Unreal Projects/ChimeraGames/Abyss/Saved/smokeParticle1608EF9045C0DE73300411A69E0E6651.tmp' to '../../../../../Unreal Projects/ChimeraGames/Abyss/Content/Assets/Paricles/smokeParticle.uasset'
+[2017.03.04-20.38.46:790][518]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/ChimeraGames/Abyss/Content/Assets/Paricles/smokeParticle.uasset
+[2017.03.04-20.38.46:880][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps-Levels/startMenu" FILE="../../../../../Unreal Projects/ChimeraGames/Abyss/Content/Maps-Levels/startMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.03.04-20.38.47:292][518]LogSavePackage: Save=240.73ms
+[2017.03.04-20.38.47:292][518]LogSavePackage: Moving '../../../../../Unreal Projects/ChimeraGames/Abyss/Saved/startMenuE6FE48004B717C8B12C0719B912197D5.tmp' to '../../../../../Unreal Projects/ChimeraGames/Abyss/Content/Maps-Levels/startMenu.umap'
+[2017.03.04-20.38.47:294][518]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/ChimeraGames/Abyss/Content/Maps-Levels/startMenu.umap
+[2017.03.04-20.38.47:357][518]LogFileHelpers: Saving map 'startMenu' took 0.567
+[2017.03.04-20.38.47:359][518]Cmd: MAP LOAD FILE="../../../../../Unreal Projects/ChimeraGames/Abyss/Content/Maps-Levels/Fort/Exploration/Fort_Exploration.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.04-20.38.47:359][518]LightingResults: New page: Lighting Build
+[2017.03.04-20.38.47:359][518]LoadErrors: New page: Loading map: Fort_Exploration.umap
+[2017.03.04-20.38.47:426][518]MapCheck: New page: Map Check
+[2017.03.04-20.38.47:426][518]LightingResults: New page: Lighting Build
+[2017.03.04-20.38.47:734][518]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.04-20.38.47:810][518]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.04-20.38.47:894][518]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 83.603ms to complete.
+[2017.03.04-20.38.47:894][518]LogFileHelpers: Loading map 'Fort_Exploration' took 0.537
+[2017.03.04-20.38.50:897][856]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.04-20.38.50:947][856]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration' with GeneratedClass '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration'
+[2017.03.04-20.38.50:947][856]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.04-20.38.50:948][856]PIE: New page: PIE session: Fort_Exploration (Mar 4, 2017, 10:38:50 AM)
+[2017.03.04-20.38.50:948][856]LogPlayLevel: Creating play world package: /Game/Maps-Levels/Fort/Exploration/UEDPIE_0_Fort_Exploration
+[2017.03.04-20.38.50:950][856]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002264s)
+[2017.03.04-20.38.50:951][856]LogAIModule: Creating AISystem for world Fort_Exploration
+[2017.03.04-20.38.50:951][856]LogPlayLevel: PIE: World Init took: (0.000778s)
+[2017.03.04-20.38.50:951][856]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration to /Game/Maps-Levels/Fort/Exploration/UEDPIE_0_Fort_Exploration.Fort_Exploration (0.003295s)
+[2017.03.04-20.38.51:128][856]LogInit: XAudio2 using '1 - SE32HY27 (2- AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.04-20.38.51:140][856]LogInit: FAudioDevice initialized.
+[2017.03.04-20.38.51:167][856]LogLoad: Game class is 'abyssExplorationMode_C'
+[2017.03.04-20.38.51:171][856]LogWorld: Bringing World /Game/Maps-Levels/Fort/Exploration/UEDPIE_0_Fort_Exploration.Fort_Exploration up for play (max tick rate 0) at 2017.03.04-15.38.51
+[2017.03.04-20.38.51:171][856]LogWorld: Bringing up level for play took: 0.002007
+[2017.03.04-20.38.51:175][856]PIE: Info Play in editor start time for /Game/Maps-Levels/Fort/Exploration/UEDPIE_0_Fort_Exploration -0.175
+[2017.03.04-20.38.51:175][856]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration' with GeneratedClass '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration'
+[2017.03.04-20.38.55:832][413]LogBlueprintUserMessages: [checkPoint_765] Checkpoint!
+[2017.03.04-20.39.00:473][968]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration' with GeneratedClass '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration'
+[2017.03.04-20.39.00:505][968]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration' with GeneratedClass '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration'
+[2017.03.04-20.39.00:667][968]LogAudio:Warning: Audio Component is being destroyed without stopping looping sound 'ambientBackground'
+[2017.03.04-20.39.01:999][ 82]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.04-20.39.02:042][ 82]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration' with GeneratedClass '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration'
+[2017.03.04-20.39.02:042][ 82]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.04-20.39.02:042][ 82]PIE: New page: PIE session: Fort_Exploration (Mar 4, 2017, 10:39:02 AM)
+[2017.03.04-20.39.02:043][ 82]LogPlayLevel: Creating play world package: /Game/Maps-Levels/Fort/Exploration/UEDPIE_0_Fort_Exploration
+[2017.03.04-20.39.02:045][ 82]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002254s)
+[2017.03.04-20.39.02:046][ 82]LogAIModule: Creating AISystem for world Fort_Exploration
+[2017.03.04-20.39.02:046][ 82]LogPlayLevel: PIE: World Init took: (0.000808s)
+[2017.03.04-20.39.02:046][ 82]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration to /Game/Maps-Levels/Fort/Exploration/UEDPIE_0_Fort_Exploration.Fort_Exploration (0.003346s)
+[2017.03.04-20.39.02:220][ 82]LogInit: XAudio2 using '1 - SE32HY27 (2- AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.04-20.39.02:232][ 82]LogInit: FAudioDevice initialized.
+[2017.03.04-20.39.02:290][ 82]LogLoad: Game class is 'abyssExplorationMode_C'
+[2017.03.04-20.39.02:294][ 82]LogWorld: Bringing World /Game/Maps-Levels/Fort/Exploration/UEDPIE_0_Fort_Exploration.Fort_Exploration up for play (max tick rate 0) at 2017.03.04-15.39.02
+[2017.03.04-20.39.02:295][ 82]LogWorld: Bringing up level for play took: 0.002227
+[2017.03.04-20.39.02:309][ 82]PIE: Info Play in editor start time for /Game/Maps-Levels/Fort/Exploration/UEDPIE_0_Fort_Exploration 0.959
+[2017.03.04-20.39.02:309][ 82]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration' with GeneratedClass '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration'
+[2017.03.04-20.39.07:059][379]LogBlueprintUserMessages: [checkPoint_765] Checkpoint!
+[2017.03.04-20.39.10:596][606]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration' with GeneratedClass '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration'
+[2017.03.04-20.39.10:666][606]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration' with GeneratedClass '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration'
+[2017.03.04-20.39.10:824][606]LogAudio:Warning: Audio Component is being destroyed without stopping looping sound 'ambientBackground'
+[2017.03.04-20.39.26:929][475]Cmd: MAP LOAD FILE="../../../../../Unreal Projects/ChimeraGames/Abyss/Content/Maps-Levels/Fort/Exploration/Fort_Exploration.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.04-20.39.26:929][475]LightingResults: New page: Lighting Build
+[2017.03.04-20.39.26:930][475]LoadErrors: New page: Loading map: Fort_Exploration.umap
+[2017.03.04-20.39.26:931][475]MapCheck: New page: Map Check
+[2017.03.04-20.39.26:931][475]LightingResults: New page: Lighting Build
+[2017.03.04-20.39.27:090][475]LogAIModule: Creating AISystem for world Fort_Exploration
+[2017.03.04-20.39.27:285][475]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.04-20.39.27:352][475]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.04-20.39.27:441][475]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 89.225ms to complete.
+[2017.03.04-20.39.27:443][475]LogFileHelpers: Loading map 'Fort_Exploration' took 0.516
+[2017.03.04-20.39.31:012][892]LogAIModule: Creating AISystem for world Fort_Exploration
+[2017.03.04-20.39.31:180][892]Cmd: MAP LOAD FILE="../../../../../Unreal Projects/ChimeraGames/Abyss/Content/Maps-Levels/Fort/Fort_Exploration.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.04-20.39.31:180][892]LightingResults: New page: Lighting Build
+[2017.03.04-20.39.31:181][892]LoadErrors: New page: Loading map: Fort_Exploration.umap
+[2017.03.04-20.39.31:182][892]MapCheck: New page: Map Check
+[2017.03.04-20.39.31:182][892]LightingResults: New page: Lighting Build
+[2017.03.04-20.39.31:549][892]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.04-20.39.31:615][892]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.04-20.39.31:708][892]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 92.448ms to complete.
+[2017.03.04-20.39.31:708][892]LogFileHelpers: Loading map 'Fort_Exploration' took 0.529
+[2017.03.04-20.39.34:457][213]LogAIModule: Creating AISystem for world Fort_Exploration
+[2017.03.04-20.39.34:628][213]Cmd: MAP LOAD FILE="../../../../../Unreal Projects/ChimeraGames/Abyss/Content/Maps-Levels/Fort/Exploration/Fort_Exploration.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.04-20.39.34:628][213]LightingResults: New page: Lighting Build
+[2017.03.04-20.39.34:629][213]LoadErrors: New page: Loading map: Fort_Exploration.umap
+[2017.03.04-20.39.34:630][213]MapCheck: New page: Map Check
+[2017.03.04-20.39.34:630][213]LightingResults: New page: Lighting Build
+[2017.03.04-20.39.35:034][213]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.04-20.39.35:100][213]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.04-20.39.35:183][213]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 83.296ms to complete.
+[2017.03.04-20.39.35:183][213]LogFileHelpers: Loading map 'Fort_Exploration' took 0.557
+[2017.03.04-20.39.47:576][687]LogEditorViewport: Clicking on Actor (LMB): LightableTorch_C (LightableTorch2)
+[2017.03.04-20.39.48:365][769]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Fort_TileMap)
+[2017.03.04-20.39.51:567][118]LogAIModule: Creating AISystem for world Fort_Exploration
+[2017.03.04-20.39.51:738][118]Cmd: MAP LOAD FILE="../../../../../Unreal Projects/ChimeraGames/Abyss/Content/Maps-Levels/Fort/Fort_Exploration.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.04-20.39.51:738][118]LightingResults: New page: Lighting Build
+[2017.03.04-20.39.51:740][118]LoadErrors: New page: Loading map: Fort_Exploration.umap
+[2017.03.04-20.39.51:741][118]MapCheck: New page: Map Check
+[2017.03.04-20.39.51:741][118]LightingResults: New page: Lighting Build
+[2017.03.04-20.39.52:200][118]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.04-20.39.52:289][118]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.04-20.39.52:386][118]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 97.569ms to complete.
+[2017.03.04-20.39.52:386][118]LogFileHelpers: Loading map 'Fort_Exploration' took 0.650
+[2017.03.04-20.40.08:789][ 63]LogAIModule: Creating AISystem for world Fort_Battle
+[2017.03.04-20.40.08:953][ 63]Cmd: MAP LOAD FILE="../../../../../Unreal Projects/ChimeraGames/Abyss/Content/Maps-Levels/Fort/Battle/Fort_Battle.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.04-20.40.08:953][ 63]LightingResults: New page: Lighting Build
+[2017.03.04-20.40.08:954][ 63]LoadErrors: New page: Loading map: Fort_Battle.umap
+[2017.03.04-20.40.08:955][ 63]MapCheck: New page: Map Check
+[2017.03.04-20.40.08:955][ 63]LightingResults: New page: Lighting Build
+[2017.03.04-20.40.09:395][ 63]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.04-20.40.09:470][ 63]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.04-20.40.09:559][ 63]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 88.72ms to complete.
+[2017.03.04-20.40.09:559][ 63]LogFileHelpers: Loading map 'Fort_Battle' took 0.607
+[2017.03.04-20.40.12:763][442]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.04-20.40.12:803][442]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps-Levels/Fort/Battle/Fort_Battle.Fort_Battle:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort/Battle/Fort_Battle.Fort_Battle:PersistentLevel.Fort_Battle' with GeneratedClass '/Game/Maps-Levels/Fort/Battle/Fort_Battle.Fort_Battle_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort/Battle/Fort_Battle.Fort_Battle:PersistentLevel.Fort_Battle'
+[2017.03.04-20.40.12:803][442]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.04-20.40.12:803][442]PIE: New page: PIE session: Fort_Battle (Mar 4, 2017, 10:40:12 AM)
+[2017.03.04-20.40.12:804][442]LogPlayLevel: Creating play world package: /Game/Maps-Levels/Fort/Battle/UEDPIE_0_Fort_Battle
+[2017.03.04-20.40.12:808][442]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003732s)
+[2017.03.04-20.40.12:808][442]LogAIModule: Creating AISystem for world Fort_Battle
+[2017.03.04-20.40.12:808][442]LogPlayLevel: PIE: World Init took: (0.000821s)
+[2017.03.04-20.40.12:809][442]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps-Levels/Fort/Battle/Fort_Battle.Fort_Battle to /Game/Maps-Levels/Fort/Battle/UEDPIE_0_Fort_Battle.Fort_Battle (0.004822s)
+[2017.03.04-20.40.12:986][442]LogInit: XAudio2 using '1 - SE32HY27 (2- AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.04-20.40.12:998][442]LogInit: FAudioDevice initialized.
+[2017.03.04-20.40.13:026][442]LogLoad: Game class is 'abyssBattleScene_C'
+[2017.03.04-20.40.13:029][442]LogWorld: Bringing World /Game/Maps-Levels/Fort/Battle/UEDPIE_0_Fort_Battle.Fort_Battle up for play (max tick rate 0) at 2017.03.04-15.40.13
+[2017.03.04-20.40.13:029][442]LogWorld: Bringing up level for play took: 0.001345
+[2017.03.04-20.40.13:033][442]PIE: Info Play in editor start time for /Game/Maps-Levels/Fort/Battle/UEDPIE_0_Fort_Battle -0.315
+[2017.03.04-20.40.13:034][442]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps-Levels/Fort/Battle/Fort_Battle.Fort_Battle:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort/Battle/Fort_Battle.Fort_Battle:PersistentLevel.Fort_Battle' with GeneratedClass '/Game/Maps-Levels/Fort/Battle/Fort_Battle.Fort_Battle_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort/Battle/Fort_Battle.Fort_Battle:PersistentLevel.Fort_Battle'
+[2017.03.04-20.40.14:093][567]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps-Levels/Fort/Battle/Fort_Battle.Fort_Battle:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort/Battle/Fort_Battle.Fort_Battle:PersistentLevel.Fort_Battle' with GeneratedClass '/Game/Maps-Levels/Fort/Battle/Fort_Battle.Fort_Battle_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort/Battle/Fort_Battle.Fort_Battle:PersistentLevel.Fort_Battle'
+[2017.03.04-20.40.14:126][567]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps-Levels/Fort/Battle/Fort_Battle.Fort_Battle:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort/Battle/Fort_Battle.Fort_Battle:PersistentLevel.Fort_Battle' with GeneratedClass '/Game/Maps-Levels/Fort/Battle/Fort_Battle.Fort_Battle_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort/Battle/Fort_Battle.Fort_Battle:PersistentLevel.Fort_Battle'
+[2017.03.04-20.40.18:801][ 99]LogBlueprint:Warning: [Compiler PersistentLevel.Fort_Battle] Warning 'BS Enemy' does not inherit from 'BS Player' ( K2Node_DynamicCast_2  would always fail).
+[2017.03.04-20.40.18:804][ 99]LogBlueprint:Warning: [Compiler PersistentLevel.Fort_Battle] Warning [0056.11] Compile of PersistentLevel.Fort_Battle successful, but with 1 Warning(s) [in 4 ms] (/Game/Maps-Levels/Fort/Fort_Battle.Fort_Battle:PersistentLevel.Fort_Battle)
+[2017.03.04-20.40.18:804][ 99]LogBlueprint:Warning: [Compiler PersistentLevel.Fort_Battle] Warning [0056.11] Compile of PersistentLevel.Fort_Battle successful, but with 2 Warning(s) [in 0 ms] (/Game/Maps-Levels/Fort/Fort_Battle.Fort_Battle:PersistentLevel.Fort_Battle)
+[2017.03.04-20.40.18:804][ 99]LogBlueprint:Warning: [Compiler PersistentLevel.Fort_Battle] Warning [0056.11] Compile of PersistentLevel.Fort_Battle successful, but with 3 Warning(s) [in 0 ms] (/Game/Maps-Levels/Fort/Fort_Battle.Fort_Battle:PersistentLevel.Fort_Battle)
+[2017.03.04-20.40.18:807][ 99]LogBlueprint:Warning: [Compiler PersistentLevel.Fort_Battle] Warning 'BS Enemy' does not inherit from 'BS Player' ( K2Node_DynamicCast_2  would always fail).
+[2017.03.04-20.40.18:809][ 99]LogBlueprint:Warning: [Compiler PersistentLevel.Fort_Battle] Warning [0056.12] Compile of PersistentLevel.Fort_Battle successful, but with 1 Warning(s) [in 4 ms] (/Game/Maps-Levels/Fort/Fort_Battle.Fort_Battle:PersistentLevel.Fort_Battle)
+[2017.03.04-20.40.18:809][ 99]LogBlueprint:Warning: [Compiler PersistentLevel.Fort_Battle] Warning [0056.12] Compile of PersistentLevel.Fort_Battle successful, but with 2 Warning(s) [in 0 ms] (/Game/Maps-Levels/Fort/Fort_Battle.Fort_Battle:PersistentLevel.Fort_Battle)
+[2017.03.04-20.40.18:809][ 99]LogBlueprint:Warning: [Compiler PersistentLevel.Fort_Battle] Warning [0056.12] Compile of PersistentLevel.Fort_Battle successful, but with 3 Warning(s) [in 0 ms] (/Game/Maps-Levels/Fort/Fort_Battle.Fort_Battle:PersistentLevel.Fort_Battle)
+[2017.03.04-20.40.18:812][ 99]LogUObjectGlobals:Warning: Guid referenced by ArrowComponent /Game/Maps-Levels/Fort/Fort_Battle.Fort_Battle:PersistentLevel.AtmosphericFog_1.ArrowComponent0 is already used by ArrowComponent /Game/Maps-Levels/Fort/Battle/Fort_Battle.Fort_Battle:PersistentLevel.AtmosphericFog_1.ArrowComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.04-20.40.18:812][ 99]LogUObjectGlobals:Warning: Guid referenced by ArrowComponent /Game/Maps-Levels/Fort/Fort_Battle.Fort_Battle:PersistentLevel.LightSource.ArrowComponent0 is already used by ArrowComponent /Game/Maps-Levels/Fort/Battle/Fort_Battle.Fort_Battle:PersistentLevel.LightSource.ArrowComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.04-20.40.18:813][ 99]LogUObjectGlobals:Warning: Guid referenced by AtmosphericFogComponent /Game/Maps-Levels/Fort/Fort_Battle.Fort_Battle:PersistentLevel.AtmosphericFog_1.AtmosphericFogComponent0 is already used by AtmosphericFogComponent /Game/Maps-Levels/Fort/Battle/Fort_Battle.Fort_Battle:PersistentLevel.AtmosphericFog_1.AtmosphericFogComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.04-20.40.18:813][ 99]LogUObjectGlobals:Warning: Guid referenced by BillboardComponent /Game/Maps-Levels/Fort/Fort_Battle.Fort_Battle:PersistentLevel.AtmosphericFog_1.Sprite is already used by BillboardComponent /Game/Maps-Levels/Fort/Battle/Fort_Battle.Fort_Battle:PersistentLevel.AtmosphericFog_1.Sprite, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.04-20.40.18:813][ 99]LogUObjectGlobals:Warning: Guid referenced by CameraComponent /Game/Maps-Levels/Fort/Fort_Battle.Fort_Battle:PersistentLevel.CameraActor_3.CameraComponent is already used by CameraComponent /Game/Maps-Levels/Fort/Battle/Fort_Battle.Fort_Battle:PersistentLevel.CameraActor_3.CameraComponent, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.04-20.40.18:813][ 99]LogUObjectGlobals:Warning: Guid referenced by DirectionalLightComponent /Game/Maps-Levels/Fort/Fort_Battle.Fort_Battle:PersistentLevel.LightSource.LightComponent0 is already used by DirectionalLightComponent /Game/Maps-Levels/Fort/Battle/Fort_Battle.Fort_Battle:PersistentLevel.LightSource.LightComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.04-20.40.18:814][ 99]LogUObjectGlobals:Warning: Guid referenced by SceneComponent /Game/Maps-Levels/Fort/Fort_Battle.Fort_Battle:PersistentLevel.CameraActor_3.SceneComponent is already used by SceneComponent /Game/Maps-Levels/Fort/Battle/Fort_Battle.Fort_Battle:PersistentLevel.CameraActor_3.SceneComponent, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.04-20.40.18:814][ 99]LogUObjectGlobals:Warning: Guid referenced by StaticMeshComponent /Game/Maps-Levels/Fort/Fort_Battle.Fort_Battle:PersistentLevel.Floor.StaticMeshComponent0 is already used by StaticMeshComponent /Game/Maps-Levels/Fort/Battle/Fort_Battle.Fort_Battle:PersistentLevel.Floor.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.04-20.40.18:825][ 99]LogAIModule: Creating AISystem for world Fort_Battle
+[2017.03.04-20.40.18:827][ 99]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps-Levels/Fort/Fort_Battle.Fort_Battle:PersistentLevel.BS_Player_2.CollisionCylinder) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.03.04-20.40.18:989][ 99]Cmd: MAP LOAD FILE="../../../../../Unreal Projects/ChimeraGames/Abyss/Content/Maps-Levels/Fort/Fort_Battle.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.04-20.40.18:989][ 99]LightingResults: New page: Lighting Build
+[2017.03.04-20.40.18:990][ 99]LoadErrors: New page: Loading map: Fort_Battle.umap
+[2017.03.04-20.40.18:991][ 99]MapCheck: New page: Map Check
+[2017.03.04-20.40.18:991][ 99]LightingResults: New page: Lighting Build
+[2017.03.04-20.40.19:483][ 99]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.04-20.40.19:559][ 99]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.04-20.40.19:652][ 99]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 92.608ms to complete.
+[2017.03.04-20.40.19:652][ 99]LogFileHelpers: Loading map 'Fort_Battle' took 0.664
+[2017.03.04-20.40.20:706][221]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.04-20.40.20:746][221]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps-Levels/Fort/Fort_Battle.Fort_Battle:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort/Fort_Battle.Fort_Battle:PersistentLevel.Fort_Battle' with GeneratedClass '/Game/Maps-Levels/Fort/Fort_Battle.Fort_Battle_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort/Fort_Battle.Fort_Battle:PersistentLevel.Fort_Battle'
+[2017.03.04-20.40.20:746][221]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.04-20.40.20:746][221]PIE: New page: PIE session: Fort_Battle (Mar 4, 2017, 10:40:20 AM)
+[2017.03.04-20.40.20:747][221]LogPlayLevel: Creating play world package: /Game/Maps-Levels/Fort/UEDPIE_0_Fort_Battle
+[2017.03.04-20.40.20:751][221]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003831s)
+[2017.03.04-20.40.20:751][221]LogAIModule: Creating AISystem for world Fort_Battle
+[2017.03.04-20.40.20:752][221]LogPlayLevel: PIE: World Init took: (0.000882s)
+[2017.03.04-20.40.20:752][221]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps-Levels/Fort/Fort_Battle.Fort_Battle to /Game/Maps-Levels/Fort/UEDPIE_0_Fort_Battle.Fort_Battle (0.004995s)
+[2017.03.04-20.40.20:927][221]LogInit: XAudio2 using '1 - SE32HY27 (2- AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.04-20.40.20:938][221]LogInit: FAudioDevice initialized.
+[2017.03.04-20.40.20:969][221]LogLoad: Game class is 'abyssBattleScene_C'
+[2017.03.04-20.40.20:972][221]LogWorld: Bringing World /Game/Maps-Levels/Fort/UEDPIE_0_Fort_Battle.Fort_Battle up for play (max tick rate 0) at 2017.03.04-15.40.20
+[2017.03.04-20.40.20:972][221]LogWorld: Bringing up level for play took: 0.001418
+[2017.03.04-20.40.20:977][221]LogBlueprintUserMessages: [Fort_Battle_C_1] Casting failed!
+[2017.03.04-20.40.20:977][221]PIE: Info Play in editor start time for /Game/Maps-Levels/Fort/UEDPIE_0_Fort_Battle -0.371
+[2017.03.04-20.40.20:977][221]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps-Levels/Fort/Fort_Battle.Fort_Battle:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort/Fort_Battle.Fort_Battle:PersistentLevel.Fort_Battle' with GeneratedClass '/Game/Maps-Levels/Fort/Fort_Battle.Fort_Battle_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort/Fort_Battle.Fort_Battle:PersistentLevel.Fort_Battle'
+[2017.03.04-20.40.21:988][340]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps-Levels/Fort/Fort_Battle.Fort_Battle:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort/Fort_Battle.Fort_Battle:PersistentLevel.Fort_Battle' with GeneratedClass '/Game/Maps-Levels/Fort/Fort_Battle.Fort_Battle_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort/Fort_Battle.Fort_Battle:PersistentLevel.Fort_Battle'
+[2017.03.04-20.40.22:021][340]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps-Levels/Fort/Fort_Battle.Fort_Battle:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort/Fort_Battle.Fort_Battle:PersistentLevel.Fort_Battle' with GeneratedClass '/Game/Maps-Levels/Fort/Fort_Battle.Fort_Battle_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort/Fort_Battle.Fort_Battle:PersistentLevel.Fort_Battle'
+[2017.03.04-20.40.23:783][531]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.04-20.40.23:832][531]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps-Levels/Fort/Fort_Battle.Fort_Battle:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort/Fort_Battle.Fort_Battle:PersistentLevel.Fort_Battle' with GeneratedClass '/Game/Maps-Levels/Fort/Fort_Battle.Fort_Battle_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort/Fort_Battle.Fort_Battle:PersistentLevel.Fort_Battle'
+[2017.03.04-20.40.23:833][531]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.04-20.40.23:833][531]PIE: New page: PIE session: Fort_Battle (Mar 4, 2017, 10:40:23 AM)
+[2017.03.04-20.40.23:833][531]LogPlayLevel: Creating play world package: /Game/Maps-Levels/Fort/UEDPIE_0_Fort_Battle
+[2017.03.04-20.40.23:837][531]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003564s)
+[2017.03.04-20.40.23:838][531]LogAIModule: Creating AISystem for world Fort_Battle
+[2017.03.04-20.40.23:838][531]LogPlayLevel: PIE: World Init took: (0.000889s)
+[2017.03.04-20.40.23:838][531]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps-Levels/Fort/Fort_Battle.Fort_Battle to /Game/Maps-Levels/Fort/UEDPIE_0_Fort_Battle.Fort_Battle (0.004733s)
+[2017.03.04-20.40.24:017][531]LogInit: XAudio2 using '1 - SE32HY27 (2- AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.04-20.40.24:029][531]LogInit: FAudioDevice initialized.
+[2017.03.04-20.40.24:058][531]LogLoad: Game class is 'abyssBattleScene_C'
+[2017.03.04-20.40.24:061][531]LogWorld: Bringing World /Game/Maps-Levels/Fort/UEDPIE_0_Fort_Battle.Fort_Battle up for play (max tick rate 0) at 2017.03.04-15.40.24
+[2017.03.04-20.40.24:061][531]LogWorld: Bringing up level for play took: 0.001386
+[2017.03.04-20.40.24:066][531]LogBlueprintUserMessages: [Fort_Battle_C_1] Casting failed!
+[2017.03.04-20.40.24:066][531]PIE: Info Play in editor start time for /Game/Maps-Levels/Fort/UEDPIE_0_Fort_Battle 0.718
+[2017.03.04-20.40.24:066][531]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps-Levels/Fort/Fort_Battle.Fort_Battle:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort/Fort_Battle.Fort_Battle:PersistentLevel.Fort_Battle' with GeneratedClass '/Game/Maps-Levels/Fort/Fort_Battle.Fort_Battle_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort/Fort_Battle.Fort_Battle:PersistentLevel.Fort_Battle'
+[2017.03.04-20.40.25:175][663]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps-Levels/Fort/Fort_Battle.Fort_Battle:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort/Fort_Battle.Fort_Battle:PersistentLevel.Fort_Battle' with GeneratedClass '/Game/Maps-Levels/Fort/Fort_Battle.Fort_Battle_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort/Fort_Battle.Fort_Battle:PersistentLevel.Fort_Battle'
+[2017.03.04-20.40.25:206][663]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps-Levels/Fort/Fort_Battle.Fort_Battle:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort/Fort_Battle.Fort_Battle:PersistentLevel.Fort_Battle' with GeneratedClass '/Game/Maps-Levels/Fort/Fort_Battle.Fort_Battle_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort/Fort_Battle.Fort_Battle:PersistentLevel.Fort_Battle'
+[2017.03.04-20.40.28:255][996]LogAIModule: Creating AISystem for world Fort_Battle
+[2017.03.04-20.40.28:424][996]Cmd: MAP LOAD FILE="../../../../../Unreal Projects/ChimeraGames/Abyss/Content/Maps-Levels/Fort/Battle/Fort_Battle.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.04-20.40.28:424][996]LightingResults: New page: Lighting Build
+[2017.03.04-20.40.28:425][996]LoadErrors: New page: Loading map: Fort_Battle.umap
+[2017.03.04-20.40.28:426][996]MapCheck: New page: Map Check
+[2017.03.04-20.40.28:426][996]LightingResults: New page: Lighting Build
+[2017.03.04-20.40.28:953][996]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.04-20.40.29:036][996]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.04-20.40.29:118][996]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 82.046ms to complete.
+[2017.03.04-20.40.29:118][996]LogFileHelpers: Loading map 'Fort_Battle' took 0.695
+[2017.03.04-20.40.30:189][121]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.04-20.40.30:229][121]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps-Levels/Fort/Battle/Fort_Battle.Fort_Battle:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort/Battle/Fort_Battle.Fort_Battle:PersistentLevel.Fort_Battle' with GeneratedClass '/Game/Maps-Levels/Fort/Battle/Fort_Battle.Fort_Battle_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort/Battle/Fort_Battle.Fort_Battle:PersistentLevel.Fort_Battle'
+[2017.03.04-20.40.30:229][121]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.04-20.40.30:229][121]PIE: New page: PIE session: Fort_Battle (Mar 4, 2017, 10:40:30 AM)
+[2017.03.04-20.40.30:230][121]LogPlayLevel: Creating play world package: /Game/Maps-Levels/Fort/Battle/UEDPIE_0_Fort_Battle
+[2017.03.04-20.40.30:233][121]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003720s)
+[2017.03.04-20.40.30:234][121]LogAIModule: Creating AISystem for world Fort_Battle
+[2017.03.04-20.40.30:234][121]LogPlayLevel: PIE: World Init took: (0.000814s)
+[2017.03.04-20.40.30:234][121]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps-Levels/Fort/Battle/Fort_Battle.Fort_Battle to /Game/Maps-Levels/Fort/Battle/UEDPIE_0_Fort_Battle.Fort_Battle (0.004797s)
+[2017.03.04-20.40.30:409][121]LogInit: XAudio2 using '1 - SE32HY27 (2- AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.04-20.40.30:420][121]LogInit: FAudioDevice initialized.
+[2017.03.04-20.40.30:449][121]LogLoad: Game class is 'abyssBattleScene_C'
+[2017.03.04-20.40.30:452][121]LogWorld: Bringing World /Game/Maps-Levels/Fort/Battle/UEDPIE_0_Fort_Battle.Fort_Battle up for play (max tick rate 0) at 2017.03.04-15.40.30
+[2017.03.04-20.40.30:452][121]LogWorld: Bringing up level for play took: 0.001387
+[2017.03.04-20.40.30:456][121]PIE: Info Play in editor start time for /Game/Maps-Levels/Fort/Battle/UEDPIE_0_Fort_Battle 1.108
+[2017.03.04-20.40.30:457][121]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps-Levels/Fort/Battle/Fort_Battle.Fort_Battle:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort/Battle/Fort_Battle.Fort_Battle:PersistentLevel.Fort_Battle' with GeneratedClass '/Game/Maps-Levels/Fort/Battle/Fort_Battle.Fort_Battle_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort/Battle/Fort_Battle.Fort_Battle:PersistentLevel.Fort_Battle'
+[2017.03.04-20.40.30:982][183]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps-Levels/Fort/Battle/Fort_Battle.Fort_Battle:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort/Battle/Fort_Battle.Fort_Battle:PersistentLevel.Fort_Battle' with GeneratedClass '/Game/Maps-Levels/Fort/Battle/Fort_Battle.Fort_Battle_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort/Battle/Fort_Battle.Fort_Battle:PersistentLevel.Fort_Battle'
+[2017.03.04-20.40.31:014][183]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps-Levels/Fort/Battle/Fort_Battle.Fort_Battle:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort/Battle/Fort_Battle.Fort_Battle:PersistentLevel.Fort_Battle' with GeneratedClass '/Game/Maps-Levels/Fort/Battle/Fort_Battle.Fort_Battle_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort/Battle/Fort_Battle.Fort_Battle:PersistentLevel.Fort_Battle'
+[2017.03.04-20.40.32:211][306]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.04-20.40.32:256][306]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps-Levels/Fort/Battle/Fort_Battle.Fort_Battle:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort/Battle/Fort_Battle.Fort_Battle:PersistentLevel.Fort_Battle' with GeneratedClass '/Game/Maps-Levels/Fort/Battle/Fort_Battle.Fort_Battle_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort/Battle/Fort_Battle.Fort_Battle:PersistentLevel.Fort_Battle'
+[2017.03.04-20.40.32:256][306]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.04-20.40.32:256][306]PIE: New page: PIE session: Fort_Battle (Mar 4, 2017, 10:40:32 AM)
+[2017.03.04-20.40.32:256][306]LogPlayLevel: Creating play world package: /Game/Maps-Levels/Fort/Battle/UEDPIE_0_Fort_Battle
+[2017.03.04-20.40.32:260][306]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003623s)
+[2017.03.04-20.40.32:261][306]LogAIModule: Creating AISystem for world Fort_Battle
+[2017.03.04-20.40.32:261][306]LogPlayLevel: PIE: World Init took: (0.000879s)
+[2017.03.04-20.40.32:261][306]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps-Levels/Fort/Battle/Fort_Battle.Fort_Battle to /Game/Maps-Levels/Fort/Battle/UEDPIE_0_Fort_Battle.Fort_Battle (0.004819s)
+[2017.03.04-20.40.32:433][306]LogInit: XAudio2 using '1 - SE32HY27 (2- AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.04-20.40.32:446][306]LogInit: FAudioDevice initialized.
+[2017.03.04-20.40.32:475][306]LogLoad: Game class is 'abyssBattleScene_C'
+[2017.03.04-20.40.32:478][306]LogWorld: Bringing World /Game/Maps-Levels/Fort/Battle/UEDPIE_0_Fort_Battle.Fort_Battle up for play (max tick rate 0) at 2017.03.04-15.40.32
+[2017.03.04-20.40.32:478][306]LogWorld: Bringing up level for play took: 0.001446
+[2017.03.04-20.40.32:483][306]PIE: Info Play in editor start time for /Game/Maps-Levels/Fort/Battle/UEDPIE_0_Fort_Battle 1.134
+[2017.03.04-20.40.32:483][306]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps-Levels/Fort/Battle/Fort_Battle.Fort_Battle:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort/Battle/Fort_Battle.Fort_Battle:PersistentLevel.Fort_Battle' with GeneratedClass '/Game/Maps-Levels/Fort/Battle/Fort_Battle.Fort_Battle_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort/Battle/Fort_Battle.Fort_Battle:PersistentLevel.Fort_Battle'
+[2017.03.04-20.40.33:991][486]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps-Levels/Fort/Battle/Fort_Battle.Fort_Battle:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort/Battle/Fort_Battle.Fort_Battle:PersistentLevel.Fort_Battle' with GeneratedClass '/Game/Maps-Levels/Fort/Battle/Fort_Battle.Fort_Battle_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort/Battle/Fort_Battle.Fort_Battle:PersistentLevel.Fort_Battle'
+[2017.03.04-20.40.34:025][486]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps-Levels/Fort/Battle/Fort_Battle.Fort_Battle:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort/Battle/Fort_Battle.Fort_Battle:PersistentLevel.Fort_Battle' with GeneratedClass '/Game/Maps-Levels/Fort/Battle/Fort_Battle.Fort_Battle_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort/Battle/Fort_Battle.Fort_Battle:PersistentLevel.Fort_Battle'
+[2017.03.04-20.40.47:263][ 42]LogAIModule: Creating AISystem for world Fort_Exploration
+[2017.03.04-20.40.47:437][ 42]Cmd: MAP LOAD FILE="../../../../../Unreal Projects/ChimeraGames/Abyss/Content/Maps-Levels/Fort/Exploration/Fort_Exploration.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.04-20.40.47:437][ 42]LightingResults: New page: Lighting Build
+[2017.03.04-20.40.47:438][ 42]LoadErrors: New page: Loading map: Fort_Exploration.umap
+[2017.03.04-20.40.47:439][ 42]MapCheck: New page: Map Check
+[2017.03.04-20.40.47:439][ 42]LightingResults: New page: Lighting Build
+[2017.03.04-20.40.48:044][ 42]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.04-20.40.48:110][ 42]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.04-20.40.48:199][ 42]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 88.924ms to complete.
+[2017.03.04-20.40.48:199][ 42]LogFileHelpers: Loading map 'Fort_Exploration' took 0.764
+[2017.03.04-20.41.24:063][906]LogAIModule: Creating AISystem for world Fort_Exploration
+[2017.03.04-20.41.24:238][906]Cmd: MAP LOAD FILE="../../../../../Unreal Projects/ChimeraGames/Abyss/Content/Maps-Levels/Fort/Fort_Exploration.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.04-20.41.24:238][906]LightingResults: New page: Lighting Build
+[2017.03.04-20.41.24:239][906]LoadErrors: New page: Loading map: Fort_Exploration.umap
+[2017.03.04-20.41.24:240][906]MapCheck: New page: Map Check
+[2017.03.04-20.41.24:240][906]LightingResults: New page: Lighting Build
+[2017.03.04-20.41.24:860][906]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.04-20.41.24:937][906]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.04-20.41.25:023][906]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 85.638ms to complete.
+[2017.03.04-20.41.25:023][906]LogFileHelpers: Loading map 'Fort_Exploration' took 0.786
+[2017.03.04-20.41.32:506][792]LogAIModule: Creating AISystem for world Fort_Exploration
+[2017.03.04-20.41.32:670][792]Cmd: MAP LOAD FILE="../../../../../Unreal Projects/ChimeraGames/Abyss/Content/Maps-Levels/Fort/Exploration/Fort_Exploration.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.04-20.41.32:670][792]LightingResults: New page: Lighting Build
+[2017.03.04-20.41.32:671][792]LoadErrors: New page: Loading map: Fort_Exploration.umap
+[2017.03.04-20.41.32:672][792]MapCheck: New page: Map Check
+[2017.03.04-20.41.32:672][792]LightingResults: New page: Lighting Build
+[2017.03.04-20.41.33:340][792]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.04-20.41.33:406][792]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.04-20.41.33:489][792]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 83.138ms to complete.
+[2017.03.04-20.41.33:489][792]LogFileHelpers: Loading map 'Fort_Exploration' took 0.820
+[2017.03.04-20.41.45:003][109]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.03.04-20.41.45:467][110]Cmd: QUIT_EDITOR
+[2017.03.04-20.41.45:597][110]LogExit: Preparing to exit.
+[2017.03.04-20.41.45:598][110]Javascript: undefined
+[2017.03.04-20.41.45:709][110]Javascript: undefined
+[2017.03.04-20.41.45:777][110]LogDirectoryWatcher: A directory notification for 'E:/Game Data/Unreal Projects/ChimeraGames/Abyss/Content/Scripts/' was aborted.
+[2017.03.04-20.41.45:777][110]LogDirectoryWatcher: A directory notification for 'E:/Game Data/Epic Games/4.14/Engine/Plugins/Marketplace/UnrealJS/Content/Scripts/' was aborted.
+[2017.03.04-20.41.45:977][110]LogDirectoryWatcher: A directory notification for 'E:/Game Data/Unreal Projects/ChimeraGames/Abyss/Content/' was aborted.
+[2017.03.04-20.41.46:036][110]LogExit: Editor shut down
+[2017.03.04-20.41.46:037][110]LogExit: Transaction tracking system shut down
+[2017.03.04-20.41.46:291][110]LogObj: Freed 0b from 0 cluster array pools.
+[2017.03.04-20.41.46:292][110]LogExit: Object subsystem successfully closed.
+[2017.03.04-20.41.46:339][110]LogD3D11RHI: Shutdown
+[2017.03.04-20.41.46:339][110]LogD3D11RHI: CleanupD3DDevice
+[2017.03.04-20.41.46:413][110]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.03.04-20.41.46:432][110]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.03.04-20.41.46:432][110]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B12D2F665-4784-40B6-3455-08B286203545%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.3-3249277%2B%2B%2BUE4%2BRelease-4.14&UserID=4070b30346c7a897c73b4dbcddaeaf4a%7C88b626781a9a49149d3e619b2484b0d7%7C34e08d0d-5267-46c8-88cc-f8a592ec94cc&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.03.04-20.41.46:441][110]LogModuleManager: Shutting down and abandoning module MaterialEditor (242)
+[2017.03.04-20.41.46:441][110]LogModuleManager: Shutting down and abandoning module DistCurveEditor (241)
+[2017.03.04-20.41.46:441][110]LogModuleManager: Shutting down and abandoning module Cascade (240)
+[2017.03.04-20.41.46:441][110]LogModuleManager: Shutting down and abandoning module SequencerWidgets (239)
+[2017.03.04-20.41.46:441][110]LogModuleManager: Shutting down and abandoning module BlueprintGraph (238)
+[2017.03.04-20.41.46:441][110]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (237)
+[2017.03.04-20.41.46:441][110]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (236)
+[2017.03.04-20.41.46:442][110]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (235)
+[2017.03.04-20.41.46:442][110]LogModuleManager: Shutting down and abandoning module CrashTracker (234)
+[2017.03.04-20.41.46:442][110]LogModuleManager: Shutting down and abandoning module SceneOutliner (233)
+[2017.03.04-20.41.46:442][110]LogModuleManager: Shutting down and abandoning module WidgetCarousel (232)
+[2017.03.04-20.41.46:442][110]LogModuleManager: Shutting down and abandoning module AddContentDialog (231)
+[2017.03.04-20.41.46:442][110]LogDirectoryWatcher: A directory notification for 'E:/Game Data/Epic Games/4.14/FeaturePacks/' was aborted.
+[2017.03.04-20.41.46:443][110]LogModuleManager: Shutting down and abandoning module GameplayTags (230)
+[2017.03.04-20.41.46:443][110]LogModuleManager: Shutting down and abandoning module EditorWidgets (229)
+[2017.03.04-20.41.46:443][110]LogModuleManager: Shutting down and abandoning module CollectionManager (228)
+[2017.03.04-20.41.46:443][110]LogDirectoryWatcher: A directory notification for 'E:/Game Data/Unreal Projects/ChimeraGames/Abyss/Content/Collections/' was aborted.
+[2017.03.04-20.41.46:444][110]LogDirectoryWatcher: A directory notification for 'E:/Game Data/Unreal Projects/ChimeraGames/Abyss/Content/Developers/Chris/Collections/' was aborted.
+[2017.03.04-20.41.46:444][110]LogDirectoryWatcher: A directory notification for 'E:/Game Data/Unreal Projects/ChimeraGames/Abyss/Saved/Collections/' was aborted.
+[2017.03.04-20.41.46:444][110]LogModuleManager: Shutting down and abandoning module StatsViewer (227)
+[2017.03.04-20.41.46:444][110]LogModuleManager: Shutting down and abandoning module FoliageEdit (226)
+[2017.03.04-20.41.46:444][110]LogModuleManager: Shutting down and abandoning module LandscapeEditor (225)
+[2017.03.04-20.41.46:444][110]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (224)
+[2017.03.04-20.41.46:444][110]LogModuleManager: Shutting down and abandoning module ActorPickerMode (223)
+[2017.03.04-20.41.46:444][110]LogModuleManager: Shutting down and abandoning module GeometryMode (222)
+[2017.03.04-20.41.46:444][110]LogModuleManager: Shutting down and abandoning module TextureAlignMode (221)
+[2017.03.04-20.41.46:444][110]LogModuleManager: Shutting down and abandoning module BspMode (220)
+[2017.03.04-20.41.46:444][110]LogModuleManager: Shutting down and abandoning module HardwareSurvey (219)
+[2017.03.04-20.41.46:444][110]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (218)
+[2017.03.04-20.41.46:444][110]LogModuleManager: Shutting down and abandoning module AutomationWorker (217)
+[2017.03.04-20.41.46:444][110]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (216)
+[2017.03.04-20.41.46:444][110]LogModuleManager: Shutting down and abandoning module PlacementMode (215)
+[2017.03.04-20.41.46:444][110]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (214)
+[2017.03.04-20.41.46:444][110]LogModuleManager: Shutting down and abandoning module Media (213)
+[2017.03.04-20.41.46:444][110]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (212)
+[2017.03.04-20.41.46:444][110]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (211)
+[2017.03.04-20.41.46:444][110]LogModuleManager: Shutting down and abandoning module CharacterAI (210)
+[2017.03.04-20.41.46:444][110]LogModuleManager: Shutting down and abandoning module SequenceRecorder (209)
+[2017.03.04-20.41.46:445][110]LogModuleManager: Shutting down and abandoning module AudioCapture (208)
+[2017.03.04-20.41.46:445][110]LogModuleManager: Shutting down and abandoning module SmartSnapping (207)
+[2017.03.04-20.41.46:445][110]LogModuleManager: Shutting down and abandoning module SessionServices (206)
+[2017.03.04-20.41.46:445][110]LogModuleManager: Shutting down and abandoning module ViewportSnapping (205)
+[2017.03.04-20.41.46:445][110]LogModuleManager: Shutting down and abandoning module ViewportInteraction (204)
+[2017.03.04-20.41.46:445][110]LogModuleManager: Shutting down and abandoning module LogVisualizer (203)
+[2017.03.04-20.41.46:456][110]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (202)
+[2017.03.04-20.41.46:469][110]LogModuleManager: Shutting down and abandoning module IntroTutorials (201)
+[2017.03.04-20.41.46:479][110]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (200)
+[2017.03.04-20.41.46:479][110]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (199)
+[2017.03.04-20.41.46:479][110]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (198)
+[2017.03.04-20.41.46:479][110]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (196)
+[2017.03.04-20.41.47:116][110]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (195)
+[2017.03.04-20.41.47:116][110]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (194)
+[2017.03.04-20.41.47:116][110]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (193)
+[2017.03.04-20.41.47:116][110]LogModuleManager: Shutting down and abandoning module InputBindingEditor (192)
+[2017.03.04-20.41.47:116][110]LogModuleManager: Shutting down and abandoning module NiagaraEditor (191)
+[2017.03.04-20.41.47:127][110]LogModuleManager: Shutting down and abandoning module MergeActors (190)
+[2017.03.04-20.41.47:127][110]LogModuleManager: Shutting down and abandoning module SizeMap (189)
+[2017.03.04-20.41.47:127][110]LogModuleManager: Shutting down and abandoning module TreeMap (188)
+[2017.03.04-20.41.47:127][110]LogModuleManager: Shutting down and abandoning module ReferenceViewer (187)
+[2017.03.04-20.41.47:127][110]LogModuleManager: Shutting down and abandoning module LocalizationService (186)
+[2017.03.04-20.41.47:127][110]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (185)
+[2017.03.04-20.41.47:127][110]LogModuleManager: Shutting down and abandoning module HardwareTargeting (184)
+[2017.03.04-20.41.47:127][110]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (183)
+[2017.03.04-20.41.47:127][110]LogModuleManager: Shutting down and abandoning module UndoHistory (182)
+[2017.03.04-20.41.47:127][110]LogModuleManager: Shutting down and abandoning module UserFeedback (181)
+[2017.03.04-20.41.47:127][110]LogModuleManager: Shutting down and abandoning module XmlParser (180)
+[2017.03.04-20.41.47:127][110]LogModuleManager: Shutting down and abandoning module Blutility (179)
+[2017.03.04-20.41.47:127][110]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (178)
+[2017.03.04-20.41.47:127][110]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (177)
+[2017.03.04-20.41.47:127][110]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (176)
+[2017.03.04-20.41.47:127][110]LogModuleManager: Shutting down and abandoning module SettingsEditor (175)
+[2017.03.04-20.41.47:127][110]LogModuleManager: Shutting down and abandoning module ProjectLauncher (174)
+[2017.03.04-20.41.47:138][110]LogModuleManager: Shutting down and abandoning module SessionFrontend (173)
+[2017.03.04-20.41.47:138][110]LogModuleManager: Shutting down and abandoning module ProfilerClient (172)
+[2017.03.04-20.41.47:138][110]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (171)
+[2017.03.04-20.41.47:138][110]LogModuleManager: Shutting down and abandoning module DeviceManager (170)
+[2017.03.04-20.41.47:188][110]LogModuleManager: Shutting down and abandoning module AutomationController (169)
+[2017.03.04-20.41.47:188][110]LogModuleManager: Shutting down and abandoning module AutomationWindow (168)
+[2017.03.04-20.41.47:203][110]LogModuleManager: Shutting down and abandoning module Layers (167)
+[2017.03.04-20.41.47:203][110]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (166)
+[2017.03.04-20.41.47:203][110]LogModuleManager: Shutting down and abandoning module DetailCustomizations (165)
+[2017.03.04-20.41.47:203][110]LogModuleManager: Shutting down and abandoning module PackagesDialog (164)
+[2017.03.04-20.41.47:203][110]LogModuleManager: Shutting down and abandoning module AnimGraph (163)
+[2017.03.04-20.41.47:203][110]LogModuleManager: Shutting down and abandoning module Persona (162)
+[2017.03.04-20.41.47:213][110]LogModuleManager: Shutting down and abandoning module Kismet (161)
+[2017.03.04-20.41.47:226][110]LogModuleManager: Shutting down and abandoning module GraphEditor (160)
+[2017.03.04-20.41.47:227][110]LogModuleManager: Shutting down and abandoning module ClassViewer (159)
+[2017.03.04-20.41.47:229][110]LogModuleManager: Shutting down and abandoning module Toolbox (158)
+[2017.03.04-20.41.47:229][110]LogModuleManager: Shutting down and abandoning module ModuleUI (157)
+[2017.03.04-20.41.47:229][110]LogModuleManager: Shutting down and abandoning module MovieSceneTools (156)
+[2017.03.04-20.41.47:229][110]LogModuleManager: Shutting down and abandoning module OutputLog (155)
+[2017.03.04-20.41.47:229][110]LogModuleManager: Shutting down and abandoning module GammaUI (154)
+[2017.03.04-20.41.47:229][110]LogModuleManager: Shutting down and abandoning module Documentation (153)
+[2017.03.04-20.41.47:229][110]LogModuleManager: Shutting down and abandoning module Niagara (152)
+[2017.03.04-20.41.47:229][110]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (151)
+[2017.03.04-20.41.47:229][110]LogModuleManager: Shutting down and abandoning module AnalyticsET (150)
+[2017.03.04-20.41.47:229][110]LogModuleManager: Shutting down and abandoning module PortalServices (149)
+[2017.03.04-20.41.47:229][110]LogModuleManager: Shutting down and abandoning module PortalRpc (148)
+[2017.03.04-20.41.47:229][110]LogModuleManager: Shutting down and abandoning module MessagingRpc (147)
+[2017.03.04-20.41.47:229][110]LogModuleManager: Shutting down and abandoning module GameplayDebugger (146)
+[2017.03.04-20.41.47:229][110]LogModuleManager: Shutting down and abandoning module AITestSuite (145)
+[2017.03.04-20.41.47:229][110]LogModuleManager: Shutting down and abandoning module AIModule (144)
+[2017.03.04-20.41.47:229][110]LogModuleManager: Shutting down and abandoning module ProfilerService (143)
+[2017.03.04-20.41.47:368][110]LogModuleManager: Shutting down and abandoning module TaskGraph (142)
+[2017.03.04-20.41.47:368][110]LogModuleManager: Shutting down and abandoning module SlateRemote (141)
+[2017.03.04-20.41.47:368][110]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (140)
+[2017.03.04-20.41.47:368][110]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (139)
+[2017.03.04-20.41.47:368][110]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (138)
+[2017.03.04-20.41.47:368][110]LogModuleManager: Shutting down and abandoning module CableComponent (137)
+[2017.03.04-20.41.47:368][110]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (136)
+[2017.03.04-20.41.47:368][110]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (134)
+[2017.03.04-20.41.47:369][110]LogModuleManager: Shutting down and abandoning module JavascriptConsole (133)
+[2017.03.04-20.41.47:369][110]LogModuleManager: Shutting down and abandoning module JavascriptEditor (132)
+[2017.03.04-20.41.47:369][110]LogModuleManager: Shutting down and abandoning module HGGifImporter (131)
+[2017.03.04-20.41.47:369][110]LogModuleManager: Shutting down and abandoning module HTML5Networking (130)
+[2017.03.04-20.41.47:369][110]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (129)
+[2017.03.04-20.41.47:369][110]LogModuleManager: Shutting down and abandoning module GeometryCache (128)
+[2017.03.04-20.41.47:369][110]LogModuleManager: Shutting down and abandoning module AlembicLibrary (127)
+[2017.03.04-20.41.47:369][110]LogModuleManager: Shutting down and abandoning module AlembicImporter (126)
+[2017.03.04-20.41.47:369][110]LogModuleManager: Shutting down and abandoning module SuperSearch (125)
+[2017.03.04-20.41.47:369][110]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (124)
+[2017.03.04-20.41.47:369][110]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (123)
+[2017.03.04-20.41.47:369][110]LogModuleManager: Shutting down and abandoning module PluginBrowser (122)
+[2017.03.04-20.41.47:369][110]LogModuleManager: Shutting down and abandoning module DesktopPlatform (121)
+[2017.03.04-20.41.47:369][110]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (120)
+[2017.03.04-20.41.47:369][110]LogModuleManager: Shutting down and abandoning module UObjectPlugin (119)
+[2017.03.04-20.41.47:369][110]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (118)
+[2017.03.04-20.41.47:369][110]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (117)
+[2017.03.04-20.41.47:369][110]LogModuleManager: Shutting down and abandoning module SourceControl (116)
+[2017.03.04-20.41.47:369][110]LogModuleManager: Shutting down and abandoning module GitSourceControl (115)
+[2017.03.04-20.41.47:369][110]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (114)
+[2017.03.04-20.41.47:369][110]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (113)
+[2017.03.04-20.41.47:369][110]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (112)
+[2017.03.04-20.41.47:369][110]LogModuleManager: Shutting down and abandoning module MeshPaint (111)
+[2017.03.04-20.41.47:369][110]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (110)
+[2017.03.04-20.41.47:369][110]LogModuleManager: Shutting down and abandoning module HotReload (109)
+[2017.03.04-20.41.47:370][110]LogModuleManager: Shutting down and abandoning module MainFrame (108)
+[2017.03.04-20.41.47:370][110]LogModuleManager: Shutting down and abandoning module LevelEditor (107)
+[2017.03.04-20.41.47:372][110]LogModuleManager: Shutting down and abandoning module ContentBrowser (106)
+[2017.03.04-20.41.47:373][110]LogModuleManager: Shutting down and abandoning module Paper2DEditor (105)
+[2017.03.04-20.41.47:373][110]LogModuleManager: Shutting down and abandoning module JavascriptWebSocket (104)
+[2017.03.04-20.41.47:373][110]LogModuleManager: Shutting down and abandoning module JavascriptHttp (103)
+[2017.03.04-20.41.47:373][110]LogModuleManager: Shutting down and abandoning module JavascriptUMG (102)
+[2017.03.04-20.41.47:373][110]LogModuleManager: Shutting down and abandoning module V8 (101)
+[2017.03.04-20.41.47:375][110]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (100)
+[2017.03.04-20.41.47:375][110]LogModuleManager: Shutting down and abandoning module Paper2D (99)
+[2017.03.04-20.41.47:375][110]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (98)
+[2017.03.04-20.41.47:375][110]LogModuleManager: Shutting down and abandoning module WmfMedia (97)
+[2017.03.04-20.41.47:375][110]LogModuleManager: Shutting down and abandoning module MediaAssets (96)
+[2017.03.04-20.41.47:375][110]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (95)
+[2017.03.04-20.41.47:376][110]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (94)
+[2017.03.04-20.41.47:376][110]LogModuleManager: Shutting down and abandoning module VREditor (93)
+[2017.03.04-20.41.47:376][110]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (92)
+[2017.03.04-20.41.47:376][110]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (91)
+[2017.03.04-20.41.47:390][110]LogModuleManager: Shutting down and abandoning module FunctionalTesting (90)
+[2017.03.04-20.41.47:390][110]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (89)
+[2017.03.04-20.41.47:390][110]LogModuleManager: Shutting down and abandoning module Sequencer (88)
+[2017.03.04-20.41.47:390][110]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (87)
+[2017.03.04-20.41.47:390][110]LogModuleManager: Shutting down and abandoning module MessageLog (86)
+[2017.03.04-20.41.47:390][110]LogModuleManager: Shutting down and abandoning module AssetTools (85)
+[2017.03.04-20.41.47:390][110]LogModuleManager: Shutting down and abandoning module UMGEditor (84)
+[2017.03.04-20.41.47:390][110]LogModuleManager: Shutting down and abandoning module UMG (83)
+[2017.03.04-20.41.47:390][110]LogModuleManager: Shutting down and abandoning module SlateReflector (82)
+[2017.03.04-20.41.47:417][110]LogModuleManager: Shutting down and abandoning module Slate (81)
+[2017.03.04-20.41.47:417][110]LogModuleManager: Shutting down and abandoning module EditorStyle (80)
+[2017.03.04-20.41.47:420][110]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (79)
+[2017.03.04-20.41.47:420][110]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (78)
+[2017.03.04-20.41.47:420][110]LogModuleManager: Shutting down and abandoning module XAudio2 (77)
+[2017.03.04-20.41.47:420][110]LogModuleManager: Shutting down and abandoning module Networking (75)
+[2017.03.04-20.41.47:420][110]LogModuleManager: Shutting down and abandoning module Core (74)
+[2017.03.04-20.41.47:420][110]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (73)
+[2017.03.04-20.41.47:420][110]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.03.04-20.41.47:420][110]LogDirectoryWatcher: A directory notification for '../../../../../Unreal Projects/ChimeraGames/Abyss/Content/' was aborted.
+[2017.03.04-20.41.47:421][110]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.03.04-20.41.47:421][110]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Marketplace/UnrealJS/Content/' was aborted.
+[2017.03.04-20.41.47:422][110]LogModuleManager: Shutting down and abandoning module AssetRegistry (72)
+[2017.03.04-20.41.47:570][110]LogModuleManager: Shutting down and abandoning module KismetCompiler (71)
+[2017.03.04-20.41.47:570][110]LogModuleManager: Shutting down and abandoning module PhysXFormats (70)
+[2017.03.04-20.41.47:570][110]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (69)
+[2017.03.04-20.41.47:570][110]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (68)
+[2017.03.04-20.41.47:570][110]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (67)
+[2017.03.04-20.41.47:570][110]LogModuleManager: Shutting down and abandoning module PropertyEditor (66)
+[2017.03.04-20.41.47:570][110]LogModuleManager: Shutting down and abandoning module MeshUtilities (65)
+[2017.03.04-20.41.47:571][110]LogModuleManager: Shutting down and abandoning module DerivedDataCache (64)
+[2017.03.04-20.41.47:576][110]LogDerivedDataCache: Shutdown
+[2017.03.04-20.41.47:576][110]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (63)
+[2017.03.04-20.41.47:576][110]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (62)
+[2017.03.04-20.41.47:576][110]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (61)
+[2017.03.04-20.41.47:576][110]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (60)
+[2017.03.04-20.41.47:576][110]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (59)
+[2017.03.04-20.41.47:576][110]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (58)
+[2017.03.04-20.41.47:576][110]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (57)
+[2017.03.04-20.41.47:576][110]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (56)
+[2017.03.04-20.41.47:576][110]LogModuleManager: Shutting down and abandoning module ImageWrapper (55)
+[2017.03.04-20.41.47:576][110]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (54)
+[2017.03.04-20.41.47:576][110]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (53)
+[2017.03.04-20.41.47:577][110]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (52)
+[2017.03.04-20.41.47:577][110]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (51)
+[2017.03.04-20.41.47:577][110]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (50)
+[2017.03.04-20.41.47:577][110]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (49)
+[2017.03.04-20.41.47:577][110]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (48)
+[2017.03.04-20.41.47:577][110]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (47)
+[2017.03.04-20.41.47:577][110]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (46)
+[2017.03.04-20.41.47:577][110]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (45)
+[2017.03.04-20.41.47:577][110]LogModuleManager: Shutting down and abandoning module Messaging (44)
+[2017.03.04-20.41.47:577][110]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (43)
+[2017.03.04-20.41.47:577][110]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (42)
+[2017.03.04-20.41.47:577][110]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (41)
+[2017.03.04-20.41.47:577][110]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (40)
+[2017.03.04-20.41.47:577][110]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (39)
+[2017.03.04-20.41.47:577][110]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (38)
+[2017.03.04-20.41.47:577][110]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (37)
+[2017.03.04-20.41.47:577][110]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (36)
+[2017.03.04-20.41.47:577][110]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (35)
+[2017.03.04-20.41.47:577][110]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (34)
+[2017.03.04-20.41.47:577][110]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (33)
+[2017.03.04-20.41.47:577][110]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (32)
+[2017.03.04-20.41.47:577][110]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (31)
+[2017.03.04-20.41.47:577][110]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (30)
+[2017.03.04-20.41.47:577][110]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (29)
+[2017.03.04-20.41.47:577][110]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (28)
+[2017.03.04-20.41.47:577][110]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (27)
+[2017.03.04-20.41.47:577][110]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (26)
+[2017.03.04-20.41.47:577][110]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (25)
+[2017.03.04-20.41.47:577][110]LogModuleManager: Shutting down and abandoning module TargetPlatform (24)
+[2017.03.04-20.41.47:577][110]LogModuleManager: Shutting down and abandoning module InputCore (23)
+[2017.03.04-20.41.47:577][110]LogModuleManager: Shutting down and abandoning module Settings (22)
+[2017.03.04-20.41.47:577][110]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (21)
+[2017.03.04-20.41.47:577][110]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (20)
+[2017.03.04-20.41.47:577][110]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2017.03.04-20.41.47:577][110]LogOnline:Display: Unloading online subsystem: NULL
+[2017.03.04-20.41.47:577][110]LogModuleManager: Shutting down and abandoning module SSL (17)
+[2017.03.04-20.41.47:579][110]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2017.03.04-20.41.47:579][110]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2017.03.04-20.41.47:580][110]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.03.04-20.41.47:580][110]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.03.04-20.41.47:580][110]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.03.04-20.41.47:580][110]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.03.04-20.41.47:589][110]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.03.04-20.41.47:589][110]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.03.04-20.41.47:589][110]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.03.04-20.41.47:589][110]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.03.04-20.41.47:589][110]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.03.04-20.41.47:589][110]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.03.04-20.41.47:589][110]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.03.04-20.41.47:589][110]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.03.04-20.41.47:589][110]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.03.04-20.41.47:589][110]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.03.04-20.41.47:593][110]LogExit: Exiting.
+[2017.03.04-20.41.47:632][110]Log file closed, 03/04/17 15:41:47
