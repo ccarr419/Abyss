@@ -312,3 +312,363 @@ LogInit: Object subsystem initialized
 [2017.03.04-00.57.31:136][726]LogSavePackage: Save=1028.59ms
 [2017.03.04-00.57.31:136][726]LogSavePackage: Moving '../../../../../../Users/Anthony/Documents/GitHub/ChimeraGames/Abyss/Saved/Fort_Exploration3545E61F4F6D33936AD716A7AED188CC.tmp' to '../../../../../../Users/Anthony/Documents/GitHub/ChimeraGames/Abyss/Content/Maps-Levels/Fort/Fort_Exploration.umap'
 [2017.03.04-00.57.31:140][726]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Anthony/Documents/GitHub/ChimeraGames/Abyss/Content/Maps-Levels/Fort/Fort_Exploration.umap
+[2017.03.04-01.03.07:773][469]LogRenderer: Reallocating scene render targets to support 876x588 NumSamples 1 (Frame:2133).
+[2017.03.04-01.03.09:043][470]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.03.04-01.05.54:477][462]BlueprintLog: New page: Compile LightableTorch
+[2017.03.04-01.05.58:184][470]LogSavePackage: Save=78.95ms
+[2017.03.04-01.05.58:184][470]LogSavePackage: Moving '../../../../../../Users/Anthony/Documents/GitHub/ChimeraGames/Abyss/Saved/LightableTorchFECAE8634D21A3E1403E0389FACD0258.tmp' to '../../../../../../Users/Anthony/Documents/GitHub/ChimeraGames/Abyss/Content/BluePrints/Exploration/LightableTorch.uasset'
+[2017.03.04-01.05.58:194][470]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Anthony/Documents/GitHub/ChimeraGames/Abyss/Content/BluePrints/Exploration/LightableTorch.uasset
+[2017.03.04-01.06.00:624][508]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.04-01.06.00:781][508]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps-Levels/Fort/Fort_Exploration.Fort_Exploration:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration' with GeneratedClass '/Game/Maps-Levels/Fort/Fort_Exploration.Fort_Exploration_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration'
+[2017.03.04-01.06.00:802][508]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.04-01.06.00:990][508]PIE: New page: PIE session: Fort_Exploration (Mar 3, 2017, 3:06:00 PM)
+[2017.03.04-01.06.01:008][508]LogPlayLevel: Creating play world package: /Game/Maps-Levels/Fort/UEDPIE_0_Fort_Exploration
+[2017.03.04-01.06.01:090][508]LogPlayLevel: PIE: StaticDuplicateObject took: (0.081088s)
+[2017.03.04-01.06.01:094][508]LogAIModule: Creating AISystem for world Fort_Exploration
+[2017.03.04-01.06.01:121][508]LogPlayLevel: PIE: World Init took: (0.030814s)
+[2017.03.04-01.06.01:145][508]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps-Levels/Fort/Fort_Exploration.Fort_Exploration to /Game/Maps-Levels/Fort/UEDPIE_0_Fort_Exploration.Fort_Exploration (0.136769s)
+[2017.03.04-01.06.01:709][508]LogInit: XAudio2 using 'Speakers (Conexant High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.04-01.06.01:769][508]LogInit: FAudioDevice initialized.
+[2017.03.04-01.06.02:172][508]LogLoad: Game class is 'abyssExplorationMode_C'
+[2017.03.04-01.06.02:189][508]LogWorld: Bringing World /Game/Maps-Levels/Fort/UEDPIE_0_Fort_Exploration.Fort_Exploration up for play (max tick rate 60) at 2017.03.03-20.06.02
+[2017.03.04-01.06.02:264][508]LogWorld: Bringing up level for play took: 0.067826
+[2017.03.04-01.06.06:576][508]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0050 seconds. Added 11 classes and 0 folders.
+[2017.03.04-01.06.06:965][508]PIE: Info Play in editor start time for /Game/Maps-Levels/Fort/UEDPIE_0_Fort_Exploration 5.202
+[2017.03.04-01.06.06:966][508]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps-Levels/Fort/Fort_Exploration.Fort_Exploration:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration' with GeneratedClass '/Game/Maps-Levels/Fort/Fort_Exploration.Fort_Exploration_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration'
+[2017.03.04-01.06.24:743][737]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps-Levels/Fort/Fort_Exploration.Fort_Exploration:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration' with GeneratedClass '/Game/Maps-Levels/Fort/Fort_Exploration.Fort_Exploration_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration'
+[2017.03.04-01.06.25:062][737]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps-Levels/Fort/Fort_Exploration.Fort_Exploration:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration' with GeneratedClass '/Game/Maps-Levels/Fort/Fort_Exploration.Fort_Exploration_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration'
+[2017.03.04-01.06.25:649][737]LogAudio:Warning: Audio Component is being destroyed without stopping looping sound 'ambientBackground'
+[2017.03.04-01.08.15:709][191]LogSavePackage: Save=97.18ms
+[2017.03.04-01.08.15:709][191]LogSavePackage: Moving '../../../../../../Users/Anthony/Documents/GitHub/ChimeraGames/Abyss/Saved/Fort_TileMap2A10E59247BB4E2003F138A74FED40B4.tmp' to '../../../../../../Users/Anthony/Documents/GitHub/ChimeraGames/Abyss/Content/Maps-Levels/Fort/Exploration/Fort_TileMap.uasset'
+[2017.03.04-01.08.15:720][191]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Anthony/Documents/GitHub/ChimeraGames/Abyss/Content/Maps-Levels/Fort/Exploration/Fort_TileMap.uasset
+[2017.03.04-01.08.26:549][381]LogEditorViewport: Clicking on Actor (LMB): LightableTorch_C (LightableTorch)
+[2017.03.04-01.08.40:820][682]LogEditorViewport: Clicking on Actor (LMB): Ladder_C (Ladder)
+[2017.03.04-01.08.43:775][746]LogEditorViewport: Clicking on Actor (LMB): LightableTorch_C (LightableTorch)
+[2017.03.04-01.08.45:334][767]Cmd: EDIT COPY
+[2017.03.04-01.08.45:860][767]Cmd: EDIT PASTE
+[2017.03.04-01.08.53:481][918]LogEditorViewport: Clicking on Actor (LMB): Ladder_C (Ladder)
+[2017.03.04-01.09.02:082][101]LogEditorViewport: Clicking on Actor (LMB): LightableTorch_C (LightableTorch2)
+[2017.03.04-01.09.04:801][153]LogEditorViewport: Clicking on Actor (LMB): LightableTorch_C (LightableTorch)
+[2017.03.04-01.09.09:085][247]LogEditorViewport: Clicking on Actor (LMB): LightableTorch_C (LightableTorch2)
+[2017.03.04-01.09.15:779][381]LogEditorViewport: Clicking on Actor (LMB): LightableTorch_C (LightableTorch)
+[2017.03.04-01.09.17:833][422]LogEditorViewport: Clicking on Actor (LMB): LightableTorch_C (LightableTorch2)
+[2017.03.04-01.09.21:125][487]LogEditorViewport: Clicking on Actor (LMB): LightableTorch_C (LightableTorch)
+[2017.03.04-01.09.23:124][527]LogEditorViewport: Clicking on Actor (LMB): LightableTorch_C (LightableTorch2)
+[2017.03.04-01.09.25:665][577]LogEditorViewport: Clicking on Actor (LMB): LightableTorch_C (LightableTorch)
+[2017.03.04-01.09.33:098][733]Cmd: EDIT PASTE
+[2017.03.04-01.09.47:737][ 10]Cmd: EDIT COPY
+[2017.03.04-01.09.47:952][ 14]Cmd: EDIT PASTE
+[2017.03.04-01.10.08:387][444]LogEditorViewport: Clicking on Actor (LMB): Ladder_C (Ladder2)
+[2017.03.04-01.10.16:335][623]LogEditorViewport: Clicking on Actor (LMB): LightableTorch_C (LightableTorch3)
+[2017.03.04-01.10.21:859][736]Cmd: EDIT COPY
+[2017.03.04-01.10.22:107][741]Cmd: EDIT PASTE
+[2017.03.04-01.10.31:763][940]LogEditorViewport: Clicking on Actor (LMB): Ladder_C (Ladder2)
+[2017.03.04-01.10.33:363][972]LogEditorViewport: Clicking on Actor (LMB): LightableTorch_C (LightableTorch5)
+[2017.03.04-01.10.36:154][ 22]LogEditorViewport: Clicking on Actor (LMB): Ladder_C (Ladder2)
+[2017.03.04-01.10.37:836][ 57]LogEditorViewport: Clicking on Actor (LMB): LightableTorch_C (LightableTorch5)
+[2017.03.04-01.10.40:486][107]LogEditorViewport: Clicking on Actor (LMB): Ladder_C (Ladder2)
+[2017.03.04-01.10.42:665][153]LogEditorViewport: Clicking on Actor (LMB): LightableTorch_C (LightableTorch3)
+[2017.03.04-01.10.43:949][176]Cmd: EDIT COPY
+[2017.03.04-01.10.44:180][181]Cmd: EDIT PASTE
+[2017.03.04-01.10.53:594][377]LogEditorViewport: Clicking on Actor (LMB): Ladder_C (Ladder2)
+[2017.03.04-01.10.55:558][417]LogEditorViewport: Clicking on Actor (LMB): LightableTorch_C (LightableTorch3)
+[2017.03.04-01.11.02:938][566]LogEditorViewport: Clicking on Actor (LMB): Ladder_C (Ladder2)
+[2017.03.04-01.11.07:960][676]LogEditorViewport: Clicking on Actor (LMB): LightableTorch_C (LightableTorch3)
+[2017.03.04-01.11.12:261][765]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Fort_TileMap)
+[2017.03.04-01.11.14:712][809]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Fort_TileMap)
+[2017.03.04-01.11.15:884][832]LogEditorViewport: Clicking on Actor (LMB): Fort_BattleTrigger_C (Fort_BattleTrigger)
+[2017.03.04-01.11.24:101][ 21]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Fort_TileMap)
+[2017.03.04-01.11.25:366][ 43]LogEditorViewport: Clicking on Actor (LMB): LightableTorch_C (LightableTorch6)
+[2017.03.04-01.11.32:891][208]LogEditorViewport: Clicking on Actor (LMB): Ladder_C (Ladder2)
+[2017.03.04-01.11.35:162][257]LogEditorViewport: Clicking on Actor (LMB): LightableTorch_C (LightableTorch6)
+[2017.03.04-01.11.39:037][338]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Fort_TileMap)
+[2017.03.04-01.11.40:920][371]LogEditorViewport: Clicking on Actor (LMB): LightableTorch_C (LightableTorch6)
+[2017.03.04-01.11.43:726][428]LogEditorViewport: Clicking on Actor (LMB): Ladder_C (Ladder2)
+[2017.03.04-01.11.52:130][579]LogSavePackage: Save=846.02ms
+[2017.03.04-01.11.52:130][579]LogSavePackage: Moving '../../../../../../Users/Anthony/Documents/GitHub/ChimeraGames/Abyss/Saved/Fort_Exploration9546F6E0489FF1D0E745EE87438CEC50.tmp' to '../../../../../../Users/Anthony/Documents/GitHub/ChimeraGames/Abyss/Content/Maps-Levels/Fort/Fort_Exploration.umap'
+[2017.03.04-01.11.52:138][579]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Anthony/Documents/GitHub/ChimeraGames/Abyss/Content/Maps-Levels/Fort/Fort_Exploration.umap
+[2017.03.04-01.11.54:556][614]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.04-01.11.54:703][614]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps-Levels/Fort/Fort_Exploration.Fort_Exploration:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration' with GeneratedClass '/Game/Maps-Levels/Fort/Fort_Exploration.Fort_Exploration_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration'
+[2017.03.04-01.11.54:703][614]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.04-01.11.54:705][614]PIE: New page: PIE session: Fort_Exploration (Mar 3, 2017, 3:11:54 PM)
+[2017.03.04-01.11.54:709][614]LogPlayLevel: Creating play world package: /Game/Maps-Levels/Fort/UEDPIE_0_Fort_Exploration
+[2017.03.04-01.11.54:720][614]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010720s)
+[2017.03.04-01.11.54:722][614]LogAIModule: Creating AISystem for world Fort_Exploration
+[2017.03.04-01.11.54:723][614]LogPlayLevel: PIE: World Init took: (0.003332s)
+[2017.03.04-01.11.54:723][614]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps-Levels/Fort/Fort_Exploration.Fort_Exploration to /Game/Maps-Levels/Fort/UEDPIE_0_Fort_Exploration.Fort_Exploration (0.014729s)
+[2017.03.04-01.11.55:608][614]LogInit: XAudio2 using 'Speakers (Conexant High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.04-01.11.55:651][614]LogInit: FAudioDevice initialized.
+[2017.03.04-01.11.55:709][614]LogLoad: Game class is 'abyssExplorationMode_C'
+[2017.03.04-01.11.55:718][614]LogWorld: Bringing World /Game/Maps-Levels/Fort/UEDPIE_0_Fort_Exploration.Fort_Exploration up for play (max tick rate 60) at 2017.03.03-20.11.55
+[2017.03.04-01.11.55:720][614]LogWorld: Bringing up level for play took: 0.009143
+[2017.03.04-01.11.55:732][614]PIE: Info Play in editor start time for /Game/Maps-Levels/Fort/UEDPIE_0_Fort_Exploration 1.959
+[2017.03.04-01.11.55:733][614]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps-Levels/Fort/Fort_Exploration.Fort_Exploration:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration' with GeneratedClass '/Game/Maps-Levels/Fort/Fort_Exploration.Fort_Exploration_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration'
+[2017.03.04-01.12.40:908][245]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps-Levels/Fort/Fort_Exploration.Fort_Exploration:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration' with GeneratedClass '/Game/Maps-Levels/Fort/Fort_Exploration.Fort_Exploration_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration'
+[2017.03.04-01.12.41:062][245]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps-Levels/Fort/Fort_Exploration.Fort_Exploration:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration' with GeneratedClass '/Game/Maps-Levels/Fort/Fort_Exploration.Fort_Exploration_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration'
+[2017.03.04-01.12.41:555][245]LogAudio:Warning: Audio Component is being destroyed without stopping looping sound 'ambientBackground'
+[2017.03.04-01.12.44:466][271]LogSavePackage: Save=750.10ms
+[2017.03.04-01.12.44:466][271]LogSavePackage: Moving '../../../../../../Users/Anthony/Documents/GitHub/ChimeraGames/Abyss/Saved/Fort_Exploration52184BAA419FFEE14A4406B23FB29089.tmp' to '../../../../../../Users/Anthony/Documents/GitHub/ChimeraGames/Abyss/Content/Maps-Levels/Fort/Fort_Exploration.umap'
+[2017.03.04-01.12.44:470][271]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Anthony/Documents/GitHub/ChimeraGames/Abyss/Content/Maps-Levels/Fort/Fort_Exploration.umap
+[2017.03.04-01.12.48:758][319]Cmd: QUIT_EDITOR
+[2017.03.04-01.12.49:872][319]LogExit: Preparing to exit.
+[2017.03.04-01.12.50:272][319]Javascript: undefined
+[2017.03.04-01.12.50:728][319]Javascript: undefined
+[2017.03.04-01.12.51:085][319]LogDirectoryWatcher: A directory notification for 'C:/Users/Anthony/Documents/GitHub/ChimeraGames/Abyss/Content/Scripts/' was aborted.
+[2017.03.04-01.12.51:087][319]LogDirectoryWatcher: A directory notification for 'C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Marketplace/UnrealJS/Content/Scripts/' was aborted.
+[2017.03.04-01.12.51:988][319]LogDirectoryWatcher: A directory notification for 'C:/Users/Anthony/Documents/GitHub/ChimeraGames/Abyss/Content/' was aborted.
+[2017.03.04-01.12.52:377][319]LogExit: Editor shut down
+[2017.03.04-01.12.52:379][319]LogExit: Transaction tracking system shut down
+[2017.03.04-01.12.55:756][319]LogObj: Freed 0b from 0 cluster array pools.
+[2017.03.04-01.12.55:758][319]LogExit: Object subsystem successfully closed.
+[2017.03.04-01.12.56:186][319]LogD3D11RHI: Shutdown
+[2017.03.04-01.12.56:238][319]LogD3D11RHI: CleanupD3DDevice
+[2017.03.04-01.12.56:652][319]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.03.04-01.12.57:963][319]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.03.04-01.12.57:963][319]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BCB830880-4C06-1DA5-CF0F-57B0451C994B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.3-3249277%2B%2B%2BUE4%2BRelease-4.14&UserID=e8e222f54742c54e8c0e5b9b8358f314%7Cdabbf80a43e14cda8842ca5b55e8523f%7C8a9726c6-f878-40e5-a4a1-000ac1d633e0&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.03.04-01.12.58:092][319]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (239)
+[2017.03.04-01.12.58:114][319]LogModuleManager: Shutting down and abandoning module SequencerWidgets (238)
+[2017.03.04-01.12.58:114][319]LogModuleManager: Shutting down and abandoning module BlueprintGraph (237)
+[2017.03.04-01.12.58:115][319]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (236)
+[2017.03.04-01.12.58:133][319]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (235)
+[2017.03.04-01.12.58:166][319]LogModuleManager: Shutting down and abandoning module CrashTracker (234)
+[2017.03.04-01.12.58:194][319]LogModuleManager: Shutting down and abandoning module SceneOutliner (233)
+[2017.03.04-01.12.58:194][319]LogModuleManager: Shutting down and abandoning module WidgetCarousel (232)
+[2017.03.04-01.12.58:194][319]LogModuleManager: Shutting down and abandoning module AddContentDialog (231)
+[2017.03.04-01.12.58:235][319]LogDirectoryWatcher: A directory notification for 'C:/Program Files (x86)/Epic Games/4.14/FeaturePacks/' was aborted.
+[2017.03.04-01.12.58:239][319]LogModuleManager: Shutting down and abandoning module GameplayTags (230)
+[2017.03.04-01.12.58:240][319]LogModuleManager: Shutting down and abandoning module EditorWidgets (229)
+[2017.03.04-01.12.58:240][319]LogModuleManager: Shutting down and abandoning module CollectionManager (228)
+[2017.03.04-01.12.58:270][319]LogDirectoryWatcher: A directory notification for 'C:/Users/Anthony/Documents/GitHub/ChimeraGames/Abyss/Content/Collections/' was aborted.
+[2017.03.04-01.12.58:270][319]LogDirectoryWatcher: A directory notification for 'C:/Users/Anthony/Documents/GitHub/ChimeraGames/Abyss/Content/Developers/Anthony/Collections/' was aborted.
+[2017.03.04-01.12.58:270][319]LogDirectoryWatcher: A directory notification for 'C:/Users/Anthony/Documents/GitHub/ChimeraGames/Abyss/Saved/Collections/' was aborted.
+[2017.03.04-01.12.58:270][319]LogModuleManager: Shutting down and abandoning module StatsViewer (227)
+[2017.03.04-01.12.58:301][319]LogModuleManager: Shutting down and abandoning module FoliageEdit (226)
+[2017.03.04-01.12.58:316][319]LogModuleManager: Shutting down and abandoning module LandscapeEditor (225)
+[2017.03.04-01.12.58:347][319]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (224)
+[2017.03.04-01.12.58:347][319]LogModuleManager: Shutting down and abandoning module ActorPickerMode (223)
+[2017.03.04-01.12.58:347][319]LogModuleManager: Shutting down and abandoning module GeometryMode (222)
+[2017.03.04-01.12.58:347][319]LogModuleManager: Shutting down and abandoning module TextureAlignMode (221)
+[2017.03.04-01.12.58:347][319]LogModuleManager: Shutting down and abandoning module BspMode (220)
+[2017.03.04-01.12.58:367][319]LogModuleManager: Shutting down and abandoning module HardwareSurvey (219)
+[2017.03.04-01.12.58:388][319]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (218)
+[2017.03.04-01.12.58:406][319]LogModuleManager: Shutting down and abandoning module AutomationWorker (217)
+[2017.03.04-01.12.58:422][319]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (216)
+[2017.03.04-01.12.58:457][319]LogModuleManager: Shutting down and abandoning module PlacementMode (215)
+[2017.03.04-01.12.58:477][319]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (214)
+[2017.03.04-01.12.58:570][319]LogModuleManager: Shutting down and abandoning module Media (213)
+[2017.03.04-01.12.58:570][319]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (212)
+[2017.03.04-01.12.58:570][319]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (211)
+[2017.03.04-01.12.58:570][319]LogModuleManager: Shutting down and abandoning module CharacterAI (210)
+[2017.03.04-01.12.58:570][319]LogModuleManager: Shutting down and abandoning module SequenceRecorder (209)
+[2017.03.04-01.12.58:634][319]LogModuleManager: Shutting down and abandoning module AudioCapture (208)
+[2017.03.04-01.12.58:634][319]LogModuleManager: Shutting down and abandoning module SmartSnapping (207)
+[2017.03.04-01.12.58:634][319]LogModuleManager: Shutting down and abandoning module SessionServices (206)
+[2017.03.04-01.12.58:634][319]LogModuleManager: Shutting down and abandoning module ViewportSnapping (205)
+[2017.03.04-01.12.58:634][319]LogModuleManager: Shutting down and abandoning module ViewportInteraction (204)
+[2017.03.04-01.12.58:634][319]LogModuleManager: Shutting down and abandoning module LogVisualizer (203)
+[2017.03.04-01.12.58:656][319]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (202)
+[2017.03.04-01.12.58:697][319]LogModuleManager: Shutting down and abandoning module IntroTutorials (201)
+[2017.03.04-01.12.58:718][319]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (200)
+[2017.03.04-01.12.58:719][319]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (199)
+[2017.03.04-01.12.58:730][319]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (198)
+[2017.03.04-01.12.58:730][319]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (196)
+[2017.03.04-01.12.59:478][319]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (195)
+[2017.03.04-01.12.59:492][319]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (194)
+[2017.03.04-01.12.59:493][319]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (193)
+[2017.03.04-01.12.59:493][319]LogModuleManager: Shutting down and abandoning module InputBindingEditor (192)
+[2017.03.04-01.12.59:515][319]LogModuleManager: Shutting down and abandoning module NiagaraEditor (191)
+[2017.03.04-01.12.59:568][319]LogModuleManager: Shutting down and abandoning module MergeActors (190)
+[2017.03.04-01.12.59:596][319]LogModuleManager: Shutting down and abandoning module SizeMap (189)
+[2017.03.04-01.12.59:612][319]LogModuleManager: Shutting down and abandoning module TreeMap (188)
+[2017.03.04-01.12.59:639][319]LogModuleManager: Shutting down and abandoning module ReferenceViewer (187)
+[2017.03.04-01.12.59:639][319]LogModuleManager: Shutting down and abandoning module LocalizationService (186)
+[2017.03.04-01.12.59:656][319]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (185)
+[2017.03.04-01.12.59:689][319]LogModuleManager: Shutting down and abandoning module HardwareTargeting (184)
+[2017.03.04-01.12.59:699][319]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (183)
+[2017.03.04-01.12.59:717][319]LogModuleManager: Shutting down and abandoning module UndoHistory (182)
+[2017.03.04-01.12.59:727][319]LogModuleManager: Shutting down and abandoning module UserFeedback (181)
+[2017.03.04-01.12.59:728][319]LogModuleManager: Shutting down and abandoning module XmlParser (180)
+[2017.03.04-01.12.59:745][319]LogModuleManager: Shutting down and abandoning module Blutility (179)
+[2017.03.04-01.12.59:759][319]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (178)
+[2017.03.04-01.12.59:759][319]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (177)
+[2017.03.04-01.12.59:759][319]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (176)
+[2017.03.04-01.12.59:759][319]LogModuleManager: Shutting down and abandoning module SettingsEditor (175)
+[2017.03.04-01.12.59:802][319]LogModuleManager: Shutting down and abandoning module ProjectLauncher (174)
+[2017.03.04-01.12.59:848][319]LogModuleManager: Shutting down and abandoning module SessionFrontend (173)
+[2017.03.04-01.12.59:883][319]LogModuleManager: Shutting down and abandoning module ProfilerClient (172)
+[2017.03.04-01.12.59:897][319]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (171)
+[2017.03.04-01.12.59:897][319]LogModuleManager: Shutting down and abandoning module DeviceManager (170)
+[2017.03.04-01.12.59:996][319]LogModuleManager: Shutting down and abandoning module AutomationController (169)
+[2017.03.04-01.13.00:020][319]LogModuleManager: Shutting down and abandoning module AutomationWindow (168)
+[2017.03.04-01.13.00:049][319]LogModuleManager: Shutting down and abandoning module Layers (167)
+[2017.03.04-01.13.00:076][319]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (166)
+[2017.03.04-01.13.00:076][319]LogModuleManager: Shutting down and abandoning module DetailCustomizations (165)
+[2017.03.04-01.13.00:098][319]LogModuleManager: Shutting down and abandoning module PackagesDialog (164)
+[2017.03.04-01.13.00:099][319]LogModuleManager: Shutting down and abandoning module AnimGraph (163)
+[2017.03.04-01.13.00:099][319]LogModuleManager: Shutting down and abandoning module Persona (162)
+[2017.03.04-01.13.00:140][319]LogModuleManager: Shutting down and abandoning module Kismet (161)
+[2017.03.04-01.13.00:178][319]LogModuleManager: Shutting down and abandoning module GraphEditor (160)
+[2017.03.04-01.13.00:178][319]LogModuleManager: Shutting down and abandoning module ClassViewer (159)
+[2017.03.04-01.13.00:183][319]LogModuleManager: Shutting down and abandoning module Toolbox (158)
+[2017.03.04-01.13.00:195][319]LogModuleManager: Shutting down and abandoning module ModuleUI (157)
+[2017.03.04-01.13.00:208][319]LogModuleManager: Shutting down and abandoning module MovieSceneTools (156)
+[2017.03.04-01.13.00:221][319]LogModuleManager: Shutting down and abandoning module OutputLog (155)
+[2017.03.04-01.13.00:265][319]LogModuleManager: Shutting down and abandoning module GammaUI (154)
+[2017.03.04-01.13.00:308][319]LogModuleManager: Shutting down and abandoning module Documentation (153)
+[2017.03.04-01.13.00:309][319]LogModuleManager: Shutting down and abandoning module Niagara (152)
+[2017.03.04-01.13.00:309][319]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (151)
+[2017.03.04-01.13.00:309][319]LogModuleManager: Shutting down and abandoning module AnalyticsET (150)
+[2017.03.04-01.13.00:309][319]LogModuleManager: Shutting down and abandoning module PortalServices (149)
+[2017.03.04-01.13.00:309][319]LogModuleManager: Shutting down and abandoning module PortalRpc (148)
+[2017.03.04-01.13.00:309][319]LogModuleManager: Shutting down and abandoning module MessagingRpc (147)
+[2017.03.04-01.13.00:309][319]LogModuleManager: Shutting down and abandoning module GameplayDebugger (146)
+[2017.03.04-01.13.00:315][319]LogModuleManager: Shutting down and abandoning module AITestSuite (145)
+[2017.03.04-01.13.00:329][319]LogModuleManager: Shutting down and abandoning module AIModule (144)
+[2017.03.04-01.13.00:329][319]LogModuleManager: Shutting down and abandoning module ProfilerService (143)
+[2017.03.04-01.13.00:536][319]LogModuleManager: Shutting down and abandoning module TaskGraph (142)
+[2017.03.04-01.13.00:556][319]LogModuleManager: Shutting down and abandoning module SlateRemote (141)
+[2017.03.04-01.13.00:556][319]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (140)
+[2017.03.04-01.13.00:569][319]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (139)
+[2017.03.04-01.13.00:586][319]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (138)
+[2017.03.04-01.13.00:586][319]LogModuleManager: Shutting down and abandoning module CableComponent (137)
+[2017.03.04-01.13.00:599][319]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (136)
+[2017.03.04-01.13.00:599][319]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (134)
+[2017.03.04-01.13.00:651][319]LogModuleManager: Shutting down and abandoning module JavascriptConsole (133)
+[2017.03.04-01.13.00:670][319]LogModuleManager: Shutting down and abandoning module JavascriptEditor (132)
+[2017.03.04-01.13.00:670][319]LogModuleManager: Shutting down and abandoning module HGGifImporter (131)
+[2017.03.04-01.13.00:670][319]LogModuleManager: Shutting down and abandoning module HTML5Networking (130)
+[2017.03.04-01.13.00:670][319]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (129)
+[2017.03.04-01.13.00:670][319]LogModuleManager: Shutting down and abandoning module GeometryCache (128)
+[2017.03.04-01.13.00:670][319]LogModuleManager: Shutting down and abandoning module AlembicLibrary (127)
+[2017.03.04-01.13.00:682][319]LogModuleManager: Shutting down and abandoning module AlembicImporter (126)
+[2017.03.04-01.13.00:694][319]LogModuleManager: Shutting down and abandoning module SuperSearch (125)
+[2017.03.04-01.13.00:694][319]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (124)
+[2017.03.04-01.13.00:694][319]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (123)
+[2017.03.04-01.13.00:694][319]LogModuleManager: Shutting down and abandoning module PluginBrowser (122)
+[2017.03.04-01.13.00:744][319]LogModuleManager: Shutting down and abandoning module DesktopPlatform (121)
+[2017.03.04-01.13.00:744][319]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (120)
+[2017.03.04-01.13.00:754][319]LogModuleManager: Shutting down and abandoning module UObjectPlugin (119)
+[2017.03.04-01.13.00:754][319]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (118)
+[2017.03.04-01.13.00:767][319]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (117)
+[2017.03.04-01.13.00:800][319]LogModuleManager: Shutting down and abandoning module SourceControl (116)
+[2017.03.04-01.13.00:834][319]LogModuleManager: Shutting down and abandoning module GitSourceControl (115)
+[2017.03.04-01.13.00:854][319]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (114)
+[2017.03.04-01.13.00:854][319]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (113)
+[2017.03.04-01.13.00:867][319]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (112)
+[2017.03.04-01.13.00:867][319]LogModuleManager: Shutting down and abandoning module MeshPaint (111)
+[2017.03.04-01.13.00:868][319]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (110)
+[2017.03.04-01.13.00:884][319]LogModuleManager: Shutting down and abandoning module HotReload (109)
+[2017.03.04-01.13.00:890][319]LogModuleManager: Shutting down and abandoning module MainFrame (108)
+[2017.03.04-01.13.00:890][319]LogModuleManager: Shutting down and abandoning module LevelEditor (107)
+[2017.03.04-01.13.00:913][319]LogModuleManager: Shutting down and abandoning module ContentBrowser (106)
+[2017.03.04-01.13.00:916][319]LogModuleManager: Shutting down and abandoning module Paper2DEditor (105)
+[2017.03.04-01.13.00:916][319]LogModuleManager: Shutting down and abandoning module JavascriptWebSocket (104)
+[2017.03.04-01.13.00:916][319]LogModuleManager: Shutting down and abandoning module JavascriptHttp (103)
+[2017.03.04-01.13.00:916][319]LogModuleManager: Shutting down and abandoning module JavascriptUMG (102)
+[2017.03.04-01.13.00:916][319]LogModuleManager: Shutting down and abandoning module V8 (101)
+[2017.03.04-01.13.00:966][319]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (100)
+[2017.03.04-01.13.00:966][319]LogModuleManager: Shutting down and abandoning module Paper2D (99)
+[2017.03.04-01.13.00:966][319]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (98)
+[2017.03.04-01.13.00:977][319]LogModuleManager: Shutting down and abandoning module WmfMedia (97)
+[2017.03.04-01.13.01:054][319]LogModuleManager: Shutting down and abandoning module MediaAssets (96)
+[2017.03.04-01.13.01:063][319]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (95)
+[2017.03.04-01.13.01:080][319]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (94)
+[2017.03.04-01.13.01:080][319]LogModuleManager: Shutting down and abandoning module VREditor (93)
+[2017.03.04-01.13.01:080][319]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (92)
+[2017.03.04-01.13.01:080][319]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (91)
+[2017.03.04-01.13.01:114][319]LogModuleManager: Shutting down and abandoning module FunctionalTesting (90)
+[2017.03.04-01.13.01:130][319]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (89)
+[2017.03.04-01.13.01:159][319]LogModuleManager: Shutting down and abandoning module Sequencer (88)
+[2017.03.04-01.13.01:159][319]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (87)
+[2017.03.04-01.13.01:159][319]LogModuleManager: Shutting down and abandoning module MessageLog (86)
+[2017.03.04-01.13.01:159][319]LogModuleManager: Shutting down and abandoning module AssetTools (85)
+[2017.03.04-01.13.01:191][319]LogModuleManager: Shutting down and abandoning module UMGEditor (84)
+[2017.03.04-01.13.01:191][319]LogModuleManager: Shutting down and abandoning module UMG (83)
+[2017.03.04-01.13.01:191][319]LogModuleManager: Shutting down and abandoning module SlateReflector (82)
+[2017.03.04-01.13.01:232][319]LogModuleManager: Shutting down and abandoning module Slate (81)
+[2017.03.04-01.13.01:233][319]LogModuleManager: Shutting down and abandoning module EditorStyle (80)
+[2017.03.04-01.13.01:243][319]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (79)
+[2017.03.04-01.13.01:244][319]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (78)
+[2017.03.04-01.13.01:244][319]LogModuleManager: Shutting down and abandoning module XAudio2 (77)
+[2017.03.04-01.13.01:244][319]LogModuleManager: Shutting down and abandoning module Networking (75)
+[2017.03.04-01.13.01:244][319]LogModuleManager: Shutting down and abandoning module Core (74)
+[2017.03.04-01.13.01:244][319]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (73)
+[2017.03.04-01.13.01:244][319]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.03.04-01.13.01:244][319]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Anthony/Documents/GitHub/ChimeraGames/Abyss/Content/' was aborted.
+[2017.03.04-01.13.01:245][319]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.03.04-01.13.01:246][319]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Marketplace/UnrealJS/Content/' was aborted.
+[2017.03.04-01.13.01:248][319]LogModuleManager: Shutting down and abandoning module AssetRegistry (72)
+[2017.03.04-01.13.01:514][319]LogModuleManager: Shutting down and abandoning module KismetCompiler (71)
+[2017.03.04-01.13.01:514][319]LogModuleManager: Shutting down and abandoning module PhysXFormats (70)
+[2017.03.04-01.13.01:534][319]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (69)
+[2017.03.04-01.13.01:551][319]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (68)
+[2017.03.04-01.13.01:555][319]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (67)
+[2017.03.04-01.13.01:595][319]LogModuleManager: Shutting down and abandoning module PropertyEditor (66)
+[2017.03.04-01.13.01:603][319]LogModuleManager: Shutting down and abandoning module MeshUtilities (65)
+[2017.03.04-01.13.01:659][319]LogModuleManager: Shutting down and abandoning module DerivedDataCache (64)
+[2017.03.04-01.13.01:723][319]LogDerivedDataCache: Shutdown
+[2017.03.04-01.13.01:724][319]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (63)
+[2017.03.04-01.13.01:742][319]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (62)
+[2017.03.04-01.13.01:784][319]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (61)
+[2017.03.04-01.13.01:847][319]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (60)
+[2017.03.04-01.13.01:906][319]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (59)
+[2017.03.04-01.13.01:906][319]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (58)
+[2017.03.04-01.13.01:916][319]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (57)
+[2017.03.04-01.13.01:933][319]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (56)
+[2017.03.04-01.13.01:991][319]LogModuleManager: Shutting down and abandoning module ImageWrapper (55)
+[2017.03.04-01.13.01:991][319]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (54)
+[2017.03.04-01.13.01:991][319]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (53)
+[2017.03.04-01.13.01:991][319]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (52)
+[2017.03.04-01.13.02:010][319]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (51)
+[2017.03.04-01.13.02:029][319]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (50)
+[2017.03.04-01.13.02:029][319]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (49)
+[2017.03.04-01.13.02:029][319]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (48)
+[2017.03.04-01.13.02:043][319]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (47)
+[2017.03.04-01.13.02:066][319]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (46)
+[2017.03.04-01.13.02:082][319]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (45)
+[2017.03.04-01.13.02:082][319]LogModuleManager: Shutting down and abandoning module Messaging (44)
+[2017.03.04-01.13.02:082][319]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (43)
+[2017.03.04-01.13.02:082][319]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (42)
+[2017.03.04-01.13.02:082][319]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (41)
+[2017.03.04-01.13.02:082][319]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (40)
+[2017.03.04-01.13.02:082][319]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (39)
+[2017.03.04-01.13.02:082][319]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (38)
+[2017.03.04-01.13.02:082][319]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (37)
+[2017.03.04-01.13.02:083][319]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (36)
+[2017.03.04-01.13.02:083][319]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (35)
+[2017.03.04-01.13.02:083][319]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (34)
+[2017.03.04-01.13.02:083][319]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (33)
+[2017.03.04-01.13.02:083][319]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (32)
+[2017.03.04-01.13.02:088][319]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (31)
+[2017.03.04-01.13.02:098][319]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (30)
+[2017.03.04-01.13.02:107][319]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (29)
+[2017.03.04-01.13.02:107][319]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (28)
+[2017.03.04-01.13.02:107][319]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (27)
+[2017.03.04-01.13.02:107][319]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (26)
+[2017.03.04-01.13.02:107][319]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (25)
+[2017.03.04-01.13.02:107][319]LogModuleManager: Shutting down and abandoning module TargetPlatform (24)
+[2017.03.04-01.13.02:107][319]LogModuleManager: Shutting down and abandoning module InputCore (23)
+[2017.03.04-01.13.02:107][319]LogModuleManager: Shutting down and abandoning module Settings (22)
+[2017.03.04-01.13.02:107][319]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (21)
+[2017.03.04-01.13.02:107][319]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (20)
+[2017.03.04-01.13.02:107][319]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2017.03.04-01.13.02:107][319]LogOnline:Display: Unloading online subsystem: NULL
+[2017.03.04-01.13.02:174][319]LogModuleManager: Shutting down and abandoning module SSL (17)
+[2017.03.04-01.13.02:189][319]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2017.03.04-01.13.02:189][319]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2017.03.04-01.13.02:546][319]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.03.04-01.13.02:614][319]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.03.04-01.13.02:614][319]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.03.04-01.13.02:615][319]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.03.04-01.13.02:670][319]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.03.04-01.13.02:709][319]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.03.04-01.13.02:710][319]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.03.04-01.13.02:726][319]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.03.04-01.13.02:737][319]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.03.04-01.13.02:737][319]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.03.04-01.13.02:737][319]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.03.04-01.13.02:753][319]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.03.04-01.13.02:764][319]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.03.04-01.13.02:764][319]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.03.04-01.13.02:808][319]LogExit: Exiting.
+[2017.03.04-01.13.02:960][319]Log file closed, 03/03/17 20:13:02
