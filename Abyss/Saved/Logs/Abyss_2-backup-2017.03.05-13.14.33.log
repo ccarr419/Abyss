@@ -1,0 +1,1125 @@
+﻿Log file open, 03/05/17 13:13:46
+LogInit:Display: Running engine for game: Abyss
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1146578814) SRandInit(1146578814).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.102514
+LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin AudioCapture, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/AudioCapture/AudioCapture.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin OSVR, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGameCircle, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/Android/OnlineSubsystemGameCircle/OnlineSubsystemGameCircle.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin MIDIDevice, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/MIDIDevice/MIDIDevice.uplugin
+LogPluginManager: Loaded Plugin MobilePatchingUtils, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/MobilePatchingUtils/MobilePatchingUtils.uplugin
+LogPluginManager: Loaded Plugin Ansel, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Nvidia/Ansel/Ansel.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogPluginManager: Loaded Plugin EditorTests, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/EditorTests/EditorTests.uplugin
+LogPluginManager: Loaded Plugin FbxAutomationTestBuilder, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/FbxAutomationTestBuilder/FbxAutomationTestBuilder.uplugin
+LogPluginManager: Loaded Plugin FunctionalTestingEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/FunctionalTestingEditor/FunctionalTestingEditor.uplugin
+LogPluginManager: Loaded Plugin RuntimeTests, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/RuntimeTests/RuntimeTests.uplugin
+LogPluginManager: Loaded Plugin ScreenshotTools, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/ScreenshotTools/ScreenshotTools.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.14-CL-3249277
+LogInit: Engine Version: 4.14.3-3249277+++UE4+Release-4.14
+LogInit: Compatible Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Net CL: 3195953
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 7
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 8
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 17
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 1
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jan  6 2017 10:49:43
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.14
+LogInit: Command line:  /Temp/Autosaves/Game/Maps-Levels/Fort/Exploration/UEDPCFort_Exploration -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess -messaging -SessionName="Play in Standalone Game" -windowed 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.14/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.03.05-18.13.46:775][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.05-18.13.46:775][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.03.05-18.13.46:779][  0]LogInit: Computer: ARCTURUS
+[2017.03.05-18.13.46:779][  0]LogInit: User: Braden
+[2017.03.05-18.13.46:779][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.03.05-18.13.46:779][  0]LogInit: High frequency timer resolution =2.338344 MHz
+[2017.03.05-18.13.46:779][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.03.05-18.13.46:779][  0]LogMemory: Platform Memory Stats for Windows
+[2017.03.05-18.13.46:779][  0]LogMemory: Process Physical Memory: 264.68 MB used, 264.68 MB peak
+[2017.03.05-18.13.46:780][  0]LogMemory: Process Virtual Memory: 262.48 MB used, 262.48 MB peak
+[2017.03.05-18.13.46:780][  0]LogMemory: Physical Memory: 6961.49 MB used,  1142.79 MB free, 8104.27 MB total
+[2017.03.05-18.13.46:780][  0]LogMemory: Virtual Memory: 689.43 MB used,  1142.79 MB free, 134217728.00 MB total
+[2017.03.05-18.13.46:816][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.03.05-18.13.47:505][  0]LogD3D11RHI: D3D11 adapters:
+[2017.03.05-18.13.47:545][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.03.05-18.13.47:545][  0]LogD3D11RHI:       0/0/1792 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x8086
+[2017.03.05-18.13.47:574][  0]LogD3D11RHI:    1. 'NVIDIA GeForce GT 755M' (Feature Level 11_0)
+[2017.03.05-18.13.47:574][  0]LogD3D11RHI:       1977/0/4052 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x10de
+[2017.03.05-18.13.47:575][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.03.05-18.13.47:575][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.03.05-18.13.47:575][  0]LogD3D11RHI: Chosen D3D11 Adapter: 1
+[2017.03.05-18.13.47:581][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.03.05-18.13.47:581][  0]LogD3D11RHI:     GPU DeviceId: 0xfcd (for the marketing name, search the web for "GPU Device Id")
+[2017.03.05-18.13.47:581][  0]LogWindows: EnumDisplayDevices:
+[2017.03.05-18.13.47:582][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2017.03.05-18.13.47:582][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:1)
+[2017.03.05-18.13.47:582][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.03.05-18.13.47:582][  0]LogWindows:    3. 'NVIDIA GeForce GT 755M' (P:0 D:0)
+[2017.03.05-18.13.47:582][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
+[2017.03.05-18.13.47:582][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 755M
+[2017.03.05-18.13.47:582][  0]LogD3D11RHI:   Driver Version: 378.66 (internal:21.21.13.7866, unified:378.66)
+[2017.03.05-18.13.47:582][  0]LogD3D11RHI:      Driver Date: 2-9-2017
+[2017.03.05-18.13.47:582][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.03.05-18.13.47:600][  0]LogD3D11RHI:Warning: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2017.03.05-18.13.47:600][  0]LogD3D11RHI: Async texture creation enabled
+[2017.03.05-18.13.47:619][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.03.05-18.13.47:619][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Intermediate/Shaders/WorkingDirectory/10740/).
+[2017.03.05-18.13.47:619][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Braden/AppData/Local/Temp/UnrealShaderWorkingDir/0CFF8B414A0A5688AE8F8DBBC43D2553/'.
+[2017.03.05-18.13.47:619][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.03.05-18.13.48:694][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.03.05-18.13.48:739][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.03.05-18.13.48:779][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.03.05-18.13.48:814][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.03.05-18.13.48:814][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.03.05-18.13.49:060][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.03.05-18.13.49:136][  0]LogDerivedDataCache: Loaded boot cache 0.08s 52MB C:/Users/Braden/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.03.05-18.13.49:136][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Braden/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2017.03.05-18.13.49:136][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.03.05-18.13.49:136][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.03.05-18.13.49:136][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.03.05-18.13.49:136][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.03.05-18.13.49:160][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.03.05-18.13.49:172][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Braden/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.03.05-18.13.49:365][  0]LogAssetRegistry: FAssetRegistry took 0.0001 seconds to start up
+[2017.03.05-18.13.49:371][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.005713 seconds
+[2017.03.05-18.13.49:388][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.05-18.13.49:391][  0]LogContentStreaming: Texture pool size is 1000.00 MB
+[2017.03.05-18.13.49:564][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.03.05-18.13.49:592][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.03.05-18.13.49:618][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.03.05-18.13.49:618][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.03.05-18.13.49:618][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.03.05-18.13.50:187][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: abyss, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1595127573
+[2017.03.05-18.13.50:234][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.03.05-18.13.50:689][  0]LogSlate: Using Freetype 2.6.0
+[2017.03.05-18.13.50:697][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.05-18.13.50:698][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.05-18.13.50:810][  0]LogMoviePlayer: Initializing movie player
+[2017.03.05-18.13.50:914][  0]LogWindowsMoviePlayer: Unable to load movie: ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/Movies/Default_Startup.mp4
+[2017.03.05-18.13.51:103][  0]SourceControl: Info Source control is disabled
+[2017.03.05-18.13.51:103][  0]SourceControl: Info Source control is disabled
+[2017.03.05-18.13.51:149][  0]SourceControl: Info Source control is disabled
+[2017.03.05-18.13.51:453][  0]LogUObjectArray: 33239 objects as part of root set at end of initial load.
+[2017.03.05-18.13.51:453][  0]LogUObjectAllocator: 7367296 out of 0 bytes used by permanent object pool.
+[2017.03.05-18.13.51:453][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.03.05-18.13.51:545][  0]LogEngine: Initializing Engine...
+[2017.03.05-18.13.51:725][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.05-18.13.51:743][  0]LogInit: FAudioDevice initialized.
+[2017.03.05-18.13.51:773][  0]LogInit: Texture streaming: Enabled
+[2017.03.05-18.13.51:797][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.03.05-18.13.52:053][  0]LogInit:Display: Game Engine Initialized.
+[2017.03.05-18.13.52:118][  0]LogInit:Display: Starting Game.
+[2017.03.05-18.13.52:118][  0]LogNet: Browse: /Temp/Autosaves/Game/Maps-Levels/Fort/Exploration/UEDPCFort_Exploration?Name=Player
+[2017.03.05-18.13.52:118][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/Maps-Levels/Fort/Exploration/UEDPCFort_Exploration?Name=Player
+[2017.03.05-18.13.52:146][  0]LogMemory: Platform Memory Stats for Windows
+[2017.03.05-18.13.52:146][  0]LogMemory: Process Physical Memory: 609.35 MB used, 659.10 MB peak
+[2017.03.05-18.13.52:146][  0]LogMemory: Process Virtual Memory: 685.88 MB used, 692.56 MB peak
+[2017.03.05-18.13.52:146][  0]LogMemory: Physical Memory: 7219.71 MB used,  884.57 MB free, 8104.27 MB total
+[2017.03.05-18.13.52:146][  0]LogMemory: Virtual Memory: 1321.90 MB used,  884.57 MB free, 134217728.00 MB total
+[2017.03.05-18.13.52:146][  0]LogMemory: 
+[2017.03.05-18.13.52:146][  0]Allocator Stats for TBB: (not implemented)
+[2017.03.05-18.13.52:844][  0]LogAIModule: Creating AISystem for world Fort_Exploration
+[2017.03.05-18.13.52:844][  0]LogLoad: Game class is 'abyssExplorationMode_C'
+[2017.03.05-18.13.52:850][  0]LogWorld: Bringing World /Temp/Autosaves/Game/Maps-Levels/Fort/Exploration/UEDPCFort_Exploration.Fort_Exploration up for play (max tick rate 0) at 2017.03.05-13.13.52
+[2017.03.05-18.13.52:850][  0]LogWorld: Bringing up level for play took: 0.004501
+[2017.03.05-18.13.52:856][  0]LogLoad: Took 0.737466 seconds to LoadMap(/Temp/Autosaves/Game/Maps-Levels/Fort/Exploration/UEDPCFort_Exploration)
+[2017.03.05-18.13.53:184][  0]LogLoad: (Engine Initialization) Total time: 10.31 seconds
+[2017.03.05-18.13.53:184][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.37 seconds
+[2017.03.05-18.13.53:184][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.03.05-18.13.53:184][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.03.05-18.13.53:309][  2]LogRenderer: Reallocating scene render targets to support 1280x720 NumSamples 1 (Frame:2).
+[2017.03.05-18.13.56:914][200]LogPackageName: SearchForPackageOnDisk took   0.070s to resolve Fort_Battle.umap.
+[2017.03.05-18.13.56:980][201]LogPackageName: SearchForPackageOnDisk took   0.064s to resolve Fort_Battle.umap.
+[2017.03.05-18.13.56:980][201]LogNet: Browse: /Game/Maps-Levels/Fort_Battle
+[2017.03.05-18.13.56:980][201]LogLoad: LoadMap: /Game/Maps-Levels/Fort_Battle
+[2017.03.05-18.13.57:007][201]LogAudio:Warning: Audio Component is being destroyed without stopping looping sound 'ambientBackground'
+[2017.03.05-18.13.57:027][201]LogMemory: Platform Memory Stats for Windows
+[2017.03.05-18.13.57:027][201]LogMemory: Process Physical Memory: 684.88 MB used, 685.46 MB peak
+[2017.03.05-18.13.57:027][201]LogMemory: Process Virtual Memory: 869.61 MB used, 878.26 MB peak
+[2017.03.05-18.13.57:027][201]LogMemory: Physical Memory: 7144.52 MB used,  959.75 MB free, 8104.27 MB total
+[2017.03.05-18.13.57:027][201]LogMemory: Virtual Memory: 1518.09 MB used,  959.75 MB free, 134217728.00 MB total
+[2017.03.05-18.13.57:027][201]LogMemory: 
+[2017.03.05-18.13.57:027][201]Allocator Stats for TBB: (not implemented)
+[2017.03.05-18.13.57:427][201]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'PaperSprite' in BlueprintGeneratedClass 'BS_Enemy_C' (it may have been removed)
+[2017.03.05-18.13.57:454][201]LogAIModule: Creating AISystem for world Fort_Battle
+[2017.03.05-18.13.57:455][201]LogLoad: Game class is 'abyssBattleScene_C'
+[2017.03.05-18.13.57:458][201]LogWorld: Bringing World /Game/Maps-Levels/Fort_Battle.Fort_Battle up for play (max tick rate 0) at 2017.03.05-13.13.57
+[2017.03.05-18.13.57:459][201]LogWorld: Bringing up level for play took: 0.003212
+[2017.03.05-18.13.57:460][201]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.03.05-18.13.57:470][201]LogLoad: Took 0.490637 seconds to LoadMap(/Game/Maps-Levels/Fort_Battle)
+[2017.03.05-18.13.59:719][338]LogBlueprintUserMessages: [BattleHUD_C_0] Attack missed!
+[2017.03.05-18.14.00:203][368]LogBlueprintUserMessages: [BattleHUD_C_0] Enemy is dead
+[2017.03.05-18.14.00:208][368]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.00:220][369]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.00:236][370]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.00:253][371]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.00:268][372]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.00:286][373]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.00:302][374]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.00:318][375]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.00:334][376]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.00:350][377]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.00:366][378]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.00:382][379]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.00:398][380]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.00:415][381]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.00:430][382]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.00:446][383]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.00:462][384]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.00:479][385]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.00:494][386]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.00:511][387]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.00:526][388]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.00:543][389]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.00:559][390]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.00:576][391]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.00:591][392]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.00:607][393]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.00:623][394]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.00:639][395]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.00:656][396]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.00:672][397]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.00:688][398]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.00:704][399]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.00:721][400]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.00:737][401]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.00:754][402]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.00:769][403]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.00:787][404]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.00:802][405]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.00:818][406]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.00:834][407]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.00:850][408]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.00:866][409]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.00:883][410]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.00:899][411]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.00:915][412]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.00:931][413]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.00:947][414]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.00:963][415]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.00:980][416]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.00:996][417]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.01:012][418]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.01:028][419]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.01:045][420]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.01:061][421]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.01:077][422]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.01:092][423]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.01:108][424]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.01:124][425]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.01:141][426]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.01:156][427]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.01:172][428]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.01:188][429]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.01:204][430]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.01:221][431]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.01:236][432]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.01:254][433]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.01:268][434]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.01:285][435]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.01:301][436]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.01:318][437]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.01:334][438]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.01:350][439]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.01:366][440]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.01:382][441]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.01:398][442]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.01:415][443]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.01:430][444]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.01:447][445]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.01:462][446]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.01:479][447]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.01:495][448]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.01:511][449]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.01:526][450]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.01:543][451]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.01:559][452]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.01:576][453]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.01:592][454]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.01:609][455]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.01:624][456]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.01:640][457]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.01:658][458]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.01:672][459]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.01:689][460]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.01:704][461]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.01:721][462]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.01:737][463]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.01:754][464]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.01:769][465]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.01:787][466]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.01:802][467]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.01:818][468]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.01:834][469]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.01:851][470]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.01:866][471]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.01:883][472]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.01:899][473]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.01:915][474]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.01:931][475]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.01:948][476]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.01:964][477]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.01:980][478]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.01:996][479]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.02:011][480]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.02:028][481]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.02:044][482]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.02:060][483]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.02:076][484]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.02:093][485]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.02:108][486]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.02:125][487]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.02:140][488]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.02:157][489]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.02:172][490]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.02:190][491]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.02:204][492]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.02:222][493]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.02:236][494]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.02:253][495]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.02:268][496]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.02:286][497]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.02:303][498]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.02:319][499]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.02:335][500]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.02:350][501]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.02:367][502]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.02:383][503]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.02:399][504]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.02:415][505]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.02:431][506]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.02:448][507]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.02:464][508]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.02:479][509]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.02:495][510]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.02:512][511]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.02:527][512]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.02:544][513]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.02:559][514]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.02:576][515]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.02:592][516]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.02:609][517]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.02:624][518]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.02:640][519]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.02:657][520]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.02:672][521]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.02:688][522]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.02:704][523]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.02:722][524]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.02:737][525]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.02:754][526]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.02:769][527]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.02:786][528]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.02:802][529]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.02:818][530]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.02:834][531]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.02:850][532]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.02:866][533]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.02:882][534]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.02:898][535]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.02:915][536]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.02:931][537]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.02:947][538]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.02:963][539]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.02:979][540]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.02:995][541]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.03:011][542]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.03:028][543]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.03:046][544]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.03:060][545]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.03:078][546]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.03:092][547]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.03:109][548]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.03:124][549]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.03:141][550]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.03:156][551]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.03:172][552]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.03:188][553]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.03:204][554]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.03:220][555]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.03:236][556]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.03:254][557]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.03:268][558]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.03:286][559]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.03:302][560]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.03:319][561]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.03:334][562]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.03:351][563]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.03:367][564]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.03:383][565]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.03:399][566]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.03:415][567]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.03:431][568]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.03:448][569]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.03:464][570]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.03:480][571]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.03:495][572]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.03:511][573]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.03:528][574]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.03:544][575]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.03:559][576]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.03:575][577]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.03:591][578]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.03:608][579]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.03:623][580]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.03:640][581]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.03:658][582]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.03:672][583]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.03:689][584]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.03:704][585]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.03:720][586]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.03:736][587]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.03:753][588]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.03:768][589]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.03:785][590]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.03:801][591]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.03:818][592]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.03:834][593]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.03:850][594]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.03:867][595]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.03:883][596]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.03:899][597]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.03:915][598]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.03:931][599]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.03:947][600]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.03:963][601]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.03:980][602]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.03:996][603]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.04:012][604]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.04:029][605]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.04:043][606]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.04:060][607]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.04:075][608]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.04:093][609]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.04:108][610]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.04:124][611]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.04:141][612]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.04:156][613]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.04:172][614]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.04:190][615]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.04:204][616]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.04:221][617]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.04:236][618]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.04:253][619]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.04:268][620]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.04:285][621]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.04:302][622]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.04:318][623]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.04:334][624]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.04:350][625]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.04:366][626]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.04:383][627]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.04:398][628]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.04:414][629]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.04:430][630]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.04:446][631]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.04:463][632]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.04:479][633]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.04:495][634]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.04:511][635]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.04:528][636]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.04:544][637]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.04:559][638]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.04:575][639]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.04:593][640]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.04:607][641]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.04:625][642]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.04:640][643]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.04:657][644]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.04:673][645]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.04:690][646]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.04:705][647]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.04:721][648]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.04:737][649]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.04:753][650]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.04:770][651]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.04:786][652]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.04:802][653]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.04:818][654]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.04:834][655]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.04:851][656]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.04:866][657]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.04:883][658]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.04:899][659]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.04:915][660]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.04:932][661]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.04:948][662]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.04:964][663]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.04:979][664]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.04:996][665]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.05:011][666]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.05:028][667]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.05:043][668]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.05:059][669]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.05:076][670]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.05:092][671]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.05:108][672]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.05:123][673]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.05:140][674]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.05:157][675]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.05:172][676]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.05:188][677]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.05:204][678]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.05:221][679]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.05:237][680]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.05:253][681]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.05:269][682]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.05:285][683]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.05:301][684]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.05:317][685]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.05:336][686]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.05:350][687]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.05:367][688]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.05:383][689]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.05:400][690]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.05:415][691]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.05:431][692]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.05:447][693]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.05:463][694]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.05:480][695]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.05:495][696]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.05:512][697]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.05:528][698]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.05:544][699]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.05:560][700]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.05:575][701]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.05:592][702]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.05:608][703]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.05:624][704]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.05:640][705]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.05:656][706]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.05:672][707]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.05:688][708]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.05:704][709]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.05:720][710]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.05:738][711]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.05:752][712]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.05:769][713]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.05:785][714]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.05:802][715]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.05:818][716]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.05:834][717]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.05:850][718]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.05:867][719]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.05:883][720]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.05:899][721]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.05:915][722]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.05:931][723]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.05:947][724]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.05:963][725]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.05:980][726]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.05:996][727]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.06:012][728]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.06:028][729]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.06:044][730]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.06:061][731]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.06:076][732]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.06:092][733]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.06:108][734]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.06:124][735]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.06:141][736]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.06:157][737]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.06:172][738]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.06:188][739]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.06:206][740]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.06:220][741]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.06:237][742]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.06:253][743]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.06:270][744]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.06:285][745]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.06:301][746]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.06:318][747]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.06:334][748]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.06:350][749]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.06:366][750]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.06:382][751]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.06:398][752]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.06:415][753]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.06:431][754]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.06:447][755]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.06:464][756]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.06:479][757]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.06:496][758]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.06:511][759]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.06:528][760]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.06:544][761]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.06:560][762]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.06:576][763]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.06:593][764]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.06:608][765]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.06:624][766]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.06:640][767]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.06:657][768]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.06:672][769]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.06:688][770]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.06:704][771]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.06:720][772]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.06:736][773]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.06:752][774]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.06:769][775]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.06:786][776]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.06:803][777]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.06:819][778]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.06:835][779]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.06:851][780]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.06:867][781]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.06:883][782]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.06:899][783]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.06:915][784]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.06:932][785]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.06:948][786]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.06:964][787]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.06:980][788]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.06:996][789]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.07:012][790]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.07:029][791]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.07:044][792]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.07:061][793]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.07:076][794]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.07:093][795]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.07:108][796]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.07:124][797]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.07:140][798]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.07:157][799]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.07:173][800]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.07:188][801]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.07:204][802]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.07:220][803]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.07:237][804]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.07:252][805]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.07:269][806]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.07:285][807]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.07:302][808]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.07:317][809]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.07:334][810]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.07:351][811]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.07:366][812]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.07:382][813]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.07:398][814]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.07:415][815]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.07:431][816]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.07:447][817]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.07:463][818]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.07:479][819]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.07:494][820]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.07:511][821]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.07:528][822]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.07:545][823]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.07:560][824]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.07:575][825]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.07:592][826]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.07:607][827]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.07:626][828]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.07:641][829]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.07:658][830]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.07:674][831]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.07:689][832]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.07:706][833]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.07:721][834]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.07:737][835]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.07:753][836]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.07:769][837]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.07:787][838]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.07:802][839]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.07:819][840]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.07:835][841]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.07:851][842]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.07:867][843]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.07:883][844]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.07:899][845]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.07:915][846]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.07:932][847]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.07:947][848]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.07:964][849]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.07:980][850]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.07:995][851]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.08:011][852]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.08:028][853]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.08:044][854]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.08:061][855]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.08:076][856]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.08:093][857]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.08:108][858]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.08:125][859]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.08:143][860]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.08:158][861]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.08:173][862]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.08:189][863]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.08:206][864]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.08:221][865]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.08:239][866]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.08:253][867]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.08:270][868]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.08:285][869]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.08:302][870]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.08:318][871]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.08:335][872]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.08:351][873]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.08:367][874]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.08:382][875]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.08:399][876]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.08:415][877]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.08:431][878]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.08:446][879]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.08:462][880]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.08:479][881]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.08:495][882]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.08:512][883]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.08:529][884]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.08:544][885]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.08:561][886]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.08:575][887]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.08:592][888]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.08:608][889]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.08:624][890]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.08:640][891]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.08:656][892]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.08:674][893]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.08:689][894]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.08:706][895]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.08:721][896]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.08:738][897]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.08:753][898]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.08:771][899]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.08:785][900]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.08:804][901]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.08:818][902]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.08:835][903]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.08:851][904]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.08:867][905]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.08:883][906]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.08:899][907]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.08:915][908]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.08:931][909]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.08:948][910]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.08:963][911]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.08:980][912]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.08:996][913]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.09:012][914]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.09:028][915]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.09:044][916]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.09:061][917]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.09:076][918]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.09:093][919]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.09:108][920]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.09:124][921]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.09:141][922]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.09:157][923]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.09:173][924]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.09:189][925]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.09:204][926]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.09:220][927]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.09:237][928]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.09:253][929]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.09:269][930]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.09:285][931]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.09:302][932]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.09:318][933]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.09:334][934]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.09:350][935]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.09:367][936]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.09:382][937]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.09:398][938]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.09:414][939]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.09:431][940]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.09:447][941]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.09:463][942]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.09:479][943]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.09:494][944]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.09:511][945]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.09:528][946]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.09:614][947]LogPackageName: SearchForPackageOnDisk took   0.070s to resolve Fort_Exploration.umap.
+[2017.03.05-18.14.09:679][947]LogPackageName: SearchForPackageOnDisk took   0.063s to resolve Fort_Exploration.umap.
+[2017.03.05-18.14.09:679][947]LogNet: Browse: /Game/Maps-Levels/Fort/Exploration/Fort_Exploration
+[2017.03.05-18.14.09:679][947]LogLoad: LoadMap: /Game/Maps-Levels/Fort/Exploration/Fort_Exploration
+[2017.03.05-18.14.09:714][947]LogMemory: Platform Memory Stats for Windows
+[2017.03.05-18.14.09:714][947]LogMemory: Process Physical Memory: 696.36 MB used, 697.20 MB peak
+[2017.03.05-18.14.09:714][947]LogMemory: Process Virtual Memory: 912.04 MB used, 959.07 MB peak
+[2017.03.05-18.14.09:714][947]LogMemory: Physical Memory: 7060.09 MB used,  1044.19 MB free, 8104.27 MB total
+[2017.03.05-18.14.09:714][947]LogMemory: Virtual Memory: 1562.40 MB used,  1044.19 MB free, 134217728.00 MB total
+[2017.03.05-18.14.09:714][947]LogMemory: 
+[2017.03.05-18.14.09:714][947]Allocator Stats for TBB: (not implemented)
+[2017.03.05-18.14.10:340][947]LogAIModule: Creating AISystem for world Fort_Exploration
+[2017.03.05-18.14.10:341][947]LogLoad: Game class is 'abyssExplorationMode_C'
+[2017.03.05-18.14.10:345][947]LogWorld: Bringing World /Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration up for play (max tick rate 0) at 2017.03.05-13.14.10
+[2017.03.05-18.14.10:346][947]LogWorld: Bringing up level for play took: 0.004178
+[2017.03.05-18.14.10:350][947]LogLoad: Took 0.672063 seconds to LoadMap(/Game/Maps-Levels/Fort/Exploration/Fort_Exploration)
+[2017.03.05-18.14.10:416][947]LogPackageName: SearchForPackageOnDisk took   0.064s to resolve Fort_Battle.umap.
+[2017.03.05-18.14.10:493][948]LogPackageName: SearchForPackageOnDisk took   0.074s to resolve Fort_Battle.umap.
+[2017.03.05-18.14.10:493][948]LogNet: Browse: /Game/Maps-Levels/Fort_Battle
+[2017.03.05-18.14.10:493][948]LogLoad: LoadMap: /Game/Maps-Levels/Fort_Battle
+[2017.03.05-18.14.10:503][948]LogAudio:Warning: Audio Component is being destroyed without stopping looping sound 'ambientBackground'
+[2017.03.05-18.14.10:536][948]LogMemory: Platform Memory Stats for Windows
+[2017.03.05-18.14.10:536][948]LogMemory: Process Physical Memory: 695.78 MB used, 697.20 MB peak
+[2017.03.05-18.14.10:536][948]LogMemory: Process Virtual Memory: 966.84 MB used, 968.79 MB peak
+[2017.03.05-18.14.10:536][948]LogMemory: Physical Memory: 7053.03 MB used,  1051.25 MB free, 8104.27 MB total
+[2017.03.05-18.14.10:536][948]LogMemory: Virtual Memory: 1617.40 MB used,  1051.25 MB free, 134217728.00 MB total
+[2017.03.05-18.14.10:536][948]LogMemory: 
+[2017.03.05-18.14.10:536][948]Allocator Stats for TBB: (not implemented)
+[2017.03.05-18.14.10:946][948]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'PaperSprite' in BlueprintGeneratedClass 'BS_Enemy_C' (it may have been removed)
+[2017.03.05-18.14.10:963][948]LogAIModule: Creating AISystem for world Fort_Battle
+[2017.03.05-18.14.10:964][948]LogLoad: Game class is 'abyssBattleScene_C'
+[2017.03.05-18.14.10:967][948]LogWorld: Bringing World /Game/Maps-Levels/Fort_Battle.Fort_Battle up for play (max tick rate 0) at 2017.03.05-13.14.10
+[2017.03.05-18.14.10:967][948]LogWorld: Bringing up level for play took: 0.002107
+[2017.03.05-18.14.10:967][948]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.03.05-18.14.10:973][948]LogLoad: Took 0.479370 seconds to LoadMap(/Game/Maps-Levels/Fort_Battle)
+[2017.03.05-18.14.12:401][ 37]LogBlueprintUserMessages: [BattleHUD_C_0] Enemy is dead
+[2017.03.05-18.14.12:403][ 37]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.12:418][ 38]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.12:436][ 39]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.12:452][ 40]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.12:467][ 41]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.12:484][ 42]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.12:499][ 43]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.12:515][ 44]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.12:532][ 45]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.12:549][ 46]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.12:564][ 47]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.12:580][ 48]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.12:597][ 49]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.12:613][ 50]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.12:630][ 51]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.12:646][ 52]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.12:662][ 53]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.12:678][ 54]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.12:694][ 55]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.12:710][ 56]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.12:726][ 57]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.12:743][ 58]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.12:759][ 59]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.12:775][ 60]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.12:790][ 61]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.12:806][ 62]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.12:823][ 63]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.12:838][ 64]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.12:856][ 65]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.12:870][ 66]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.12:887][ 67]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.12:903][ 68]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.12:919][ 69]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.12:935][ 70]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.12:952][ 71]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.12:968][ 72]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.12:984][ 73]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.13:001][ 74]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.13:017][ 75]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.13:033][ 76]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.13:050][ 77]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.13:064][ 78]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.13:081][ 79]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.13:096][ 80]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.13:113][ 81]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.13:129][ 82]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.13:145][ 83]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.13:162][ 84]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.13:178][ 85]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.13:193][ 86]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.13:210][ 87]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.13:227][ 88]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.13:244][ 89]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.13:259][ 90]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.13:275][ 91]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.13:291][ 92]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.13:308][ 93]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.13:322][ 94]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.13:338][ 95]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.13:356][ 96]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.13:371][ 97]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.13:387][ 98]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.13:403][ 99]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.13:420][100]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.13:435][101]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.13:452][102]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.13:468][103]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.13:485][104]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.13:500][105]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.13:516][106]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.13:532][107]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.13:549][108]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.13:565][109]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.13:581][110]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.13:597][111]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.13:613][112]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.13:629][113]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.13:645][114]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.13:661][115]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.13:677][116]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.13:694][117]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.13:710][118]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.13:726][119]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.13:742][120]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.13:759][121]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.13:774][122]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.13:790][123]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.13:806][124]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.13:823][125]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.13:840][126]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.13:855][127]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.13:872][128]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.13:887][129]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.13:904][130]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.13:918][131]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.13:935][132]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.13:952][133]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.13:967][134]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.13:983][135]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.14:000][136]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.14:016][137]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.14:032][138]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.14:049][139]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.14:065][140]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.14:081][141]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.14:097][142]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.14:113][143]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.14:129][144]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.14:145][145]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.14:162][146]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.14:178][147]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.14:193][148]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.14:209][149]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.14:226][150]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.14:242][151]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.05-18.14.14:373][152]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.05-18.14.14:375][152]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.05-18.14.14:376][152]LogEngine: All Windows Closed
+[2017.03.05-18.14.14:376][152]LogWindows: FPlatformMisc::RequestExit(0)
+[2017.03.05-18.14.14:377][153]LogMoviePlayer: Shutting down movie player
+[2017.03.05-18.14.14:566][153]LogExit: Preparing to exit.
+[2017.03.05-18.14.14:637][153]LogExit: Game engine shut down
+[2017.03.05-18.14.14:705][153]LogObj: Freed 0b from 0 cluster array pools.
+[2017.03.05-18.14.14:705][153]LogExit: Object subsystem successfully closed.
+[2017.03.05-18.14.14:718][153]LogD3D11RHI: Shutdown
+[2017.03.05-18.14.14:718][153]LogD3D11RHI: CleanupD3DDevice
+[2017.03.05-18.14.14:774][153]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.03.05-18.14.14:790][153]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (115)
+[2017.03.05-18.14.14:790][153]LogModuleManager: Shutting down and abandoning module SequenceRecorder (114)
+[2017.03.05-18.14.14:790][153]LogModuleManager: Shutting down and abandoning module AutomationController (113)
+[2017.03.05-18.14.14:790][153]LogModuleManager: Shutting down and abandoning module AutomationWorker (112)
+[2017.03.05-18.14.14:790][153]LogModuleManager: Shutting down and abandoning module GameplayDebugger (111)
+[2017.03.05-18.14.14:790][153]LogModuleManager: Shutting down and abandoning module AITestSuite (110)
+[2017.03.05-18.14.14:790][153]LogModuleManager: Shutting down and abandoning module AIModule (109)
+[2017.03.05-18.14.14:790][153]LogModuleManager: Shutting down and abandoning module Media (108)
+[2017.03.05-18.14.14:790][153]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (107)
+[2017.03.05-18.14.14:790][153]LogModuleManager: Shutting down and abandoning module CharacterAI (106)
+[2017.03.05-18.14.14:790][153]LogModuleManager: Shutting down and abandoning module SessionServices (105)
+[2017.03.05-18.14.14:790][153]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (104)
+[2017.03.05-18.14.14:790][153]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (103)
+[2017.03.05-18.14.14:790][153]LogModuleManager: Shutting down and abandoning module GeometryCache (102)
+[2017.03.05-18.14.14:790][153]LogModuleManager: Shutting down and abandoning module Niagara (101)
+[2017.03.05-18.14.14:790][153]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (100)
+[2017.03.05-18.14.14:790][153]LogModuleManager: Shutting down and abandoning module PortalServices (99)
+[2017.03.05-18.14.14:790][153]LogModuleManager: Shutting down and abandoning module PortalRpc (98)
+[2017.03.05-18.14.14:790][153]LogModuleManager: Shutting down and abandoning module MessagingRpc (97)
+[2017.03.05-18.14.14:790][153]LogModuleManager: Shutting down and abandoning module ProfilerService (96)
+[2017.03.05-18.14.14:798][153]LogModuleManager: Shutting down and abandoning module TaskGraph (95)
+[2017.03.05-18.14.14:798][153]LogModuleManager: Shutting down and abandoning module SlateRemote (94)
+[2017.03.05-18.14.14:798][153]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (93)
+[2017.03.05-18.14.14:798][153]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (92)
+[2017.03.05-18.14.14:798][153]LogModuleManager: Shutting down and abandoning module CableComponent (91)
+[2017.03.05-18.14.14:798][153]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (90)
+[2017.03.05-18.14.14:798][153]LogModuleManager: Shutting down and abandoning module HTML5Networking (88)
+[2017.03.05-18.14.14:798][153]LogModuleManager: Shutting down and abandoning module DesktopPlatform (87)
+[2017.03.05-18.14.14:798][153]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
+[2017.03.05-18.14.14:798][153]LogModuleManager: Shutting down and abandoning module HotReload (85)
+[2017.03.05-18.14.14:799][153]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (84)
+[2017.03.05-18.14.14:799][153]LogModuleManager: Shutting down and abandoning module UObjectPlugin (83)
+[2017.03.05-18.14.14:799][153]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (82)
+[2017.03.05-18.14.14:799][153]LogModuleManager: Shutting down and abandoning module SourceControl (81)
+[2017.03.05-18.14.14:799][153]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (80)
+[2017.03.05-18.14.14:799][153]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (79)
+[2017.03.05-18.14.14:799][153]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2017.03.05-18.14.14:799][153]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2017.03.05-18.14.14:799][153]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2017.03.05-18.14.14:799][153]LogModuleManager: Shutting down and abandoning module MediaAssets (75)
+[2017.03.05-18.14.14:799][153]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (74)
+[2017.03.05-18.14.14:799][153]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (73)
+[2017.03.05-18.14.14:799][153]LogModuleManager: Shutting down and abandoning module VREditor (72)
+[2017.03.05-18.14.14:799][153]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (71)
+[2017.03.05-18.14.14:799][153]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (70)
+[2017.03.05-18.14.14:799][153]LogModuleManager: Shutting down and abandoning module FunctionalTesting (69)
+[2017.03.05-18.14.14:799][153]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (68)
+[2017.03.05-18.14.14:799][153]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2017.03.05-18.14.14:799][153]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (66)
+[2017.03.05-18.14.14:799][153]LogModuleManager: Shutting down and abandoning module MessageLog (65)
+[2017.03.05-18.14.14:799][153]LogModuleManager: Shutting down and abandoning module AssetTools (64)
+[2017.03.05-18.14.14:800][153]LogModuleManager: Shutting down and abandoning module UMGEditor (63)
+[2017.03.05-18.14.14:800][153]LogModuleManager: Shutting down and abandoning module UMG (62)
+[2017.03.05-18.14.14:800][153]LogModuleManager: Shutting down and abandoning module SlateReflector (61)
+[2017.03.05-18.14.14:800][153]LogModuleManager: Shutting down and abandoning module Slate (60)
+[2017.03.05-18.14.14:800][153]LogModuleManager: Shutting down and abandoning module EditorStyle (59)
+[2017.03.05-18.14.14:803][153]LogModuleManager: Shutting down and abandoning module Messaging (58)
+[2017.03.05-18.14.14:803][153]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (57)
+[2017.03.05-18.14.14:803][153]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (56)
+[2017.03.05-18.14.14:803][153]LogModuleManager: Shutting down and abandoning module XAudio2 (55)
+[2017.03.05-18.14.14:803][153]LogModuleManager: Shutting down and abandoning module Networking (53)
+[2017.03.05-18.14.14:803][153]LogModuleManager: Shutting down and abandoning module Core (52)
+[2017.03.05-18.14.14:803][153]LogModuleManager: Shutting down and abandoning module KismetCompiler (51)
+[2017.03.05-18.14.14:803][153]LogModuleManager: Shutting down and abandoning module PhysXFormats (50)
+[2017.03.05-18.14.14:803][153]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (49)
+[2017.03.05-18.14.14:803][153]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (48)
+[2017.03.05-18.14.14:803][153]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (47)
+[2017.03.05-18.14.14:803][153]LogModuleManager: Shutting down and abandoning module PropertyEditor (46)
+[2017.03.05-18.14.14:803][153]LogModuleManager: Shutting down and abandoning module MeshUtilities (45)
+[2017.03.05-18.14.14:803][153]LogModuleManager: Shutting down and abandoning module AssetRegistry (44)
+[2017.03.05-18.14.14:803][153]LogModuleManager: Shutting down and abandoning module DerivedDataCache (43)
+[2017.03.05-18.14.15:189][153]LogDerivedDataCache: Shutdown
+[2017.03.05-18.14.15:189][153]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (42)
+[2017.03.05-18.14.15:189][153]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (41)
+[2017.03.05-18.14.15:189][153]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (40)
+[2017.03.05-18.14.15:189][153]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (39)
+[2017.03.05-18.14.15:189][153]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (38)
+[2017.03.05-18.14.15:189][153]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (37)
+[2017.03.05-18.14.15:189][153]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (36)
+[2017.03.05-18.14.15:189][153]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (35)
+[2017.03.05-18.14.15:189][153]LogModuleManager: Shutting down and abandoning module ImageWrapper (34)
+[2017.03.05-18.14.15:189][153]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (33)
+[2017.03.05-18.14.15:189][153]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (32)
+[2017.03.05-18.14.15:189][153]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (31)
+[2017.03.05-18.14.15:189][153]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (30)
+[2017.03.05-18.14.15:189][153]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (29)
+[2017.03.05-18.14.15:189][153]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2017.03.05-18.14.15:190][153]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2017.03.05-18.14.15:190][153]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2017.03.05-18.14.15:190][153]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2017.03.05-18.14.15:190][153]LogModuleManager: Shutting down and abandoning module TargetPlatform (24)
+[2017.03.05-18.14.15:190][153]LogModuleManager: Shutting down and abandoning module InputCore (23)
+[2017.03.05-18.14.15:190][153]LogModuleManager: Shutting down and abandoning module Settings (22)
+[2017.03.05-18.14.15:190][153]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (21)
+[2017.03.05-18.14.15:190][153]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (20)
+[2017.03.05-18.14.15:190][153]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2017.03.05-18.14.15:190][153]LogOnline:Display: Unloading online subsystem: NULL
+[2017.03.05-18.14.15:190][153]LogModuleManager: Shutting down and abandoning module SSL (17)
+[2017.03.05-18.14.15:194][153]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2017.03.05-18.14.15:194][153]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2017.03.05-18.14.15:194][153]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.03.05-18.14.15:194][153]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.03.05-18.14.15:194][153]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.03.05-18.14.15:194][153]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.03.05-18.14.15:195][153]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.03.05-18.14.15:195][153]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.03.05-18.14.15:195][153]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.03.05-18.14.15:195][153]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.03.05-18.14.15:195][153]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.03.05-18.14.15:195][153]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.03.05-18.14.15:195][153]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.03.05-18.14.15:195][153]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.03.05-18.14.15:195][153]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.03.05-18.14.15:195][153]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.03.05-18.14.15:202][153]LogExit: Exiting.
+[2017.03.05-18.14.15:207][153]Log file closed, 03/05/17 13:14:15
