@@ -1,2341 +1,3 @@
-declare class BTDecorator_Blackboard extends BTDecorator_BlackboardBase { 
-	IntValue: number;
-	FloatValue: number;
-	StringValue: string;
-	CachedDescription: string;
-	OperationType: number;
-	NotifyObserver: EBTBlackboardRestart;
-	BasicOperation: EBasicKeyOperation;
-	ArithmeticOperation: EArithmeticKeyOperation;
-	TextOperation: ETextKeyOperation;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): BTDecorator_Blackboard;
-	static Find(Outer: UObject, ResourceName: string): BTDecorator_Blackboard;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): BTDecorator_Blackboard;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): BTDecorator_Blackboard;
-	static C(Other: UObject): BTDecorator_Blackboard;
-}
-
-declare class BTDecorator_ConditionalLoop extends BTDecorator_Blackboard { 
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): BTDecorator_ConditionalLoop;
-	static Find(Outer: UObject, ResourceName: string): BTDecorator_ConditionalLoop;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): BTDecorator_ConditionalLoop;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): BTDecorator_ConditionalLoop;
-	static C(Other: UObject): BTDecorator_ConditionalLoop;
-}
-
-declare class BTDecorator_IsAtLocation extends BTDecorator_BlackboardBase { 
-	AcceptableRadius: number;
-	ParametrizedAcceptableRadius: AIDataProviderFloatValue;
-	bUseParametrizedRadius: boolean;
-	bUseNavAgentGoalLocation: boolean;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): BTDecorator_IsAtLocation;
-	static Find(Outer: UObject, ResourceName: string): BTDecorator_IsAtLocation;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): BTDecorator_IsAtLocation;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): BTDecorator_IsAtLocation;
-	static C(Other: UObject): BTDecorator_IsAtLocation;
-}
-
-declare class BTDecorator_IsBBEntryOfClass extends BTDecorator_BlackboardBase { 
-	TestClass: UnrealEngineClass;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): BTDecorator_IsBBEntryOfClass;
-	static Find(Outer: UObject, ResourceName: string): BTDecorator_IsBBEntryOfClass;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): BTDecorator_IsBBEntryOfClass;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): BTDecorator_IsBBEntryOfClass;
-	static C(Other: UObject): BTDecorator_IsBBEntryOfClass;
-}
-
-declare type EBTNodeResult = 'Succeeded' | 'Failed' | 'Aborted' | 'InProgress';
-declare var EBTNodeResult : { Succeeded:'Succeeded',Failed:'Failed',Aborted:'Aborted',InProgress:'InProgress', };
-declare class BTDecorator_BlueprintBase extends BTDecorator { 
-	AIOwner: AIController;
-	ActorOwner: Actor;
-	ObservedKeyNames: string[];
-	bShowPropertyDetails: boolean;
-	bCheckConditionOnlyBlackBoardChanges: boolean;
-	bIsObservingBB: boolean;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): BTDecorator_BlueprintBase;
-	static Find(Outer: UObject, ResourceName: string): BTDecorator_BlueprintBase;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): BTDecorator_BlueprintBase;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): BTDecorator_BlueprintBase;
-	ReceiveTickAI(OwnerController: AIController,ControlledPawn: Pawn,DeltaSeconds: number): void;
-	ReceiveTick(OwnerActor: Actor,DeltaSeconds: number): void;
-	ReceiveObserverDeactivatedAI(OwnerController: AIController,ControlledPawn: Pawn): void;
-	ReceiveObserverDeactivated(OwnerActor: Actor): void;
-	ReceiveObserverActivatedAI(OwnerController: AIController,ControlledPawn: Pawn): void;
-	ReceiveObserverActivated(OwnerActor: Actor): void;
-	ReceiveExecutionStartAI(OwnerController: AIController,ControlledPawn: Pawn): void;
-	ReceiveExecutionStart(OwnerActor: Actor): void;
-	ReceiveExecutionFinishAI(OwnerController: AIController,ControlledPawn: Pawn,NodeResult: EBTNodeResult): void;
-	ReceiveExecutionFinish(OwnerActor: Actor,NodeResult: EBTNodeResult): void;
-	ReceiveConditionCheck(OwnerActor: Actor): void;
-	PerformConditionCheckAI(OwnerController: AIController,ControlledPawn: Pawn): boolean;
-	PerformConditionCheck(OwnerActor: Actor): boolean;
-	IsDecoratorObserverActive(): boolean;
-	IsDecoratorExecutionActive(): boolean;
-	FinishConditionCheck(bAllowExecution: boolean): void;
-	static C(Other: UObject): BTDecorator_BlueprintBase;
-}
-
-declare type EGameplayContainerMatchType = 'Any' | 'All';
-declare var EGameplayContainerMatchType : { Any:'Any',All:'All', };
-declare class BTDecorator_CheckGameplayTagsOnActor extends BTDecorator { 
-	ActorToCheck: BlackboardKeySelector;
-	TagsToMatch: EGameplayContainerMatchType;
-	GameplayTags: GameplayTagContainer;
-	CachedDescription: string;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): BTDecorator_CheckGameplayTagsOnActor;
-	static Find(Outer: UObject, ResourceName: string): BTDecorator_CheckGameplayTagsOnActor;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): BTDecorator_CheckGameplayTagsOnActor;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): BTDecorator_CheckGameplayTagsOnActor;
-	static C(Other: UObject): BTDecorator_CheckGameplayTagsOnActor;
-}
-
-declare type EBlackBoardEntryComparison = 'Equal' | 'NotEqual';
-declare var EBlackBoardEntryComparison : { Equal:'Equal',NotEqual:'NotEqual', };
-declare class BTDecorator_CompareBBEntries extends BTDecorator { 
-	Operator: EBlackBoardEntryComparison;
-	BlackboardKeyA: BlackboardKeySelector;
-	BlackboardKeyB: BlackboardKeySelector;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): BTDecorator_CompareBBEntries;
-	static Find(Outer: UObject, ResourceName: string): BTDecorator_CompareBBEntries;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): BTDecorator_CompareBBEntries;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): BTDecorator_CompareBBEntries;
-	static C(Other: UObject): BTDecorator_CompareBBEntries;
-}
-
-declare class BTDecorator_ConeCheck extends BTDecorator { 
-	ConeHalfAngle: number;
-	ConeOrigin: BlackboardKeySelector;
-	ConeDirection: BlackboardKeySelector;
-	Observed: BlackboardKeySelector;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): BTDecorator_ConeCheck;
-	static Find(Outer: UObject, ResourceName: string): BTDecorator_ConeCheck;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): BTDecorator_ConeCheck;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): BTDecorator_ConeCheck;
-	static C(Other: UObject): BTDecorator_ConeCheck;
-}
-
-declare class BTDecorator_Cooldown extends BTDecorator { 
-	CoolDownTime: number;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): BTDecorator_Cooldown;
-	static Find(Outer: UObject, ResourceName: string): BTDecorator_Cooldown;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): BTDecorator_Cooldown;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): BTDecorator_Cooldown;
-	static C(Other: UObject): BTDecorator_Cooldown;
-}
-
-declare type EPathExistanceQueryType = 'NavmeshRaycast2D' | 'HierarchicalQuery' | 'RegularPathFinding';
-declare var EPathExistanceQueryType : { NavmeshRaycast2D:'NavmeshRaycast2D',HierarchicalQuery:'HierarchicalQuery',RegularPathFinding:'RegularPathFinding', };
-declare class BTDecorator_DoesPathExist extends BTDecorator { 
-	BlackboardKeyA: BlackboardKeySelector;
-	BlackboardKeyB: BlackboardKeySelector;
-	bUseSelf: boolean;
-	PathQueryType: EPathExistanceQueryType;
-	FilterClass: UnrealEngineClass;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): BTDecorator_DoesPathExist;
-	static Find(Outer: UObject, ResourceName: string): BTDecorator_DoesPathExist;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): BTDecorator_DoesPathExist;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): BTDecorator_DoesPathExist;
-	static C(Other: UObject): BTDecorator_DoesPathExist;
-}
-
-declare class BTDecorator_ForceSuccess extends BTDecorator { 
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): BTDecorator_ForceSuccess;
-	static Find(Outer: UObject, ResourceName: string): BTDecorator_ForceSuccess;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): BTDecorator_ForceSuccess;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): BTDecorator_ForceSuccess;
-	static C(Other: UObject): BTDecorator_ForceSuccess;
-}
-
-declare class BTDecorator_KeepInCone extends BTDecorator { 
-	ConeHalfAngle: number;
-	ConeOrigin: BlackboardKeySelector;
-	Observed: BlackboardKeySelector;
-	bUseSelfAsOrigin: boolean;
-	bUseSelfAsObserved: boolean;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): BTDecorator_KeepInCone;
-	static Find(Outer: UObject, ResourceName: string): BTDecorator_KeepInCone;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): BTDecorator_KeepInCone;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): BTDecorator_KeepInCone;
-	static C(Other: UObject): BTDecorator_KeepInCone;
-}
-
-declare class BTDecorator_Loop extends BTDecorator { 
-	NumLoops: number;
-	bInfiniteLoop: boolean;
-	InfiniteLoopTimeoutTime: number;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): BTDecorator_Loop;
-	static Find(Outer: UObject, ResourceName: string): BTDecorator_Loop;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): BTDecorator_Loop;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): BTDecorator_Loop;
-	static C(Other: UObject): BTDecorator_Loop;
-}
-
-declare class BTDecorator_ReachedMoveGoal extends BTDecorator { 
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): BTDecorator_ReachedMoveGoal;
-	static Find(Outer: UObject, ResourceName: string): BTDecorator_ReachedMoveGoal;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): BTDecorator_ReachedMoveGoal;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): BTDecorator_ReachedMoveGoal;
-	static C(Other: UObject): BTDecorator_ReachedMoveGoal;
-}
-
-declare class BTDecorator_SetTagCooldown extends BTDecorator { 
-	CooldownTag: GameplayTag;
-	CooldownDuration: number;
-	bAddToExistingDuration: boolean;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): BTDecorator_SetTagCooldown;
-	static Find(Outer: UObject, ResourceName: string): BTDecorator_SetTagCooldown;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): BTDecorator_SetTagCooldown;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): BTDecorator_SetTagCooldown;
-	static C(Other: UObject): BTDecorator_SetTagCooldown;
-}
-
-declare class BTDecorator_TagCooldown extends BTDecorator { 
-	CooldownTag: GameplayTag;
-	CooldownDuration: number;
-	bAddToExistingDuration: boolean;
-	bActivatesCooldown: boolean;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): BTDecorator_TagCooldown;
-	static Find(Outer: UObject, ResourceName: string): BTDecorator_TagCooldown;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): BTDecorator_TagCooldown;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): BTDecorator_TagCooldown;
-	static C(Other: UObject): BTDecorator_TagCooldown;
-}
-
-declare class BTDecorator_TimeLimit extends BTDecorator { 
-	TimeLimit: number;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): BTDecorator_TimeLimit;
-	static Find(Outer: UObject, ResourceName: string): BTDecorator_TimeLimit;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): BTDecorator_TimeLimit;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): BTDecorator_TimeLimit;
-	static C(Other: UObject): BTDecorator_TimeLimit;
-}
-
-declare class BTService_BlackboardBase extends BTService { 
-	BlackboardKey: BlackboardKeySelector;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): BTService_BlackboardBase;
-	static Find(Outer: UObject, ResourceName: string): BTService_BlackboardBase;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): BTService_BlackboardBase;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): BTService_BlackboardBase;
-	static C(Other: UObject): BTService_BlackboardBase;
-}
-
-declare class BTService_DefaultFocus extends BTService_BlackboardBase { 
-	FocusPriority: number;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): BTService_DefaultFocus;
-	static Find(Outer: UObject, ResourceName: string): BTService_DefaultFocus;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): BTService_DefaultFocus;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): BTService_DefaultFocus;
-	static C(Other: UObject): BTService_DefaultFocus;
-}
-
-declare class EnvQueryTypes extends UObject { 
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): EnvQueryTypes;
-	static Find(Outer: UObject, ResourceName: string): EnvQueryTypes;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): EnvQueryTypes;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): EnvQueryTypes;
-	static C(Other: UObject): EnvQueryTypes;
-}
-
-declare type EAIParamType = 'Float' | 'Int' | 'Bool';
-declare var EAIParamType : { Float:'Float',Int:'Int',Bool:'Bool', };
-declare class AIDynamicParam { 
-	ParamName: string;
-	ParamType: EAIParamType;
-	Value: number;
-	BBKey: BlackboardKeySelector;
-	clone() : AIDynamicParam;
-	static C(Other: UObject): AIDynamicParam;
-}
-
-declare class EQSParametrizedQueryExecutionRequest { 
-	QueryTemplate: EnvQuery;
-	QueryConfig: AIDynamicParam[];
-	EQSQueryBlackboardKey: BlackboardKeySelector;
-	RunMode: EEnvQueryRunMode;
-	bUseBBKeyForQueryTemplate: boolean;
-	clone() : EQSParametrizedQueryExecutionRequest;
-	static C(Other: UObject): EQSParametrizedQueryExecutionRequest;
-}
-
-declare class BTService_RunEQS extends BTService_BlackboardBase { 
-	EQSRequest: EQSParametrizedQueryExecutionRequest;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): BTService_RunEQS;
-	static Find(Outer: UObject, ResourceName: string): BTService_RunEQS;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): BTService_RunEQS;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): BTService_RunEQS;
-	static C(Other: UObject): BTService_RunEQS;
-}
-
-declare class BTService_BlueprintBase extends BTService { 
-	AIOwner: AIController;
-	ActorOwner: Actor;
-	bShowPropertyDetails: boolean;
-	bShowEventDetails: boolean;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): BTService_BlueprintBase;
-	static Find(Outer: UObject, ResourceName: string): BTService_BlueprintBase;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): BTService_BlueprintBase;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): BTService_BlueprintBase;
-	ReceiveTickAI(OwnerController: AIController,ControlledPawn: Pawn,DeltaSeconds: number): void;
-	ReceiveTick(OwnerActor: Actor,DeltaSeconds: number): void;
-	ReceiveSearchStartAI(OwnerController: AIController,ControlledPawn: Pawn): void;
-	ReceiveSearchStart(OwnerActor: Actor): void;
-	ReceiveDeactivationAI(OwnerController: AIController,ControlledPawn: Pawn): void;
-	ReceiveDeactivation(OwnerActor: Actor): void;
-	ReceiveActivationAI(OwnerController: AIController,ControlledPawn: Pawn): void;
-	ReceiveActivation(OwnerActor: Actor): void;
-	IsServiceActive(): boolean;
-	static C(Other: UObject): BTService_BlueprintBase;
-}
-
-declare class BTComposite_Selector extends BTCompositeNode { 
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): BTComposite_Selector;
-	static Find(Outer: UObject, ResourceName: string): BTComposite_Selector;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): BTComposite_Selector;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): BTComposite_Selector;
-	static C(Other: UObject): BTComposite_Selector;
-}
-
-declare class BTComposite_Sequence extends BTCompositeNode { 
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): BTComposite_Sequence;
-	static Find(Outer: UObject, ResourceName: string): BTComposite_Sequence;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): BTComposite_Sequence;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): BTComposite_Sequence;
-	static C(Other: UObject): BTComposite_Sequence;
-}
-
-declare type EBTParallelMode = 'AbortBackground' | 'WaitForBackground';
-declare var EBTParallelMode : { AbortBackground:'AbortBackground',WaitForBackground:'WaitForBackground', };
-declare class BTComposite_SimpleParallel extends BTCompositeNode { 
-	FinishMode: EBTParallelMode;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): BTComposite_SimpleParallel;
-	static Find(Outer: UObject, ResourceName: string): BTComposite_SimpleParallel;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): BTComposite_SimpleParallel;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): BTComposite_SimpleParallel;
-	static C(Other: UObject): BTComposite_SimpleParallel;
-}
-
-declare class BTTask_BlackboardBase extends BTTaskNode { 
-	BlackboardKey: BlackboardKeySelector;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): BTTask_BlackboardBase;
-	static Find(Outer: UObject, ResourceName: string): BTTask_BlackboardBase;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): BTTask_BlackboardBase;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): BTTask_BlackboardBase;
-	static C(Other: UObject): BTTask_BlackboardBase;
-}
-
-declare class BTTask_MoveTo extends BTTask_BlackboardBase { 
-	AcceptableRadius: number;
-	FilterClass: UnrealEngineClass;
-	ObservedBlackboardValueTolerance: number;
-	bObserveBlackboardValue: boolean;
-	bAllowStrafe: boolean;
-	bAllowPartialPath: boolean;
-	bTrackMovingGoal: boolean;
-	bProjectGoalLocation: boolean;
-	bStopOnOverlap: boolean;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): BTTask_MoveTo;
-	static Find(Outer: UObject, ResourceName: string): BTTask_MoveTo;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): BTTask_MoveTo;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): BTTask_MoveTo;
-	static C(Other: UObject): BTTask_MoveTo;
-}
-
-declare class BTTask_MoveDirectlyToward extends BTTask_MoveTo { 
-	bDisablePathUpdateOnGoalLocationChange: boolean;
-	bProjectVectorGoalToNavigation: boolean;
-	bUpdatedDeprecatedProperties: boolean;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): BTTask_MoveDirectlyToward;
-	static Find(Outer: UObject, ResourceName: string): BTTask_MoveDirectlyToward;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): BTTask_MoveDirectlyToward;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): BTTask_MoveDirectlyToward;
-	static C(Other: UObject): BTTask_MoveDirectlyToward;
-}
-
-declare class BTTask_RotateToFaceBBEntry extends BTTask_BlackboardBase { 
-	Precision: number;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): BTTask_RotateToFaceBBEntry;
-	static Find(Outer: UObject, ResourceName: string): BTTask_RotateToFaceBBEntry;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): BTTask_RotateToFaceBBEntry;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): BTTask_RotateToFaceBBEntry;
-	static C(Other: UObject): BTTask_RotateToFaceBBEntry;
-}
-
-declare class EnvNamedValue { 
-	ParamName: string;
-	ParamType: EAIParamType;
-	Value: number;
-	clone() : EnvNamedValue;
-	static C(Other: UObject): EnvNamedValue;
-}
-
-declare class BTTask_RunEQSQuery extends BTTask_BlackboardBase { 
-	QueryTemplate: EnvQuery;
-	QueryParams: EnvNamedValue[];
-	QueryConfig: AIDynamicParam[];
-	RunMode: EEnvQueryRunMode;
-	EQSQueryBlackboardKey: BlackboardKeySelector;
-	bUseBBKey: boolean;
-	EQSRequest: EQSParametrizedQueryExecutionRequest;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): BTTask_RunEQSQuery;
-	static Find(Outer: UObject, ResourceName: string): BTTask_RunEQSQuery;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): BTTask_RunEQSQuery;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): BTTask_RunEQSQuery;
-	static C(Other: UObject): BTTask_RunEQSQuery;
-}
-
-declare class BTTask_BlueprintBase extends BTTaskNode { 
-	AIOwner: AIController;
-	ActorOwner: Actor;
-	bShowPropertyDetails: boolean;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): BTTask_BlueprintBase;
-	static Find(Outer: UObject, ResourceName: string): BTTask_BlueprintBase;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): BTTask_BlueprintBase;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): BTTask_BlueprintBase;
-	SetFinishOnMessageWithId(MessageName: string,RequestID: number): void;
-	SetFinishOnMessage(MessageName: string): void;
-	ReceiveTickAI(OwnerController: AIController,ControlledPawn: Pawn,DeltaSeconds: number): void;
-	ReceiveTick(OwnerActor: Actor,DeltaSeconds: number): void;
-	ReceiveExecuteAI(OwnerController: AIController,ControlledPawn: Pawn): void;
-	ReceiveExecute(OwnerActor: Actor): void;
-	ReceiveAbortAI(OwnerController: AIController,ControlledPawn: Pawn): void;
-	ReceiveAbort(OwnerActor: Actor): void;
-	IsTaskExecuting(): boolean;
-	IsTaskAborting(): boolean;
-	FinishExecute(bSuccess: boolean): void;
-	FinishAbort(): void;
-	static C(Other: UObject): BTTask_BlueprintBase;
-}
-
-declare class BTTask_GameplayTaskBase extends BTTaskNode { 
-	bWaitForGameplayTask: boolean;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): BTTask_GameplayTaskBase;
-	static Find(Outer: UObject, ResourceName: string): BTTask_GameplayTaskBase;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): BTTask_GameplayTaskBase;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): BTTask_GameplayTaskBase;
-	static C(Other: UObject): BTTask_GameplayTaskBase;
-}
-
-declare class BTTask_MakeNoise extends BTTaskNode { 
-	Loudnes: number;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): BTTask_MakeNoise;
-	static Find(Outer: UObject, ResourceName: string): BTTask_MakeNoise;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): BTTask_MakeNoise;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): BTTask_MakeNoise;
-	static C(Other: UObject): BTTask_MakeNoise;
-}
-
-declare class BTTask_PawnActionBase extends BTTaskNode { 
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): BTTask_PawnActionBase;
-	static Find(Outer: UObject, ResourceName: string): BTTask_PawnActionBase;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): BTTask_PawnActionBase;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): BTTask_PawnActionBase;
-	static C(Other: UObject): BTTask_PawnActionBase;
-}
-
-declare class BTTask_PushPawnAction extends BTTask_PawnActionBase { 
-	Action: PawnAction;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): BTTask_PushPawnAction;
-	static Find(Outer: UObject, ResourceName: string): BTTask_PushPawnAction;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): BTTask_PushPawnAction;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): BTTask_PushPawnAction;
-	static C(Other: UObject): BTTask_PushPawnAction;
-}
-
-declare class BTTask_PlayAnimation extends BTTaskNode { 
-	AnimationToPlay: AnimationAsset;
-	bLooping: boolean;
-	bNonBlocking: boolean;
-	MyOwnerComp: BehaviorTreeComponent;
-	CachedSkelMesh: SkeletalMeshComponent;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): BTTask_PlayAnimation;
-	static Find(Outer: UObject, ResourceName: string): BTTask_PlayAnimation;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): BTTask_PlayAnimation;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): BTTask_PlayAnimation;
-	static C(Other: UObject): BTTask_PlayAnimation;
-}
-
-declare class SoundNode extends UObject { 
-	ChildNodes: SoundNode[];
-	GraphNode: EdGraphNode;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): SoundNode;
-	static Find(Outer: UObject, ResourceName: string): SoundNode;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): SoundNode;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): SoundNode;
-	static C(Other: UObject): SoundNode;
-}
-
-declare class SoundCue extends SoundBase { 
-	bOverrideAttenuation: boolean;
-	FirstNode: SoundNode;
-	VolumeMultiplier: number;
-	PitchMultiplier: number;
-	AttenuationOverrides: AttenuationSettings;
-	AllNodes: SoundNode[];
-	SoundCueGraph: EdGraph;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): SoundCue;
-	static Find(Outer: UObject, ResourceName: string): SoundCue;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): SoundCue;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): SoundCue;
-	static C(Other: UObject): SoundCue;
-}
-
-declare class BTTask_PlaySound extends BTTaskNode { 
-	SoundToPlay: SoundCue;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): BTTask_PlaySound;
-	static Find(Outer: UObject, ResourceName: string): BTTask_PlaySound;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): BTTask_PlaySound;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): BTTask_PlaySound;
-	static C(Other: UObject): BTTask_PlaySound;
-}
-
-declare class BTTask_RunBehavior extends BTTaskNode { 
-	BehaviorAsset: BehaviorTree;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): BTTask_RunBehavior;
-	static Find(Outer: UObject, ResourceName: string): BTTask_RunBehavior;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): BTTask_RunBehavior;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): BTTask_RunBehavior;
-	static C(Other: UObject): BTTask_RunBehavior;
-}
-
-declare class BTTask_RunBehaviorDynamic extends BTTaskNode { 
-	InjectionTag: GameplayTag;
-	DefaultBehaviorAsset: BehaviorTree;
-	BehaviorAsset: BehaviorTree;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): BTTask_RunBehaviorDynamic;
-	static Find(Outer: UObject, ResourceName: string): BTTask_RunBehaviorDynamic;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): BTTask_RunBehaviorDynamic;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): BTTask_RunBehaviorDynamic;
-	static C(Other: UObject): BTTask_RunBehaviorDynamic;
-}
-
-declare class BTTask_SetTagCooldown extends BTTaskNode { 
-	CooldownTag: GameplayTag;
-	bAddToExistingDuration: boolean;
-	CooldownDuration: number;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): BTTask_SetTagCooldown;
-	static Find(Outer: UObject, ResourceName: string): BTTask_SetTagCooldown;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): BTTask_SetTagCooldown;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): BTTask_SetTagCooldown;
-	static C(Other: UObject): BTTask_SetTagCooldown;
-}
-
-declare class BTTask_Wait extends BTTaskNode { 
-	WaitTime: number;
-	RandomDeviation: number;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): BTTask_Wait;
-	static Find(Outer: UObject, ResourceName: string): BTTask_Wait;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): BTTask_Wait;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): BTTask_Wait;
-	static C(Other: UObject): BTTask_Wait;
-}
-
-declare class BTTask_WaitBlackboardTime extends BTTask_Wait { 
-	BlackboardKey: BlackboardKeySelector;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): BTTask_WaitBlackboardTime;
-	static Find(Outer: UObject, ResourceName: string): BTTask_WaitBlackboardTime;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): BTTask_WaitBlackboardTime;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): BTTask_WaitBlackboardTime;
-	static C(Other: UObject): BTTask_WaitBlackboardTime;
-}
-
-declare class CrowdAgentInterface extends Interface { 
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): CrowdAgentInterface;
-	static Find(Outer: UObject, ResourceName: string): CrowdAgentInterface;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): CrowdAgentInterface;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): CrowdAgentInterface;
-	static C(Other: UObject): CrowdAgentInterface;
-}
-
-declare class CrowdAvoidanceConfig { 
-	VelocityBias: number;
-	DesiredVelocityWeight: number;
-	CurrentVelocityWeight: number;
-	SideBiasWeight: number;
-	ImpactTimeWeight: number;
-	ImpactTimeRange: number;
-	CustomPatternIdx: number;
-	AdaptiveDivisions: number;
-	AdaptiveRings: number;
-	AdaptiveDepth: number;
-	clone() : CrowdAvoidanceConfig;
-	static C(Other: UObject): CrowdAvoidanceConfig;
-}
-
-declare class CrowdAvoidanceSamplingPattern { 
-	Angles: number[];
-	Radii: number[];
-	clone() : CrowdAvoidanceSamplingPattern;
-	static C(Other: UObject): CrowdAvoidanceSamplingPattern;
-}
-
-declare class CrowdManager extends UObject { 
-	MyNavData: NavigationData;
-	AvoidanceConfig: CrowdAvoidanceConfig[];
-	SamplingPatterns: CrowdAvoidanceSamplingPattern[];
-	MaxAgents: number;
-	MaxAgentRadius: number;
-	MaxAvoidedAgents: number;
-	MaxAvoidedWalls: number;
-	NavmeshCheckInterval: number;
-	PathOptimizationInterval: number;
-	bResolveCollisions: boolean;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): CrowdManager;
-	static Find(Outer: UObject, ResourceName: string): CrowdManager;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): CrowdManager;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): CrowdManager;
-	static C(Other: UObject): CrowdManager;
-}
-
-declare class EnvQueryContext_BlueprintBase extends EnvQueryContext { 
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): EnvQueryContext_BlueprintBase;
-	static Find(Outer: UObject, ResourceName: string): EnvQueryContext_BlueprintBase;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): EnvQueryContext_BlueprintBase;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): EnvQueryContext_BlueprintBase;
-	ProvideSingleLocation(QuerierObject: UObject,QuerierActor: Actor,ResultingLocation?: Vector): {ResultingLocation: Vector};
-	ProvideSingleActor(QuerierObject: UObject,QuerierActor: Actor,ResultingActor?: Actor): {ResultingActor: Actor};
-	ProvideLocationsSet(QuerierObject: UObject,QuerierActor: Actor,ResultingLocationSet?: Vector[]): {ResultingLocationSet: Vector[]};
-	ProvideActorsSet(QuerierObject: UObject,QuerierActor: Actor,ResultingActorsSet?: Actor[]): {ResultingActorsSet: Actor[]};
-	static C(Other: UObject): EnvQueryContext_BlueprintBase;
-}
-
-declare class EnvQueryContext_Item extends EnvQueryContext { 
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): EnvQueryContext_Item;
-	static Find(Outer: UObject, ResourceName: string): EnvQueryContext_Item;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): EnvQueryContext_Item;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): EnvQueryContext_Item;
-	static C(Other: UObject): EnvQueryContext_Item;
-}
-
-declare class EnvQueryContext_Querier extends EnvQueryContext { 
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): EnvQueryContext_Querier;
-	static Find(Outer: UObject, ResourceName: string): EnvQueryContext_Querier;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): EnvQueryContext_Querier;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): EnvQueryContext_Querier;
-	static C(Other: UObject): EnvQueryContext_Querier;
-}
-
-declare class VisualLoggerExtension extends UObject { 
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): VisualLoggerExtension;
-	static Find(Outer: UObject, ResourceName: string): VisualLoggerExtension;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): VisualLoggerExtension;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): VisualLoggerExtension;
-	static C(Other: UObject): VisualLoggerExtension;
-}
-
-declare class EnvQueryDebugHelpers extends UObject { 
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): EnvQueryDebugHelpers;
-	static Find(Outer: UObject, ResourceName: string): EnvQueryDebugHelpers;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): EnvQueryDebugHelpers;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): EnvQueryDebugHelpers;
-	static C(Other: UObject): EnvQueryDebugHelpers;
-}
-
-declare class EQSQueryResultSourceInterface extends Interface { 
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): EQSQueryResultSourceInterface;
-	static Find(Outer: UObject, ResourceName: string): EQSQueryResultSourceInterface;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): EQSQueryResultSourceInterface;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): EQSQueryResultSourceInterface;
-	static C(Other: UObject): EQSQueryResultSourceInterface;
-}
-
-declare class EnvQueryItemType_VectorBase extends EnvQueryItemType { 
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): EnvQueryItemType_VectorBase;
-	static Find(Outer: UObject, ResourceName: string): EnvQueryItemType_VectorBase;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): EnvQueryItemType_VectorBase;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): EnvQueryItemType_VectorBase;
-	static C(Other: UObject): EnvQueryItemType_VectorBase;
-}
-
-declare class EnvQueryItemType_ActorBase extends EnvQueryItemType_VectorBase { 
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): EnvQueryItemType_ActorBase;
-	static Find(Outer: UObject, ResourceName: string): EnvQueryItemType_ActorBase;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): EnvQueryItemType_ActorBase;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): EnvQueryItemType_ActorBase;
-	static C(Other: UObject): EnvQueryItemType_ActorBase;
-}
-
-declare class EnvQueryItemType_Actor extends EnvQueryItemType_ActorBase { 
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): EnvQueryItemType_Actor;
-	static Find(Outer: UObject, ResourceName: string): EnvQueryItemType_Actor;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): EnvQueryItemType_Actor;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): EnvQueryItemType_Actor;
-	static C(Other: UObject): EnvQueryItemType_Actor;
-}
-
-declare class EnvQueryItemType_Direction extends EnvQueryItemType_VectorBase { 
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): EnvQueryItemType_Direction;
-	static Find(Outer: UObject, ResourceName: string): EnvQueryItemType_Direction;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): EnvQueryItemType_Direction;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): EnvQueryItemType_Direction;
-	static C(Other: UObject): EnvQueryItemType_Direction;
-}
-
-declare class EnvQueryItemType_Point extends EnvQueryItemType_VectorBase { 
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): EnvQueryItemType_Point;
-	static Find(Outer: UObject, ResourceName: string): EnvQueryItemType_Point;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): EnvQueryItemType_Point;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): EnvQueryItemType_Point;
-	static C(Other: UObject): EnvQueryItemType_Point;
-}
-
-declare class EnvQueryGenerator_ActorsOfClass extends EnvQueryGenerator { 
-	SearchRadius: AIDataProviderFloatValue;
-	SearchedActorClass: UnrealEngineClass;
-	SearchCenter: UnrealEngineClass;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): EnvQueryGenerator_ActorsOfClass;
-	static Find(Outer: UObject, ResourceName: string): EnvQueryGenerator_ActorsOfClass;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): EnvQueryGenerator_ActorsOfClass;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): EnvQueryGenerator_ActorsOfClass;
-	static C(Other: UObject): EnvQueryGenerator_ActorsOfClass;
-}
-
-declare class EnvQueryGenerator_BlueprintBase extends EnvQueryGenerator { 
-	GeneratorsActionDescription: string;
-	Context: UnrealEngineClass;
-	GeneratedItemType: UnrealEngineClass;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): EnvQueryGenerator_BlueprintBase;
-	static Find(Outer: UObject, ResourceName: string): EnvQueryGenerator_BlueprintBase;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): EnvQueryGenerator_BlueprintBase;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): EnvQueryGenerator_BlueprintBase;
-	GetQuerier(): UObject;
-	DoItemGeneration(ContextLocations: Vector[]): void;
-	AddGeneratedVector(GeneratedVector: Vector): void;
-	AddGeneratedActor(GeneratedActor: Actor): void;
-	static C(Other: UObject): EnvQueryGenerator_BlueprintBase;
-}
-
-declare class EnvQueryGenerator_Composite extends EnvQueryGenerator { 
-	Generators: EnvQueryGenerator[];
-	bHasMatchingItemType: boolean;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): EnvQueryGenerator_Composite;
-	static Find(Outer: UObject, ResourceName: string): EnvQueryGenerator_Composite;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): EnvQueryGenerator_Composite;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): EnvQueryGenerator_Composite;
-	static C(Other: UObject): EnvQueryGenerator_Composite;
-}
-
-declare class EnvQueryGenerator_CurrentLocation extends EnvQueryGenerator { 
-	QueryContext: UnrealEngineClass;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): EnvQueryGenerator_CurrentLocation;
-	static Find(Outer: UObject, ResourceName: string): EnvQueryGenerator_CurrentLocation;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): EnvQueryGenerator_CurrentLocation;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): EnvQueryGenerator_CurrentLocation;
-	static C(Other: UObject): EnvQueryGenerator_CurrentLocation;
-}
-
-declare type EEnvTraceShape = 'Line' | 'Box' | 'Sphere' | 'Capsule';
-declare var EEnvTraceShape : { Line:'Line',Box:'Box',Sphere:'Sphere',Capsule:'Capsule', };
-declare type EEnvQueryTrace = 'None' | 'Navigation' | 'Geometry' | 'NavigationOverLedges';
-declare var EEnvQueryTrace : { None:'None',Navigation:'Navigation',Geometry:'Geometry',NavigationOverLedges:'NavigationOverLedges', };
-declare class EnvTraceData { 
-	VersionNum: number;
-	NavigationFilter: UnrealEngineClass;
-	ProjectDown: number;
-	ProjectUp: number;
-	ExtentX: number;
-	ExtentY: number;
-	ExtentZ: number;
-	PostProjectionVerticalOffset: number;
-	TraceChannel: ETraceTypeQuery;
-	SerializedChannel: ECollisionChannel;
-	TraceShape: EEnvTraceShape;
-	TraceMode: EEnvQueryTrace;
-	bTraceComplex: boolean;
-	bOnlyBlockingHits: boolean;
-	bCanTraceOnNavMesh: boolean;
-	bCanTraceOnGeometry: boolean;
-	bCanDisableTrace: boolean;
-	bCanProjectDown: boolean;
-	clone() : EnvTraceData;
-	static C(Other: UObject): EnvTraceData;
-}
-
-declare class EnvQueryGenerator_ProjectedPoints extends EnvQueryGenerator { 
-	ProjectionData: EnvTraceData;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): EnvQueryGenerator_ProjectedPoints;
-	static Find(Outer: UObject, ResourceName: string): EnvQueryGenerator_ProjectedPoints;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): EnvQueryGenerator_ProjectedPoints;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): EnvQueryGenerator_ProjectedPoints;
-	static C(Other: UObject): EnvQueryGenerator_ProjectedPoints;
-}
-
-declare class AIDataProviderIntValue extends AIDataProviderTypedValue { 
-	DefaultValue: number;
-	clone() : AIDataProviderIntValue;
-	static C(Other: UObject): AIDataProviderIntValue;
-}
-
-declare type EEnvDirection = 'TwoPoints' | 'Rotation';
-declare var EEnvDirection : { TwoPoints:'TwoPoints',Rotation:'Rotation', };
-declare class EnvDirection { 
-	LineFrom: UnrealEngineClass;
-	LineTo: UnrealEngineClass;
-	Rotation: UnrealEngineClass;
-	DirMode: EEnvDirection;
-	clone() : EnvDirection;
-	static C(Other: UObject): EnvDirection;
-}
-
-declare class EnvQueryGenerator_Donut extends EnvQueryGenerator_ProjectedPoints { 
-	InnerRadius: AIDataProviderFloatValue;
-	OuterRadius: AIDataProviderFloatValue;
-	NumberOfRings: AIDataProviderIntValue;
-	PointsPerRing: AIDataProviderIntValue;
-	ArcDirection: EnvDirection;
-	ArcAngle: AIDataProviderFloatValue;
-	bUseSpiralPattern: boolean;
-	Center: UnrealEngineClass;
-	bDefineArc: boolean;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): EnvQueryGenerator_Donut;
-	static Find(Outer: UObject, ResourceName: string): EnvQueryGenerator_Donut;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): EnvQueryGenerator_Donut;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): EnvQueryGenerator_Donut;
-	static C(Other: UObject): EnvQueryGenerator_Donut;
-}
-
-declare type EPointOnCircleSpacingMethod = 'BySpaceBetween' | 'ByNumberOfPoints';
-declare var EPointOnCircleSpacingMethod : { BySpaceBetween:'BySpaceBetween',ByNumberOfPoints:'ByNumberOfPoints', };
-declare class EnvQueryGenerator_OnCircle extends EnvQueryGenerator_ProjectedPoints { 
-	CircleRadius: AIDataProviderFloatValue;
-	SpaceBetween: AIDataProviderFloatValue;
-	NumberOfPoints: AIDataProviderIntValue;
-	PointOnCircleSpacingMethod: EPointOnCircleSpacingMethod;
-	ArcDirection: EnvDirection;
-	ArcAngle: AIDataProviderFloatValue;
-	AngleRadians: number;
-	CircleCenter: UnrealEngineClass;
-	bIgnoreAnyContextActorsWhenGeneratingCircle: boolean;
-	CircleCenterZOffset: AIDataProviderFloatValue;
-	TraceData: EnvTraceData;
-	bDefineArc: boolean;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): EnvQueryGenerator_OnCircle;
-	static Find(Outer: UObject, ResourceName: string): EnvQueryGenerator_OnCircle;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): EnvQueryGenerator_OnCircle;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): EnvQueryGenerator_OnCircle;
-	static C(Other: UObject): EnvQueryGenerator_OnCircle;
-}
-
-declare class EnvQueryGenerator_SimpleGrid extends EnvQueryGenerator_ProjectedPoints { 
-	GridSize: AIDataProviderFloatValue;
-	SpaceBetween: AIDataProviderFloatValue;
-	GenerateAround: UnrealEngineClass;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): EnvQueryGenerator_SimpleGrid;
-	static Find(Outer: UObject, ResourceName: string): EnvQueryGenerator_SimpleGrid;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): EnvQueryGenerator_SimpleGrid;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): EnvQueryGenerator_SimpleGrid;
-	static C(Other: UObject): EnvQueryGenerator_SimpleGrid;
-}
-
-declare class EnvQueryGenerator_PathingGrid extends EnvQueryGenerator_SimpleGrid { 
-	PathToItem: AIDataProviderBoolValue;
-	NavigationFilter: UnrealEngineClass;
-	ScanRangeMultiplier: AIDataProviderFloatValue;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): EnvQueryGenerator_PathingGrid;
-	static Find(Outer: UObject, ResourceName: string): EnvQueryGenerator_PathingGrid;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): EnvQueryGenerator_PathingGrid;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): EnvQueryGenerator_PathingGrid;
-	static C(Other: UObject): EnvQueryGenerator_PathingGrid;
-}
-
-declare type EEnvTestDistance = 'Distance3D' | 'Distance2D' | 'DistanceZ' | 'DistanceAbsoluteZ';
-declare var EEnvTestDistance : { Distance3D:'Distance3D',Distance2D:'Distance2D',DistanceZ:'DistanceZ',DistanceAbsoluteZ:'DistanceAbsoluteZ', };
-declare class EnvQueryTest_Distance extends EnvQueryTest { 
-	TestMode: EEnvTestDistance;
-	DistanceTo: UnrealEngineClass;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): EnvQueryTest_Distance;
-	static Find(Outer: UObject, ResourceName: string): EnvQueryTest_Distance;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): EnvQueryTest_Distance;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): EnvQueryTest_Distance;
-	static C(Other: UObject): EnvQueryTest_Distance;
-}
-
-declare type EEnvTestDot = 'Dot3D' | 'Dot2D';
-declare var EEnvTestDot : { Dot3D:'Dot3D',Dot2D:'Dot2D', };
-declare class EnvQueryTest_Dot extends EnvQueryTest { 
-	LineA: EnvDirection;
-	LineB: EnvDirection;
-	TestMode: EEnvTestDot;
-	bAbsoluteValue: boolean;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): EnvQueryTest_Dot;
-	static Find(Outer: UObject, ResourceName: string): EnvQueryTest_Dot;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): EnvQueryTest_Dot;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): EnvQueryTest_Dot;
-	static C(Other: UObject): EnvQueryTest_Dot;
-}
-
-declare class EnvQueryTest_GameplayTags extends EnvQueryTest { 
-	TagsToMatch: EGameplayContainerMatchType;
-	GameplayTags: GameplayTagContainer;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): EnvQueryTest_GameplayTags;
-	static Find(Outer: UObject, ResourceName: string): EnvQueryTest_GameplayTags;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): EnvQueryTest_GameplayTags;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): EnvQueryTest_GameplayTags;
-	static C(Other: UObject): EnvQueryTest_GameplayTags;
-}
-
-declare type EEnvOverlapShape = 'Box' | 'Sphere' | 'Capsule';
-declare var EEnvOverlapShape : { Box:'Box',Sphere:'Sphere',Capsule:'Capsule', };
-declare class EnvOverlapData { 
-	ExtentX: number;
-	ExtentY: number;
-	ExtentZ: number;
-	ShapeOffset: Vector;
-	OverlapChannel: ECollisionChannel;
-	OverlapShape: EEnvOverlapShape;
-	bOnlyBlockingHits: boolean;
-	bOverlapComplex: boolean;
-	clone() : EnvOverlapData;
-	static C(Other: UObject): EnvOverlapData;
-}
-
-declare class EnvQueryTest_Overlap extends EnvQueryTest { 
-	OverlapData: EnvOverlapData;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): EnvQueryTest_Overlap;
-	static Find(Outer: UObject, ResourceName: string): EnvQueryTest_Overlap;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): EnvQueryTest_Overlap;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): EnvQueryTest_Overlap;
-	static C(Other: UObject): EnvQueryTest_Overlap;
-}
-
-declare type EEnvTestPathfinding = 'PathExist' | 'PathCost' | 'PathLength';
-declare var EEnvTestPathfinding : { PathExist:'PathExist',PathCost:'PathCost',PathLength:'PathLength', };
-declare class EnvQueryTest_Pathfinding extends EnvQueryTest { 
-	TestMode: EEnvTestPathfinding;
-	Context: UnrealEngineClass;
-	PathFromContext: AIDataProviderBoolValue;
-	SkipUnreachable: AIDataProviderBoolValue;
-	FilterClass: UnrealEngineClass;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): EnvQueryTest_Pathfinding;
-	static Find(Outer: UObject, ResourceName: string): EnvQueryTest_Pathfinding;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): EnvQueryTest_Pathfinding;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): EnvQueryTest_Pathfinding;
-	static C(Other: UObject): EnvQueryTest_Pathfinding;
-}
-
-declare class EnvQueryTest_PathfindingBatch extends EnvQueryTest_Pathfinding { 
-	ScanRangeMultiplier: AIDataProviderFloatValue;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): EnvQueryTest_PathfindingBatch;
-	static Find(Outer: UObject, ResourceName: string): EnvQueryTest_PathfindingBatch;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): EnvQueryTest_PathfindingBatch;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): EnvQueryTest_PathfindingBatch;
-	static C(Other: UObject): EnvQueryTest_PathfindingBatch;
-}
-
-declare class EnvQueryTest_Project extends EnvQueryTest { 
-	ProjectionData: EnvTraceData;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): EnvQueryTest_Project;
-	static Find(Outer: UObject, ResourceName: string): EnvQueryTest_Project;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): EnvQueryTest_Project;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): EnvQueryTest_Project;
-	static C(Other: UObject): EnvQueryTest_Project;
-}
-
-declare class EnvQueryTest_Random extends EnvQueryTest { 
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): EnvQueryTest_Random;
-	static Find(Outer: UObject, ResourceName: string): EnvQueryTest_Random;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): EnvQueryTest_Random;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): EnvQueryTest_Random;
-	static C(Other: UObject): EnvQueryTest_Random;
-}
-
-declare class EnvQueryTest_Trace extends EnvQueryTest { 
-	TraceData: EnvTraceData;
-	TraceFromContext: AIDataProviderBoolValue;
-	ItemHeightOffset: AIDataProviderFloatValue;
-	ContextHeightOffset: AIDataProviderFloatValue;
-	Context: UnrealEngineClass;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): EnvQueryTest_Trace;
-	static Find(Outer: UObject, ResourceName: string): EnvQueryTest_Trace;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): EnvQueryTest_Trace;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): EnvQueryTest_Trace;
-	static C(Other: UObject): EnvQueryTest_Trace;
-}
-
-declare class EQSRenderingComponent extends PrimitiveComponent { 
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): EQSRenderingComponent;
-	static Find(Outer: UObject, ResourceName: string): EQSRenderingComponent;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): EQSRenderingComponent;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): EQSRenderingComponent;
-	static C(Other: UObject): EQSRenderingComponent;
-}
-
-declare type EEnvQueryHightlightMode = 'All' | 'Best5Pct' | 'Best25Pct';
-declare var EEnvQueryHightlightMode : { All:'All',Best5Pct:'Best5Pct',Best25Pct:'Best25Pct', };
-declare class EQSTestingPawn extends Character { 
-	QueryTemplate: EnvQuery;
-	QueryParams: EnvNamedValue[];
-	QueryConfig: AIDynamicParam[];
-	TimeLimitPerStep: number;
-	StepToDebugDraw: number;
-	HighlightMode: EEnvQueryHightlightMode;
-	bDrawLabels: boolean;
-	bDrawFailedItems: boolean;
-	bReRunQueryOnlyOnFinishedMove: boolean;
-	bShouldBeVisibleInGame: boolean;
-	bTickDuringGame: boolean;
-	QueryingMode: EEnvQueryRunMode;
-	EdRenderComp: EQSRenderingComponent;
-	constructor(InWorld: World, Location?: Vector, Rotation?: Rotator);
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): EQSTestingPawn;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): EQSTestingPawn;
-	static C(Other: UObject): EQSTestingPawn;
-}
-
-declare class NavFilter_AIControllerDefault extends NavigationQueryFilter { 
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): NavFilter_AIControllerDefault;
-	static Find(Outer: UObject, ResourceName: string): NavFilter_AIControllerDefault;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): NavFilter_AIControllerDefault;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): NavFilter_AIControllerDefault;
-	static C(Other: UObject): NavFilter_AIControllerDefault;
-}
-
-declare class CrowdFollowingComponent extends PathFollowingComponent { 
-	CrowdAgentMoveDirection: Vector;
-	CharacterMovement: CharacterMovementComponent;
-	AvoidanceGroup: NavAvoidanceMask;
-	GroupsToAvoid: NavAvoidanceMask;
-	GroupsToIgnore: NavAvoidanceMask;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): CrowdFollowingComponent;
-	static Find(Outer: UObject, ResourceName: string): CrowdFollowingComponent;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): CrowdFollowingComponent;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): CrowdFollowingComponent;
-	SuspendCrowdSteering(bSuspend: boolean): void;
-	static C(Other: UObject): CrowdFollowingComponent;
-}
-
-declare class PawnAction_BlueprintBase extends PawnAction { 
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): PawnAction_BlueprintBase;
-	static Find(Outer: UObject, ResourceName: string): PawnAction_BlueprintBase;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): PawnAction_BlueprintBase;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): PawnAction_BlueprintBase;
-	ActionTick(ControlledPawn: Pawn,DeltaSeconds: number): void;
-	ActionStart(ControlledPawn: Pawn): void;
-	ActionResume(ControlledPawn: Pawn): void;
-	ActionPause(ControlledPawn: Pawn): void;
-	ActionFinished(ControlledPawn: Pawn,WithResult: EPawnActionResult): void;
-	static C(Other: UObject): PawnAction_BlueprintBase;
-}
-
-declare class PawnAction_Move extends PawnAction { 
-	GoalActor: Actor;
-	GoalLocation: Vector;
-	AcceptableRadius: number;
-	FilterClass: UnrealEngineClass;
-	bAllowStrafe: boolean;
-	bFinishOnOverlap: boolean;
-	bUsePathfinding: boolean;
-	bAllowPartialPath: boolean;
-	bProjectGoalToNavigation: boolean;
-	bUpdatePathToGoal: boolean;
-	bAbortChildActionOnPathChange: boolean;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): PawnAction_Move;
-	static Find(Outer: UObject, ResourceName: string): PawnAction_Move;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): PawnAction_Move;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): PawnAction_Move;
-	static C(Other: UObject): PawnAction_Move;
-}
-
-declare type EPawnActionFailHandling = 'RequireSuccess' | 'IgnoreFailure';
-declare var EPawnActionFailHandling : { RequireSuccess:'RequireSuccess',IgnoreFailure:'IgnoreFailure', };
-declare class PawnAction_Repeat extends PawnAction { 
-	ActionToRepeat: PawnAction;
-	RecentActionCopy: PawnAction;
-	ChildFailureHandlingMode: EPawnActionFailHandling;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): PawnAction_Repeat;
-	static Find(Outer: UObject, ResourceName: string): PawnAction_Repeat;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): PawnAction_Repeat;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): PawnAction_Repeat;
-	static C(Other: UObject): PawnAction_Repeat;
-}
-
-declare class PawnAction_Sequence extends PawnAction { 
-	ActionSequence: PawnAction[];
-	ChildFailureHandlingMode: EPawnActionFailHandling;
-	RecentActionCopy: PawnAction;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): PawnAction_Sequence;
-	static Find(Outer: UObject, ResourceName: string): PawnAction_Sequence;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): PawnAction_Sequence;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): PawnAction_Sequence;
-	static C(Other: UObject): PawnAction_Sequence;
-}
-
-declare class PawnAction_Wait extends PawnAction { 
-	TimeToWait: number;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): PawnAction_Wait;
-	static Find(Outer: UObject, ResourceName: string): PawnAction_Wait;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): PawnAction_Wait;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): PawnAction_Wait;
-	static C(Other: UObject): PawnAction_Wait;
-}
-
-declare class PawnSensingComponent extends ActorComponent { 
-	HearingThreshold: number;
-	LOSHearingThreshold: number;
-	SightRadius: number;
-	SensingInterval: number;
-	HearingMaxSoundAge: number;
-	bEnableSensingUpdates: boolean;
-	bOnlySensePlayers: boolean;
-	bSeePawns: boolean;
-	bHearNoises: boolean;
-	OnSeePawn: UnrealEngineMulticastDelegate<(Pawn: Pawn) => void>;
-	OnHearNoise: UnrealEngineMulticastDelegate<(Instigator: Pawn, Location: Vector, Volume: number) => void>;
-	PeripheralVisionAngle: number;
-	PeripheralVisionCosine: number;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): PawnSensingComponent;
-	static Find(Outer: UObject, ResourceName: string): PawnSensingComponent;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): PawnSensingComponent;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): PawnSensingComponent;
-	SetSensingUpdatesEnabled(bEnabled: boolean): void;
-	SetSensingInterval(NewSensingInterval: number): void;
-	SetPeripheralVisionAngle(NewPeripheralVisionAngle: number): void;
-	GetPeripheralVisionCosine(): number;
-	GetPeripheralVisionAngle(): number;
-	static C(Other: UObject): PawnSensingComponent;
-}
-
-declare class PropertyConfigFileDisplayRow extends UObject { 
-	ConfigFileName: string;
-	ExternalProperty: Property;
-	bIsFileWritable: boolean;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): PropertyConfigFileDisplayRow;
-	static Find(Outer: UObject, ResourceName: string): PropertyConfigFileDisplayRow;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): PropertyConfigFileDisplayRow;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): PropertyConfigFileDisplayRow;
-	static C(Other: UObject): PropertyConfigFileDisplayRow;
-}
-
-declare class ConfigHierarchyPropertyView extends UObject { 
-	EditProperty: any;
-	ConfigFilePropertyObjects: PropertyConfigFileDisplayRow[];
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): ConfigHierarchyPropertyView;
-	static Find(Outer: UObject, ResourceName: string): ConfigHierarchyPropertyView;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): ConfigHierarchyPropertyView;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): ConfigHierarchyPropertyView;
-	static C(Other: UObject): ConfigHierarchyPropertyView;
-}
-
-declare class K2Node_CreateDragDropOperation extends K2Node_ConstructObjectFromClass { 
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): K2Node_CreateDragDropOperation;
-	static Find(Outer: UObject, ResourceName: string): K2Node_CreateDragDropOperation;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): K2Node_CreateDragDropOperation;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): K2Node_CreateDragDropOperation;
-	static C(Other: UObject): K2Node_CreateDragDropOperation;
-}
-
-declare class K2Node_CreateWidget extends K2Node_ConstructObjectFromClass { 
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): K2Node_CreateWidget;
-	static Find(Outer: UObject, ResourceName: string): K2Node_CreateWidget;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): K2Node_CreateWidget;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): K2Node_CreateWidget;
-	static C(Other: UObject): K2Node_CreateWidget;
-}
-
-declare class AutomatedAssetImportData extends UObject { 
-	GroupName: string;
-	Filenames: string[];
-	DestinationPath: string;
-	FactoryName: string;
-	bReplaceExisting: boolean;
-	bSkipReadOnly: boolean;
-	Factory: Factory;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): AutomatedAssetImportData;
-	static Find(Outer: UObject, ResourceName: string): AutomatedAssetImportData;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): AutomatedAssetImportData;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): AutomatedAssetImportData;
-	static C(Other: UObject): AutomatedAssetImportData;
-}
-
-declare class Factory extends UObject { 
-	bCreateNew: boolean;
-	SupportedClass: UnrealEngineClass;
-	ContextClass: UnrealEngineClass;
-	Formats: string[];
-	bEditAfterNew: boolean;
-	bEditorImport: boolean;
-	bText: boolean;
-	ImportPriority: number;
-	AutomatedImportData: AutomatedAssetImportData;
-	OverwriteYesOrNoToAllState: number;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): Factory;
-	static Find(Outer: UObject, ResourceName: string): Factory;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): Factory;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): Factory;
-	static C(Other: UObject): Factory;
-}
-
-declare class SlateVectorArtDataFactory extends Factory { 
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): SlateVectorArtDataFactory;
-	static Find(Outer: UObject, ResourceName: string): SlateVectorArtDataFactory;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): SlateVectorArtDataFactory;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): SlateVectorArtDataFactory;
-	static C(Other: UObject): SlateVectorArtDataFactory;
-}
-
-declare class UMGEditorProjectSettings extends UObject { 
-	bShowWidgetsFromEngineContent: boolean;
-	bShowWidgetsFromDeveloperContent: boolean;
-	CategoriesToHide: string[];
-	WidgetClassesToHide: StringClassReference[];
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): UMGEditorProjectSettings;
-	static Find(Outer: UObject, ResourceName: string): UMGEditorProjectSettings;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): UMGEditorProjectSettings;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): UMGEditorProjectSettings;
-	static C(Other: UObject): UMGEditorProjectSettings;
-}
-
-declare class EditorPropertyPathSegment { 
-	Struct: Struct;
-	MemberName: string;
-	MemberGuid: Guid;
-	IsProperty: boolean;
-	clone() : EditorPropertyPathSegment;
-	static C(Other: UObject): EditorPropertyPathSegment;
-}
-
-declare class EditorPropertyPath { 
-	Segments: EditorPropertyPathSegment[];
-	clone() : EditorPropertyPath;
-	static C(Other: UObject): EditorPropertyPath;
-}
-
-declare class DelegateEditorBinding { 
-	ObjectName: string;
-	PropertyName: string;
-	FunctionName: string;
-	SourceProperty: string;
-	SourcePath: EditorPropertyPath;
-	MemberGuid: Guid;
-	Kind: EBindingKind;
-	clone() : DelegateEditorBinding;
-	static C(Other: UObject): DelegateEditorBinding;
-}
-
-declare class WidgetAnimation_DEPRECATED { 
-	MovieScene: MovieScene;
-	AnimationBindings: WidgetAnimationBinding[];
-	clone() : WidgetAnimation_DEPRECATED;
-	static C(Other: UObject): WidgetAnimation_DEPRECATED;
-}
-
-declare class WidgetBlueprint extends Blueprint { 
-	WidgetTree: WidgetTree;
-	Bindings: DelegateEditorBinding[];
-	AnimationData: WidgetAnimation_DEPRECATED[];
-	Animations: WidgetAnimation[];
-	PaletteCategory: string;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): WidgetBlueprint;
-	static Find(Outer: UObject, ResourceName: string): WidgetBlueprint;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): WidgetBlueprint;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): WidgetBlueprint;
-	static C(Other: UObject): WidgetBlueprint;
-}
-
-declare class WidgetBlueprintFactory extends Factory { 
-	BlueprintType: EBlueprintType;
-	ParentClass: UnrealEngineClass;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): WidgetBlueprintFactory;
-	static Find(Outer: UObject, ResourceName: string): WidgetBlueprintFactory;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): WidgetBlueprintFactory;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): WidgetBlueprintFactory;
-	static C(Other: UObject): WidgetBlueprintFactory;
-}
-
-declare class WidgetDesignerSettings extends UObject { 
-	GridSnapEnabled: boolean;
-	GridSnapSize: number;
-	bLockToPanelOnDragByDefault: boolean;
-	bShowOutlines: boolean;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): WidgetDesignerSettings;
-	static Find(Outer: UObject, ResourceName: string): WidgetDesignerSettings;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): WidgetDesignerSettings;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): WidgetDesignerSettings;
-	static C(Other: UObject): WidgetDesignerSettings;
-}
-
-declare class WidgetGraphSchema extends EdGraphSchema_K2 { 
-	NAME_NeverAsPin: string;
-	NAME_PinHiddenByDefault: string;
-	NAME_PinShownByDefault: string;
-	NAME_AlwaysAsPin: string;
-	NAME_OnEvaluate: string;
-	DefaultEvaluationHandlerName: string;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): WidgetGraphSchema;
-	static Find(Outer: UObject, ResourceName: string): WidgetGraphSchema;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): WidgetGraphSchema;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): WidgetGraphSchema;
-	static C(Other: UObject): WidgetGraphSchema;
-}
-
-declare class WidgetSlotPair extends UObject { 
-	WidgetName: string;
-	SlotPropertyNames: string[];
-	SlotPropertyValues: string[];
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): WidgetSlotPair;
-	static Find(Outer: UObject, ResourceName: string): WidgetSlotPair;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): WidgetSlotPair;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): WidgetSlotPair;
-	static C(Other: UObject): WidgetSlotPair;
-}
-
-declare class FavoritedBlueprintPaletteItem { 
-	clone() : FavoritedBlueprintPaletteItem;
-	static C(Other: UObject): FavoritedBlueprintPaletteItem;
-}
-
-declare class BlueprintPaletteFavorites extends UObject { 
-	CustomFavorites: string[];
-	CurrentFavorites: FavoritedBlueprintPaletteItem[];
-	CurrentProfile: string;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): BlueprintPaletteFavorites;
-	static Find(Outer: UObject, ResourceName: string): BlueprintPaletteFavorites;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): BlueprintPaletteFavorites;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): BlueprintPaletteFavorites;
-	static C(Other: UObject): BlueprintPaletteFavorites;
-}
-
-declare type EBlueprintProfilerHeatMapDisplayMode = 'None' | 'Inclusive' | 'Average' | 'MaxTiming' | 'Total' | 'HottestPath' | 'PinToPin';
-declare var EBlueprintProfilerHeatMapDisplayMode : { None:'None',Inclusive:'Inclusive',Average:'Average',MaxTiming:'MaxTiming',Total:'Total',HottestPath:'HottestPath',PinToPin:'PinToPin', };
-declare type EBlueprintProfilerHeatLevelMetricsType = 'ClassRelative' | 'FrameRelative' | 'CustomThresholds';
-declare var EBlueprintProfilerHeatLevelMetricsType : { ClassRelative:'ClassRelative',FrameRelative:'FrameRelative',CustomThresholds:'CustomThresholds', };
-declare class BlueprintProfilerSettings extends UObject { 
-	bDisplayByInstance: boolean;
-	bScopeToDebugInstance: boolean;
-	bGraphFilter: boolean;
-	bDisplayPure: boolean;
-	bDisplayInheritedEvents: boolean;
-	GraphNodeHeatMapDisplayMode: EBlueprintProfilerHeatMapDisplayMode;
-	WireHeatMapDisplayMode: EBlueprintProfilerHeatMapDisplayMode;
-	HeatLevelMetricsType: EBlueprintProfilerHeatLevelMetricsType;
-	CustomEventPerformanceThreshold: number;
-	CustomAveragePerformanceThreshold: number;
-	CustomInclusivePerformanceThreshold: number;
-	CustomMaxPerformanceThreshold: number;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): BlueprintProfilerSettings;
-	static Find(Outer: UObject, ResourceName: string): BlueprintProfilerSettings;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): BlueprintProfilerSettings;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): BlueprintProfilerSettings;
-	static C(Other: UObject): BlueprintProfilerSettings;
-}
-
-declare class K2Node_AsyncAction extends K2Node_BaseAsyncTask { 
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): K2Node_AsyncAction;
-	static Find(Outer: UObject, ResourceName: string): K2Node_AsyncAction;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): K2Node_AsyncAction;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): K2Node_AsyncAction;
-	static C(Other: UObject): K2Node_AsyncAction;
-}
-
-declare type EBlueprintPinStyleType = 'BPST_Original' | 'BPST_VariantA';
-declare var EBlueprintPinStyleType : { BPST_Original:'BPST_Original',BPST_VariantA:'BPST_VariantA', };
-declare class GraphEditorSettings extends UObject { 
-	DataPinStyle: EBlueprintPinStyleType;
-	PaddingAbovePin: number;
-	PaddingBelowPin: number;
-	PaddingRightOfInput: number;
-	PaddingLeftOfOutput: number;
-	PaddingTowardsNodeEdge: number;
-	bTreatSplinesLikePins: boolean;
-	SplineHoverTolerance: number;
-	ForwardSplineHorizontalDeltaRange: number;
-	ForwardSplineVerticalDeltaRange: number;
-	ForwardSplineTangentFromHorizontalDelta: Vector2D;
-	ForwardSplineTangentFromVerticalDelta: Vector2D;
-	BackwardSplineHorizontalDeltaRange: number;
-	BackwardSplineVerticalDeltaRange: number;
-	BackwardSplineTangentFromHorizontalDelta: Vector2D;
-	BackwardSplineTangentFromVerticalDelta: Vector2D;
-	DefaultPinTypeColor: LinearColor;
-	ExecutionPinTypeColor: LinearColor;
-	BooleanPinTypeColor: LinearColor;
-	BytePinTypeColor: LinearColor;
-	ClassPinTypeColor: LinearColor;
-	IntPinTypeColor: LinearColor;
-	FloatPinTypeColor: LinearColor;
-	NamePinTypeColor: LinearColor;
-	AssetPinTypeColor: LinearColor;
-	AssetClassPinTypeColor: LinearColor;
-	DelegatePinTypeColor: LinearColor;
-	ObjectPinTypeColor: LinearColor;
-	InterfacePinTypeColor: LinearColor;
-	StringPinTypeColor: LinearColor;
-	TextPinTypeColor: LinearColor;
-	StructPinTypeColor: LinearColor;
-	WildcardPinTypeColor: LinearColor;
-	VectorPinTypeColor: LinearColor;
-	RotatorPinTypeColor: LinearColor;
-	TransformPinTypeColor: LinearColor;
-	IndexPinTypeColor: LinearColor;
-	EventNodeTitleColor: LinearColor;
-	FunctionCallNodeTitleColor: LinearColor;
-	PureFunctionCallNodeTitleColor: LinearColor;
-	ParentFunctionCallNodeTitleColor: LinearColor;
-	FunctionTerminatorNodeTitleColor: LinearColor;
-	ExecBranchNodeTitleColor: LinearColor;
-	ExecSequenceNodeTitleColor: LinearColor;
-	ResultNodeTitleColor: LinearColor;
-	DefaultCommentNodeTitleColor: LinearColor;
-	TraceAttackColor: LinearColor;
-	TraceAttackWireThickness: number;
-	TraceAttackHoldPeriod: number;
-	TraceDecayPeriod: number;
-	TraceDecayExponent: number;
-	TraceSustainColor: LinearColor;
-	TraceSustainWireThickness: number;
-	TraceSustainHoldPeriod: number;
-	TraceReleaseColor: LinearColor;
-	TraceReleaseWireThickness: number;
-	TraceReleasePeriod: number;
-	TraceReleaseExponent: number;
-	TracePositionBonusPeriod: number;
-	TracePositionExponent: number;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): GraphEditorSettings;
-	static Find(Outer: UObject, ResourceName: string): GraphEditorSettings;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): GraphEditorSettings;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): GraphEditorSettings;
-	static C(Other: UObject): GraphEditorSettings;
-}
-
-declare class AnimationConduitGraphSchema extends EdGraphSchema_K2 { 
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): AnimationConduitGraphSchema;
-	static Find(Outer: UObject, ResourceName: string): AnimationConduitGraphSchema;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): AnimationConduitGraphSchema;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): AnimationConduitGraphSchema;
-	static C(Other: UObject): AnimationConduitGraphSchema;
-}
-
-declare class AnimationGraph extends EdGraph { 
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): AnimationGraph;
-	static Find(Outer: UObject, ResourceName: string): AnimationGraph;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): AnimationGraph;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): AnimationGraph;
-	static C(Other: UObject): AnimationGraph;
-}
-
-declare type EBlueprintUsage = 'NoProperties' | 'DoesNotUseBlueprint' | 'UsesBlueprint';
-declare var EBlueprintUsage : { NoProperties:'NoProperties',DoesNotUseBlueprint:'DoesNotUseBlueprint',UsesBlueprint:'UsesBlueprint', };
-declare class AnimGraphNode_Base extends K2Node { 
-	ShowPinForProperties: OptionalPinFromProperty[];
-	BlueprintUsage: EBlueprintUsage;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): AnimGraphNode_Base;
-	static Find(Outer: UObject, ResourceName: string): AnimGraphNode_Base;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): AnimGraphNode_Base;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): AnimGraphNode_Base;
-	static C(Other: UObject): AnimGraphNode_Base;
-}
-
-declare type EPostCopyOperation = 'None' | 'LogicalNegateBool';
-declare var EPostCopyOperation : { None:'None',LogicalNegateBool:'LogicalNegateBool', };
-declare class ExposedValueCopyRecord { 
-	SourceProperty: Property;
-	SourcePropertyName: string;
-	SourceSubPropertyName: string;
-	SourceArrayIndex: number;
-	DestProperty: Property;
-	DestArrayIndex: number;
-	Size: number;
-	bInstanceIsTarget: boolean;
-	PostCopyOperation: EPostCopyOperation;
-	CachedBoolSourceProperty: BoolProperty;
-	CachedBoolDestProperty: BoolProperty;
-	CachedStructDestProperty: StructProperty;
-	clone() : ExposedValueCopyRecord;
-	static C(Other: UObject): ExposedValueCopyRecord;
-}
-
-declare class ExposedValueHandler { 
-	BoundFunction: string;
-	CopyRecords: ExposedValueCopyRecord[];
-	clone() : ExposedValueHandler;
-	static C(Other: UObject): ExposedValueHandler;
-}
-
-declare class AnimNode_Base { 
-	EvaluateGraphExposedInputs: ExposedValueHandler;
-	clone() : AnimNode_Base;
-	static C(Other: UObject): AnimNode_Base;
-}
-
-declare class PoseLinkBase { 
-	LinkID: number;
-	SourceLinkID: number;
-	clone() : PoseLinkBase;
-	static C(Other: UObject): PoseLinkBase;
-}
-
-declare class PoseLink extends PoseLinkBase { 
-	clone() : PoseLink;
-	static C(Other: UObject): PoseLink;
-}
-
-declare class AnimNode_Root extends AnimNode_Base { 
-	Result: PoseLink;
-	clone() : AnimNode_Root;
-	static C(Other: UObject): AnimNode_Root;
-}
-
-declare class AnimGraphNode_Root extends AnimGraphNode_Base { 
-	UNode: AnimNode_Root;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): AnimGraphNode_Root;
-	static Find(Outer: UObject, ResourceName: string): AnimGraphNode_Root;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): AnimGraphNode_Root;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): AnimGraphNode_Root;
-	static C(Other: UObject): AnimGraphNode_Root;
-}
-
-declare class AnimGraphNode_CustomTransitionResult extends AnimGraphNode_Root { 
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): AnimGraphNode_CustomTransitionResult;
-	static Find(Outer: UObject, ResourceName: string): AnimGraphNode_CustomTransitionResult;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): AnimGraphNode_CustomTransitionResult;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): AnimGraphNode_CustomTransitionResult;
-	static C(Other: UObject): AnimGraphNode_CustomTransitionResult;
-}
-
-declare class AnimationCustomTransitionGraph extends AnimationGraph { 
-	MyResultNode: AnimGraphNode_CustomTransitionResult;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): AnimationCustomTransitionGraph;
-	static Find(Outer: UObject, ResourceName: string): AnimationCustomTransitionGraph;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): AnimationCustomTransitionGraph;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): AnimationCustomTransitionGraph;
-	static C(Other: UObject): AnimationCustomTransitionGraph;
-}
-
-declare class AnimGraphNode_StateResult extends AnimGraphNode_Root { 
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): AnimGraphNode_StateResult;
-	static Find(Outer: UObject, ResourceName: string): AnimGraphNode_StateResult;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): AnimGraphNode_StateResult;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): AnimGraphNode_StateResult;
-	static C(Other: UObject): AnimGraphNode_StateResult;
-}
-
-declare class AnimationStateGraph extends AnimationGraph { 
-	MyResultNode: AnimGraphNode_StateResult;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): AnimationStateGraph;
-	static Find(Outer: UObject, ResourceName: string): AnimationStateGraph;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): AnimationStateGraph;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): AnimationStateGraph;
-	static C(Other: UObject): AnimationStateGraph;
-}
-
-declare class AnimNode_TransitionResult extends AnimNode_Base { 
-	bCanEnterTransition: boolean;
-	clone() : AnimNode_TransitionResult;
-	static C(Other: UObject): AnimNode_TransitionResult;
-}
-
-declare class AnimGraphNode_TransitionResult extends AnimGraphNode_Base { 
-	UNode: AnimNode_TransitionResult;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): AnimGraphNode_TransitionResult;
-	static Find(Outer: UObject, ResourceName: string): AnimGraphNode_TransitionResult;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): AnimGraphNode_TransitionResult;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): AnimGraphNode_TransitionResult;
-	static C(Other: UObject): AnimGraphNode_TransitionResult;
-}
-
-declare class AnimationTransitionGraph extends AnimationGraph { 
-	MyResultNode: AnimGraphNode_TransitionResult;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): AnimationTransitionGraph;
-	static Find(Outer: UObject, ResourceName: string): AnimationTransitionGraph;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): AnimationTransitionGraph;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): AnimationTransitionGraph;
-	static C(Other: UObject): AnimationTransitionGraph;
-}
-
-declare class AnimationGraphSchema extends EdGraphSchema_K2 { 
-	PN_SequenceName: string;
-	NAME_NeverAsPin: string;
-	NAME_PinHiddenByDefault: string;
-	NAME_PinShownByDefault: string;
-	NAME_AlwaysAsPin: string;
-	NAME_CustomizeProperty: string;
-	NAME_OnEvaluate: string;
-	DefaultEvaluationHandlerName: string;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): AnimationGraphSchema;
-	static Find(Outer: UObject, ResourceName: string): AnimationGraphSchema;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): AnimationGraphSchema;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): AnimationGraphSchema;
-	static C(Other: UObject): AnimationGraphSchema;
-}
-
-declare class AnimationCustomTransitionSchema extends AnimationGraphSchema { 
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): AnimationCustomTransitionSchema;
-	static Find(Outer: UObject, ResourceName: string): AnimationCustomTransitionSchema;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): AnimationCustomTransitionSchema;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): AnimationCustomTransitionSchema;
-	static C(Other: UObject): AnimationCustomTransitionSchema;
-}
-
-declare class AnimationStateGraphSchema extends AnimationGraphSchema { 
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): AnimationStateGraphSchema;
-	static Find(Outer: UObject, ResourceName: string): AnimationStateGraphSchema;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): AnimationStateGraphSchema;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): AnimationStateGraphSchema;
-	static C(Other: UObject): AnimationStateGraphSchema;
-}
-
-declare class AnimStateEntryNode extends EdGraphNode { 
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): AnimStateEntryNode;
-	static Find(Outer: UObject, ResourceName: string): AnimStateEntryNode;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): AnimStateEntryNode;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): AnimStateEntryNode;
-	static C(Other: UObject): AnimStateEntryNode;
-}
-
-declare class AnimGraphNode_StateMachineBase extends AnimGraphNode_Base { 
-	EditorStateMachineGraph: AnimationStateMachineGraph;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): AnimGraphNode_StateMachineBase;
-	static Find(Outer: UObject, ResourceName: string): AnimGraphNode_StateMachineBase;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): AnimGraphNode_StateMachineBase;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): AnimGraphNode_StateMachineBase;
-	static C(Other: UObject): AnimGraphNode_StateMachineBase;
-}
-
-declare class AnimationStateMachineGraph extends EdGraph { 
-	EntryNode: AnimStateEntryNode;
-	OwnerAnimGraphNode: AnimGraphNode_StateMachineBase;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): AnimationStateMachineGraph;
-	static Find(Outer: UObject, ResourceName: string): AnimationStateMachineGraph;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): AnimationStateMachineGraph;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): AnimationStateMachineGraph;
-	static C(Other: UObject): AnimationStateMachineGraph;
-}
-
-declare class AnimationStateMachineSchema extends EdGraphSchema { 
-	PC_Exec: string;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): AnimationStateMachineSchema;
-	static Find(Outer: UObject, ResourceName: string): AnimationStateMachineSchema;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): AnimationStateMachineSchema;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): AnimationStateMachineSchema;
-	static C(Other: UObject): AnimationStateMachineSchema;
-}
-
-declare class AnimationTransitionSchema extends EdGraphSchema_K2 { 
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): AnimationTransitionSchema;
-	static Find(Outer: UObject, ResourceName: string): AnimationTransitionSchema;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): AnimationTransitionSchema;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): AnimationTransitionSchema;
-	static C(Other: UObject): AnimationTransitionSchema;
-}
-
 declare class InputScaleBias { 
 	Scale: number;
 	Bias: number;
@@ -4098,1086 +1760,3010 @@ declare class K2Node_TransitionRuleGetter extends K2Node {
 	static C(Other: UObject): K2Node_TransitionRuleGetter;
 }
 
-declare class CookerStats extends UObject { 
-	Assets: any[];
-	SizeBefore: number;
-	SizeAfter: number;
-	Path: string;
+declare class BlueprintAsyncActionBase extends UObject { 
 	constructor();
 	constructor(Outer: UObject);
-	static Load(ResourceName: string): CookerStats;
-	static Find(Outer: UObject, ResourceName: string): CookerStats;
+	static Load(ResourceName: string): BlueprintAsyncActionBase;
+	static Find(Outer: UObject, ResourceName: string): BlueprintAsyncActionBase;
 	static StaticClass: any;
 	static GetClassObject(): Class;
-	static GetDefaultObject(): CookerStats;
+	static GetDefaultObject(): BlueprintAsyncActionBase;
 	static GetDefaultSubobjectByName(Name: string): UObject;
 	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): CookerStats;
-	static C(Other: UObject): CookerStats;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): BlueprintAsyncActionBase;
+	Activate(): void;
+	static C(Other: UObject): BlueprintAsyncActionBase;
 }
 
-declare class LightingBuildInfo extends UObject { 
-	UObject: any;
-	LightingTime: number;
-	UnmappedTexelsPercentage: number;
-	UnmappedTexelsMemory: number;
-	TotalTexelMemory: number;
-	LevelName: string;
+declare class AsyncTaskDownloadImage extends BlueprintAsyncActionBase { 
+	OnSuccess: UnrealEngineMulticastDelegate<(Texture: Texture2D) => void>;
+	OnFail: UnrealEngineMulticastDelegate<(Texture: Texture2D) => void>;
 	constructor();
 	constructor(Outer: UObject);
-	static Load(ResourceName: string): LightingBuildInfo;
-	static Find(Outer: UObject, ResourceName: string): LightingBuildInfo;
+	static Load(ResourceName: string): AsyncTaskDownloadImage;
+	static Find(Outer: UObject, ResourceName: string): AsyncTaskDownloadImage;
 	static StaticClass: any;
 	static GetClassObject(): Class;
-	static GetDefaultObject(): LightingBuildInfo;
+	static GetDefaultObject(): AsyncTaskDownloadImage;
 	static GetDefaultSubobjectByName(Name: string): UObject;
 	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): LightingBuildInfo;
-	static C(Other: UObject): LightingBuildInfo;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): AsyncTaskDownloadImage;
+	static DownloadImage(URL: string): AsyncTaskDownloadImage;
+	static C(Other: UObject): AsyncTaskDownloadImage;
 }
 
-declare class PrimitiveStats extends UObject { 
-	UObject: any;
-	Actors: any[];
-	Type: string;
-	Count: number;
-	Sections: number;
-	InstSections: number;
-	Triangles: number;
-	InstTriangles: number;
-	ResourceSize: number;
-	VertexColorMem: number;
-	InstVertexColorMem: number;
-	LightsLM: number;
-	LightsOther: number;
-	LightsTotal: number;
-	ObjLightCost: number;
-	LightMapData: number;
-	LMSMResolution: number;
-	RadiusMin: number;
-	RadiusMax: number;
-	RadiusAvg: number;
+declare class MovieSceneSection extends UObject { 
+	StartTime: number;
+	EndTime: number;
+	RowIndex: number;
+	OverlapPriority: number;
+	bIsActive: boolean;
+	bIsLocked: boolean;
+	bIsInfinite: boolean;
 	constructor();
 	constructor(Outer: UObject);
-	static Load(ResourceName: string): PrimitiveStats;
-	static Find(Outer: UObject, ResourceName: string): PrimitiveStats;
+	static Load(ResourceName: string): MovieSceneSection;
+	static Find(Outer: UObject, ResourceName: string): MovieSceneSection;
 	static StaticClass: any;
 	static GetClassObject(): Class;
-	static GetDefaultObject(): PrimitiveStats;
+	static GetDefaultObject(): MovieSceneSection;
 	static GetDefaultSubobjectByName(Name: string): UObject;
 	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): PrimitiveStats;
-	static C(Other: UObject): PrimitiveStats;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MovieSceneSection;
+	static C(Other: UObject): MovieSceneSection;
 }
 
-declare class StaticMeshLightingInfo extends UObject { 
-	StaticMeshActor: any;
-	StaticMesh: any;
-	LevelName: string;
-	TextureMapping: string;
-	bTextureMapping: boolean;
-	bHasLightmapTexCoords: boolean;
-	StaticLightingResolution: number;
-	TextureLightMapMemoryUsage: number;
-	VertexLightMapMemoryUsage: number;
-	LightMapLightCount: number;
-	TextureShadowMapMemoryUsage: number;
-	VertexShadowMapMemoryUsage: number;
-	ShadowMapLightCount: number;
+declare class MovieScene2DTransformSection extends MovieSceneSection { 
+	Translation: RichCurve;
+	Rotation: RichCurve;
+	Scale: RichCurve;
+	Shear: RichCurve;
 	constructor();
 	constructor(Outer: UObject);
-	static Load(ResourceName: string): StaticMeshLightingInfo;
-	static Find(Outer: UObject, ResourceName: string): StaticMeshLightingInfo;
+	static Load(ResourceName: string): MovieScene2DTransformSection;
+	static Find(Outer: UObject, ResourceName: string): MovieScene2DTransformSection;
 	static StaticClass: any;
 	static GetClassObject(): Class;
-	static GetDefaultObject(): StaticMeshLightingInfo;
+	static GetDefaultObject(): MovieScene2DTransformSection;
 	static GetDefaultSubobjectByName(Name: string): UObject;
 	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): StaticMeshLightingInfo;
-	static C(Other: UObject): StaticMeshLightingInfo;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MovieScene2DTransformSection;
+	static C(Other: UObject): MovieScene2DTransformSection;
 }
 
-declare class TextureStats extends UObject { 
-	Texture: any;
-	Actors: any[];
-	Type: string;
-	MaxDim: Vector2D;
-	CurrentDim: Vector2D;
-	Format: EPixelFormat;
-	Group: TextureGroup;
-	LODBias: number;
-	CurrentKB: number;
-	FullyLoadedKB: number;
-	NumUses: number;
-	LastTimeRendered: number;
-	Path: string;
+declare class MovieSceneNameableTrack extends MovieSceneTrack { 
+	DisplayName: string;
 	constructor();
 	constructor(Outer: UObject);
-	static Load(ResourceName: string): TextureStats;
-	static Find(Outer: UObject, ResourceName: string): TextureStats;
+	static Load(ResourceName: string): MovieSceneNameableTrack;
+	static Find(Outer: UObject, ResourceName: string): MovieSceneNameableTrack;
 	static StaticClass: any;
 	static GetClassObject(): Class;
-	static GetDefaultObject(): TextureStats;
+	static GetDefaultObject(): MovieSceneNameableTrack;
 	static GetDefaultSubobjectByName(Name: string): UObject;
 	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): TextureStats;
-	static C(Other: UObject): TextureStats;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MovieSceneNameableTrack;
+	static C(Other: UObject): MovieSceneNameableTrack;
 }
 
-declare class GizmoHandle { 
-	clone() : GizmoHandle;
-	static C(Other: UObject): GizmoHandle;
-}
-
-declare class GizmoHandleGroup extends SceneComponent { 
-	GizmoMaterial: MaterialInterface;
-	TranslucentGizmoMaterial: MaterialInterface;
-	Handles: GizmoHandle[];
+declare class MovieScenePropertyTrack extends MovieSceneNameableTrack { 
+	PropertyName: string;
+	PropertyPath: string;
+	Sections: MovieSceneSection[];
 	constructor();
 	constructor(Outer: UObject);
-	static Load(ResourceName: string): GizmoHandleGroup;
-	static Find(Outer: UObject, ResourceName: string): GizmoHandleGroup;
+	static Load(ResourceName: string): MovieScenePropertyTrack;
+	static Find(Outer: UObject, ResourceName: string): MovieScenePropertyTrack;
 	static StaticClass: any;
 	static GetClassObject(): Class;
-	static GetDefaultObject(): GizmoHandleGroup;
+	static GetDefaultObject(): MovieScenePropertyTrack;
 	static GetDefaultSubobjectByName(Name: string): UObject;
 	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): GizmoHandleGroup;
-	static C(Other: UObject): GizmoHandleGroup;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MovieScenePropertyTrack;
+	static C(Other: UObject): MovieScenePropertyTrack;
 }
 
-declare class ViewportWorldInteraction extends UObject { 
-	TransformGizmoActor: BaseTransformGizmo;
-	SnapGridActor: Actor;
-	SnapGridMeshComponent: StaticMeshComponent;
-	SnapGridMID: MaterialInstanceDynamic;
+declare class MovieScene2DTransformTrack extends MovieScenePropertyTrack { 
 	constructor();
 	constructor(Outer: UObject);
-	static Load(ResourceName: string): ViewportWorldInteraction;
-	static Find(Outer: UObject, ResourceName: string): ViewportWorldInteraction;
+	static Load(ResourceName: string): MovieScene2DTransformTrack;
+	static Find(Outer: UObject, ResourceName: string): MovieScene2DTransformTrack;
 	static StaticClass: any;
 	static GetClassObject(): Class;
-	static GetDefaultObject(): ViewportWorldInteraction;
+	static GetDefaultObject(): MovieScene2DTransformTrack;
 	static GetDefaultSubobjectByName(Name: string): UObject;
 	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): ViewportWorldInteraction;
-	static C(Other: UObject): ViewportWorldInteraction;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MovieScene2DTransformTrack;
+	static C(Other: UObject): MovieScene2DTransformTrack;
 }
 
-declare class BaseTransformGizmo extends Actor { 
-	SceneComponent: SceneComponent;
-	GizmoMaterial: MaterialInterface;
-	TranslucentGizmoMaterial: MaterialInterface;
-	AllHandleGroups: GizmoHandleGroup[];
-	WorldInteraction: ViewportWorldInteraction;
-	constructor(InWorld: World, Location?: Vector, Rotation?: Rotator);
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): BaseTransformGizmo;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): BaseTransformGizmo;
-	static C(Other: UObject): BaseTransformGizmo;
-}
-
-declare class AxisGizmoHandleGroup extends GizmoHandleGroup { 
+declare class MovieSceneMarginSection extends MovieSceneSection { 
+	TopCurve: RichCurve;
+	LeftCurve: RichCurve;
+	RightCurve: RichCurve;
+	BottomCurve: RichCurve;
 	constructor();
 	constructor(Outer: UObject);
-	static Load(ResourceName: string): AxisGizmoHandleGroup;
-	static Find(Outer: UObject, ResourceName: string): AxisGizmoHandleGroup;
+	static Load(ResourceName: string): MovieSceneMarginSection;
+	static Find(Outer: UObject, ResourceName: string): MovieSceneMarginSection;
 	static StaticClass: any;
 	static GetClassObject(): Class;
-	static GetDefaultObject(): AxisGizmoHandleGroup;
+	static GetDefaultObject(): MovieSceneMarginSection;
 	static GetDefaultSubobjectByName(Name: string): UObject;
 	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): AxisGizmoHandleGroup;
-	static C(Other: UObject): AxisGizmoHandleGroup;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MovieSceneMarginSection;
+	static C(Other: UObject): MovieSceneMarginSection;
 }
 
-declare class UniformScaleGizmoHandleGroup extends GizmoHandleGroup { 
+declare class MovieSceneMarginTrack extends MovieScenePropertyTrack { 
 	constructor();
 	constructor(Outer: UObject);
-	static Load(ResourceName: string): UniformScaleGizmoHandleGroup;
-	static Find(Outer: UObject, ResourceName: string): UniformScaleGizmoHandleGroup;
+	static Load(ResourceName: string): MovieSceneMarginTrack;
+	static Find(Outer: UObject, ResourceName: string): MovieSceneMarginTrack;
 	static StaticClass: any;
 	static GetClassObject(): Class;
-	static GetDefaultObject(): UniformScaleGizmoHandleGroup;
+	static GetDefaultObject(): MovieSceneMarginTrack;
 	static GetDefaultSubobjectByName(Name: string): UObject;
 	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): UniformScaleGizmoHandleGroup;
-	static C(Other: UObject): UniformScaleGizmoHandleGroup;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MovieSceneMarginTrack;
+	static C(Other: UObject): MovieSceneMarginTrack;
 }
 
-declare class PivotTranslationGizmoHandleGroup extends AxisGizmoHandleGroup { 
+declare class MovieSceneMaterialTrack extends MovieSceneNameableTrack { 
+	Sections: MovieSceneSection[];
 	constructor();
 	constructor(Outer: UObject);
-	static Load(ResourceName: string): PivotTranslationGizmoHandleGroup;
-	static Find(Outer: UObject, ResourceName: string): PivotTranslationGizmoHandleGroup;
+	static Load(ResourceName: string): MovieSceneMaterialTrack;
+	static Find(Outer: UObject, ResourceName: string): MovieSceneMaterialTrack;
 	static StaticClass: any;
 	static GetClassObject(): Class;
-	static GetDefaultObject(): PivotTranslationGizmoHandleGroup;
+	static GetDefaultObject(): MovieSceneMaterialTrack;
 	static GetDefaultSubobjectByName(Name: string): UObject;
 	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): PivotTranslationGizmoHandleGroup;
-	static C(Other: UObject): PivotTranslationGizmoHandleGroup;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MovieSceneMaterialTrack;
+	static C(Other: UObject): MovieSceneMaterialTrack;
 }
 
-declare class PivotScaleGizmoHandleGroup extends AxisGizmoHandleGroup { 
+declare class MovieSceneWidgetMaterialTrack extends MovieSceneMaterialTrack { 
+	BrushPropertyNamePath: string[];
+	TrackName: string;
 	constructor();
 	constructor(Outer: UObject);
-	static Load(ResourceName: string): PivotScaleGizmoHandleGroup;
-	static Find(Outer: UObject, ResourceName: string): PivotScaleGizmoHandleGroup;
+	static Load(ResourceName: string): MovieSceneWidgetMaterialTrack;
+	static Find(Outer: UObject, ResourceName: string): MovieSceneWidgetMaterialTrack;
 	static StaticClass: any;
 	static GetClassObject(): Class;
-	static GetDefaultObject(): PivotScaleGizmoHandleGroup;
+	static GetDefaultObject(): MovieSceneWidgetMaterialTrack;
 	static GetDefaultSubobjectByName(Name: string): UObject;
 	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): PivotScaleGizmoHandleGroup;
-	static C(Other: UObject): PivotScaleGizmoHandleGroup;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MovieSceneWidgetMaterialTrack;
+	static C(Other: UObject): MovieSceneWidgetMaterialTrack;
 }
 
-declare class PivotPlaneTranslationGizmoHandleGroup extends AxisGizmoHandleGroup { 
+declare class NamedSlotInterface extends Interface { 
 	constructor();
 	constructor(Outer: UObject);
-	static Load(ResourceName: string): PivotPlaneTranslationGizmoHandleGroup;
-	static Find(Outer: UObject, ResourceName: string): PivotPlaneTranslationGizmoHandleGroup;
+	static Load(ResourceName: string): NamedSlotInterface;
+	static Find(Outer: UObject, ResourceName: string): NamedSlotInterface;
 	static StaticClass: any;
 	static GetClassObject(): Class;
-	static GetDefaultObject(): PivotPlaneTranslationGizmoHandleGroup;
+	static GetDefaultObject(): NamedSlotInterface;
 	static GetDefaultSubobjectByName(Name: string): UObject;
 	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): PivotPlaneTranslationGizmoHandleGroup;
-	static C(Other: UObject): PivotPlaneTranslationGizmoHandleGroup;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): NamedSlotInterface;
+	static C(Other: UObject): NamedSlotInterface;
 }
 
-declare class PivotRotationGizmoHandleGroup extends AxisGizmoHandleGroup { 
+declare class BoolBinding extends PropertyBinding { 
 	constructor();
 	constructor(Outer: UObject);
-	static Load(ResourceName: string): PivotRotationGizmoHandleGroup;
-	static Find(Outer: UObject, ResourceName: string): PivotRotationGizmoHandleGroup;
+	static Load(ResourceName: string): BoolBinding;
+	static Find(Outer: UObject, ResourceName: string): BoolBinding;
 	static StaticClass: any;
 	static GetClassObject(): Class;
-	static GetDefaultObject(): PivotRotationGizmoHandleGroup;
+	static GetDefaultObject(): BoolBinding;
 	static GetDefaultSubobjectByName(Name: string): UObject;
 	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): PivotRotationGizmoHandleGroup;
-	static C(Other: UObject): PivotRotationGizmoHandleGroup;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): BoolBinding;
+	GetValue(): boolean;
+	static C(Other: UObject): BoolBinding;
 }
 
-declare class StretchGizmoHandleGroup extends GizmoHandleGroup { 
+declare class BrushBinding extends PropertyBinding { 
 	constructor();
 	constructor(Outer: UObject);
-	static Load(ResourceName: string): StretchGizmoHandleGroup;
-	static Find(Outer: UObject, ResourceName: string): StretchGizmoHandleGroup;
+	static Load(ResourceName: string): BrushBinding;
+	static Find(Outer: UObject, ResourceName: string): BrushBinding;
 	static StaticClass: any;
 	static GetClassObject(): Class;
-	static GetDefaultObject(): StretchGizmoHandleGroup;
+	static GetDefaultObject(): BrushBinding;
 	static GetDefaultSubobjectByName(Name: string): UObject;
 	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): StretchGizmoHandleGroup;
-	static C(Other: UObject): StretchGizmoHandleGroup;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): BrushBinding;
+	GetValue(): SlateBrush;
+	static C(Other: UObject): BrushBinding;
 }
 
-declare class PivotTransformGizmo extends BaseTransformGizmo { 
-	UniformScaleGizmoHandleGroup: UniformScaleGizmoHandleGroup;
-	TranslationGizmoHandleGroup: PivotTranslationGizmoHandleGroup;
-	ScaleGizmoHandleGroup: PivotScaleGizmoHandleGroup;
-	PlaneTranslationGizmoHandleGroup: PivotPlaneTranslationGizmoHandleGroup;
-	RotationGizmoHandleGroup: PivotRotationGizmoHandleGroup;
-	StretchGizmoHandleGroup: StretchGizmoHandleGroup;
-	constructor(InWorld: World, Location?: Vector, Rotation?: Rotator);
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): PivotTransformGizmo;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): PivotTransformGizmo;
-	static C(Other: UObject): PivotTransformGizmo;
-}
-
-declare class ViewportDragOperation extends UObject { 
+declare type ECheckBoxState = 'Unchecked' | 'Checked' | 'Undetermined';
+declare var ECheckBoxState : { Unchecked:'Unchecked',Checked:'Checked',Undetermined:'Undetermined', };
+declare class CheckedStateBinding extends PropertyBinding { 
 	constructor();
 	constructor(Outer: UObject);
-	static Load(ResourceName: string): ViewportDragOperation;
-	static Find(Outer: UObject, ResourceName: string): ViewportDragOperation;
+	static Load(ResourceName: string): CheckedStateBinding;
+	static Find(Outer: UObject, ResourceName: string): CheckedStateBinding;
 	static StaticClass: any;
 	static GetClassObject(): Class;
-	static GetDefaultObject(): ViewportDragOperation;
+	static GetDefaultObject(): CheckedStateBinding;
 	static GetDefaultSubobjectByName(Name: string): UObject;
 	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): ViewportDragOperation;
-	static C(Other: UObject): ViewportDragOperation;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): CheckedStateBinding;
+	GetValue(): ECheckBoxState;
+	static C(Other: UObject): CheckedStateBinding;
 }
 
-declare class ViewportDragOperationComponent extends ActorComponent { 
-	DragOperation: ViewportDragOperation;
-	DragOperationSubclass: UnrealEngineClass;
+declare class ColorBinding extends PropertyBinding { 
 	constructor();
 	constructor(Outer: UObject);
-	static Load(ResourceName: string): ViewportDragOperationComponent;
-	static Find(Outer: UObject, ResourceName: string): ViewportDragOperationComponent;
+	static Load(ResourceName: string): ColorBinding;
+	static Find(Outer: UObject, ResourceName: string): ColorBinding;
 	static StaticClass: any;
 	static GetClassObject(): Class;
-	static GetDefaultObject(): ViewportDragOperationComponent;
+	static GetDefaultObject(): ColorBinding;
 	static GetDefaultSubobjectByName(Name: string): UObject;
 	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): ViewportDragOperationComponent;
-	static C(Other: UObject): ViewportDragOperationComponent;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): ColorBinding;
+	GetSlateValue(): SlateColor;
+	GetLinearValue(): LinearColor;
+	static C(Other: UObject): ColorBinding;
 }
 
-declare class ViewportInteractableInterface extends Interface { 
+declare class FloatBinding extends PropertyBinding { 
 	constructor();
 	constructor(Outer: UObject);
-	static Load(ResourceName: string): ViewportInteractableInterface;
-	static Find(Outer: UObject, ResourceName: string): ViewportInteractableInterface;
+	static Load(ResourceName: string): FloatBinding;
+	static Find(Outer: UObject, ResourceName: string): FloatBinding;
 	static StaticClass: any;
 	static GetClassObject(): Class;
-	static GetDefaultObject(): ViewportInteractableInterface;
+	static GetDefaultObject(): FloatBinding;
 	static GetDefaultSubobjectByName(Name: string): UObject;
 	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): ViewportInteractableInterface;
-	static C(Other: UObject): ViewportInteractableInterface;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): FloatBinding;
+	GetValue(): number;
+	static C(Other: UObject): FloatBinding;
 }
 
-declare class ViewportInteractor extends UObject { 
-	WorldInteraction: ViewportWorldInteraction;
-	OtherInteractor: ViewportInteractor;
+declare class Int32Binding extends PropertyBinding { 
 	constructor();
 	constructor(Outer: UObject);
-	static Load(ResourceName: string): ViewportInteractor;
-	static Find(Outer: UObject, ResourceName: string): ViewportInteractor;
+	static Load(ResourceName: string): Int32Binding;
+	static Find(Outer: UObject, ResourceName: string): Int32Binding;
 	static StaticClass: any;
 	static GetClassObject(): Class;
-	static GetDefaultObject(): ViewportInteractor;
+	static GetDefaultObject(): Int32Binding;
 	static GetDefaultSubobjectByName(Name: string): UObject;
 	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): ViewportInteractor;
-	static C(Other: UObject): ViewportInteractor;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): Int32Binding;
+	GetValue(): number;
+	static C(Other: UObject): Int32Binding;
 }
 
-declare class MouseCursorInteractor extends ViewportInteractor { 
+declare class MouseCursorBinding extends PropertyBinding { 
 	constructor();
 	constructor(Outer: UObject);
-	static Load(ResourceName: string): MouseCursorInteractor;
-	static Find(Outer: UObject, ResourceName: string): MouseCursorInteractor;
+	static Load(ResourceName: string): MouseCursorBinding;
+	static Find(Outer: UObject, ResourceName: string): MouseCursorBinding;
 	static StaticClass: any;
 	static GetClassObject(): Class;
-	static GetDefaultObject(): MouseCursorInteractor;
+	static GetDefaultObject(): MouseCursorBinding;
 	static GetDefaultSubobjectByName(Name: string): UObject;
 	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MouseCursorInteractor;
-	static C(Other: UObject): MouseCursorInteractor;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MouseCursorBinding;
+	GetValue(): EMouseCursor;
+	static C(Other: UObject): MouseCursorBinding;
 }
 
-declare class ViewportWorldInteractionInterface extends Interface { 
+declare class TextBinding extends PropertyBinding { 
 	constructor();
 	constructor(Outer: UObject);
-	static Load(ResourceName: string): ViewportWorldInteractionInterface;
-	static Find(Outer: UObject, ResourceName: string): ViewportWorldInteractionInterface;
+	static Load(ResourceName: string): TextBinding;
+	static Find(Outer: UObject, ResourceName: string): TextBinding;
 	static StaticClass: any;
 	static GetClassObject(): Class;
-	static GetDefaultObject(): ViewportWorldInteractionInterface;
+	static GetDefaultObject(): TextBinding;
 	static GetDefaultSubobjectByName(Name: string): UObject;
 	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): ViewportWorldInteractionInterface;
-	static C(Other: UObject): ViewportWorldInteractionInterface;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): TextBinding;
+	GetTextValue(): string;
+	GetStringValue(): string;
+	static C(Other: UObject): TextBinding;
 }
 
-declare type ETrackingStatus = 'NotTracked' | 'InertialOnly' | 'Tracked';
-declare var ETrackingStatus : { NotTracked:'NotTracked',InertialOnly:'InertialOnly',Tracked:'Tracked', };
-declare class MotionControllerComponent extends PrimitiveComponent { 
-	PlayerIndex: number;
-	Hand: EControllerHand;
-	bDisableLowLatencyUpdate: boolean;
-	CurrentTrackingStatus: ETrackingStatus;
+declare class VisibilityBinding extends PropertyBinding { 
 	constructor();
 	constructor(Outer: UObject);
-	static Load(ResourceName: string): MotionControllerComponent;
-	static Find(Outer: UObject, ResourceName: string): MotionControllerComponent;
+	static Load(ResourceName: string): VisibilityBinding;
+	static Find(Outer: UObject, ResourceName: string): VisibilityBinding;
 	static StaticClass: any;
 	static GetClassObject(): Class;
-	static GetDefaultObject(): MotionControllerComponent;
+	static GetDefaultObject(): VisibilityBinding;
 	static GetDefaultSubobjectByName(Name: string): UObject;
 	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MotionControllerComponent;
-	IsTracked(): boolean;
-	static C(Other: UObject): MotionControllerComponent;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): VisibilityBinding;
+	GetValue(): ESlateVisibility;
+	static C(Other: UObject): VisibilityBinding;
 }
 
-declare class VRNotificationsComponent extends ActorComponent { 
-	HMDTrackingInitializingAndNeedsHMDToBeTrackedDelegate: UnrealEngineMulticastDelegate<() => void>;
-	HMDTrackingInitializedDelegate: UnrealEngineMulticastDelegate<() => void>;
-	HMDRecenteredDelegate: UnrealEngineMulticastDelegate<() => void>;
-	HMDLostDelegate: UnrealEngineMulticastDelegate<() => void>;
-	HMDReconnectedDelegate: UnrealEngineMulticastDelegate<() => void>;
-	HMDConnectCanceledDelegate: UnrealEngineMulticastDelegate<() => void>;
-	HMDPutOnHeadDelegate: UnrealEngineMulticastDelegate<() => void>;
-	HMDRemovedFromHeadDelegate: UnrealEngineMulticastDelegate<() => void>;
+declare class WidgetBinding extends PropertyBinding { 
 	constructor();
 	constructor(Outer: UObject);
-	static Load(ResourceName: string): VRNotificationsComponent;
-	static Find(Outer: UObject, ResourceName: string): VRNotificationsComponent;
+	static Load(ResourceName: string): WidgetBinding;
+	static Find(Outer: UObject, ResourceName: string): WidgetBinding;
 	static StaticClass: any;
 	static GetClassObject(): Class;
-	static GetDefaultObject(): VRNotificationsComponent;
+	static GetDefaultObject(): WidgetBinding;
 	static GetDefaultSubobjectByName(Name: string): UObject;
 	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): VRNotificationsComponent;
-	static C(Other: UObject): VRNotificationsComponent;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): WidgetBinding;
+	GetValue(): Widget;
+	static C(Other: UObject): WidgetBinding;
 }
 
-declare class VREditorBaseUserWidget extends UserWidget { 
-	Owner: any;
+declare class RichTextBlockDecorator extends UObject { 
+	bReveal: boolean;
+	RevealedIndex: number;
 	constructor();
 	constructor(Outer: UObject);
-	static Load(ResourceName: string): VREditorBaseUserWidget;
-	static Find(Outer: UObject, ResourceName: string): VREditorBaseUserWidget;
+	static Load(ResourceName: string): RichTextBlockDecorator;
+	static Find(Outer: UObject, ResourceName: string): RichTextBlockDecorator;
 	static StaticClass: any;
 	static GetClassObject(): Class;
-	static GetDefaultObject(): VREditorBaseUserWidget;
+	static GetDefaultObject(): RichTextBlockDecorator;
 	static GetDefaultSubobjectByName(Name: string): UObject;
 	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): VREditorBaseUserWidget;
-	static C(Other: UObject): VREditorBaseUserWidget;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): RichTextBlockDecorator;
+	static C(Other: UObject): RichTextBlockDecorator;
 }
 
-declare type EVREditorWidgetDrawingPolicy = 'Always' | 'Hovering';
-declare var EVREditorWidgetDrawingPolicy : { Always:'Always',Hovering:'Hovering', };
-declare class VREditorWidgetComponent extends WidgetComponent { 
-	DrawingPolicy: EVREditorWidgetDrawingPolicy;
-	bIsHovering: boolean;
-	bHasEverDrawn: boolean;
+declare class SlateBlueprintLibrary extends BlueprintFunctionLibrary { 
 	constructor();
 	constructor(Outer: UObject);
-	static Load(ResourceName: string): VREditorWidgetComponent;
-	static Find(Outer: UObject, ResourceName: string): VREditorWidgetComponent;
+	static Load(ResourceName: string): SlateBlueprintLibrary;
+	static Find(Outer: UObject, ResourceName: string): SlateBlueprintLibrary;
 	static StaticClass: any;
 	static GetClassObject(): Class;
-	static GetDefaultObject(): VREditorWidgetComponent;
+	static GetDefaultObject(): SlateBlueprintLibrary;
 	static GetDefaultSubobjectByName(Name: string): UObject;
 	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): VREditorWidgetComponent;
-	static C(Other: UObject): VREditorWidgetComponent;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): SlateBlueprintLibrary;
+	static ScreenToWidgetLocal(WorldContextObject: UObject,Geometry: Geometry,ScreenPosition: Vector2D,LocalCoordinate?: Vector2D): {LocalCoordinate: Vector2D};
+	static ScreenToWidgetAbsolute(WorldContextObject: UObject,ScreenPosition: Vector2D,AbsoluteCoordinate?: Vector2D): {AbsoluteCoordinate: Vector2D};
+	static LocalToViewport(WorldContextObject: UObject,Geometry: Geometry,LocalCoordinate: Vector2D,PixelPosition?: Vector2D,ViewportPosition?: Vector2D): {PixelPosition: Vector2D, ViewportPosition: Vector2D};
+	static LocalToAbsolute(Geometry: Geometry,LocalCoordinate: Vector2D): Vector2D;
+	static IsUnderLocation(Geometry: Geometry,AbsoluteCoordinate: Vector2D): boolean;
+	static GetLocalSize(Geometry: Geometry): Vector2D;
+	static AbsoluteToViewport(WorldContextObject: UObject,AbsoluteDesktopCoordinate: Vector2D,PixelPosition?: Vector2D,ViewportPosition?: Vector2D): {PixelPosition: Vector2D, ViewportPosition: Vector2D};
+	static AbsoluteToLocal(Geometry: Geometry,AbsoluteCoordinate: Vector2D): Vector2D;
+	static C(Other: UObject): SlateBlueprintLibrary;
 }
 
-declare class VREditorFloatingUI extends VREditorBaseActor { 
-	UserWidget: VREditorBaseUserWidget;
-	WidgetComponent: VREditorWidgetComponent;
-	UserWidgetClass: UnrealEngineClass;
-	constructor(InWorld: World, Location?: Vector, Rotation?: Rotator);
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): VREditorFloatingUI;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): VREditorFloatingUI;
-	static C(Other: UObject): VREditorFloatingUI;
-}
-
-declare class VREditorDockableWindow extends VREditorFloatingUI { 
-	WindowMeshComponent: StaticMeshComponent;
-	SelectionBarMeshComponent: StaticMeshComponent;
-	CloseButtonMeshComponent: StaticMeshComponent;
-	SelectionBarMID: MaterialInstanceDynamic;
-	SelectionBarTranslucentMID: MaterialInstanceDynamic;
-	CloseButtonMID: MaterialInstanceDynamic;
-	CloseButtonTranslucentMID: MaterialInstanceDynamic;
-	DragOperationComponent: ViewportDragOperationComponent;
-	constructor(InWorld: World, Location?: Vector, Rotation?: Rotator);
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): VREditorDockableWindow;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): VREditorDockableWindow;
-	static C(Other: UObject): VREditorDockableWindow;
-}
-
-declare class VREditorUISystem extends UObject { 
-	VRMode: VREditorMode;
-	FloatingUIs: VREditorFloatingUI[];
-	QuickMenuUI: VREditorFloatingUI;
-	EditorUIPanels: VREditorFloatingUI[];
-	QuickRadialMenu: VREditorFloatingUI;
-	DraggingUI: VREditorDockableWindow;
-	ColorPickerUI: VREditorDockableWindow;
-	StartDragUISound: SoundCue;
-	StopDragUISound: SoundCue;
-	HideUISound: SoundCue;
-	ShowUISound: SoundCue;
+declare class SlateDataSheet extends UObject { 
+	DataTexture: Texture2D;
 	constructor();
 	constructor(Outer: UObject);
-	static Load(ResourceName: string): VREditorUISystem;
-	static Find(Outer: UObject, ResourceName: string): VREditorUISystem;
+	static Load(ResourceName: string): SlateDataSheet;
+	static Find(Outer: UObject, ResourceName: string): SlateDataSheet;
 	static StaticClass: any;
 	static GetClassObject(): Class;
-	static GetDefaultObject(): VREditorUISystem;
+	static GetDefaultObject(): SlateDataSheet;
 	static GetDefaultSubobjectByName(Name: string): UObject;
 	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): VREditorUISystem;
-	static C(Other: UObject): VREditorUISystem;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): SlateDataSheet;
+	static C(Other: UObject): SlateDataSheet;
 }
 
-declare class VREditorTeleporter extends UObject { 
-	VRMode: VREditorMode;
-	TeleportSound: SoundCue;
+declare class SlateMeshVertex { 
+	Position: Vector2D;
+	Color: Color;
+	UV0: Vector2D;
+	UV1: Vector2D;
+	UV2: Vector2D;
+	UV3: Vector2D;
+	UV4: Vector2D;
+	UV5: Vector2D;
+	clone() : SlateMeshVertex;
+	static C(Other: UObject): SlateMeshVertex;
+}
+
+declare class SlateVectorArtData extends UObject { 
+	MeshAsset: StaticMesh;
+	SourceMaterial: MaterialInterface;
+	VertexData: SlateMeshVertex[];
+	IndexData: any[];
+	Material: MaterialInterface;
+	ExtentMin: Vector2D;
+	ExtentMax: Vector2D;
 	constructor();
 	constructor(Outer: UObject);
-	static Load(ResourceName: string): VREditorTeleporter;
-	static Find(Outer: UObject, ResourceName: string): VREditorTeleporter;
+	static Load(ResourceName: string): SlateVectorArtData;
+	static Find(Outer: UObject, ResourceName: string): SlateVectorArtData;
 	static StaticClass: any;
 	static GetClassObject(): Class;
-	static GetDefaultObject(): VREditorTeleporter;
+	static GetDefaultObject(): SlateVectorArtData;
 	static GetDefaultSubobjectByName(Name: string): UObject;
 	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): VREditorTeleporter;
-	static C(Other: UObject): VREditorTeleporter;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): SlateVectorArtData;
+	static C(Other: UObject): SlateVectorArtData;
 }
 
-declare class VREditorAutoScaler extends UObject { 
-	VRMode: VREditorMode;
-	ScaleSound: SoundCue;
+declare class ButtonSlot extends PanelSlot { 
+	Padding: Margin;
+	HorizontalAlignment: EHorizontalAlignment;
+	VerticalAlignment: EVerticalAlignment;
 	constructor();
 	constructor(Outer: UObject);
-	static Load(ResourceName: string): VREditorAutoScaler;
-	static Find(Outer: UObject, ResourceName: string): VREditorAutoScaler;
+	static Load(ResourceName: string): ButtonSlot;
+	static Find(Outer: UObject, ResourceName: string): ButtonSlot;
 	static StaticClass: any;
 	static GetClassObject(): Class;
-	static GetDefaultObject(): VREditorAutoScaler;
+	static GetDefaultObject(): ButtonSlot;
 	static GetDefaultSubobjectByName(Name: string): UObject;
 	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): VREditorAutoScaler;
-	static C(Other: UObject): VREditorAutoScaler;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): ButtonSlot;
+	SetVerticalAlignment(InVerticalAlignment: EVerticalAlignment): void;
+	SetPadding(InPadding: Margin): void;
+	SetHorizontalAlignment(InHorizontalAlignment: EHorizontalAlignment): void;
+	static C(Other: UObject): ButtonSlot;
 }
 
-declare class VREditorWorldInteraction extends UObject { 
-	Owner: VREditorMode;
-	ViewportWorldInteraction: ViewportWorldInteraction;
-	DropMaterialOrMaterialSound: SoundCue;
-	FloatingUIAssetDraggedFrom: WidgetComponent;
-	PlacingMaterialOrTextureAsset: UObject;
+declare class SafeZoneSlot extends PanelSlot { 
+	bIsTitleSafe: boolean;
+	SafeAreaScale: Margin;
+	HAlign: EHorizontalAlignment;
+	VAlign: EVerticalAlignment;
+	Padding: Margin;
 	constructor();
 	constructor(Outer: UObject);
-	static Load(ResourceName: string): VREditorWorldInteraction;
-	static Find(Outer: UObject, ResourceName: string): VREditorWorldInteraction;
+	static Load(ResourceName: string): SafeZoneSlot;
+	static Find(Outer: UObject, ResourceName: string): SafeZoneSlot;
 	static StaticClass: any;
 	static GetClassObject(): Class;
-	static GetDefaultObject(): VREditorWorldInteraction;
+	static GetDefaultObject(): SafeZoneSlot;
 	static GetDefaultSubobjectByName(Name: string): UObject;
 	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): VREditorWorldInteraction;
-	static C(Other: UObject): VREditorWorldInteraction;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): SafeZoneSlot;
+	static C(Other: UObject): SafeZoneSlot;
 }
 
-declare class VREditorInteractor extends ViewportInteractor { 
-	VRMode: VREditorMode;
+declare class ScaleBoxSlot extends PanelSlot { 
+	Padding: Margin;
+	HorizontalAlignment: EHorizontalAlignment;
+	VerticalAlignment: EVerticalAlignment;
 	constructor();
 	constructor(Outer: UObject);
-	static Load(ResourceName: string): VREditorInteractor;
-	static Find(Outer: UObject, ResourceName: string): VREditorInteractor;
+	static Load(ResourceName: string): ScaleBoxSlot;
+	static Find(Outer: UObject, ResourceName: string): ScaleBoxSlot;
 	static StaticClass: any;
 	static GetClassObject(): Class;
-	static GetDefaultObject(): VREditorInteractor;
+	static GetDefaultObject(): ScaleBoxSlot;
 	static GetDefaultSubobjectByName(Name: string): UObject;
 	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): VREditorInteractor;
-	static C(Other: UObject): VREditorInteractor;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): ScaleBoxSlot;
+	SetVerticalAlignment(InVerticalAlignment: EVerticalAlignment): void;
+	SetPadding(InPadding: Margin): void;
+	SetHorizontalAlignment(InHorizontalAlignment: EHorizontalAlignment): void;
+	static C(Other: UObject): ScaleBoxSlot;
 }
 
-declare class LightComponentBase extends SceneComponent { 
-	LightGuid: Guid;
-	Brightness: number;
-	Intensity: number;
-	LightColor: Color;
-	bAffectsWorld: boolean;
-	CastShadows: boolean;
-	CastStaticShadows: boolean;
-	CastDynamicShadows: boolean;
-	bAffectTranslucentLighting: boolean;
-	IndirectLightingIntensity: number;
-	StaticEditorTexture: Texture2D;
-	StaticEditorTextureScale: number;
-	DynamicEditorTexture: Texture2D;
-	DynamicEditorTextureScale: number;
+declare class ScrollBoxSlot extends PanelSlot { 
+	Padding: Margin;
+	HorizontalAlignment: EHorizontalAlignment;
 	constructor();
 	constructor(Outer: UObject);
-	static Load(ResourceName: string): LightComponentBase;
-	static Find(Outer: UObject, ResourceName: string): LightComponentBase;
+	static Load(ResourceName: string): ScrollBoxSlot;
+	static Find(Outer: UObject, ResourceName: string): ScrollBoxSlot;
 	static StaticClass: any;
 	static GetClassObject(): Class;
-	static GetDefaultObject(): LightComponentBase;
+	static GetDefaultObject(): ScrollBoxSlot;
 	static GetDefaultSubobjectByName(Name: string): UObject;
 	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): LightComponentBase;
-	SetCastShadows(bNewValue: boolean): void;
-	GetLightColor(): LinearColor;
-	static C(Other: UObject): LightComponentBase;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): ScrollBoxSlot;
+	SetPadding(InPadding: Margin): void;
+	SetHorizontalAlignment(InHorizontalAlignment: EHorizontalAlignment): void;
+	static C(Other: UObject): ScrollBoxSlot;
 }
 
-declare class TextureLightProfile extends Texture2D { 
-	Brightness: number;
-	TextureMultiplier: number;
+declare class SizeBoxSlot extends PanelSlot { 
+	Padding: Margin;
+	HorizontalAlignment: EHorizontalAlignment;
+	VerticalAlignment: EVerticalAlignment;
 	constructor();
 	constructor(Outer: UObject);
-	static Load(ResourceName: string): TextureLightProfile;
-	static Find(Outer: UObject, ResourceName: string): TextureLightProfile;
+	static Load(ResourceName: string): SizeBoxSlot;
+	static Find(Outer: UObject, ResourceName: string): SizeBoxSlot;
 	static StaticClass: any;
 	static GetClassObject(): Class;
-	static GetDefaultObject(): TextureLightProfile;
+	static GetDefaultObject(): SizeBoxSlot;
 	static GetDefaultSubobjectByName(Name: string): UObject;
 	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): TextureLightProfile;
-	static C(Other: UObject): TextureLightProfile;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): SizeBoxSlot;
+	SetVerticalAlignment(InVerticalAlignment: EVerticalAlignment): void;
+	SetPadding(InPadding: Margin): void;
+	SetHorizontalAlignment(InHorizontalAlignment: EHorizontalAlignment): void;
+	static C(Other: UObject): SizeBoxSlot;
 }
 
-declare class LightComponent extends LightComponentBase { 
-	Temperature: number;
-	MaxDrawDistance: number;
-	MaxDistanceFadeRange: number;
-	bUseTemperature: boolean;
-	ShadowMapChannel: number;
-	MinRoughness: number;
-	ShadowBias: number;
-	ShadowSharpen: number;
-	ContactShadowLength: number;
-	InverseSquaredFalloff: boolean;
-	CastTranslucentShadows: boolean;
-	bCastShadowsFromCinematicObjectsOnly: boolean;
-	bAffectDynamicIndirectLighting: boolean;
-	LightingChannels: LightingChannels;
-	LightFunctionMaterial: MaterialInterface;
-	LightFunctionScale: Vector;
-	IESTexture: TextureLightProfile;
-	bUseIESBrightness: boolean;
-	IESBrightnessScale: number;
-	LightFunctionFadeDistance: number;
-	DisabledBrightness: number;
-	bEnableLightShaftBloom: boolean;
-	BloomScale: number;
-	BloomThreshold: number;
-	BloomTint: Color;
-	bUseRayTracedDistanceFieldShadows: boolean;
-	RayStartOffsetDepthScale: number;
+declare class WidgetSwitcherSlot extends PanelSlot { 
+	Padding: Margin;
+	HorizontalAlignment: EHorizontalAlignment;
+	VerticalAlignment: EVerticalAlignment;
 	constructor();
 	constructor(Outer: UObject);
-	static Load(ResourceName: string): LightComponent;
-	static Find(Outer: UObject, ResourceName: string): LightComponent;
+	static Load(ResourceName: string): WidgetSwitcherSlot;
+	static Find(Outer: UObject, ResourceName: string): WidgetSwitcherSlot;
 	static StaticClass: any;
 	static GetClassObject(): Class;
-	static GetDefaultObject(): LightComponent;
+	static GetDefaultObject(): WidgetSwitcherSlot;
 	static GetDefaultSubobjectByName(Name: string): UObject;
 	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): LightComponent;
-	SetTemperature(NewTemperature: number): void;
-	SetLightFunctionScale(NewLightFunctionScale: Vector): void;
-	SetLightFunctionMaterial(NewLightFunctionMaterial: MaterialInterface): void;
-	SetLightFunctionFadeDistance(NewLightFunctionFadeDistance: number): void;
-	SetLightFunctionDisabledBrightness(NewValue: number): void;
-	SetLightColor(NewLightColor: LinearColor,bSRGB: boolean): void;
-	SetIntensity(NewIntensity: number): void;
-	SetIndirectLightingIntensity(NewIntensity: number): void;
-	SetIESTexture(NewValue: TextureLightProfile): void;
-	SetEnableLightShaftBloom(bNewValue: boolean): void;
-	SetBloomTint(NewValue: Color): void;
-	SetBloomThreshold(NewValue: number): void;
-	SetBloomScale(NewValue: number): void;
-	SetAffectTranslucentLighting(bNewValue: boolean): void;
-	SetAffectDynamicIndirectLighting(bNewValue: boolean): void;
-	static C(Other: UObject): LightComponent;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): WidgetSwitcherSlot;
+	SetVerticalAlignment(InVerticalAlignment: EVerticalAlignment): void;
+	SetPadding(InPadding: Margin): void;
+	SetHorizontalAlignment(InHorizontalAlignment: EHorizontalAlignment): void;
+	static C(Other: UObject): WidgetSwitcherSlot;
 }
 
-declare class LightmassLightSettings { 
-	IndirectLightingSaturation: number;
-	ShadowExponent: number;
-	bUseAreaShadowsForStationaryLight: boolean;
-	clone() : LightmassLightSettings;
-	static C(Other: UObject): LightmassLightSettings;
+declare class WindowTitleBarAreaSlot extends PanelSlot { 
+	Padding: Margin;
+	HorizontalAlignment: EHorizontalAlignment;
+	VerticalAlignment: EVerticalAlignment;
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): WindowTitleBarAreaSlot;
+	static Find(Outer: UObject, ResourceName: string): WindowTitleBarAreaSlot;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): WindowTitleBarAreaSlot;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): WindowTitleBarAreaSlot;
+	SetVerticalAlignment(InVerticalAlignment: EVerticalAlignment): void;
+	SetPadding(InPadding: Margin): void;
+	SetHorizontalAlignment(InHorizontalAlignment: EHorizontalAlignment): void;
+	static C(Other: UObject): WindowTitleBarAreaSlot;
 }
 
-declare class LightmassPointLightSettings extends LightmassLightSettings { 
-	clone() : LightmassPointLightSettings;
-	static C(Other: UObject): LightmassPointLightSettings;
+declare class WrapBoxSlot extends PanelSlot { 
+	Padding: Margin;
+	bFillEmptySpace: boolean;
+	FillSpanWhenLessThan: number;
+	HorizontalAlignment: EHorizontalAlignment;
+	VerticalAlignment: EVerticalAlignment;
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): WrapBoxSlot;
+	static Find(Outer: UObject, ResourceName: string): WrapBoxSlot;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): WrapBoxSlot;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): WrapBoxSlot;
+	SetVerticalAlignment(InVerticalAlignment: EVerticalAlignment): void;
+	SetPadding(InPadding: Margin): void;
+	SetHorizontalAlignment(InHorizontalAlignment: EHorizontalAlignment): void;
+	SetFillSpanWhenLessThan(InFillSpanWhenLessThan: number): void;
+	SetFillEmptySpace(InbFillEmptySpace: boolean): void;
+	static C(Other: UObject): WrapBoxSlot;
 }
 
-declare class PointLightComponent extends LightComponent { 
+declare class CircularThrobber extends Widget { 
+	NumberOfPieces: number;
+	Period: number;
 	Radius: number;
-	AttenuationRadius: number;
-	bUseInverseSquaredFalloff: boolean;
-	LightFalloffExponent: number;
-	SourceRadius: number;
-	SourceLength: number;
-	LightmassSettings: LightmassPointLightSettings;
+	PieceImage: SlateBrushAsset;
+	UImage: SlateBrush;
+	bEnableRadius: boolean;
 	constructor();
 	constructor(Outer: UObject);
-	static Load(ResourceName: string): PointLightComponent;
-	static Find(Outer: UObject, ResourceName: string): PointLightComponent;
+	static Load(ResourceName: string): CircularThrobber;
+	static Find(Outer: UObject, ResourceName: string): CircularThrobber;
 	static StaticClass: any;
 	static GetClassObject(): Class;
-	static GetDefaultObject(): PointLightComponent;
+	static GetDefaultObject(): CircularThrobber;
 	static GetDefaultSubobjectByName(Name: string): UObject;
 	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): PointLightComponent;
-	SetSourceRadius(bNewValue: number): void;
-	SetSourceLength(NewValue: number): void;
-	SetLightFalloffExponent(NewLightFalloffExponent: number): void;
-	SetAttenuationRadius(NewRadius: number): void;
-	static C(Other: UObject): PointLightComponent;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): CircularThrobber;
+	SetRadius(InRadius: number): void;
+	SetPeriod(InPeriod: number): void;
+	SetNumberOfPieces(InNumberOfPieces: number): void;
+	static C(Other: UObject): CircularThrobber;
 }
 
-declare class VREditorMotionControllerInteractor extends VREditorInteractor { 
-	MotionControllerComponent: MotionControllerComponent;
-	HandMeshComponent: StaticMeshComponent;
-	LaserPointerMeshComponent: StaticMeshComponent;
-	LaserPointerMID: MaterialInstanceDynamic;
-	TranslucentLaserPointerMID: MaterialInstanceDynamic;
-	HoverMeshComponent: StaticMeshComponent;
-	HoverPointLightComponent: PointLightComponent;
-	HandMeshMID: MaterialInstanceDynamic;
+declare class ComboBox extends Widget { 
+	Items: UObject[];
+	OnGenerateWidgetEvent: UnrealEngineDelegate<(Item: UObject) => Widget>;
 	constructor();
 	constructor(Outer: UObject);
-	static Load(ResourceName: string): VREditorMotionControllerInteractor;
-	static Find(Outer: UObject, ResourceName: string): VREditorMotionControllerInteractor;
+	static Load(ResourceName: string): ComboBox;
+	static Find(Outer: UObject, ResourceName: string): ComboBox;
 	static StaticClass: any;
 	static GetClassObject(): Class;
-	static GetDefaultObject(): VREditorMotionControllerInteractor;
+	static GetDefaultObject(): ComboBox;
 	static GetDefaultSubobjectByName(Name: string): UObject;
 	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): VREditorMotionControllerInteractor;
-	static C(Other: UObject): VREditorMotionControllerInteractor;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): ComboBox;
+	static C(Other: UObject): ComboBox;
 }
 
-declare class VREditorMode extends UObject { 
-	UISystem: VREditorUISystem;
-	TeleporterSystem: VREditorTeleporter;
-	AutoScalerSystem: VREditorAutoScaler;
-	WorldInteraction: ViewportWorldInteraction;
-	VRWorldInteractionExtension: VREditorWorldInteraction;
-	MouseCursorInteractor: MouseCursorInteractor;
-	LeftHandInteractor: VREditorMotionControllerInteractor;
-	RightHandInteractor: VREditorMotionControllerInteractor;
+declare class TableRowStyle extends SlateWidgetStyle { 
+	SelectorFocusedBrush: SlateBrush;
+	ActiveHoveredBrush: SlateBrush;
+	ActiveBrush: SlateBrush;
+	InactiveHoveredBrush: SlateBrush;
+	InactiveBrush: SlateBrush;
+	EvenRowBackgroundHoveredBrush: SlateBrush;
+	EvenRowBackgroundBrush: SlateBrush;
+	OddRowBackgroundHoveredBrush: SlateBrush;
+	OddRowBackgroundBrush: SlateBrush;
+	TextColor: SlateColor;
+	SelectedTextColor: SlateColor;
+	DropIndicator_Above: SlateBrush;
+	DropIndicator_Onto: SlateBrush;
+	DropIndicator_Below: SlateBrush;
+	clone() : TableRowStyle;
+	static C(Other: UObject): TableRowStyle;
+}
+
+declare type ESelectInfo = 'OnKeyPress' | 'OnNavigation' | 'OnMouseClick' | 'Direct';
+declare var ESelectInfo : { OnKeyPress:'OnKeyPress',OnNavigation:'OnNavigation',OnMouseClick:'OnMouseClick',Direct:'Direct', };
+declare class ComboBoxString extends Widget { 
+	DefaultOptions: string[];
+	SelectedOption: string;
+	WidgetStyle: ComboBoxStyle;
+	ItemStyle: TableRowStyle;
+	ContentPadding: Margin;
+	MaxListHeight: number;
+	HasDownArrow: boolean;
+	EnableGamepadNavigationMode: boolean;
+	Font: SlateFontInfo;
+	ForegroundColor: SlateColor;
+	OnGenerateWidgetEvent: UnrealEngineDelegate<(Item: string) => Widget>;
+	OnSelectionChanged: UnrealEngineMulticastDelegate<(SelectedItem: string, SelectionType: ESelectInfo) => void>;
+	OnOpening: UnrealEngineMulticastDelegate<() => void>;
 	constructor();
 	constructor(Outer: UObject);
-	static Load(ResourceName: string): VREditorMode;
-	static Find(Outer: UObject, ResourceName: string): VREditorMode;
+	static Load(ResourceName: string): ComboBoxString;
+	static Find(Outer: UObject, ResourceName: string): ComboBoxString;
 	static StaticClass: any;
 	static GetClassObject(): Class;
-	static GetDefaultObject(): VREditorMode;
+	static GetDefaultObject(): ComboBoxString;
 	static GetDefaultSubobjectByName(Name: string): UObject;
 	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): VREditorMode;
-	static C(Other: UObject): VREditorMode;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): ComboBoxString;
+	SetSelectedOption(Option: string): void;
+	RemoveOption(Option: string): boolean;
+	RefreshOptions(): void;
+	GetSelectedOption(): string;
+	GetOptionCount(): number;
+	GetOptionAtIndex(Index: number): string;
+	FindOptionIndex(Option: string): number;
+	ClearSelection(): void;
+	ClearOptions(): void;
+	AddOption(Option: string): void;
+	static C(Other: UObject): ComboBoxString;
 }
 
-declare class VREditorBaseActor extends Actor { 
-	VRMode: VREditorMode;
-	constructor(InWorld: World, Location?: Vector, Rotation?: Rotator);
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): VREditorBaseActor;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): VREditorBaseActor;
-	static C(Other: UObject): VREditorBaseActor;
+declare type ETextShapingMethod = 'Auto' | 'KerningOnly' | 'FullShaping';
+declare var ETextShapingMethod : { Auto:'Auto',KerningOnly:'KerningOnly',FullShaping:'FullShaping', };
+declare type ETextFlowDirection = 'Auto' | 'LeftToRight' | 'RightToLeft';
+declare var ETextFlowDirection : { Auto:'Auto',LeftToRight:'LeftToRight',RightToLeft:'RightToLeft', };
+declare class ShapedTextOptions { 
+	bOverride_TextShapingMethod: boolean;
+	bOverride_TextFlowDirection: boolean;
+	TextShapingMethod: ETextShapingMethod;
+	TextFlowDirection: ETextFlowDirection;
+	clone() : ShapedTextOptions;
+	static C(Other: UObject): ShapedTextOptions;
 }
 
-declare class DockableWindowDragOperation extends ViewportDragOperation { 
+declare type ETextJustify = 'Left' | 'Center' | 'Right';
+declare var ETextJustify : { Left:'Left',Center:'Center',Right:'Right', };
+declare type ETextWrappingPolicy = 'DefaultWrapping' | 'AllowPerCharacterWrapping';
+declare var ETextWrappingPolicy : { DefaultWrapping:'DefaultWrapping',AllowPerCharacterWrapping:'AllowPerCharacterWrapping', };
+declare class TextLayoutWidget extends Widget { 
+	ShapedTextOptions: ShapedTextOptions;
+	Justification: ETextJustify;
+	AutoWrapText: boolean;
+	WrapTextAt: number;
+	WrappingPolicy: ETextWrappingPolicy;
+	Margin: Margin;
+	LineHeightPercentage: number;
 	constructor();
 	constructor(Outer: UObject);
-	static Load(ResourceName: string): DockableWindowDragOperation;
-	static Find(Outer: UObject, ResourceName: string): DockableWindowDragOperation;
+	static Load(ResourceName: string): TextLayoutWidget;
+	static Find(Outer: UObject, ResourceName: string): TextLayoutWidget;
 	static StaticClass: any;
 	static GetClassObject(): Class;
-	static GetDefaultObject(): DockableWindowDragOperation;
+	static GetDefaultObject(): TextLayoutWidget;
 	static GetDefaultSubobjectByName(Name: string): UObject;
 	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): DockableWindowDragOperation;
-	static C(Other: UObject): DockableWindowDragOperation;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): TextLayoutWidget;
+	static C(Other: UObject): TextLayoutWidget;
 }
 
-declare type EHorizTextAligment = 'EHTA_Left' | 'EHTA_Center' | 'EHTA_Right';
-declare var EHorizTextAligment : { EHTA_Left:'EHTA_Left',EHTA_Center:'EHTA_Center',EHTA_Right:'EHTA_Right', };
-declare type EVerticalTextAligment = 'EVRTA_TextTop' | 'EVRTA_TextCenter' | 'EVRTA_TextBottom' | 'EVRTA_QuadTop';
-declare var EVerticalTextAligment : { EVRTA_TextTop:'EVRTA_TextTop',EVRTA_TextCenter:'EVRTA_TextCenter',EVRTA_TextBottom:'EVRTA_TextBottom',EVRTA_QuadTop:'EVRTA_QuadTop', };
-declare class TextRenderComponent extends PrimitiveComponent { 
+declare type EVirtualKeyboardType = 'Default' | 'Number' | 'Web' | 'Email' | 'Password' | 'AlphaNumeric';
+declare var EVirtualKeyboardType : { Default:'Default',Number:'Number',Web:'Web',Email:'Email',Password:'Password',AlphaNumeric:'AlphaNumeric', };
+declare type ETextCommit = 'Default' | 'OnEnter' | 'OnUserMovedFocus' | 'OnCleared';
+declare var ETextCommit : { Default:'Default',OnEnter:'OnEnter',OnUserMovedFocus:'OnUserMovedFocus',OnCleared:'OnCleared', };
+declare class EditableText extends Widget { 
 	Text: string;
-	TextMaterial: MaterialInterface;
-	Font: Font;
-	HorizontalAlignment: EHorizTextAligment;
-	VerticalAlignment: EVerticalTextAligment;
-	TextRenderColor: Color;
-	XScale: number;
-	YScale: number;
-	WorldSize: number;
-	InvDefaultSize: number;
-	HorizSpacingAdjust: number;
-	VertSpacingAdjust: number;
-	bAlwaysRenderAsText: boolean;
+	TextDelegate: UnrealEngineDelegate<() => string>;
+	HintText: string;
+	HintTextDelegate: UnrealEngineDelegate<() => string>;
+	WidgetStyle: EditableTextStyle;
+	Style: SlateWidgetStyleAsset;
+	BackgroundImageSelected: SlateBrushAsset;
+	BackgroundImageComposing: SlateBrushAsset;
+	CaretImage: SlateBrushAsset;
+	Font: SlateFontInfo;
+	ColorAndOpacity: SlateColor;
+	IsReadOnly: boolean;
+	IsPassword: boolean;
+	MinimumDesiredWidth: number;
+	IsCaretMovedWhenGainFocus: boolean;
+	SelectAllTextWhenFocused: boolean;
+	RevertTextOnEscape: boolean;
+	ClearKeyboardFocusOnCommit: boolean;
+	SelectAllTextOnCommit: boolean;
+	AllowContextMenu: boolean;
+	KeyboardType: EVirtualKeyboardType;
+	ShapedTextOptions: ShapedTextOptions;
+	OnTextChanged: UnrealEngineMulticastDelegate<(Text: string) => void>;
+	OnTextCommitted: UnrealEngineMulticastDelegate<(Text: string, CommitMethod: ETextCommit) => void>;
 	constructor();
 	constructor(Outer: UObject);
-	static Load(ResourceName: string): TextRenderComponent;
-	static Find(Outer: UObject, ResourceName: string): TextRenderComponent;
+	static Load(ResourceName: string): EditableText;
+	static Find(Outer: UObject, ResourceName: string): EditableText;
 	static StaticClass: any;
 	static GetClassObject(): Class;
-	static GetDefaultObject(): TextRenderComponent;
+	static GetDefaultObject(): EditableText;
 	static GetDefaultSubobjectByName(Name: string): UObject;
 	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): TextRenderComponent;
-	SetYScale(Value: number): void;
-	SetXScale(Value: number): void;
-	SetWorldSize(Value: number): void;
-	SetVertSpacingAdjust(Value: number): void;
-	SetVerticalAlignment(Value: EVerticalTextAligment): void;
-	SetTextRenderColor(Value: Color): void;
-	SetTextMaterial(Material: MaterialInterface): void;
-	SetText(Value: string): void;
-	SetHorizSpacingAdjust(Value: number): void;
-	SetHorizontalAlignment(Value: EHorizTextAligment): void;
-	SetFont(Value: Font): void;
-	SetText(Value: string): void;
-	GetTextWorldSize(): Vector;
-	GetTextLocalSize(): Vector;
-	static C(Other: UObject): TextRenderComponent;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): EditableText;
+	SetText(InText: string): void;
+	SetIsReadOnly(InbIsReadyOnly: boolean): void;
+	SetIsPassword(InbIsPassword: boolean): void;
+	SetHintText(InHintText: string): void;
+	GetText(): string;
+	static C(Other: UObject): EditableText;
 }
 
-declare class FloatingText extends Actor { 
-	SceneComponent: SceneComponent;
-	FirstLineComponent: StaticMeshComponent;
-	JointSphereComponent: StaticMeshComponent;
-	SecondLineComponent: StaticMeshComponent;
-	TextComponent: TextRenderComponent;
-	MaskedTextMaterial: MaterialInterface;
-	TranslucentTextMaterial: MaterialInterface;
-	LineMaterial: MaterialInterface;
-	LineMaterialMID: MaterialInstanceDynamic;
+declare class EditableTextBox extends Widget { 
+	Text: string;
+	TextDelegate: UnrealEngineDelegate<() => string>;
+	WidgetStyle: EditableTextBoxStyle;
+	Style: SlateWidgetStyleAsset;
+	HintText: string;
+	HintTextDelegate: UnrealEngineDelegate<() => string>;
+	Font: SlateFontInfo;
+	ForegroundColor: LinearColor;
+	BackgroundColor: LinearColor;
+	ReadOnlyForegroundColor: LinearColor;
+	IsReadOnly: boolean;
+	IsPassword: boolean;
+	MinimumDesiredWidth: number;
+	Padding: Margin;
+	IsCaretMovedWhenGainFocus: boolean;
+	SelectAllTextWhenFocused: boolean;
+	RevertTextOnEscape: boolean;
+	ClearKeyboardFocusOnCommit: boolean;
+	SelectAllTextOnCommit: boolean;
+	AllowContextMenu: boolean;
+	KeyboardType: EVirtualKeyboardType;
+	ShapedTextOptions: ShapedTextOptions;
+	OnTextChanged: UnrealEngineMulticastDelegate<(Text: string) => void>;
+	OnTextCommitted: UnrealEngineMulticastDelegate<(Text: string, CommitMethod: ETextCommit) => void>;
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): EditableTextBox;
+	static Find(Outer: UObject, ResourceName: string): EditableTextBox;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): EditableTextBox;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): EditableTextBox;
+	SetText(InText: string): void;
+	SetError(InError: string): void;
+	HasError(): boolean;
+	GetText(): string;
+	ClearError(): void;
+	static C(Other: UObject): EditableTextBox;
+}
+
+declare class ExpandableAreaStyle extends SlateWidgetStyle { 
+	CollapsedImage: SlateBrush;
+	ExpandedImage: SlateBrush;
+	clone() : ExpandableAreaStyle;
+	static C(Other: UObject): ExpandableAreaStyle;
+}
+
+declare class ExpandableArea extends Widget { 
+	Style: ExpandableAreaStyle;
+	BorderBrush: SlateBrush;
+	BorderColor: SlateColor;
+	bIsExpanded: boolean;
+	MaxHeight: number;
+	HeaderPadding: Margin;
+	AreaPadding: Margin;
+	OnExpansionChanged: UnrealEngineMulticastDelegate<(Area: ExpandableArea, bIsExpanded: boolean) => void>;
+	HeaderContent: Widget;
+	BodyContent: Widget;
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): ExpandableArea;
+	static Find(Outer: UObject, ResourceName: string): ExpandableArea;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): ExpandableArea;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): ExpandableArea;
+	SetIsExpanded(IsExpanded: boolean): void;
+	GetIsExpanded(): boolean;
+	static C(Other: UObject): ExpandableArea;
+}
+
+declare class UImage extends Widget { 
+	UImage: SlateBrushAsset;
+	Brush: SlateBrush;
+	BrushDelegate: UnrealEngineDelegate<() => SlateBrush>;
+	ColorAndOpacity: LinearColor;
+	ColorAndOpacityDelegate: UnrealEngineDelegate<() => LinearColor>;
+	OnMouseButtonDownEvent: UnrealEngineDelegate<(MyGeometry: Geometry, MouseEvent: UPointerEvent) => EventReply>;
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): UImage;
+	static Find(Outer: UObject, ResourceName: string): UImage;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): UImage;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): UImage;
+	SetOpacity(InOpacity: number): void;
+	SetColorAndOpacity(InColorAndOpacity: LinearColor): void;
+	SetBrushFromTexture(Texture: Texture2D,bMatchSize: boolean): void;
+	SetBrushFromMaterial(Material: MaterialInterface): void;
+	SetBrushFromAsset(Asset: SlateBrushAsset): void;
+	SetBrush(InBrush: SlateBrush): void;
+	GetDynamicMaterial(): MaterialInstanceDynamic;
+	static C(Other: UObject): UImage;
+}
+
+declare class InputKeySelector extends Widget { 
+	SelectedKey: InputChord;
+	Font: SlateFontInfo;
+	Margin: Margin;
+	ColorAndOpacity: LinearColor;
+	KeySelectionText: string;
+	bAllowModifierKeys: boolean;
+	OnKeySelected: UnrealEngineMulticastDelegate<(SelectedKey: InputChord) => void>;
+	OnIsSelectingKeyChanged: UnrealEngineMulticastDelegate<() => void>;
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): InputKeySelector;
+	static Find(Outer: UObject, ResourceName: string): InputKeySelector;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): InputKeySelector;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): InputKeySelector;
+	SetSelectedKey(InSelectedKey: InputChord): void;
+	SetKeySelectionText(InKeySelectionText: string): void;
+	SetAllowModifierKeys(bInAllowModifierKeys: boolean): void;
+	GetIsSelectingKey(): boolean;
+	static C(Other: UObject): InputKeySelector;
+}
+
+declare class NativeWidgetHost extends Widget { 
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): NativeWidgetHost;
+	static Find(Outer: UObject, ResourceName: string): NativeWidgetHost;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): NativeWidgetHost;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): NativeWidgetHost;
+	static C(Other: UObject): NativeWidgetHost;
+}
+
+declare class CanvasPanel extends PanelWidget { 
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): CanvasPanel;
+	static Find(Outer: UObject, ResourceName: string): CanvasPanel;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): CanvasPanel;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): CanvasPanel;
+	AddChildToCanvas(Content: Widget): CanvasPanelSlot;
+	static C(Other: UObject): CanvasPanel;
+}
+
+declare class ContentWidget extends PanelWidget { 
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): ContentWidget;
+	static Find(Outer: UObject, ResourceName: string): ContentWidget;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): ContentWidget;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): ContentWidget;
+	SetContent(Content: Widget): PanelSlot;
+	GetContentSlot(): PanelSlot;
+	static C(Other: UObject): ContentWidget;
+}
+
+declare class Border extends ContentWidget { 
+	ContentColorAndOpacity: LinearColor;
+	ContentColorAndOpacityDelegate: UnrealEngineDelegate<() => LinearColor>;
+	Padding: Margin;
+	HorizontalAlignment: EHorizontalAlignment;
+	VerticalAlignment: EVerticalAlignment;
+	Background: SlateBrush;
+	BackgroundDelegate: UnrealEngineDelegate<() => SlateBrush>;
+	BrushColor: LinearColor;
+	BrushColorDelegate: UnrealEngineDelegate<() => LinearColor>;
+	DesiredSizeScale: Vector2D;
+	bShowEffectWhenDisabled: boolean;
+	OnMouseButtonDownEvent: UnrealEngineDelegate<(MyGeometry: Geometry, MouseEvent: UPointerEvent) => EventReply>;
+	OnMouseButtonUpEvent: UnrealEngineDelegate<(MyGeometry: Geometry, MouseEvent: UPointerEvent) => EventReply>;
+	OnMouseMoveEvent: UnrealEngineDelegate<(MyGeometry: Geometry, MouseEvent: UPointerEvent) => EventReply>;
+	OnMouseDoubleClickEvent: UnrealEngineDelegate<(MyGeometry: Geometry, MouseEvent: UPointerEvent) => EventReply>;
+	Brush: SlateBrushAsset;
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): Border;
+	static Find(Outer: UObject, ResourceName: string): Border;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): Border;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): Border;
+	SetVerticalAlignment(InVerticalAlignment: EVerticalAlignment): void;
+	SetPadding(InPadding: Margin): void;
+	SetHorizontalAlignment(InHorizontalAlignment: EHorizontalAlignment): void;
+	SetDesiredSizeScale(InScale: Vector2D): void;
+	SetContentColorAndOpacity(InContentColorAndOpacity: LinearColor): void;
+	SetBrushFromTexture(Texture: Texture2D): void;
+	SetBrushFromMaterial(Material: MaterialInterface): void;
+	SetBrushFromAsset(Asset: SlateBrushAsset): void;
+	SetBrushColor(InBrushColor: LinearColor): void;
+	SetBrush(InBrush: SlateBrush): void;
+	GetDynamicMaterial(): MaterialInstanceDynamic;
+	static C(Other: UObject): Border;
+}
+
+declare type EButtonClickMethod = 'DownAndUp' | 'MouseDown' | 'MouseUp' | 'PreciseClick';
+declare var EButtonClickMethod : { DownAndUp:'DownAndUp',MouseDown:'MouseDown',MouseUp:'MouseUp',PreciseClick:'PreciseClick', };
+declare type EButtonTouchMethod = 'DownAndUp' | 'PreciseTap';
+declare var EButtonTouchMethod : { DownAndUp:'DownAndUp',PreciseTap:'PreciseTap', };
+declare class Button extends ContentWidget { 
+	Style: SlateWidgetStyleAsset;
+	WidgetStyle: ButtonStyle;
+	ColorAndOpacity: LinearColor;
+	BackgroundColor: LinearColor;
+	ClickMethod: EButtonClickMethod;
+	TouchMethod: EButtonTouchMethod;
+	IsFocusable: boolean;
+	OnClicked: UnrealEngineMulticastDelegate<() => void>;
+	OnPressed: UnrealEngineMulticastDelegate<() => void>;
+	OnReleased: UnrealEngineMulticastDelegate<() => void>;
+	OnHovered: UnrealEngineMulticastDelegate<() => void>;
+	OnUnhovered: UnrealEngineMulticastDelegate<() => void>;
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): Button;
+	static Find(Outer: UObject, ResourceName: string): Button;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): Button;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): Button;
+	SetStyle(InStyle: ButtonStyle): void;
+	SetColorAndOpacity(InColorAndOpacity: LinearColor): void;
+	SetBackgroundColor(InBackgroundColor: LinearColor): void;
+	IsPressed(): boolean;
+	static C(Other: UObject): Button;
+}
+
+declare class CheckBox extends ContentWidget { 
+	CheckedState: ECheckBoxState;
+	CheckedStateDelegate: UnrealEngineDelegate<() => ECheckBoxState>;
+	WidgetStyle: CheckBoxStyle;
+	Style: SlateWidgetStyleAsset;
+	UncheckedImage: SlateBrushAsset;
+	UncheckedHoveredImage: SlateBrushAsset;
+	UncheckedPressedImage: SlateBrushAsset;
+	CheckedImage: SlateBrushAsset;
+	CheckedHoveredImage: SlateBrushAsset;
+	CheckedPressedImage: SlateBrushAsset;
+	UndeterminedImage: SlateBrushAsset;
+	UndeterminedHoveredImage: SlateBrushAsset;
+	UndeterminedPressedImage: SlateBrushAsset;
+	HorizontalAlignment: EHorizontalAlignment;
+	Padding: Margin;
+	BorderBackgroundColor: SlateColor;
+	IsFocusable: boolean;
+	OnCheckStateChanged: UnrealEngineMulticastDelegate<(bIsChecked: boolean) => void>;
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): CheckBox;
+	static Find(Outer: UObject, ResourceName: string): CheckBox;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): CheckBox;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): CheckBox;
+	SetIsChecked(InIsChecked: boolean): void;
+	SetCheckedState(InCheckedState: ECheckBoxState): void;
+	IsPressed(): boolean;
+	IsChecked(): boolean;
+	GetCheckedState(): ECheckBoxState;
+	static C(Other: UObject): CheckBox;
+}
+
+declare class InvalidationBox extends ContentWidget { 
+	bCanCache: boolean;
+	CacheRelativeTransforms: boolean;
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): InvalidationBox;
+	static Find(Outer: UObject, ResourceName: string): InvalidationBox;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): InvalidationBox;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): InvalidationBox;
+	SetCanCache(CanCache: boolean): void;
+	InvalidateCache(): void;
+	GetCanCache(): boolean;
+	static C(Other: UObject): InvalidationBox;
+}
+
+declare type EMenuPlacement = 'MenuPlacement_BelowAnchor' | 'MenuPlacement_CenteredBelowAnchor' | 'MenuPlacement_BelowRightAnchor' | 'MenuPlacement_ComboBox' | 'MenuPlacement_ComboBoxRight' | 'MenuPlacement_MenuRight' | 'MenuPlacement_AboveAnchor' | 'MenuPlacement_CenteredAboveAnchor' | 'MenuPlacement_AboveRightAnchor' | 'MenuPlacement_MenuLeft' | 'MenuPlacement_Center' | 'MenuPlacement_RightLeftCenter';
+declare var EMenuPlacement : { MenuPlacement_BelowAnchor:'MenuPlacement_BelowAnchor',MenuPlacement_CenteredBelowAnchor:'MenuPlacement_CenteredBelowAnchor',MenuPlacement_BelowRightAnchor:'MenuPlacement_BelowRightAnchor',MenuPlacement_ComboBox:'MenuPlacement_ComboBox',MenuPlacement_ComboBoxRight:'MenuPlacement_ComboBoxRight',MenuPlacement_MenuRight:'MenuPlacement_MenuRight',MenuPlacement_AboveAnchor:'MenuPlacement_AboveAnchor',MenuPlacement_CenteredAboveAnchor:'MenuPlacement_CenteredAboveAnchor',MenuPlacement_AboveRightAnchor:'MenuPlacement_AboveRightAnchor',MenuPlacement_MenuLeft:'MenuPlacement_MenuLeft',MenuPlacement_Center:'MenuPlacement_Center',MenuPlacement_RightLeftCenter:'MenuPlacement_RightLeftCenter', };
+declare class MenuAnchor extends ContentWidget { 
+	MenuClass: UnrealEngineClass;
+	OnGetMenuContentEvent: UnrealEngineDelegate<() => Widget>;
+	Placement: EMenuPlacement;
+	ShouldDeferPaintingAfterWindowContent: boolean;
+	UseApplicationMenuStack: boolean;
+	OnMenuOpenChanged: UnrealEngineMulticastDelegate<(bIsOpen: boolean) => void>;
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): MenuAnchor;
+	static Find(Outer: UObject, ResourceName: string): MenuAnchor;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): MenuAnchor;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MenuAnchor;
+	ToggleOpen(bFocusOnOpen: boolean): void;
+	ShouldOpenDueToClick(): boolean;
+	Open(bFocusMenu: boolean): void;
+	IsOpen(): boolean;
+	HasOpenSubMenus(): boolean;
+	GetMenuPosition(): Vector2D;
+	Close(): void;
+	static C(Other: UObject): MenuAnchor;
+}
+
+declare class NamedSlot extends ContentWidget { 
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): NamedSlot;
+	static Find(Outer: UObject, ResourceName: string): NamedSlot;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): NamedSlot;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): NamedSlot;
+	static C(Other: UObject): NamedSlot;
+}
+
+declare class RetainerBox extends ContentWidget { 
+	Phase: number;
+	PhaseCount: number;
+	EffectMaterial: MaterialInterface;
+	TextureParameter: string;
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): RetainerBox;
+	static Find(Outer: UObject, ResourceName: string): RetainerBox;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): RetainerBox;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): RetainerBox;
+	SetTextureParameter(TextureParameter: string): void;
+	SetEffectMaterial(EffectMaterial: MaterialInterface): void;
+	GetEffectMaterial(): MaterialInstanceDynamic;
+	static C(Other: UObject): RetainerBox;
+}
+
+declare class SafeZone extends ContentWidget { 
+	PadLeft: boolean;
+	PadRight: boolean;
+	PadTop: boolean;
+	PadBottom: boolean;
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): SafeZone;
+	static Find(Outer: UObject, ResourceName: string): SafeZone;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): SafeZone;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): SafeZone;
+	static C(Other: UObject): SafeZone;
+}
+
+declare type EStretch = 'None' | 'Fill' | 'ScaleToFit' | 'ScaleToFitX' | 'ScaleToFitY' | 'ScaleToFill' | 'ScaleBySafeZone' | 'UserSpecified';
+declare var EStretch : { None:'None',Fill:'Fill',ScaleToFit:'ScaleToFit',ScaleToFitX:'ScaleToFitX',ScaleToFitY:'ScaleToFitY',ScaleToFill:'ScaleToFill',ScaleBySafeZone:'ScaleBySafeZone',UserSpecified:'UserSpecified', };
+declare type EStretchDirection = 'Both' | 'DownOnly' | 'UpOnly';
+declare var EStretchDirection : { Both:'Both',DownOnly:'DownOnly',UpOnly:'UpOnly', };
+declare class ScaleBox extends ContentWidget { 
+	Stretch: EStretch;
+	StretchDirection: EStretchDirection;
+	UserSpecifiedScale: number;
+	IgnoreInheritedScale: boolean;
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): ScaleBox;
+	static Find(Outer: UObject, ResourceName: string): ScaleBox;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): ScaleBox;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): ScaleBox;
+	SetUserSpecifiedScale(InUserSpecifiedScale: number): void;
+	SetStretchDirection(InStretchDirection: EStretchDirection): void;
+	SetStretch(InStretch: EStretch): void;
+	SetIgnoreInheritedScale(bInIgnoreInheritedScale: boolean): void;
+	static C(Other: UObject): ScaleBox;
+}
+
+declare class SizeBox extends ContentWidget { 
+	bOverride_WidthOverride: boolean;
+	bOverride_HeightOverride: boolean;
+	bOverride_MinDesiredWidth: boolean;
+	bOverride_MinDesiredHeight: boolean;
+	bOverride_MaxDesiredWidth: boolean;
+	bOverride_MaxDesiredHeight: boolean;
+	bOverride_MaxAspectRatio: boolean;
+	WidthOverride: number;
+	HeightOverride: number;
+	MinDesiredWidth: number;
+	MinDesiredHeight: number;
+	MaxDesiredWidth: number;
+	MaxDesiredHeight: number;
+	MaxAspectRatio: number;
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): SizeBox;
+	static Find(Outer: UObject, ResourceName: string): SizeBox;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): SizeBox;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): SizeBox;
+	SetWidthOverride(InWidthOverride: number): void;
+	SetMinDesiredWidth(InMinDesiredWidth: number): void;
+	SetMinDesiredHeight(InMinDesiredHeight: number): void;
+	SetMaxDesiredWidth(InMaxDesiredWidth: number): void;
+	SetMaxDesiredHeight(InMaxDesiredHeight: number): void;
+	SetMaxAspectRatio(InMaxAspectRatio: number): void;
+	SetHeightOverride(InHeightOverride: number): void;
+	ClearWidthOverride(): void;
+	ClearMinDesiredWidth(): void;
+	ClearMinDesiredHeight(): void;
+	ClearMaxDesiredWidth(): void;
+	ClearMaxDesiredHeight(): void;
+	ClearMaxAspectRatio(): void;
+	ClearHeightOverride(): void;
+	static C(Other: UObject): SizeBox;
+}
+
+declare class Viewport extends ContentWidget { 
+	BackgroundColor: LinearColor;
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): Viewport;
+	static Find(Outer: UObject, ResourceName: string): Viewport;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): Viewport;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): Viewport;
+	Spawn(ActorClass: UnrealEngineClass): Actor;
+	SetViewRotation(Rotation: Rotator): void;
+	SetViewLocation(Location: Vector): void;
+	GetViewRotation(): Rotator;
+	GetViewportWorld(): World;
+	GetViewLocation(): Vector;
+	static C(Other: UObject): Viewport;
+}
+
+declare class WindowTitleBarArea extends ContentWidget { 
+	bDoubleClickTogglesFullscreen: boolean;
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): WindowTitleBarArea;
+	static Find(Outer: UObject, ResourceName: string): WindowTitleBarArea;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): WindowTitleBarArea;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): WindowTitleBarArea;
+	SetVerticalAlignment(InVerticalAlignment: EVerticalAlignment): void;
+	SetPadding(InPadding: Margin): void;
+	SetHorizontalAlignment(InHorizontalAlignment: EHorizontalAlignment): void;
+	static C(Other: UObject): WindowTitleBarArea;
+}
+
+declare class GridPanel extends PanelWidget { 
+	ColumnFill: number[];
+	RowFill: number[];
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): GridPanel;
+	static Find(Outer: UObject, ResourceName: string): GridPanel;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): GridPanel;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): GridPanel;
+	AddChildToGrid(Content: Widget): GridSlot;
+	static C(Other: UObject): GridPanel;
+}
+
+declare class HorizontalBox extends PanelWidget { 
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): HorizontalBox;
+	static Find(Outer: UObject, ResourceName: string): HorizontalBox;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): HorizontalBox;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): HorizontalBox;
+	AddChildToHorizontalBox(Content: Widget): HorizontalBoxSlot;
+	static C(Other: UObject): HorizontalBox;
+}
+
+declare class Overlay extends PanelWidget { 
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): Overlay;
+	static Find(Outer: UObject, ResourceName: string): Overlay;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): Overlay;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): Overlay;
+	AddChildToOverlay(Content: Widget): OverlaySlot;
+	static C(Other: UObject): Overlay;
+}
+
+declare type EOrientation = 'Orient_Horizontal' | 'Orient_Vertical';
+declare var EOrientation : { Orient_Horizontal:'Orient_Horizontal',Orient_Vertical:'Orient_Vertical', };
+declare type EConsumeMouseWheel = 'WhenScrollingPossible' | 'Always' | 'Never';
+declare var EConsumeMouseWheel : { WhenScrollingPossible:'WhenScrollingPossible',Always:'Always',Never:'Never', };
+declare class ScrollBox extends PanelWidget { 
+	WidgetStyle: ScrollBoxStyle;
+	WidgetBarStyle: ScrollBarStyle;
+	Style: SlateWidgetStyleAsset;
+	BarStyle: SlateWidgetStyleAsset;
+	Orientation: EOrientation;
+	ScrollBarVisibility: ESlateVisibility;
+	ConsumeMouseWheel: EConsumeMouseWheel;
+	ScrollbarThickness: Vector2D;
+	AlwaysShowScrollbar: boolean;
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): ScrollBox;
+	static Find(Outer: UObject, ResourceName: string): ScrollBox;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): ScrollBox;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): ScrollBox;
+	SetScrollOffset(NewScrollOffset: number): void;
+	ScrollWidgetIntoView(WidgetToFind: Widget,AnimateScroll: boolean): void;
+	ScrollToStart(): void;
+	ScrollToEnd(): void;
+	GetScrollOffset(): number;
+	static C(Other: UObject): ScrollBox;
+}
+
+declare class UniformGridPanel extends PanelWidget { 
+	SlotPadding: Margin;
+	MinDesiredSlotWidth: number;
+	MinDesiredSlotHeight: number;
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): UniformGridPanel;
+	static Find(Outer: UObject, ResourceName: string): UniformGridPanel;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): UniformGridPanel;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): UniformGridPanel;
+	SetSlotPadding(InSlotPadding: Margin): void;
+	SetMinDesiredSlotWidth(InMinDesiredSlotWidth: number): void;
+	SetMinDesiredSlotHeight(InMinDesiredSlotHeight: number): void;
+	AddChildToUniformGrid(Content: Widget): UniformGridSlot;
+	static C(Other: UObject): UniformGridPanel;
+}
+
+declare class VerticalBox extends PanelWidget { 
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): VerticalBox;
+	static Find(Outer: UObject, ResourceName: string): VerticalBox;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): VerticalBox;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): VerticalBox;
+	AddChildToVerticalBox(Content: Widget): VerticalBoxSlot;
+	static C(Other: UObject): VerticalBox;
+}
+
+declare class WidgetSwitcher extends PanelWidget { 
+	ActiveWidgetIndex: number;
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): WidgetSwitcher;
+	static Find(Outer: UObject, ResourceName: string): WidgetSwitcher;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): WidgetSwitcher;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): WidgetSwitcher;
+	SetActiveWidgetIndex(Index: number): void;
+	SetActiveWidget(Widget: Widget): void;
+	GetWidgetAtIndex(Index: number): Widget;
+	GetNumWidgets(): number;
+	GetActiveWidgetIndex(): number;
+	static C(Other: UObject): WidgetSwitcher;
+}
+
+declare class WrapBox extends PanelWidget { 
+	InnerSlotPadding: Vector2D;
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): WrapBox;
+	static Find(Outer: UObject, ResourceName: string): WrapBox;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): WrapBox;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): WrapBox;
+	SetInnerSlotPadding(InPadding: Vector2D): void;
+	AddChildWrapBox(Content: Widget): WrapBoxSlot;
+	static C(Other: UObject): WrapBox;
+}
+
+declare type EProgressBarFillType = 'LeftToRight' | 'RightToLeft' | 'FillFromCenter' | 'TopToBottom' | 'BottomToTop';
+declare var EProgressBarFillType : { LeftToRight:'LeftToRight',RightToLeft:'RightToLeft',FillFromCenter:'FillFromCenter',TopToBottom:'TopToBottom',BottomToTop:'BottomToTop', };
+declare class ProgressBar extends Widget { 
+	WidgetStyle: ProgressBarStyle;
+	Style: SlateWidgetStyleAsset;
+	BackgroundImage: SlateBrushAsset;
+	FillImage: SlateBrushAsset;
+	MarqueeImage: SlateBrushAsset;
+	Percent: number;
+	BarFillType: EProgressBarFillType;
+	bIsMarquee: boolean;
+	PercentDelegate: UnrealEngineDelegate<() => number>;
+	FillColorAndOpacity: LinearColor;
+	FillColorAndOpacityDelegate: UnrealEngineDelegate<() => LinearColor>;
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): ProgressBar;
+	static Find(Outer: UObject, ResourceName: string): ProgressBar;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): ProgressBar;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): ProgressBar;
+	SetPercent(InPercent: number): void;
+	SetIsMarquee(InbIsMarquee: boolean): void;
+	SetFillColorAndOpacity(InColor: LinearColor): void;
+	static C(Other: UObject): ProgressBar;
+}
+
+declare class ScrollBar extends Widget { 
+	WidgetStyle: ScrollBarStyle;
+	Style: SlateWidgetStyleAsset;
+	bAlwaysShowScrollbar: boolean;
+	Orientation: EOrientation;
+	Thickness: Vector2D;
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): ScrollBar;
+	static Find(Outer: UObject, ResourceName: string): ScrollBar;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): ScrollBar;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): ScrollBar;
+	SetState(InOffsetFraction: number,InThumbSizeFraction: number): void;
+	static C(Other: UObject): ScrollBar;
+}
+
+declare class SliderStyle extends SlateWidgetStyle { 
+	NormalBarImage: SlateBrush;
+	DisabledBarImage: SlateBrush;
+	NormalThumbImage: SlateBrush;
+	DisabledThumbImage: SlateBrush;
+	BarThickness: number;
+	clone() : SliderStyle;
+	static C(Other: UObject): SliderStyle;
+}
+
+declare class Slider extends Widget { 
+	Value: number;
+	ValueDelegate: UnrealEngineDelegate<() => number>;
+	WidgetStyle: SliderStyle;
+	Orientation: EOrientation;
+	SliderBarColor: LinearColor;
+	SliderHandleColor: LinearColor;
+	IndentHandle: boolean;
+	Locked: boolean;
+	StepSize: number;
+	IsFocusable: boolean;
+	OnMouseCaptureBegin: UnrealEngineMulticastDelegate<() => void>;
+	OnMouseCaptureEnd: UnrealEngineMulticastDelegate<() => void>;
+	OnControllerCaptureBegin: UnrealEngineMulticastDelegate<() => void>;
+	OnControllerCaptureEnd: UnrealEngineMulticastDelegate<() => void>;
+	OnValueChanged: UnrealEngineMulticastDelegate<(Value: number) => void>;
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): Slider;
+	static Find(Outer: UObject, ResourceName: string): Slider;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): Slider;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): Slider;
+	SetValue(InValue: number): void;
+	SetStepSize(InValue: number): void;
+	SetSliderHandleColor(InValue: LinearColor): void;
+	SetSliderBarColor(InValue: LinearColor): void;
+	SetLocked(InValue: boolean): void;
+	SetIndentHandle(InValue: boolean): void;
+	GetValue(): number;
+	static C(Other: UObject): Slider;
+}
+
+declare class Spacer extends Widget { 
+	Size: Vector2D;
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): Spacer;
+	static Find(Outer: UObject, ResourceName: string): Spacer;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): Spacer;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): Spacer;
+	SetSize(InSize: Vector2D): void;
+	static C(Other: UObject): Spacer;
+}
+
+declare class SpinBox extends Widget { 
+	Value: number;
+	ValueDelegate: UnrealEngineDelegate<() => number>;
+	WidgetStyle: SpinBoxStyle;
+	Style: SlateWidgetStyleAsset;
+	Delta: number;
+	SliderExponent: number;
+	Font: SlateFontInfo;
+	MinDesiredWidth: number;
+	ClearKeyboardFocusOnCommit: boolean;
+	SelectAllTextOnCommit: boolean;
+	ForegroundColor: SlateColor;
+	OnValueChanged: UnrealEngineMulticastDelegate<(InValue: number) => void>;
+	OnValueCommitted: UnrealEngineMulticastDelegate<(InValue: number, CommitMethod: ETextCommit) => void>;
+	OnBeginSliderMovement: UnrealEngineMulticastDelegate<() => void>;
+	OnEndSliderMovement: UnrealEngineMulticastDelegate<(InValue: number) => void>;
+	bOverride_MinValue: boolean;
+	bOverride_MaxValue: boolean;
+	bOverride_MinSliderValue: boolean;
+	bOverride_MaxSliderValue: boolean;
+	MinValue: number;
+	MaxValue: number;
+	MinSliderValue: number;
+	MaxSliderValue: number;
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): SpinBox;
+	static Find(Outer: UObject, ResourceName: string): SpinBox;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): SpinBox;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): SpinBox;
+	SetValue(NewValue: number): void;
+	SetMinValue(NewValue: number): void;
+	SetMinSliderValue(NewValue: number): void;
+	SetMaxValue(NewValue: number): void;
+	SetMaxSliderValue(NewValue: number): void;
+	SetForegroundColor(InForegroundColor: SlateColor): void;
+	GetValue(): number;
+	GetMinValue(): number;
+	GetMinSliderValue(): number;
+	GetMaxValue(): number;
+	GetMaxSliderValue(): number;
+	ClearMinValue(): void;
+	ClearMinSliderValue(): void;
+	ClearMaxValue(): void;
+	ClearMaxSliderValue(): void;
+	static C(Other: UObject): SpinBox;
+}
+
+declare class TableViewBase extends Widget { 
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): TableViewBase;
+	static Find(Outer: UObject, ResourceName: string): TableViewBase;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): TableViewBase;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): TableViewBase;
+	static C(Other: UObject): TableViewBase;
+}
+
+declare type ESelectionMode = 'None' | 'Single' | 'SingleToggle' | 'Multi';
+declare var ESelectionMode : { None:'None',Single:'Single',SingleToggle:'SingleToggle',Multi:'Multi', };
+declare class ListView extends TableViewBase { 
+	ItemHeight: number;
+	Items: UObject[];
+	SelectionMode: ESelectionMode;
+	OnGenerateRowEvent: UnrealEngineDelegate<(Item: UObject) => Widget>;
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): ListView;
+	static Find(Outer: UObject, ResourceName: string): ListView;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): ListView;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): ListView;
+	static C(Other: UObject): ListView;
+}
+
+declare class TileView extends TableViewBase { 
+	ItemWidth: number;
+	ItemHeight: number;
+	Items: UObject[];
+	SelectionMode: ESelectionMode;
+	OnGenerateTileEvent: UnrealEngineDelegate<(Item: UObject) => Widget>;
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): TileView;
+	static Find(Outer: UObject, ResourceName: string): TileView;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): TileView;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): TileView;
+	SetItemWidth(Width: number): void;
+	SetItemHeight(Height: number): void;
+	RequestListRefresh(): void;
+	static C(Other: UObject): TileView;
+}
+
+declare class MultiLineEditableText extends TextLayoutWidget { 
+	Text: string;
+	HintText: string;
+	HintTextDelegate: UnrealEngineDelegate<() => string>;
+	WidgetStyle: TextBlockStyle;
+	Font: SlateFontInfo;
+	AllowContextMenu: boolean;
+	OnTextChanged: UnrealEngineMulticastDelegate<(Text: string) => void>;
+	OnTextCommitted: UnrealEngineMulticastDelegate<(Text: string, CommitMethod: ETextCommit) => void>;
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): MultiLineEditableText;
+	static Find(Outer: UObject, ResourceName: string): MultiLineEditableText;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): MultiLineEditableText;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MultiLineEditableText;
+	SetText(InText: string): void;
+	GetText(): string;
+	static C(Other: UObject): MultiLineEditableText;
+}
+
+declare class MultiLineEditableTextBox extends TextLayoutWidget { 
+	Text: string;
+	HintText: string;
+	HintTextDelegate: UnrealEngineDelegate<() => string>;
+	WidgetStyle: EditableTextBoxStyle;
+	TextStyle: TextBlockStyle;
+	AllowContextMenu: boolean;
+	Style: SlateWidgetStyleAsset;
+	Font: SlateFontInfo;
+	ForegroundColor: LinearColor;
+	BackgroundColor: LinearColor;
+	ReadOnlyForegroundColor: LinearColor;
+	OnTextChanged: UnrealEngineMulticastDelegate<(Text: string) => void>;
+	OnTextCommitted: UnrealEngineMulticastDelegate<(Text: string, CommitMethod: ETextCommit) => void>;
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): MultiLineEditableTextBox;
+	static Find(Outer: UObject, ResourceName: string): MultiLineEditableTextBox;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): MultiLineEditableTextBox;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MultiLineEditableTextBox;
+	SetText(InText: string): void;
+	SetError(InError: string): void;
+	GetText(): string;
+	static C(Other: UObject): MultiLineEditableTextBox;
+}
+
+declare class RichTextBlock extends TextLayoutWidget { 
+	Text: string;
+	TextDelegate: UnrealEngineDelegate<() => string>;
+	Font: SlateFontInfo;
+	Color: LinearColor;
+	Decorators: RichTextBlockDecorator[];
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): RichTextBlock;
+	static Find(Outer: UObject, ResourceName: string): RichTextBlock;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): RichTextBlock;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): RichTextBlock;
+	static C(Other: UObject): RichTextBlock;
+}
+
+declare class TextBlock extends TextLayoutWidget { 
+	Text: string;
+	TextDelegate: UnrealEngineDelegate<() => string>;
+	ColorAndOpacity: SlateColor;
+	ColorAndOpacityDelegate: UnrealEngineDelegate<() => SlateColor>;
+	Font: SlateFontInfo;
+	ShadowOffset: Vector2D;
+	ShadowColorAndOpacity: LinearColor;
+	ShadowColorAndOpacityDelegate: UnrealEngineDelegate<() => LinearColor>;
+	MinDesiredWidth: number;
+	bWrapWithInvalidationPanel: boolean;
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): TextBlock;
+	static Find(Outer: UObject, ResourceName: string): TextBlock;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): TextBlock;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): TextBlock;
+	SetText(InText: string): void;
+	SetShadowOffset(InShadowOffset: Vector2D): void;
+	SetShadowColorAndOpacity(InShadowColorAndOpacity: LinearColor): void;
+	SetOpacity(InOpacity: number): void;
+	SetJustification(InJustification: ETextJustify): void;
+	SetFont(InFontInfo: SlateFontInfo): void;
+	SetColorAndOpacity(InColorAndOpacity: SlateColor): void;
+	GetText(): string;
+	static C(Other: UObject): TextBlock;
+}
+
+declare class Throbber extends Widget { 
+	NumberOfPieces: number;
+	bAnimateHorizontally: boolean;
+	bAnimateVertically: boolean;
+	bAnimateOpacity: boolean;
+	PieceImage: SlateBrushAsset;
+	UImage: SlateBrush;
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): Throbber;
+	static Find(Outer: UObject, ResourceName: string): Throbber;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): Throbber;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): Throbber;
+	SetNumberOfPieces(InNumberOfPieces: number): void;
+	SetAnimateVertically(bInAnimateVertically: boolean): void;
+	SetAnimateOpacity(bInAnimateOpacity: boolean): void;
+	SetAnimateHorizontally(bInAnimateHorizontally: boolean): void;
+	static C(Other: UObject): Throbber;
+}
+
+declare class EventGraphFastCallPair { 
+	FunctionToPatch: UFunction;
+	EventGraphCallOffset: number;
+	clone() : EventGraphFastCallPair;
+	static C(Other: UObject): EventGraphFastCallPair;
+}
+
+declare class BlueprintGeneratedClass extends Class { 
+	NumReplicatedProperties: number;
+	DynamicBindingObjects: DynamicBlueprintBinding[];
+	ComponentTemplates: ActorComponent[];
+	Timelines: TimelineTemplate[];
+	SimpleConstructionScript: SimpleConstructionScript;
+	InheritableComponentHandler: InheritableComponentHandler;
+	UberGraphFramePointerProperty: StructProperty;
+	UberGraphFunction: UFunction;
+	FastCallPairs: EventGraphFastCallPair[];
+	bHasInstrumentation: boolean;
+	OverridenArchetypeForCDO: UObject;
+	PropertyGuids: any;
+	CookedComponentInstancingData: any;
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): BlueprintGeneratedClass;
+	static Find(Outer: UObject, ResourceName: string): BlueprintGeneratedClass;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): BlueprintGeneratedClass;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): BlueprintGeneratedClass;
+	static C(Other: UObject): BlueprintGeneratedClass;
+}
+
+declare class DelegateRuntimeBinding { 
+	ObjectName: string;
+	PropertyName: string;
+	FunctionName: string;
+	SourcePath: DynamicPropertyPath;
+	Kind: EBindingKind;
+	clone() : DelegateRuntimeBinding;
+	static C(Other: UObject): DelegateRuntimeBinding;
+}
+
+declare class WidgetBlueprintGeneratedClass extends BlueprintGeneratedClass { 
+	WidgetTree: WidgetTree;
+	Bindings: DelegateRuntimeBinding[];
+	Animations: WidgetAnimation[];
+	NamedSlots: string[];
+	bCanEverTick: boolean;
+	bCanEverPaint: boolean;
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): WidgetBlueprintGeneratedClass;
+	static Find(Outer: UObject, ResourceName: string): WidgetBlueprintGeneratedClass;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): WidgetBlueprintGeneratedClass;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): WidgetBlueprintGeneratedClass;
+	static C(Other: UObject): WidgetBlueprintGeneratedClass;
+}
+
+declare class NavigationEvent extends InputEvent { 
+	clone() : NavigationEvent;
+	static C(Other: UObject): NavigationEvent;
+	GetInputEventFromNavigationEvent(): InputEvent;
+	static GetInputEventFromNavigationEvent(Event: NavigationEvent): InputEvent;
+}
+
+declare class WidgetBlueprintLibrary extends BlueprintFunctionLibrary { 
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): WidgetBlueprintLibrary;
+	static Find(Outer: UObject, ResourceName: string): WidgetBlueprintLibrary;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): WidgetBlueprintLibrary;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): WidgetBlueprintLibrary;
+	static UnlockMouse(Reply?: EventReply): {Reply: EventReply, $: EventReply};
+	static Unhandled(): EventReply;
+	static SetUserFocus(Reply?: EventReply,FocusWidget?: Widget,bInAllUsers?: boolean): {Reply: EventReply, $: EventReply};
+	static SetMousePosition(Reply?: EventReply,NewMousePosition?: Vector2D): {Reply: EventReply, $: EventReply};
+	static SetInputModeUIOnly(Target: PlayerController,InWidgetToFocus: Widget,InMouseLockMode: EMouseLockMode): void;
+	static SetInputModeUIOnly(Target: PlayerController,InWidgetToFocus: Widget,bLockMouseToViewport: boolean): void;
+	static SetInputMode_GameOnly(Target: PlayerController): void;
+	static SetInputModeGameAndUI(Target: PlayerController,InWidgetToFocus: Widget,InMouseLockMode: EMouseLockMode,bHideCursorDuringCapture: boolean): void;
+	static SetInputModeGameAndUI(Target: PlayerController,InWidgetToFocus: Widget,bLockMouseToViewport: boolean,bHideCursorDuringCapture: boolean): void;
+	static SetFocusToGameViewport(): void;
+	static SetBrushResourceToTexture(Brush?: SlateBrush,Texture?: Texture2D): {Brush: SlateBrush};
+	static SetBrushResourceToMaterial(Brush?: SlateBrush,Material?: MaterialInterface): {Brush: SlateBrush};
+	static ReleaseMouseCapture(Reply?: EventReply): {Reply: EventReply, $: EventReply};
+	static ReleaseJoystickCapture(Reply?: EventReply,bInAllJoysticks?: boolean): {Reply: EventReply, $: EventReply};
+	static NoResourceBrush(): SlateBrush;
+	static MakeBrushFromTexture(Texture: Texture2D,Width: number,Height: number): SlateBrush;
+	static MakeBrushFromMaterial(Material: MaterialInterface,Width: number,Height: number): SlateBrush;
+	static MakeBrushFromAsset(BrushAsset: SlateBrushAsset): SlateBrush;
+	static LockMouse(Reply?: EventReply,CapturingWidget?: Widget): {Reply: EventReply, $: EventReply};
+	static IsDragDropping(): boolean;
+	static Handled(): EventReply;
+	static GetSafeZonePadding(WorldContextObject: UObject,SafePadding?: Vector2D,SafePaddingScale?: Vector2D,SpillOverPadding?: Vector2D): {SafePadding: Vector2D, SafePaddingScale: Vector2D, SpillOverPadding: Vector2D};
+	static GetKeyEventFromAnalogInputEvent(Event: AnalogInputEvent): KeyEvent;
+	static GetInputEventFromPointerEvent(Event: UPointerEvent): InputEvent;
+	static GetInputEventFromNavigationEvent(Event: NavigationEvent): InputEvent;
+	static GetInputEventFromKeyEvent(Event: KeyEvent): InputEvent;
+	static GetInputEventFromControllerEvent(Event: ControllerEvent): InputEvent;
+	static GetInputEventFromCharacterEvent(Event: CharacterEvent): InputEvent;
+	static GetDynamicMaterial(Brush?: SlateBrush): {Brush: SlateBrush, $: MaterialInstanceDynamic};
+	static GetDragDroppingContent(): DragDropOperation;
+	static GetBrushResourceAsTexture2D(Brush?: SlateBrush): {Brush: SlateBrush, $: Texture2D};
+	static GetBrushResourceAsMaterial(Brush?: SlateBrush): {Brush: SlateBrush, $: MaterialInterface};
+	static GetBrushResource(Brush?: SlateBrush): {Brush: SlateBrush, $: UObject};
+	static GetAllWidgetsWithInterface(WorldContextObject: UObject,Interface: UnrealEngineClass,FoundWidgets?: UserWidget[],TopLevelOnly?: boolean): {FoundWidgets: UserWidget[]};
+	static GetAllWidgetsOfClass(WorldContextObject: UObject,FoundWidgets?: UserWidget[],WidgetClass?: UnrealEngineClass,TopLevelOnly?: boolean): {FoundWidgets: UserWidget[]};
+	static EndDragDrop(Reply?: EventReply): {Reply: EventReply, $: EventReply};
+	static DrawText(Context?: PaintContext,Text?: string,Position?: Vector2D,Font?: Font,FontSize?: number,FontTypeFace?: string,Tint?: LinearColor): {Context: PaintContext};
+	static DrawString(Context?: PaintContext,InString?: string,Position?: Vector2D,Tint?: LinearColor): {Context: PaintContext};
+	static DrawLines(Context?: PaintContext,Points?: Vector2D[],Tint?: LinearColor,bAntiAlias?: boolean): {Context: PaintContext};
+	static DrawLine(Context?: PaintContext,PositionA?: Vector2D,PositionB?: Vector2D,Tint?: LinearColor,bAntiAlias?: boolean): {Context: PaintContext};
+	static DrawBox(Context?: PaintContext,Position?: Vector2D,Size?: Vector2D,Brush?: SlateBrushAsset,Tint?: LinearColor): {Context: PaintContext};
+	static DismissAllMenus(): void;
+	static DetectDragIfPressed(UPointerEvent: UPointerEvent,WidgetDetectingDrag: Widget,DragKey: Key): EventReply;
+	static DetectDrag(Reply?: EventReply,WidgetDetectingDrag?: Widget,DragKey?: Key): {Reply: EventReply, $: EventReply};
+	static CreateDragDropOperation(OperationClass: UnrealEngineClass): DragDropOperation;
+	static CreateWidget(WorldContextObject: UObject,WidgetType: UnrealEngineClass,OwningPlayer: PlayerController): UserWidget;
+	static ClearUserFocus(Reply?: EventReply,bInAllUsers?: boolean): {Reply: EventReply, $: EventReply};
+	static CaptureMouse(Reply?: EventReply,CapturingWidget?: Widget): {Reply: EventReply, $: EventReply};
+	static CaptureJoystick(Reply?: EventReply,CapturingWidget?: Widget,bInAllJoysticks?: boolean): {Reply: EventReply, $: EventReply};
+	static CancelDragDrop(): void;
+	static C(Other: UObject): WidgetBlueprintLibrary;
+}
+
+declare type EWidgetInteractionSource = 'World' | 'Mouse' | 'CenterScreen' | 'Custom';
+declare var EWidgetInteractionSource : { World:'World',Mouse:'Mouse',CenterScreen:'CenterScreen',Custom:'Custom', };
+declare class WidgetInteractionComponent extends SceneComponent { 
+	OnHoveredWidgetChanged: UnrealEngineMulticastDelegate<(WidgetComponent: WidgetComponent, PreviousWidgetComponent: WidgetComponent) => void>;
+	VirtualUserIndex: number;
+	PointerIndex: number;
+	TraceChannel: ECollisionChannel;
+	InteractionDistance: number;
+	InteractionSource: EWidgetInteractionSource;
+	bEnableHitTesting: boolean;
+	bShowDebug: boolean;
+	DebugColor: LinearColor;
+	CustomHitResult: HitResult;
+	LocalHitLocation: Vector2D;
+	LastLocalHitLocation: Vector2D;
+	HoveredWidgetComponent: WidgetComponent;
+	LastHitResult: HitResult;
+	bIsHoveredWidgetInteractable: boolean;
+	bIsHoveredWidgetFocusable: boolean;
+	bIsHoveredWidgetHitTestVisible: boolean;
+	ArrowComponent: ArrowComponent;
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): WidgetInteractionComponent;
+	static Find(Outer: UObject, ResourceName: string): WidgetInteractionComponent;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): WidgetInteractionComponent;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): WidgetInteractionComponent;
+	SetCustomHitResult(HitResult: HitResult): void;
+	SendKeyChar(Characters: string,bRepeat: boolean): boolean;
+	ScrollWheel(ScrollDelta: number): void;
+	ReleasePointerKey(Key: Key): void;
+	ReleaseKey(Key: Key): boolean;
+	PressPointerKey(Key: Key): void;
+	PressKey(Key: Key,bRepeat: boolean): boolean;
+	PressAndReleaseKey(Key: Key): boolean;
+	IsOverInteractableWidget(): boolean;
+	IsOverHitTestVisibleWidget(): boolean;
+	IsOverFocusableWidget(): boolean;
+	GetLastHitResult(): HitResult;
+	GetHoveredWidgetComponent(): WidgetComponent;
+	Get2DHitLocation(): Vector2D;
+	static C(Other: UObject): WidgetInteractionComponent;
+}
+
+declare class WidgetLayoutLibrary extends BlueprintFunctionLibrary { 
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): WidgetLayoutLibrary;
+	static Find(Outer: UObject, ResourceName: string): WidgetLayoutLibrary;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): WidgetLayoutLibrary;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): WidgetLayoutLibrary;
+	static SlotAsVerticalBoxSlot(Widget: Widget): VerticalBoxSlot;
+	static SlotAsUniformGridSlot(Widget: Widget): UniformGridSlot;
+	static SlotAsOverlaySlot(Widget: Widget): OverlaySlot;
+	static SlotAsHorizontalBoxSlot(Widget: Widget): HorizontalBoxSlot;
+	static SlotAsGridSlot(Widget: Widget): GridSlot;
+	static SlotAsCanvasSlot(Widget: Widget): CanvasPanelSlot;
+	static SlotAsBorderSlot(Widget: Widget): BorderSlot;
+	static RemoveAllWidgets(WorldContextObject: UObject): void;
+	static ProjectWorldLocationToWidgetPosition(PlayerController: PlayerController,WorldLocation: Vector,ScreenPosition?: Vector2D): {ScreenPosition: Vector2D, $: boolean};
+	static GetViewportSize(WorldContextObject: UObject): Vector2D;
+	static GetViewportScale(WorldContextObject: UObject): number;
+	static GetMousePositionScaledByDPI(Player: PlayerController,LocationX?: number,LocationY?: number): {LocationX: number, LocationY: number, $: boolean};
+	static C(Other: UObject): WidgetLayoutLibrary;
+}
+
+declare class MovieScene3DConstraintSection extends MovieSceneSection { 
+	ConstraintId: Guid;
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): MovieScene3DConstraintSection;
+	static Find(Outer: UObject, ResourceName: string): MovieScene3DConstraintSection;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): MovieScene3DConstraintSection;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MovieScene3DConstraintSection;
+	static C(Other: UObject): MovieScene3DConstraintSection;
+}
+
+declare class MovieScene3DAttachSection extends MovieScene3DConstraintSection { 
+	AttachSocketName: string;
+	AttachComponentName: string;
+	bConstrainTx: boolean;
+	bConstrainTy: boolean;
+	bConstrainTz: boolean;
+	bConstrainRx: boolean;
+	bConstrainRy: boolean;
+	bConstrainRz: boolean;
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): MovieScene3DAttachSection;
+	static Find(Outer: UObject, ResourceName: string): MovieScene3DAttachSection;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): MovieScene3DAttachSection;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MovieScene3DAttachSection;
+	static C(Other: UObject): MovieScene3DAttachSection;
+}
+
+declare type MovieScene3DPathSection_Axis = 'X' | 'Y' | 'Z' | 'NEG_X' | 'NEG_Y' | 'NEG_Z';
+declare var MovieScene3DPathSection_Axis : { X:'X',Y:'Y',Z:'Z',NEG_X:'NEG_X',NEG_Y:'NEG_Y',NEG_Z:'NEG_Z', };
+declare class MovieScene3DPathSection extends MovieScene3DConstraintSection { 
+	TimingCurve: RichCurve;
+	FrontAxisEnum: MovieScene3DPathSection_Axis;
+	UpAxisEnum: MovieScene3DPathSection_Axis;
+	bFollow: boolean;
+	bReverse: boolean;
+	bForceUpright: boolean;
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): MovieScene3DPathSection;
+	static Find(Outer: UObject, ResourceName: string): MovieScene3DPathSection;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): MovieScene3DPathSection;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MovieScene3DPathSection;
+	static C(Other: UObject): MovieScene3DPathSection;
+}
+
+declare class MovieScene3DConstraintTrack extends MovieSceneTrack { 
+	ConstraintSections: MovieSceneSection[];
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): MovieScene3DConstraintTrack;
+	static Find(Outer: UObject, ResourceName: string): MovieScene3DConstraintTrack;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): MovieScene3DConstraintTrack;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MovieScene3DConstraintTrack;
+	static C(Other: UObject): MovieScene3DConstraintTrack;
+}
+
+declare class MovieScene3DAttachTrack extends MovieScene3DConstraintTrack { 
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): MovieScene3DAttachTrack;
+	static Find(Outer: UObject, ResourceName: string): MovieScene3DAttachTrack;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): MovieScene3DAttachTrack;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MovieScene3DAttachTrack;
+	static C(Other: UObject): MovieScene3DAttachTrack;
+}
+
+declare class MovieScene3DPathTrack extends MovieScene3DConstraintTrack { 
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): MovieScene3DPathTrack;
+	static Find(Outer: UObject, ResourceName: string): MovieScene3DPathTrack;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): MovieScene3DPathTrack;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MovieScene3DPathTrack;
+	static C(Other: UObject): MovieScene3DPathTrack;
+}
+
+declare type EShow3DTrajectory = 'EST_OnlyWhenSelected' | 'EST_Always' | 'EST_Never';
+declare var EShow3DTrajectory : { EST_OnlyWhenSelected:'EST_OnlyWhenSelected',EST_Always:'EST_Always',EST_Never:'EST_Never', };
+declare class MovieScene3DTransformSection extends MovieSceneSection { 
+	Translation: RichCurve;
+	Rotation: RichCurve;
+	Scale: RichCurve;
+	Show3DTrajectory: EShow3DTrajectory;
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): MovieScene3DTransformSection;
+	static Find(Outer: UObject, ResourceName: string): MovieScene3DTransformSection;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): MovieScene3DTransformSection;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MovieScene3DTransformSection;
+	static C(Other: UObject): MovieScene3DTransformSection;
+}
+
+declare class IntegralKey { 
+	Time: number;
+	Value: number;
+	clone() : IntegralKey;
+	static C(Other: UObject): IntegralKey;
+}
+
+declare class IntegralCurve extends IndexedCurve { 
+	Keys: IntegralKey[];
+	DefaultValue: number;
+	bUseDefaultValueBeforeFirstKey: boolean;
+	clone() : IntegralCurve;
+	static C(Other: UObject): IntegralCurve;
+}
+
+declare class MovieSceneActorReferenceSection extends MovieSceneSection { 
+	ActorGuidIndexCurve: IntegralCurve;
+	ActorGuidStrings: string[];
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): MovieSceneActorReferenceSection;
+	static Find(Outer: UObject, ResourceName: string): MovieSceneActorReferenceSection;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): MovieSceneActorReferenceSection;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MovieSceneActorReferenceSection;
+	static C(Other: UObject): MovieSceneActorReferenceSection;
+}
+
+declare class MovieSceneAudioSection extends MovieSceneSection { 
+	Sound: SoundBase;
+	AudioStartTime: number;
+	AudioDilationFactor: number;
+	AudioVolume: number;
+	bShowIntensity: boolean;
+	bSuppressSubtitles: boolean;
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): MovieSceneAudioSection;
+	static Find(Outer: UObject, ResourceName: string): MovieSceneAudioSection;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): MovieSceneAudioSection;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MovieSceneAudioSection;
+	static C(Other: UObject): MovieSceneAudioSection;
+}
+
+declare class MovieSceneAudioTrack extends MovieSceneNameableTrack { 
+	AudioSections: MovieSceneSection[];
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): MovieSceneAudioTrack;
+	static Find(Outer: UObject, ResourceName: string): MovieSceneAudioTrack;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): MovieSceneAudioTrack;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MovieSceneAudioTrack;
+	static C(Other: UObject): MovieSceneAudioTrack;
+}
+
+declare class MovieSceneBoolSection extends MovieSceneSection { 
+	DefaultValue: boolean;
+	BoolCurve: IntegralCurve;
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): MovieSceneBoolSection;
+	static Find(Outer: UObject, ResourceName: string): MovieSceneBoolSection;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): MovieSceneBoolSection;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MovieSceneBoolSection;
+	static C(Other: UObject): MovieSceneBoolSection;
+}
+
+declare class MovieSceneVisibilitySection extends MovieSceneBoolSection { 
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): MovieSceneVisibilitySection;
+	static Find(Outer: UObject, ResourceName: string): MovieSceneVisibilitySection;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): MovieSceneVisibilitySection;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MovieSceneVisibilitySection;
+	static C(Other: UObject): MovieSceneVisibilitySection;
+}
+
+declare class MovieSceneByteSection extends MovieSceneSection { 
+	ByteCurve: IntegralCurve;
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): MovieSceneByteSection;
+	static Find(Outer: UObject, ResourceName: string): MovieSceneByteSection;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): MovieSceneByteSection;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MovieSceneByteSection;
+	static C(Other: UObject): MovieSceneByteSection;
+}
+
+declare class MovieSceneCameraAnimSection extends MovieSceneSection { 
+	CameraAnim: CameraAnim;
+	PlayRate: number;
+	PlayScale: number;
+	BlendInTime: number;
+	BlendOutTime: number;
+	bLooping: boolean;
+	PlaySpace: ECameraAnimPlaySpace;
+	UserDefinedPlaySpace: Rotator;
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): MovieSceneCameraAnimSection;
+	static Find(Outer: UObject, ResourceName: string): MovieSceneCameraAnimSection;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): MovieSceneCameraAnimSection;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MovieSceneCameraAnimSection;
+	static C(Other: UObject): MovieSceneCameraAnimSection;
+}
+
+declare class MovieSceneCameraAnimTrack extends MovieSceneNameableTrack { 
+	CameraAnimSections: MovieSceneSection[];
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): MovieSceneCameraAnimTrack;
+	static Find(Outer: UObject, ResourceName: string): MovieSceneCameraAnimTrack;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): MovieSceneCameraAnimTrack;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MovieSceneCameraAnimTrack;
+	static C(Other: UObject): MovieSceneCameraAnimTrack;
+}
+
+declare class MovieSceneCameraCutSection extends MovieSceneSection { 
+	CameraGuid: Guid;
+	ThumbnailReferenceOffset: number;
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): MovieSceneCameraCutSection;
+	static Find(Outer: UObject, ResourceName: string): MovieSceneCameraCutSection;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): MovieSceneCameraCutSection;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MovieSceneCameraCutSection;
+	static C(Other: UObject): MovieSceneCameraCutSection;
+}
+
+declare class MovieSceneCameraCutTrack extends MovieSceneNameableTrack { 
+	Sections: MovieSceneSection[];
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): MovieSceneCameraCutTrack;
+	static Find(Outer: UObject, ResourceName: string): MovieSceneCameraCutTrack;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): MovieSceneCameraCutTrack;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MovieSceneCameraCutTrack;
+	static C(Other: UObject): MovieSceneCameraCutTrack;
+}
+
+declare class MovieSceneCameraShakeSection extends MovieSceneSection { 
+	ShakeClass: UnrealEngineClass;
+	PlayScale: number;
+	PlaySpace: ECameraAnimPlaySpace;
+	UserDefinedPlaySpace: Rotator;
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): MovieSceneCameraShakeSection;
+	static Find(Outer: UObject, ResourceName: string): MovieSceneCameraShakeSection;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): MovieSceneCameraShakeSection;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MovieSceneCameraShakeSection;
+	static C(Other: UObject): MovieSceneCameraShakeSection;
+}
+
+declare class MovieSceneCameraShakeTrack extends MovieSceneNameableTrack { 
+	CameraShakeSections: MovieSceneSection[];
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): MovieSceneCameraShakeTrack;
+	static Find(Outer: UObject, ResourceName: string): MovieSceneCameraShakeTrack;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): MovieSceneCameraShakeTrack;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MovieSceneCameraShakeTrack;
+	static C(Other: UObject): MovieSceneCameraShakeTrack;
+}
+
+declare class MovieSceneColorSection extends MovieSceneSection { 
+	RedCurve: RichCurve;
+	GreenCurve: RichCurve;
+	BlueCurve: RichCurve;
+	AlphaCurve: RichCurve;
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): MovieSceneColorSection;
+	static Find(Outer: UObject, ResourceName: string): MovieSceneColorSection;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): MovieSceneColorSection;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MovieSceneColorSection;
+	static C(Other: UObject): MovieSceneColorSection;
+}
+
+declare class NameCurveKey { 
+	Time: number;
+	Value: string;
+	clone() : NameCurveKey;
+	static C(Other: UObject): NameCurveKey;
+}
+
+declare class NameCurve extends IndexedCurve { 
+	Keys: NameCurveKey[];
+	clone() : NameCurve;
+	static C(Other: UObject): NameCurve;
+}
+
+declare class MovieSceneEventSection extends MovieSceneSection { 
+	Events: NameCurve;
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): MovieSceneEventSection;
+	static Find(Outer: UObject, ResourceName: string): MovieSceneEventSection;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): MovieSceneEventSection;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MovieSceneEventSection;
+	static C(Other: UObject): MovieSceneEventSection;
+}
+
+declare class MovieSceneEventTrack extends MovieSceneNameableTrack { 
+	bFireEventsWhenForwards: boolean;
+	bFireEventsWhenBackwards: boolean;
+	Sections: MovieSceneSection[];
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): MovieSceneEventTrack;
+	static Find(Outer: UObject, ResourceName: string): MovieSceneEventTrack;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): MovieSceneEventTrack;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MovieSceneEventTrack;
+	static C(Other: UObject): MovieSceneEventTrack;
+}
+
+declare class MovieSceneFloatSection extends MovieSceneSection { 
+	FloatCurve: RichCurve;
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): MovieSceneFloatSection;
+	static Find(Outer: UObject, ResourceName: string): MovieSceneFloatSection;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): MovieSceneFloatSection;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MovieSceneFloatSection;
+	static C(Other: UObject): MovieSceneFloatSection;
+}
+
+declare class MovieSceneFadeSection extends MovieSceneFloatSection { 
+	FadeColor: LinearColor;
+	bFadeAudio: boolean;
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): MovieSceneFadeSection;
+	static Find(Outer: UObject, ResourceName: string): MovieSceneFadeSection;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): MovieSceneFadeSection;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MovieSceneFadeSection;
+	static C(Other: UObject): MovieSceneFadeSection;
+}
+
+declare class MovieSceneSlomoSection extends MovieSceneFloatSection { 
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): MovieSceneSlomoSection;
+	static Find(Outer: UObject, ResourceName: string): MovieSceneSlomoSection;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): MovieSceneSlomoSection;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MovieSceneSlomoSection;
+	static C(Other: UObject): MovieSceneSlomoSection;
+}
+
+declare type ELevelVisibility = 'Visible' | 'Hidden';
+declare var ELevelVisibility : { Visible:'Visible',Hidden:'Hidden', };
+declare class MovieSceneLevelVisibilitySection extends MovieSceneSection { 
+	Visibility: ELevelVisibility;
+	LevelNames: string[];
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): MovieSceneLevelVisibilitySection;
+	static Find(Outer: UObject, ResourceName: string): MovieSceneLevelVisibilitySection;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): MovieSceneLevelVisibilitySection;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MovieSceneLevelVisibilitySection;
+	static C(Other: UObject): MovieSceneLevelVisibilitySection;
+}
+
+declare class MovieSceneLevelVisibilityTrack extends MovieSceneNameableTrack { 
+	Sections: MovieSceneSection[];
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): MovieSceneLevelVisibilityTrack;
+	static Find(Outer: UObject, ResourceName: string): MovieSceneLevelVisibilityTrack;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): MovieSceneLevelVisibilityTrack;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MovieSceneLevelVisibilityTrack;
+	static C(Other: UObject): MovieSceneLevelVisibilityTrack;
+}
+
+declare class ScalarParameterNameAndCurve { 
+	ParameterName: string;
+	Index: number;
+	ParameterCurve: RichCurve;
+	clone() : ScalarParameterNameAndCurve;
+	static C(Other: UObject): ScalarParameterNameAndCurve;
+}
+
+declare class VectorParameterNameAndCurves { 
+	ParameterName: string;
+	Index: number;
+	XCurve: RichCurve;
+	YCurve: RichCurve;
+	ZCurve: RichCurve;
+	clone() : VectorParameterNameAndCurves;
+	static C(Other: UObject): VectorParameterNameAndCurves;
+}
+
+declare class ColorParameterNameAndCurves { 
+	ParameterName: string;
+	Index: number;
+	RedCurve: RichCurve;
+	GreenCurve: RichCurve;
+	BlueCurve: RichCurve;
+	AlphaCurve: RichCurve;
+	clone() : ColorParameterNameAndCurves;
+	static C(Other: UObject): ColorParameterNameAndCurves;
+}
+
+declare class MovieSceneParameterSection extends MovieSceneSection { 
+	ScalarParameterNamesAndCurves: ScalarParameterNameAndCurve[];
+	VectorParameterNamesAndCurves: VectorParameterNameAndCurves[];
+	ColorParameterNamesAndCurves: ColorParameterNameAndCurves[];
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): MovieSceneParameterSection;
+	static Find(Outer: UObject, ResourceName: string): MovieSceneParameterSection;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): MovieSceneParameterSection;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MovieSceneParameterSection;
+	static C(Other: UObject): MovieSceneParameterSection;
+}
+
+declare class MovieSceneComponentMaterialTrack extends MovieSceneMaterialTrack { 
+	MaterialIndex: number;
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): MovieSceneComponentMaterialTrack;
+	static Find(Outer: UObject, ResourceName: string): MovieSceneComponentMaterialTrack;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): MovieSceneComponentMaterialTrack;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MovieSceneComponentMaterialTrack;
+	static C(Other: UObject): MovieSceneComponentMaterialTrack;
+}
+
+declare class MovieSceneParticleParameterTrack extends MovieSceneNameableTrack { 
+	Sections: MovieSceneSection[];
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): MovieSceneParticleParameterTrack;
+	static Find(Outer: UObject, ResourceName: string): MovieSceneParticleParameterTrack;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): MovieSceneParticleParameterTrack;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MovieSceneParticleParameterTrack;
+	static C(Other: UObject): MovieSceneParticleParameterTrack;
+}
+
+declare class MovieSceneParticleSection extends MovieSceneSection { 
+	ParticleKeys: IntegralCurve;
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): MovieSceneParticleSection;
+	static Find(Outer: UObject, ResourceName: string): MovieSceneParticleSection;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): MovieSceneParticleSection;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MovieSceneParticleSection;
+	static C(Other: UObject): MovieSceneParticleSection;
+}
+
+declare class MovieSceneParticleTrack extends MovieSceneNameableTrack { 
+	ParticleSections: MovieSceneSection[];
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): MovieSceneParticleTrack;
+	static Find(Outer: UObject, ResourceName: string): MovieSceneParticleTrack;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): MovieSceneParticleTrack;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MovieSceneParticleTrack;
+	static C(Other: UObject): MovieSceneParticleTrack;
+}
+
+declare class MovieScene3DTransformTrack extends MovieScenePropertyTrack { 
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): MovieScene3DTransformTrack;
+	static Find(Outer: UObject, ResourceName: string): MovieScene3DTransformTrack;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): MovieScene3DTransformTrack;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MovieScene3DTransformTrack;
+	static C(Other: UObject): MovieScene3DTransformTrack;
+}
+
+declare class MovieSceneActorReferenceTrack extends MovieScenePropertyTrack { 
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): MovieSceneActorReferenceTrack;
+	static Find(Outer: UObject, ResourceName: string): MovieSceneActorReferenceTrack;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): MovieSceneActorReferenceTrack;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MovieSceneActorReferenceTrack;
+	static C(Other: UObject): MovieSceneActorReferenceTrack;
+}
+
+declare class MovieSceneBoolTrack extends MovieScenePropertyTrack { 
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): MovieSceneBoolTrack;
+	static Find(Outer: UObject, ResourceName: string): MovieSceneBoolTrack;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): MovieSceneBoolTrack;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MovieSceneBoolTrack;
+	static C(Other: UObject): MovieSceneBoolTrack;
+}
+
+declare class MovieSceneVisibilityTrack extends MovieSceneBoolTrack { 
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): MovieSceneVisibilityTrack;
+	static Find(Outer: UObject, ResourceName: string): MovieSceneVisibilityTrack;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): MovieSceneVisibilityTrack;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MovieSceneVisibilityTrack;
+	static C(Other: UObject): MovieSceneVisibilityTrack;
+}
+
+declare class MovieSceneByteTrack extends MovieScenePropertyTrack { 
+	Enum: Enum;
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): MovieSceneByteTrack;
+	static Find(Outer: UObject, ResourceName: string): MovieSceneByteTrack;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): MovieSceneByteTrack;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MovieSceneByteTrack;
+	static C(Other: UObject): MovieSceneByteTrack;
+}
+
+declare class MovieSceneColorTrack extends MovieScenePropertyTrack { 
+	bIsSlateColor: boolean;
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): MovieSceneColorTrack;
+	static Find(Outer: UObject, ResourceName: string): MovieSceneColorTrack;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): MovieSceneColorTrack;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MovieSceneColorTrack;
+	static C(Other: UObject): MovieSceneColorTrack;
+}
+
+declare class MovieSceneFloatTrack extends MovieScenePropertyTrack { 
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): MovieSceneFloatTrack;
+	static Find(Outer: UObject, ResourceName: string): MovieSceneFloatTrack;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): MovieSceneFloatTrack;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MovieSceneFloatTrack;
+	static C(Other: UObject): MovieSceneFloatTrack;
+}
+
+declare class MovieSceneFadeTrack extends MovieSceneFloatTrack { 
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): MovieSceneFadeTrack;
+	static Find(Outer: UObject, ResourceName: string): MovieSceneFadeTrack;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): MovieSceneFadeTrack;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MovieSceneFadeTrack;
+	static C(Other: UObject): MovieSceneFadeTrack;
+}
+
+declare class MovieSceneSlomoTrack extends MovieSceneFloatTrack { 
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): MovieSceneSlomoTrack;
+	static Find(Outer: UObject, ResourceName: string): MovieSceneSlomoTrack;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): MovieSceneSlomoTrack;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MovieSceneSlomoTrack;
+	static C(Other: UObject): MovieSceneSlomoTrack;
+}
+
+declare class MovieSceneStringTrack extends MovieScenePropertyTrack { 
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): MovieSceneStringTrack;
+	static Find(Outer: UObject, ResourceName: string): MovieSceneStringTrack;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): MovieSceneStringTrack;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MovieSceneStringTrack;
+	static C(Other: UObject): MovieSceneStringTrack;
+}
+
+declare class MovieSceneVectorTrack extends MovieScenePropertyTrack { 
+	NumChannelsUsed: number;
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): MovieSceneVectorTrack;
+	static Find(Outer: UObject, ResourceName: string): MovieSceneVectorTrack;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): MovieSceneVectorTrack;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MovieSceneVectorTrack;
+	static C(Other: UObject): MovieSceneVectorTrack;
+}
+
+declare class MovieSceneSkeletalAnimationSection extends MovieSceneSection { 
+	AnimSequence: AnimSequence;
+	Animation: AnimSequenceBase;
+	StartOffset: number;
+	EndOffset: number;
+	PlayRate: number;
+	bReverse: boolean;
+	SlotName: string;
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): MovieSceneSkeletalAnimationSection;
+	static Find(Outer: UObject, ResourceName: string): MovieSceneSkeletalAnimationSection;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): MovieSceneSkeletalAnimationSection;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MovieSceneSkeletalAnimationSection;
+	static C(Other: UObject): MovieSceneSkeletalAnimationSection;
+}
+
+declare class MovieSceneSkeletalAnimationTrack extends MovieSceneNameableTrack { 
+	AnimationSections: MovieSceneSection[];
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): MovieSceneSkeletalAnimationTrack;
+	static Find(Outer: UObject, ResourceName: string): MovieSceneSkeletalAnimationTrack;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): MovieSceneSkeletalAnimationTrack;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MovieSceneSkeletalAnimationTrack;
+	static C(Other: UObject): MovieSceneSkeletalAnimationTrack;
+}
+
+declare class MovieSceneSpawnTrack extends MovieSceneTrack { 
+	Sections: MovieSceneSection[];
+	ObjectGuid: Guid;
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): MovieSceneSpawnTrack;
+	static Find(Outer: UObject, ResourceName: string): MovieSceneSpawnTrack;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): MovieSceneSpawnTrack;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MovieSceneSpawnTrack;
+	static C(Other: UObject): MovieSceneSpawnTrack;
+}
+
+declare class StringCurveKey { 
+	Time: number;
+	Value: string;
+	clone() : StringCurveKey;
+	static C(Other: UObject): StringCurveKey;
+}
+
+declare class StringCurve extends IndexedCurve { 
+	DefaultValue: string;
+	Keys: StringCurveKey[];
+	clone() : StringCurve;
+	static C(Other: UObject): StringCurve;
+}
+
+declare class MovieSceneStringSection extends MovieSceneSection { 
+	StringCurve: StringCurve;
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): MovieSceneStringSection;
+	static Find(Outer: UObject, ResourceName: string): MovieSceneStringSection;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): MovieSceneStringSection;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MovieSceneStringSection;
+	static C(Other: UObject): MovieSceneStringSection;
+}
+
+declare class MovieSceneSubSection extends MovieSceneSection { 
+	StartOffset: number;
+	TimeScale: number;
+	PrerollTime: number;
+	SubSequence: MovieSceneSequence;
+	ActorToRecord: any;
+	TargetSequenceName: string;
+	TargetPathToRecordTo: DirectoryPath;
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): MovieSceneSubSection;
+	static Find(Outer: UObject, ResourceName: string): MovieSceneSubSection;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): MovieSceneSubSection;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MovieSceneSubSection;
+	static C(Other: UObject): MovieSceneSubSection;
+}
+
+declare class MovieSceneCinematicShotSection extends MovieSceneSubSection { 
+	DisplayName: string;
+	ThumbnailReferenceOffset: number;
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): MovieSceneCinematicShotSection;
+	static Find(Outer: UObject, ResourceName: string): MovieSceneCinematicShotSection;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): MovieSceneCinematicShotSection;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MovieSceneCinematicShotSection;
+	static C(Other: UObject): MovieSceneCinematicShotSection;
+}
+
+declare class MovieSceneSubTrack extends MovieSceneNameableTrack { 
+	Sections: MovieSceneSection[];
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): MovieSceneSubTrack;
+	static Find(Outer: UObject, ResourceName: string): MovieSceneSubTrack;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): MovieSceneSubTrack;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MovieSceneSubTrack;
+	static C(Other: UObject): MovieSceneSubTrack;
+}
+
+declare class MovieSceneCinematicShotTrack extends MovieSceneSubTrack { 
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): MovieSceneCinematicShotTrack;
+	static Find(Outer: UObject, ResourceName: string): MovieSceneCinematicShotTrack;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): MovieSceneCinematicShotTrack;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MovieSceneCinematicShotTrack;
+	static C(Other: UObject): MovieSceneCinematicShotTrack;
+}
+
+declare class MovieSceneVectorSection extends MovieSceneSection { 
+	Curves: RichCurve;
+	ChannelsUsed: number;
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): MovieSceneVectorSection;
+	static Find(Outer: UObject, ResourceName: string): MovieSceneVectorSection;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): MovieSceneVectorSection;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MovieSceneVectorSection;
+	static C(Other: UObject): MovieSceneVectorSection;
+}
+
+declare class LevelSequenceObjectReferenceMap { 
+	clone() : LevelSequenceObjectReferenceMap;
+	static C(Other: UObject): LevelSequenceObjectReferenceMap;
+}
+
+declare class LevelSequence extends MovieSceneSequence { 
+	MovieScene: MovieScene;
+	ObjectReferences: LevelSequenceObjectReferenceMap;
+	PossessedObjects: any;
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): LevelSequence;
+	static Find(Outer: UObject, ResourceName: string): LevelSequence;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): LevelSequence;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): LevelSequence;
+	static C(Other: UObject): LevelSequence;
+}
+
+declare class LevelSequencePlaybackSettings { 
+	LoopCount: number;
+	PlayRate: number;
+	clone() : LevelSequencePlaybackSettings;
+	static C(Other: UObject): LevelSequencePlaybackSettings;
+}
+
+declare class LevelSequencePlayer extends UObject { 
+	LevelSequence: LevelSequence;
+	CurrentPlayer: LevelSequencePlayer;
+	bIsPlaying: boolean;
+	bReversePlayback: boolean;
+	TimeCursorPosition: number;
+	PlaybackSettings: LevelSequencePlaybackSettings;
+	OnPlay: UnrealEngineMulticastDelegate<() => void>;
+	OnStop: UnrealEngineMulticastDelegate<() => void>;
+	OnPause: UnrealEngineMulticastDelegate<() => void>;
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): LevelSequencePlayer;
+	static Find(Outer: UObject, ResourceName: string): LevelSequencePlayer;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): LevelSequencePlayer;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): LevelSequencePlayer;
+	Stop(): void;
+	StartPlayingNextTick(): void;
+	SetPlayRate(PlayRate: number): void;
+	SetPlaybackRange(NewStartTime: number,NewEndTime: number): void;
+	SetPlaybackPosition(NewPlaybackPosition: number): void;
+	PlayReverse(): void;
+	PlayLooping(NumLoops: number): void;
+	Play(): void;
+	Pause(): void;
+	IsPlaying(): boolean;
+	GetPlayRate(): number;
+	GetPlaybackStart(): number;
+	GetPlaybackPosition(): number;
+	GetPlaybackEnd(): number;
+	GetLength(): number;
+	static CreateLevelSequencePlayer(WorldContextObject: UObject,LevelSequence: LevelSequence,Settings: LevelSequencePlaybackSettings): LevelSequencePlayer;
+	ChangePlaybackDirection(): void;
+	static C(Other: UObject): LevelSequencePlayer;
+}
+
+declare class LevelSequenceSnapshotSettings { 
+	ZeroPadAmount: number;
+	FrameRate: number;
+	clone() : LevelSequenceSnapshotSettings;
+	static C(Other: UObject): LevelSequenceSnapshotSettings;
+}
+
+declare class LevelSequencePlayerSnapshot { 
+	MasterName: string;
+	MasterTime: number;
+	CurrentShotName: string;
+	CurrentShotLocalTime: number;
+	Settings: LevelSequenceSnapshotSettings;
+	clone() : LevelSequencePlayerSnapshot;
+	static C(Other: UObject): LevelSequencePlayerSnapshot;
+}
+
+declare class LevelSequenceBurnIn extends UserWidget { 
+	FrameInformation: LevelSequencePlayerSnapshot;
+	LevelSequenceActor: LevelSequenceActor;
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): LevelSequenceBurnIn;
+	static Find(Outer: UObject, ResourceName: string): LevelSequenceBurnIn;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): LevelSequenceBurnIn;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): LevelSequenceBurnIn;
+	SetSettings(InSettings: UObject): void;
+	GetSettingsClass(): UnrealEngineClass;
+	static C(Other: UObject): LevelSequenceBurnIn;
+}
+
+declare class LevelSequenceActor extends Actor { 
+	bAutoPlay: boolean;
+	PlaybackSettings: LevelSequencePlaybackSettings;
+	SequencePlayer: LevelSequencePlayer;
+	LevelSequence: StringAssetReference;
+	BurnInOptions: LevelSequenceBurnInOptions;
+	BurnInInstance: LevelSequenceBurnIn;
 	constructor(InWorld: World, Location?: Vector, Rotation?: Rotator);
 	static StaticClass: any;
 	static GetClassObject(): Class;
-	static GetDefaultObject(): FloatingText;
+	static GetDefaultObject(): LevelSequenceActor;
 	static GetDefaultSubobjectByName(Name: string): UObject;
 	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): FloatingText;
-	static C(Other: UObject): FloatingText;
-}
-
-declare class TransformGizmoMeasurement { 
-	MeasurementText: TextRenderComponent;
-	clone() : TransformGizmoMeasurement;
-	static C(Other: UObject): TransformGizmoMeasurement;
-}
-
-declare class VREditorTranslationGizmoHandleGroup extends GizmoHandleGroup { 
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): VREditorTranslationGizmoHandleGroup;
-	static Find(Outer: UObject, ResourceName: string): VREditorTranslationGizmoHandleGroup;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): VREditorTranslationGizmoHandleGroup;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): VREditorTranslationGizmoHandleGroup;
-	static C(Other: UObject): VREditorTranslationGizmoHandleGroup;
-}
-
-declare class VREditorPlaneTranslationGizmoHandleGroup extends GizmoHandleGroup { 
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): VREditorPlaneTranslationGizmoHandleGroup;
-	static Find(Outer: UObject, ResourceName: string): VREditorPlaneTranslationGizmoHandleGroup;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): VREditorPlaneTranslationGizmoHandleGroup;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): VREditorPlaneTranslationGizmoHandleGroup;
-	static C(Other: UObject): VREditorPlaneTranslationGizmoHandleGroup;
-}
-
-declare class VREditorRotationGizmoHandleGroup extends GizmoHandleGroup { 
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): VREditorRotationGizmoHandleGroup;
-	static Find(Outer: UObject, ResourceName: string): VREditorRotationGizmoHandleGroup;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): VREditorRotationGizmoHandleGroup;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): VREditorRotationGizmoHandleGroup;
-	static C(Other: UObject): VREditorRotationGizmoHandleGroup;
-}
-
-declare class TransformGizmo extends BaseTransformGizmo { 
-	Measurements: TransformGizmoMeasurement;
-	TranslationGizmoHandleGroup: VREditorTranslationGizmoHandleGroup;
-	PlaneTranslationGizmoHandleGroup: VREditorPlaneTranslationGizmoHandleGroup;
-	RotationGizmoHandleGroup: VREditorRotationGizmoHandleGroup;
-	StretchGizmoHandleGroup: StretchGizmoHandleGroup;
-	UniformScaleGizmoHandleGroup: UniformScaleGizmoHandleGroup;
-	constructor(InWorld: World, Location?: Vector, Rotation?: Rotator);
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): TransformGizmo;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): TransformGizmo;
-	static C(Other: UObject): TransformGizmo;
-}
-
-declare class PostProcessComponent extends SceneComponent { 
-	Settings: PostProcessSettings;
-	Priority: number;
-	BlendRadius: number;
-	BlendWeight: number;
-	bEnabled: boolean;
-	bUnbound: boolean;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): PostProcessComponent;
-	static Find(Outer: UObject, ResourceName: string): PostProcessComponent;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): PostProcessComponent;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): PostProcessComponent;
-	static C(Other: UObject): PostProcessComponent;
-}
-
-declare class VREditorAvatarActor extends Actor { 
-	HeadMeshComponent: StaticMeshComponent;
-	WorldMovementGridMeshComponent: StaticMeshComponent;
-	WorldMovementGridMID: MaterialInstanceDynamic;
-	WorldMovementGridOpacity: number;
-	bIsDrawingWorldMovementPostProcess: boolean;
-	WorldMovementPostProcessMaterial: MaterialInstanceDynamic;
-	ScaleProgressMeshComponent: StaticMeshComponent;
-	CurrentScaleProgressMeshComponent: StaticMeshComponent;
-	UserScaleIndicatorText: TextRenderComponent;
-	FixedUserScaleMID: MaterialInstanceDynamic;
-	TranslucentFixedUserScaleMID: MaterialInstanceDynamic;
-	CurrentUserScaleMID: MaterialInstanceDynamic;
-	TranslucentCurrentUserScaleMID: MaterialInstanceDynamic;
-	PostProcessComponent: PostProcessComponent;
-	VRMode: VREditorMode;
-	constructor(InWorld: World, Location?: Vector, Rotation?: Rotator);
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): VREditorAvatarActor;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): VREditorAvatarActor;
-	static C(Other: UObject): VREditorAvatarActor;
-}
-
-declare class VREditorButton extends VREditorBaseActor { 
-	ButtonMeshComponent: StaticMeshComponent;
-	constructor(InWorld: World, Location?: Vector, Rotation?: Rotator);
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): VREditorButton;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): VREditorButton;
-	static C(Other: UObject): VREditorButton;
-}
-
-declare class VREditorQuickMenu extends VREditorBaseUserWidget { 
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): VREditorQuickMenu;
-	static Find(Outer: UObject, ResourceName: string): VREditorQuickMenu;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): VREditorQuickMenu;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): VREditorQuickMenu;
-	Refresh(): void;
-	OnWorldSettingsButtonClicked(bIsChecked: boolean): boolean;
-	OnWorldOutlinerButtonClicked(bIsChecked: boolean): boolean;
-	OnUndoButtonClicked(): void;
-	OnTutorialButtonClicked(bIsChecked: boolean): boolean;
-	OnTranslationSnapSizeButtonClicked(): string;
-	OnTranslationSnapButtonClicked(bIsChecked: boolean): boolean;
-	OnSimulateButtonClicked(bIsChecked: boolean): boolean;
-	OnScreenshotButtonClicked(): void;
-	OnScaleSnapSizeButtonClicked(): string;
-	OnScaleSnapButtonClicked(bIsChecked: boolean): boolean;
-	OnRotationSnapSizeButtonClicked(): string;
-	OnRotationSnapButtonClicked(bIsChecked: boolean): boolean;
-	OnRedoButtonClicked(): void;
-	OnPlayButtonClicked(): void;
-	OnPasteButtonClicked(): void;
-	OnModesButtonClicked(bIsChecked: boolean): boolean;
-	OnLightButtonClicked(bIsChecked: boolean): boolean;
-	OnGizmoModeButtonClicked(): string;
-	OnGizmoCoordinateSystemButtonClicked(): string;
-	OnGameModeButtonClicked(bIsChecked: boolean): boolean;
-	OnExitVRButtonClicked(): void;
-	OnDeleteButtonClicked(): void;
-	OnCopyButtonClicked(): void;
-	OnContentBrowserButtonClicked(bIsChecked: boolean): boolean;
-	OnAssetEditorButtonClicked(bIsChecked: boolean): boolean;
-	OnActorDetailsButtonClicked(bIsChecked: boolean): boolean;
-	IsWorldSettingsVisible(): boolean;
-	IsWorldOutlinerVisible(): boolean;
-	IsTutorialVisible(): boolean;
-	IsTranslationSnapEnabled(): boolean;
-	IsSimulatingEnabled(): boolean;
-	IsScaleSnapEnabled(): boolean;
-	IsRotationSnapEnabled(): boolean;
-	IsModesVisible(): boolean;
-	IsLightVisible(): boolean;
-	IsGameModeEnabled(): boolean;
-	IsContentBrowserVisible(): boolean;
-	IsAssetEditorVisible(): boolean;
-	IsActorDetailsVisible(): boolean;
-	GetTranslationSnapSizeText(): string;
-	GetScaleSnapSizeText(): string;
-	GetRotationSnapSizeText(): string;
-	GetGizmoModeText(): string;
-	GetGizmoCoordinateSystemText(): string;
-	static C(Other: UObject): VREditorQuickMenu;
-}
-
-declare class VREditorRadialMenuItem extends VREditorBaseUserWidget { 
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): VREditorRadialMenuItem;
-	static Find(Outer: UObject, ResourceName: string): VREditorRadialMenuItem;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): VREditorRadialMenuItem;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): VREditorRadialMenuItem;
-	SetLabel(Text: string): void;
-	OnPressed(): void;
-	OnLeaveHover(): void;
-	OnEnterHover(): void;
-	GetAngle(): number;
-	static C(Other: UObject): VREditorRadialMenuItem;
-}
-
-declare class VREditorRadialMenu extends VREditorBaseUserWidget { 
-	TrackpadPosition: Vector2D;
-	TrackpadAngle: number;
-	MenuItems: VREditorRadialMenuItem[];
-	CurrentItem: VREditorRadialMenuItem;
-	PreviousItem: VREditorRadialMenuItem;
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): VREditorRadialMenu;
-	static Find(Outer: UObject, ResourceName: string): VREditorRadialMenu;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): VREditorRadialMenu;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): VREditorRadialMenu;
-	SetButtons(InitTopItem: VREditorRadialMenuItem,InitTopRightItem: VREditorRadialMenuItem,InitRightItem: VREditorRadialMenuItem,InitBottomRightItem: VREditorRadialMenuItem,InitBottomItem: VREditorRadialMenuItem,InitLeftBottomItem: VREditorRadialMenuItem,InitLeftItem: VREditorRadialMenuItem,InitTopLeftItem: VREditorRadialMenuItem): void;
-	static C(Other: UObject): VREditorRadialMenu;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): LevelSequenceActor;
+	SetSequence(InSequence: LevelSequence): void;
+	GetSequence(Load: boolean): LevelSequence;
+	static C(Other: UObject): LevelSequenceActor;
 }
 
 declare class ActorFactory extends UObject { 
@@ -8612,6 +8198,13 @@ declare class FbxSkeletalMeshImportData extends FbxMeshImportData {
 
 declare type EFBXAnimationLengthImportType = 'FBXALIT_ExportedTime' | 'FBXALIT_AnimatedKey' | 'FBXALIT_SetRange';
 declare var EFBXAnimationLengthImportType : { FBXALIT_ExportedTime:'FBXALIT_ExportedTime',FBXALIT_AnimatedKey:'FBXALIT_AnimatedKey',FBXALIT_SetRange:'FBXALIT_SetRange', };
+declare class Int32Interval { 
+	Min: number;
+	Max: number;
+	clone() : Int32Interval;
+	static C(Other: UObject): Int32Interval;
+}
+
 declare class FbxAnimSequenceImportData extends FbxAssetImportData { 
 	bImportMeshesInBoneHierarchy: boolean;
 	AnimationLength: EFBXAnimationLengthImportType;
@@ -11557,6 +11150,441 @@ declare class WrangleContentCommandlet extends Commandlet {
 	static C(Other: UObject): WrangleContentCommandlet;
 }
 
+declare class InstancedStaticMeshInstanceData { 
+	Transform: Matrix;
+	LightmapUVBias: Vector2D;
+	ShadowmapUVBias: Vector2D;
+	clone() : InstancedStaticMeshInstanceData;
+	static C(Other: UObject): InstancedStaticMeshInstanceData;
+}
+
+declare class PhysicsSerializer extends UObject { 
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): PhysicsSerializer;
+	static Find(Outer: UObject, ResourceName: string): PhysicsSerializer;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): PhysicsSerializer;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): PhysicsSerializer;
+	static C(Other: UObject): PhysicsSerializer;
+}
+
+declare class InstancedStaticMeshMappingInfo { 
+	clone() : InstancedStaticMeshMappingInfo;
+	static C(Other: UObject): InstancedStaticMeshMappingInfo;
+}
+
+declare class InstancedStaticMeshComponent extends StaticMeshComponent { 
+	PerInstanceSMData: InstancedStaticMeshInstanceData[];
+	InstancingRandomSeed: number;
+	InstanceStartCullDistance: number;
+	InstanceEndCullDistance: number;
+	InstanceReorderTable: number[];
+	RemovedInstances: number[];
+	PhysicsSerializer: PhysicsSerializer;
+	NumPendingLightmaps: number;
+	CachedMappings: InstancedStaticMeshMappingInfo[];
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): InstancedStaticMeshComponent;
+	static Find(Outer: UObject, ResourceName: string): InstancedStaticMeshComponent;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): InstancedStaticMeshComponent;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): InstancedStaticMeshComponent;
+	UpdateInstanceTransform(InstanceIndex: number,NewInstanceTransform: Transform,bWorldSpace: boolean,bMarkRenderStateDirty: boolean,bTeleport: boolean): boolean;
+	SetCullDistances(StartCullDistance: number,EndCullDistance: number): void;
+	RemoveInstance(InstanceIndex: number): boolean;
+	GetInstanceTransform(InstanceIndex: number,OutInstanceTransform?: Transform,bWorldSpace?: boolean): {OutInstanceTransform: Transform, $: boolean};
+	GetInstancesOverlappingSphere(Center: Vector,Radius: number,bSphereInWorldSpace: boolean): number[];
+	GetInstancesOverlappingBox(Box: Box,bBoxInWorldSpace: boolean): number[];
+	GetInstanceCount(): number;
+	ClearInstances(): void;
+	AddInstanceWorldSpace(WorldTransform: Transform): number;
+	AddInstance(InstanceTransform: Transform): number;
+	static C(Other: UObject): InstancedStaticMeshComponent;
+}
+
+declare class HierarchicalInstancedStaticMeshComponent extends InstancedStaticMeshComponent { 
+	SortedInstances: number[];
+	NumBuiltInstances: number;
+	BuiltInstanceBounds: Box;
+	UnbuiltInstanceBounds: Box;
+	UnbuiltInstanceBoundsList: Box[];
+	bEnableDensityScaling: boolean;
+	OcclusionLayerNumNodes: number;
+	bDisableCollision: boolean;
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): HierarchicalInstancedStaticMeshComponent;
+	static Find(Outer: UObject, ResourceName: string): HierarchicalInstancedStaticMeshComponent;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): HierarchicalInstancedStaticMeshComponent;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): HierarchicalInstancedStaticMeshComponent;
+	RemoveInstances(InstancesToRemove: number[]): boolean;
+	static C(Other: UObject): HierarchicalInstancedStaticMeshComponent;
+}
+
+declare class FoliageInstancedStaticMeshComponent extends HierarchicalInstancedStaticMeshComponent { 
+	OnInstanceTakePointDamage: UnrealEngineMulticastDelegate<(InstanceIndex: number, Damage: number, InstigatedBy: Controller, HitLocation: Vector, ShotFromDirection: Vector, DamageType: DamageType, DamageCauser: Actor) => void>;
+	OnInstanceTakeRadialDamage: UnrealEngineMulticastDelegate<(Instances: number[], Damages: number[], InstigatedBy: Controller, Origin: Vector, MaxRadius: number, DamageType: DamageType, DamageCauser: Actor) => void>;
+	FoliageHiddenEditorViews: any;
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): FoliageInstancedStaticMeshComponent;
+	static Find(Outer: UObject, ResourceName: string): FoliageInstancedStaticMeshComponent;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): FoliageInstancedStaticMeshComponent;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): FoliageInstancedStaticMeshComponent;
+	static C(Other: UObject): FoliageInstancedStaticMeshComponent;
+}
+
+declare class FoliageStatistics extends BlueprintFunctionLibrary { 
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): FoliageStatistics;
+	static Find(Outer: UObject, ResourceName: string): FoliageStatistics;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): FoliageStatistics;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): FoliageStatistics;
+	static FoliageOverlappingSphereCount(WorldContextObject: UObject,StaticMesh: StaticMesh,CenterPosition: Vector,Radius: number): number;
+	static FoliageOverlappingBoxCount(WorldContextObject: UObject,StaticMesh: StaticMesh,Box: Box): number;
+	static C(Other: UObject): FoliageStatistics;
+}
+
+declare type EFoliageScaling = 'Uniform' | 'Free' | 'LockXY' | 'LockXZ' | 'LockYZ';
+declare var EFoliageScaling : { Uniform:'Uniform',Free:'Free',LockXY:'LockXY',LockXZ:'LockXZ',LockYZ:'LockYZ', };
+declare class FloatInterval { 
+	Min: number;
+	Max: number;
+	clone() : FloatInterval;
+	static C(Other: UObject): FloatInterval;
+}
+
+declare class FoliageVertexColorChannelMask { 
+	UseMask: boolean;
+	MaskThreshold: number;
+	InvertMask: boolean;
+	clone() : FoliageVertexColorChannelMask;
+	static C(Other: UObject): FoliageVertexColorChannelMask;
+}
+
+declare type FoliageVertexColorMask = 'FOLIAGEVERTEXCOLORMASK_Disabled' | 'FOLIAGEVERTEXCOLORMASK_Red' | 'FOLIAGEVERTEXCOLORMASK_Green' | 'FOLIAGEVERTEXCOLORMASK_Blue' | 'FOLIAGEVERTEXCOLORMASK_Alpha';
+declare var FoliageVertexColorMask : { FOLIAGEVERTEXCOLORMASK_Disabled:'FOLIAGEVERTEXCOLORMASK_Disabled',FOLIAGEVERTEXCOLORMASK_Red:'FOLIAGEVERTEXCOLORMASK_Red',FOLIAGEVERTEXCOLORMASK_Green:'FOLIAGEVERTEXCOLORMASK_Green',FOLIAGEVERTEXCOLORMASK_Blue:'FOLIAGEVERTEXCOLORMASK_Blue',FOLIAGEVERTEXCOLORMASK_Alpha:'FOLIAGEVERTEXCOLORMASK_Alpha', };
+declare class FoliageType extends UObject { 
+	UpdateGuid: Guid;
+	Density: number;
+	DensityAdjustmentFactor: number;
+	Radius: number;
+	Scaling: EFoliageScaling;
+	ScaleX: FloatInterval;
+	ScaleY: FloatInterval;
+	ScaleZ: FloatInterval;
+	VertexColorMaskByChannel: FoliageVertexColorChannelMask;
+	VertexColorMask: FoliageVertexColorMask;
+	VertexColorMaskThreshold: number;
+	VertexColorMaskInvert: boolean;
+	ZOffset: FloatInterval;
+	AlignToNormal: boolean;
+	AlignMaxAngle: number;
+	RandomYaw: boolean;
+	RandomPitchAngle: number;
+	GroundSlopeAngle: FloatInterval;
+	Height: FloatInterval;
+	LandscapeLayers: string[];
+	LandscapeLayer: string;
+	CollisionWithWorld: boolean;
+	CollisionScale: Vector;
+	MinimumLayerWeight: number;
+	MeshBounds: BoxSphereBounds;
+	LowBoundOriginRadius: Vector;
+	Mobility: EComponentMobility;
+	CullDistance: Int32Interval;
+	bEnableStaticLighting: boolean;
+	CastShadow: boolean;
+	bAffectDynamicIndirectLighting: boolean;
+	bAffectDistanceFieldLighting: boolean;
+	bCastDynamicShadow: boolean;
+	bCastStaticShadow: boolean;
+	bCastShadowAsTwoSided: boolean;
+	bReceivesDecals: boolean;
+	bOverrideLightMapRes: boolean;
+	OverriddenLightMapRes: number;
+	bUseAsOccluder: boolean;
+	BodyInstance: BodyInstance;
+	CustomNavigableGeometry: EHasCustomNavigableGeometry;
+	LightingChannels: LightingChannels;
+	HiddenEditorViews: any;
+	IsSelected: boolean;
+	CollisionRadius: number;
+	ShadeRadius: number;
+	NumSteps: number;
+	InitialSeedDensity: number;
+	AverageSpreadDistance: number;
+	SpreadVariance: number;
+	SeedsPerStep: number;
+	DistributionSeed: number;
+	MaxInitialSeedOffset: number;
+	bCanGrowInShade: boolean;
+	bSpawnsInShade: boolean;
+	MaxInitialAge: number;
+	MaxAge: number;
+	OverlapPriority: number;
+	ProceduralScale: FloatInterval;
+	ScaleCurve: RuntimeFloatCurve;
+	ChangeCount: number;
+	ReapplyDensity: boolean;
+	ReapplyRadius: boolean;
+	ReapplyAlignToNormal: boolean;
+	ReapplyRandomYaw: boolean;
+	ReapplyScaling: boolean;
+	ReapplyScaleX: boolean;
+	ReapplyScaleY: boolean;
+	ReapplyScaleZ: boolean;
+	ReapplyRandomPitchAngle: boolean;
+	ReapplyGroundSlope: boolean;
+	ReapplyHeight: boolean;
+	ReapplyLandscapeLayers: boolean;
+	ReapplyZOffset: boolean;
+	ReapplyCollisionWithWorld: boolean;
+	ReapplyVertexColorMask: boolean;
+	bEnableDensityScaling: boolean;
+	ScaleMinX: number;
+	ScaleMinY: number;
+	ScaleMinZ: number;
+	ScaleMaxX: number;
+	ScaleMaxY: number;
+	ScaleMaxZ: number;
+	HeightMin: number;
+	HeightMax: number;
+	ZOffsetMin: number;
+	ZOffsetMax: number;
+	StartCullDistance: number;
+	EndCullDistance: number;
+	UniformScale: boolean;
+	LockScaleX: boolean;
+	LockScaleY: boolean;
+	LockScaleZ: boolean;
+	GroundSlope: number;
+	MinGroundSlope: number;
+	MinScale: number;
+	MaxScale: number;
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): FoliageType;
+	static Find(Outer: UObject, ResourceName: string): FoliageType;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): FoliageType;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): FoliageType;
+	static C(Other: UObject): FoliageType;
+}
+
+declare class FoliageType_InstancedStaticMesh extends FoliageType { 
+	Mesh: StaticMesh;
+	OverrideMaterials: MaterialInterface[];
+	ComponentClass: UnrealEngineClass;
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): FoliageType_InstancedStaticMesh;
+	static Find(Outer: UObject, ResourceName: string): FoliageType_InstancedStaticMesh;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): FoliageType_InstancedStaticMesh;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): FoliageType_InstancedStaticMesh;
+	static C(Other: UObject): FoliageType_InstancedStaticMesh;
+}
+
+declare class InstancedFoliageActor extends Actor { 
+	constructor(InWorld: World, Location?: Vector, Rotation?: Rotator);
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): InstancedFoliageActor;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): InstancedFoliageActor;
+	static C(Other: UObject): InstancedFoliageActor;
+}
+
+declare type ENavDataGatheringMode = 'Default' | 'Instant' | 'Lazy';
+declare var ENavDataGatheringMode : { Default:'Default',Instant:'Instant',Lazy:'Lazy', };
+declare class StaticMeshActor extends Actor { 
+	StaticMeshComponent: StaticMeshComponent;
+	bStaticMeshReplicateMovement: boolean;
+	NavigationGeometryGatheringMode: ENavDataGatheringMode;
+	constructor(InWorld: World, Location?: Vector, Rotation?: Rotator);
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): StaticMeshActor;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): StaticMeshActor;
+	static C(Other: UObject): StaticMeshActor;
+}
+
+declare class InteractiveFoliageActor extends StaticMeshActor { 
+	CapsuleComponent: CapsuleComponent;
+	TouchingActorEntryPosition: Vector;
+	FoliageVelocity: Vector;
+	FoliageForce: Vector;
+	FoliagePosition: Vector;
+	FoliageDamageImpulseScale: number;
+	FoliageTouchImpulseScale: number;
+	FoliageStiffness: number;
+	FoliageStiffnessQuadratic: number;
+	FoliageDamping: number;
+	MaxDamageImpulse: number;
+	MaxTouchImpulse: number;
+	MaxForce: number;
+	Mass: number;
+	constructor(InWorld: World, Location?: Vector, Rotation?: Rotator);
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): InteractiveFoliageActor;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): InteractiveFoliageActor;
+	CapsuleTouched(OverlappedComp: PrimitiveComponent,Other: Actor,OtherComp: PrimitiveComponent,OtherBodyIndex: number,bFromSweep: boolean,OverlapInfo: HitResult): void;
+	static C(Other: UObject): InteractiveFoliageActor;
+}
+
+declare class InteractiveFoliageComponent extends StaticMeshComponent { 
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): InteractiveFoliageComponent;
+	static Find(Outer: UObject, ResourceName: string): InteractiveFoliageComponent;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): InteractiveFoliageComponent;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): InteractiveFoliageComponent;
+	static C(Other: UObject): InteractiveFoliageComponent;
+}
+
+declare class FoliageTypeObject { 
+	FoliageTypeObject: UObject;
+	TypeInstance: FoliageType_InstancedStaticMesh;
+	bIsAsset: boolean;
+	Type: UnrealEngineClass;
+	clone() : FoliageTypeObject;
+	static C(Other: UObject): FoliageTypeObject;
+}
+
+declare class ProceduralFoliageSpawner extends UObject { 
+	RandomSeed: number;
+	TileSize: number;
+	NumUniqueTiles: number;
+	MinimumQuadTreeSize: number;
+	FoliageTypes: FoliageTypeObject[];
+	bNeedsSimulation: boolean;
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): ProceduralFoliageSpawner;
+	static Find(Outer: UObject, ResourceName: string): ProceduralFoliageSpawner;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): ProceduralFoliageSpawner;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): ProceduralFoliageSpawner;
+	Simulate(NumSteps: number): void;
+	static C(Other: UObject): ProceduralFoliageSpawner;
+}
+
+declare class ProceduralFoliageComponent extends ActorComponent { 
+	FoliageSpawner: ProceduralFoliageSpawner;
+	TileOverlap: number;
+	bAllowLandscape: boolean;
+	bAllowBSP: boolean;
+	bAllowStaticMesh: boolean;
+	bAllowTranslucent: boolean;
+	bAllowFoliage: boolean;
+	bShowDebugTiles: boolean;
+	SpawningVolume: Volume;
+	ProceduralGuid: Guid;
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): ProceduralFoliageComponent;
+	static Find(Outer: UObject, ResourceName: string): ProceduralFoliageComponent;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): ProceduralFoliageComponent;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): ProceduralFoliageComponent;
+	static C(Other: UObject): ProceduralFoliageComponent;
+}
+
+declare class ProceduralFoliageVolume extends Volume { 
+	ProceduralComponent: ProceduralFoliageComponent;
+	constructor(InWorld: World, Location?: Vector, Rotation?: Rotator);
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): ProceduralFoliageVolume;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): ProceduralFoliageVolume;
+	static C(Other: UObject): ProceduralFoliageVolume;
+}
+
+declare class ProceduralFoliageBlockingVolume extends Volume { 
+	ProceduralFoliageVolume: ProceduralFoliageVolume;
+	constructor(InWorld: World, Location?: Vector, Rotation?: Rotator);
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): ProceduralFoliageBlockingVolume;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): ProceduralFoliageBlockingVolume;
+	static C(Other: UObject): ProceduralFoliageBlockingVolume;
+}
+
+declare class ProceduralFoliageInstance { 
+	Location: Vector;
+	Rotation: Quat;
+	Normal: Vector;
+	Age: number;
+	Scale: number;
+	Type: FoliageType_InstancedStaticMesh;
+	clone() : ProceduralFoliageInstance;
+	static C(Other: UObject): ProceduralFoliageInstance;
+}
+
+declare class ProceduralFoliageTile extends UObject { 
+	FoliageSpawner: ProceduralFoliageSpawner;
+	InstancesArray: ProceduralFoliageInstance[];
+	constructor();
+	constructor(Outer: UObject);
+	static Load(ResourceName: string): ProceduralFoliageTile;
+	static Find(Outer: UObject, ResourceName: string): ProceduralFoliageTile;
+	static StaticClass: any;
+	static GetClassObject(): Class;
+	static GetDefaultObject(): ProceduralFoliageTile;
+	static GetDefaultSubobjectByName(Name: string): UObject;
+	static SetDefaultSubobjectClass(Name: string): void;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): ProceduralFoliageTile;
+	static C(Other: UObject): ProceduralFoliageTile;
+}
+
 declare class ControlPointMeshComponent extends StaticMeshComponent { 
 	bSelected: boolean;
 	constructor();
@@ -12290,20 +12318,6 @@ declare class MaterialExpressionLandscapeVisibilityMask extends MaterialExpressi
 	static SetDefaultSubobjectClass(Name: string): void;
 	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): MaterialExpressionLandscapeVisibilityMask;
 	static C(Other: UObject): MaterialExpressionLandscapeVisibilityMask;
-}
-
-declare class HandlerComponentFactory extends UObject { 
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): HandlerComponentFactory;
-	static Find(Outer: UObject, ResourceName: string): HandlerComponentFactory;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): HandlerComponentFactory;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): HandlerComponentFactory;
-	static C(Other: UObject): HandlerComponentFactory;
 }
 
 declare class EngineBaseTypes extends UObject { 
