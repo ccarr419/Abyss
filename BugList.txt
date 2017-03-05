@@ -1,0 +1,6 @@
+Fort_Exploration:
+	- When jumping underneath bottom platform more than two times it will 
+	endlessly loop jumping sound.
+
+Battle_Scene:
+	- Error message 'Casting failed' when starting battle scene.
