@@ -1,0 +1,2280 @@
+﻿Log file open, 03/05/17 19:12:55
+LogInit:Display: Running engine for game: Abyss
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-46301988) SRandInit(-46301988).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.109611
+LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin AudioCapture, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/AudioCapture/AudioCapture.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin OSVR, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGameCircle, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/Android/OnlineSubsystemGameCircle/OnlineSubsystemGameCircle.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin MIDIDevice, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/MIDIDevice/MIDIDevice.uplugin
+LogPluginManager: Loaded Plugin MobilePatchingUtils, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/MobilePatchingUtils/MobilePatchingUtils.uplugin
+LogPluginManager: Loaded Plugin Ansel, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Nvidia/Ansel/Ansel.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogPluginManager: Loaded Plugin EditorTests, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/EditorTests/EditorTests.uplugin
+LogPluginManager: Loaded Plugin FbxAutomationTestBuilder, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/FbxAutomationTestBuilder/FbxAutomationTestBuilder.uplugin
+LogPluginManager: Loaded Plugin FunctionalTestingEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/FunctionalTestingEditor/FunctionalTestingEditor.uplugin
+LogPluginManager: Loaded Plugin RuntimeTests, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/RuntimeTests/RuntimeTests.uplugin
+LogPluginManager: Loaded Plugin ScreenshotTools, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/ScreenshotTools/ScreenshotTools.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.14-CL-3249277
+LogInit: Engine Version: 4.14.3-3249277+++UE4+Release-4.14
+LogInit: Compatible Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Net CL: 3195953
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 7
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 8
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 17
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 1
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jan  6 2017 10:49:43
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.14
+LogInit: Command line:  /Temp/Autosaves/Game/Maps-Levels/UEDPCstartMenu -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess -messaging -SessionName="Play in Standalone Game" -windowed 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.14/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.03.06-00.12.55:802][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.06-00.12.55:802][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.03.06-00.12.55:808][  0]LogInit: Computer: ARCTURUS
+[2017.03.06-00.12.55:808][  0]LogInit: User: Braden
+[2017.03.06-00.12.55:808][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.03.06-00.12.55:808][  0]LogInit: High frequency timer resolution =2.338344 MHz
+[2017.03.06-00.12.55:809][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.03.06-00.12.55:809][  0]LogMemory: Platform Memory Stats for Windows
+[2017.03.06-00.12.55:809][  0]LogMemory: Process Physical Memory: 264.71 MB used, 264.71 MB peak
+[2017.03.06-00.12.55:809][  0]LogMemory: Process Virtual Memory: 262.51 MB used, 262.51 MB peak
+[2017.03.06-00.12.55:809][  0]LogMemory: Physical Memory: 7028.19 MB used,  1076.08 MB free, 8104.27 MB total
+[2017.03.06-00.12.55:809][  0]LogMemory: Virtual Memory: 689.43 MB used,  1076.08 MB free, 134217728.00 MB total
+[2017.03.06-00.12.55:863][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.03.06-00.12.56:685][  0]LogD3D11RHI: D3D11 adapters:
+[2017.03.06-00.12.56:734][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.03.06-00.12.56:734][  0]LogD3D11RHI:       0/0/1792 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x8086
+[2017.03.06-00.12.56:763][  0]LogD3D11RHI:    1. 'NVIDIA GeForce GT 755M' (Feature Level 11_0)
+[2017.03.06-00.12.56:763][  0]LogD3D11RHI:       1977/0/4052 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x10de
+[2017.03.06-00.12.56:764][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.03.06-00.12.56:764][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.03.06-00.12.56:764][  0]LogD3D11RHI: Chosen D3D11 Adapter: 1
+[2017.03.06-00.12.56:772][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.03.06-00.12.56:772][  0]LogD3D11RHI:     GPU DeviceId: 0xfcd (for the marketing name, search the web for "GPU Device Id")
+[2017.03.06-00.12.56:772][  0]LogWindows: EnumDisplayDevices:
+[2017.03.06-00.12.56:772][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2017.03.06-00.12.56:772][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:1)
+[2017.03.06-00.12.56:772][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.03.06-00.12.56:772][  0]LogWindows:    3. 'NVIDIA GeForce GT 755M' (P:0 D:0)
+[2017.03.06-00.12.56:772][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
+[2017.03.06-00.12.56:772][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 755M
+[2017.03.06-00.12.56:772][  0]LogD3D11RHI:   Driver Version: 378.66 (internal:21.21.13.7866, unified:378.66)
+[2017.03.06-00.12.56:772][  0]LogD3D11RHI:      Driver Date: 2-9-2017
+[2017.03.06-00.12.56:772][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.03.06-00.12.56:791][  0]LogD3D11RHI:Warning: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2017.03.06-00.12.56:791][  0]LogD3D11RHI: Async texture creation enabled
+[2017.03.06-00.12.56:810][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.03.06-00.12.56:811][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Intermediate/Shaders/WorkingDirectory/15732/).
+[2017.03.06-00.12.56:811][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Braden/AppData/Local/Temp/UnrealShaderWorkingDir/48310659444203399579418F1DC8D47D/'.
+[2017.03.06-00.12.56:811][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.03.06-00.12.57:920][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.03.06-00.12.57:960][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.03.06-00.12.58:011][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.03.06-00.12.58:042][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.03.06-00.12.58:042][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.03.06-00.12.58:284][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.03.06-00.12.58:427][  0]LogDerivedDataCache: Loaded boot cache 0.14s 52MB C:/Users/Braden/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.03.06-00.12.58:427][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Braden/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2017.03.06-00.12.58:427][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.03.06-00.12.58:427][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.03.06-00.12.58:428][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.03.06-00.12.58:428][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.03.06-00.12.58:448][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.03.06-00.12.58:462][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Braden/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.03.06-00.12.58:707][  0]LogAssetRegistry: FAssetRegistry took 0.0002 seconds to start up
+[2017.03.06-00.12.58:714][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.007319 seconds
+[2017.03.06-00.12.58:734][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.06-00.12.58:736][  0]LogContentStreaming: Texture pool size is 1000.00 MB
+[2017.03.06-00.12.58:910][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.03.06-00.12.58:936][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.03.06-00.12.58:968][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.03.06-00.12.58:968][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.03.06-00.12.58:968][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.03.06-00.12.59:521][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: abyss, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1595127573
+[2017.03.06-00.12.59:582][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.03.06-00.13.00:061][  0]LogSlate: Using Freetype 2.6.0
+[2017.03.06-00.13.00:061][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.06-00.13.00:061][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.06-00.13.00:152][  0]LogMoviePlayer: Initializing movie player
+[2017.03.06-00.13.00:266][  0]LogWindowsMoviePlayer: Unable to load movie: ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/Movies/Default_Startup.mp4
+[2017.03.06-00.13.00:546][  0]SourceControl: Info Source control is disabled
+[2017.03.06-00.13.00:546][  0]SourceControl: Info Source control is disabled
+[2017.03.06-00.13.00:580][  0]SourceControl: Info Source control is disabled
+[2017.03.06-00.13.00:917][  0]LogUObjectArray: 33239 objects as part of root set at end of initial load.
+[2017.03.06-00.13.00:917][  0]LogUObjectAllocator: 7367304 out of 0 bytes used by permanent object pool.
+[2017.03.06-00.13.00:917][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.03.06-00.13.01:042][  0]LogEngine: Initializing Engine...
+[2017.03.06-00.13.01:241][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.06-00.13.01:255][  0]LogInit: FAudioDevice initialized.
+[2017.03.06-00.13.01:289][  0]LogInit: Texture streaming: Enabled
+[2017.03.06-00.13.01:303][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.03.06-00.13.01:568][  0]LogInit:Display: Game Engine Initialized.
+[2017.03.06-00.13.01:630][  0]LogInit:Display: Starting Game.
+[2017.03.06-00.13.01:630][  0]LogNet: Browse: /Temp/Autosaves/Game/Maps-Levels/UEDPCstartMenu?Name=Player
+[2017.03.06-00.13.01:630][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/Maps-Levels/UEDPCstartMenu?Name=Player
+[2017.03.06-00.13.01:653][  0]LogMemory: Platform Memory Stats for Windows
+[2017.03.06-00.13.01:653][  0]LogMemory: Process Physical Memory: 610.54 MB used, 655.32 MB peak
+[2017.03.06-00.13.01:653][  0]LogMemory: Process Virtual Memory: 695.22 MB used, 695.23 MB peak
+[2017.03.06-00.13.01:653][  0]LogMemory: Physical Memory: 7111.83 MB used,  992.45 MB free, 8104.27 MB total
+[2017.03.06-00.13.01:653][  0]LogMemory: Virtual Memory: 1331.28 MB used,  992.45 MB free, 134217728.00 MB total
+[2017.03.06-00.13.01:653][  0]LogMemory: 
+[2017.03.06-00.13.01:653][  0]Allocator Stats for TBB: (not implemented)
+[2017.03.06-00.13.01:786][  0]LogAIModule: Creating AISystem for world startMenu
+[2017.03.06-00.13.02:287][  0]LogLoad: Game class is 'abyssGameMode_C'
+[2017.03.06-00.13.02:289][  0]LogWorld: Bringing World /Temp/Autosaves/Game/Maps-Levels/UEDPCstartMenu.startMenu up for play (max tick rate 0) at 2017.03.05-19.13.02
+[2017.03.06-00.13.02:289][  0]LogWorld: Bringing up level for play took: 0.000773
+[2017.03.06-00.13.02:295][  0]LogLoad: Took 0.664331 seconds to LoadMap(/Temp/Autosaves/Game/Maps-Levels/UEDPCstartMenu)
+[2017.03.06-00.13.02:613][  0]LogLoad: (Engine Initialization) Total time: 11.05 seconds
+[2017.03.06-00.13.02:613][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.36 seconds
+[2017.03.06-00.13.02:613][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.03.06-00.13.02:613][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.03.06-00.13.02:746][  2]LogRenderer: Reallocating scene render targets to support 1280x720 NumSamples 1 (Frame:2).
+[2017.03.06-00.13.23:599][263]LogPackageName: SearchForPackageOnDisk took   0.073s to resolve Fort_Exploration.umap.
+[2017.03.06-00.13.23:668][263]LogPackageName: SearchForPackageOnDisk took   0.068s to resolve Fort_Exploration.umap.
+[2017.03.06-00.13.23:668][263]LogNet: Browse: /Game/Maps-Levels/Fort/Exploration/Fort_Exploration
+[2017.03.06-00.13.23:668][263]LogLoad: LoadMap: /Game/Maps-Levels/Fort/Exploration/Fort_Exploration
+[2017.03.06-00.13.23:719][263]LogMemory: Platform Memory Stats for Windows
+[2017.03.06-00.13.23:719][263]LogMemory: Process Physical Memory: 675.00 MB used, 675.00 MB peak
+[2017.03.06-00.13.23:719][263]LogMemory: Process Virtual Memory: 889.20 MB used, 894.93 MB peak
+[2017.03.06-00.13.23:719][263]LogMemory: Physical Memory: 7098.59 MB used,  1005.68 MB free, 8104.27 MB total
+[2017.03.06-00.13.23:719][263]LogMemory: Virtual Memory: 1538.78 MB used,  1005.68 MB free, 134217728.00 MB total
+[2017.03.06-00.13.23:719][263]LogMemory: 
+[2017.03.06-00.13.23:719][263]Allocator Stats for TBB: (not implemented)
+[2017.03.06-00.13.24:346][263]LogAIModule: Creating AISystem for world Fort_Exploration
+[2017.03.06-00.13.24:346][263]LogLoad: Game class is 'abyssExplorationMode_C'
+[2017.03.06-00.13.24:351][263]LogWorld: Bringing World /Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration up for play (max tick rate 0) at 2017.03.05-19.13.24
+[2017.03.06-00.13.24:352][263]LogWorld: Bringing up level for play took: 0.003982
+[2017.03.06-00.13.24:355][263]LogLoad: Took 0.687366 seconds to LoadMap(/Game/Maps-Levels/Fort/Exploration/Fort_Exploration)
+[2017.03.06-00.13.26:739][407]LogPackageName: SearchForPackageOnDisk took   0.068s to resolve Fort_Battle.umap.
+[2017.03.06-00.13.26:806][408]LogPackageName: SearchForPackageOnDisk took   0.065s to resolve Fort_Battle.umap.
+[2017.03.06-00.13.26:806][408]LogNet: Browse: /Game/Maps-Levels/Fort_Battle
+[2017.03.06-00.13.26:807][408]LogLoad: LoadMap: /Game/Maps-Levels/Fort_Battle
+[2017.03.06-00.13.26:817][408]LogAudio:Warning: Audio Component is being destroyed without stopping looping sound 'ambientBackground'
+[2017.03.06-00.13.26:850][408]LogMemory: Platform Memory Stats for Windows
+[2017.03.06-00.13.26:850][408]LogMemory: Process Physical Memory: 684.62 MB used, 684.62 MB peak
+[2017.03.06-00.13.26:850][408]LogMemory: Process Virtual Memory: 892.79 MB used, 953.95 MB peak
+[2017.03.06-00.13.26:850][408]LogMemory: Physical Memory: 7110.14 MB used,  994.13 MB free, 8104.27 MB total
+[2017.03.06-00.13.26:850][408]LogMemory: Virtual Memory: 1540.28 MB used,  994.13 MB free, 134217728.00 MB total
+[2017.03.06-00.13.26:850][408]LogMemory: 
+[2017.03.06-00.13.26:850][408]Allocator Stats for TBB: (not implemented)
+[2017.03.06-00.13.27:301][408]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'PaperSprite' in BlueprintGeneratedClass 'BS_Enemy_C' (it may have been removed)
+[2017.03.06-00.13.27:310][408]LogAIModule: Creating AISystem for world Fort_Battle
+[2017.03.06-00.13.27:311][408]LogLoad: Game class is 'abyssBattleScene_C'
+[2017.03.06-00.13.27:315][408]LogWorld: Bringing World /Game/Maps-Levels/Fort_Battle.Fort_Battle up for play (max tick rate 0) at 2017.03.05-19.13.27
+[2017.03.06-00.13.27:315][408]LogWorld: Bringing up level for play took: 0.002802
+[2017.03.06-00.13.27:316][408]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.03.06-00.13.27:322][408]LogLoad: Took 0.515568 seconds to LoadMap(/Game/Maps-Levels/Fort_Battle)
+[2017.03.06-00.13.28:565][485]LogBlueprintUserMessages: [BattleHUD_C_0] Enemy missed!
+[2017.03.06-00.13.29:146][521]LogBlueprintUserMessages: [BattleHUD_C_0] Enemy is dead
+[2017.03.06-00.13.31:055][635]LogPackageName: SearchForPackageOnDisk took   0.070s to resolve Fort_Exploration.umap.
+[2017.03.06-00.13.31:123][635]LogPackageName: SearchForPackageOnDisk took   0.065s to resolve Fort_Exploration.umap.
+[2017.03.06-00.13.31:123][635]LogNet: Browse: /Game/Maps-Levels/Fort/Exploration/Fort_Exploration
+[2017.03.06-00.13.31:123][635]LogLoad: LoadMap: /Game/Maps-Levels/Fort/Exploration/Fort_Exploration
+[2017.03.06-00.13.31:164][635]LogMemory: Platform Memory Stats for Windows
+[2017.03.06-00.13.31:164][635]LogMemory: Process Physical Memory: 697.72 MB used, 698.49 MB peak
+[2017.03.06-00.13.31:164][635]LogMemory: Process Virtual Memory: 922.38 MB used, 970.55 MB peak
+[2017.03.06-00.13.31:164][635]LogMemory: Physical Memory: 7105.34 MB used,  998.94 MB free, 8104.27 MB total
+[2017.03.06-00.13.31:164][635]LogMemory: Virtual Memory: 1572.96 MB used,  998.94 MB free, 134217728.00 MB total
+[2017.03.06-00.13.31:164][635]LogMemory: 
+[2017.03.06-00.13.31:164][635]Allocator Stats for TBB: (not implemented)
+[2017.03.06-00.13.31:786][635]LogAIModule: Creating AISystem for world Fort_Exploration
+[2017.03.06-00.13.31:786][635]LogLoad: Game class is 'abyssExplorationMode_C'
+[2017.03.06-00.13.31:793][635]LogWorld: Bringing World /Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration up for play (max tick rate 0) at 2017.03.05-19.13.31
+[2017.03.06-00.13.31:793][635]LogWorld: Bringing up level for play took: 0.005516
+[2017.03.06-00.13.31:796][635]LogLoad: Took 0.674099 seconds to LoadMap(/Game/Maps-Levels/Fort/Exploration/Fort_Exploration)
+[2017.03.06-00.13.35:507][854]LogBlueprintUserMessages: [checkPoint_765] Checkpoint!
+[2017.03.06-00.13.40:247][148]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array EnemyTable of length 0!
+[2017.03.06-00.13.40:316][148]LogPackageName: SearchForPackageOnDisk took   0.068s to resolve Fort_Battle.umap.
+[2017.03.06-00.13.40:381][149]LogPackageName: SearchForPackageOnDisk took   0.063s to resolve Fort_Battle.umap.
+[2017.03.06-00.13.40:381][149]LogNet: Browse: /Game/Maps-Levels/Fort_Battle
+[2017.03.06-00.13.40:381][149]LogLoad: LoadMap: /Game/Maps-Levels/Fort_Battle
+[2017.03.06-00.13.40:392][149]LogAudio:Warning: Audio Component is being destroyed without stopping looping sound 'ambientBackground'
+[2017.03.06-00.13.40:426][149]LogMemory: Platform Memory Stats for Windows
+[2017.03.06-00.13.40:427][149]LogMemory: Process Physical Memory: 703.01 MB used, 703.01 MB peak
+[2017.03.06-00.13.40:427][149]LogMemory: Process Virtual Memory: 913.75 MB used, 978.73 MB peak
+[2017.03.06-00.13.40:427][149]LogMemory: Physical Memory: 7068.06 MB used,  1036.21 MB free, 8104.27 MB total
+[2017.03.06-00.13.40:427][149]LogMemory: Virtual Memory: 1564.28 MB used,  1036.21 MB free, 134217728.00 MB total
+[2017.03.06-00.13.40:427][149]LogMemory: 
+[2017.03.06-00.13.40:427][149]Allocator Stats for TBB: (not implemented)
+[2017.03.06-00.13.40:824][149]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'PaperSprite' in BlueprintGeneratedClass 'BS_Enemy_C' (it may have been removed)
+[2017.03.06-00.13.40:850][149]LogAIModule: Creating AISystem for world Fort_Battle
+[2017.03.06-00.13.40:850][149]LogLoad: Game class is 'abyssBattleScene_C'
+[2017.03.06-00.13.40:853][149]LogWorld: Bringing World /Game/Maps-Levels/Fort_Battle.Fort_Battle up for play (max tick rate 0) at 2017.03.05-19.13.40
+[2017.03.06-00.13.40:854][149]LogWorld: Bringing up level for play took: 0.002308
+[2017.03.06-00.13.40:854][149]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.03.06-00.13.40:860][149]LogLoad: Took 0.479988 seconds to LoadMap(/Game/Maps-Levels/Fort_Battle)
+[2017.03.06-00.13.40:866][149]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.40:866][149]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.40:866][149]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.40:866][149]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.40:868][150]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.40:868][150]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.40:888][151]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.40:888][151]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.40:912][152]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.40:912][152]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.40:926][153]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.40:926][153]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.40:944][154]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.40:944][154]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.40:960][155]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.40:960][155]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.40:976][156]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.40:976][156]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.40:993][157]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.40:994][157]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.41:010][158]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.41:010][158]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.41:025][159]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.41:025][159]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.41:043][160]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.41:043][160]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.41:057][161]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.41:057][161]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.41:075][162]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.41:075][162]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.41:089][163]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.41:089][163]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.41:108][164]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.41:108][164]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.41:121][165]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.41:121][165]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.41:138][166]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.41:138][166]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.41:153][167]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.41:153][167]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.41:169][168]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.41:169][168]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.41:186][169]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.41:187][169]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.41:201][170]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.41:201][170]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.41:218][171]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.41:218][171]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.41:234][172]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.41:234][172]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.41:250][173]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.41:250][173]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.41:269][174]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.41:270][174]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.41:283][175]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.41:283][175]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.41:299][176]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.41:299][176]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.41:315][177]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.41:315][177]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.41:331][178]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.41:331][178]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.41:348][179]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.41:348][179]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.41:363][180]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.41:363][180]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.41:379][181]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.41:379][181]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.41:395][182]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.41:395][182]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.41:412][183]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.41:412][183]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.41:428][184]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.41:428][184]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.41:444][185]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.41:444][185]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.41:460][186]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.41:460][186]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.41:475][187]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.41:476][187]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.41:492][188]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.41:492][188]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.41:509][189]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.41:509][189]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.41:524][190]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.41:524][190]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.41:541][191]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.41:541][191]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.41:557][192]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.41:557][192]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.41:576][193]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.41:576][193]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.41:589][194]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.41:589][194]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.41:606][195]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.41:606][195]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.41:620][196]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.41:620][196]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.41:639][197]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.41:639][197]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.41:652][198]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.41:652][198]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.41:668][199]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.41:669][199]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.41:684][200]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.41:684][200]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.41:702][201]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.41:702][201]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.41:717][202]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.41:717][202]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.41:734][203]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.41:734][203]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.41:749][204]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.41:749][204]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.41:767][205]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.41:767][205]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.41:783][206]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.41:783][206]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.41:799][207]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.41:799][207]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.41:815][208]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.41:815][208]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.41:831][209]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.41:831][209]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.41:847][210]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.41:847][210]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.41:863][211]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.41:863][211]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.41:879][212]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.41:879][212]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.41:896][213]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.41:896][213]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.41:911][214]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.41:911][214]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.41:928][215]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.41:928][215]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.41:945][216]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.41:945][216]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.41:960][217]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.41:960][217]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.41:976][218]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.41:976][218]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.41:993][219]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.41:993][219]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.42:008][220]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.42:008][220]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.42:025][221]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.42:025][221]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.42:040][222]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.42:040][222]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.42:057][223]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.42:057][223]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.42:075][224]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.42:075][224]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.42:090][225]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.42:090][225]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.42:106][226]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.42:106][226]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.42:121][227]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.42:121][227]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.42:139][228]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.42:139][228]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.42:153][229]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.42:153][229]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.42:170][230]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.42:170][230]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.42:185][231]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.42:185][231]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.42:202][232]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.42:202][232]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.42:217][233]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.42:217][233]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.42:235][234]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.42:235][234]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.42:250][235]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.42:250][235]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.42:268][236]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.42:268][236]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.42:282][237]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.42:283][237]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.42:299][238]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.42:299][238]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.42:315][239]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.42:315][239]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.42:331][240]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.42:331][240]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.42:348][241]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.42:348][241]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.42:363][242]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.42:364][242]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.42:379][243]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.42:379][243]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.42:396][244]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.42:396][244]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.42:411][245]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.42:411][245]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.42:429][246]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.42:429][246]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.42:444][247]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.42:444][247]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.42:460][248]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.42:460][248]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.42:476][249]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.42:476][249]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.42:492][250]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.42:492][250]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.42:509][251]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.42:509][251]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.42:522][252]LogBlueprintUserMessages: [BattleHUD_C_0] Enemy is dead
+[2017.03.06-00.13.42:525][252]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.42:525][252]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.42:540][253]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.42:540][253]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.42:558][254]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.42:558][254]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.42:572][255]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.42:572][255]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.42:588][256]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.42:589][256]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.42:607][257]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.42:607][257]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.42:621][258]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.42:621][258]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.42:638][259]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.42:638][259]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.42:652][260]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.42:652][260]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.42:668][261]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.42:669][261]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.42:686][262]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.42:686][262]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.42:704][263]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.42:704][263]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.42:717][264]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.42:718][264]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.42:734][265]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.42:734][265]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.42:750][266]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.42:750][266]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.42:766][267]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.42:766][267]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.42:782][268]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.42:782][268]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.42:800][269]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.42:800][269]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.42:814][270]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.42:815][270]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.42:831][271]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.42:831][271]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.42:846][272]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.42:846][272]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.42:863][273]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.42:863][273]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.42:863][273]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.42:863][273]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.42:879][274]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.42:879][274]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.42:896][275]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.42:896][275]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.42:912][276]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.42:912][276]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.42:928][277]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.42:928][277]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.42:944][278]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.42:944][278]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.42:959][279]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.42:959][279]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.42:976][280]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.42:976][280]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.42:992][281]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.42:992][281]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.43:008][282]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.43:008][282]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.43:024][283]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.43:025][283]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.43:043][284]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.43:043][284]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.43:056][285]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.43:056][285]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.43:075][286]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.43:075][286]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.43:088][287]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.43:088][287]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.43:107][288]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.43:107][288]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.43:121][289]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.43:121][289]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.43:138][290]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.43:138][290]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.43:153][291]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.43:153][291]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.43:171][292]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.43:171][292]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.43:185][293]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.43:185][293]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.43:203][294]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.43:203][294]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.43:217][295]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.43:217][295]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.43:235][296]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.43:235][296]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.43:249][297]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.43:249][297]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.43:267][298]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.43:267][298]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.43:282][299]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.43:282][299]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.43:299][300]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.43:299][300]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.43:315][301]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.43:315][301]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.43:330][302]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.43:330][302]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.43:347][303]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.43:347][303]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.43:363][304]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.43:363][304]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.43:379][305]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.43:379][305]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.43:396][306]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.43:396][306]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.43:412][307]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.43:412][307]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.43:429][308]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.43:429][308]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.43:444][309]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.43:444][309]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.43:460][310]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.43:460][310]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.43:476][311]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.43:476][311]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.43:492][312]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.43:492][312]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.43:509][313]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.43:509][313]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.43:525][314]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.43:525][314]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.43:541][315]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.43:541][315]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.43:557][316]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.43:557][316]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.43:574][317]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.43:574][317]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.43:588][318]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.43:588][318]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.43:607][319]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.43:607][319]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.43:620][320]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.43:620][320]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.43:637][321]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.43:637][321]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.43:653][322]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.43:653][322]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.43:669][323]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.43:669][323]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.43:685][324]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.43:685][324]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.43:705][325]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.43:705][325]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.43:719][326]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.43:719][326]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.43:736][327]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.43:736][327]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.43:751][328]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.43:751][328]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.43:768][329]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.43:768][329]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.43:783][330]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.43:783][330]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.43:800][331]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.43:800][331]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.43:815][332]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.43:815][332]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.43:831][333]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.43:831][333]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.43:847][334]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.43:847][334]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.43:863][335]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.43:863][335]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.43:879][336]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.43:879][336]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.43:896][337]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.43:896][337]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.43:911][338]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.43:911][338]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.43:927][339]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.43:927][339]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.43:944][340]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.43:944][340]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.43:959][341]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.43:959][341]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.43:976][342]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.43:976][342]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.43:991][343]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.43:991][343]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.44:012][344]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.44:012][344]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.44:025][345]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.44:025][345]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.44:041][346]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.44:041][346]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.44:056][347]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.44:056][347]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.44:075][348]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.44:075][348]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.44:088][349]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.44:088][349]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.44:107][350]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.44:107][350]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.44:121][351]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.44:121][351]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.44:140][352]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.44:140][352]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.44:153][353]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.44:153][353]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.44:170][354]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.44:170][354]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.44:185][355]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.44:185][355]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.44:204][356]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.44:204][356]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.44:217][357]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.44:217][357]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.44:235][358]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.44:235][358]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.44:250][359]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.44:250][359]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.44:267][360]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.44:267][360]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.44:284][361]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.44:284][361]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.44:300][362]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.44:300][362]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.44:315][363]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.44:315][363]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.44:330][364]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.44:330][364]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.44:347][365]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.44:347][365]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.44:364][366]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.44:364][366]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.44:380][367]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.44:380][367]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.44:396][368]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.44:396][368]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.44:411][369]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.44:411][369]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.44:428][370]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.44:428][370]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.44:444][371]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.44:444][371]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.44:461][372]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.44:461][372]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.44:477][373]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyHPBar
+
+[2017.03.06-00.13.44:477][373]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/UMG/BattleHUD.BattleHUD_C:SetEnemyMPBar
+
+[2017.03.06-00.13.44:556][374]LogPackageName: SearchForPackageOnDisk took   0.065s to resolve Fort_Exploration.umap.
+[2017.03.06-00.13.44:622][374]LogPackageName: SearchForPackageOnDisk took   0.064s to resolve Fort_Exploration.umap.
+[2017.03.06-00.13.44:622][374]LogNet: Browse: /Game/Maps-Levels/Fort/Exploration/Fort_Exploration
+[2017.03.06-00.13.44:622][374]LogLoad: LoadMap: /Game/Maps-Levels/Fort/Exploration/Fort_Exploration
+[2017.03.06-00.13.44:660][374]LogMemory: Platform Memory Stats for Windows
+[2017.03.06-00.13.44:660][374]LogMemory: Process Physical Memory: 705.66 MB used, 706.72 MB peak
+[2017.03.06-00.13.44:660][374]LogMemory: Process Virtual Memory: 924.39 MB used, 978.73 MB peak
+[2017.03.06-00.13.44:660][374]LogMemory: Physical Memory: 7015.07 MB used,  1089.21 MB free, 8104.27 MB total
+[2017.03.06-00.13.44:660][374]LogMemory: Virtual Memory: 1572.96 MB used,  1089.21 MB free, 134217728.00 MB total
+[2017.03.06-00.13.44:660][374]LogMemory: 
+[2017.03.06-00.13.44:660][374]Allocator Stats for TBB: (not implemented)
+[2017.03.06-00.13.45:313][374]LogAIModule: Creating AISystem for world Fort_Exploration
+[2017.03.06-00.13.45:313][374]LogLoad: Game class is 'abyssExplorationMode_C'
+[2017.03.06-00.13.45:318][374]LogWorld: Bringing World /Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration up for play (max tick rate 0) at 2017.03.05-19.13.45
+[2017.03.06-00.13.45:318][374]LogWorld: Bringing up level for play took: 0.003808
+[2017.03.06-00.13.45:321][374]LogLoad: Took 0.699808 seconds to LoadMap(/Game/Maps-Levels/Fort/Exploration/Fort_Exploration)
+[2017.03.06-00.13.47:044][475]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.06-00.13.47:048][475]LogEngine: All Windows Closed
+[2017.03.06-00.13.47:048][475]LogWindows: FPlatformMisc::RequestExit(0)
+[2017.03.06-00.13.47:049][476]LogMoviePlayer: Shutting down movie player
+[2017.03.06-00.13.47:076][476]LogExit: Preparing to exit.
+[2017.03.06-00.13.47:204][476]LogExit: Game engine shut down
+[2017.03.06-00.13.47:293][476]LogObj: Freed 0b from 0 cluster array pools.
+[2017.03.06-00.13.47:293][476]LogExit: Object subsystem successfully closed.
+[2017.03.06-00.13.47:314][476]LogD3D11RHI: Shutdown
+[2017.03.06-00.13.47:314][476]LogD3D11RHI: CleanupD3DDevice
+[2017.03.06-00.13.47:366][476]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.03.06-00.13.47:394][476]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (115)
+[2017.03.06-00.13.47:394][476]LogModuleManager: Shutting down and abandoning module SequenceRecorder (114)
+[2017.03.06-00.13.47:394][476]LogModuleManager: Shutting down and abandoning module AutomationController (113)
+[2017.03.06-00.13.47:394][476]LogModuleManager: Shutting down and abandoning module AutomationWorker (112)
+[2017.03.06-00.13.47:394][476]LogModuleManager: Shutting down and abandoning module GameplayDebugger (111)
+[2017.03.06-00.13.47:394][476]LogModuleManager: Shutting down and abandoning module AITestSuite (110)
+[2017.03.06-00.13.47:394][476]LogModuleManager: Shutting down and abandoning module AIModule (109)
+[2017.03.06-00.13.47:394][476]LogModuleManager: Shutting down and abandoning module Media (108)
+[2017.03.06-00.13.47:394][476]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (107)
+[2017.03.06-00.13.47:394][476]LogModuleManager: Shutting down and abandoning module CharacterAI (106)
+[2017.03.06-00.13.47:394][476]LogModuleManager: Shutting down and abandoning module SessionServices (105)
+[2017.03.06-00.13.47:394][476]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (104)
+[2017.03.06-00.13.47:394][476]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (103)
+[2017.03.06-00.13.47:394][476]LogModuleManager: Shutting down and abandoning module GeometryCache (102)
+[2017.03.06-00.13.47:394][476]LogModuleManager: Shutting down and abandoning module Niagara (101)
+[2017.03.06-00.13.47:394][476]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (100)
+[2017.03.06-00.13.47:394][476]LogModuleManager: Shutting down and abandoning module PortalServices (99)
+[2017.03.06-00.13.47:394][476]LogModuleManager: Shutting down and abandoning module PortalRpc (98)
+[2017.03.06-00.13.47:394][476]LogModuleManager: Shutting down and abandoning module MessagingRpc (97)
+[2017.03.06-00.13.47:394][476]LogModuleManager: Shutting down and abandoning module ProfilerService (96)
+[2017.03.06-00.13.47:556][476]LogModuleManager: Shutting down and abandoning module TaskGraph (95)
+[2017.03.06-00.13.47:556][476]LogModuleManager: Shutting down and abandoning module SlateRemote (94)
+[2017.03.06-00.13.47:556][476]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (93)
+[2017.03.06-00.13.47:556][476]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (92)
+[2017.03.06-00.13.47:556][476]LogModuleManager: Shutting down and abandoning module CableComponent (91)
+[2017.03.06-00.13.47:556][476]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (90)
+[2017.03.06-00.13.47:556][476]LogModuleManager: Shutting down and abandoning module HTML5Networking (88)
+[2017.03.06-00.13.47:556][476]LogModuleManager: Shutting down and abandoning module DesktopPlatform (87)
+[2017.03.06-00.13.47:556][476]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
+[2017.03.06-00.13.47:556][476]LogModuleManager: Shutting down and abandoning module HotReload (85)
+[2017.03.06-00.13.47:556][476]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (84)
+[2017.03.06-00.13.47:556][476]LogModuleManager: Shutting down and abandoning module UObjectPlugin (83)
+[2017.03.06-00.13.47:556][476]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (82)
+[2017.03.06-00.13.47:556][476]LogModuleManager: Shutting down and abandoning module SourceControl (81)
+[2017.03.06-00.13.47:556][476]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (80)
+[2017.03.06-00.13.47:556][476]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (79)
+[2017.03.06-00.13.47:556][476]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2017.03.06-00.13.47:556][476]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2017.03.06-00.13.47:557][476]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2017.03.06-00.13.47:557][476]LogModuleManager: Shutting down and abandoning module MediaAssets (75)
+[2017.03.06-00.13.47:557][476]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (74)
+[2017.03.06-00.13.47:558][476]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (73)
+[2017.03.06-00.13.47:558][476]LogModuleManager: Shutting down and abandoning module VREditor (72)
+[2017.03.06-00.13.47:558][476]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (71)
+[2017.03.06-00.13.47:558][476]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (70)
+[2017.03.06-00.13.47:558][476]LogModuleManager: Shutting down and abandoning module FunctionalTesting (69)
+[2017.03.06-00.13.47:558][476]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (68)
+[2017.03.06-00.13.47:558][476]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2017.03.06-00.13.47:558][476]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (66)
+[2017.03.06-00.13.47:558][476]LogModuleManager: Shutting down and abandoning module MessageLog (65)
+[2017.03.06-00.13.47:558][476]LogModuleManager: Shutting down and abandoning module AssetTools (64)
+[2017.03.06-00.13.47:558][476]LogModuleManager: Shutting down and abandoning module UMGEditor (63)
+[2017.03.06-00.13.47:558][476]LogModuleManager: Shutting down and abandoning module UMG (62)
+[2017.03.06-00.13.47:558][476]LogModuleManager: Shutting down and abandoning module SlateReflector (61)
+[2017.03.06-00.13.47:558][476]LogModuleManager: Shutting down and abandoning module Slate (60)
+[2017.03.06-00.13.47:558][476]LogModuleManager: Shutting down and abandoning module EditorStyle (59)
+[2017.03.06-00.13.47:565][476]LogModuleManager: Shutting down and abandoning module Messaging (58)
+[2017.03.06-00.13.47:565][476]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (57)
+[2017.03.06-00.13.47:565][476]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (56)
+[2017.03.06-00.13.47:565][476]LogModuleManager: Shutting down and abandoning module XAudio2 (55)
+[2017.03.06-00.13.47:565][476]LogModuleManager: Shutting down and abandoning module Networking (53)
+[2017.03.06-00.13.47:565][476]LogModuleManager: Shutting down and abandoning module Core (52)
+[2017.03.06-00.13.47:565][476]LogModuleManager: Shutting down and abandoning module KismetCompiler (51)
+[2017.03.06-00.13.47:565][476]LogModuleManager: Shutting down and abandoning module PhysXFormats (50)
+[2017.03.06-00.13.47:565][476]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (49)
+[2017.03.06-00.13.47:565][476]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (48)
+[2017.03.06-00.13.47:565][476]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (47)
+[2017.03.06-00.13.47:565][476]LogModuleManager: Shutting down and abandoning module PropertyEditor (46)
+[2017.03.06-00.13.47:565][476]LogModuleManager: Shutting down and abandoning module MeshUtilities (45)
+[2017.03.06-00.13.47:565][476]LogModuleManager: Shutting down and abandoning module AssetRegistry (44)
+[2017.03.06-00.13.47:566][476]LogModuleManager: Shutting down and abandoning module DerivedDataCache (43)
+[2017.03.06-00.13.48:001][476]LogDerivedDataCache: Shutdown
+[2017.03.06-00.13.48:001][476]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (42)
+[2017.03.06-00.13.48:001][476]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (41)
+[2017.03.06-00.13.48:001][476]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (40)
+[2017.03.06-00.13.48:001][476]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (39)
+[2017.03.06-00.13.48:001][476]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (38)
+[2017.03.06-00.13.48:001][476]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (37)
+[2017.03.06-00.13.48:001][476]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (36)
+[2017.03.06-00.13.48:001][476]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (35)
+[2017.03.06-00.13.48:001][476]LogModuleManager: Shutting down and abandoning module ImageWrapper (34)
+[2017.03.06-00.13.48:001][476]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (33)
+[2017.03.06-00.13.48:001][476]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (32)
+[2017.03.06-00.13.48:001][476]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (31)
+[2017.03.06-00.13.48:001][476]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (30)
+[2017.03.06-00.13.48:001][476]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (29)
+[2017.03.06-00.13.48:001][476]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2017.03.06-00.13.48:002][476]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2017.03.06-00.13.48:002][476]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2017.03.06-00.13.48:002][476]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2017.03.06-00.13.48:002][476]LogModuleManager: Shutting down and abandoning module TargetPlatform (24)
+[2017.03.06-00.13.48:002][476]LogModuleManager: Shutting down and abandoning module InputCore (23)
+[2017.03.06-00.13.48:002][476]LogModuleManager: Shutting down and abandoning module Settings (22)
+[2017.03.06-00.13.48:002][476]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (21)
+[2017.03.06-00.13.48:002][476]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (20)
+[2017.03.06-00.13.48:002][476]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2017.03.06-00.13.48:002][476]LogOnline:Display: Unloading online subsystem: NULL
+[2017.03.06-00.13.48:002][476]LogModuleManager: Shutting down and abandoning module SSL (17)
+[2017.03.06-00.13.48:006][476]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2017.03.06-00.13.48:006][476]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2017.03.06-00.13.48:006][476]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.03.06-00.13.48:006][476]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.03.06-00.13.48:006][476]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.03.06-00.13.48:006][476]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.03.06-00.13.48:008][476]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.03.06-00.13.48:008][476]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.03.06-00.13.48:008][476]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.03.06-00.13.48:008][476]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.03.06-00.13.48:008][476]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.03.06-00.13.48:008][476]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.03.06-00.13.48:008][476]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.03.06-00.13.48:008][476]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.03.06-00.13.48:008][476]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.03.06-00.13.48:008][476]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.03.06-00.13.48:011][476]LogExit: Exiting.
+[2017.03.06-00.13.48:018][476]Log file closed, 03/05/17 19:13:48
