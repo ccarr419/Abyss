@@ -375,3 +375,945 @@ LogInit: Object subsystem initialized
 [2017.03.08-04.40.50:492][559]LogOutputDevice:Error: ntdll.dll
 [2017.03.08-04.40.50:492][559]LogOutputDevice:Error: 
 [2017.03.08-04.40.50:494][559]LogStats:                SubmitErrorReport -  0.000 s
+[2017.03.08-04.40.50:885][559]LogStats:                    SendNewReport -  0.391 s
+[2017.03.08-04.40.50:885][559]LogStats:             FDebug::EnsureFailed -  0.409 s
+[2017.03.08-04.40.50:926][559]LogAIModule: Creating AISystem for world Fort_Battle
+[2017.03.08-04.40.50:926][559]LogLoad: Game class is 'abyssBattleScene_C'
+[2017.03.08-04.40.50:931][559]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_Fort_Battle.Fort_Battle up for play (max tick rate 0) at 2017.03.07-23.40.50
+[2017.03.08-04.40.50:932][559]LogWorld: Bringing up level for play took: 0.003234
+[2017.03.08-04.40.50:932][559]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.03.08-04.40.50:939][559]LogLoad: Took 1.115764 seconds to LoadMap(/Game/Maps-Levels/Fort_Battle)
+[2017.03.08-04.40.52:617][738]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 1!
+[2017.03.08-04.40.53:614][844]LogBlueprintUserMessages: [BattleHUD_C_2] Enemy missed!
+[2017.03.08-04.40.54:590][956]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 1!
+[2017.03.08-04.40.58:502][412]LogBlueprintUserMessages: [BattleHUD_C_2] Attack missed!
+[2017.03.08-04.41.00:863][664]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 1!
+[2017.03.08-04.41.01:857][781]LogBlueprintUserMessages: [BattleHUD_C_2] Enemy is dead
+[2017.03.08-04.41.02:890][897]LogNet: Browse: /Game/Maps-Levels/Fort/Fort_Exploration
+[2017.03.08-04.41.02:890][897]LogLoad: LoadMap: /Game/Maps-Levels/Fort/Fort_Exploration
+[2017.03.08-04.41.03:063][897]Cmd: MEM
+[2017.03.08-04.41.03:222][897]LogMemory: Platform Memory Stats for Windows
+[2017.03.08-04.41.03:222][897]LogMemory: Process Physical Memory: 1324.68 MB used, 1335.73 MB peak
+[2017.03.08-04.41.03:222][897]LogMemory: Process Virtual Memory: 1241.77 MB used, 1258.94 MB peak
+[2017.03.08-04.41.03:222][897]LogMemory: Physical Memory: 7275.82 MB used,  9008.25 MB free, 16284.07 MB total
+[2017.03.08-04.41.03:222][897]LogMemory: Virtual Memory: 2563.05 MB used,  9008.25 MB free, 8388608.00 MB total
+[2017.03.08-04.41.03:222][897]LogMemory: 
+[2017.03.08-04.41.03:222][897]Allocator Stats for TBB: (not implemented)
+[2017.03.08-04.41.03:414][897]LogAIModule: Creating AISystem for world Fort_Exploration
+[2017.03.08-04.41.03:414][897]LogLoad: Game class is 'abyssExplorationMode_C'
+[2017.03.08-04.41.03:421][897]LogWorld: Bringing World /Game/Maps-Levels/Fort/UEDPIE_0_Fort_Exploration.Fort_Exploration up for play (max tick rate 0) at 2017.03.07-23.41.03
+[2017.03.08-04.41.03:422][897]LogWorld: Bringing up level for play took: 0.005660
+[2017.03.08-04.41.03:425][897]LogLoad: Took 0.535140 seconds to LoadMap(/Game/Maps-Levels/Fort/Fort_Exploration)
+[2017.03.08-04.41.03:425][897]LogScriptCore:Warning: Script Msg: Attempted to access index 7 from array CallFunc_GetAllActorsOfClass_OutActors2 of length 2!
+[2017.03.08-04.41.03:425][897]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item3
+	Exploration_Hero_C /Game/Maps-Levels/Fort/UEDPIE_0_Fort_Exploration.Fort_Exploration:PersistentLevel.Exploration_Hero_C_0
+	Function /Game/BluePrints/Exploration/Exploration_Hero.Exploration_Hero_C:ExecuteUbergraph_Exploration_Hero:18CE
+[2017.03.08-04.41.03:426][897]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item3 from function: 'ExecuteUbergraph_Exploration_Hero' from node: returnFromBattle in graph: EventGraph in object: Exploration_Hero with description: Accessed None trying to read property CallFunc_Array_Get_Item3
+[2017.03.08-04.41.03:426][897]LogScript:Warning: Accessed None
+	Exploration_Hero_C /Game/Maps-Levels/Fort/UEDPIE_0_Fort_Exploration.Fort_Exploration:PersistentLevel.Exploration_Hero_C_0
+	Function /Game/BluePrints/Exploration/Exploration_Hero.Exploration_Hero_C:ExecuteUbergraph_Exploration_Hero:18E3
+[2017.03.08-04.41.03:426][897]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Exploration_Hero' from node: returnFromBattle in graph: EventGraph in object: Exploration_Hero with description: Accessed None
+[2017.03.08-04.41.03:896][951]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu' with GeneratedClass '/Game/Maps-Levels/startMenu.startMenu_C' with ClassGeneratedBy '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu'
+[2017.03.08-04.41.03:965][951]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu' with GeneratedClass '/Game/Maps-Levels/startMenu.startMenu_C' with ClassGeneratedBy '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu'
+[2017.03.08-04.41.59:708][831]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.08-04.41.59:757][831]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu' with GeneratedClass '/Game/Maps-Levels/startMenu.startMenu_C' with ClassGeneratedBy '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu'
+[2017.03.08-04.41.59:757][831]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.08-04.41.59:757][831]PIE: New page: PIE session: startMenu (Mar 7, 2017, 6:41:59 PM)
+[2017.03.08-04.41.59:776][831]LogPlayLevel: Creating play world package: /Game/Maps-Levels/UEDPIE_0_startMenu
+[2017.03.08-04.41.59:778][831]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001931s)
+[2017.03.08-04.41.59:779][831]LogAIModule: Creating AISystem for world startMenu
+[2017.03.08-04.41.59:780][831]LogPlayLevel: PIE: World Init took: (0.001113s)
+[2017.03.08-04.41.59:780][831]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps-Levels/startMenu.startMenu to /Game/Maps-Levels/UEDPIE_0_startMenu.startMenu (0.003440s)
+[2017.03.08-04.41.59:957][831]LogInit: XAudio2 using '1 - SE32HY27 (2- AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.08-04.41.59:969][831]LogInit: FAudioDevice initialized.
+[2017.03.08-04.42.00:017][831]LogLoad: Game class is 'abyssGameMode_C'
+[2017.03.08-04.42.00:020][831]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_startMenu.startMenu up for play (max tick rate 0) at 2017.03.07-23.42.00
+[2017.03.08-04.42.00:021][831]LogWorld: Bringing up level for play took: 0.000943
+[2017.03.08-04.42.00:021][831]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.03.08-04.42.00:026][831]PIE: Info Play in editor start time for /Game/Maps-Levels/UEDPIE_0_startMenu 0.269
+[2017.03.08-04.42.00:027][831]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu' with GeneratedClass '/Game/Maps-Levels/startMenu.startMenu_C' with ClassGeneratedBy '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu'
+[2017.03.08-04.42.02:620][120]LogNet: Browse: /Game/Maps-Levels/Fort/Exploration/Fort_Exploration1
+[2017.03.08-04.42.02:620][120]LogLoad: LoadMap: /Game/Maps-Levels/Fort/Exploration/Fort_Exploration1
+[2017.03.08-04.42.02:780][120]Cmd: MEM
+[2017.03.08-04.42.02:928][120]LogMemory: Platform Memory Stats for Windows
+[2017.03.08-04.42.02:929][120]LogMemory: Process Physical Memory: 1346.38 MB used, 1351.75 MB peak
+[2017.03.08-04.42.02:929][120]LogMemory: Process Virtual Memory: 1243.80 MB used, 1258.94 MB peak
+[2017.03.08-04.42.02:929][120]LogMemory: Physical Memory: 7281.02 MB used,  9003.05 MB free, 16284.07 MB total
+[2017.03.08-04.42.02:929][120]LogMemory: Virtual Memory: 2562.54 MB used,  9003.05 MB free, 8388608.00 MB total
+[2017.03.08-04.42.02:929][120]LogMemory: 
+[2017.03.08-04.42.02:929][120]Allocator Stats for TBB: (not implemented)
+[2017.03.08-04.42.03:125][120]LogAIModule: Creating AISystem for world Fort_Exploration1
+[2017.03.08-04.42.03:125][120]LogLoad: Game class is 'abyssExplorationMode_C'
+[2017.03.08-04.42.03:136][120]LogWorld: Bringing World /Game/Maps-Levels/Fort/Exploration/UEDPIE_0_Fort_Exploration1.Fort_Exploration1 up for play (max tick rate 0) at 2017.03.07-23.42.03
+[2017.03.08-04.42.03:138][120]LogWorld: Bringing up level for play took: 0.010657
+[2017.03.08-04.42.03:141][120]LogLoad: Took 0.521209 seconds to LoadMap(/Game/Maps-Levels/Fort/Exploration/Fort_Exploration1)
+[2017.03.08-04.42.05:831][408]LogNet: Browse: /Game/Maps-Levels/Fort_Battle
+[2017.03.08-04.42.05:831][408]LogLoad: LoadMap: /Game/Maps-Levels/Fort_Battle
+[2017.03.08-04.42.05:991][408]Cmd: MEM
+[2017.03.08-04.42.06:149][408]LogMemory: Platform Memory Stats for Windows
+[2017.03.08-04.42.06:149][408]LogMemory: Process Physical Memory: 1354.62 MB used, 1355.60 MB peak
+[2017.03.08-04.42.06:149][408]LogMemory: Process Virtual Memory: 1259.92 MB used, 1264.92 MB peak
+[2017.03.08-04.42.06:149][408]LogMemory: Physical Memory: 7281.34 MB used,  9002.73 MB free, 16284.07 MB total
+[2017.03.08-04.42.06:149][408]LogMemory: Virtual Memory: 2578.54 MB used,  9002.73 MB free, 8388608.00 MB total
+[2017.03.08-04.42.06:149][408]LogMemory: 
+[2017.03.08-04.42.06:149][408]Allocator Stats for TBB: (not implemented)
+[2017.03.08-04.42.06:288][408]LogAIModule: Creating AISystem for world Fort_Battle
+[2017.03.08-04.42.06:288][408]LogLoad: Game class is 'abyssBattleScene_C'
+[2017.03.08-04.42.06:293][408]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_Fort_Battle.Fort_Battle up for play (max tick rate 0) at 2017.03.07-23.42.06
+[2017.03.08-04.42.06:294][408]LogWorld: Bringing up level for play took: 0.003001
+[2017.03.08-04.42.06:294][408]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.03.08-04.42.06:302][408]LogLoad: Took 0.470842 seconds to LoadMap(/Game/Maps-Levels/Fort_Battle)
+[2017.03.08-04.42.07:483][538]LogBlueprintUserMessages: [BattleHUD_C_3] Attack missed!
+[2017.03.08-04.42.08:943][704]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 1!
+[2017.03.08-04.42.11:423][987]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 1!
+[2017.03.08-04.42.13:567][231]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 1!
+[2017.03.08-04.42.14:565][345]LogBlueprintUserMessages: [BattleHUD_C_3] Enemy is dead
+[2017.03.08-04.42.15:556][454]LogNet: Browse: /Game/Maps-Levels/Fort/Fort_Exploration
+[2017.03.08-04.42.15:556][454]LogLoad: LoadMap: /Game/Maps-Levels/Fort/Fort_Exploration
+[2017.03.08-04.42.15:722][454]Cmd: MEM
+[2017.03.08-04.42.15:869][454]LogMemory: Platform Memory Stats for Windows
+[2017.03.08-04.42.15:869][454]LogMemory: Process Physical Memory: 1360.62 MB used, 1361.77 MB peak
+[2017.03.08-04.42.15:869][454]LogMemory: Process Virtual Memory: 1260.11 MB used, 1265.11 MB peak
+[2017.03.08-04.42.15:869][454]LogMemory: Physical Memory: 7295.02 MB used,  8989.05 MB free, 16284.07 MB total
+[2017.03.08-04.42.15:869][454]LogMemory: Virtual Memory: 2583.36 MB used,  8989.05 MB free, 8388608.00 MB total
+[2017.03.08-04.42.15:869][454]LogMemory: 
+[2017.03.08-04.42.15:869][454]Allocator Stats for TBB: (not implemented)
+[2017.03.08-04.42.16:062][454]LogAIModule: Creating AISystem for world Fort_Exploration
+[2017.03.08-04.42.16:063][454]LogLoad: Game class is 'abyssExplorationMode_C'
+[2017.03.08-04.42.16:070][454]LogWorld: Bringing World /Game/Maps-Levels/Fort/UEDPIE_0_Fort_Exploration.Fort_Exploration up for play (max tick rate 0) at 2017.03.07-23.42.16
+[2017.03.08-04.42.16:071][454]LogWorld: Bringing up level for play took: 0.006033
+[2017.03.08-04.42.16:074][454]LogLoad: Took 0.518048 seconds to LoadMap(/Game/Maps-Levels/Fort/Fort_Exploration)
+[2017.03.08-04.42.16:074][454]LogScriptCore:Warning: Script Msg: Attempted to access index 7 from array CallFunc_GetAllActorsOfClass_OutActors2 of length 2!
+[2017.03.08-04.42.16:074][454]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item3
+	Exploration_Hero_C /Game/Maps-Levels/Fort/UEDPIE_0_Fort_Exploration.Fort_Exploration:PersistentLevel.Exploration_Hero_C_0
+	Function /Game/BluePrints/Exploration/Exploration_Hero.Exploration_Hero_C:ExecuteUbergraph_Exploration_Hero:18CE
+[2017.03.08-04.42.16:075][454]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item3 from function: 'ExecuteUbergraph_Exploration_Hero' from node: returnFromBattle in graph: EventGraph in object: Exploration_Hero with description: Accessed None trying to read property CallFunc_Array_Get_Item3
+[2017.03.08-04.42.16:075][454]LogScript:Warning: Accessed None
+	Exploration_Hero_C /Game/Maps-Levels/Fort/UEDPIE_0_Fort_Exploration.Fort_Exploration:PersistentLevel.Exploration_Hero_C_0
+	Function /Game/BluePrints/Exploration/Exploration_Hero.Exploration_Hero_C:ExecuteUbergraph_Exploration_Hero:18E3
+[2017.03.08-04.42.16:075][454]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Exploration_Hero' from node: returnFromBattle in graph: EventGraph in object: Exploration_Hero with description: Accessed None
+[2017.03.08-04.42.17:753][641]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu' with GeneratedClass '/Game/Maps-Levels/startMenu.startMenu_C' with ClassGeneratedBy '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu'
+[2017.03.08-04.42.17:821][641]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu' with GeneratedClass '/Game/Maps-Levels/startMenu.startMenu_C' with ClassGeneratedBy '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu'
+[2017.03.08-04.43.14:694][356]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.08-04.43.14:741][356]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu' with GeneratedClass '/Game/Maps-Levels/startMenu.startMenu_C' with ClassGeneratedBy '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu'
+[2017.03.08-04.43.14:741][356]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.08-04.43.14:741][356]PIE: New page: PIE session: startMenu (Mar 7, 2017, 6:43:14 PM)
+[2017.03.08-04.43.14:759][356]LogPlayLevel: Creating play world package: /Game/Maps-Levels/UEDPIE_0_startMenu
+[2017.03.08-04.43.14:760][356]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001378s)
+[2017.03.08-04.43.14:761][356]LogAIModule: Creating AISystem for world startMenu
+[2017.03.08-04.43.14:761][356]LogPlayLevel: PIE: World Init took: (0.000864s)
+[2017.03.08-04.43.14:761][356]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps-Levels/startMenu.startMenu to /Game/Maps-Levels/UEDPIE_0_startMenu.startMenu (0.002532s)
+[2017.03.08-04.43.14:941][356]LogInit: XAudio2 using '1 - SE32HY27 (2- AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.08-04.43.14:952][356]LogInit: FAudioDevice initialized.
+[2017.03.08-04.43.15:003][356]LogLoad: Game class is 'abyssGameMode_C'
+[2017.03.08-04.43.15:006][356]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_startMenu.startMenu up for play (max tick rate 0) at 2017.03.07-23.43.15
+[2017.03.08-04.43.15:006][356]LogWorld: Bringing up level for play took: 0.000866
+[2017.03.08-04.43.15:007][356]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.03.08-04.43.15:012][356]PIE: Info Play in editor start time for /Game/Maps-Levels/UEDPIE_0_startMenu 1.255
+[2017.03.08-04.43.15:012][356]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu' with GeneratedClass '/Game/Maps-Levels/startMenu.startMenu_C' with ClassGeneratedBy '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu'
+[2017.03.08-04.43.15:701][429]LogNet: Browse: /Game/Maps-Levels/Fort/Exploration/Fort_Exploration1
+[2017.03.08-04.43.15:701][429]LogLoad: LoadMap: /Game/Maps-Levels/Fort/Exploration/Fort_Exploration1
+[2017.03.08-04.43.15:879][429]Cmd: MEM
+[2017.03.08-04.43.16:034][429]LogMemory: Platform Memory Stats for Windows
+[2017.03.08-04.43.16:034][429]LogMemory: Process Physical Memory: 1363.31 MB used, 1364.70 MB peak
+[2017.03.08-04.43.16:034][429]LogMemory: Process Virtual Memory: 1260.38 MB used, 1265.38 MB peak
+[2017.03.08-04.43.16:034][429]LogMemory: Physical Memory: 7293.41 MB used,  8990.66 MB free, 16284.07 MB total
+[2017.03.08-04.43.16:034][429]LogMemory: Virtual Memory: 2573.73 MB used,  8990.66 MB free, 8388608.00 MB total
+[2017.03.08-04.43.16:034][429]LogMemory: 
+[2017.03.08-04.43.16:034][429]Allocator Stats for TBB: (not implemented)
+[2017.03.08-04.43.16:217][429]LogAIModule: Creating AISystem for world Fort_Exploration1
+[2017.03.08-04.43.16:217][429]LogLoad: Game class is 'abyssExplorationMode_C'
+[2017.03.08-04.43.16:228][429]LogWorld: Bringing World /Game/Maps-Levels/Fort/Exploration/UEDPIE_0_Fort_Exploration1.Fort_Exploration1 up for play (max tick rate 0) at 2017.03.07-23.43.16
+[2017.03.08-04.43.16:229][429]LogWorld: Bringing up level for play took: 0.009948
+[2017.03.08-04.43.16:232][429]LogLoad: Took 0.531105 seconds to LoadMap(/Game/Maps-Levels/Fort/Exploration/Fort_Exploration1)
+[2017.03.08-04.43.16:575][466]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu' with GeneratedClass '/Game/Maps-Levels/startMenu.startMenu_C' with ClassGeneratedBy '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu'
+[2017.03.08-04.43.16:642][466]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu' with GeneratedClass '/Game/Maps-Levels/startMenu.startMenu_C' with ClassGeneratedBy '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu'
+[2017.03.08-04.43.18:402][656]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.08-04.43.18:449][656]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu' with GeneratedClass '/Game/Maps-Levels/startMenu.startMenu_C' with ClassGeneratedBy '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu'
+[2017.03.08-04.43.18:449][656]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.08-04.43.18:449][656]PIE: New page: PIE session: startMenu (Mar 7, 2017, 6:43:18 PM)
+[2017.03.08-04.43.18:467][656]LogPlayLevel: Creating play world package: /Game/Maps-Levels/UEDPIE_0_startMenu
+[2017.03.08-04.43.18:468][656]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001408s)
+[2017.03.08-04.43.18:469][656]LogAIModule: Creating AISystem for world startMenu
+[2017.03.08-04.43.18:469][656]LogPlayLevel: PIE: World Init took: (0.000866s)
+[2017.03.08-04.43.18:469][656]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps-Levels/startMenu.startMenu to /Game/Maps-Levels/UEDPIE_0_startMenu.startMenu (0.002563s)
+[2017.03.08-04.43.18:647][656]LogInit: XAudio2 using '1 - SE32HY27 (2- AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.08-04.43.18:658][656]LogInit: FAudioDevice initialized.
+[2017.03.08-04.43.18:711][656]LogLoad: Game class is 'abyssGameMode_C'
+[2017.03.08-04.43.18:714][656]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_startMenu.startMenu up for play (max tick rate 0) at 2017.03.07-23.43.18
+[2017.03.08-04.43.18:715][656]LogWorld: Bringing up level for play took: 0.000896
+[2017.03.08-04.43.18:715][656]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.03.08-04.43.18:720][656]PIE: Info Play in editor start time for /Game/Maps-Levels/UEDPIE_0_startMenu 0.963
+[2017.03.08-04.43.18:721][656]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu' with GeneratedClass '/Game/Maps-Levels/startMenu.startMenu_C' with ClassGeneratedBy '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu'
+[2017.03.08-04.43.19:743][768]LogNet: Browse: /Game/Maps-Levels/Fort/Exploration/Fort_Exploration1
+[2017.03.08-04.43.19:743][768]LogLoad: LoadMap: /Game/Maps-Levels/Fort/Exploration/Fort_Exploration1
+[2017.03.08-04.43.19:909][768]Cmd: MEM
+[2017.03.08-04.43.20:057][768]LogMemory: Platform Memory Stats for Windows
+[2017.03.08-04.43.20:057][768]LogMemory: Process Physical Memory: 1363.52 MB used, 1364.70 MB peak
+[2017.03.08-04.43.20:057][768]LogMemory: Process Virtual Memory: 1260.46 MB used, 1265.46 MB peak
+[2017.03.08-04.43.20:057][768]LogMemory: Physical Memory: 7293.36 MB used,  8990.71 MB free, 16284.07 MB total
+[2017.03.08-04.43.20:057][768]LogMemory: Virtual Memory: 2573.73 MB used,  8990.71 MB free, 8388608.00 MB total
+[2017.03.08-04.43.20:057][768]LogMemory: 
+[2017.03.08-04.43.20:057][768]Allocator Stats for TBB: (not implemented)
+[2017.03.08-04.43.20:242][768]LogAIModule: Creating AISystem for world Fort_Exploration1
+[2017.03.08-04.43.20:242][768]LogLoad: Game class is 'abyssExplorationMode_C'
+[2017.03.08-04.43.20:252][768]LogWorld: Bringing World /Game/Maps-Levels/Fort/Exploration/UEDPIE_0_Fort_Exploration1.Fort_Exploration1 up for play (max tick rate 0) at 2017.03.07-23.43.20
+[2017.03.08-04.43.20:254][768]LogWorld: Bringing up level for play took: 0.009473
+[2017.03.08-04.43.20:257][768]LogLoad: Took 0.513518 seconds to LoadMap(/Game/Maps-Levels/Fort/Exploration/Fort_Exploration1)
+[2017.03.08-04.43.21:749][927]LogNet: Browse: /Game/Maps-Levels/Fort_Battle
+[2017.03.08-04.43.21:749][927]LogLoad: LoadMap: /Game/Maps-Levels/Fort_Battle
+[2017.03.08-04.43.21:906][927]Cmd: MEM
+[2017.03.08-04.43.22:046][927]LogMemory: Platform Memory Stats for Windows
+[2017.03.08-04.43.22:046][927]LogMemory: Process Physical Memory: 1363.54 MB used, 1364.70 MB peak
+[2017.03.08-04.43.22:046][927]LogMemory: Process Virtual Memory: 1260.48 MB used, 1265.48 MB peak
+[2017.03.08-04.43.22:046][927]LogMemory: Physical Memory: 7280.25 MB used,  9003.82 MB free, 16284.07 MB total
+[2017.03.08-04.43.22:046][927]LogMemory: Virtual Memory: 2573.73 MB used,  9003.82 MB free, 8388608.00 MB total
+[2017.03.08-04.43.22:046][927]LogMemory: 
+[2017.03.08-04.43.22:046][927]Allocator Stats for TBB: (not implemented)
+[2017.03.08-04.43.22:185][927]LogAIModule: Creating AISystem for world Fort_Battle
+[2017.03.08-04.43.22:185][927]LogLoad: Game class is 'abyssBattleScene_C'
+[2017.03.08-04.43.22:190][927]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_Fort_Battle.Fort_Battle up for play (max tick rate 0) at 2017.03.07-23.43.22
+[2017.03.08-04.43.22:190][927]LogWorld: Bringing up level for play took: 0.003115
+[2017.03.08-04.43.22:191][927]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.03.08-04.43.22:198][927]LogLoad: Took 0.449343 seconds to LoadMap(/Game/Maps-Levels/Fort_Battle)
+[2017.03.08-04.43.22:579][967]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu' with GeneratedClass '/Game/Maps-Levels/startMenu.startMenu_C' with ClassGeneratedBy '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu'
+[2017.03.08-04.43.22:648][967]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu' with GeneratedClass '/Game/Maps-Levels/startMenu.startMenu_C' with ClassGeneratedBy '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu'
+[2017.03.08-04.43.23:775][ 81]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.08-04.43.23:822][ 81]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu' with GeneratedClass '/Game/Maps-Levels/startMenu.startMenu_C' with ClassGeneratedBy '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu'
+[2017.03.08-04.43.23:822][ 81]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.08-04.43.23:822][ 81]PIE: New page: PIE session: startMenu (Mar 7, 2017, 6:43:23 PM)
+[2017.03.08-04.43.23:843][ 81]LogPlayLevel: Creating play world package: /Game/Maps-Levels/UEDPIE_0_startMenu
+[2017.03.08-04.43.23:845][ 81]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001664s)
+[2017.03.08-04.43.23:846][ 81]LogAIModule: Creating AISystem for world startMenu
+[2017.03.08-04.43.23:846][ 81]LogPlayLevel: PIE: World Init took: (0.000904s)
+[2017.03.08-04.43.23:846][ 81]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps-Levels/startMenu.startMenu to /Game/Maps-Levels/UEDPIE_0_startMenu.startMenu (0.002842s)
+[2017.03.08-04.43.24:028][ 81]LogInit: XAudio2 using '1 - SE32HY27 (2- AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.08-04.43.24:039][ 81]LogInit: FAudioDevice initialized.
+[2017.03.08-04.43.24:088][ 81]LogLoad: Game class is 'abyssGameMode_C'
+[2017.03.08-04.43.24:091][ 81]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_startMenu.startMenu up for play (max tick rate 0) at 2017.03.07-23.43.24
+[2017.03.08-04.43.24:091][ 81]LogWorld: Bringing up level for play took: 0.000894
+[2017.03.08-04.43.24:091][ 81]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.03.08-04.43.24:097][ 81]PIE: Info Play in editor start time for /Game/Maps-Levels/UEDPIE_0_startMenu 0.339
+[2017.03.08-04.43.24:097][ 81]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu' with GeneratedClass '/Game/Maps-Levels/startMenu.startMenu_C' with ClassGeneratedBy '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu'
+[2017.03.08-04.43.24:738][149]LogNet: Browse: /Game/Maps-Levels/Fort/Exploration/Fort_Exploration1
+[2017.03.08-04.43.24:738][149]LogLoad: LoadMap: /Game/Maps-Levels/Fort/Exploration/Fort_Exploration1
+[2017.03.08-04.43.24:906][149]Cmd: MEM
+[2017.03.08-04.43.25:062][149]LogMemory: Platform Memory Stats for Windows
+[2017.03.08-04.43.25:062][149]LogMemory: Process Physical Memory: 1369.62 MB used, 1370.58 MB peak
+[2017.03.08-04.43.25:062][149]LogMemory: Process Virtual Memory: 1266.64 MB used, 1271.64 MB peak
+[2017.03.08-04.43.25:062][149]LogMemory: Physical Memory: 7280.85 MB used,  9003.22 MB free, 16284.07 MB total
+[2017.03.08-04.43.25:062][149]LogMemory: Virtual Memory: 2579.86 MB used,  9003.22 MB free, 8388608.00 MB total
+[2017.03.08-04.43.25:062][149]LogMemory: 
+[2017.03.08-04.43.25:062][149]Allocator Stats for TBB: (not implemented)
+[2017.03.08-04.43.25:242][149]LogAIModule: Creating AISystem for world Fort_Exploration1
+[2017.03.08-04.43.25:242][149]LogLoad: Game class is 'abyssExplorationMode_C'
+[2017.03.08-04.43.25:254][149]LogWorld: Bringing World /Game/Maps-Levels/Fort/Exploration/UEDPIE_0_Fort_Exploration1.Fort_Exploration1 up for play (max tick rate 0) at 2017.03.07-23.43.25
+[2017.03.08-04.43.25:255][149]LogWorld: Bringing up level for play took: 0.010396
+[2017.03.08-04.43.25:259][149]LogLoad: Took 0.519823 seconds to LoadMap(/Game/Maps-Levels/Fort/Exploration/Fort_Exploration1)
+[2017.03.08-04.43.27:439][381]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu' with GeneratedClass '/Game/Maps-Levels/startMenu.startMenu_C' with ClassGeneratedBy '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu'
+[2017.03.08-04.43.27:509][381]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu' with GeneratedClass '/Game/Maps-Levels/startMenu.startMenu_C' with ClassGeneratedBy '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu'
+[2017.03.08-04.43.28:281][453]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.08-04.43.28:328][453]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu' with GeneratedClass '/Game/Maps-Levels/startMenu.startMenu_C' with ClassGeneratedBy '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu'
+[2017.03.08-04.43.28:328][453]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.08-04.43.28:328][453]PIE: New page: PIE session: startMenu (Mar 7, 2017, 6:43:28 PM)
+[2017.03.08-04.43.28:346][453]LogPlayLevel: Creating play world package: /Game/Maps-Levels/UEDPIE_0_startMenu
+[2017.03.08-04.43.28:348][453]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001424s)
+[2017.03.08-04.43.28:348][453]LogAIModule: Creating AISystem for world startMenu
+[2017.03.08-04.43.28:349][453]LogPlayLevel: PIE: World Init took: (0.000833s)
+[2017.03.08-04.43.28:349][453]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps-Levels/startMenu.startMenu to /Game/Maps-Levels/UEDPIE_0_startMenu.startMenu (0.002517s)
+[2017.03.08-04.43.28:530][453]LogInit: XAudio2 using '1 - SE32HY27 (2- AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.08-04.43.28:541][453]LogInit: FAudioDevice initialized.
+[2017.03.08-04.43.28:588][453]LogLoad: Game class is 'abyssGameMode_C'
+[2017.03.08-04.43.28:591][453]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_startMenu.startMenu up for play (max tick rate 0) at 2017.03.07-23.43.28
+[2017.03.08-04.43.28:591][453]LogWorld: Bringing up level for play took: 0.000953
+[2017.03.08-04.43.28:592][453]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.03.08-04.43.28:597][453]PIE: Info Play in editor start time for /Game/Maps-Levels/UEDPIE_0_startMenu 0.839
+[2017.03.08-04.43.28:597][453]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu' with GeneratedClass '/Game/Maps-Levels/startMenu.startMenu_C' with ClassGeneratedBy '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu'
+[2017.03.08-04.43.29:006][494]LogNet: Browse: /Game/Maps-Levels/Fort/Exploration/Fort_Exploration1
+[2017.03.08-04.43.29:006][494]LogLoad: LoadMap: /Game/Maps-Levels/Fort/Exploration/Fort_Exploration1
+[2017.03.08-04.43.29:166][494]Cmd: MEM
+[2017.03.08-04.43.29:300][494]LogMemory: Platform Memory Stats for Windows
+[2017.03.08-04.43.29:300][494]LogMemory: Process Physical Memory: 1369.72 MB used, 1370.66 MB peak
+[2017.03.08-04.43.29:300][494]LogMemory: Process Virtual Memory: 1266.72 MB used, 1271.72 MB peak
+[2017.03.08-04.43.29:300][494]LogMemory: Physical Memory: 7280.88 MB used,  9003.19 MB free, 16284.07 MB total
+[2017.03.08-04.43.29:300][494]LogMemory: Virtual Memory: 2579.86 MB used,  9003.19 MB free, 8388608.00 MB total
+[2017.03.08-04.43.29:300][494]LogMemory: 
+[2017.03.08-04.43.29:300][494]Allocator Stats for TBB: (not implemented)
+[2017.03.08-04.43.29:486][494]LogAIModule: Creating AISystem for world Fort_Exploration1
+[2017.03.08-04.43.29:487][494]LogLoad: Game class is 'abyssExplorationMode_C'
+[2017.03.08-04.43.29:498][494]LogWorld: Bringing World /Game/Maps-Levels/Fort/Exploration/UEDPIE_0_Fort_Exploration1.Fort_Exploration1 up for play (max tick rate 0) at 2017.03.07-23.43.29
+[2017.03.08-04.43.29:499][494]LogWorld: Bringing up level for play took: 0.010241
+[2017.03.08-04.43.29:502][494]LogLoad: Took 0.496666 seconds to LoadMap(/Game/Maps-Levels/Fort/Exploration/Fort_Exploration1)
+[2017.03.08-04.43.31:687][727]LogNet: Browse: /Game/Maps-Levels/Fort_Battle
+[2017.03.08-04.43.31:687][727]LogLoad: LoadMap: /Game/Maps-Levels/Fort_Battle
+[2017.03.08-04.43.31:852][727]Cmd: MEM
+[2017.03.08-04.43.32:002][727]LogMemory: Platform Memory Stats for Windows
+[2017.03.08-04.43.32:002][727]LogMemory: Process Physical Memory: 1369.76 MB used, 1370.73 MB peak
+[2017.03.08-04.43.32:002][727]LogMemory: Process Virtual Memory: 1266.74 MB used, 1271.74 MB peak
+[2017.03.08-04.43.32:002][727]LogMemory: Physical Memory: 7280.55 MB used,  9003.52 MB free, 16284.07 MB total
+[2017.03.08-04.43.32:002][727]LogMemory: Virtual Memory: 2579.86 MB used,  9003.52 MB free, 8388608.00 MB total
+[2017.03.08-04.43.32:002][727]LogMemory: 
+[2017.03.08-04.43.32:002][727]Allocator Stats for TBB: (not implemented)
+[2017.03.08-04.43.32:144][727]LogAIModule: Creating AISystem for world Fort_Battle
+[2017.03.08-04.43.32:144][727]LogLoad: Game class is 'abyssBattleScene_C'
+[2017.03.08-04.43.32:149][727]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_Fort_Battle.Fort_Battle up for play (max tick rate 0) at 2017.03.07-23.43.32
+[2017.03.08-04.43.32:150][727]LogWorld: Bringing up level for play took: 0.003294
+[2017.03.08-04.43.32:150][727]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.03.08-04.43.32:159][727]LogLoad: Took 0.471608 seconds to LoadMap(/Game/Maps-Levels/Fort_Battle)
+[2017.03.08-04.43.33:393][860]LogBlueprintUserMessages: [BattleHUD_C_5] Attack missed!
+[2017.03.08-04.43.33:393][860]LogBlueprintUserMessages: [BattleHUD_C_5] Enemy missed!
+[2017.03.08-04.43.34:721][  8]LogBlueprintUserMessages: [BattleHUD_C_5] Attack missed!
+[2017.03.08-04.43.36:526][209]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 1!
+[2017.03.08-04.43.40:842][693]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 1!
+[2017.03.08-04.43.44:752][132]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 1!
+[2017.03.08-04.43.45:754][244]LogBlueprintUserMessages: [BattleHUD_C_5] Enemy is dead
+[2017.03.08-04.43.47:171][397]LogNet: Browse: /Game/Maps-Levels/Fort/Fort_Exploration
+[2017.03.08-04.43.47:171][397]LogLoad: LoadMap: /Game/Maps-Levels/Fort/Fort_Exploration
+[2017.03.08-04.43.47:332][397]Cmd: MEM
+[2017.03.08-04.43.47:472][397]LogMemory: Platform Memory Stats for Windows
+[2017.03.08-04.43.47:472][397]LogMemory: Process Physical Memory: 1374.41 MB used, 1375.68 MB peak
+[2017.03.08-04.43.47:472][397]LogMemory: Process Virtual Memory: 1270.90 MB used, 1275.90 MB peak
+[2017.03.08-04.43.47:472][397]LogMemory: Physical Memory: 7285.16 MB used,  8998.91 MB free, 16284.07 MB total
+[2017.03.08-04.43.47:472][397]LogMemory: Virtual Memory: 2574.36 MB used,  8998.91 MB free, 8388608.00 MB total
+[2017.03.08-04.43.47:472][397]LogMemory: 
+[2017.03.08-04.43.47:472][397]Allocator Stats for TBB: (not implemented)
+[2017.03.08-04.43.47:667][397]LogAIModule: Creating AISystem for world Fort_Exploration
+[2017.03.08-04.43.47:667][397]LogLoad: Game class is 'abyssExplorationMode_C'
+[2017.03.08-04.43.47:674][397]LogWorld: Bringing World /Game/Maps-Levels/Fort/UEDPIE_0_Fort_Exploration.Fort_Exploration up for play (max tick rate 0) at 2017.03.07-23.43.47
+[2017.03.08-04.43.47:675][397]LogWorld: Bringing up level for play took: 0.005630
+[2017.03.08-04.43.47:678][397]LogLoad: Took 0.507535 seconds to LoadMap(/Game/Maps-Levels/Fort/Fort_Exploration)
+[2017.03.08-04.43.47:679][397]LogScriptCore:Warning: Script Msg: Attempted to access index 7 from array CallFunc_GetAllActorsOfClass_OutActors2 of length 2!
+[2017.03.08-04.43.47:679][397]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item3
+	Exploration_Hero_C /Game/Maps-Levels/Fort/UEDPIE_0_Fort_Exploration.Fort_Exploration:PersistentLevel.Exploration_Hero_C_0
+	Function /Game/BluePrints/Exploration/Exploration_Hero.Exploration_Hero_C:ExecuteUbergraph_Exploration_Hero:18CE
+[2017.03.08-04.43.47:679][397]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item3 from function: 'ExecuteUbergraph_Exploration_Hero' from node: returnFromBattle in graph: EventGraph in object: Exploration_Hero with description: Accessed None trying to read property CallFunc_Array_Get_Item3
+[2017.03.08-04.43.47:679][397]LogScript:Warning: Accessed None
+	Exploration_Hero_C /Game/Maps-Levels/Fort/UEDPIE_0_Fort_Exploration.Fort_Exploration:PersistentLevel.Exploration_Hero_C_0
+	Function /Game/BluePrints/Exploration/Exploration_Hero.Exploration_Hero_C:ExecuteUbergraph_Exploration_Hero:18E3
+[2017.03.08-04.43.47:679][397]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Exploration_Hero' from node: returnFromBattle in graph: EventGraph in object: Exploration_Hero with description: Accessed None
+[2017.03.08-04.43.49:479][596]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu' with GeneratedClass '/Game/Maps-Levels/startMenu.startMenu_C' with ClassGeneratedBy '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu'
+[2017.03.08-04.43.49:547][596]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu' with GeneratedClass '/Game/Maps-Levels/startMenu.startMenu_C' with ClassGeneratedBy '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu'
+[2017.03.08-04.45.06:825][580]LogAIModule: Creating AISystem for world Fort_Exploration1
+[2017.03.08-04.45.07:014][580]Cmd: MAP LOAD FILE="../../../../../Unreal Projects/ChimeraGames/Abyss/Content/Maps-Levels/Fort/Exploration/Fort_Exploration1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.08-04.45.07:014][580]LightingResults: New page: Lighting Build
+[2017.03.08-04.45.07:015][580]LoadErrors: New page: Loading map: Fort_Exploration1.umap
+[2017.03.08-04.45.07:015][580]MapCheck: New page: Map Check
+[2017.03.08-04.45.07:015][580]LightingResults: New page: Lighting Build
+[2017.03.08-04.45.07:292][580]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.08-04.45.07:365][580]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.08-04.45.07:449][580]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 84.044ms to complete.
+[2017.03.08-04.45.07:451][580]LogFileHelpers: Loading map 'Fort_Exploration1' took 0.439
+[2017.03.08-04.45.08:231][655]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Fort_TileMap)
+[2017.03.08-04.45.09:594][788]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Fort_TileMap)
+[2017.03.08-04.45.10:015][829]LogEditorViewport: Clicking on Actor (LMB): Fort_BattleTrigger_C (Fort_BattleTrigger2)
+[2017.03.08-04.45.16:315][439]LogAIModule: Creating AISystem for world startMenu
+[2017.03.08-04.45.16:484][439]Cmd: MAP LOAD FILE="../../../../../Unreal Projects/ChimeraGames/Abyss/Content/Maps-Levels/startMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.08-04.45.16:484][439]LightingResults: New page: Lighting Build
+[2017.03.08-04.45.16:485][439]LoadErrors: New page: Loading map: startMenu.umap
+[2017.03.08-04.45.16:487][439]MapCheck: New page: Map Check
+[2017.03.08-04.45.16:487][439]LightingResults: New page: Lighting Build
+[2017.03.08-04.45.16:722][439]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.08-04.45.16:793][439]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.08-04.45.16:886][439]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 92.483ms to complete.
+[2017.03.08-04.45.16:887][439]LogFileHelpers: Loading map 'startMenu' took 0.404
+[2017.03.08-04.45.47:498][ 79]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.08-04.45.47:546][ 79]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu' with GeneratedClass '/Game/Maps-Levels/startMenu.startMenu_C' with ClassGeneratedBy '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu'
+[2017.03.08-04.45.47:546][ 79]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.08-04.45.47:546][ 79]PIE: New page: PIE session: startMenu (Mar 7, 2017, 6:45:47 PM)
+[2017.03.08-04.45.47:547][ 79]LogPlayLevel: Creating play world package: /Game/Maps-Levels/UEDPIE_0_startMenu
+[2017.03.08-04.45.47:548][ 79]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001426s)
+[2017.03.08-04.45.47:549][ 79]LogAIModule: Creating AISystem for world startMenu
+[2017.03.08-04.45.47:549][ 79]LogPlayLevel: PIE: World Init took: (0.000829s)
+[2017.03.08-04.45.47:549][ 79]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps-Levels/startMenu.startMenu to /Game/Maps-Levels/UEDPIE_0_startMenu.startMenu (0.002554s)
+[2017.03.08-04.45.47:728][ 79]LogInit: XAudio2 using '1 - SE32HY27 (2- AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.08-04.45.47:739][ 79]LogInit: FAudioDevice initialized.
+[2017.03.08-04.45.47:788][ 79]LogLoad: Game class is 'abyssGameMode_C'
+[2017.03.08-04.45.47:791][ 79]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_startMenu.startMenu up for play (max tick rate 0) at 2017.03.07-23.45.47
+[2017.03.08-04.45.47:791][ 79]LogWorld: Bringing up level for play took: 0.000843
+[2017.03.08-04.45.47:792][ 79]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.03.08-04.45.47:797][ 79]PIE: Info Play in editor start time for /Game/Maps-Levels/UEDPIE_0_startMenu 0.036
+[2017.03.08-04.45.47:798][ 79]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu' with GeneratedClass '/Game/Maps-Levels/startMenu.startMenu_C' with ClassGeneratedBy '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu'
+[2017.03.08-04.45.48:594][165]LogNet: Browse: /Game/Maps-Levels/Fort/Exploration/Fort_Exploration1
+[2017.03.08-04.45.48:594][165]LogLoad: LoadMap: /Game/Maps-Levels/Fort/Exploration/Fort_Exploration1
+[2017.03.08-04.45.48:763][165]Cmd: MEM
+[2017.03.08-04.45.48:914][165]LogMemory: Platform Memory Stats for Windows
+[2017.03.08-04.45.48:915][165]LogMemory: Process Physical Memory: 1594.05 MB used, 1595.76 MB peak
+[2017.03.08-04.45.48:915][165]LogMemory: Process Virtual Memory: 1495.73 MB used, 1500.73 MB peak
+[2017.03.08-04.45.48:915][165]LogMemory: Physical Memory: 7509.61 MB used,  8774.46 MB free, 16284.07 MB total
+[2017.03.08-04.45.48:915][165]LogMemory: Virtual Memory: 2816.43 MB used,  8774.46 MB free, 8388608.00 MB total
+[2017.03.08-04.45.48:915][165]LogMemory: 
+[2017.03.08-04.45.48:915][165]Allocator Stats for TBB: (not implemented)
+[2017.03.08-04.45.48:944][165]LogAIModule: Creating AISystem for world Fort_Exploration1
+[2017.03.08-04.45.48:945][165]LogLoad: Game class is 'abyssExplorationMode_C'
+[2017.03.08-04.45.48:955][165]LogWorld: Bringing World /Game/Maps-Levels/Fort/Exploration/UEDPIE_0_Fort_Exploration1.Fort_Exploration1 up for play (max tick rate 0) at 2017.03.07-23.45.48
+[2017.03.08-04.45.48:956][165]LogWorld: Bringing up level for play took: 0.009930
+[2017.03.08-04.45.48:960][165]LogLoad: Took 0.366434 seconds to LoadMap(/Game/Maps-Levels/Fort/Exploration/Fort_Exploration1)
+[2017.03.08-04.45.51:370][423]LogNet: Browse: /Game/Maps-Levels/Fort_Battle
+[2017.03.08-04.45.51:370][423]LogLoad: LoadMap: /Game/Maps-Levels/Fort_Battle
+[2017.03.08-04.45.51:540][423]Cmd: MEM
+[2017.03.08-04.45.51:689][423]LogMemory: Platform Memory Stats for Windows
+[2017.03.08-04.45.51:689][423]LogMemory: Process Physical Memory: 1593.80 MB used, 1595.76 MB peak
+[2017.03.08-04.45.51:689][423]LogMemory: Process Virtual Memory: 1495.44 MB used, 1500.73 MB peak
+[2017.03.08-04.45.51:689][423]LogMemory: Physical Memory: 7504.84 MB used,  8779.23 MB free, 16284.07 MB total
+[2017.03.08-04.45.51:689][423]LogMemory: Virtual Memory: 2816.43 MB used,  8779.23 MB free, 8388608.00 MB total
+[2017.03.08-04.45.51:689][423]LogMemory: 
+[2017.03.08-04.45.51:689][423]Allocator Stats for TBB: (not implemented)
+[2017.03.08-04.45.51:830][423]LogAIModule: Creating AISystem for world Fort_Battle
+[2017.03.08-04.45.51:830][423]LogLoad: Game class is 'abyssBattleScene_C'
+[2017.03.08-04.45.51:835][423]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_Fort_Battle.Fort_Battle up for play (max tick rate 0) at 2017.03.07-23.45.51
+[2017.03.08-04.45.51:835][423]LogWorld: Bringing up level for play took: 0.002947
+[2017.03.08-04.45.51:836][423]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.03.08-04.45.51:843][423]LogLoad: Took 0.473848 seconds to LoadMap(/Game/Maps-Levels/Fort_Battle)
+[2017.03.08-04.45.52:980][548]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 1!
+[2017.03.08-04.45.53:977][663]LogBlueprintUserMessages: [BattleHUD_C_6] Enemy missed!
+[2017.03.08-04.45.54:591][734]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 1!
+[2017.03.08-04.45.56:856][995]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 1!
+[2017.03.08-04.45.59:543][304]LogBlueprintUserMessages: [BattleHUD_C_6] Attack missed!
+[2017.03.08-04.46.00:657][432]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 1!
+[2017.03.08-04.46.02:837][683]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 1!
+[2017.03.08-04.46.03:830][797]LogBlueprintUserMessages: [BattleHUD_C_6] Enemy is dead
+[2017.03.08-04.46.04:991][926]LogNet: Browse: /Game/Maps-Levels/Fort/Fort_Exploration
+[2017.03.08-04.46.04:991][926]LogLoad: LoadMap: /Game/Maps-Levels/Fort/Fort_Exploration
+[2017.03.08-04.46.05:157][926]Cmd: MEM
+[2017.03.08-04.46.05:295][926]LogMemory: Platform Memory Stats for Windows
+[2017.03.08-04.46.05:295][926]LogMemory: Process Physical Memory: 1593.85 MB used, 1595.76 MB peak
+[2017.03.08-04.46.05:295][926]LogMemory: Process Virtual Memory: 1495.48 MB used, 1500.73 MB peak
+[2017.03.08-04.46.05:295][926]LogMemory: Physical Memory: 7505.00 MB used,  8779.07 MB free, 16284.07 MB total
+[2017.03.08-04.46.05:295][926]LogMemory: Virtual Memory: 2816.43 MB used,  8779.07 MB free, 8388608.00 MB total
+[2017.03.08-04.46.05:295][926]LogMemory: 
+[2017.03.08-04.46.05:295][926]Allocator Stats for TBB: (not implemented)
+[2017.03.08-04.46.05:491][926]LogAIModule: Creating AISystem for world Fort_Exploration
+[2017.03.08-04.46.05:491][926]LogLoad: Game class is 'abyssExplorationMode_C'
+[2017.03.08-04.46.05:500][926]LogWorld: Bringing World /Game/Maps-Levels/Fort/UEDPIE_0_Fort_Exploration.Fort_Exploration up for play (max tick rate 0) at 2017.03.07-23.46.05
+[2017.03.08-04.46.05:500][926]LogWorld: Bringing up level for play took: 0.006658
+[2017.03.08-04.46.05:503][926]LogLoad: Took 0.512717 seconds to LoadMap(/Game/Maps-Levels/Fort/Fort_Exploration)
+[2017.03.08-04.46.05:504][926]LogScriptCore:Warning: Script Msg: Attempted to access index 7 from array CallFunc_GetAllActorsOfClass_OutActors2 of length 2!
+[2017.03.08-04.46.05:504][926]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item3
+	Exploration_Hero_C /Game/Maps-Levels/Fort/UEDPIE_0_Fort_Exploration.Fort_Exploration:PersistentLevel.Exploration_Hero_C_0
+	Function /Game/BluePrints/Exploration/Exploration_Hero.Exploration_Hero_C:ExecuteUbergraph_Exploration_Hero:18CE
+[2017.03.08-04.46.05:504][926]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item3 from function: 'ExecuteUbergraph_Exploration_Hero' from node: returnFromBattle in graph: EventGraph in object: Exploration_Hero with description: Accessed None trying to read property CallFunc_Array_Get_Item3
+[2017.03.08-04.46.05:504][926]LogScript:Warning: Accessed None
+	Exploration_Hero_C /Game/Maps-Levels/Fort/UEDPIE_0_Fort_Exploration.Fort_Exploration:PersistentLevel.Exploration_Hero_C_0
+	Function /Game/BluePrints/Exploration/Exploration_Hero.Exploration_Hero_C:ExecuteUbergraph_Exploration_Hero:18E3
+[2017.03.08-04.46.05:504][926]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Exploration_Hero' from node: returnFromBattle in graph: EventGraph in object: Exploration_Hero with description: Accessed None
+[2017.03.08-04.46.06:789][ 72]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu' with GeneratedClass '/Game/Maps-Levels/startMenu.startMenu_C' with ClassGeneratedBy '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu'
+[2017.03.08-04.46.06:853][ 72]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu' with GeneratedClass '/Game/Maps-Levels/startMenu.startMenu_C' with ClassGeneratedBy '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu'
+[2017.03.08-04.47.36:030][552]BlueprintLog: New page: Compile Exploration_Hero
+[2017.03.08-04.47.37:264][602]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Exploration/Exploration_Hero" FILE="../../../../../Unreal Projects/ChimeraGames/Abyss/Content/BluePrints/Exploration/Exploration_Hero.uasset" SILENT=true
+[2017.03.08-04.47.37:541][602]LogSavePackage: Save=246.72ms
+[2017.03.08-04.47.37:541][602]LogSavePackage: Moving '../../../../../Unreal Projects/ChimeraGames/Abyss/Saved/Exploration_HeroA97CB1D947FF694FD963DCA455DABF91.tmp' to '../../../../../Unreal Projects/ChimeraGames/Abyss/Content/BluePrints/Exploration/Exploration_Hero.uasset'
+[2017.03.08-04.47.37:544][602]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/ChimeraGames/Abyss/Content/BluePrints/Exploration/Exploration_Hero.uasset
+[2017.03.08-04.47.38:087][665]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.08-04.47.38:135][665]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu' with GeneratedClass '/Game/Maps-Levels/startMenu.startMenu_C' with ClassGeneratedBy '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu'
+[2017.03.08-04.47.38:135][665]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.08-04.47.38:135][665]PIE: New page: PIE session: startMenu (Mar 7, 2017, 6:47:38 PM)
+[2017.03.08-04.47.38:155][665]LogPlayLevel: Creating play world package: /Game/Maps-Levels/UEDPIE_0_startMenu
+[2017.03.08-04.47.38:156][665]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001747s)
+[2017.03.08-04.47.38:157][665]LogAIModule: Creating AISystem for world startMenu
+[2017.03.08-04.47.38:157][665]LogPlayLevel: PIE: World Init took: (0.000872s)
+[2017.03.08-04.47.38:158][665]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps-Levels/startMenu.startMenu to /Game/Maps-Levels/UEDPIE_0_startMenu.startMenu (0.002950s)
+[2017.03.08-04.47.38:334][665]LogInit: XAudio2 using '1 - SE32HY27 (2- AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.08-04.47.38:346][665]LogInit: FAudioDevice initialized.
+[2017.03.08-04.47.38:393][665]LogLoad: Game class is 'abyssGameMode_C'
+[2017.03.08-04.47.38:396][665]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_startMenu.startMenu up for play (max tick rate 0) at 2017.03.07-23.47.38
+[2017.03.08-04.47.38:396][665]LogWorld: Bringing up level for play took: 0.000994
+[2017.03.08-04.47.38:397][665]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.03.08-04.47.38:403][665]PIE: Info Play in editor start time for /Game/Maps-Levels/UEDPIE_0_startMenu 0.639
+[2017.03.08-04.47.38:403][665]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu' with GeneratedClass '/Game/Maps-Levels/startMenu.startMenu_C' with ClassGeneratedBy '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu'
+[2017.03.08-04.47.39:238][756]LogNet: Browse: /Game/Maps-Levels/Fort/Exploration/Fort_Exploration1
+[2017.03.08-04.47.39:238][756]LogLoad: LoadMap: /Game/Maps-Levels/Fort/Exploration/Fort_Exploration1
+[2017.03.08-04.47.39:407][756]Cmd: MEM
+[2017.03.08-04.47.39:555][756]LogMemory: Platform Memory Stats for Windows
+[2017.03.08-04.47.39:555][756]LogMemory: Process Physical Memory: 1595.04 MB used, 1596.00 MB peak
+[2017.03.08-04.47.39:555][756]LogMemory: Process Virtual Memory: 1495.47 MB used, 1500.73 MB peak
+[2017.03.08-04.47.39:555][756]LogMemory: Physical Memory: 7512.99 MB used,  8771.08 MB free, 16284.07 MB total
+[2017.03.08-04.47.39:555][756]LogMemory: Virtual Memory: 2816.43 MB used,  8771.08 MB free, 8388608.00 MB total
+[2017.03.08-04.47.39:555][756]LogMemory: 
+[2017.03.08-04.47.39:555][756]Allocator Stats for TBB: (not implemented)
+[2017.03.08-04.47.39:743][756]LogAIModule: Creating AISystem for world Fort_Exploration1
+[2017.03.08-04.47.39:743][756]LogLoad: Game class is 'abyssExplorationMode_C'
+[2017.03.08-04.47.39:755][756]LogWorld: Bringing World /Game/Maps-Levels/Fort/Exploration/UEDPIE_0_Fort_Exploration1.Fort_Exploration1 up for play (max tick rate 0) at 2017.03.07-23.47.39
+[2017.03.08-04.47.39:756][756]LogWorld: Bringing up level for play took: 0.010300
+[2017.03.08-04.47.39:759][756]LogLoad: Took 0.521027 seconds to LoadMap(/Game/Maps-Levels/Fort/Exploration/Fort_Exploration1)
+[2017.03.08-04.47.41:934][989]LogNet: Browse: /Game/Maps-Levels/Fort_Battle
+[2017.03.08-04.47.41:934][989]LogLoad: LoadMap: /Game/Maps-Levels/Fort_Battle
+[2017.03.08-04.47.42:100][989]Cmd: MEM
+[2017.03.08-04.47.42:248][989]LogMemory: Platform Memory Stats for Windows
+[2017.03.08-04.47.42:248][989]LogMemory: Process Physical Memory: 1595.05 MB used, 1596.02 MB peak
+[2017.03.08-04.47.42:248][989]LogMemory: Process Virtual Memory: 1495.47 MB used, 1500.73 MB peak
+[2017.03.08-04.47.42:248][989]LogMemory: Physical Memory: 7512.21 MB used,  8771.86 MB free, 16284.07 MB total
+[2017.03.08-04.47.42:248][989]LogMemory: Virtual Memory: 2816.43 MB used,  8771.86 MB free, 8388608.00 MB total
+[2017.03.08-04.47.42:248][989]LogMemory: 
+[2017.03.08-04.47.42:248][989]Allocator Stats for TBB: (not implemented)
+[2017.03.08-04.47.42:388][989]LogAIModule: Creating AISystem for world Fort_Battle
+[2017.03.08-04.47.42:388][989]LogLoad: Game class is 'abyssBattleScene_C'
+[2017.03.08-04.47.42:393][989]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_Fort_Battle.Fort_Battle up for play (max tick rate 0) at 2017.03.07-23.47.42
+[2017.03.08-04.47.42:393][989]LogWorld: Bringing up level for play took: 0.003250
+[2017.03.08-04.47.42:394][989]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.03.08-04.47.42:402][989]LogLoad: Took 0.468446 seconds to LoadMap(/Game/Maps-Levels/Fort_Battle)
+[2017.03.08-04.47.43:915][159]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 1!
+[2017.03.08-04.47.44:912][274]LogBlueprintUserMessages: [BattleHUD_C_10] Enemy missed!
+[2017.03.08-04.47.45:443][335]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 1!
+[2017.03.08-04.47.48:085][639]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 1!
+[2017.03.08-04.47.50:750][947]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 1!
+[2017.03.08-04.47.53:348][247]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 1!
+[2017.03.08-04.47.54:350][363]LogBlueprintUserMessages: [BattleHUD_C_10] Enemy is dead
+[2017.03.08-04.47.55:441][486]LogNet: Browse: /Game/Maps-Levels/Fort/Fort_Exploration
+[2017.03.08-04.47.55:441][486]LogLoad: LoadMap: /Game/Maps-Levels/Fort/Fort_Exploration
+[2017.03.08-04.47.55:606][486]Cmd: MEM
+[2017.03.08-04.47.55:756][486]LogMemory: Platform Memory Stats for Windows
+[2017.03.08-04.47.55:756][486]LogMemory: Process Physical Memory: 1595.07 MB used, 1596.32 MB peak
+[2017.03.08-04.47.55:756][486]LogMemory: Process Virtual Memory: 1495.47 MB used, 1500.73 MB peak
+[2017.03.08-04.47.55:756][486]LogMemory: Physical Memory: 7511.50 MB used,  8772.57 MB free, 16284.07 MB total
+[2017.03.08-04.47.55:756][486]LogMemory: Virtual Memory: 2816.43 MB used,  8772.57 MB free, 8388608.00 MB total
+[2017.03.08-04.47.55:756][486]LogMemory: 
+[2017.03.08-04.47.55:756][486]Allocator Stats for TBB: (not implemented)
+[2017.03.08-04.47.55:949][486]LogAIModule: Creating AISystem for world Fort_Exploration
+[2017.03.08-04.47.55:949][486]LogLoad: Game class is 'abyssExplorationMode_C'
+[2017.03.08-04.47.55:957][486]LogWorld: Bringing World /Game/Maps-Levels/Fort/UEDPIE_0_Fort_Exploration.Fort_Exploration up for play (max tick rate 0) at 2017.03.07-23.47.55
+[2017.03.08-04.47.55:957][486]LogWorld: Bringing up level for play took: 0.005727
+[2017.03.08-04.47.55:960][486]LogLoad: Took 0.519029 seconds to LoadMap(/Game/Maps-Levels/Fort/Fort_Exploration)
+[2017.03.08-04.47.55:961][486]LogScriptCore:Warning: Script Msg: Attempted to access index 7 from array CallFunc_GetAllActorsOfClass_OutActors of length 2!
+[2017.03.08-04.47.55:961][486]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item3
+	Exploration_Hero_C /Game/Maps-Levels/Fort/UEDPIE_0_Fort_Exploration.Fort_Exploration:PersistentLevel.Exploration_Hero_C_0
+	Function /Game/BluePrints/Exploration/Exploration_Hero.Exploration_Hero_C:ExecuteUbergraph_Exploration_Hero:142C
+[2017.03.08-04.47.55:961][486]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item3 from function: 'ExecuteUbergraph_Exploration_Hero' from node: returnFromBattle in graph: EventGraph in object: Exploration_Hero with description: Accessed None trying to read property CallFunc_Array_Get_Item3
+[2017.03.08-04.47.55:961][486]LogScript:Warning: Accessed None
+	Exploration_Hero_C /Game/Maps-Levels/Fort/UEDPIE_0_Fort_Exploration.Fort_Exploration:PersistentLevel.Exploration_Hero_C_0
+	Function /Game/BluePrints/Exploration/Exploration_Hero.Exploration_Hero_C:ExecuteUbergraph_Exploration_Hero:1441
+[2017.03.08-04.47.55:961][486]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Exploration_Hero' from node: returnFromBattle in graph: EventGraph in object: Exploration_Hero with description: Accessed None
+[2017.03.08-04.47.56:426][538]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu' with GeneratedClass '/Game/Maps-Levels/startMenu.startMenu_C' with ClassGeneratedBy '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu'
+[2017.03.08-04.47.56:497][538]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu' with GeneratedClass '/Game/Maps-Levels/startMenu.startMenu_C' with ClassGeneratedBy '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu'
+[2017.03.08-04.48.08:338][878]BlueprintLog: New page: Compile Exploration_Hero
+[2017.03.08-04.48.09:611][937]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Exploration/Exploration_Hero" FILE="../../../../../Unreal Projects/ChimeraGames/Abyss/Content/BluePrints/Exploration/Exploration_Hero.uasset" SILENT=true
+[2017.03.08-04.48.09:889][937]LogSavePackage: Save=251.28ms
+[2017.03.08-04.48.09:889][937]LogSavePackage: Moving '../../../../../Unreal Projects/ChimeraGames/Abyss/Saved/Exploration_Hero2F50E5484F7C8A28A3D6C29FA6373087.tmp' to '../../../../../Unreal Projects/ChimeraGames/Abyss/Content/BluePrints/Exploration/Exploration_Hero.uasset'
+[2017.03.08-04.48.09:891][937]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/ChimeraGames/Abyss/Content/BluePrints/Exploration/Exploration_Hero.uasset
+[2017.03.08-04.48.10:208][973]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.08-04.48.10:258][973]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu' with GeneratedClass '/Game/Maps-Levels/startMenu.startMenu_C' with ClassGeneratedBy '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu'
+[2017.03.08-04.48.10:259][973]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.08-04.48.10:259][973]PIE: New page: PIE session: startMenu (Mar 7, 2017, 6:48:10 PM)
+[2017.03.08-04.48.10:277][973]LogPlayLevel: Creating play world package: /Game/Maps-Levels/UEDPIE_0_startMenu
+[2017.03.08-04.48.10:278][973]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001439s)
+[2017.03.08-04.48.10:279][973]LogAIModule: Creating AISystem for world startMenu
+[2017.03.08-04.48.10:279][973]LogPlayLevel: PIE: World Init took: (0.000860s)
+[2017.03.08-04.48.10:279][973]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps-Levels/startMenu.startMenu to /Game/Maps-Levels/UEDPIE_0_startMenu.startMenu (0.002582s)
+[2017.03.08-04.48.10:457][973]LogInit: XAudio2 using '1 - SE32HY27 (2- AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.08-04.48.10:468][973]LogInit: FAudioDevice initialized.
+[2017.03.08-04.48.10:520][973]LogLoad: Game class is 'abyssGameMode_C'
+[2017.03.08-04.48.10:522][973]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_startMenu.startMenu up for play (max tick rate 0) at 2017.03.07-23.48.10
+[2017.03.08-04.48.10:523][973]LogWorld: Bringing up level for play took: 0.000911
+[2017.03.08-04.48.10:523][973]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.03.08-04.48.10:529][973]PIE: Info Play in editor start time for /Game/Maps-Levels/UEDPIE_0_startMenu 0.764
+[2017.03.08-04.48.10:529][973]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu' with GeneratedClass '/Game/Maps-Levels/startMenu.startMenu_C' with ClassGeneratedBy '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu'
+[2017.03.08-04.48.11:204][ 44]LogNet: Browse: /Game/Maps-Levels/Fort/Exploration/Fort_Exploration1
+[2017.03.08-04.48.11:205][ 44]LogLoad: LoadMap: /Game/Maps-Levels/Fort/Exploration/Fort_Exploration1
+[2017.03.08-04.48.11:370][ 44]Cmd: MEM
+[2017.03.08-04.48.11:516][ 44]LogMemory: Platform Memory Stats for Windows
+[2017.03.08-04.48.11:516][ 44]LogMemory: Process Physical Memory: 1595.17 MB used, 1596.32 MB peak
+[2017.03.08-04.48.11:516][ 44]LogMemory: Process Virtual Memory: 1495.55 MB used, 1500.73 MB peak
+[2017.03.08-04.48.11:516][ 44]LogMemory: Physical Memory: 7511.11 MB used,  8772.96 MB free, 16284.07 MB total
+[2017.03.08-04.48.11:516][ 44]LogMemory: Virtual Memory: 2826.06 MB used,  8772.96 MB free, 8388608.00 MB total
+[2017.03.08-04.48.11:516][ 44]LogMemory: 
+[2017.03.08-04.48.11:516][ 44]Allocator Stats for TBB: (not implemented)
+[2017.03.08-04.48.11:698][ 44]LogAIModule: Creating AISystem for world Fort_Exploration1
+[2017.03.08-04.48.11:698][ 44]LogLoad: Game class is 'abyssExplorationMode_C'
+[2017.03.08-04.48.11:711][ 44]LogWorld: Bringing World /Game/Maps-Levels/Fort/Exploration/UEDPIE_0_Fort_Exploration1.Fort_Exploration1 up for play (max tick rate 0) at 2017.03.07-23.48.11
+[2017.03.08-04.48.11:712][ 44]LogWorld: Bringing up level for play took: 0.011574
+[2017.03.08-04.48.11:716][ 44]LogLoad: Took 0.511393 seconds to LoadMap(/Game/Maps-Levels/Fort/Exploration/Fort_Exploration1)
+[2017.03.08-04.48.13:658][250]LogNet: Browse: /Game/Maps-Levels/Fort_Battle
+[2017.03.08-04.48.13:658][250]LogLoad: LoadMap: /Game/Maps-Levels/Fort_Battle
+[2017.03.08-04.48.13:818][250]Cmd: MEM
+[2017.03.08-04.48.13:968][250]LogMemory: Platform Memory Stats for Windows
+[2017.03.08-04.48.13:968][250]LogMemory: Process Physical Memory: 1595.17 MB used, 1596.32 MB peak
+[2017.03.08-04.48.13:968][250]LogMemory: Process Virtual Memory: 1495.55 MB used, 1500.73 MB peak
+[2017.03.08-04.48.13:968][250]LogMemory: Physical Memory: 7510.54 MB used,  8773.54 MB free, 16284.07 MB total
+[2017.03.08-04.48.13:968][250]LogMemory: Virtual Memory: 2826.06 MB used,  8773.54 MB free, 8388608.00 MB total
+[2017.03.08-04.48.13:968][250]LogMemory: 
+[2017.03.08-04.48.13:968][250]Allocator Stats for TBB: (not implemented)
+[2017.03.08-04.48.14:105][250]LogAIModule: Creating AISystem for world Fort_Battle
+[2017.03.08-04.48.14:106][250]LogLoad: Game class is 'abyssBattleScene_C'
+[2017.03.08-04.48.14:110][250]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_Fort_Battle.Fort_Battle up for play (max tick rate 0) at 2017.03.07-23.48.14
+[2017.03.08-04.48.14:111][250]LogWorld: Bringing up level for play took: 0.003370
+[2017.03.08-04.48.14:111][250]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.03.08-04.48.14:120][250]LogLoad: Took 0.462058 seconds to LoadMap(/Game/Maps-Levels/Fort_Battle)
+[2017.03.08-04.48.15:197][368]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 1!
+[2017.03.08-04.48.17:645][649]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 1!
+[2017.03.08-04.48.19:906][908]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 1!
+[2017.03.08-04.48.20:901][ 22]LogBlueprintUserMessages: [BattleHUD_C_17] Enemy is dead
+[2017.03.08-04.48.21:803][122]LogNet: Browse: /Game/Maps-Levels/Fort/Fort_Exploration
+[2017.03.08-04.48.21:803][122]LogLoad: LoadMap: /Game/Maps-Levels/Fort/Fort_Exploration
+[2017.03.08-04.48.21:971][122]Cmd: MEM
+[2017.03.08-04.48.22:126][122]LogMemory: Platform Memory Stats for Windows
+[2017.03.08-04.48.22:126][122]LogMemory: Process Physical Memory: 1595.19 MB used, 1596.32 MB peak
+[2017.03.08-04.48.22:126][122]LogMemory: Process Virtual Memory: 1495.55 MB used, 1500.73 MB peak
+[2017.03.08-04.48.22:126][122]LogMemory: Physical Memory: 7509.91 MB used,  8774.16 MB free, 16284.07 MB total
+[2017.03.08-04.48.22:126][122]LogMemory: Virtual Memory: 2826.06 MB used,  8774.16 MB free, 8388608.00 MB total
+[2017.03.08-04.48.22:126][122]LogMemory: 
+[2017.03.08-04.48.22:126][122]Allocator Stats for TBB: (not implemented)
+[2017.03.08-04.48.22:326][122]LogAIModule: Creating AISystem for world Fort_Exploration
+[2017.03.08-04.48.22:327][122]LogLoad: Game class is 'abyssExplorationMode_C'
+[2017.03.08-04.48.22:335][122]LogWorld: Bringing World /Game/Maps-Levels/Fort/UEDPIE_0_Fort_Exploration.Fort_Exploration up for play (max tick rate 0) at 2017.03.07-23.48.22
+[2017.03.08-04.48.22:335][122]LogWorld: Bringing up level for play took: 0.006438
+[2017.03.08-04.48.22:339][122]LogLoad: Took 0.535353 seconds to LoadMap(/Game/Maps-Levels/Fort/Fort_Exploration)
+[2017.03.08-04.48.22:339][122]LogScriptCore:Warning: Script Msg: Attempted to access index 7 from array CallFunc_GetAllActorsOfClass_OutActors2 of length 2!
+[2017.03.08-04.48.22:339][122]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item3
+	Exploration_Hero_C /Game/Maps-Levels/Fort/UEDPIE_0_Fort_Exploration.Fort_Exploration:PersistentLevel.Exploration_Hero_C_0
+	Function /Game/BluePrints/Exploration/Exploration_Hero.Exploration_Hero_C:ExecuteUbergraph_Exploration_Hero:13AA
+[2017.03.08-04.48.22:339][122]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item3 from function: 'ExecuteUbergraph_Exploration_Hero' from node: returnFromBattle in graph: EventGraph in object: Exploration_Hero with description: Accessed None trying to read property CallFunc_Array_Get_Item3
+[2017.03.08-04.48.22:339][122]LogScript:Warning: Accessed None
+	Exploration_Hero_C /Game/Maps-Levels/Fort/UEDPIE_0_Fort_Exploration.Fort_Exploration:PersistentLevel.Exploration_Hero_C_0
+	Function /Game/BluePrints/Exploration/Exploration_Hero.Exploration_Hero_C:ExecuteUbergraph_Exploration_Hero:13BF
+[2017.03.08-04.48.22:340][122]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Exploration_Hero' from node: returnFromBattle in graph: EventGraph in object: Exploration_Hero with description: Accessed None
+[2017.03.08-04.48.22:785][171]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu' with GeneratedClass '/Game/Maps-Levels/startMenu.startMenu_C' with ClassGeneratedBy '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu'
+[2017.03.08-04.48.22:857][171]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu' with GeneratedClass '/Game/Maps-Levels/startMenu.startMenu_C' with ClassGeneratedBy '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu'
+[2017.03.08-04.48.35:147][576]BlueprintLog: New page: Compile Exploration_Hero
+[2017.03.08-04.48.36:255][614]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Exploration/Exploration_Hero" FILE="../../../../../Unreal Projects/ChimeraGames/Abyss/Content/BluePrints/Exploration/Exploration_Hero.uasset" SILENT=true
+[2017.03.08-04.48.36:529][614]LogSavePackage: Save=246.45ms
+[2017.03.08-04.48.36:529][614]LogSavePackage: Moving '../../../../../Unreal Projects/ChimeraGames/Abyss/Saved/Exploration_HeroB9C04CD6461344A4478095A480215E02.tmp' to '../../../../../Unreal Projects/ChimeraGames/Abyss/Content/BluePrints/Exploration/Exploration_Hero.uasset'
+[2017.03.08-04.48.36:531][614]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/ChimeraGames/Abyss/Content/BluePrints/Exploration/Exploration_Hero.uasset
+[2017.03.08-04.48.36:850][650]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.08-04.48.36:899][650]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu' with GeneratedClass '/Game/Maps-Levels/startMenu.startMenu_C' with ClassGeneratedBy '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu'
+[2017.03.08-04.48.36:899][650]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.08-04.48.36:899][650]PIE: New page: PIE session: startMenu (Mar 7, 2017, 6:48:36 PM)
+[2017.03.08-04.48.36:917][650]LogPlayLevel: Creating play world package: /Game/Maps-Levels/UEDPIE_0_startMenu
+[2017.03.08-04.48.36:919][650]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001397s)
+[2017.03.08-04.48.36:919][650]LogAIModule: Creating AISystem for world startMenu
+[2017.03.08-04.48.36:920][650]LogPlayLevel: PIE: World Init took: (0.000805s)
+[2017.03.08-04.48.36:920][650]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps-Levels/startMenu.startMenu to /Game/Maps-Levels/UEDPIE_0_startMenu.startMenu (0.002463s)
+[2017.03.08-04.48.37:093][650]LogInit: XAudio2 using '1 - SE32HY27 (2- AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.08-04.48.37:104][650]LogInit: FAudioDevice initialized.
+[2017.03.08-04.48.37:151][650]LogLoad: Game class is 'abyssGameMode_C'
+[2017.03.08-04.48.37:154][650]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_startMenu.startMenu up for play (max tick rate 0) at 2017.03.07-23.48.37
+[2017.03.08-04.48.37:154][650]LogWorld: Bringing up level for play took: 0.000905
+[2017.03.08-04.48.37:154][650]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.03.08-04.48.37:161][650]PIE: Info Play in editor start time for /Game/Maps-Levels/UEDPIE_0_startMenu -0.604
+[2017.03.08-04.48.37:161][650]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu' with GeneratedClass '/Game/Maps-Levels/startMenu.startMenu_C' with ClassGeneratedBy '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu'
+[2017.03.08-04.48.38:104][753]LogNet: Browse: /Game/Maps-Levels/Fort/Exploration/Fort_Exploration1
+[2017.03.08-04.48.38:104][753]LogLoad: LoadMap: /Game/Maps-Levels/Fort/Exploration/Fort_Exploration1
+[2017.03.08-04.48.38:270][753]Cmd: MEM
+[2017.03.08-04.48.38:422][753]LogMemory: Platform Memory Stats for Windows
+[2017.03.08-04.48.38:422][753]LogMemory: Process Physical Memory: 1595.21 MB used, 1596.36 MB peak
+[2017.03.08-04.48.38:422][753]LogMemory: Process Virtual Memory: 1495.54 MB used, 1500.73 MB peak
+[2017.03.08-04.48.38:422][753]LogMemory: Physical Memory: 7510.56 MB used,  8773.51 MB free, 16284.07 MB total
+[2017.03.08-04.48.38:422][753]LogMemory: Virtual Memory: 2826.06 MB used,  8773.51 MB free, 8388608.00 MB total
+[2017.03.08-04.48.38:422][753]LogMemory: 
+[2017.03.08-04.48.38:422][753]Allocator Stats for TBB: (not implemented)
+[2017.03.08-04.48.38:607][753]LogAIModule: Creating AISystem for world Fort_Exploration1
+[2017.03.08-04.48.38:608][753]LogLoad: Game class is 'abyssExplorationMode_C'
+[2017.03.08-04.48.38:618][753]LogWorld: Bringing World /Game/Maps-Levels/Fort/Exploration/UEDPIE_0_Fort_Exploration1.Fort_Exploration1 up for play (max tick rate 0) at 2017.03.07-23.48.38
+[2017.03.08-04.48.38:619][753]LogWorld: Bringing up level for play took: 0.009733
+[2017.03.08-04.48.38:623][753]LogLoad: Took 0.518925 seconds to LoadMap(/Game/Maps-Levels/Fort/Exploration/Fort_Exploration1)
+[2017.03.08-04.48.40:964][  5]LogNet: Browse: /Game/Maps-Levels/Fort_Battle
+[2017.03.08-04.48.40:964][  5]LogLoad: LoadMap: /Game/Maps-Levels/Fort_Battle
+[2017.03.08-04.48.41:128][  5]Cmd: MEM
+[2017.03.08-04.48.41:288][  5]LogMemory: Platform Memory Stats for Windows
+[2017.03.08-04.48.41:288][  5]LogMemory: Process Physical Memory: 1595.28 MB used, 1596.36 MB peak
+[2017.03.08-04.48.41:288][  5]LogMemory: Process Virtual Memory: 1495.60 MB used, 1500.73 MB peak
+[2017.03.08-04.48.41:288][  5]LogMemory: Physical Memory: 7509.83 MB used,  8774.24 MB free, 16284.07 MB total
+[2017.03.08-04.48.41:288][  5]LogMemory: Virtual Memory: 2826.06 MB used,  8774.24 MB free, 8388608.00 MB total
+[2017.03.08-04.48.41:288][  5]LogMemory: 
+[2017.03.08-04.48.41:288][  5]Allocator Stats for TBB: (not implemented)
+[2017.03.08-04.48.41:429][  5]LogAIModule: Creating AISystem for world Fort_Battle
+[2017.03.08-04.48.41:430][  5]LogLoad: Game class is 'abyssBattleScene_C'
+[2017.03.08-04.48.41:434][  5]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_Fort_Battle.Fort_Battle up for play (max tick rate 0) at 2017.03.07-23.48.41
+[2017.03.08-04.48.41:435][  5]LogWorld: Bringing up level for play took: 0.003204
+[2017.03.08-04.48.41:435][  5]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.03.08-04.48.41:443][  5]LogLoad: Took 0.479119 seconds to LoadMap(/Game/Maps-Levels/Fort_Battle)
+[2017.03.08-04.48.42:457][118]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 1!
+[2017.03.08-04.48.43:458][233]LogBlueprintUserMessages: [BattleHUD_C_24] Enemy missed!
+[2017.03.08-04.48.43:830][276]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 1!
+[2017.03.08-04.48.46:616][597]LogBlueprintUserMessages: [BattleHUD_C_24] Attack missed!
+[2017.03.08-04.48.48:135][771]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 1!
+[2017.03.08-04.48.49:133][886]LogBlueprintUserMessages: [BattleHUD_C_24] Enemy is dead
+[2017.03.08-04.48.50:211][  7]LogNet: Browse: /Game/Maps-Levels/Fort/Fort_Exploration
+[2017.03.08-04.48.50:212][  7]LogLoad: LoadMap: /Game/Maps-Levels/Fort/Fort_Exploration
+[2017.03.08-04.48.50:388][  7]Cmd: MEM
+[2017.03.08-04.48.50:541][  7]LogMemory: Platform Memory Stats for Windows
+[2017.03.08-04.48.50:541][  7]LogMemory: Process Physical Memory: 1597.30 MB used, 1598.43 MB peak
+[2017.03.08-04.48.50:541][  7]LogMemory: Process Virtual Memory: 1497.66 MB used, 1502.66 MB peak
+[2017.03.08-04.48.50:541][  7]LogMemory: Physical Memory: 7510.06 MB used,  8774.01 MB free, 16284.07 MB total
+[2017.03.08-04.48.50:541][  7]LogMemory: Virtual Memory: 2828.12 MB used,  8774.01 MB free, 8388608.00 MB total
+[2017.03.08-04.48.50:541][  7]LogMemory: 
+[2017.03.08-04.48.50:541][  7]Allocator Stats for TBB: (not implemented)
+[2017.03.08-04.48.50:731][  7]LogAIModule: Creating AISystem for world Fort_Exploration
+[2017.03.08-04.48.50:732][  7]LogLoad: Game class is 'abyssExplorationMode_C'
+[2017.03.08-04.48.50:739][  7]LogWorld: Bringing World /Game/Maps-Levels/Fort/UEDPIE_0_Fort_Exploration.Fort_Exploration up for play (max tick rate 0) at 2017.03.07-23.48.50
+[2017.03.08-04.48.50:739][  7]LogWorld: Bringing up level for play took: 0.005651
+[2017.03.08-04.48.50:742][  7]LogLoad: Took 0.530774 seconds to LoadMap(/Game/Maps-Levels/Fort/Fort_Exploration)
+[2017.03.08-04.48.50:761][  8]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.088002 > MaxSimulationTimeStep (0.050) for 'Exploration_Hero_C_0', movement 'Walking'
+[2017.03.08-04.48.51:983][146]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu' with GeneratedClass '/Game/Maps-Levels/startMenu.startMenu_C' with ClassGeneratedBy '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu'
+[2017.03.08-04.48.52:057][146]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu' with GeneratedClass '/Game/Maps-Levels/startMenu.startMenu_C' with ClassGeneratedBy '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu'
+[2017.03.08-04.48.56:656][672]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.08-04.48.56:707][672]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu' with GeneratedClass '/Game/Maps-Levels/startMenu.startMenu_C' with ClassGeneratedBy '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu'
+[2017.03.08-04.48.56:707][672]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.08-04.48.56:707][672]PIE: New page: PIE session: startMenu (Mar 7, 2017, 6:48:56 PM)
+[2017.03.08-04.48.56:724][672]LogPlayLevel: Creating play world package: /Game/Maps-Levels/UEDPIE_0_startMenu
+[2017.03.08-04.48.56:726][672]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001388s)
+[2017.03.08-04.48.56:727][672]LogAIModule: Creating AISystem for world startMenu
+[2017.03.08-04.48.56:727][672]LogPlayLevel: PIE: World Init took: (0.000830s)
+[2017.03.08-04.48.56:727][672]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps-Levels/startMenu.startMenu to /Game/Maps-Levels/UEDPIE_0_startMenu.startMenu (0.002464s)
+[2017.03.08-04.48.56:896][672]LogInit: XAudio2 using '1 - SE32HY27 (2- AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.08-04.48.56:908][672]LogInit: FAudioDevice initialized.
+[2017.03.08-04.48.56:959][672]LogLoad: Game class is 'abyssGameMode_C'
+[2017.03.08-04.48.56:962][672]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_startMenu.startMenu up for play (max tick rate 0) at 2017.03.07-23.48.56
+[2017.03.08-04.48.56:962][672]LogWorld: Bringing up level for play took: 0.000943
+[2017.03.08-04.48.56:962][672]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.03.08-04.48.56:968][672]PIE: Info Play in editor start time for /Game/Maps-Levels/UEDPIE_0_startMenu 1.203
+[2017.03.08-04.48.56:968][672]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu' with GeneratedClass '/Game/Maps-Levels/startMenu.startMenu_C' with ClassGeneratedBy '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu'
+[2017.03.08-04.48.57:759][757]LogNet: Browse: /Game/Maps-Levels/Fort/Exploration/Fort_Exploration1
+[2017.03.08-04.48.57:759][757]LogLoad: LoadMap: /Game/Maps-Levels/Fort/Exploration/Fort_Exploration1
+[2017.03.08-04.48.57:924][757]Cmd: MEM
+[2017.03.08-04.48.58:075][757]LogMemory: Platform Memory Stats for Windows
+[2017.03.08-04.48.58:076][757]LogMemory: Process Physical Memory: 1597.30 MB used, 1598.43 MB peak
+[2017.03.08-04.48.58:076][757]LogMemory: Process Virtual Memory: 1497.66 MB used, 1502.66 MB peak
+[2017.03.08-04.48.58:076][757]LogMemory: Physical Memory: 7510.79 MB used,  8773.29 MB free, 16284.07 MB total
+[2017.03.08-04.48.58:076][757]LogMemory: Virtual Memory: 2828.12 MB used,  8773.29 MB free, 8388608.00 MB total
+[2017.03.08-04.48.58:076][757]LogMemory: 
+[2017.03.08-04.48.58:076][757]Allocator Stats for TBB: (not implemented)
+[2017.03.08-04.48.58:265][757]LogAIModule: Creating AISystem for world Fort_Exploration1
+[2017.03.08-04.48.58:265][757]LogLoad: Game class is 'abyssExplorationMode_C'
+[2017.03.08-04.48.58:276][757]LogWorld: Bringing World /Game/Maps-Levels/Fort/Exploration/UEDPIE_0_Fort_Exploration1.Fort_Exploration1 up for play (max tick rate 0) at 2017.03.07-23.48.58
+[2017.03.08-04.48.58:277][757]LogWorld: Bringing up level for play took: 0.009949
+[2017.03.08-04.48.58:280][757]LogLoad: Took 0.521582 seconds to LoadMap(/Game/Maps-Levels/Fort/Exploration/Fort_Exploration1)
+[2017.03.08-04.49.00:392][985]LogNet: Browse: /Game/Maps-Levels/Fort_Battle
+[2017.03.08-04.49.00:392][985]LogLoad: LoadMap: /Game/Maps-Levels/Fort_Battle
+[2017.03.08-04.49.00:558][985]Cmd: MEM
+[2017.03.08-04.49.00:717][985]LogMemory: Platform Memory Stats for Windows
+[2017.03.08-04.49.00:717][985]LogMemory: Process Physical Memory: 1597.30 MB used, 1598.43 MB peak
+[2017.03.08-04.49.00:717][985]LogMemory: Process Virtual Memory: 1497.66 MB used, 1502.66 MB peak
+[2017.03.08-04.49.00:717][985]LogMemory: Physical Memory: 7510.46 MB used,  8773.61 MB free, 16284.07 MB total
+[2017.03.08-04.49.00:717][985]LogMemory: Virtual Memory: 2828.12 MB used,  8773.61 MB free, 8388608.00 MB total
+[2017.03.08-04.49.00:717][985]LogMemory: 
+[2017.03.08-04.49.00:717][985]Allocator Stats for TBB: (not implemented)
+[2017.03.08-04.49.00:859][985]LogAIModule: Creating AISystem for world Fort_Battle
+[2017.03.08-04.49.00:859][985]LogLoad: Game class is 'abyssBattleScene_C'
+[2017.03.08-04.49.00:864][985]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_Fort_Battle.Fort_Battle up for play (max tick rate 0) at 2017.03.07-23.49.00
+[2017.03.08-04.49.00:864][985]LogWorld: Bringing up level for play took: 0.003173
+[2017.03.08-04.49.00:865][985]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.03.08-04.49.00:873][985]LogLoad: Took 0.480896 seconds to LoadMap(/Game/Maps-Levels/Fort_Battle)
+[2017.03.08-04.49.01:779][ 85]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 1!
+[2017.03.08-04.49.04:302][376]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 1!
+[2017.03.08-04.49.06:628][645]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 1!
+[2017.03.08-04.49.09:166][938]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 1!
+[2017.03.08-04.49.10:162][ 53]LogBlueprintUserMessages: [BattleHUD_C_30] Enemy missed!
+[2017.03.08-04.49.11:353][190]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 1!
+[2017.03.08-04.49.12:352][305]LogBlueprintUserMessages: [BattleHUD_C_30] Enemy is dead
+[2017.03.08-04.49.13:433][425]LogNet: Browse: /Game/Maps-Levels/Fort/Fort_Exploration
+[2017.03.08-04.49.13:433][425]LogLoad: LoadMap: /Game/Maps-Levels/Fort/Fort_Exploration
+[2017.03.08-04.49.13:601][425]Cmd: MEM
+[2017.03.08-04.49.13:758][425]LogMemory: Platform Memory Stats for Windows
+[2017.03.08-04.49.13:758][425]LogMemory: Process Physical Memory: 1597.31 MB used, 1598.54 MB peak
+[2017.03.08-04.49.13:758][425]LogMemory: Process Virtual Memory: 1497.66 MB used, 1502.66 MB peak
+[2017.03.08-04.49.13:758][425]LogMemory: Physical Memory: 7510.46 MB used,  8773.61 MB free, 16284.07 MB total
+[2017.03.08-04.49.13:758][425]LogMemory: Virtual Memory: 2828.12 MB used,  8773.61 MB free, 8388608.00 MB total
+[2017.03.08-04.49.13:759][425]LogMemory: 
+[2017.03.08-04.49.13:759][425]Allocator Stats for TBB: (not implemented)
+[2017.03.08-04.49.13:952][425]LogAIModule: Creating AISystem for world Fort_Exploration
+[2017.03.08-04.49.13:952][425]LogLoad: Game class is 'abyssExplorationMode_C'
+[2017.03.08-04.49.13:960][425]LogWorld: Bringing World /Game/Maps-Levels/Fort/UEDPIE_0_Fort_Exploration.Fort_Exploration up for play (max tick rate 0) at 2017.03.07-23.49.13
+[2017.03.08-04.49.13:960][425]LogWorld: Bringing up level for play took: 0.006159
+[2017.03.08-04.49.13:964][425]LogLoad: Took 0.530935 seconds to LoadMap(/Game/Maps-Levels/Fort/Fort_Exploration)
+[2017.03.08-04.49.16:651][735]LogNet: Browse: /Game/Maps-Levels/Fort_Battle
+[2017.03.08-04.49.16:651][735]LogLoad: LoadMap: /Game/Maps-Levels/Fort_Battle
+[2017.03.08-04.49.16:814][735]Cmd: MEM
+[2017.03.08-04.49.16:963][735]LogMemory: Platform Memory Stats for Windows
+[2017.03.08-04.49.16:964][735]LogMemory: Process Physical Memory: 1597.30 MB used, 1598.54 MB peak
+[2017.03.08-04.49.16:964][735]LogMemory: Process Virtual Memory: 1497.63 MB used, 1502.66 MB peak
+[2017.03.08-04.49.16:964][735]LogMemory: Physical Memory: 7510.47 MB used,  8773.60 MB free, 16284.07 MB total
+[2017.03.08-04.49.16:964][735]LogMemory: Virtual Memory: 2823.31 MB used,  8773.60 MB free, 8388608.00 MB total
+[2017.03.08-04.49.16:964][735]LogMemory: 
+[2017.03.08-04.49.16:964][735]Allocator Stats for TBB: (not implemented)
+[2017.03.08-04.49.17:104][735]LogAIModule: Creating AISystem for world Fort_Battle
+[2017.03.08-04.49.17:104][735]LogLoad: Game class is 'abyssBattleScene_C'
+[2017.03.08-04.49.17:109][735]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_Fort_Battle.Fort_Battle up for play (max tick rate 0) at 2017.03.07-23.49.17
+[2017.03.08-04.49.17:109][735]LogWorld: Bringing up level for play took: 0.003020
+[2017.03.08-04.49.17:109][735]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.03.08-04.49.17:117][735]LogLoad: Took 0.466351 seconds to LoadMap(/Game/Maps-Levels/Fort_Battle)
+[2017.03.08-04.49.20:667][141]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.08-04.49.20:667][141]LogBlueprintUserMessages: [BattleHUD_C_33] Couldn't escape!
+[2017.03.08-04.49.22:475][349]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.08-04.49.22:475][349]LogBlueprintUserMessages: [BattleHUD_C_33] Couldn't escape!
+[2017.03.08-04.49.24:004][524]LogNet: Browse: /Game/Maps-Levels/Fort/Fort_Exploration
+[2017.03.08-04.49.24:004][524]LogLoad: LoadMap: /Game/Maps-Levels/Fort/Fort_Exploration
+[2017.03.08-04.49.24:169][524]Cmd: MEM
+[2017.03.08-04.49.24:326][524]LogMemory: Platform Memory Stats for Windows
+[2017.03.08-04.49.24:326][524]LogMemory: Process Physical Memory: 1597.31 MB used, 1598.54 MB peak
+[2017.03.08-04.49.24:326][524]LogMemory: Process Virtual Memory: 1497.66 MB used, 1502.66 MB peak
+[2017.03.08-04.49.24:326][524]LogMemory: Physical Memory: 7510.07 MB used,  8774.00 MB free, 16284.07 MB total
+[2017.03.08-04.49.24:326][524]LogMemory: Virtual Memory: 2823.31 MB used,  8774.00 MB free, 8388608.00 MB total
+[2017.03.08-04.49.24:326][524]LogMemory: 
+[2017.03.08-04.49.24:326][524]Allocator Stats for TBB: (not implemented)
+[2017.03.08-04.49.24:522][524]LogAIModule: Creating AISystem for world Fort_Exploration
+[2017.03.08-04.49.24:522][524]LogLoad: Game class is 'abyssExplorationMode_C'
+[2017.03.08-04.49.24:530][524]LogWorld: Bringing World /Game/Maps-Levels/Fort/UEDPIE_0_Fort_Exploration.Fort_Exploration up for play (max tick rate 0) at 2017.03.07-23.49.24
+[2017.03.08-04.49.24:530][524]LogWorld: Bringing up level for play took: 0.005727
+[2017.03.08-04.49.24:534][524]LogLoad: Took 0.529905 seconds to LoadMap(/Game/Maps-Levels/Fort/Fort_Exploration)
+[2017.03.08-04.49.24:553][525]LogNet: Browse: /Game/Maps-Levels/Fort_Battle
+[2017.03.08-04.49.24:553][525]LogLoad: LoadMap: /Game/Maps-Levels/Fort_Battle
+[2017.03.08-04.49.24:717][525]Cmd: MEM
+[2017.03.08-04.49.24:873][525]LogMemory: Platform Memory Stats for Windows
+[2017.03.08-04.49.24:873][525]LogMemory: Process Physical Memory: 1597.32 MB used, 1598.54 MB peak
+[2017.03.08-04.49.24:873][525]LogMemory: Process Virtual Memory: 1497.66 MB used, 1502.66 MB peak
+[2017.03.08-04.49.24:873][525]LogMemory: Physical Memory: 7513.96 MB used,  8770.11 MB free, 16284.07 MB total
+[2017.03.08-04.49.24:874][525]LogMemory: Virtual Memory: 2823.31 MB used,  8770.11 MB free, 8388608.00 MB total
+[2017.03.08-04.49.24:874][525]LogMemory: 
+[2017.03.08-04.49.24:874][525]Allocator Stats for TBB: (not implemented)
+[2017.03.08-04.49.25:017][525]LogAIModule: Creating AISystem for world Fort_Battle
+[2017.03.08-04.49.25:018][525]LogLoad: Game class is 'abyssBattleScene_C'
+[2017.03.08-04.49.25:022][525]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_Fort_Battle.Fort_Battle up for play (max tick rate 0) at 2017.03.07-23.49.25
+[2017.03.08-04.49.25:023][525]LogWorld: Bringing up level for play took: 0.003155
+[2017.03.08-04.49.25:023][525]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.03.08-04.49.25:031][525]LogLoad: Took 0.478371 seconds to LoadMap(/Game/Maps-Levels/Fort_Battle)
+[2017.03.08-04.49.25:052][526]LogNet: Browse: /Game/Maps-Levels/Fort/Fort_Exploration
+[2017.03.08-04.49.25:052][526]LogLoad: LoadMap: /Game/Maps-Levels/Fort/Fort_Exploration
+[2017.03.08-04.49.25:219][526]Cmd: MEM
+[2017.03.08-04.49.25:369][526]LogMemory: Platform Memory Stats for Windows
+[2017.03.08-04.49.25:369][526]LogMemory: Process Physical Memory: 1597.34 MB used, 1598.54 MB peak
+[2017.03.08-04.49.25:369][526]LogMemory: Process Virtual Memory: 1497.66 MB used, 1502.66 MB peak
+[2017.03.08-04.49.25:369][526]LogMemory: Physical Memory: 7513.02 MB used,  8771.05 MB free, 16284.07 MB total
+[2017.03.08-04.49.25:369][526]LogMemory: Virtual Memory: 2823.31 MB used,  8771.05 MB free, 8388608.00 MB total
+[2017.03.08-04.49.25:369][526]LogMemory: 
+[2017.03.08-04.49.25:369][526]Allocator Stats for TBB: (not implemented)
+[2017.03.08-04.49.25:559][526]LogAIModule: Creating AISystem for world Fort_Exploration
+[2017.03.08-04.49.25:559][526]LogLoad: Game class is 'abyssExplorationMode_C'
+[2017.03.08-04.49.25:566][526]LogWorld: Bringing World /Game/Maps-Levels/Fort/UEDPIE_0_Fort_Exploration.Fort_Exploration up for play (max tick rate 0) at 2017.03.07-23.49.25
+[2017.03.08-04.49.25:567][526]LogWorld: Bringing up level for play took: 0.005642
+[2017.03.08-04.49.25:570][526]LogLoad: Took 0.518185 seconds to LoadMap(/Game/Maps-Levels/Fort/Fort_Exploration)
+[2017.03.08-04.49.25:590][527]LogNet: Browse: /Game/Maps-Levels/Fort_Battle
+[2017.03.08-04.49.25:590][527]LogLoad: LoadMap: /Game/Maps-Levels/Fort_Battle
+[2017.03.08-04.49.25:761][527]Cmd: MEM
+[2017.03.08-04.49.25:916][527]LogMemory: Platform Memory Stats for Windows
+[2017.03.08-04.49.25:916][527]LogMemory: Process Physical Memory: 1597.34 MB used, 1598.54 MB peak
+[2017.03.08-04.49.25:916][527]LogMemory: Process Virtual Memory: 1497.66 MB used, 1502.66 MB peak
+[2017.03.08-04.49.25:917][527]LogMemory: Physical Memory: 7516.03 MB used,  8768.04 MB free, 16284.07 MB total
+[2017.03.08-04.49.25:917][527]LogMemory: Virtual Memory: 2823.31 MB used,  8768.04 MB free, 8388608.00 MB total
+[2017.03.08-04.49.25:917][527]LogMemory: 
+[2017.03.08-04.49.25:917][527]Allocator Stats for TBB: (not implemented)
+[2017.03.08-04.49.26:061][527]LogAIModule: Creating AISystem for world Fort_Battle
+[2017.03.08-04.49.26:061][527]LogLoad: Game class is 'abyssBattleScene_C'
+[2017.03.08-04.49.26:066][527]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_Fort_Battle.Fort_Battle up for play (max tick rate 0) at 2017.03.07-23.49.26
+[2017.03.08-04.49.26:066][527]LogWorld: Bringing up level for play took: 0.003020
+[2017.03.08-04.49.26:067][527]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.03.08-04.49.26:074][527]LogLoad: Took 0.484235 seconds to LoadMap(/Game/Maps-Levels/Fort_Battle)
+[2017.03.08-04.49.26:680][596]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.08-04.49.26:680][596]LogBlueprintUserMessages: [BattleHUD_C_39] Couldn't escape!
+[2017.03.08-04.49.28:355][789]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 0!
+[2017.03.08-04.49.28:355][789]LogBlueprintUserMessages: [BattleHUD_C_39] Couldn't escape!
+[2017.03.08-04.49.29:815][957]LogNet: Browse: /Game/Maps-Levels/Fort/Fort_Exploration
+[2017.03.08-04.49.29:815][957]LogLoad: LoadMap: /Game/Maps-Levels/Fort/Fort_Exploration
+[2017.03.08-04.49.29:988][957]Cmd: MEM
+[2017.03.08-04.49.30:135][957]LogMemory: Platform Memory Stats for Windows
+[2017.03.08-04.49.30:135][957]LogMemory: Process Physical Memory: 1597.36 MB used, 1598.54 MB peak
+[2017.03.08-04.49.30:135][957]LogMemory: Process Virtual Memory: 1497.66 MB used, 1502.66 MB peak
+[2017.03.08-04.49.30:135][957]LogMemory: Physical Memory: 7510.08 MB used,  8773.99 MB free, 16284.07 MB total
+[2017.03.08-04.49.30:136][957]LogMemory: Virtual Memory: 2823.31 MB used,  8773.99 MB free, 8388608.00 MB total
+[2017.03.08-04.49.30:136][957]LogMemory: 
+[2017.03.08-04.49.30:136][957]Allocator Stats for TBB: (not implemented)
+[2017.03.08-04.49.30:331][957]LogAIModule: Creating AISystem for world Fort_Exploration
+[2017.03.08-04.49.30:331][957]LogLoad: Game class is 'abyssExplorationMode_C'
+[2017.03.08-04.49.30:338][957]LogWorld: Bringing World /Game/Maps-Levels/Fort/UEDPIE_0_Fort_Exploration.Fort_Exploration up for play (max tick rate 0) at 2017.03.07-23.49.30
+[2017.03.08-04.49.30:339][957]LogWorld: Bringing up level for play took: 0.005816
+[2017.03.08-04.49.30:342][957]LogLoad: Took 0.527405 seconds to LoadMap(/Game/Maps-Levels/Fort/Fort_Exploration)
+[2017.03.08-04.49.30:363][958]LogNet: Browse: /Game/Maps-Levels/Fort_Battle
+[2017.03.08-04.49.30:363][958]LogLoad: LoadMap: /Game/Maps-Levels/Fort_Battle
+[2017.03.08-04.49.30:529][958]Cmd: MEM
+[2017.03.08-04.49.30:680][958]LogMemory: Platform Memory Stats for Windows
+[2017.03.08-04.49.30:680][958]LogMemory: Process Physical Memory: 1597.36 MB used, 1598.54 MB peak
+[2017.03.08-04.49.30:680][958]LogMemory: Process Virtual Memory: 1497.66 MB used, 1502.66 MB peak
+[2017.03.08-04.49.30:680][958]LogMemory: Physical Memory: 7513.97 MB used,  8770.10 MB free, 16284.07 MB total
+[2017.03.08-04.49.30:680][958]LogMemory: Virtual Memory: 2823.31 MB used,  8770.10 MB free, 8388608.00 MB total
+[2017.03.08-04.49.30:680][958]LogMemory: 
+[2017.03.08-04.49.30:680][958]Allocator Stats for TBB: (not implemented)
+[2017.03.08-04.49.30:825][958]LogAIModule: Creating AISystem for world Fort_Battle
+[2017.03.08-04.49.30:826][958]LogLoad: Game class is 'abyssBattleScene_C'
+[2017.03.08-04.49.30:830][958]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_Fort_Battle.Fort_Battle up for play (max tick rate 0) at 2017.03.07-23.49.30
+[2017.03.08-04.49.30:830][958]LogWorld: Bringing up level for play took: 0.002943
+[2017.03.08-04.49.30:831][958]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.03.08-04.49.30:839][958]LogLoad: Took 0.475923 seconds to LoadMap(/Game/Maps-Levels/Fort_Battle)
+[2017.03.08-04.49.31:007][975]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu' with GeneratedClass '/Game/Maps-Levels/startMenu.startMenu_C' with ClassGeneratedBy '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu'
+[2017.03.08-04.49.31:078][975]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu' with GeneratedClass '/Game/Maps-Levels/startMenu.startMenu_C' with ClassGeneratedBy '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu'
+[2017.03.08-04.50.08:393][339]BlueprintLog: New page: Compile Exploration_Hero
+[2017.03.08-04.50.09:636][393]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Exploration/Exploration_Hero" FILE="../../../../../Unreal Projects/ChimeraGames/Abyss/Content/BluePrints/Exploration/Exploration_Hero.uasset" SILENT=true
+[2017.03.08-04.50.09:917][393]LogSavePackage: Save=254.33ms
+[2017.03.08-04.50.09:917][393]LogSavePackage: Moving '../../../../../Unreal Projects/ChimeraGames/Abyss/Saved/Exploration_HeroF925D699452D0C673E636E9267B477AD.tmp' to '../../../../../Unreal Projects/ChimeraGames/Abyss/Content/BluePrints/Exploration/Exploration_Hero.uasset'
+[2017.03.08-04.50.09:919][393]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/ChimeraGames/Abyss/Content/BluePrints/Exploration/Exploration_Hero.uasset
+[2017.03.08-04.50.10:296][436]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.08-04.50.10:343][436]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu' with GeneratedClass '/Game/Maps-Levels/startMenu.startMenu_C' with ClassGeneratedBy '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu'
+[2017.03.08-04.50.10:343][436]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.08-04.50.10:343][436]PIE: New page: PIE session: startMenu (Mar 7, 2017, 6:50:10 PM)
+[2017.03.08-04.50.10:361][436]LogPlayLevel: Creating play world package: /Game/Maps-Levels/UEDPIE_0_startMenu
+[2017.03.08-04.50.10:363][436]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001406s)
+[2017.03.08-04.50.10:363][436]LogAIModule: Creating AISystem for world startMenu
+[2017.03.08-04.50.10:363][436]LogPlayLevel: PIE: World Init took: (0.000831s)
+[2017.03.08-04.50.10:364][436]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps-Levels/startMenu.startMenu to /Game/Maps-Levels/UEDPIE_0_startMenu.startMenu (0.002554s)
+[2017.03.08-04.50.10:549][436]LogInit: XAudio2 using '1 - SE32HY27 (2- AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.08-04.50.10:560][436]LogInit: FAudioDevice initialized.
+[2017.03.08-04.50.10:608][436]LogLoad: Game class is 'abyssGameMode_C'
+[2017.03.08-04.50.10:611][436]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_startMenu.startMenu up for play (max tick rate 0) at 2017.03.07-23.50.10
+[2017.03.08-04.50.10:611][436]LogWorld: Bringing up level for play took: 0.000905
+[2017.03.08-04.50.10:612][436]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.03.08-04.50.10:617][436]PIE: Info Play in editor start time for /Game/Maps-Levels/UEDPIE_0_startMenu 0.85
+[2017.03.08-04.50.10:618][436]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu' with GeneratedClass '/Game/Maps-Levels/startMenu.startMenu_C' with ClassGeneratedBy '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu'
+[2017.03.08-04.50.11:377][520]LogNet: Browse: /Game/Maps-Levels/Fort/Exploration/Fort_Exploration1
+[2017.03.08-04.50.11:377][520]LogLoad: LoadMap: /Game/Maps-Levels/Fort/Exploration/Fort_Exploration1
+[2017.03.08-04.50.11:550][520]Cmd: MEM
+[2017.03.08-04.50.11:698][520]LogMemory: Platform Memory Stats for Windows
+[2017.03.08-04.50.11:699][520]LogMemory: Process Physical Memory: 1598.52 MB used, 1600.28 MB peak
+[2017.03.08-04.50.11:699][520]LogMemory: Process Virtual Memory: 1498.85 MB used, 1503.85 MB peak
+[2017.03.08-04.50.11:699][520]LogMemory: Physical Memory: 7510.78 MB used,  8773.29 MB free, 16284.07 MB total
+[2017.03.08-04.50.11:699][520]LogMemory: Virtual Memory: 2829.12 MB used,  8773.29 MB free, 8388608.00 MB total
+[2017.03.08-04.50.11:699][520]LogMemory: 
+[2017.03.08-04.50.11:699][520]Allocator Stats for TBB: (not implemented)
+[2017.03.08-04.50.11:898][520]LogAIModule: Creating AISystem for world Fort_Exploration1
+[2017.03.08-04.50.11:898][520]LogLoad: Game class is 'abyssExplorationMode_C'
+[2017.03.08-04.50.11:909][520]LogWorld: Bringing World /Game/Maps-Levels/Fort/Exploration/UEDPIE_0_Fort_Exploration1.Fort_Exploration1 up for play (max tick rate 0) at 2017.03.07-23.50.11
+[2017.03.08-04.50.11:910][520]LogWorld: Bringing up level for play took: 0.009900
+[2017.03.08-04.50.11:913][520]LogLoad: Took 0.536711 seconds to LoadMap(/Game/Maps-Levels/Fort/Exploration/Fort_Exploration1)
+[2017.03.08-04.50.13:936][746]LogNet: Browse: /Game/Maps-Levels/Fort_Battle
+[2017.03.08-04.50.13:936][746]LogLoad: LoadMap: /Game/Maps-Levels/Fort_Battle
+[2017.03.08-04.50.14:105][746]Cmd: MEM
+[2017.03.08-04.50.14:269][746]LogMemory: Platform Memory Stats for Windows
+[2017.03.08-04.50.14:269][746]LogMemory: Process Physical Memory: 1598.62 MB used, 1600.28 MB peak
+[2017.03.08-04.50.14:269][746]LogMemory: Process Virtual Memory: 1498.93 MB used, 1503.93 MB peak
+[2017.03.08-04.50.14:269][746]LogMemory: Physical Memory: 7510.13 MB used,  8773.94 MB free, 16284.07 MB total
+[2017.03.08-04.50.14:269][746]LogMemory: Virtual Memory: 2829.12 MB used,  8773.94 MB free, 8388608.00 MB total
+[2017.03.08-04.50.14:269][746]LogMemory: 
+[2017.03.08-04.50.14:269][746]Allocator Stats for TBB: (not implemented)
+[2017.03.08-04.50.14:414][746]LogAIModule: Creating AISystem for world Fort_Battle
+[2017.03.08-04.50.14:414][746]LogLoad: Game class is 'abyssBattleScene_C'
+[2017.03.08-04.50.14:419][746]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_Fort_Battle.Fort_Battle up for play (max tick rate 0) at 2017.03.07-23.50.14
+[2017.03.08-04.50.14:420][746]LogWorld: Bringing up level for play took: 0.003141
+[2017.03.08-04.50.14:420][746]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.03.08-04.50.14:428][746]LogLoad: Took 0.491512 seconds to LoadMap(/Game/Maps-Levels/Fort_Battle)
+[2017.03.08-04.50.15:319][847]LogBlueprintUserMessages: [BattleHUD_C_48] Attack missed!
+[2017.03.08-04.50.16:775][ 20]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 1!
+[2017.03.08-04.50.20:548][467]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 1!
+[2017.03.08-04.50.22:918][748]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 1!
+[2017.03.08-04.50.25:238][ 23]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 1!
+[2017.03.08-04.50.27:766][323]LogBlueprintUserMessages: [BattleHUD_C_48] Attack missed!
+[2017.03.08-04.50.27:766][323]LogBlueprintUserMessages: [BattleHUD_C_48] Enemy missed!
+[2017.03.08-04.50.28:248][380]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array Loot_33_95D2511440C85A5C76459C8DCBDC82F6 of length 1!
+[2017.03.08-04.50.29:248][498]LogBlueprintUserMessages: [BattleHUD_C_48] Enemy is dead
+[2017.03.08-04.50.30:319][621]LogNet: Browse: /Game/Maps-Levels/Fort/Fort_Exploration
+[2017.03.08-04.50.30:319][621]LogLoad: LoadMap: /Game/Maps-Levels/Fort/Fort_Exploration
+[2017.03.08-04.50.30:484][621]Cmd: MEM
+[2017.03.08-04.50.30:625][621]LogMemory: Platform Memory Stats for Windows
+[2017.03.08-04.50.30:625][621]LogMemory: Process Physical Memory: 1598.63 MB used, 1600.28 MB peak
+[2017.03.08-04.50.30:625][621]LogMemory: Process Virtual Memory: 1498.93 MB used, 1503.93 MB peak
+[2017.03.08-04.50.30:625][621]LogMemory: Physical Memory: 7510.14 MB used,  8773.93 MB free, 16284.07 MB total
+[2017.03.08-04.50.30:625][621]LogMemory: Virtual Memory: 2829.12 MB used,  8773.93 MB free, 8388608.00 MB total
+[2017.03.08-04.50.30:625][621]LogMemory: 
+[2017.03.08-04.50.30:625][621]Allocator Stats for TBB: (not implemented)
+[2017.03.08-04.50.30:816][621]LogAIModule: Creating AISystem for world Fort_Exploration
+[2017.03.08-04.50.30:817][621]LogLoad: Game class is 'abyssExplorationMode_C'
+[2017.03.08-04.50.30:824][621]LogWorld: Bringing World /Game/Maps-Levels/Fort/UEDPIE_0_Fort_Exploration.Fort_Exploration up for play (max tick rate 0) at 2017.03.07-23.50.30
+[2017.03.08-04.50.30:825][621]LogWorld: Bringing up level for play took: 0.005946
+[2017.03.08-04.50.30:828][621]LogLoad: Took 0.508829 seconds to LoadMap(/Game/Maps-Levels/Fort/Fort_Exploration)
+[2017.03.08-04.50.30:828][621]LogScriptCore:Warning: Script Msg: Attempted to access index 7 from array CallFunc_GetAllActorsOfClass_OutActors2 of length 2!
+[2017.03.08-04.50.31:633][714]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu' with GeneratedClass '/Game/Maps-Levels/startMenu.startMenu_C' with ClassGeneratedBy '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu'
+[2017.03.08-04.50.31:706][714]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu' with GeneratedClass '/Game/Maps-Levels/startMenu.startMenu_C' with ClassGeneratedBy '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu'
+[2017.03.08-04.50.40:160][680]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Exploration/Exploration_Hero" FILE="../../../../../Unreal Projects/ChimeraGames/Abyss/Content/BluePrints/Exploration/Exploration_Hero.uasset" SILENT=true
+[2017.03.08-04.50.40:446][680]LogSavePackage: Save=259.94ms
+[2017.03.08-04.50.40:446][680]LogSavePackage: Moving '../../../../../Unreal Projects/ChimeraGames/Abyss/Saved/Exploration_HeroE2EF637144616D3CFC0B8DB5FD8EE5C0.tmp' to '../../../../../Unreal Projects/ChimeraGames/Abyss/Content/BluePrints/Exploration/Exploration_Hero.uasset'
+[2017.03.08-04.50.40:448][680]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/ChimeraGames/Abyss/Content/BluePrints/Exploration/Exploration_Hero.uasset
