@@ -8857,60 +8857,46 @@ declare class ORPHANED_DATA_ONLY_DmgTypeBP_Environmental_C_1 {
 	static C(Other: UObject): ORPHANED_DATA_ONLY_DmgTypeBP_Environmental_C_1;
 }
 
-declare class TRASHCLASS_LevelEditorOverview_2 { 
+declare class TRASHCLASS_LevelEditorAttract_2 { 
 	constructor();
 	constructor(Outer: UObject);
-	static Load(ResourceName: string): TRASHCLASS_LevelEditorOverview_2;
-	static Find(Outer: UObject, ResourceName: string): TRASHCLASS_LevelEditorOverview_2;
+	static Load(ResourceName: string): TRASHCLASS_LevelEditorAttract_2;
+	static Find(Outer: UObject, ResourceName: string): TRASHCLASS_LevelEditorAttract_2;
 	static StaticClass: any;
 	static GetClassObject(): Class;
-	static GetDefaultObject(): TRASHCLASS_LevelEditorOverview_2;
+	static GetDefaultObject(): TRASHCLASS_LevelEditorAttract_2;
 	static GetDefaultSubobjectByName(Name: string): UObject;
 	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): TRASHCLASS_LevelEditorOverview_2;
-	static C(Other: UObject): TRASHCLASS_LevelEditorOverview_2;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): TRASHCLASS_LevelEditorAttract_2;
+	static C(Other: UObject): TRASHCLASS_LevelEditorAttract_2;
 }
 
-declare class TRASHCLASS_BlueprintEditorTutorial_3 { 
+declare class TRASHCLASS_LevelEditorOverview_3 { 
 	constructor();
 	constructor(Outer: UObject);
-	static Load(ResourceName: string): TRASHCLASS_BlueprintEditorTutorial_3;
-	static Find(Outer: UObject, ResourceName: string): TRASHCLASS_BlueprintEditorTutorial_3;
+	static Load(ResourceName: string): TRASHCLASS_LevelEditorOverview_3;
+	static Find(Outer: UObject, ResourceName: string): TRASHCLASS_LevelEditorOverview_3;
 	static StaticClass: any;
 	static GetClassObject(): Class;
-	static GetDefaultObject(): TRASHCLASS_BlueprintEditorTutorial_3;
+	static GetDefaultObject(): TRASHCLASS_LevelEditorOverview_3;
 	static GetDefaultSubobjectByName(Name: string): UObject;
 	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): TRASHCLASS_BlueprintEditorTutorial_3;
-	static C(Other: UObject): TRASHCLASS_BlueprintEditorTutorial_3;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): TRASHCLASS_LevelEditorOverview_3;
+	static C(Other: UObject): TRASHCLASS_LevelEditorOverview_3;
 }
 
-declare class TRASHCLASS_LevelEditorAttract_4 { 
+declare class TRASHCLASS_BlueprintEditorTutorial_4 { 
 	constructor();
 	constructor(Outer: UObject);
-	static Load(ResourceName: string): TRASHCLASS_LevelEditorAttract_4;
-	static Find(Outer: UObject, ResourceName: string): TRASHCLASS_LevelEditorAttract_4;
+	static Load(ResourceName: string): TRASHCLASS_BlueprintEditorTutorial_4;
+	static Find(Outer: UObject, ResourceName: string): TRASHCLASS_BlueprintEditorTutorial_4;
 	static StaticClass: any;
 	static GetClassObject(): Class;
-	static GetDefaultObject(): TRASHCLASS_LevelEditorAttract_4;
+	static GetDefaultObject(): TRASHCLASS_BlueprintEditorTutorial_4;
 	static GetDefaultSubobjectByName(Name: string): UObject;
 	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): TRASHCLASS_LevelEditorAttract_4;
-	static C(Other: UObject): TRASHCLASS_LevelEditorAttract_4;
-}
-
-declare class TRASHCLASS_LevelBlueprintEditorOverview_5 { 
-	constructor();
-	constructor(Outer: UObject);
-	static Load(ResourceName: string): TRASHCLASS_LevelBlueprintEditorOverview_5;
-	static Find(Outer: UObject, ResourceName: string): TRASHCLASS_LevelBlueprintEditorOverview_5;
-	static StaticClass: any;
-	static GetClassObject(): Class;
-	static GetDefaultObject(): TRASHCLASS_LevelBlueprintEditorOverview_5;
-	static GetDefaultSubobjectByName(Name: string): UObject;
-	static SetDefaultSubobjectClass(Name: string): void;
-	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): TRASHCLASS_LevelBlueprintEditorOverview_5;
-	static C(Other: UObject): TRASHCLASS_LevelBlueprintEditorOverview_5;
+	static CreateDefaultSubobject(Name: string, Transient?: boolean, Required?: boolean, Abstract?: boolean): TRASHCLASS_BlueprintEditorTutorial_4;
+	static C(Other: UObject): TRASHCLASS_BlueprintEditorTutorial_4;
 }
 
 declare var Context : JavascriptContext;
