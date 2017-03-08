@@ -1,0 +1,1103 @@
+﻿Log file open, 03/08/17 10:13:58
+LogInit:Display: Running engine for game: Abyss
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1698926721) SRandInit(1698926721).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.091762
+LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin AudioCapture, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/AudioCapture/AudioCapture.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin OSVR, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGameCircle, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/Android/OnlineSubsystemGameCircle/OnlineSubsystemGameCircle.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin MIDIDevice, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/MIDIDevice/MIDIDevice.uplugin
+LogPluginManager: Loaded Plugin MobilePatchingUtils, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/MobilePatchingUtils/MobilePatchingUtils.uplugin
+LogPluginManager: Loaded Plugin Ansel, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Nvidia/Ansel/Ansel.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogPluginManager: Loaded Plugin EditorTests, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/EditorTests/EditorTests.uplugin
+LogPluginManager: Loaded Plugin FbxAutomationTestBuilder, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/FbxAutomationTestBuilder/FbxAutomationTestBuilder.uplugin
+LogPluginManager: Loaded Plugin FunctionalTestingEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/FunctionalTestingEditor/FunctionalTestingEditor.uplugin
+LogPluginManager: Loaded Plugin RuntimeTests, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/RuntimeTests/RuntimeTests.uplugin
+LogPluginManager: Loaded Plugin ScreenshotTools, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/ScreenshotTools/ScreenshotTools.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.14-CL-3249277
+LogInit: Engine Version: 4.14.3-3249277+++UE4+Release-4.14
+LogInit: Compatible Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Net CL: 3195953
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 7
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 8
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 17
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 1
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jan  6 2017 10:49:43
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.14
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.14/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.03.08-15.13.59:178][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.08-15.13.59:178][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.03.08-15.13.59:190][  0]LogInit: Computer: ARCTURUS
+[2017.03.08-15.13.59:190][  0]LogInit: User: Braden
+[2017.03.08-15.13.59:190][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.03.08-15.13.59:190][  0]LogInit: High frequency timer resolution =2.338341 MHz
+[2017.03.08-15.13.59:191][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.03.08-15.13.59:191][  0]LogMemory: Platform Memory Stats for Windows
+[2017.03.08-15.13.59:191][  0]LogMemory: Process Physical Memory: 264.47 MB used, 264.47 MB peak
+[2017.03.08-15.13.59:191][  0]LogMemory: Process Virtual Memory: 262.53 MB used, 262.53 MB peak
+[2017.03.08-15.13.59:191][  0]LogMemory: Physical Memory: 4929.34 MB used,  3174.93 MB free, 8104.27 MB total
+[2017.03.08-15.13.59:191][  0]LogMemory: Virtual Memory: 689.43 MB used,  3174.93 MB free, 134217728.00 MB total
+[2017.03.08-15.13.59:222][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.03.08-15.13.59:882][  0]LogD3D11RHI: D3D11 adapters:
+[2017.03.08-15.13.59:931][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.03.08-15.13.59:931][  0]LogD3D11RHI:       0/0/1792 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x8086
+[2017.03.08-15.13.59:988][  0]LogD3D11RHI:    1. 'NVIDIA GeForce GT 755M' (Feature Level 11_0)
+[2017.03.08-15.13.59:988][  0]LogD3D11RHI:       1977/0/4052 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x10de
+[2017.03.08-15.13.59:989][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.03.08-15.13.59:989][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.03.08-15.13.59:989][  0]LogD3D11RHI: Chosen D3D11 Adapter: 1
+[2017.03.08-15.13.59:997][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.03.08-15.13.59:997][  0]LogD3D11RHI:     GPU DeviceId: 0xfcd (for the marketing name, search the web for "GPU Device Id")
+[2017.03.08-15.13.59:997][  0]LogWindows: EnumDisplayDevices:
+[2017.03.08-15.13.59:997][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2017.03.08-15.13.59:997][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:1)
+[2017.03.08-15.13.59:997][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.03.08-15.13.59:997][  0]LogWindows:    3. 'NVIDIA GeForce GT 755M' (P:0 D:0)
+[2017.03.08-15.13.59:998][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
+[2017.03.08-15.13.59:998][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 755M
+[2017.03.08-15.13.59:998][  0]LogD3D11RHI:   Driver Version: 378.66 (internal:21.21.13.7866, unified:378.66)
+[2017.03.08-15.13.59:998][  0]LogD3D11RHI:      Driver Date: 2-9-2017
+[2017.03.08-15.13.59:998][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.03.08-15.14.00:018][  0]LogD3D11RHI:Warning: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2017.03.08-15.14.00:018][  0]LogD3D11RHI: Async texture creation enabled
+[2017.03.08-15.14.00:037][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.03.08-15.14.00:037][  0]LogShaderCompilers: Guid format shader working directory is -19 characters bigger than the processId version (../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Intermediate/Shaders/WorkingDirectory/7756/).
+[2017.03.08-15.14.00:038][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Braden/AppData/Local/Temp/UnrealShaderWorkingDir/F6DC854D4C27B5C62B41C992525AC164/'.
+[2017.03.08-15.14.00:038][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.03.08-15.14.01:233][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.03.08-15.14.01:289][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.03.08-15.14.01:337][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.03.08-15.14.01:380][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.03.08-15.14.01:423][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.03.08-15.14.01:466][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.03.08-15.14.01:506][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.03.08-15.14.01:548][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.03.08-15.14.01:578][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.03.08-15.14.01:618][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.03.08-15.14.01:656][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.03.08-15.14.01:694][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.03.08-15.14.01:733][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.03.08-15.14.01:772][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.03.08-15.14.01:813][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.03.08-15.14.01:893][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.03.08-15.14.01:893][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.03.08-15.14.01:916][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.03.08-15.14.01:979][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.03.08-15.14.02:007][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.03.08-15.14.02:049][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.03.08-15.14.02:088][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.03.08-15.14.02:129][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.03.08-15.14.02:180][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.03.08-15.14.02:180][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.03.08-15.14.02:560][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.03.08-15.14.02:656][  0]LogDerivedDataCache: Loaded boot cache 0.10s 52MB C:/Users/Braden/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.03.08-15.14.02:656][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Braden/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2017.03.08-15.14.02:656][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.03.08-15.14.02:657][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.03.08-15.14.02:657][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.03.08-15.14.02:657][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.03.08-15.14.02:678][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.03.08-15.14.02:695][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Braden/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.03.08-15.14.02:956][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.08-15.14.02:959][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.03.08-15.14.03:143][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.03.08-15.14.03:172][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.03.08-15.14.03:203][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.03.08-15.14.03:203][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.03.08-15.14.03:203][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.03.08-15.14.03:802][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: abyss, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1595127573
+[2017.03.08-15.14.03:856][  0]LogAssetRegistry: FAssetRegistry took 0.0219 seconds to start up
+[2017.03.08-15.14.03:895][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.024848 seconds
+[2017.03.08-15.14.03:902][  0]LogUObjectArray: 31890 objects as part of root set at end of initial load.
+[2017.03.08-15.14.03:902][  0]LogUObjectAllocator: 6922376 out of 0 bytes used by permanent object pool.
+[2017.03.08-15.14.03:902][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.03.08-15.14.03:941][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.03.08-15.14.04:452][  0]LogSlate: Using Freetype 2.6.0
+[2017.03.08-15.14.04:452][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.08-15.14.04:453][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.08-15.14.05:314][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.03.08-15.14.05:590][  0]SourceControl: Info Source control is disabled
+[2017.03.08-15.14.06:602][  0]LogEngine: Initializing Engine...
+[2017.03.08-15.14.06:825][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.03.08-15.14.06:837][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.08-15.14.06:849][  0]LogInit: FAudioDevice initialized.
+[2017.03.08-15.14.06:890][  0]LogDerivedDataCache: Saved boot cache 0.04s 52MB C:/Users/Braden/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.03.08-15.14.06:902][  0]LogInit: Texture streaming: Enabled
+[2017.03.08-15.14.07:023][  0]LogInit: Transaction tracking system initialized
+[2017.03.08-15.14.07:239][  0]BlueprintLog: New page: Editor Load
+[2017.03.08-15.14.07:796][  0]LocalizationService: Info Localization service is disabled
+[2017.03.08-15.14.08:031][  0]LogModuleManager:Warning: No filename provided for module TcpMessaging
+[2017.03.08-15.14.08:031][  0]LogModuleManager:Warning: ModuleManager: Unable to load module 'TcpMessaging' because the file 'C:/Program Files/Epic Games/UE_4.14/Engine/Binaries/Win64/' was not found.
+[2017.03.08-15.14.08:451][  0]LogConsoleResponse:Display: 
+[2017.03.08-15.14.08:590][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.03.08-15.14.08:590][  0]LogCook:Display: Mobile HDR setting 1
+[2017.03.08-15.14.09:212][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/' took 0.01s
+[2017.03.08-15.14.09:212][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/Maps-Levels/startMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.08-15.14.09:212][  0]LightingResults: New page: Lighting Build
+[2017.03.08-15.14.09:238][  0]MapCheck: New page: Map Check
+[2017.03.08-15.14.09:238][  0]LightingResults: New page: Lighting Build
+[2017.03.08-15.14.09:371][  0]LogAIModule: Creating AISystem for world startMenu
+[2017.03.08-15.14.09:372][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.08-15.14.09:373][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.08-15.14.09:405][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 31.865ms to complete.
+[2017.03.08-15.14.09:405][  0]LogFileHelpers: Loading map 'startMenu' took 0.192
+[2017.03.08-15.14.09:545][  0]LogCollectionManager: Loaded 0 collections in 0.001431 seconds
+[2017.03.08-15.14.09:615][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/Collections/' took 0.01s
+[2017.03.08-15.14.09:615][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/Developers/Braden/Collections/' took 0.01s
+[2017.03.08-15.14.09:615][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/Collections/' took 0.01s
+[2017.03.08-15.14.09:615][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.03.08-15.14.09:626][  0]LogContentBrowser: Native class hierarchy populated in 0.0107 seconds. Added 2178 classes and 401 folders.
+[2017.03.08-15.14.09:661][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.03.08-15.14.09:661][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.03.08-15.14.09:662][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0005 seconds. Added 13 classes and 0 folders.
+[2017.03.08-15.14.09:702][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.03.08-15.14.10:508][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.03.08-15.14.10:535][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.03.08-15.14.10:567][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.03.08-15.14.10:572][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.03.08-15.14.10:629][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.03.08-15.14.10:629][  0]LogLoad: (Engine Initialization) Total time: 14.80 seconds
+[2017.03.08-15.14.10:630][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.06 seconds
+[2017.03.08-15.14.10:630][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.03.08-15.14.10:630][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.03.08-15.14.10:665][  0]SourceControl: Info On branch master
+[2017.03.08-15.14.10:665][  0]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2017.03.08-15.14.10:665][  0]SourceControl: Info Changes not staged for commit:
+[2017.03.08-15.14.10:665][  0]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
+[2017.03.08-15.14.10:665][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.03.08-15.14.10:665][  0]SourceControl: Info 	modified:   Abyss/Saved/Config/Windows/Editor.ini
+[2017.03.08-15.14.10:665][  0]SourceControl: Info 	modified:   Abyss/Saved/Config/Windows/Engine.ini
+[2017.03.08-15.14.10:665][  0]SourceControl: Info 	modified:   Abyss/Saved/Logs/Abyss.log
+[2017.03.08-15.14.10:665][  0]SourceControl: Info 	deleted:    Abyss/Saved/Logs/Abyss_2-backup-2017.03.08-01.26.04.log
+[2017.03.08-15.14.10:665][  0]SourceControl: Info Untracked files:
+[2017.03.08-15.14.10:665][  0]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2017.03.08-15.14.10:665][  0]SourceControl: Info 	Abyss/Saved/Logs/Abyss-backup-2017.03.08-10.13.58.log
+[2017.03.08-15.14.10:665][  0]SourceControl: Info 	Abyss/Saved/Logs/UE4CC-Windows-EC758B5A4BA43486BE37DE9BB4B4720D/
+[2017.03.08-15.14.10:665][  0]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2017.03.08-15.14.10:665][  0]LogContentStreaming: Texture pool size now 400 MB
+[2017.03.08-15.14.10:838][  2]LogRenderer: Reallocating scene render targets to support 792x392 NumSamples 1 (Frame:2).
+[2017.03.08-15.14.11:192][ 11]LogAssetRegistry: Asset discovery search completed in 7.3589 seconds
+[2017.03.08-15.14.11:192][ 11]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.03.08-15.14.11:192][ 11]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000025 seconds (updated 0 objects)
+[2017.03.08-15.14.12:187][ 38]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 111 classes and 0 folders.
+[2017.03.08-15.29.59:277][634]BlueprintLog: New page: Compile mainMenu
+[2017.03.08-15.30.00:459][663]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/mainMenu" FILE="../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/mainMenu.uasset" SILENT=true
+[2017.03.08-15.30.00:565][663]LogSavePackage: Save=19.22ms
+[2017.03.08-15.30.00:565][663]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/mainMenuB32BC48641238C20E891E084A98B21AB.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/mainMenu.uasset'
+[2017.03.08-15.30.00:571][663]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/mainMenu.uasset
+[2017.03.08-15.30.02:873][768]LogRenderer: Reallocating scene render targets to support 932x456 NumSamples 1 (Frame:40).
+[2017.03.08-15.33.10:377][519]LogLinker:Warning: Can't find file '/Game/UMG/playerInventory'
+[2017.03.08-15.33.10:377][519]LogLinker:Warning: Can't find file for asset '/Game/UMG/playerInventory' while loading ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/playerHUD.uasset.
+[2017.03.08-15.33.10:381][519]LoadErrors:Error: Error /Game/UMG/playerHUD : Can't find file for asset. /Game/UMG/playerInventory
+[2017.03.08-15.33.10:439][519]LogLinker:Warning: Can't find file '/Game/UMG/playerInventory'
+[2017.03.08-15.33.10:439][519]LogLinker:Warning: Can't find file for asset '/Game/UMG/playerInventory' while loading ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/playerHUD.uasset.
+[2017.03.08-15.33.10:651][519]LogLinker:Warning: Can't find file '/Game/UMG/playerInventory'
+[2017.03.08-15.33.10:651][519]LogLinker:Warning: Can't find file for asset '/Game/UMG/playerInventory' while loading ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/playerHUD.uasset.
+[2017.03.08-15.33.10:652][519]LogLinker:Warning: Can't find file '/Game/UMG/playerInventory'
+[2017.03.08-15.33.10:652][519]LogLinker:Warning: Can't find file for asset '/Game/UMG/playerInventory' while loading ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/playerHUD.uasset.
+[2017.03.08-15.33.10:653][519]LogLinker:Warning: Can't find file '/Game/UMG/playerInventory'
+[2017.03.08-15.33.10:653][519]LoadErrors: Info Failed to load /Game/UMG/playerInventory.playerInventory_C Referenced by playerHUD
+[2017.03.08-15.33.10:653][519]LogLinker:Warning: Can't find file for asset '/Game/UMG/playerInventory' while loading ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/playerHUD.uasset.
+[2017.03.08-15.33.10:774][519]LogLinker:Warning: Can't find file '/Game/UMG/playerInventory'
+[2017.03.08-15.33.10:774][519]LogLinker:Warning: Can't find file for asset '/Game/UMG/playerInventory' while loading ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/playerHUD.uasset.
+[2017.03.08-15.33.11:831][519]LogAIModule: Creating AISystem for world Fort_Exploration
+[2017.03.08-15.33.11:937][519]Cmd: MAP LOAD FILE="../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/Maps-Levels/Fort/Fort_Exploration.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.08-15.33.11:937][519]LightingResults: New page: Lighting Build
+[2017.03.08-15.33.11:938][519]LoadErrors: New page: Loading map: Fort_Exploration.umap
+[2017.03.08-15.33.11:940][519]MapCheck: New page: Map Check
+[2017.03.08-15.33.11:940][519]LightingResults: New page: Lighting Build
+[2017.03.08-15.33.11:981][519]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.08-15.33.12:089][519]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.08-15.33.12:164][519]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 75.794ms to complete.
+[2017.03.08-15.33.12:164][519]LogFileHelpers: Loading map 'Fort_Exploration' took 0.231
+[2017.03.08-15.33.17:545][799]LogAIModule: Creating AISystem for world Fort_Exploration1
+[2017.03.08-15.33.17:599][799]Cmd: MAP LOAD FILE="../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/Maps-Levels/Fort/Exploration/Fort_Exploration1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.08-15.33.17:600][799]LightingResults: New page: Lighting Build
+[2017.03.08-15.33.17:600][799]LoadErrors: New page: Loading map: Fort_Exploration1.umap
+[2017.03.08-15.33.17:601][799]MapCheck: New page: Map Check
+[2017.03.08-15.33.17:601][799]LightingResults: New page: Lighting Build
+[2017.03.08-15.33.17:649][799]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.08-15.33.17:731][799]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.08-15.33.17:805][799]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 74.247ms to complete.
+[2017.03.08-15.33.17:806][799]LogFileHelpers: Loading map 'Fort_Exploration1' took 0.208
+[2017.03.08-15.33.37:989][883]LogTemp: Repeting last play command: Standalone Game
+[2017.03.08-15.33.38:527][883]LogSavePackage: Save=195.72ms
+[2017.03.08-15.33.38:529][883]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/UEDPCFort_Exploration19BB2A83E43858F7DA567CF8E2C8476E1.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/Autosaves/Game/Maps-Levels/Fort/Exploration/UEDPCFort_Exploration1.umap'
+[2017.03.08-15.33.38:533][883]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/Autosaves/Game/Maps-Levels/Fort/Exploration/UEDPCFort_Exploration1.umap
+[2017.03.08-15.33.38:540][883]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.03.08-15.35.47:567][420]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/mainMenu" FILE="../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/mainMenu.uasset" SILENT=true
+[2017.03.08-15.35.47:673][420]LogSavePackage: Save=21.15ms
+[2017.03.08-15.35.47:673][420]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/mainMenu9587A1804AF8B8FAFA458E8A6C13C915.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/mainMenu.uasset'
+[2017.03.08-15.35.47:675][420]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/mainMenu.uasset
+[2017.03.08-15.35.49:474][510]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Fort_TileMap3)
+[2017.03.08-15.35.52:881][654]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Fort_TileMap)
+[2017.03.08-15.35.53:260][668]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Fort_TileMap)
+[2017.03.08-15.35.54:447][718]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Fort_TileMap3)
+[2017.03.08-15.35.55:352][756]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Fort_TileMap)
+[2017.03.08-15.35.56:346][797]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Fort_TileMap3)
+[2017.03.08-15.35.58:573][887]LogEditorViewport: Clicking Background
+[2017.03.08-15.36.00:157][967]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Fort_TileMap3)
+[2017.03.08-15.36.06:361][234]LogTemp: Repeting last play command: Standalone Game
+[2017.03.08-15.36.06:901][234]LogSavePackage: Save=201.30ms
+[2017.03.08-15.36.06:901][234]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/UEDPCFort_Exploration12380EACD477664A221AD8B92FE4F939C.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/Autosaves/Game/Maps-Levels/Fort/Exploration/UEDPCFort_Exploration1.umap'
+[2017.03.08-15.36.06:903][234]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/Autosaves/Game/Maps-Levels/Fort/Exploration/UEDPCFort_Exploration1.umap
+[2017.03.08-15.36.06:916][234]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.03.08-15.37.23:668][598]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Fort_TileMap)
+[2017.03.08-15.37.25:774][683]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Fort_TileMap3)
+[2017.03.08-15.37.41:439][338]LogEditorViewport: Clicking Background
+[2017.03.08-15.37.43:576][437]LogEditorViewport: Clicking on Actor (LMB): LightableTorch_C (LightableTorch4)
+[2017.03.08-15.37.49:180][659]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Fort_TileMap3)
+[2017.03.08-15.38.01:153][168]LogEditorViewport: Clicking Background
+[2017.03.08-15.43.38:037][258]LogAIModule: Creating AISystem for world Fort_Exploration
+[2017.03.08-15.43.40:182][258]LogSavePackage: Save=133.36ms
+[2017.03.08-15.43.40:182][258]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/Fort_Exploration11B643C94401AAE5A175A218ABEA6622B.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/Maps-Levels/Fort/Exploration/Fort_Exploration1.umap'
+[2017.03.08-15.43.40:183][258]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/Maps-Levels/Fort/Exploration/Fort_Exploration1.umap
+[2017.03.08-15.43.40:234][258]LogFileHelpers: Saving map 'Fort_Exploration1' took 0.320
+[2017.03.08-15.43.40:236][258]Cmd: MAP LOAD FILE="../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/Maps-Levels/Fort/Fort_Exploration.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.08-15.43.40:236][258]LightingResults: New page: Lighting Build
+[2017.03.08-15.43.40:236][258]LoadErrors: New page: Loading map: Fort_Exploration.umap
+[2017.03.08-15.43.40:237][258]MapCheck: New page: Map Check
+[2017.03.08-15.43.40:237][258]LightingResults: New page: Lighting Build
+[2017.03.08-15.43.40:271][258]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.08-15.43.40:327][258]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.08-15.43.40:378][258]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 51.278ms to complete.
+[2017.03.08-15.43.40:385][258]LogFileHelpers: Loading map 'Fort_Exploration' took 0.151
+[2017.03.08-15.43.43:187][412]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Fort_TileMap)
+[2017.03.08-15.43.48:232][657]LogRenderer: Reallocating scene render targets to support 932x744 NumSamples 1 (Frame:27834).
+[2017.03.08-16.15.10:972][ 62]Cmd: TRANSACTION UNDO
+[2017.03.08-16.15.10:977][ 62]LogEditorTransaction: Undo Tile Painting
+[2017.03.08-16.15.11:733][ 94]Cmd: TRANSACTION UNDO
+[2017.03.08-16.15.11:733][ 94]LogEditorTransaction: Undo Tile Painting
+[2017.03.08-16.15.12:192][121]Cmd: TRANSACTION UNDO
+[2017.03.08-16.15.12:192][121]LogEditorTransaction: Undo Tile Painting
+[2017.03.08-16.16.08:416][450]LogSavePackage: Save=337.51ms
+[2017.03.08-16.16.08:416][450]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/Fort_TileMap1DB71CF14E7D232D74BA93A476853097.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/Maps-Levels/Fort/Exploration/Fort_TileMap.uasset'
+[2017.03.08-16.16.08:418][450]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/Maps-Levels/Fort/Exploration/Fort_TileMap.uasset
+[2017.03.08-16.16.15:231][811]LogEditorViewport: Clicking on Actor (LMB): Fort_BattleTrigger_C (Fort_BattleTrigger2)
+[2017.03.08-16.21.24:433][739]LogEditorViewport: Clicking on Actor (LMB): Fort_BattleTrigger_C (Fort_BattleTrigger)
+[2017.03.08-16.21.27:230][886]LogEditorViewport: Clicking on Actor (LMB): Fort_BattleTrigger_C (Fort_BattleTrigger)
+[2017.03.08-16.32.32:647][987]LogSavePackage: Save=77.98ms
+[2017.03.08-16.32.32:647][987]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/checkPointDCCD6110442B5F4BF2ED6A98D4131B71.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/BluePrints/Exploration/checkPoint.uasset'
+[2017.03.08-16.32.32:648][987]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/BluePrints/Exploration/checkPoint.uasset
+[2017.03.08-16.32.43:827][639]LogSavePackage: Save=55.72ms
+[2017.03.08-16.32.43:827][639]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/checkPoint9C56509B41535BAE9DC4F885C601460F.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/BluePrints/Exploration/checkPoint.uasset'
+[2017.03.08-16.32.43:828][639]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/BluePrints/Exploration/checkPoint.uasset
+[2017.03.08-16.32.44:314][667]BlueprintLog: New page: Compile checkPoint
+[2017.03.08-16.32.51:564][ 64]LogTemp: Repeting last play command: Standalone Game
+[2017.03.08-16.32.51:915][ 64]LogSavePackage: Save=119.48ms
+[2017.03.08-16.32.51:916][ 64]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/UEDPCFort_Exploration392150C74C00AE6B419B0487EF4691A3.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/Autosaves/Game/Maps-Levels/Fort/UEDPCFort_Exploration.umap'
+[2017.03.08-16.32.51:916][ 64]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/Autosaves/Game/Maps-Levels/Fort/UEDPCFort_Exploration.umap
+[2017.03.08-16.32.51:925][ 64]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.03.08-16.34.31:657][440]LogEditorViewport: Clicking on Actor (LMB): Fort_BattleTrigger_C (Fort_BattleTrigger2)
+[2017.03.08-16.35.42:895][337]LogBlueprint:Warning: [Compiler BattleHUD] Warning 'Item' is already a 'BS Enemy', you don't need  K2Node_DynamicCast_346 .
+[2017.03.08-16.35.42:895][337]LogBlueprint:Warning: [Compiler BattleHUD] Warning 'Item' is already a 'BS Player', you don't need  K2Node_DynamicCast_148 .
+[2017.03.08-16.35.42:943][337]LogBlueprint:Warning: [Compiler BattleHUD] Warning [4907.12] Compile of BattleHUD successful, but with 2 Warning(s) [in 63 ms] (/Game/UMG/BattleHUD.BattleHUD)
+[2017.03.08-16.35.42:943][337]LogBlueprint:Warning: [Compiler BattleHUD] Warning [4907.12] Compile of BattleHUD successful, but with 3 Warning(s) [in 0 ms] (/Game/UMG/BattleHUD.BattleHUD)
+[2017.03.08-16.35.42:943][337]LogBlueprint:Warning: [Compiler BattleHUD] Warning [4907.12] Compile of BattleHUD successful, but with 4 Warning(s) [in 0 ms] (/Game/UMG/BattleHUD.BattleHUD)
+[2017.03.08-16.35.42:995][337]LogBlueprint:Warning: [Compiler BattleHUD] Warning 'Item' is already a 'BS Enemy', you don't need  K2Node_DynamicCast_346 .
+[2017.03.08-16.35.42:996][337]LogBlueprint:Warning: [Compiler BattleHUD] Warning 'Item' is already a 'BS Player', you don't need  K2Node_DynamicCast_148 .
+[2017.03.08-16.35.43:044][337]LogBlueprint:Warning: [Compiler BattleHUD] Warning [4907.22] Compile of BattleHUD successful, but with 2 Warning(s) [in 64 ms] (/Game/UMG/BattleHUD.BattleHUD)
+[2017.03.08-16.35.43:044][337]LogBlueprint:Warning: [Compiler BattleHUD] Warning [4907.22] Compile of BattleHUD successful, but with 3 Warning(s) [in 0 ms] (/Game/UMG/BattleHUD.BattleHUD)
+[2017.03.08-16.35.43:044][337]LogBlueprint:Warning: [Compiler BattleHUD] Warning [4907.22] Compile of BattleHUD successful, but with 4 Warning(s) [in 0 ms] (/Game/UMG/BattleHUD.BattleHUD)
+[2017.03.08-16.37.07:766][379]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/BattleHUD" FILE="../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/BattleHUD.uasset" SILENT=true
+[2017.03.08-16.37.08:150][379]LogSavePackage: Save=326.93ms
+[2017.03.08-16.37.08:150][379]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/BattleHUDD2FDDB4D4231FD837B8C4F9490295A80.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/BattleHUD.uasset'
+[2017.03.08-16.37.08:151][379]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/BattleHUD.uasset
+[2017.03.08-16.37.08:459][391]BlueprintLog: New page: Compile BattleHUD
+[2017.03.08-16.37.08:637][391]LogBlueprint:Warning: [Compiler BattleHUD] Warning 'Item' is already a 'BS Enemy', you don't need  K2Node_DynamicCast_346 .
+[2017.03.08-16.37.08:637][391]LogBlueprint:Warning: [Compiler BattleHUD] Warning 'Item' is already a 'BS Player', you don't need  K2Node_DynamicCast_148 .
+[2017.03.08-16.37.08:864][391]BlueprintEditorCompileResults:Warning: Warning 'Item' is already a 'BS Enemy', you don't need  K2Node_DynamicCast_346 .
+[2017.03.08-16.37.08:864][391]BlueprintEditorCompileResults:Warning: Warning 'Item' is already a 'BS Player', you don't need  K2Node_DynamicCast_148 .
+[2017.03.08-16.37.08:864][391]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-16.37.08:864][391]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-16.37.08:864][391]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-16.37.08:864][391]LogBlueprint:Warning: [Compiler BattleHUD] Warning [4993.04] Compile of BattleHUD successful, but with 2 Warning(s) [in 404 ms] (/Game/UMG/BattleHUD.BattleHUD)
+[2017.03.08-16.37.55:210][835]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/BattleHUD" FILE="../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/BattleHUD.uasset" SILENT=true
+[2017.03.08-16.37.55:643][835]LogSavePackage: Save=366.43ms
+[2017.03.08-16.37.55:643][835]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/BattleHUD0A66C96C4021EAFB9A3F5ABEACA8BDC5.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/BattleHUD.uasset'
+[2017.03.08-16.37.55:650][835]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/BattleHUD.uasset
+[2017.03.08-16.37.55:992][848]BlueprintLog: New page: Compile BattleHUD
+[2017.03.08-16.37.56:444][848]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-16.37.56:444][848]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-16.37.56:444][848]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-16.40.50:062][947]LogSavePackage: Save=66.93ms
+[2017.03.08-16.40.50:062][947]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/checkPointD900FB3A4BBA995CA3C853A73141BFD7.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/BluePrints/Exploration/checkPoint.uasset'
+[2017.03.08-16.40.50:064][947]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/BluePrints/Exploration/checkPoint.uasset
+[2017.03.08-16.40.50:482][971]BlueprintLog: New page: Compile checkPoint
+[2017.03.08-16.46.59:496][990]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/BattleHUD" FILE="../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/BattleHUD.uasset" SILENT=true
+[2017.03.08-16.46.59:844][990]LogSavePackage: Save=293.94ms
+[2017.03.08-16.46.59:844][990]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/BattleHUD6F34578C48FE221C4955808E945805A7.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/BattleHUD.uasset'
+[2017.03.08-16.46.59:846][990]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/BattleHUD.uasset
+[2017.03.08-16.47.00:221][  6]BlueprintLog: New page: Compile BattleHUD
+[2017.03.08-16.47.00:596][  6]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-16.47.00:596][  6]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-16.47.00:596][  6]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-16.49.51:377][659]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/BattleHUD" FILE="../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/BattleHUD.uasset" SILENT=true
+[2017.03.08-16.49.51:744][659]LogSavePackage: Save=315.21ms
+[2017.03.08-16.49.51:744][659]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/BattleHUD37C4FF83412198B474C79DBC7CB7B09C.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/BattleHUD.uasset'
+[2017.03.08-16.49.51:746][659]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/BattleHUD.uasset
+[2017.03.08-16.49.52:160][675]BlueprintLog: New page: Compile BattleHUD
+[2017.03.08-16.49.52:545][675]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-16.49.52:545][675]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-16.49.52:545][675]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-16.49.55:083][801]LogTemp: Repeting last play command: Standalone Game
+[2017.03.08-16.49.55:426][801]LogSavePackage: Save=115.02ms
+[2017.03.08-16.49.55:426][801]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/UEDPCFort_Exploration19895423495D5022CA90E7B79854A445.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/Autosaves/Game/Maps-Levels/Fort/UEDPCFort_Exploration.umap'
+[2017.03.08-16.49.55:427][801]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/Autosaves/Game/Maps-Levels/Fort/UEDPCFort_Exploration.umap
+[2017.03.08-16.49.55:433][801]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.03.08-16.54.10:120][930]BlueprintLog: New page: Compile AbyssGameInstance
+[2017.03.08-16.59.27:760][347]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/BattleHUD" FILE="../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/BattleHUD.uasset" SILENT=true
+[2017.03.08-16.59.28:113][347]LogSavePackage: Save=298.24ms
+[2017.03.08-16.59.28:113][347]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/BattleHUDD4849607463375AF374DFBB9E6A27B3A.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/BattleHUD.uasset'
+[2017.03.08-16.59.28:116][347]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/BattleHUD.uasset
+[2017.03.08-16.59.28:549][364]BlueprintLog: New page: Compile BattleHUD
+[2017.03.08-16.59.28:911][364]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-16.59.28:911][364]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-16.59.28:911][364]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-17.00.01:075][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/BattleHUD" FILE="../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/BattleHUD.uasset" SILENT=true
+[2017.03.08-17.00.01:538][143]LogSavePackage: Save=389.94ms
+[2017.03.08-17.00.01:538][143]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/BattleHUD07FF9B2A4AA8882C02AF7FBCAE0D3ED3.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/BattleHUD.uasset'
+[2017.03.08-17.00.01:544][143]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/BattleHUD.uasset
+[2017.03.08-17.00.01:796][154]BlueprintLog: New page: Compile BattleHUD
+[2017.03.08-17.00.02:256][154]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-17.00.02:256][154]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-17.00.02:256][154]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-17.00.05:601][323]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Fort_TileMap)
+[2017.03.08-17.00.07:141][398]LogEditorViewport: Clicking on Actor (LMB): Fort_BattleTrigger_C (Fort_BattleTrigger)
+[2017.03.08-17.00.14:023][713]LogSavePackage: Save=151.10ms
+[2017.03.08-17.00.14:023][713]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/Fort_Exploration880765874ABE376C513257A9837EED9A.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/Maps-Levels/Fort/Fort_Exploration.umap'
+[2017.03.08-17.00.14:024][713]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/Maps-Levels/Fort/Fort_Exploration.umap
+[2017.03.08-17.00.16:940][831]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/AbyssGameInstance" FILE="../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/BluePrints/AbyssGameInstance.uasset" SILENT=true
+[2017.03.08-17.00.17:023][831]LogSavePackage: Save=13.37ms
+[2017.03.08-17.00.17:023][831]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/AbyssGameInstance82CD784340A7DDA5EC88F1BFCDC955BF.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/BluePrints/AbyssGameInstance.uasset'
+[2017.03.08-17.00.17:024][831]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/BluePrints/AbyssGameInstance.uasset
+[2017.03.08-17.00.17:320][831]LogSavePackage: Save=217.24ms
+[2017.03.08-17.00.17:320][831]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/Exploration_Hero73F57C714EE5B0384BFE5180149F3A23.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/BluePrints/Exploration/Exploration_Hero.uasset'
+[2017.03.08-17.00.17:322][831]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/BluePrints/Exploration/Exploration_Hero.uasset
+[2017.03.08-17.00.17:986][852]LogTemp: Repeting last play command: Standalone Game
+[2017.03.08-17.00.18:423][852]LogSavePackage: Save=151.03ms
+[2017.03.08-17.00.18:423][852]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/UEDPCFort_Exploration3E7F603A42AF73890E6C13853DD4D0B8.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/Autosaves/Game/Maps-Levels/Fort/UEDPCFort_Exploration.umap'
+[2017.03.08-17.00.18:424][852]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/Autosaves/Game/Maps-Levels/Fort/UEDPCFort_Exploration.umap
+[2017.03.08-17.00.18:429][852]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.03.08-17.01.54:394][403]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/BattleHUD" FILE="../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/BattleHUD.uasset" SILENT=true
+[2017.03.08-17.01.54:842][403]LogSavePackage: Save=381.05ms
+[2017.03.08-17.01.54:842][403]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/BattleHUD533C73E948A7DC8AC1A7138E38361A7B.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/BattleHUD.uasset'
+[2017.03.08-17.01.54:845][403]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/BattleHUD.uasset
+[2017.03.08-17.01.55:049][411]BlueprintLog: New page: Compile BattleHUD
+[2017.03.08-17.01.55:487][411]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-17.01.55:487][411]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-17.01.55:487][411]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-17.03.44:864][742]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/BattleHUD" FILE="../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/BattleHUD.uasset" SILENT=true
+[2017.03.08-17.03.45:225][742]LogSavePackage: Save=307.73ms
+[2017.03.08-17.03.45:225][742]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/BattleHUD4CC2FAD04125AEC3FF24A5AD42BDE350.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/BattleHUD.uasset'
+[2017.03.08-17.03.45:229][742]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/BattleHUD.uasset
+[2017.03.08-17.03.45:694][760]BlueprintLog: New page: Compile BattleHUD
+[2017.03.08-17.03.46:063][760]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-17.03.46:063][760]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-17.03.46:063][760]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-17.03.50:212][977]LogEditorViewport: Clicking on Actor (LMB): Fort_BattleTrigger_C (Fort_BattleTrigger2)
+[2017.03.08-17.05.55:534][240]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/playerHUD" FILE="../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/playerHUD.uasset" SILENT=true
+[2017.03.08-17.05.55:670][240]LogSavePackage: Save=80.62ms
+[2017.03.08-17.05.55:670][240]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/playerHUDB414F41D459BA419F2B9189C9E1AE950.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/playerHUD.uasset'
+[2017.03.08-17.05.55:672][240]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/playerHUD.uasset
+[2017.03.08-17.06.01:934][595]LogTemp: Repeting last play command: Standalone Game
+[2017.03.08-17.06.02:299][595]LogSavePackage: Save=128.51ms
+[2017.03.08-17.06.02:299][595]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/UEDPCFort_ExplorationA9B182C64F5FBE89F2ECB2BB94F4DBED.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/Autosaves/Game/Maps-Levels/Fort/UEDPCFort_Exploration.umap'
+[2017.03.08-17.06.02:300][595]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/Autosaves/Game/Maps-Levels/Fort/UEDPCFort_Exploration.umap
+[2017.03.08-17.06.02:307][595]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.03.08-17.08.17:868][364]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/BattleHUD" FILE="../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/BattleHUD.uasset" SILENT=true
+[2017.03.08-17.08.18:351][364]LogSavePackage: Save=412.03ms
+[2017.03.08-17.08.18:351][364]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/BattleHUD3DB633F141BF8DE46C75EDB2BA3DA1FB.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/BattleHUD.uasset'
+[2017.03.08-17.08.18:353][364]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/BattleHUD.uasset
+[2017.03.08-17.08.18:756][382]BlueprintLog: New page: Compile BattleHUD
+[2017.03.08-17.08.19:241][382]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-17.08.19:241][382]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-17.08.19:241][382]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-17.15.31:801][843]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/BattleHUD" FILE="../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/BattleHUD.uasset" SILENT=true
+[2017.03.08-17.15.32:165][843]LogSavePackage: Save=307.59ms
+[2017.03.08-17.15.32:165][843]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/BattleHUD073B51FA4C397C3D44E523A50035302A.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/BattleHUD.uasset'
+[2017.03.08-17.15.32:168][843]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/BattleHUD.uasset
+[2017.03.08-17.15.32:666][869]BlueprintLog: New page: Compile BattleHUD
+[2017.03.08-17.15.33:058][869]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-17.15.33:058][869]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-17.15.33:058][869]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-17.15.33:058][869]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-17.18.07:573][233]BlueprintLog: New page: Compile checkPoint
+[2017.03.08-17.18.08:833][277]LogSavePackage: Save=62.45ms
+[2017.03.08-17.18.08:833][277]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/checkPoint576442FE4DCEEC1283384BAFD8A1133B.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/BluePrints/Exploration/checkPoint.uasset'
+[2017.03.08-17.18.08:835][277]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/BluePrints/Exploration/checkPoint.uasset
+[2017.03.08-17.18.13:491][544]LogTemp: Repeting last play command: Standalone Game
+[2017.03.08-17.18.13:876][544]LogSavePackage: Save=124.31ms
+[2017.03.08-17.18.13:876][544]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/UEDPCFort_Exploration393D8B69479D278D774A999A8452AD45.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/Autosaves/Game/Maps-Levels/Fort/UEDPCFort_Exploration.umap'
+[2017.03.08-17.18.13:878][544]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/Autosaves/Game/Maps-Levels/Fort/UEDPCFort_Exploration.umap
+[2017.03.08-17.18.13:885][544]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.03.08-17.20.27:366][745]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/BattleHUD" FILE="../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/BattleHUD.uasset" SILENT=true
+[2017.03.08-17.20.27:813][745]LogSavePackage: Save=381.26ms
+[2017.03.08-17.20.27:813][745]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/BattleHUDE61291964A982C57DE7FDBB559761299.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/BattleHUD.uasset'
+[2017.03.08-17.20.27:815][745]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/BattleHUD.uasset
+[2017.03.08-17.20.28:225][765]BlueprintLog: New page: Compile BattleHUD
+[2017.03.08-17.20.28:695][765]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-17.20.28:695][765]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-17.20.28:695][765]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-17.20.28:695][765]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-17.20.33:001][987]LogTemp: Repeting last play command: Standalone Game
+[2017.03.08-17.20.33:486][987]LogSavePackage: Save=167.34ms
+[2017.03.08-17.20.33:486][987]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/UEDPCFort_Exploration29C7C6FF44F265BCFD1E938A73A79DE4.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/Autosaves/Game/Maps-Levels/Fort/UEDPCFort_Exploration.umap'
+[2017.03.08-17.20.33:487][987]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/Autosaves/Game/Maps-Levels/Fort/UEDPCFort_Exploration.umap
+[2017.03.08-17.20.33:497][987]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.03.08-17.33.50:645][519]LogEditorViewport: Clicking on Actor (context menu): PaperTileMapActor (Fort_TileMap)
+[2017.03.08-17.33.51:449][551]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Fort_TileMap)
+[2017.03.08-17.33.52:041][579]LogTemp: Repeting last play command: Standalone Game
+[2017.03.08-17.33.52:382][579]LogSavePackage: Save=110.81ms
+[2017.03.08-17.33.52:382][579]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/UEDPCFort_Exploration9E1E6D88439EADBB0852CD91B905185B.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/Autosaves/Game/Maps-Levels/Fort/UEDPCFort_Exploration.umap'
+[2017.03.08-17.33.52:383][579]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/Autosaves/Game/Maps-Levels/Fort/UEDPCFort_Exploration.umap
+[2017.03.08-17.33.52:391][579]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.03.08-17.36.10:815][257]LogEditorViewport: Clicking on Actor (LMB): checkPoint_C (checkPoint)
+[2017.03.08-17.36.42:139][126]BlueprintLog: New page: Compile checkPoint
+[2017.03.08-17.36.47:735][441]LogTemp: Repeting last play command: Standalone Game
+[2017.03.08-17.36.48:017][441]LogSavePackage: Save=92.02ms
+[2017.03.08-17.36.48:017][441]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/UEDPCFort_ExplorationE162D2E740DB9436BC9C8885295183EC.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/Autosaves/Game/Maps-Levels/Fort/UEDPCFort_Exploration.umap'
+[2017.03.08-17.36.48:018][441]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/Autosaves/Game/Maps-Levels/Fort/UEDPCFort_Exploration.umap
+[2017.03.08-17.36.48:022][441]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.03.08-17.36.49:968][478]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Fort_TileMap)
+[2017.03.08-17.38.48:886][145]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/playerHUD" FILE="../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/playerHUD.uasset" SILENT=true
+[2017.03.08-17.38.48:996][145]LogSavePackage: Save=57.24ms
+[2017.03.08-17.38.48:996][145]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/playerHUD9D90B4AC411D78388F93DE93A8DF5701.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/playerHUD.uasset'
+[2017.03.08-17.38.48:998][145]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/playerHUD.uasset
+[2017.03.08-17.38.49:402][169]BlueprintLog: New page: Compile playerHUD
+[2017.03.08-17.38.49:546][169]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-17.38.49:546][169]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-17.38.49:546][169]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-17.38.49:546][169]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-17.38.49:546][169]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-17.38.49:546][169]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-17.38.49:546][169]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-17.38.49:546][169]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-17.39.07:538][227]LogTemp: Repeting last play command: Standalone Game
+[2017.03.08-17.39.07:826][227]LogSavePackage: Save=88.24ms
+[2017.03.08-17.39.07:826][227]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/UEDPCFort_ExplorationBF82E697426D4BE0056BF8B951BC4FC9.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/Autosaves/Game/Maps-Levels/Fort/UEDPCFort_Exploration.umap'
+[2017.03.08-17.39.07:827][227]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/Autosaves/Game/Maps-Levels/Fort/UEDPCFort_Exploration.umap
+[2017.03.08-17.39.07:831][227]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.03.08-17.42.32:527][111]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Fort_TileMap)
+[2017.03.08-17.44.04:036][294]Cmd: TRANSACTION UNDO
+[2017.03.08-17.44.04:036][294]LogEditorTransaction: Undo Tile Painting
+[2017.03.08-17.44.04:490][311]Cmd: TRANSACTION UNDO
+[2017.03.08-17.44.04:490][311]LogEditorTransaction: Undo Tile Painting
+[2017.03.08-17.44.04:822][328]Cmd: TRANSACTION UNDO
+[2017.03.08-17.44.04:822][328]LogEditorTransaction: Undo Tile Painting
+[2017.03.08-17.44.21:146][268]LogSavePackage: Save=288.70ms
+[2017.03.08-17.44.21:146][268]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/Fort_TileMap81E1D4F54680A013F270CEBC9142B095.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/Maps-Levels/Fort/Exploration/Fort_TileMap.uasset'
+[2017.03.08-17.44.21:152][268]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/Maps-Levels/Fort/Exploration/Fort_TileMap.uasset
+[2017.03.08-17.44.24:575][431]LogEditorViewport: Clicking on Actor (LMB): LightableTorch_C (LightableTorch3)
+[2017.03.08-17.48.27:699][226]BlueprintLog: New page: Compile LightableTorch
+[2017.03.08-17.48.30:560][290]LogSavePackage: Save=33.26ms
+[2017.03.08-17.48.30:560][290]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/LightableTorch17A45E4640F2CF801D5D4A8F00C4201C.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/BluePrints/Exploration/LightableTorch.uasset'
+[2017.03.08-17.48.30:562][290]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/BluePrints/Exploration/LightableTorch.uasset
+[2017.03.08-17.48.31:678][343]LogTemp: Repeting last play command: Standalone Game
+[2017.03.08-17.48.32:069][343]LogSavePackage: Save=137.82ms
+[2017.03.08-17.48.32:069][343]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/UEDPCFort_Exploration5227E12B4C4717314B7B9486B4F98DAE.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/Autosaves/Game/Maps-Levels/Fort/UEDPCFort_Exploration.umap'
+[2017.03.08-17.48.32:072][343]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/Autosaves/Game/Maps-Levels/Fort/UEDPCFort_Exploration.umap
+[2017.03.08-17.48.32:079][343]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.03.08-17.49.41:774][989]LogSavePackage: Save=38.28ms
+[2017.03.08-17.49.41:774][989]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/LightableTorchE02FE7694EB73D08A825D69BC1D14EF6.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/BluePrints/Exploration/LightableTorch.uasset'
+[2017.03.08-17.49.41:776][989]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/BluePrints/Exploration/LightableTorch.uasset
+[2017.03.08-17.49.43:375][ 82]BlueprintLog: New page: Compile LightableTorch
+[2017.03.08-17.50.02:278][ 90]LogSavePackage: Save=56.03ms
+[2017.03.08-17.50.02:278][ 90]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/LightableTorch8303666140597538B486D29A934FF848.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/BluePrints/Exploration/LightableTorch.uasset'
+[2017.03.08-17.50.02:281][ 90]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/BluePrints/Exploration/LightableTorch.uasset
+[2017.03.08-17.50.23:879][332]LogRenderer: Reallocating scene render targets to support 952x744 NumSamples 1 (Frame:176735).
+[2017.03.08-17.50.38:317][ 99]LogEditorTransaction: Undo Modify Component(s)
+[2017.03.08-17.50.38:334][ 99]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps-Levels/Fort/Fort_Exploration.Fort_Exploration:PersistentLevel.LightableTorch4.RenderComponent) Component already registered.
+[2017.03.08-17.51.23:007][513]BlueprintLog: New page: Compile LightableTorch
+[2017.03.08-17.51.25:543][613]LogSavePackage: Save=50.11ms
+[2017.03.08-17.51.25:543][613]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/LightableTorchA859E26E4405E106B2E3229A82CF27C2.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/BluePrints/Exploration/LightableTorch.uasset'
+[2017.03.08-17.51.25:545][613]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/BluePrints/Exploration/LightableTorch.uasset
+[2017.03.08-17.51.26:421][654]LogTemp: Repeting last play command: Standalone Game
+[2017.03.08-17.51.26:890][654]LogSavePackage: Save=167.01ms
+[2017.03.08-17.51.26:890][654]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/UEDPCFort_Exploration6A9722784F0FB16B16DA5A818589F1CF.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/Autosaves/Game/Maps-Levels/Fort/UEDPCFort_Exploration.umap'
+[2017.03.08-17.51.26:891][654]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/Autosaves/Game/Maps-Levels/Fort/UEDPCFort_Exploration.umap
+[2017.03.08-17.51.26:900][654]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.03.08-17.53.00:742][247]BlueprintLog: New page: Compile LightableTorch
+[2017.03.08-17.53.01:802][274]LogSavePackage: Save=51.92ms
+[2017.03.08-17.53.01:802][274]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/LightableTorch06B5F5BC4BA79FFEB6C091AE756C0677.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/BluePrints/Exploration/LightableTorch.uasset'
+[2017.03.08-17.53.01:805][274]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/BluePrints/Exploration/LightableTorch.uasset
+[2017.03.08-17.53.03:232][344]LogTemp: Repeting last play command: Standalone Game
+[2017.03.08-17.53.03:691][344]LogSavePackage: Save=162.83ms
+[2017.03.08-17.53.03:691][344]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/UEDPCFort_Exploration4779073F47A405FB41710887B28D773F.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/Autosaves/Game/Maps-Levels/Fort/UEDPCFort_Exploration.umap'
+[2017.03.08-17.53.03:693][344]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/Autosaves/Game/Maps-Levels/Fort/UEDPCFort_Exploration.umap
+[2017.03.08-17.53.03:699][344]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.03.08-17.54.35:621][683]LogSavePackage: Save=48.19ms
+[2017.03.08-17.54.35:621][683]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/LightableTorchDB01EBD649040858B8B7AEAC42AFC07E.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/BluePrints/Exploration/LightableTorch.uasset'
+[2017.03.08-17.54.35:623][683]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/BluePrints/Exploration/LightableTorch.uasset
+[2017.03.08-17.54.35:990][703]BlueprintLog: New page: Compile LightableTorch
+[2017.03.08-17.54.38:990][826]LogTemp: Repeting last play command: Standalone Game
+[2017.03.08-17.54.39:418][826]LogSavePackage: Save=153.73ms
+[2017.03.08-17.54.39:418][826]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/UEDPCFort_Exploration08C2044B449FA66A4511AE9FDD4DBE0A.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/Autosaves/Game/Maps-Levels/Fort/UEDPCFort_Exploration.umap'
+[2017.03.08-17.54.39:419][826]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/Autosaves/Game/Maps-Levels/Fort/UEDPCFort_Exploration.umap
+[2017.03.08-17.54.39:424][826]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.03.08-17.57.14:600][452]LogSavePackage: Save=222.52ms
+[2017.03.08-17.57.14:600][452]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/Exploration_Hero84FC0F6C4F5791DDD77AD0A7343B1F84.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/BluePrints/Exploration/Exploration_Hero.uasset'
+[2017.03.08-17.57.14:603][452]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/BluePrints/Exploration/Exploration_Hero.uasset
+[2017.03.08-17.57.14:935][467]BlueprintLog: New page: Compile Exploration_Hero
+[2017.03.08-17.57.17:940][570]LogTemp: Repeting last play command: Standalone Game
+[2017.03.08-17.57.18:435][570]LogSavePackage: Save=181.73ms
+[2017.03.08-17.57.18:435][570]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/UEDPCFort_ExplorationD284BFEC486993A7E90952904A72B02E.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/Autosaves/Game/Maps-Levels/Fort/UEDPCFort_Exploration.umap'
+[2017.03.08-17.57.18:436][570]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/Autosaves/Game/Maps-Levels/Fort/UEDPCFort_Exploration.umap
+[2017.03.08-17.57.18:446][570]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.03.08-17.59.44:411][196]LogEditorViewport: Clicking on Actor (LMB): LightableTorch_C (LightableTorch3)
+[2017.03.08-17.59.45:624][248]Cmd: EDIT COPY
+[2017.03.08-17.59.46:687][302]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Fort_TileMap)
+[2017.03.08-17.59.47:451][338]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Fort_TileMap)
+[2017.03.08-17.59.47:767][353]Cmd: EDIT PASTE
+[2017.03.08-18.00.06:470][285]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Fort_TileMap)
+[2017.03.08-18.00.07:095][313]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Fort_TileMap)
+[2017.03.08-18.00.07:168][315]LogEditorViewport: Clicking on Component (LMB): PaperTileMapComponent (RenderComponent)
+[2017.03.08-18.00.32:351][720]LogSavePackage: Save=95.54ms
+[2017.03.08-18.00.32:351][720]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/Fort_TileMap5E89BB404C0D230AB1E550B435596D82.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/Maps-Levels/Fort/Exploration/Fort_TileMap.uasset'
+[2017.03.08-18.00.32:359][720]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/Maps-Levels/Fort/Exploration/Fort_TileMap.uasset
+[2017.03.08-18.00.39:061][ 37]LogEditorViewport: Clicking on Actor (LMB): LightableTorch_C (LightableTorch7)
+[2017.03.08-18.00.53:241][727]Cmd: EDIT COPY
+[2017.03.08-18.01.41:787][739]SourceControl:Error: Error fatal: Could not switch to '/Script/': No such file or directory
+[2017.03.08-18.02.07:775][827]Cmd: EDIT COPY
+[2017.03.08-18.02.08:015][837]Cmd: EDIT PASTE
+[2017.03.08-18.02.21:505][525]Cmd: EDIT COPY
+[2017.03.08-18.02.22:378][566]Cmd: EDIT PASTE
+[2017.03.08-18.02.26:145][750]Cmd: EDIT PASTE
+[2017.03.08-18.02.28:644][870]Cmd: EDIT COPY
+[2017.03.08-18.02.29:882][927]Cmd: EDIT PASTE
+[2017.03.08-18.02.32:714][ 69]Cmd: EDIT PASTE
+[2017.03.08-18.02.35:939][228]Cmd: EDIT COPY
+[2017.03.08-18.02.37:882][326]LogEditorViewport: Clicking Background
+[2017.03.08-18.02.38:177][342]Cmd: EDIT PASTE
+[2017.03.08-18.02.41:034][480]Cmd: EDIT PASTE
+[2017.03.08-18.02.44:202][626]LogEditorViewport: Clicking on Actor (LMB): LightableTorch_C (LightableTorch14)
+[2017.03.08-18.02.46:992][762]Cmd: EDIT PASTE
+[2017.03.08-18.02.52:557][ 45]Cmd: EDIT COPY
+[2017.03.08-18.02.53:400][ 88]Cmd: EDIT PASTE
+[2017.03.08-18.02.55:161][177]Cmd: EDIT COPY
+[2017.03.08-18.02.55:344][185]Cmd: EDIT PASTE
+[2017.03.08-18.03.03:223][556]LogSavePackage: Save=157.84ms
+[2017.03.08-18.03.03:224][556]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/Fort_Exploration50673F8C4DA2CDEBB1A02CAEADDCFA8F.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/Maps-Levels/Fort/Fort_Exploration.umap'
+[2017.03.08-18.03.03:225][556]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/Maps-Levels/Fort/Fort_Exploration.umap
+[2017.03.08-18.04.53:194][427]LogEditorViewport: Clicking on Actor (LMB): checkPoint_C (checkPoint)
+[2017.03.08-18.12.21:370][904]BlueprintLog: New page: Compile BattleHUD
+[2017.03.08-18.12.21:784][904]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-18.12.21:784][904]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-18.12.21:784][904]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-18.12.21:785][904]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-18.16.43:657][613]LogEditorViewport: Clicking Background
+[2017.03.08-18.19.26:911][450]BlueprintLog: New page: Compile AbyssGameInstance
+[2017.03.08-18.19.27:763][479]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/AbyssGameInstance" FILE="../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/BluePrints/AbyssGameInstance.uasset" SILENT=true
+[2017.03.08-18.19.27:834][479]LogSavePackage: Save=15.24ms
+[2017.03.08-18.19.27:834][479]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/AbyssGameInstance45A5DBA848F2475C28FA9282017D0A47.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/BluePrints/AbyssGameInstance.uasset'
+[2017.03.08-18.19.27:836][479]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/BluePrints/AbyssGameInstance.uasset
+[2017.03.08-18.19.30:053][608]LogTemp: Repeting last play command: Standalone Game
+[2017.03.08-18.19.34:930][608]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/BattleHUD" FILE="../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/BattleHUD.uasset" SILENT=true
+[2017.03.08-18.19.35:363][608]LogSavePackage: Save=310.43ms
+[2017.03.08-18.19.35:363][608]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/BattleHUD5A2772984E9289B2D9F00A9F332F7CB0.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/BattleHUD.uasset'
+[2017.03.08-18.19.35:365][608]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/BattleHUD.uasset
+[2017.03.08-18.19.35:637][608]LogSavePackage: Save=137.05ms
+[2017.03.08-18.19.35:637][608]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/UEDPCFort_Exploration3D278BDE42581D7408DCEBB81C5B7A5D.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/Autosaves/Game/Maps-Levels/Fort/UEDPCFort_Exploration.umap'
+[2017.03.08-18.19.35:642][608]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/Autosaves/Game/Maps-Levels/Fort/UEDPCFort_Exploration.umap
+[2017.03.08-18.19.35:650][608]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.03.08-18.21.16:535][384]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/BattleHUD" FILE="../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/BattleHUD.uasset" SILENT=true
+[2017.03.08-18.21.16:897][384]LogSavePackage: Save=308.88ms
+[2017.03.08-18.21.16:897][384]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/BattleHUDA711932C410DBD3087D98C8C40B4BE75.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/BattleHUD.uasset'
+[2017.03.08-18.21.16:900][384]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/BattleHUD.uasset
+[2017.03.08-18.21.17:742][427]BlueprintLog: New page: Compile BattleHUD
+[2017.03.08-18.21.18:139][427]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-18.21.18:139][427]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-18.21.18:139][427]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-18.21.18:139][427]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-18.23.11:770][456]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/BattleHUD" FILE="../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/BattleHUD.uasset" SILENT=true
+[2017.03.08-18.23.12:138][456]LogSavePackage: Save=316.43ms
+[2017.03.08-18.23.12:138][456]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/BattleHUDBEE6A6EA4C9FA7EFDD14958841DA2C29.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/BattleHUD.uasset'
+[2017.03.08-18.23.12:141][456]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/BattleHUD.uasset
+[2017.03.08-18.23.12:508][467]BlueprintLog: New page: Compile BattleHUD
+[2017.03.08-18.23.12:904][467]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-18.23.12:904][467]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-18.23.12:904][467]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-18.23.12:904][467]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-18.23.16:394][631]LogTemp: Repeting last play command: Standalone Game
+[2017.03.08-18.23.16:794][631]LogSavePackage: Save=139.96ms
+[2017.03.08-18.23.16:794][631]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/UEDPCFort_ExplorationD22B72A4497C6BA278FD6099B359A948.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/Autosaves/Game/Maps-Levels/Fort/UEDPCFort_Exploration.umap'
+[2017.03.08-18.23.16:795][631]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/Autosaves/Game/Maps-Levels/Fort/UEDPCFort_Exploration.umap
+[2017.03.08-18.23.16:805][631]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.03.08-18.24.47:129][120]LogEditorViewport: Clicking on Actor (LMB): Fort_BattleTrigger_C (Fort_BattleTrigger)
+[2017.03.08-18.26.34:520][716]BlueprintLog: New page: Compile BattleHUD
+[2017.03.08-18.26.34:889][716]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-18.26.34:889][716]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-18.26.34:889][716]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-18.26.34:889][716]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-18.26.35:799][751]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/BattleHUD" FILE="../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/BattleHUD.uasset" SILENT=true
+[2017.03.08-18.26.36:165][751]LogSavePackage: Save=310.98ms
+[2017.03.08-18.26.36:165][751]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/BattleHUDB03318D747F7B8964114B8BD7E54A153.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/BattleHUD.uasset'
+[2017.03.08-18.26.36:167][751]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/BattleHUD.uasset
+[2017.03.08-18.26.58:968][997]BlueprintLog: New page: Compile AbyssGameInstance
+[2017.03.08-18.26.59:795][ 18]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/AbyssGameInstance" FILE="../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/BluePrints/AbyssGameInstance.uasset" SILENT=true
+[2017.03.08-18.26.59:879][ 18]LogSavePackage: Save=14.17ms
+[2017.03.08-18.26.59:879][ 18]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/AbyssGameInstance78CAA1CD4EA60D560F5D0C92FCCFD5CD.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/BluePrints/AbyssGameInstance.uasset'
+[2017.03.08-18.26.59:881][ 18]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/BluePrints/AbyssGameInstance.uasset
+[2017.03.08-18.27.01:078][ 76]LogTemp: Repeting last play command: Standalone Game
+[2017.03.08-18.27.01:595][ 76]LogSavePackage: Save=212.38ms
+[2017.03.08-18.27.01:595][ 76]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/UEDPCFort_Exploration404199D0490F1D1500B034B2C98D06BE.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/Autosaves/Game/Maps-Levels/Fort/UEDPCFort_Exploration.umap'
+[2017.03.08-18.27.01:596][ 76]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/Autosaves/Game/Maps-Levels/Fort/UEDPCFort_Exploration.umap
+[2017.03.08-18.27.01:602][ 76]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.03.08-18.29.05:481][949]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/BattleHUD" FILE="../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/BattleHUD.uasset" SILENT=true
+[2017.03.08-18.29.05:963][949]LogSavePackage: Save=414.34ms
+[2017.03.08-18.29.05:963][949]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/BattleHUD2C9CB2234645AD3DD0D343905EAB177C.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/BattleHUD.uasset'
+[2017.03.08-18.29.05:966][949]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/BattleHUD.uasset
+[2017.03.08-18.29.06:929][989]BlueprintLog: New page: Compile BattleHUD
+[2017.03.08-18.29.07:413][989]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-18.29.07:413][989]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-18.29.07:413][989]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-18.29.07:413][989]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-18.29.14:983][338]LogSavePackage: Save=179.68ms
+[2017.03.08-18.29.14:983][338]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/Fort_Exploration4C4F4FDF42AC46387C0507BA79125322.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/Maps-Levels/Fort/Fort_Exploration.umap'
+[2017.03.08-18.29.14:984][338]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/Maps-Levels/Fort/Fort_Exploration.umap
+[2017.03.08-18.29.15:537][357]LogTemp: Repeting last play command: Standalone Game
+[2017.03.08-18.29.16:017][357]LogSavePackage: Save=184.26ms
+[2017.03.08-18.29.16:017][357]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/UEDPCFort_ExplorationDB6B419644B5550F3DF30DB2779BC730.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/Autosaves/Game/Maps-Levels/Fort/UEDPCFort_Exploration.umap'
+[2017.03.08-18.29.16:018][357]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/Autosaves/Game/Maps-Levels/Fort/UEDPCFort_Exploration.umap
+[2017.03.08-18.29.16:029][357]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.03.08-18.32.12:025][ 44]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/BattleHUD" FILE="../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/BattleHUD.uasset" SILENT=true
+[2017.03.08-18.32.12:379][ 44]LogSavePackage: Save=302.31ms
+[2017.03.08-18.32.12:379][ 44]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/BattleHUDC546D1034D3E03E7FA9C50AED92FC342.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/BattleHUD.uasset'
+[2017.03.08-18.32.12:382][ 44]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/BattleHUD.uasset
+[2017.03.08-18.32.16:649][275]BlueprintLog: New page: Compile BattleHUD
+[2017.03.08-18.32.17:061][275]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-18.32.17:061][275]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-18.32.17:061][275]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-18.32.17:061][275]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-18.33.25:286][ 79]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/BattleHUD" FILE="../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/BattleHUD.uasset" SILENT=true
+[2017.03.08-18.33.25:667][ 79]LogSavePackage: Save=326.26ms
+[2017.03.08-18.33.25:667][ 79]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/BattleHUD9D0D59B2471C2FFC612190BB8146FA0C.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/BattleHUD.uasset'
+[2017.03.08-18.33.25:669][ 79]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/BattleHUD.uasset
+[2017.03.08-18.33.26:062][ 96]BlueprintLog: New page: Compile BattleHUD
+[2017.03.08-18.33.26:483][ 96]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-18.33.26:483][ 96]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-18.33.26:483][ 96]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-18.33.26:483][ 96]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-18.33.28:055][164]LogTemp: Repeting last play command: Standalone Game
+[2017.03.08-18.33.28:435][164]LogSavePackage: Save=135.96ms
+[2017.03.08-18.33.28:435][164]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/UEDPCFort_Exploration45ACBC5D4D0656BA9AA1869118952866.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/Autosaves/Game/Maps-Levels/Fort/UEDPCFort_Exploration.umap'
+[2017.03.08-18.33.28:436][164]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/Autosaves/Game/Maps-Levels/Fort/UEDPCFort_Exploration.umap
+[2017.03.08-18.33.28:443][164]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.03.08-18.33.56:390][429]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Fort_TileMap)
+[2017.03.08-18.33.56:971][452]LogEditorViewport: Clicking on Actor (LMB): Fort_BattleTrigger_C (Fort_BattleTrigger2)
+[2017.03.08-18.34.00:690][595]LogSavePackage: Save=203.82ms
+[2017.03.08-18.34.00:691][595]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/Fort_Exploration10884F1A45215818807611B95042E460.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/Maps-Levels/Fort/Fort_Exploration.umap'
+[2017.03.08-18.34.00:697][595]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/Maps-Levels/Fort/Fort_Exploration.umap
+[2017.03.08-18.34.01:819][639]LogTemp: Repeting last play command: Standalone Game
+[2017.03.08-18.34.02:298][639]LogSavePackage: Save=181.01ms
+[2017.03.08-18.34.02:298][639]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/UEDPCFort_Exploration3C35863A4E67BCCFC1D647967BEB0FB9.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/Autosaves/Game/Maps-Levels/Fort/UEDPCFort_Exploration.umap'
+[2017.03.08-18.34.02:300][639]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/Autosaves/Game/Maps-Levels/Fort/UEDPCFort_Exploration.umap
+[2017.03.08-18.34.02:308][639]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.03.08-18.34.50:863][973]LogSavePackage: Save=186.02ms
+[2017.03.08-18.34.50:864][973]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/Fort_Exploration6137BBA94D39C4BA8560409DD1F4ED89.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/Maps-Levels/Fort/Fort_Exploration.umap'
+[2017.03.08-18.34.50:865][973]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/Maps-Levels/Fort/Fort_Exploration.umap
+[2017.03.08-18.35.00:865][405]LogSavePackage: Save=186.09ms
+[2017.03.08-18.35.00:866][405]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/Fort_ExplorationED151D2C4413F6399EDE2FA03F540997.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/Maps-Levels/Fort/Fort_Exploration.umap'
+[2017.03.08-18.35.00:872][405]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/Maps-Levels/Fort/Fort_Exploration.umap
+[2017.03.08-18.35.23:571][592]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/AbyssGameInstance" FILE="../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/BluePrints/AbyssGameInstance.uasset" SILENT=true
+[2017.03.08-18.35.23:648][592]LogSavePackage: Save=10.92ms
+[2017.03.08-18.35.23:648][592]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/AbyssGameInstanceAC4360C64BC607627B3092B59F921C01.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/BluePrints/AbyssGameInstance.uasset'
+[2017.03.08-18.35.23:652][592]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/BluePrints/AbyssGameInstance.uasset
+[2017.03.08-18.35.24:461][639]BlueprintLog: New page: Compile AbyssGameInstance
+[2017.03.08-18.35.25:505][676]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/AbyssGameInstance" FILE="../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/BluePrints/AbyssGameInstance.uasset" SILENT=true
+[2017.03.08-18.35.25:586][676]LogSavePackage: Save=12.88ms
+[2017.03.08-18.35.25:587][676]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/AbyssGameInstance4FDE24D84071C380B71F079CCAE8366B.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/BluePrints/AbyssGameInstance.uasset'
+[2017.03.08-18.35.25:588][676]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/BluePrints/AbyssGameInstance.uasset
+[2017.03.08-18.38.46:031][866]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/BattleHUD" FILE="../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/BattleHUD.uasset" SILENT=true
+[2017.03.08-18.38.46:515][866]LogSavePackage: Save=410.92ms
+[2017.03.08-18.38.46:515][866]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/BattleHUD17D1BBCF491FA32DA3AFB2A1CBEB6911.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/BattleHUD.uasset'
+[2017.03.08-18.38.46:517][866]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/UMG/BattleHUD.uasset
+[2017.03.08-18.38.46:880][879]BlueprintLog: New page: Compile BattleHUD
+[2017.03.08-18.38.47:401][879]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-18.38.47:401][879]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-18.38.47:401][879]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-18.38.47:401][879]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.08-18.38.48:764][937]LogTemp: Repeting last play command: Standalone Game
+[2017.03.08-18.38.49:266][937]LogSavePackage: Save=182.26ms
+[2017.03.08-18.38.49:266][937]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/UEDPCFort_Exploration483B31C747D101EB05CFAEA0586B4580.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/Autosaves/Game/Maps-Levels/Fort/UEDPCFort_Exploration.umap'
+[2017.03.08-18.38.49:267][937]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/Autosaves/Game/Maps-Levels/Fort/UEDPCFort_Exploration.umap
+[2017.03.08-18.38.49:280][937]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.03.08-18.40.15:461][105]BlueprintLog: New page: Compile AbyssGameInstance
+[2017.03.08-18.40.16:537][137]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/AbyssGameInstance" FILE="../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/BluePrints/AbyssGameInstance.uasset" SILENT=true
+[2017.03.08-18.40.16:624][137]LogSavePackage: Save=15.18ms
+[2017.03.08-18.40.16:624][137]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/AbyssGameInstance20A0FEF44EBFF22B529CD1B63D126B12.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/BluePrints/AbyssGameInstance.uasset'
+[2017.03.08-18.40.16:626][137]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/BluePrints/AbyssGameInstance.uasset
+[2017.03.08-18.40.17:584][180]LogTemp: Repeting last play command: Standalone Game
+[2017.03.08-18.40.18:080][180]LogSavePackage: Save=188.44ms
+[2017.03.08-18.40.18:080][180]LogSavePackage: Moving '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/UEDPCFort_ExplorationB944471E4185002EDA2F3FBE63C46A80.tmp' to '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/Autosaves/Game/Maps-Levels/Fort/UEDPCFort_Exploration.umap'
+[2017.03.08-18.40.18:083][180]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/Autosaves/Game/Maps-Levels/Fort/UEDPCFort_Exploration.umap
+[2017.03.08-18.40.18:091][180]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.03.08-18.41.39:283][549]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.08-18.41.39:591][550]Cmd: QUIT_EDITOR
+[2017.03.08-18.41.39:691][550]LogExit: Preparing to exit.
+[2017.03.08-18.41.39:762][550]LogDirectoryWatcher: A directory notification for 'C:/Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/' was aborted.
+[2017.03.08-18.41.39:841][550]LogExit: Editor shut down
+[2017.03.08-18.41.39:841][550]LogExit: Transaction tracking system shut down
+[2017.03.08-18.41.40:051][550]LogObj: Freed 0b from 0 cluster array pools.
+[2017.03.08-18.41.40:052][550]LogExit: Object subsystem successfully closed.
+[2017.03.08-18.41.40:074][550]LogD3D11RHI: Shutdown
+[2017.03.08-18.41.40:074][550]LogD3D11RHI: CleanupD3DDevice
+[2017.03.08-18.41.40:175][550]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.03.08-18.41.40:208][550]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.03.08-18.41.40:208][550]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B048FF3C5-4E0D-0E9F-79DE-EDB63417ABBC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.3-3249277%2B%2B%2BUE4%2BRelease-4.14&UserID=bcab204c4eba50f4cbc298a0a41b2c7b%7C19b914fd1bf446109fa5a9d924e5dd7a%7C388d880e-e76b-426c-9d5d-4ed7ee87f56f&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.03.08-18.41.40:215][550]LogModuleManager: Shutting down and abandoning module SequencerWidgets (231)
+[2017.03.08-18.41.40:215][550]LogModuleManager: Shutting down and abandoning module BlueprintGraph (230)
+[2017.03.08-18.41.40:215][550]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (229)
+[2017.03.08-18.41.40:217][550]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (228)
+[2017.03.08-18.41.40:218][550]LogModuleManager: Shutting down and abandoning module CrashTracker (227)
+[2017.03.08-18.41.40:218][550]LogModuleManager: Shutting down and abandoning module SceneOutliner (226)
+[2017.03.08-18.41.40:218][550]LogModuleManager: Shutting down and abandoning module WidgetCarousel (225)
+[2017.03.08-18.41.40:218][550]LogModuleManager: Shutting down and abandoning module AddContentDialog (224)
+[2017.03.08-18.41.40:219][550]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.14/FeaturePacks/' was aborted.
+[2017.03.08-18.41.40:223][550]LogModuleManager: Shutting down and abandoning module GameplayTags (223)
+[2017.03.08-18.41.40:223][550]LogModuleManager: Shutting down and abandoning module EditorWidgets (222)
+[2017.03.08-18.41.40:223][550]LogModuleManager: Shutting down and abandoning module CollectionManager (221)
+[2017.03.08-18.41.40:224][550]LogDirectoryWatcher: A directory notification for 'C:/Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/Collections/' was aborted.
+[2017.03.08-18.41.40:224][550]LogDirectoryWatcher: A directory notification for 'C:/Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/Developers/Braden/Collections/' was aborted.
+[2017.03.08-18.41.40:224][550]LogDirectoryWatcher: A directory notification for 'C:/Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Saved/Collections/' was aborted.
+[2017.03.08-18.41.40:224][550]LogModuleManager: Shutting down and abandoning module StatsViewer (220)
+[2017.03.08-18.41.40:225][550]LogModuleManager: Shutting down and abandoning module FoliageEdit (219)
+[2017.03.08-18.41.40:226][550]LogModuleManager: Shutting down and abandoning module LandscapeEditor (218)
+[2017.03.08-18.41.40:227][550]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (217)
+[2017.03.08-18.41.40:227][550]LogModuleManager: Shutting down and abandoning module ActorPickerMode (216)
+[2017.03.08-18.41.40:227][550]LogModuleManager: Shutting down and abandoning module GeometryMode (215)
+[2017.03.08-18.41.40:227][550]LogModuleManager: Shutting down and abandoning module TextureAlignMode (214)
+[2017.03.08-18.41.40:227][550]LogModuleManager: Shutting down and abandoning module BspMode (213)
+[2017.03.08-18.41.40:227][550]LogModuleManager: Shutting down and abandoning module HardwareSurvey (212)
+[2017.03.08-18.41.40:228][550]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (211)
+[2017.03.08-18.41.40:228][550]LogModuleManager: Shutting down and abandoning module AutomationWorker (210)
+[2017.03.08-18.41.40:228][550]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (209)
+[2017.03.08-18.41.40:228][550]LogModuleManager: Shutting down and abandoning module PlacementMode (208)
+[2017.03.08-18.41.40:229][550]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (207)
+[2017.03.08-18.41.40:232][550]LogModuleManager: Shutting down and abandoning module Media (206)
+[2017.03.08-18.41.40:232][550]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (205)
+[2017.03.08-18.41.40:232][550]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (204)
+[2017.03.08-18.41.40:232][550]LogModuleManager: Shutting down and abandoning module CharacterAI (203)
+[2017.03.08-18.41.40:232][550]LogModuleManager: Shutting down and abandoning module SequenceRecorder (202)
+[2017.03.08-18.41.40:233][550]LogModuleManager: Shutting down and abandoning module AudioCapture (201)
+[2017.03.08-18.41.40:233][550]LogModuleManager: Shutting down and abandoning module SmartSnapping (200)
+[2017.03.08-18.41.40:233][550]LogModuleManager: Shutting down and abandoning module SessionServices (199)
+[2017.03.08-18.41.40:233][550]LogModuleManager: Shutting down and abandoning module ViewportSnapping (198)
+[2017.03.08-18.41.40:233][550]LogModuleManager: Shutting down and abandoning module ViewportInteraction (197)
+[2017.03.08-18.41.40:233][550]LogModuleManager: Shutting down and abandoning module LogVisualizer (196)
+[2017.03.08-18.41.40:234][550]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (195)
+[2017.03.08-18.41.40:237][550]LogModuleManager: Shutting down and abandoning module IntroTutorials (194)
+[2017.03.08-18.41.40:238][550]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (193)
+[2017.03.08-18.41.40:238][550]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (192)
+[2017.03.08-18.41.40:239][550]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (191)
+[2017.03.08-18.41.40:239][550]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (189)
+[2017.03.08-18.41.40:788][550]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (188)
+[2017.03.08-18.41.40:793][550]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (187)
+[2017.03.08-18.41.40:793][550]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (186)
+[2017.03.08-18.41.40:793][550]LogModuleManager: Shutting down and abandoning module InputBindingEditor (185)
+[2017.03.08-18.41.40:793][550]LogModuleManager: Shutting down and abandoning module NiagaraEditor (184)
+[2017.03.08-18.41.40:795][550]LogModuleManager: Shutting down and abandoning module MergeActors (183)
+[2017.03.08-18.41.40:796][550]LogModuleManager: Shutting down and abandoning module SizeMap (182)
+[2017.03.08-18.41.40:797][550]LogModuleManager: Shutting down and abandoning module TreeMap (181)
+[2017.03.08-18.41.40:797][550]LogModuleManager: Shutting down and abandoning module ReferenceViewer (180)
+[2017.03.08-18.41.40:797][550]LogModuleManager: Shutting down and abandoning module LocalizationService (179)
+[2017.03.08-18.41.40:797][550]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (178)
+[2017.03.08-18.41.40:798][550]LogModuleManager: Shutting down and abandoning module HardwareTargeting (177)
+[2017.03.08-18.41.40:799][550]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (176)
+[2017.03.08-18.41.40:799][550]LogModuleManager: Shutting down and abandoning module UndoHistory (175)
+[2017.03.08-18.41.40:799][550]LogModuleManager: Shutting down and abandoning module UserFeedback (174)
+[2017.03.08-18.41.40:799][550]LogModuleManager: Shutting down and abandoning module XmlParser (173)
+[2017.03.08-18.41.40:800][550]LogModuleManager: Shutting down and abandoning module Blutility (172)
+[2017.03.08-18.41.40:800][550]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (171)
+[2017.03.08-18.41.40:801][550]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (170)
+[2017.03.08-18.41.40:801][550]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (169)
+[2017.03.08-18.41.40:801][550]LogModuleManager: Shutting down and abandoning module SettingsEditor (168)
+[2017.03.08-18.41.40:801][550]LogModuleManager: Shutting down and abandoning module ProjectLauncher (167)
+[2017.03.08-18.41.40:802][550]LogModuleManager: Shutting down and abandoning module SessionFrontend (166)
+[2017.03.08-18.41.40:803][550]LogModuleManager: Shutting down and abandoning module ProfilerClient (165)
+[2017.03.08-18.41.40:805][550]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (164)
+[2017.03.08-18.41.40:805][550]LogModuleManager: Shutting down and abandoning module DeviceManager (163)
+[2017.03.08-18.41.40:850][550]LogModuleManager: Shutting down and abandoning module AutomationController (162)
+[2017.03.08-18.41.40:850][550]LogModuleManager: Shutting down and abandoning module AutomationWindow (161)
+[2017.03.08-18.41.40:851][550]LogModuleManager: Shutting down and abandoning module Layers (160)
+[2017.03.08-18.41.40:854][550]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (159)
+[2017.03.08-18.41.40:854][550]LogModuleManager: Shutting down and abandoning module DetailCustomizations (158)
+[2017.03.08-18.41.40:855][550]LogModuleManager: Shutting down and abandoning module PackagesDialog (157)
+[2017.03.08-18.41.40:856][550]LogModuleManager: Shutting down and abandoning module AnimGraph (156)
+[2017.03.08-18.41.40:856][550]LogModuleManager: Shutting down and abandoning module Persona (155)
+[2017.03.08-18.41.40:857][550]LogModuleManager: Shutting down and abandoning module Kismet (154)
+[2017.03.08-18.41.40:868][550]LogModuleManager: Shutting down and abandoning module GraphEditor (153)
+[2017.03.08-18.41.40:868][550]LogModuleManager: Shutting down and abandoning module ClassViewer (152)
+[2017.03.08-18.41.40:869][550]LogModuleManager: Shutting down and abandoning module Toolbox (151)
+[2017.03.08-18.41.40:870][550]LogModuleManager: Shutting down and abandoning module ModuleUI (150)
+[2017.03.08-18.41.40:870][550]LogModuleManager: Shutting down and abandoning module MovieSceneTools (149)
+[2017.03.08-18.41.40:871][550]LogModuleManager: Shutting down and abandoning module OutputLog (148)
+[2017.03.08-18.41.40:872][550]LogModuleManager: Shutting down and abandoning module GammaUI (147)
+[2017.03.08-18.41.40:873][550]LogModuleManager: Shutting down and abandoning module Documentation (146)
+[2017.03.08-18.41.40:873][550]LogModuleManager: Shutting down and abandoning module Niagara (145)
+[2017.03.08-18.41.40:873][550]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (144)
+[2017.03.08-18.41.40:873][550]LogModuleManager: Shutting down and abandoning module AnalyticsET (143)
+[2017.03.08-18.41.40:873][550]LogModuleManager: Shutting down and abandoning module PortalServices (142)
+[2017.03.08-18.41.40:873][550]LogModuleManager: Shutting down and abandoning module PortalRpc (141)
+[2017.03.08-18.41.40:873][550]LogModuleManager: Shutting down and abandoning module MessagingRpc (140)
+[2017.03.08-18.41.40:873][550]LogModuleManager: Shutting down and abandoning module GameplayDebugger (139)
+[2017.03.08-18.41.40:873][550]LogModuleManager: Shutting down and abandoning module AITestSuite (138)
+[2017.03.08-18.41.40:873][550]LogModuleManager: Shutting down and abandoning module AIModule (137)
+[2017.03.08-18.41.40:874][550]LogModuleManager: Shutting down and abandoning module ProfilerService (136)
+[2017.03.08-18.41.41:078][550]LogModuleManager: Shutting down and abandoning module TaskGraph (135)
+[2017.03.08-18.41.41:079][550]LogModuleManager: Shutting down and abandoning module SlateRemote (134)
+[2017.03.08-18.41.41:079][550]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (133)
+[2017.03.08-18.41.41:083][550]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (132)
+[2017.03.08-18.41.41:084][550]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (131)
+[2017.03.08-18.41.41:084][550]LogModuleManager: Shutting down and abandoning module CableComponent (130)
+[2017.03.08-18.41.41:084][550]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (129)
+[2017.03.08-18.41.41:084][550]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (127)
+[2017.03.08-18.41.41:088][550]LogModuleManager: Shutting down and abandoning module HTML5Networking (126)
+[2017.03.08-18.41.41:088][550]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (125)
+[2017.03.08-18.41.41:088][550]LogModuleManager: Shutting down and abandoning module GeometryCache (124)
+[2017.03.08-18.41.41:088][550]LogModuleManager: Shutting down and abandoning module AlembicLibrary (123)
+[2017.03.08-18.41.41:089][550]LogModuleManager: Shutting down and abandoning module AlembicImporter (122)
+[2017.03.08-18.41.41:090][550]LogModuleManager: Shutting down and abandoning module SuperSearch (121)
+[2017.03.08-18.41.41:090][550]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (120)
+[2017.03.08-18.41.41:090][550]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (119)
+[2017.03.08-18.41.41:090][550]LogModuleManager: Shutting down and abandoning module PluginBrowser (118)
+[2017.03.08-18.41.41:092][550]LogModuleManager: Shutting down and abandoning module DesktopPlatform (117)
+[2017.03.08-18.41.41:092][550]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (116)
+[2017.03.08-18.41.41:092][550]LogModuleManager: Shutting down and abandoning module UObjectPlugin (115)
+[2017.03.08-18.41.41:092][550]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (114)
+[2017.03.08-18.41.41:092][550]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (113)
+[2017.03.08-18.41.41:092][550]LogModuleManager: Shutting down and abandoning module SourceControl (112)
+[2017.03.08-18.41.41:092][550]LogModuleManager: Shutting down and abandoning module GitSourceControl (111)
+[2017.03.08-18.41.41:092][550]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (110)
+[2017.03.08-18.41.41:092][550]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (109)
+[2017.03.08-18.41.41:093][550]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (108)
+[2017.03.08-18.41.41:093][550]LogModuleManager: Shutting down and abandoning module MeshPaint (107)
+[2017.03.08-18.41.41:093][550]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (106)
+[2017.03.08-18.41.41:093][550]LogModuleManager: Shutting down and abandoning module HotReload (105)
+[2017.03.08-18.41.41:094][550]LogModuleManager: Shutting down and abandoning module MainFrame (104)
+[2017.03.08-18.41.41:094][550]LogModuleManager: Shutting down and abandoning module LevelEditor (103)
+[2017.03.08-18.41.41:096][550]LogModuleManager: Shutting down and abandoning module ContentBrowser (102)
+[2017.03.08-18.41.41:099][550]LogModuleManager: Shutting down and abandoning module Paper2DEditor (101)
+[2017.03.08-18.41.41:099][550]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (100)
+[2017.03.08-18.41.41:099][550]LogModuleManager: Shutting down and abandoning module Paper2D (99)
+[2017.03.08-18.41.41:099][550]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (98)
+[2017.03.08-18.41.41:100][550]LogModuleManager: Shutting down and abandoning module WmfMedia (97)
+[2017.03.08-18.41.41:100][550]LogModuleManager: Shutting down and abandoning module MediaAssets (96)
+[2017.03.08-18.41.41:100][550]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (95)
+[2017.03.08-18.41.41:100][550]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (94)
+[2017.03.08-18.41.41:100][550]LogModuleManager: Shutting down and abandoning module VREditor (93)
+[2017.03.08-18.41.41:100][550]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (92)
+[2017.03.08-18.41.41:100][550]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (91)
+[2017.03.08-18.41.41:100][550]LogModuleManager: Shutting down and abandoning module FunctionalTesting (90)
+[2017.03.08-18.41.41:101][550]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (89)
+[2017.03.08-18.41.41:101][550]LogModuleManager: Shutting down and abandoning module Sequencer (88)
+[2017.03.08-18.41.41:101][550]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (87)
+[2017.03.08-18.41.41:101][550]LogModuleManager: Shutting down and abandoning module MessageLog (86)
+[2017.03.08-18.41.41:101][550]LogModuleManager: Shutting down and abandoning module AssetTools (85)
+[2017.03.08-18.41.41:101][550]LogModuleManager: Shutting down and abandoning module UMGEditor (84)
+[2017.03.08-18.41.41:101][550]LogModuleManager: Shutting down and abandoning module UMG (83)
+[2017.03.08-18.41.41:101][550]LogModuleManager: Shutting down and abandoning module SlateReflector (82)
+[2017.03.08-18.41.41:101][550]LogModuleManager: Shutting down and abandoning module Slate (81)
+[2017.03.08-18.41.41:101][550]LogModuleManager: Shutting down and abandoning module EditorStyle (80)
+[2017.03.08-18.41.41:106][550]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (79)
+[2017.03.08-18.41.41:106][550]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (78)
+[2017.03.08-18.41.41:106][550]LogModuleManager: Shutting down and abandoning module XAudio2 (77)
+[2017.03.08-18.41.41:106][550]LogModuleManager: Shutting down and abandoning module Networking (75)
+[2017.03.08-18.41.41:106][550]LogModuleManager: Shutting down and abandoning module Core (74)
+[2017.03.08-18.41.41:106][550]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (73)
+[2017.03.08-18.41.41:106][550]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.03.08-18.41.41:106][550]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Braden/Documents/GitHub/ChimeraGames/Abyss/Content/' was aborted.
+[2017.03.08-18.41.41:106][550]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.03.08-18.41.41:107][550]LogModuleManager: Shutting down and abandoning module AssetRegistry (72)
+[2017.03.08-18.41.41:272][550]LogModuleManager: Shutting down and abandoning module KismetCompiler (71)
+[2017.03.08-18.41.41:272][550]LogModuleManager: Shutting down and abandoning module PhysXFormats (70)
+[2017.03.08-18.41.41:272][550]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (69)
+[2017.03.08-18.41.41:272][550]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (68)
+[2017.03.08-18.41.41:272][550]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (67)
+[2017.03.08-18.41.41:272][550]LogModuleManager: Shutting down and abandoning module PropertyEditor (66)
+[2017.03.08-18.41.41:273][550]LogModuleManager: Shutting down and abandoning module MeshUtilities (65)
+[2017.03.08-18.41.41:273][550]LogModuleManager: Shutting down and abandoning module DerivedDataCache (64)
+[2017.03.08-18.41.41:325][550]LogDerivedDataCache: Shutdown
+[2017.03.08-18.41.41:325][550]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (63)
+[2017.03.08-18.41.41:325][550]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (62)
+[2017.03.08-18.41.41:325][550]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (61)
+[2017.03.08-18.41.41:325][550]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (60)
+[2017.03.08-18.41.41:325][550]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (59)
+[2017.03.08-18.41.41:325][550]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (58)
+[2017.03.08-18.41.41:325][550]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (57)
+[2017.03.08-18.41.41:325][550]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (56)
+[2017.03.08-18.41.41:325][550]LogModuleManager: Shutting down and abandoning module ImageWrapper (55)
+[2017.03.08-18.41.41:326][550]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (54)
+[2017.03.08-18.41.41:326][550]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (53)
+[2017.03.08-18.41.41:326][550]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (52)
+[2017.03.08-18.41.41:326][550]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (51)
+[2017.03.08-18.41.41:326][550]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (50)
+[2017.03.08-18.41.41:326][550]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (49)
+[2017.03.08-18.41.41:326][550]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (48)
+[2017.03.08-18.41.41:327][550]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (47)
+[2017.03.08-18.41.41:327][550]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (46)
+[2017.03.08-18.41.41:327][550]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (45)
+[2017.03.08-18.41.41:327][550]LogModuleManager: Shutting down and abandoning module Messaging (44)
+[2017.03.08-18.41.41:327][550]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (43)
+[2017.03.08-18.41.41:327][550]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (42)
+[2017.03.08-18.41.41:327][550]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (41)
+[2017.03.08-18.41.41:327][550]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (40)
+[2017.03.08-18.41.41:327][550]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (39)
+[2017.03.08-18.41.41:328][550]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (38)
+[2017.03.08-18.41.41:328][550]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (37)
+[2017.03.08-18.41.41:328][550]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (36)
+[2017.03.08-18.41.41:328][550]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (35)
+[2017.03.08-18.41.41:328][550]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (34)
+[2017.03.08-18.41.41:328][550]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (33)
+[2017.03.08-18.41.41:328][550]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (32)
+[2017.03.08-18.41.41:328][550]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (31)
+[2017.03.08-18.41.41:328][550]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (30)
+[2017.03.08-18.41.41:328][550]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (29)
+[2017.03.08-18.41.41:328][550]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (28)
+[2017.03.08-18.41.41:328][550]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (27)
+[2017.03.08-18.41.41:328][550]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (26)
+[2017.03.08-18.41.41:328][550]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (25)
+[2017.03.08-18.41.41:328][550]LogModuleManager: Shutting down and abandoning module TargetPlatform (24)
+[2017.03.08-18.41.41:328][550]LogModuleManager: Shutting down and abandoning module InputCore (23)
+[2017.03.08-18.41.41:328][550]LogModuleManager: Shutting down and abandoning module Settings (22)
+[2017.03.08-18.41.41:328][550]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (21)
+[2017.03.08-18.41.41:328][550]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (20)
+[2017.03.08-18.41.41:328][550]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2017.03.08-18.41.41:328][550]LogOnline:Display: Unloading online subsystem: NULL
+[2017.03.08-18.41.41:328][550]LogModuleManager: Shutting down and abandoning module SSL (17)
+[2017.03.08-18.41.41:329][550]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2017.03.08-18.41.41:329][550]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2017.03.08-18.41.41:330][550]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.03.08-18.41.41:330][550]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.03.08-18.41.41:330][550]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.03.08-18.41.41:330][550]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.03.08-18.41.41:339][550]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.03.08-18.41.41:339][550]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.03.08-18.41.41:339][550]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.03.08-18.41.41:339][550]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.03.08-18.41.41:339][550]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.03.08-18.41.41:339][550]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.03.08-18.41.41:339][550]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.03.08-18.41.41:339][550]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.03.08-18.41.41:339][550]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.03.08-18.41.41:339][550]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.03.08-18.41.41:341][550]LogExit: Exiting.
+[2017.03.08-18.41.41:375][550]Log file closed, 03/08/17 13:41:41
