@@ -1,0 +1,715 @@
+﻿Log file open, 03/08/17 18:46:41
+LogInit:Display: Running engine for game: Abyss
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1222228693) SRandInit(-1222228693).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.148995
+LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin AudioCapture, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/AudioCapture/AudioCapture.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin OSVR, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin HGGifImporter, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Marketplace/HGGifImporter/HGGifImporter.uplugin
+LogPluginManager: Loaded Plugin MidiAsset, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Marketplace/MidiAsset/MidiAsset.uplugin
+LogPluginManager: Loaded Plugin UnrealJS, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Marketplace/UnrealJS/UnrealJS.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGameCircle, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGameCircle/OnlineSubsystemGameCircle.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin MIDIDevice, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/MIDIDevice/MIDIDevice.uplugin
+LogPluginManager: Loaded Plugin MobilePatchingUtils, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/MobilePatchingUtils/MobilePatchingUtils.uplugin
+LogPluginManager: Loaded Plugin Ansel, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Nvidia/Ansel/Ansel.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogPluginManager: Loaded Plugin EditorTests, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/EditorTests/EditorTests.uplugin
+LogPluginManager: Loaded Plugin FbxAutomationTestBuilder, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/FbxAutomationTestBuilder/FbxAutomationTestBuilder.uplugin
+LogPluginManager: Loaded Plugin FunctionalTestingEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/FunctionalTestingEditor/FunctionalTestingEditor.uplugin
+LogPluginManager: Loaded Plugin RuntimeTests, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/RuntimeTests/RuntimeTests.uplugin
+LogPluginManager: Loaded Plugin ScreenshotTools, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/ScreenshotTools/ScreenshotTools.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.14-CL-3249277
+LogInit: Engine Version: 4.14.3-3249277+++UE4+Release-4.14
+LogInit: Compatible Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Net CL: 3195953
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 7
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 8
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 17
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 1
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jan  6 2017 10:49:43
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.14
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.14/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.03.08-23.46.42:134][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.08-23.46.42:134][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.03.08-23.46.42:228][  0]LogInit: Computer: THEPOWERPC
+[2017.03.08-23.46.42:228][  0]LogInit: User: Anthony
+[2017.03.08-23.46.42:228][  0]LogInit: CPU Page size=65536, Cores=2
+[2017.03.08-23.46.42:228][  0]LogInit: High frequency timer resolution =1.607353 MHz
+[2017.03.08-23.46.42:228][  0]LogMemory: Memory total: Physical=3.7GB (4GB approx)
+[2017.03.08-23.46.42:228][  0]LogMemory: Platform Memory Stats for Windows
+[2017.03.08-23.46.42:228][  0]LogMemory: Process Physical Memory: 264.24 MB used, 264.24 MB peak
+[2017.03.08-23.46.42:228][  0]LogMemory: Process Virtual Memory: 262.68 MB used, 262.68 MB peak
+[2017.03.08-23.46.42:228][  0]LogMemory: Physical Memory: 1709.33 MB used,  2109.57 MB free, 3818.90 MB total
+[2017.03.08-23.46.42:228][  0]LogMemory: Virtual Memory: 650.93 MB used,  2109.57 MB free, 8388608.00 MB total
+[2017.03.08-23.46.42:407][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.03.08-23.46.46:226][  0]LogD3D11RHI: D3D11 adapters:
+[2017.03.08-23.46.46:258][  0]LogD3D11RHI:    0. 'AMD Radeon HD 6320 Graphics' (Feature Level 11_0)
+[2017.03.08-23.46.46:258][  0]LogD3D11RHI:       250/0/1653 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2017.03.08-23.46.46:258][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.03.08-23.46.46:283][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.03.08-23.46.46:283][  0]LogD3D11RHI:     GPU DeviceId: 0x9806 (for the marketing name, search the web for "GPU Device Id")
+[2017.03.08-23.46.46:283][  0]LogWindows: EnumDisplayDevices:
+[2017.03.08-23.46.46:284][  0]LogWindows:    0. 'AMD Radeon HD 6320 Graphics' (P:1 D:1)
+[2017.03.08-23.46.46:284][  0]LogWindows:    1. 'AMD Radeon HD 6320 Graphics' (P:0 D:0)
+[2017.03.08-23.46.46:285][  0]LogWindows:    2. 'RDPDD Chained DD' (P:0 D:0)
+[2017.03.08-23.46.46:285][  0]LogWindows:    3. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.03.08-23.46.46:285][  0]LogWindows:    4. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.03.08-23.46.46:286][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:2 
+[2017.03.08-23.46.46:286][  0]LogD3D11RHI:     Adapter Name: AMD Radeon HD 6320 Graphics
+[2017.03.08-23.46.46:286][  0]LogD3D11RHI:   Driver Version: Catalyst 15.7.1 (internal:15.200.1062.1004, unified:15.200.1062.1004)
+[2017.03.08-23.46.46:286][  0]LogD3D11RHI:      Driver Date: 8-3-2015
+[2017.03.08-23.46.46:286][  0]LogRHI: Texture pool is 175 MB (70% of 250 MB)
+[2017.03.08-23.46.46:310][  0]LogD3D11RHI: Async texture creation enabled
+[2017.03.08-23.46.46:362][  0]LogD3D11RHI: GPU Timing Frequency: 50.000000 (Debug: 2 2)
+[2017.03.08-23.46.46:364][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../../../Users/Anthony/Documents/GitHub/ChimeraGames/Abyss/Intermediate/Shaders/WorkingDirectory/68408/).
+[2017.03.08-23.46.46:364][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Anthony/AppData/Local/Temp/UnrealShaderWorkingDir/AA6F49554D05B2C5DDCDD7A27EE14F7C/'.
+[2017.03.08-23.46.46:364][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.03.08-23.46.53:879][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.03.08-23.46.54:159][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.03.08-23.46.54:436][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.03.08-23.46.54:688][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.03.08-23.46.54:946][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.03.08-23.46.55:182][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.03.08-23.46.55:414][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.03.08-23.46.55:651][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.03.08-23.46.55:842][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.03.08-23.46.56:105][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.03.08-23.46.56:357][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.03.08-23.46.56:610][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.03.08-23.46.56:854][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.03.08-23.46.57:114][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.03.08-23.46.57:371][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.03.08-23.46.57:871][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.03.08-23.46.57:871][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.03.08-23.46.58:059][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.03.08-23.46.58:412][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.03.08-23.46.58:557][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.03.08-23.46.58:797][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.03.08-23.46.59:055][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.03.08-23.46.59:284][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.03.08-23.46.59:529][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.03.08-23.46.59:529][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.03.08-23.47.00:967][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.03.08-23.47.01:437][  0]LogDerivedDataCache: Loaded boot cache 0.47s 50MB C:/Users/Anthony/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.03.08-23.47.01:437][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Anthony/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2017.03.08-23.47.01:438][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Anthony/Documents/GitHub/ChimeraGames/Abyss/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.03.08-23.47.01:438][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.03.08-23.47.01:438][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Anthony/Documents/GitHub/ChimeraGames/Abyss/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.03.08-23.47.01:438][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.03.08-23.47.01:523][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.03.08-23.47.01:538][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Anthony/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.03.08-23.47.02:418][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.08-23.47.02:440][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.03.08-23.47.03:315][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.03.08-23.47.03:488][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.03.08-23.47.03:665][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.03.08-23.47.03:665][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.03.08-23.47.03:665][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.03.08-23.47.07:127][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: abyss, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1595127573
+[2017.03.08-23.47.07:474][  0]LogAssetRegistry: FAssetRegistry took 0.0346 seconds to start up
+[2017.03.08-23.47.08:081][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.391933 seconds
+[2017.03.08-23.47.08:158][  0]LogUObjectArray: 31890 objects as part of root set at end of initial load.
+[2017.03.08-23.47.08:158][  0]LogUObjectAllocator: 6922368 out of 0 bytes used by permanent object pool.
+[2017.03.08-23.47.08:158][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.03.08-23.47.08:515][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.03.08-23.47.11:713][  0]LogSlate: Using Freetype 2.6.0
+[2017.03.08-23.47.11:729][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.08-23.47.11:729][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.08-23.47.33:765][  0]JavascriptCmd: Unreal.js started. V8 5.7.201
+[2017.03.08-23.47.35:735][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.03.08-23.47.37:615][  0]SourceControl: Info Source control is disabled
+[2017.03.08-23.47.44:242][  0]ImportText (YAxis): Missing opening parenthesis: 0.000000,1.000000,0.000000
+[2017.03.08-23.47.44:242][  0]ImportText (ZAxis): Missing opening parenthesis: 0.000000,0.000000,1.000000
+[2017.03.08-23.47.44:246][  0]ImportText (Rotation): Missing opening parenthesis: -90.000000,0.000000,0.000000
+[2017.03.08-23.47.44:254][  0]ImportText (B): Missing opening parenthesis: 1.000000,1.000000,1.000000
+[2017.03.08-23.47.47:379][  0]LogEngine: Initializing Engine...
+[2017.03.08-23.47.48:700][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.03.08-23.47.48:731][  0]LogInit: XAudio2 using 'Speakers (Conexant High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.08-23.47.48:868][  0]LogInit: FAudioDevice initialized.
+[2017.03.08-23.47.49:025][  0]LogDerivedDataCache: Saved boot cache 0.16s 50MB C:/Users/Anthony/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.03.08-23.47.49:066][  0]LogInit: Texture streaming: Enabled
+[2017.03.08-23.47.50:495][  0]LogInit: Transaction tracking system initialized
+[2017.03.08-23.47.53:124][  0]BlueprintLog: New page: Editor Load
+[2017.03.08-23.48.09:342][  0]LocalizationService: Info Localization service is disabled
+[2017.03.08-23.48.16:880][  0]LogModuleManager:Warning: No filename provided for module TcpMessaging
+[2017.03.08-23.48.16:881][  0]LogModuleManager:Warning: ModuleManager: Unable to load module 'TcpMessaging' because the file 'C:/Program Files (x86)/Epic Games/4.14/Engine/Binaries/Win64/' was not found.
+[2017.03.08-23.48.20:913][  0]LogConsoleResponse:Display: 
+[2017.03.08-23.48.28:558][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Anthony/Documents/GitHub/ChimeraGames/Abyss/Content/' took 0.09s
+[2017.03.08-23.48.28:558][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.03.08-23.48.28:560][  0]LogCook:Display: Mobile HDR setting 1
+[2017.03.08-23.48.44:532][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Anthony/Documents/GitHub/ChimeraGames/Abyss/Content/Maps-Levels/startMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.08-23.48.44:682][  0]LightingResults: New page: Lighting Build
+[2017.03.08-23.48.45:695][  0]MapCheck: New page: Map Check
+[2017.03.08-23.48.45:695][  0]LightingResults: New page: Lighting Build
+[2017.03.08-23.48.48:038][  0]LogAIModule: Creating AISystem for world startMenu
+[2017.03.08-23.48.48:135][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.08-23.48.48:136][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.08-23.48.48:416][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 279.216ms to complete.
+[2017.03.08-23.48.48:417][  0]LogFileHelpers: Loading map 'startMenu' took 3.917
+[2017.03.08-23.48.52:701][  0]LogCollectionManager: Loaded 0 collections in 0.009442 seconds
+[2017.03.08-23.48.54:618][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Anthony/Documents/GitHub/ChimeraGames/Abyss/Saved/Collections/' took 0.01s
+[2017.03.08-23.48.54:618][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Anthony/Documents/GitHub/ChimeraGames/Abyss/Content/Developers/Anthony/Collections/' took 0.01s
+[2017.03.08-23.48.54:618][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Anthony/Documents/GitHub/ChimeraGames/Abyss/Content/Collections/' took 0.01s
+[2017.03.08-23.48.54:618][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000006 seconds
+[2017.03.08-23.48.55:094][  0]LogContentBrowser: Native class hierarchy populated in 0.2586 seconds. Added 2245 classes and 411 folders.
+[2017.03.08-23.48.56:131][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.03.08-23.48.56:197][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.066 s
+[2017.03.08-23.48.56:246][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0032 seconds. Added 13 classes and 0 folders.
+[2017.03.08-23.48.56:878][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0019 seconds. Added 0 classes and 0 folders.
+[2017.03.08-23.49.04:377][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0022 seconds. Added 0 classes and 0 folders.
+[2017.03.08-23.49.07:190][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0036 seconds. Added 1 classes and 2 folders.
+[2017.03.08-23.49.11:284][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.03.08-23.49.11:951][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.03.08-23.49.12:824][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0023 seconds. Added 1 classes and 2 folders.
+[2017.03.08-23.49.12:825][  0]LogLoad: (Engine Initialization) Total time: 158.03 seconds
+[2017.03.08-23.49.12:825][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.60 seconds
+[2017.03.08-23.49.12:825][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.03.08-23.49.12:826][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.03.08-23.49.12:985][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.03.08-23.49.13:919][  0]LogRenderer: Reallocating scene render targets to support 856x372 NumSamples 1 (Frame:2).
+[2017.03.08-23.49.14:613][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Anthony/Documents/GitHub/ChimeraGames/Abyss/Content/' took 1.70s
+[2017.03.08-23.49.15:299][  8]LogAssetRegistry: Asset discovery search completed in 127.8580 seconds
+[2017.03.08-23.49.15:299][  8]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2017.03.08-23.49.15:299][  8]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000070 seconds (updated 0 objects)
+[2017.03.08-23.49.24:610][233]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu' with GeneratedClass '/Game/Maps-Levels/startMenu.startMenu_C' with ClassGeneratedBy '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu'
+[2017.03.08-23.49.24:610][233]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.08-23.49.24:613][233]PIE: New page: PIE session: startMenu (Mar 8, 2017, 1:49:24 PM)
+[2017.03.08-23.49.26:199][233]LogPlayLevel: Creating play world package: /Game/Maps-Levels/UEDPIE_0_startMenu
+[2017.03.08-23.49.26:204][233]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004779s)
+[2017.03.08-23.49.26:206][233]LogAIModule: Creating AISystem for world startMenu
+[2017.03.08-23.49.26:207][233]LogPlayLevel: PIE: World Init took: (0.003202s)
+[2017.03.08-23.49.26:207][233]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps-Levels/startMenu.startMenu to /Game/Maps-Levels/UEDPIE_0_startMenu.startMenu (0.008597s)
+[2017.03.08-23.49.26:710][233]LogInit: XAudio2 using 'Speakers (Conexant High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.08-23.49.26:749][233]LogInit: FAudioDevice initialized.
+[2017.03.08-23.49.38:299][233]LogLoad: Game class is 'abyssGameMode_C'
+[2017.03.08-23.49.38:306][233]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_startMenu.startMenu up for play (max tick rate 3) at 2017.03.08-18.49.38
+[2017.03.08-23.49.38:307][233]LogWorld: Bringing up level for play took: 0.004113
+[2017.03.08-23.49.38:521][233]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0023 seconds. Added 11 classes and 0 folders.
+[2017.03.08-23.49.38:628][233]PIE: Info Play in editor start time for /Game/Maps-Levels/UEDPIE_0_startMenu 13.654
+[2017.03.08-23.49.38:629][233]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu' with GeneratedClass '/Game/Maps-Levels/startMenu.startMenu_C' with ClassGeneratedBy '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu'
+[2017.03.08-23.49.56:329][326]LogNet: Browse: /Game/Maps-Levels/Fort/Exploration/Fort_Exploration1
+[2017.03.08-23.49.56:329][326]LogLoad: LoadMap: /Game/Maps-Levels/Fort/Exploration/Fort_Exploration1
+[2017.03.08-23.49.57:071][326]Cmd: MEM
+[2017.03.08-23.49.57:730][326]LogMemory: Platform Memory Stats for Windows
+[2017.03.08-23.49.57:730][326]LogMemory: Process Physical Memory: 995.11 MB used, 1006.75 MB peak
+[2017.03.08-23.49.57:730][326]LogMemory: Process Virtual Memory: 919.16 MB used, 937.68 MB peak
+[2017.03.08-23.49.57:730][326]LogMemory: Physical Memory: 2943.56 MB used,  875.34 MB free, 3818.90 MB total
+[2017.03.08-23.49.57:730][326]LogMemory: Virtual Memory: 2183.86 MB used,  875.34 MB free, 8388608.00 MB total
+[2017.03.08-23.49.57:730][326]LogMemory: 
+[2017.03.08-23.49.57:730][326]Allocator Stats for TBB: (not implemented)
+[2017.03.08-23.50.07:592][326]LogAIModule: Creating AISystem for world Fort_Exploration1
+[2017.03.08-23.50.07:592][326]LogLoad: Game class is 'abyssExplorationMode_C'
+[2017.03.08-23.50.07:646][326]LogWorld: Bringing World /Game/Maps-Levels/Fort/Exploration/UEDPIE_0_Fort_Exploration1.Fort_Exploration1 up for play (max tick rate 60) at 2017.03.08-18.50.07
+[2017.03.08-23.50.07:650][326]LogWorld: Bringing up level for play took: 0.056501
+[2017.03.08-23.50.07:664][326]LogLoad: Took 11.333929 seconds to LoadMap(/Game/Maps-Levels/Fort/Exploration/Fort_Exploration1)
+[2017.03.08-23.51.07:174][235]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu' with GeneratedClass '/Game/Maps-Levels/startMenu.startMenu_C' with ClassGeneratedBy '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu'
+[2017.03.08-23.51.07:449][235]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu' with GeneratedClass '/Game/Maps-Levels/startMenu.startMenu_C' with ClassGeneratedBy '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu'
+[2017.03.08-23.51.55:904][438]LogEditorViewport: Clicking Background
+[2017.03.08-23.51.57:289][476]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.08-23.51.57:453][476]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu' with GeneratedClass '/Game/Maps-Levels/startMenu.startMenu_C' with ClassGeneratedBy '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu'
+[2017.03.08-23.51.57:454][476]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.08-23.51.57:454][476]PIE: New page: PIE session: startMenu (Mar 8, 2017, 1:51:57 PM)
+[2017.03.08-23.51.57:523][476]LogPlayLevel: Creating play world package: /Game/Maps-Levels/UEDPIE_0_startMenu
+[2017.03.08-23.51.57:529][476]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006238s)
+[2017.03.08-23.51.57:533][476]LogAIModule: Creating AISystem for world startMenu
+[2017.03.08-23.51.57:534][476]LogPlayLevel: PIE: World Init took: (0.004412s)
+[2017.03.08-23.51.57:534][476]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps-Levels/startMenu.startMenu to /Game/Maps-Levels/UEDPIE_0_startMenu.startMenu (0.011256s)
+[2017.03.08-23.51.58:069][476]LogInit: XAudio2 using 'Speakers (Conexant High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.08-23.51.58:092][476]LogInit: FAudioDevice initialized.
+[2017.03.08-23.51.58:152][476]LogLoad: Game class is 'abyssGameMode_C'
+[2017.03.08-23.51.58:157][476]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_startMenu.startMenu up for play (max tick rate 60) at 2017.03.08-18.51.58
+[2017.03.08-23.51.58:158][476]LogWorld: Bringing up level for play took: 0.004563
+[2017.03.08-23.51.58:172][476]PIE: Info Play in editor start time for /Game/Maps-Levels/UEDPIE_0_startMenu 1.196
+[2017.03.08-23.51.58:173][476]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu' with GeneratedClass '/Game/Maps-Levels/startMenu.startMenu_C' with ClassGeneratedBy '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu'
+[2017.03.08-23.52.01:024][512]LogNet: Browse: /Game/Maps-Levels/Fort/Exploration/Fort_Exploration1
+[2017.03.08-23.52.01:024][512]LogLoad: LoadMap: /Game/Maps-Levels/Fort/Exploration/Fort_Exploration1
+[2017.03.08-23.52.01:602][512]Cmd: MEM
+[2017.03.08-23.52.02:130][512]LogMemory: Platform Memory Stats for Windows
+[2017.03.08-23.52.02:130][512]LogMemory: Process Physical Memory: 1059.62 MB used, 1070.15 MB peak
+[2017.03.08-23.52.02:130][512]LogMemory: Process Virtual Memory: 968.38 MB used, 969.38 MB peak
+[2017.03.08-23.52.02:130][512]LogMemory: Physical Memory: 3065.82 MB used,  753.08 MB free, 3818.90 MB total
+[2017.03.08-23.52.02:130][512]LogMemory: Virtual Memory: 2240.84 MB used,  753.08 MB free, 8388608.00 MB total
+[2017.03.08-23.52.02:130][512]LogMemory: 
+[2017.03.08-23.52.02:130][512]Allocator Stats for TBB: (not implemented)
+[2017.03.08-23.52.02:766][512]LogAIModule: Creating AISystem for world Fort_Exploration1
+[2017.03.08-23.52.02:766][512]LogLoad: Game class is 'abyssExplorationMode_C'
+[2017.03.08-23.52.02:826][512]LogWorld: Bringing World /Game/Maps-Levels/Fort/Exploration/UEDPIE_0_Fort_Exploration1.Fort_Exploration1 up for play (max tick rate 60) at 2017.03.08-18.52.02
+[2017.03.08-23.52.02:830][512]LogWorld: Bringing up level for play took: 0.061261
+[2017.03.08-23.52.02:842][512]LogLoad: Took 1.818260 seconds to LoadMap(/Game/Maps-Levels/Fort/Exploration/Fort_Exploration1)
+[2017.03.08-23.52.21:422][770]LogNet: Browse: /Game/Maps-Levels/Fort_Battle
+[2017.03.08-23.52.21:422][770]LogLoad: LoadMap: /Game/Maps-Levels/Fort_Battle
+[2017.03.08-23.52.22:025][770]Cmd: MEM
+[2017.03.08-23.52.22:546][770]LogMemory: Platform Memory Stats for Windows
+[2017.03.08-23.52.22:546][770]LogMemory: Process Physical Memory: 1061.94 MB used, 1070.15 MB peak
+[2017.03.08-23.52.22:546][770]LogMemory: Process Virtual Memory: 970.11 MB used, 971.11 MB peak
+[2017.03.08-23.52.22:546][770]LogMemory: Physical Memory: 3101.39 MB used,  717.51 MB free, 3818.90 MB total
+[2017.03.08-23.52.22:546][770]LogMemory: Virtual Memory: 2237.03 MB used,  717.51 MB free, 8388608.00 MB total
+[2017.03.08-23.52.22:546][770]LogMemory: 
+[2017.03.08-23.52.22:546][770]Allocator Stats for TBB: (not implemented)
+[2017.03.08-23.52.27:000][770]LogAIModule: Creating AISystem for world Fort_Battle
+[2017.03.08-23.52.27:001][770]LogLoad: Game class is 'abyssBattleScene_C'
+[2017.03.08-23.52.27:014][770]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_Fort_Battle.Fort_Battle up for play (max tick rate 60) at 2017.03.08-18.52.27
+[2017.03.08-23.52.27:015][770]LogWorld: Bringing up level for play took: 0.013151
+[2017.03.08-23.52.27:017][770]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.03.08-23.52.27:047][770]LogLoad: Took 5.625219 seconds to LoadMap(/Game/Maps-Levels/Fort_Battle)
+[2017.03.08-23.52.30:643][819]LogBlueprintUserMessages: [BattleHUD_C_0] Attack missed!
+[2017.03.08-23.52.34:081][870]LogBlueprintUserMessages: [BattleHUD_C_0] Attack missed!
+[2017.03.08-23.52.37:840][926]LogBlueprintUserMessages: [BattleHUD_C_0] Attack missed!
+[2017.03.08-23.52.40:451][965]LogBlueprintUserMessages: [BattleHUD_C_0] Enemy is dead
+[2017.03.08-23.52.42:443][994]LogNet: Browse: /Game/Maps-Levels/Fort/Fort_Exploration
+[2017.03.08-23.52.42:443][994]LogLoad: LoadMap: /Game/Maps-Levels/Fort/Fort_Exploration
+[2017.03.08-23.52.43:038][994]Cmd: MEM
+[2017.03.08-23.52.43:542][994]LogMemory: Platform Memory Stats for Windows
+[2017.03.08-23.52.43:542][994]LogMemory: Process Physical Memory: 1091.73 MB used, 1099.21 MB peak
+[2017.03.08-23.52.43:542][994]LogMemory: Process Virtual Memory: 1007.61 MB used, 1009.93 MB peak
+[2017.03.08-23.52.43:542][994]LogMemory: Physical Memory: 3073.81 MB used,  745.09 MB free, 3818.90 MB total
+[2017.03.08-23.52.43:542][994]LogMemory: Virtual Memory: 2274.15 MB used,  745.09 MB free, 8388608.00 MB total
+[2017.03.08-23.52.43:542][994]LogMemory: 
+[2017.03.08-23.52.43:542][994]Allocator Stats for TBB: (not implemented)
+[2017.03.08-23.52.44:258][994]LogAIModule: Creating AISystem for world Fort_Exploration
+[2017.03.08-23.52.44:259][994]LogLoad: Game class is 'abyssExplorationMode_C'
+[2017.03.08-23.52.44:319][994]LogWorld: Bringing World /Game/Maps-Levels/Fort/UEDPIE_0_Fort_Exploration.Fort_Exploration up for play (max tick rate 60) at 2017.03.08-18.52.44
+[2017.03.08-23.52.44:322][994]LogWorld: Bringing up level for play took: 0.061541
+[2017.03.08-23.52.44:345][994]LogLoad: Took 1.902087 seconds to LoadMap(/Game/Maps-Levels/Fort/Fort_Exploration)
+[2017.03.08-23.52.52:383][113]LogBlueprintUserMessages: [checkPoint_765] Checkpoint!
+[2017.03.08-23.52.56:654][173]LogNet: Browse: /Game/Maps-Levels/Fort_Battle
+[2017.03.08-23.52.56:654][173]LogLoad: LoadMap: /Game/Maps-Levels/Fort_Battle
+[2017.03.08-23.52.57:261][173]Cmd: MEM
+[2017.03.08-23.52.57:762][173]LogMemory: Platform Memory Stats for Windows
+[2017.03.08-23.52.57:762][173]LogMemory: Process Physical Memory: 1093.46 MB used, 1099.21 MB peak
+[2017.03.08-23.52.57:762][173]LogMemory: Process Virtual Memory: 1008.28 MB used, 1009.93 MB peak
+[2017.03.08-23.52.57:762][173]LogMemory: Physical Memory: 3070.64 MB used,  748.27 MB free, 3818.90 MB total
+[2017.03.08-23.52.57:762][173]LogMemory: Virtual Memory: 2274.15 MB used,  748.27 MB free, 8388608.00 MB total
+[2017.03.08-23.52.57:762][173]LogMemory: 
+[2017.03.08-23.52.57:762][173]Allocator Stats for TBB: (not implemented)
+[2017.03.08-23.52.58:243][173]LogAIModule: Creating AISystem for world Fort_Battle
+[2017.03.08-23.52.58:244][173]LogLoad: Game class is 'abyssBattleScene_C'
+[2017.03.08-23.52.58:256][173]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_Fort_Battle.Fort_Battle up for play (max tick rate 60) at 2017.03.08-18.52.58
+[2017.03.08-23.52.58:258][173]LogWorld: Bringing up level for play took: 0.012401
+[2017.03.08-23.52.58:259][173]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.03.08-23.52.58:285][173]LogLoad: Took 1.630685 seconds to LoadMap(/Game/Maps-Levels/Fort_Battle)
+[2017.03.08-23.53.00:364][205]LogBlueprintUserMessages: [BattleHUD_C_1] Couldn't escape!
+[2017.03.08-23.53.01:581][223]LogNet: Browse: /Game/Maps-Levels/Fort/Fort_Exploration
+[2017.03.08-23.53.01:581][223]LogLoad: LoadMap: /Game/Maps-Levels/Fort/Fort_Exploration
+[2017.03.08-23.53.02:204][223]Cmd: MEM
+[2017.03.08-23.53.02:713][223]LogMemory: Platform Memory Stats for Windows
+[2017.03.08-23.53.02:713][223]LogMemory: Process Physical Memory: 1094.00 MB used, 1099.21 MB peak
+[2017.03.08-23.53.02:714][223]LogMemory: Process Virtual Memory: 1008.29 MB used, 1009.93 MB peak
+[2017.03.08-23.53.02:714][223]LogMemory: Physical Memory: 3072.33 MB used,  746.57 MB free, 3818.90 MB total
+[2017.03.08-23.53.02:714][223]LogMemory: Virtual Memory: 2274.15 MB used,  746.57 MB free, 8388608.00 MB total
+[2017.03.08-23.53.02:714][223]LogMemory: 
+[2017.03.08-23.53.02:714][223]Allocator Stats for TBB: (not implemented)
+[2017.03.08-23.53.03:383][223]LogAIModule: Creating AISystem for world Fort_Exploration
+[2017.03.08-23.53.03:384][223]LogLoad: Game class is 'abyssExplorationMode_C'
+[2017.03.08-23.53.03:430][223]LogWorld: Bringing World /Game/Maps-Levels/Fort/UEDPIE_0_Fort_Exploration.Fort_Exploration up for play (max tick rate 60) at 2017.03.08-18.53.03
+[2017.03.08-23.53.03:433][223]LogWorld: Bringing up level for play took: 0.046661
+[2017.03.08-23.53.03:445][223]LogLoad: Took 1.863858 seconds to LoadMap(/Game/Maps-Levels/Fort/Fort_Exploration)
+[2017.03.08-23.53.06:889][276]LogNet: Browse: /Game/Maps-Levels/Fort_Battle
+[2017.03.08-23.53.06:890][276]LogLoad: LoadMap: /Game/Maps-Levels/Fort_Battle
+[2017.03.08-23.53.07:487][276]Cmd: MEM
+[2017.03.08-23.53.07:999][276]LogMemory: Platform Memory Stats for Windows
+[2017.03.08-23.53.07:999][276]LogMemory: Process Physical Memory: 1094.05 MB used, 1099.21 MB peak
+[2017.03.08-23.53.08:000][276]LogMemory: Process Virtual Memory: 1008.29 MB used, 1009.93 MB peak
+[2017.03.08-23.53.08:000][276]LogMemory: Physical Memory: 3059.31 MB used,  759.59 MB free, 3818.90 MB total
+[2017.03.08-23.53.08:000][276]LogMemory: Virtual Memory: 2274.15 MB used,  759.59 MB free, 8388608.00 MB total
+[2017.03.08-23.53.08:000][276]LogMemory: 
+[2017.03.08-23.53.08:000][276]Allocator Stats for TBB: (not implemented)
+[2017.03.08-23.53.08:493][276]LogAIModule: Creating AISystem for world Fort_Battle
+[2017.03.08-23.53.08:493][276]LogLoad: Game class is 'abyssBattleScene_C'
+[2017.03.08-23.53.08:506][276]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_Fort_Battle.Fort_Battle up for play (max tick rate 60) at 2017.03.08-18.53.08
+[2017.03.08-23.53.08:508][276]LogWorld: Bringing up level for play took: 0.012680
+[2017.03.08-23.53.08:509][276]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.03.08-23.53.08:535][276]LogLoad: Took 1.645945 seconds to LoadMap(/Game/Maps-Levels/Fort_Battle)
+[2017.03.08-23.53.22:877][491]LogBlueprintUserMessages: [BattleHUD_C_2] Couldn't escape!
+[2017.03.08-23.53.25:037][523]LogNet: Browse: /Game/Maps-Levels/Fort/Fort_Exploration
+[2017.03.08-23.53.25:038][523]LogLoad: LoadMap: /Game/Maps-Levels/Fort/Fort_Exploration
+[2017.03.08-23.53.25:667][523]Cmd: MEM
+[2017.03.08-23.53.26:162][523]LogMemory: Platform Memory Stats for Windows
+[2017.03.08-23.53.26:162][523]LogMemory: Process Physical Memory: 1096.07 MB used, 1099.21 MB peak
+[2017.03.08-23.53.26:162][523]LogMemory: Process Virtual Memory: 1009.29 MB used, 1010.29 MB peak
+[2017.03.08-23.53.26:162][523]LogMemory: Physical Memory: 3058.66 MB used,  760.25 MB free, 3818.90 MB total
+[2017.03.08-23.53.26:162][523]LogMemory: Virtual Memory: 2275.15 MB used,  760.25 MB free, 8388608.00 MB total
+[2017.03.08-23.53.26:162][523]LogMemory: 
+[2017.03.08-23.53.26:162][523]Allocator Stats for TBB: (not implemented)
+[2017.03.08-23.53.26:859][523]LogAIModule: Creating AISystem for world Fort_Exploration
+[2017.03.08-23.53.26:860][523]LogLoad: Game class is 'abyssExplorationMode_C'
+[2017.03.08-23.53.26:903][523]LogWorld: Bringing World /Game/Maps-Levels/Fort/UEDPIE_0_Fort_Exploration.Fort_Exploration up for play (max tick rate 60) at 2017.03.08-18.53.26
+[2017.03.08-23.53.26:907][523]LogWorld: Bringing up level for play took: 0.045528
+[2017.03.08-23.53.26:921][523]LogLoad: Took 1.883497 seconds to LoadMap(/Game/Maps-Levels/Fort/Fort_Exploration)
+[2017.03.08-23.53.39:982][719]LogNet: Browse: /Game/Maps-Levels/Fort_Battle
+[2017.03.08-23.53.39:982][719]LogLoad: LoadMap: /Game/Maps-Levels/Fort_Battle
+[2017.03.08-23.53.40:603][719]Cmd: MEM
+[2017.03.08-23.53.41:105][719]LogMemory: Platform Memory Stats for Windows
+[2017.03.08-23.53.41:105][719]LogMemory: Process Physical Memory: 1096.13 MB used, 1099.21 MB peak
+[2017.03.08-23.53.41:105][719]LogMemory: Process Virtual Memory: 1009.36 MB used, 1010.36 MB peak
+[2017.03.08-23.53.41:105][719]LogMemory: Physical Memory: 3060.08 MB used,  758.82 MB free, 3818.90 MB total
+[2017.03.08-23.53.41:105][719]LogMemory: Virtual Memory: 2284.78 MB used,  758.82 MB free, 8388608.00 MB total
+[2017.03.08-23.53.41:105][719]LogMemory: 
+[2017.03.08-23.53.41:105][719]Allocator Stats for TBB: (not implemented)
+[2017.03.08-23.53.41:646][719]LogAIModule: Creating AISystem for world Fort_Battle
+[2017.03.08-23.53.41:647][719]LogLoad: Game class is 'abyssBattleScene_C'
+[2017.03.08-23.53.41:660][719]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_Fort_Battle.Fort_Battle up for play (max tick rate 60) at 2017.03.08-18.53.41
+[2017.03.08-23.53.41:661][719]LogWorld: Bringing up level for play took: 0.012651
+[2017.03.08-23.53.41:663][719]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.03.08-23.53.41:689][719]LogLoad: Took 1.706912 seconds to LoadMap(/Game/Maps-Levels/Fort_Battle)
+[2017.03.08-23.53.44:208][758]LogBlueprintUserMessages: [BattleHUD_C_3] Enemy missed!
+[2017.03.08-23.53.46:537][793]LogBlueprintUserMessages: [BattleHUD_C_3] Enemy missed!
+[2017.03.08-23.53.53:162][892]LogBlueprintUserMessages: [BattleHUD_C_3] Enemy missed!
+[2017.03.08-23.53.54:543][913]LogBlueprintUserMessages: [BattleHUD_C_3] Couldn't escape!
+[2017.03.08-23.53.56:139][937]LogBlueprintUserMessages: [BattleHUD_C_3] Couldn't escape!
+[2017.03.08-23.54.02:186][ 29]LogBlueprintUserMessages: [BattleHUD_C_3] Couldn't escape!
+[2017.03.08-23.54.03:754][ 53]LogBlueprintUserMessages: [BattleHUD_C_3] Couldn't escape!
+[2017.03.08-23.54.05:460][ 79]LogBlueprintUserMessages: [BattleHUD_C_3] Couldn't escape!
+[2017.03.08-23.54.07:098][104]LogNet: Browse: /Game/Maps-Levels/Fort/Fort_Exploration
+[2017.03.08-23.54.07:099][104]LogLoad: LoadMap: /Game/Maps-Levels/Fort/Fort_Exploration
+[2017.03.08-23.54.07:688][104]Cmd: MEM
+[2017.03.08-23.54.08:154][104]LogMemory: Platform Memory Stats for Windows
+[2017.03.08-23.54.08:155][104]LogMemory: Process Physical Memory: 1096.12 MB used, 1099.21 MB peak
+[2017.03.08-23.54.08:155][104]LogMemory: Process Virtual Memory: 1009.33 MB used, 1010.36 MB peak
+[2017.03.08-23.54.08:155][104]LogMemory: Physical Memory: 3047.68 MB used,  771.22 MB free, 3818.90 MB total
+[2017.03.08-23.54.08:155][104]LogMemory: Virtual Memory: 2279.96 MB used,  771.22 MB free, 8388608.00 MB total
+[2017.03.08-23.54.08:155][104]LogMemory: 
+[2017.03.08-23.54.08:155][104]Allocator Stats for TBB: (not implemented)
+[2017.03.08-23.54.08:774][104]LogAIModule: Creating AISystem for world Fort_Exploration
+[2017.03.08-23.54.08:775][104]LogLoad: Game class is 'abyssExplorationMode_C'
+[2017.03.08-23.54.08:822][104]LogWorld: Bringing World /Game/Maps-Levels/Fort/UEDPIE_0_Fort_Exploration.Fort_Exploration up for play (max tick rate 60) at 2017.03.08-18.54.08
+[2017.03.08-23.54.08:825][104]LogWorld: Bringing up level for play took: 0.048843
+[2017.03.08-23.54.08:837][104]LogLoad: Took 1.738588 seconds to LoadMap(/Game/Maps-Levels/Fort/Fort_Exploration)
+[2017.03.08-23.54.15:755][213]LogBlueprintUserMessages: [checkPoint2] Checkpoint!
+[2017.03.08-23.54.19:669][270]LogNet: Browse: /Game/Maps-Levels/Fort_Battle
+[2017.03.08-23.54.19:669][270]LogLoad: LoadMap: /Game/Maps-Levels/Fort_Battle
+[2017.03.08-23.54.20:208][270]Cmd: MEM
+[2017.03.08-23.54.20:696][270]LogMemory: Platform Memory Stats for Windows
+[2017.03.08-23.54.20:696][270]LogMemory: Process Physical Memory: 1096.16 MB used, 1099.21 MB peak
+[2017.03.08-23.54.20:696][270]LogMemory: Process Virtual Memory: 1009.35 MB used, 1010.36 MB peak
+[2017.03.08-23.54.20:696][270]LogMemory: Physical Memory: 3048.70 MB used,  770.20 MB free, 3818.90 MB total
+[2017.03.08-23.54.20:696][270]LogMemory: Virtual Memory: 2279.96 MB used,  770.20 MB free, 8388608.00 MB total
+[2017.03.08-23.54.20:696][270]LogMemory: 
+[2017.03.08-23.54.20:696][270]Allocator Stats for TBB: (not implemented)
+[2017.03.08-23.54.21:150][270]LogAIModule: Creating AISystem for world Fort_Battle
+[2017.03.08-23.54.21:151][270]LogLoad: Game class is 'abyssBattleScene_C'
+[2017.03.08-23.54.21:164][270]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_Fort_Battle.Fort_Battle up for play (max tick rate 60) at 2017.03.08-18.54.21
+[2017.03.08-23.54.21:166][270]LogWorld: Bringing up level for play took: 0.012862
+[2017.03.08-23.54.21:167][270]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.03.08-23.54.21:194][270]LogLoad: Took 1.525228 seconds to LoadMap(/Game/Maps-Levels/Fort_Battle)
+[2017.03.08-23.54.29:404][397]LogBlueprintUserMessages: [BattleHUD_C_4] Enemy missed!
+[2017.03.08-23.54.30:380][412]LogBlueprintUserMessages: [BattleHUD_C_4] Attack missed!
+[2017.03.08-23.54.37:504][521]LogBlueprintUserMessages: [BattleHUD_C_4] Couldn't escape!
+[2017.03.08-23.54.39:791][556]LogBlueprintUserMessages: [BattleHUD_C_4] Couldn't escape!
+[2017.03.08-23.54.41:625][584]LogNet: Browse: /Game/Maps-Levels/Fort/Fort_Exploration
+[2017.03.08-23.54.41:625][584]LogLoad: LoadMap: /Game/Maps-Levels/Fort/Fort_Exploration
+[2017.03.08-23.54.42:215][584]Cmd: MEM
+[2017.03.08-23.54.42:750][584]LogMemory: Platform Memory Stats for Windows
+[2017.03.08-23.54.42:750][584]LogMemory: Process Physical Memory: 1091.24 MB used, 1099.21 MB peak
+[2017.03.08-23.54.42:750][584]LogMemory: Process Virtual Memory: 1001.25 MB used, 1010.36 MB peak
+[2017.03.08-23.54.42:750][584]LogMemory: Physical Memory: 3043.50 MB used,  775.41 MB free, 3818.90 MB total
+[2017.03.08-23.54.42:750][584]LogMemory: Virtual Memory: 2271.09 MB used,  775.41 MB free, 8388608.00 MB total
+[2017.03.08-23.54.42:750][584]LogMemory: 
+[2017.03.08-23.54.42:750][584]Allocator Stats for TBB: (not implemented)
+[2017.03.08-23.54.43:359][584]LogAIModule: Creating AISystem for world Fort_Exploration
+[2017.03.08-23.54.43:360][584]LogLoad: Game class is 'abyssExplorationMode_C'
+[2017.03.08-23.54.43:403][584]LogWorld: Bringing World /Game/Maps-Levels/Fort/UEDPIE_0_Fort_Exploration.Fort_Exploration up for play (max tick rate 60) at 2017.03.08-18.54.43
+[2017.03.08-23.54.43:412][584]LogWorld: Bringing up level for play took: 0.050510
+[2017.03.08-23.54.43:424][584]LogLoad: Took 1.799070 seconds to LoadMap(/Game/Maps-Levels/Fort/Fort_Exploration)
+[2017.03.08-23.54.45:697][621]LogNet: Browse: /Game/Maps-Levels/Fort_Battle
+[2017.03.08-23.54.45:697][621]LogLoad: LoadMap: /Game/Maps-Levels/Fort_Battle
+[2017.03.08-23.54.46:290][621]Cmd: MEM
+[2017.03.08-23.54.46:758][621]LogMemory: Platform Memory Stats for Windows
+[2017.03.08-23.54.46:758][621]LogMemory: Process Physical Memory: 1092.14 MB used, 1099.21 MB peak
+[2017.03.08-23.54.46:758][621]LogMemory: Process Virtual Memory: 1005.28 MB used, 1010.36 MB peak
+[2017.03.08-23.54.46:758][621]LogMemory: Physical Memory: 3043.01 MB used,  775.89 MB free, 3818.90 MB total
+[2017.03.08-23.54.46:758][621]LogMemory: Virtual Memory: 2275.90 MB used,  775.89 MB free, 8388608.00 MB total
+[2017.03.08-23.54.46:758][621]LogMemory: 
+[2017.03.08-23.54.46:758][621]Allocator Stats for TBB: (not implemented)
+[2017.03.08-23.54.47:209][621]LogAIModule: Creating AISystem for world Fort_Battle
+[2017.03.08-23.54.47:210][621]LogLoad: Game class is 'abyssBattleScene_C'
+[2017.03.08-23.54.47:221][621]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_Fort_Battle.Fort_Battle up for play (max tick rate 60) at 2017.03.08-18.54.47
+[2017.03.08-23.54.47:223][621]LogWorld: Bringing up level for play took: 0.011614
+[2017.03.08-23.54.47:224][621]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.03.08-23.54.47:250][621]LogLoad: Took 1.552766 seconds to LoadMap(/Game/Maps-Levels/Fort_Battle)
+[2017.03.08-23.54.55:444][748]LogBlueprintUserMessages: [BattleHUD_C_5] Attack missed!
+[2017.03.08-23.54.57:208][775]LogBlueprintUserMessages: [BattleHUD_C_5] Attack missed!
+[2017.03.08-23.54.57:209][775]LogBlueprintUserMessages: [BattleHUD_C_5] Enemy missed!
+[2017.03.08-23.55.02:933][862]LogBlueprintUserMessages: [BattleHUD_C_5] Enemy missed!
+[2017.03.08-23.55.06:533][917]LogBlueprintUserMessages: [BattleHUD_C_5] Couldn't escape!
+[2017.03.08-23.55.08:364][945]LogBlueprintUserMessages: [BattleHUD_C_5] Couldn't escape!
+[2017.03.08-23.55.10:197][973]LogBlueprintUserMessages: [BattleHUD_C_5] Couldn't escape!
+[2017.03.08-23.55.11:870][998]LogBlueprintUserMessages: [BattleHUD_C_5] Couldn't escape!
+[2017.03.08-23.55.13:575][ 24]LogBlueprintUserMessages: [BattleHUD_C_5] Couldn't escape!
+[2017.03.08-23.55.18:029][ 92]LogBlueprintUserMessages: [BattleHUD_C_5] Enemy is dead
+[2017.03.08-23.55.20:583][130]LogNet: Browse: /Game/Maps-Levels/Fort/Fort_Exploration
+[2017.03.08-23.55.20:584][130]LogLoad: LoadMap: /Game/Maps-Levels/Fort/Fort_Exploration
+[2017.03.08-23.55.21:174][130]Cmd: MEM
+[2017.03.08-23.55.21:653][130]LogMemory: Platform Memory Stats for Windows
+[2017.03.08-23.55.21:653][130]LogMemory: Process Physical Memory: 1096.17 MB used, 1099.21 MB peak
+[2017.03.08-23.55.21:653][130]LogMemory: Process Virtual Memory: 1009.35 MB used, 1010.36 MB peak
+[2017.03.08-23.55.21:653][130]LogMemory: Physical Memory: 3042.03 MB used,  776.88 MB free, 3818.90 MB total
+[2017.03.08-23.55.21:653][130]LogMemory: Virtual Memory: 2279.96 MB used,  776.88 MB free, 8388608.00 MB total
+[2017.03.08-23.55.21:653][130]LogMemory: 
+[2017.03.08-23.55.21:654][130]Allocator Stats for TBB: (not implemented)
+[2017.03.08-23.55.22:284][130]LogAIModule: Creating AISystem for world Fort_Exploration
+[2017.03.08-23.55.22:285][130]LogLoad: Game class is 'abyssExplorationMode_C'
+[2017.03.08-23.55.22:328][130]LogWorld: Bringing World /Game/Maps-Levels/Fort/UEDPIE_0_Fort_Exploration.Fort_Exploration up for play (max tick rate 60) at 2017.03.08-18.55.22
+[2017.03.08-23.55.22:332][130]LogWorld: Bringing up level for play took: 0.044836
+[2017.03.08-23.55.22:344][130]LogLoad: Took 1.760529 seconds to LoadMap(/Game/Maps-Levels/Fort/Fort_Exploration)
+[2017.03.08-23.55.25:209][176]LogNet: Browse: /Game/Maps-Levels/Fort_Battle
+[2017.03.08-23.55.25:210][176]LogLoad: LoadMap: /Game/Maps-Levels/Fort_Battle
+[2017.03.08-23.55.25:760][176]Cmd: MEM
+[2017.03.08-23.55.26:228][176]LogMemory: Platform Memory Stats for Windows
+[2017.03.08-23.55.26:228][176]LogMemory: Process Physical Memory: 1096.18 MB used, 1099.21 MB peak
+[2017.03.08-23.55.26:228][176]LogMemory: Process Virtual Memory: 1009.35 MB used, 1010.36 MB peak
+[2017.03.08-23.55.26:228][176]LogMemory: Physical Memory: 3042.05 MB used,  776.86 MB free, 3818.90 MB total
+[2017.03.08-23.55.26:228][176]LogMemory: Virtual Memory: 2279.96 MB used,  776.86 MB free, 8388608.00 MB total
+[2017.03.08-23.55.26:229][176]LogMemory: 
+[2017.03.08-23.55.26:229][176]Allocator Stats for TBB: (not implemented)
+[2017.03.08-23.55.26:695][176]LogAIModule: Creating AISystem for world Fort_Battle
+[2017.03.08-23.55.26:696][176]LogLoad: Game class is 'abyssBattleScene_C'
+[2017.03.08-23.55.26:708][176]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_Fort_Battle.Fort_Battle up for play (max tick rate 60) at 2017.03.08-18.55.26
+[2017.03.08-23.55.26:710][176]LogWorld: Bringing up level for play took: 0.011888
+[2017.03.08-23.55.26:711][176]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.03.08-23.55.26:738][176]LogLoad: Took 1.528330 seconds to LoadMap(/Game/Maps-Levels/Fort_Battle)
+[2017.03.08-23.55.28:226][200]LogBlueprintUserMessages: [BattleHUD_C_6] Attack missed!
+[2017.03.08-23.55.29:211][215]LogBlueprintUserMessages: [BattleHUD_C_6] Player has died!
+[2017.03.08-23.55.32:301][261]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu' with GeneratedClass '/Game/Maps-Levels/startMenu.startMenu_C' with ClassGeneratedBy '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu'
+[2017.03.08-23.55.32:358][261]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu' with GeneratedClass '/Game/Maps-Levels/startMenu.startMenu_C' with ClassGeneratedBy '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu'
+[2017.03.08-23.57.24:697][372]LogAIModule: Creating AISystem for world Fort_Exploration
+[2017.03.08-23.57.25:483][372]Cmd: MAP LOAD FILE="../../../../../../Users/Anthony/Documents/GitHub/ChimeraGames/Abyss/Content/Maps-Levels/Fort/Fort_Exploration.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.08-23.57.25:486][372]LightingResults: New page: Lighting Build
+[2017.03.08-23.57.25:491][372]LoadErrors: New page: Loading map: Fort_Exploration.umap
+[2017.03.08-23.57.25:507][372]MapCheck: New page: Map Check
+[2017.03.08-23.57.25:507][372]LightingResults: New page: Lighting Build
+[2017.03.08-23.57.26:078][372]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.08-23.57.26:382][372]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.08-23.57.26:863][372]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 480.778ms to complete.
+[2017.03.08-23.57.26:894][372]LogFileHelpers: Loading map 'Fort_Exploration' took 1.414
+[2017.03.08-23.57.36:889][625]LogEditorViewport: Clicking on Actor (LMB): Fort_BattleTrigger_C (Fort_BattleTrigger)
+[2017.03.08-23.59.19:661][ 78]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0035 seconds. Added 111 classes and 0 folders.
+[2017.03.09-00.00.02:842][887]LogRenderer: Reallocating scene render targets to support 856x464 NumSamples 1 (Frame:5386).
+[2017.03.09-00.01.51:056][468]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Fort_TileMap)
+[2017.03.09-00.01.53:162][479]LogEditorViewport: Clicking on Actor (LMB): Fort_BattleTrigger_C (Fort_BattleTrigger)
+[2017.03.09-00.06.48:584][540]LogRenderer: Reallocating scene render targets to support 876x476 NumSamples 1 (Frame:7929).
+[2017.03.09-00.07.01:591][703]LogTexture:Display: Building textures: Enemy_Lich_Idle_Frame2 (BGRA8)
+[2017.03.09-00.07.02:270][703]LogTexture:Display: Building textures: Enemy_Lich_Idle_Frame1 (BGRA8)
+[2017.03.09-00.07.03:259][707]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.03.09-00.07.03:767][707]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.03.09-00.07.04:269][708]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.03.09-00.22.20:241][276]LogEditorViewport: Clicking on Actor (LMB): Fort_BattleTrigger_C (Fort_BattleTrigger8)
+[2017.03.09-00.23.11:648][413]LogTexture:Display: Building textures: HUD_Portrait_Enemy_Lich (BGRA8)
+[2017.03.09-00.23.48:670][245]LogTexture:Display: Building textures: Enemy_Lich_AttackFrame2 (BGRA8)
+[2017.03.09-00.23.53:640][351]LogTexture:Display: Building textures: Enemy_Lich_Death (BGRA8)
+[2017.03.09-00.24.05:935][631]LogEditorViewport: Clicking on Actor (LMB): Fort_BattleTrigger_C (Fort_BattleTrigger)
+[2017.03.09-00.24.20:944][971]LogEditorViewport: Clicking on Actor (LMB): Fort_BattleTrigger_C (Fort_BattleTrigger3)
+[2017.03.09-00.24.29:645][166]LogEditorViewport: Clicking on Actor (LMB): Fort_BattleTrigger_C (Fort_BattleTrigger2)
+[2017.03.09-00.24.43:767][484]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Fort_TileMap)
+[2017.03.09-00.24.45:761][522]LogEditorViewport: Clicking on Actor (LMB): LightableTorch_C (LightableTorch2)
+[2017.03.09-00.24.46:928][541]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Fort_TileMap)
+[2017.03.09-00.24.47:887][557]LogEditorViewport: Clicking on Actor (LMB): Fort_BattleTrigger_C (Fort_BattleTrigger)
+[2017.03.09-00.25.24:873][ 48]LogEditorViewport: Clicking on Actor (LMB): Fort_BattleTrigger_C (Fort_BattleTrigger8)
+[2017.03.09-00.26.38:181][683]LogEditorViewport: Clicking Background
+[2017.03.09-00.26.40:777][747]LogEditorViewport: Clicking on Actor (LMB): Fort_BattleTrigger_C (Fort_BattleTrigger8)
+[2017.03.09-00.27.07:157][327]LogEditorViewport: Clicking on Actor (LMB): Ladder_C (Ladder5)
+[2017.03.09-00.27.09:967][371]LogEditorViewport: Clicking on Actor (LMB): Ladder_C (Ladder5)
+[2017.03.09-00.27.10:790][383]LogEditorViewport: Clicking on Actor (LMB): Ladder_C (Ladder5)
+[2017.03.09-00.27.11:456][392]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Fort_TileMap3)
+[2017.03.09-00.27.12:422][400]LogEditorViewport: Clicking Background
+[2017.03.09-00.27.14:042][424]LogEditorViewport: Clicking on Actor (LMB): Ladder_C (Ladder5)
+[2017.03.09-00.27.15:802][454]LogEditorViewport: Clicking Background
+[2017.03.09-00.27.17:607][494]LogEditorViewport: Clicking on Actor (LMB): Ladder_C (Ladder5)
+[2017.03.09-00.27.18:908][520]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Fort_TileMap3)
+[2017.03.09-00.27.19:708][527]LogEditorViewport: Clicking Background
+[2017.03.09-00.28.21:028][836]LogEditorViewport: Clicking on Actor (LMB): Fort_BattleTrigger_C (Fort_BattleTrigger6)
+[2017.03.09-00.28.31:555][ 63]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Fort_TileMap3)
+[2017.03.09-00.28.33:097][ 91]LogEditorViewport: Clicking Background
+[2017.03.09-00.28.34:204][118]LogEditorViewport: Clicking on Actor (LMB): Fort_BattleTrigger_C (Fort_BattleTrigger5)
+[2017.03.09-00.30.03:285][178]LogEditorViewport: Clicking on Actor (LMB): Fort_BattleTrigger_C (Fort_BattleTrigger6)
+[2017.03.09-00.30.32:944][820]LogEditorViewport: Clicking on Actor (LMB): Fort_BattleTrigger_C (Fort_BattleTrigger5)
+[2017.03.09-00.30.54:715][300]LogEditorViewport: Clicking on Actor (LMB): Fort_BattleTrigger_C (Fort_BattleTrigger4)
+[2017.03.09-00.31.39:263][337]LogEditorViewport: Clicking on Actor (LMB): Ladder_C (Ladder5)
+[2017.03.09-00.31.40:970][374]LogEditorViewport: Clicking on Actor (LMB): Ladder_C (Ladder5)
+[2017.03.09-00.31.55:301][696]LogEditorViewport: Clicking on Actor (LMB): Fort_BattleTrigger_C (Fort_BattleTrigger6)
+[2017.03.09-00.32.00:520][811]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Fort_TileMap3)
+[2017.03.09-00.32.01:819][833]LogEditorViewport: Clicking on Actor (LMB): Fort_BattleTrigger_C (Fort_BattleTrigger5)
+[2017.03.09-00.32.08:720][969]LogEditorViewport: Clicking Background
+[2017.03.09-00.32.13:183][ 57]LogEditorViewport: Clicking on Actor (LMB): Fort_BattleTrigger_C (Fort_BattleTrigger4)
+[2017.03.09-00.32.16:675][135]LogEditorViewport: Clicking on Actor (LMB): Fort_BattleTrigger_C (Fort_BattleTrigger2)
+[2017.03.09-00.32.28:615][387]LogEditorViewport: Clicking on Actor (LMB): Fort_BattleTrigger_C (Fort_BattleTrigger4)
+[2017.03.09-00.32.30:201][416]LogEditorViewport: Clicking on Actor (LMB): Fort_BattleTrigger_C (Fort_BattleTrigger2)
+[2017.03.09-00.32.42:832][702]LogEditorViewport: Clicking on Actor (LMB): Fort_BattleTrigger_C (Fort_BattleTrigger3)
+[2017.03.09-00.34.39:114][401]LogEditorViewport: Clicking on Actor (LMB): Fort_BattleTrigger_C (Fort_BattleTrigger8)
+[2017.03.09-00.35.28:083][515]LogEditorViewport: Clicking on Actor (LMB): Fort_BattleTrigger_C (Fort_BattleTrigger3)
+[2017.03.09-00.36.00:710][263]LogEditorViewport: Clicking on Actor (LMB): Fort_BattleTrigger_C (Fort_BattleTrigger)
+[2017.03.09-00.36.26:379][889]LogEditorViewport: Clicking on Actor (LMB): Fort_BattleTrigger_C (Fort_BattleTrigger2)
+[2017.03.09-00.36.34:390][ 80]LogEditorViewport: Clicking on Actor (LMB): Fort_BattleTrigger_C (Fort_BattleTrigger4)
+[2017.03.09-00.36.38:126][168]LogEditorViewport: Clicking on Actor (LMB): Fort_BattleTrigger_C (Fort_BattleTrigger6)
+[2017.03.09-00.36.50:181][463]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.09-00.36.50:383][463]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps-Levels/Fort/Fort_Exploration.Fort_Exploration:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration' with GeneratedClass '/Game/Maps-Levels/Fort/Fort_Exploration.Fort_Exploration_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration'
+[2017.03.09-00.36.50:383][463]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.09-00.36.50:384][463]PIE: New page: PIE session: Fort_Exploration (Mar 8, 2017, 2:36:50 PM)
+[2017.03.09-00.36.50:387][463]LogPlayLevel: Creating play world package: /Game/Maps-Levels/Fort/UEDPIE_0_Fort_Exploration
+[2017.03.09-00.36.50:403][463]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015990s)
+[2017.03.09-00.36.50:405][463]LogAIModule: Creating AISystem for world Fort_Exploration
+[2017.03.09-00.36.50:406][463]LogPlayLevel: PIE: World Init took: (0.002844s)
+[2017.03.09-00.36.50:406][463]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps-Levels/Fort/Fort_Exploration.Fort_Exploration to /Game/Maps-Levels/Fort/UEDPIE_0_Fort_Exploration.Fort_Exploration (0.019567s)
+[2017.03.09-00.36.51:408][463]LogInit: XAudio2 using 'Speakers (Conexant High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.09-00.36.51:437][463]LogInit: FAudioDevice initialized.
+[2017.03.09-00.36.51:570][463]LogLoad: Game class is 'abyssExplorationMode_C'
+[2017.03.09-00.36.51:587][463]LogWorld: Bringing World /Game/Maps-Levels/Fort/UEDPIE_0_Fort_Exploration.Fort_Exploration up for play (max tick rate 60) at 2017.03.08-19.36.51
+[2017.03.09-00.36.51:591][463]LogWorld: Bringing up level for play took: 0.018361
+[2017.03.09-00.36.51:604][463]PIE: Info Play in editor start time for /Game/Maps-Levels/Fort/UEDPIE_0_Fort_Exploration 0.582
+[2017.03.09-00.36.51:605][463]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps-Levels/Fort/Fort_Exploration.Fort_Exploration:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration' with GeneratedClass '/Game/Maps-Levels/Fort/Fort_Exploration.Fort_Exploration_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration'
+[2017.03.09-00.37.33:162][ 64]LogNet: Browse: /Game/Maps-Levels/Fort_Battle
+[2017.03.09-00.37.33:167][ 64]LogLoad: LoadMap: /Game/Maps-Levels/Fort_Battle
+[2017.03.09-00.37.33:747][ 64]Cmd: MEM
+[2017.03.09-00.37.34:257][ 64]LogMemory: Platform Memory Stats for Windows
+[2017.03.09-00.37.34:257][ 64]LogMemory: Process Physical Memory: 1284.99 MB used, 1317.41 MB peak
+[2017.03.09-00.37.34:257][ 64]LogMemory: Process Virtual Memory: 1205.03 MB used, 1206.03 MB peak
+[2017.03.09-00.37.34:257][ 64]LogMemory: Physical Memory: 2990.24 MB used,  828.66 MB free, 3818.90 MB total
+[2017.03.09-00.37.34:257][ 64]LogMemory: Virtual Memory: 2468.70 MB used,  828.66 MB free, 8388608.00 MB total
+[2017.03.09-00.37.34:257][ 64]LogMemory: 
+[2017.03.09-00.37.34:257][ 64]Allocator Stats for TBB: (not implemented)
+[2017.03.09-00.37.35:583][ 64]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.446 s
+[2017.03.09-00.37.35:583][ 64]LogOutputDevice:Error: === Handled ensure: ===
+[2017.03.09-00.37.35:583][ 64]LogOutputDevice:Error: 
+[2017.03.09-00.37.35:583][ 64]LogOutputDevice:Error: Ensure condition failed: IsObjectValidForDatabase(AssetObject) [File:D:\Build\++UE4+Release-4.14+Compile\Sync\Engine\Source\Editor\BlueprintGraph\Private\BlueprintActionDatabase.cpp] [Line: 1263]
+[2017.03.09-00.37.35:583][ 64]LogOutputDevice:Error: 
+[2017.03.09-00.37.35:583][ 64]LogOutputDevice:Error: Stack: 
+[2017.03.09-00.37.35:583][ 64]LogOutputDevice:Error: UE4Editor-Core.dll
+[2017.03.09-00.37.35:583][ 64]LogOutputDevice:Error: UE4Editor-Core.dll
+[2017.03.09-00.37.35:583][ 64]LogOutputDevice:Error: UE4Editor-Core.dll
+[2017.03.09-00.37.35:583][ 64]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll
+[2017.03.09-00.37.35:583][ 64]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll
+[2017.03.09-00.37.35:583][ 64]LogOutputDevice:Error: UE4Editor-CoreUObject.dll
+[2017.03.09-00.37.35:584][ 64]LogOutputDevice:Error: UE4Editor-CoreUObject.dll
+[2017.03.09-00.37.35:584][ 64]LogOutputDevice:Error: UE4Editor-CoreUObject.dll
+[2017.03.09-00.37.35:584][ 64]LogOutputDevice:Error: UE4Editor-CoreUObject.dll
+[2017.03.09-00.37.35:584][ 64]LogOutputDevice:Error: UE4Editor-Engine.dll
+[2017.03.09-00.37.35:584][ 64]LogOutputDevice:Error: UE4Editor-Engine.dll
+[2017.03.09-00.37.35:584][ 64]LogOutputDevice:Error: UE4Editor-Engine.dll
+[2017.03.09-00.37.35:584][ 64]LogOutputDevice:Error: UE4Editor-UnrealEd.dll
+[2017.03.09-00.37.35:584][ 64]LogOutputDevice:Error: UE4Editor-UnrealEd.dll
+[2017.03.09-00.37.35:584][ 64]LogOutputDevice:Error: UE4Editor.exe
+[2017.03.09-00.37.35:584][ 64]LogOutputDevice:Error: UE4Editor.exe
+[2017.03.09-00.37.35:584][ 64]LogOutputDevice:Error: UE4Editor.exe
+[2017.03.09-00.37.35:584][ 64]LogOutputDevice:Error: UE4Editor.exe
+[2017.03.09-00.37.35:584][ 64]LogOutputDevice:Error: UE4Editor.exe
+[2017.03.09-00.37.35:584][ 64]LogOutputDevice:Error: kernel32.dll
+[2017.03.09-00.37.35:584][ 64]LogOutputDevice:Error: ntdll.dll
+[2017.03.09-00.37.35:584][ 64]LogOutputDevice:Error: 
+[2017.03.09-00.37.35:586][ 64]LogStats:                SubmitErrorReport -  0.000 s
