@@ -1,0 +1,1068 @@
+﻿Log file open, 03/08/17 20:16:17
+LogInit:Display: Running engine for game: Abyss
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(603203561) SRandInit(603203561).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.140361
+LogPluginManager: Loaded Plugin Paper2D, From D:/UE4/UE_4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From D:/UE4/UE_4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From D:/UE4/UE_4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From D:/UE4/UE_4.14/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From D:/UE4/UE_4.14/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From D:/UE4/UE_4.14/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From D:/UE4/UE_4.14/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From D:/UE4/UE_4.14/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From D:/UE4/UE_4.14/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From D:/UE4/UE_4.14/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From D:/UE4/UE_4.14/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From D:/UE4/UE_4.14/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From D:/UE4/UE_4.14/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin AudioCapture, From D:/UE4/UE_4.14/Engine/Plugins/Editor/AudioCapture/AudioCapture.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From D:/UE4/UE_4.14/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From D:/UE4/UE_4.14/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From D:/UE4/UE_4.14/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From D:/UE4/UE_4.14/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From D:/UE4/UE_4.14/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From D:/UE4/UE_4.14/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From D:/UE4/UE_4.14/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From D:/UE4/UE_4.14/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From D:/UE4/UE_4.14/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From D:/UE4/UE_4.14/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From D:/UE4/UE_4.14/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From D:/UE4/UE_4.14/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin OSVR, From D:/UE4/UE_4.14/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From D:/UE4/UE_4.14/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From D:/UE4/UE_4.14/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From D:/UE4/UE_4.14/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From D:/UE4/UE_4.14/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From D:/UE4/UE_4.14/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin HGGifImporter, From D:/UE4/UE_4.14/Engine/Plugins/Marketplace/HGGifImporter/HGGifImporter.uplugin
+LogPluginManager: Loaded Plugin UnrealJS, From D:/UE4/UE_4.14/Engine/Plugins/Marketplace/UnrealJS/UnrealJS.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From D:/UE4/UE_4.14/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From D:/UE4/UE_4.14/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From D:/UE4/UE_4.14/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From D:/UE4/UE_4.14/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From D:/UE4/UE_4.14/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From D:/UE4/UE_4.14/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From D:/UE4/UE_4.14/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From D:/UE4/UE_4.14/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From D:/UE4/UE_4.14/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From D:/UE4/UE_4.14/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From D:/UE4/UE_4.14/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGameCircle, From D:/UE4/UE_4.14/Engine/Plugins/Online/Android/OnlineSubsystemGameCircle/OnlineSubsystemGameCircle.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From D:/UE4/UE_4.14/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From D:/UE4/UE_4.14/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From D:/UE4/UE_4.14/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From D:/UE4/UE_4.14/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From D:/UE4/UE_4.14/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From D:/UE4/UE_4.14/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From D:/UE4/UE_4.14/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From D:/UE4/UE_4.14/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From D:/UE4/UE_4.14/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From D:/UE4/UE_4.14/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From D:/UE4/UE_4.14/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From D:/UE4/UE_4.14/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From D:/UE4/UE_4.14/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From D:/UE4/UE_4.14/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From D:/UE4/UE_4.14/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From D:/UE4/UE_4.14/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From D:/UE4/UE_4.14/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From D:/UE4/UE_4.14/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From D:/UE4/UE_4.14/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From D:/UE4/UE_4.14/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From D:/UE4/UE_4.14/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From D:/UE4/UE_4.14/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From D:/UE4/UE_4.14/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From D:/UE4/UE_4.14/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From D:/UE4/UE_4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From D:/UE4/UE_4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From D:/UE4/UE_4.14/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From D:/UE4/UE_4.14/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From D:/UE4/UE_4.14/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin MIDIDevice, From D:/UE4/UE_4.14/Engine/Plugins/Runtime/MIDIDevice/MIDIDevice.uplugin
+LogPluginManager: Loaded Plugin MobilePatchingUtils, From D:/UE4/UE_4.14/Engine/Plugins/Runtime/MobilePatchingUtils/MobilePatchingUtils.uplugin
+LogPluginManager: Loaded Plugin Ansel, From D:/UE4/UE_4.14/Engine/Plugins/Runtime/Nvidia/Ansel/Ansel.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From D:/UE4/UE_4.14/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From D:/UE4/UE_4.14/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From D:/UE4/UE_4.14/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From D:/UE4/UE_4.14/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From D:/UE4/UE_4.14/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From D:/UE4/UE_4.14/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From D:/UE4/UE_4.14/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From D:/UE4/UE_4.14/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From D:/UE4/UE_4.14/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From D:/UE4/UE_4.14/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From D:/UE4/UE_4.14/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From D:/UE4/UE_4.14/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From D:/UE4/UE_4.14/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From D:/UE4/UE_4.14/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From D:/UE4/UE_4.14/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogPluginManager: Loaded Plugin EditorTests, From D:/UE4/UE_4.14/Engine/Plugins/Tests/EditorTests/EditorTests.uplugin
+LogPluginManager: Loaded Plugin FbxAutomationTestBuilder, From D:/UE4/UE_4.14/Engine/Plugins/Tests/FbxAutomationTestBuilder/FbxAutomationTestBuilder.uplugin
+LogPluginManager: Loaded Plugin FunctionalTestingEditor, From D:/UE4/UE_4.14/Engine/Plugins/Tests/FunctionalTestingEditor/FunctionalTestingEditor.uplugin
+LogPluginManager: Loaded Plugin RuntimeTests, From D:/UE4/UE_4.14/Engine/Plugins/Tests/RuntimeTests/RuntimeTests.uplugin
+LogPluginManager: Loaded Plugin ScreenshotTools, From D:/UE4/UE_4.14/Engine/Plugins/Tests/ScreenshotTools/ScreenshotTools.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.14-CL-3249277
+LogInit: Engine Version: 4.14.3-3249277+++UE4+Release-4.14
+LogInit: Compatible Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Net CL: 3195953
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 7
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 8
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 17
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 1
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jan  6 2017 10:49:43
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.14
+LogInit: Command line:  
+LogInit: Base directory: D:/UE4/UE_4.14/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.03.09-01.16.18:677][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.09-01.16.18:677][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.03.09-01.16.18:794][  0]LogInit: Computer: NATHAN-PC
+[2017.03.09-01.16.18:794][  0]LogInit: User: nathan
+[2017.03.09-01.16.18:794][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.03.09-01.16.18:794][  0]LogInit: High frequency timer resolution =3.897819 MHz
+[2017.03.09-01.16.18:810][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.03.09-01.16.18:812][  0]LogMemory: Platform Memory Stats for Windows
+[2017.03.09-01.16.18:812][  0]LogMemory: Process Physical Memory: 268.30 MB used, 268.30 MB peak
+[2017.03.09-01.16.18:812][  0]LogMemory: Process Virtual Memory: 262.86 MB used, 262.86 MB peak
+[2017.03.09-01.16.18:812][  0]LogMemory: Physical Memory: 4274.86 MB used,  12066.83 MB free, 16341.69 MB total
+[2017.03.09-01.16.18:812][  0]LogMemory: Virtual Memory: 675.18 MB used,  12066.83 MB free, 134217728.00 MB total
+[2017.03.09-01.16.19:922][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.03.09-01.16.23:521][  0]LogD3D11RHI: D3D11 adapters:
+[2017.03.09-01.16.24:033][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2017.03.09-01.16.24:033][  0]LogD3D11RHI:       4061/0/8170 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.03.09-01.16.24:035][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.03.09-01.16.24:035][  0]LogD3D11RHI:       0/0/8170 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.03.09-01.16.24:035][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.03.09-01.16.24:044][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.03.09-01.16.24:044][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
+[2017.03.09-01.16.24:044][  0]LogWindows: EnumDisplayDevices:
+[2017.03.09-01.16.24:044][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
+[2017.03.09-01.16.24:052][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:1)
+[2017.03.09-01.16.24:052][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.03.09-01.16.24:053][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.03.09-01.16.24:053][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.03.09-01.16.24:053][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2017.03.09-01.16.24:053][  0]LogD3D11RHI:   Driver Version: 376.53 (internal:21.21.13.7653, unified:376.53)
+[2017.03.09-01.16.24:053][  0]LogD3D11RHI:      Driver Date: 12-29-2016
+[2017.03.09-01.16.24:053][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.03.09-01.16.24:499][  0]LogD3D11RHI: Async texture creation enabled
+[2017.03.09-01.16.25:326][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.03.09-01.16.25:494][  0]LogShaderCompilers: Guid format shader working directory is 13 characters bigger than the processId version (C:/Users/nathan/Desktop/Test/Abyss/Intermediate/Shaders/WorkingDirectory/5264/).
+[2017.03.09-01.16.25:494][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/nathan/AppData/Local/Temp/UnrealShaderWorkingDir/B73CA4334652348644C878BACC824AC2/'.
+[2017.03.09-01.16.25:503][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.03.09-01.16.29:466][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.03.09-01.16.29:524][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.03.09-01.16.29:580][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.03.09-01.16.29:637][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.03.09-01.16.29:709][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.03.09-01.16.29:766][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.03.09-01.16.29:823][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.03.09-01.16.29:879][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.03.09-01.16.29:921][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.03.09-01.16.29:980][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.03.09-01.16.30:038][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.03.09-01.16.30:094][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.03.09-01.16.30:151][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.03.09-01.16.30:207][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.03.09-01.16.30:263][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.03.09-01.16.30:375][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.03.09-01.16.30:375][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.03.09-01.16.30:409][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.03.09-01.16.30:563][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.03.09-01.16.30:602][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.03.09-01.16.30:657][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.03.09-01.16.30:713][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.03.09-01.16.30:768][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.03.09-01.16.30:838][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.03.09-01.16.30:838][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.03.09-01.16.32:121][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.03.09-01.16.32:521][  0]LogDerivedDataCache: Loaded boot cache 0.40s 50MB C:/Users/nathan/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.03.09-01.16.32:521][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/nathan/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2017.03.09-01.16.32:521][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/nathan/Desktop/Test/Abyss/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.03.09-01.16.32:521][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.03.09-01.16.32:521][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/nathan/Desktop/Test/Abyss/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.03.09-01.16.32:521][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.03.09-01.16.32:578][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.03.09-01.16.32:592][  0]LogDerivedDataCache: Using Local data cache path C:/Users/nathan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.03.09-01.16.42:458][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.09-01.16.42:538][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.03.09-01.16.43:478][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.03.09-01.16.43:589][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.03.09-01.16.43:644][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.03.09-01.16.43:644][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.03.09-01.16.43:644][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.03.09-01.16.50:092][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: abyss, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1595127573
+[2017.03.09-01.16.50:336][  0]LogAssetRegistry: FAssetRegistry took 0.0244 seconds to start up
+[2017.03.09-01.16.50:653][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.104155 seconds
+[2017.03.09-01.16.50:674][  0]LogUObjectArray: 31890 objects as part of root set at end of initial load.
+[2017.03.09-01.16.50:674][  0]LogUObjectAllocator: 6922376 out of 0 bytes used by permanent object pool.
+[2017.03.09-01.16.50:674][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.03.09-01.16.50:735][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.03.09-01.16.54:565][  0]LogSlate: Using Freetype 2.6.0
+[2017.03.09-01.16.54:657][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.09-01.16.54:658][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.09-01.17.19:379][  0]JavascriptCmd: Unreal.js started. V8 5.7.201
+[2017.03.09-01.17.23:834][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.03.09-01.17.24:942][  0]SourceControl: Info Source control is disabled
+[2017.03.09-01.17.25:220][  0]LogSourceControl:Error: 'C:/Users/nathan/Desktop/Test/Abyss/' is not part of a Git repository
+[2017.03.09-01.17.25:571][  0]LogSourceControl:Error: 'C:/Users/nathan/Desktop/Test/Abyss/' is not part of a Git repository
+[2017.03.09-01.17.25:810][  0]LogSourceControl:Error: 'C:/Users/nathan/Desktop/Test/Abyss/' is not part of a Git repository
+[2017.03.09-01.17.30:366][  0]ImportText (YAxis): Missing opening parenthesis: 0.000000,1.000000,0.000000
+[2017.03.09-01.17.30:366][  0]ImportText (ZAxis): Missing opening parenthesis: 0.000000,0.000000,1.000000
+[2017.03.09-01.17.30:367][  0]ImportText (Rotation): Missing opening parenthesis: -90.000000,0.000000,0.000000
+[2017.03.09-01.17.30:371][  0]ImportText (B): Missing opening parenthesis: 1.000000,1.000000,1.000000
+[2017.03.09-01.17.32:321][  0]LogEngine: Initializing Engine...
+[2017.03.09-01.17.33:430][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.03.09-01.17.33:568][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.09-01.17.33:596][  0]LogInit: FAudioDevice initialized.
+[2017.03.09-01.17.33:642][  0]LogDerivedDataCache: Saved boot cache 0.05s 50MB C:/Users/nathan/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.03.09-01.17.33:658][  0]LogInit: Texture streaming: Enabled
+[2017.03.09-01.17.34:507][  0]LogInit: Transaction tracking system initialized
+[2017.03.09-01.17.38:096][  0]BlueprintLog: New page: Editor Load
+[2017.03.09-01.17.40:213][  0]LocalizationService: Info Localization service is disabled
+[2017.03.09-01.17.40:834][  0]LogModuleManager:Warning: No filename provided for module TcpMessaging
+[2017.03.09-01.17.40:834][  0]LogModuleManager:Warning: ModuleManager: Unable to load module 'TcpMessaging' because the file 'D:/UE4/UE_4.14/Engine/Binaries/Win64/' was not found.
+[2017.03.09-01.17.41:730][  0]LogConsoleResponse:Display: 
+[2017.03.09-01.17.43:195][  0]LogFileCache: Scanning file cache for directory 'C:/Users/nathan/Desktop/Test/Abyss/Content/' took 0.02s
+[2017.03.09-01.17.43:195][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.03.09-01.17.43:203][  0]LogCook:Display: Mobile HDR setting 1
+[2017.03.09-01.17.48:058][  0]LogSourceControl:Error: 'C:/Users/nathan/Desktop/Test/Abyss/' is not part of a Git repository
+[2017.03.09-01.17.48:108][  0]Cmd: MAP LOAD FILE="C:/Users/nathan/Desktop/Test/Abyss/Content/Maps-Levels/startMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.09-01.17.48:120][  0]LightingResults: New page: Lighting Build
+[2017.03.09-01.17.48:482][  0]MapCheck: New page: Map Check
+[2017.03.09-01.17.48:482][  0]LightingResults: New page: Lighting Build
+[2017.03.09-01.17.50:341][  0]LogTexture:Display: Building textures: Splash (BGRA8)
+[2017.03.09-01.17.50:440][  0]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2017.03.09-01.17.50:471][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2017.03.09-01.17.50:521][  0]LogAIModule: Creating AISystem for world startMenu
+[2017.03.09-01.17.50:784][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.09-01.17.50:828][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.09-01.17.50:973][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 144.553ms to complete.
+[2017.03.09-01.17.50:973][  0]LogFileHelpers: Loading map 'startMenu' took 2.871
+[2017.03.09-01.17.55:943][  0]LogCollectionManager: Loaded 0 collections in 0.001459 seconds
+[2017.03.09-01.17.57:270][  0]LogFileCache: Scanning file cache for directory 'C:/Users/nathan/Desktop/Test/Abyss/Saved/Collections/' took 0.01s
+[2017.03.09-01.17.57:270][  0]LogFileCache: Scanning file cache for directory 'C:/Users/nathan/Desktop/Test/Abyss/Content/Developers/nathan/Collections/' took 0.01s
+[2017.03.09-01.17.57:270][  0]LogFileCache: Scanning file cache for directory 'C:/Users/nathan/Desktop/Test/Abyss/Content/Collections/' took 0.01s
+[2017.03.09-01.17.57:270][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.03.09-01.17.57:453][  0]LogContentBrowser: Native class hierarchy populated in 0.0522 seconds. Added 2245 classes and 411 folders.
+[2017.03.09-01.17.57:735][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.03.09-01.17.57:736][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.001 s
+[2017.03.09-01.17.57:737][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0007 seconds. Added 13 classes and 0 folders.
+[2017.03.09-01.17.57:930][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.03.09-01.18.00:200][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.03.09-01.18.00:526][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.03.09-01.18.04:318][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.03.09-01.18.04:676][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.03.09-01.18.04:847][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.03.09-01.18.04:849][  0]LogLoad: (Engine Initialization) Total time: 112.57 seconds
+[2017.03.09-01.18.04:849][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.18 seconds
+[2017.03.09-01.18.04:866][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.03.09-01.18.04:866][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.03.09-01.18.05:694][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.03.09-01.18.06:417][  0]LogRenderer: Reallocating scene render targets to support 1036x476 NumSamples 1 (Frame:2).
+[2017.03.09-01.18.06:604][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/nathan/Desktop/Test/Abyss/Content/' took 1.26s
+[2017.03.09-01.18.07:286][  3]LogAssetRegistry: Asset discovery search completed in 76.9721 seconds
+[2017.03.09-01.18.07:295][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.03.09-01.18.07:295][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.009032 seconds (updated 0 objects)
+[2017.03.09-01.19.27:541][909]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 111 classes and 0 folders.
+[2017.03.09-01.20.16:299][839]LogTexture:Display: Building textures: Enemy_Lich_Idle_Frame2 (BGRA8)
+[2017.03.09-01.20.16:936][840]LogRenderer: Reallocating scene render targets to support 1272x608 NumSamples 1 (Frame:5133).
+[2017.03.09-01.22.30:155][756]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\nathan\Downloads\Pasted image at 2017_03_08 08_13 PM.png)
+[2017.03.09-01.22.30:175][756]LogTexture:Display: Building textures: Pasted_image_at_2017_03_08_08_13_PM (AutoDXT)
+[2017.03.09-01.22.35:392][287]LogSavePackage: Save=25.82ms
+[2017.03.09-01.22.35:392][287]LogSavePackage: Moving 'C:/Users/nathan/Desktop/Test/Abyss/Saved/Pasted_image_at_2017_03_08_08_13_PM52B3F48548013E1D00F6F78A6D3F5ABE.tmp' to 'C:/Users/nathan/Desktop/Test/Abyss/Content/Assets/Sprites/Pasted_image_at_2017_03_08_08_13_PM.uasset'
+[2017.03.09-01.22.35:418][287]LogSavePackage:Display: Finished SavePackage C:/Users/nathan/Desktop/Test/Abyss/Content/Assets/Sprites/Pasted_image_at_2017_03_08_08_13_PM.uasset
+[2017.03.09-01.22.40:685][844]LogSavePackage: Save=23.14ms
+[2017.03.09-01.22.40:685][844]LogSavePackage: Moving 'C:/Users/nathan/Desktop/Test/Abyss/Saved/Pasted_image_at_2017_03_08_08_13_PMB50660A64E6FF00629EA1F805CA4475A.tmp' to 'C:/Users/nathan/Desktop/Test/Abyss/Content/Assets/Sprites/Other/Pasted_image_at_2017_03_08_08_13_PM.uasset'
+[2017.03.09-01.22.40:689][844]LogSavePackage:Display: Finished SavePackage C:/Users/nathan/Desktop/Test/Abyss/Content/Assets/Sprites/Other/Pasted_image_at_2017_03_08_08_13_PM.uasset
+[2017.03.09-01.22.44:068][110]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.03.09-01.23.22:023][189]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Sprites/Other/Victory_Screen" FILE="C:/Users/nathan/Desktop/Test/Abyss/Content/Assets/Sprites/Other/Victory_Screen.uasset" SILENT=true
+[2017.03.09-01.23.22:037][189]LogSavePackage: Save=11.60ms
+[2017.03.09-01.23.22:037][189]LogSavePackage: Moving 'C:/Users/nathan/Desktop/Test/Abyss/Saved/Victory_ScreenA26556A34B9C23E0A2A35AA2BC23B393.tmp' to 'C:/Users/nathan/Desktop/Test/Abyss/Content/Assets/Sprites/Other/Victory_Screen.uasset'
+[2017.03.09-01.23.22:041][189]LogSavePackage:Display: Finished SavePackage C:/Users/nathan/Desktop/Test/Abyss/Content/Assets/Sprites/Other/Victory_Screen.uasset
+[2017.03.09-01.23.59:891][523]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.09-01.23.59:955][523]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu' with GeneratedClass '/Game/Maps-Levels/startMenu.startMenu_C' with ClassGeneratedBy '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu'
+[2017.03.09-01.23.59:972][523]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.03.09-01.23.59:972][523]LogPlayLevel: [PlayLevel] Compiling LossBattle before play...
+[2017.03.09-01.24.00:394][523]LogPlayLevel: PlayLevel: Blueprint regeneration took 422 ms (1 blueprints)
+[2017.03.09-01.24.00:426][523]PIE: New page: PIE session: startMenu (Mar 8, 2017, 3:24:00 PM)
+[2017.03.09-01.24.00:503][523]LogPlayLevel: Creating play world package: /Game/Maps-Levels/UEDPIE_0_startMenu
+[2017.03.09-01.24.00:504][523]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001436s)
+[2017.03.09-01.24.00:505][523]LogAIModule: Creating AISystem for world startMenu
+[2017.03.09-01.24.00:505][523]LogPlayLevel: PIE: World Init took: (0.001110s)
+[2017.03.09-01.24.00:513][523]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps-Levels/startMenu.startMenu to /Game/Maps-Levels/UEDPIE_0_startMenu.startMenu (0.010501s)
+[2017.03.09-01.24.00:655][523]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.09-01.24.00:671][523]LogInit: FAudioDevice initialized.
+[2017.03.09-01.24.02:111][523]LogLoad: Game class is 'abyssGameMode_C'
+[2017.03.09-01.24.02:115][523]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_startMenu.startMenu up for play (max tick rate 0) at 2017.03.08-20.24.02
+[2017.03.09-01.24.02:115][523]LogWorld: Bringing up level for play took: 0.001215
+[2017.03.09-01.24.02:159][523]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.03.09-01.24.02:284][523]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
+[2017.03.09-01.24.02:367][523]PIE: Info Play in editor start time for /Game/Maps-Levels/UEDPIE_0_startMenu 2.528
+[2017.03.09-01.24.02:368][523]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu' with GeneratedClass '/Game/Maps-Levels/startMenu.startMenu_C' with ClassGeneratedBy '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu'
+[2017.03.09-01.24.02:457][523]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:11714).
+[2017.03.09-01.24.04:123][677]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu' with GeneratedClass '/Game/Maps-Levels/startMenu.startMenu_C' with ClassGeneratedBy '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu'
+[2017.03.09-01.24.04:159][677]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu' with GeneratedClass '/Game/Maps-Levels/startMenu.startMenu_C' with ClassGeneratedBy '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu'
+[2017.03.09-01.24.04:978][745]BlueprintLog: New page: Compile LossBattle
+[2017.03.09-01.24.05:816][794]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.09-01.24.05:854][794]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu' with GeneratedClass '/Game/Maps-Levels/startMenu.startMenu_C' with ClassGeneratedBy '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu'
+[2017.03.09-01.24.05:854][794]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.09-01.24.05:854][794]PIE: New page: PIE session: startMenu (Mar 8, 2017, 3:24:05 PM)
+[2017.03.09-01.24.05:855][794]LogPlayLevel: Creating play world package: /Game/Maps-Levels/UEDPIE_0_startMenu
+[2017.03.09-01.24.05:856][794]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001428s)
+[2017.03.09-01.24.05:857][794]LogAIModule: Creating AISystem for world startMenu
+[2017.03.09-01.24.05:857][794]LogPlayLevel: PIE: World Init took: (0.000750s)
+[2017.03.09-01.24.05:857][794]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps-Levels/startMenu.startMenu to /Game/Maps-Levels/UEDPIE_0_startMenu.startMenu (0.002487s)
+[2017.03.09-01.24.05:991][794]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.09-01.24.06:005][794]LogInit: FAudioDevice initialized.
+[2017.03.09-01.24.06:082][794]LogLoad: Game class is 'abyssGameMode_C'
+[2017.03.09-01.24.06:087][794]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_startMenu.startMenu up for play (max tick rate 0) at 2017.03.08-20.24.06
+[2017.03.09-01.24.06:087][794]LogWorld: Bringing up level for play took: 0.001998
+[2017.03.09-01.24.06:087][794]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.03.09-01.24.06:093][794]PIE: Info Play in editor start time for /Game/Maps-Levels/UEDPIE_0_startMenu 0.254
+[2017.03.09-01.24.06:093][794]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu' with GeneratedClass '/Game/Maps-Levels/startMenu.startMenu_C' with ClassGeneratedBy '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu'
+[2017.03.09-01.24.07:457][931]LogNet: Browse: /Game/Maps-Levels/Fort/Exploration/Fort_Exploration1
+[2017.03.09-01.24.07:458][931]LogLoad: LoadMap: /Game/Maps-Levels/Fort/Exploration/Fort_Exploration1
+[2017.03.09-01.24.07:594][931]Cmd: MEM
+[2017.03.09-01.24.07:768][931]LogMemory: Platform Memory Stats for Windows
+[2017.03.09-01.24.07:768][931]LogMemory: Process Physical Memory: 1402.02 MB used, 1405.83 MB peak
+[2017.03.09-01.24.07:768][931]LogMemory: Process Virtual Memory: 1755.70 MB used, 1952.16 MB peak
+[2017.03.09-01.24.07:768][931]LogMemory: Physical Memory: 6332.78 MB used,  10008.91 MB free, 16341.69 MB total
+[2017.03.09-01.24.07:768][931]LogMemory: Virtual Memory: 3265.96 MB used,  10008.91 MB free, 134217728.00 MB total
+[2017.03.09-01.24.07:768][931]LogMemory: 
+[2017.03.09-01.24.07:768][931]Allocator Stats for TBB: (not implemented)
+[2017.03.09-01.24.08:301][931]LogAIModule: Creating AISystem for world Fort_Exploration1
+[2017.03.09-01.24.08:301][931]LogLoad: Game class is 'abyssExplorationMode_C'
+[2017.03.09-01.24.08:325][931]LogWorld: Bringing World /Game/Maps-Levels/Fort/Exploration/UEDPIE_0_Fort_Exploration1.Fort_Exploration1 up for play (max tick rate 0) at 2017.03.08-20.24.08
+[2017.03.09-01.24.08:334][931]LogWorld: Bringing up level for play took: 0.030520
+[2017.03.09-01.24.08:343][931]LogLoad: Took 0.885068 seconds to LoadMap(/Game/Maps-Levels/Fort/Exploration/Fort_Exploration1)
+[2017.03.09-01.24.11:878][289]LogNet: Browse: /Game/Maps-Levels/Fort_Battle
+[2017.03.09-01.24.11:878][289]LogLoad: LoadMap: /Game/Maps-Levels/Fort_Battle
+[2017.03.09-01.24.12:012][289]Cmd: MEM
+[2017.03.09-01.24.12:133][289]LogMemory: Platform Memory Stats for Windows
+[2017.03.09-01.24.12:133][289]LogMemory: Process Physical Memory: 1395.08 MB used, 1427.03 MB peak
+[2017.03.09-01.24.12:133][289]LogMemory: Process Virtual Memory: 1762.20 MB used, 1952.16 MB peak
+[2017.03.09-01.24.12:133][289]LogMemory: Physical Memory: 6297.79 MB used,  10043.90 MB free, 16341.69 MB total
+[2017.03.09-01.24.12:133][289]LogMemory: Virtual Memory: 3247.64 MB used,  10043.90 MB free, 134217728.00 MB total
+[2017.03.09-01.24.12:133][289]LogMemory: 
+[2017.03.09-01.24.12:133][289]Allocator Stats for TBB: (not implemented)
+[2017.03.09-01.24.13:073][289]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.019 s
+[2017.03.09-01.24.13:073][289]LogOutputDevice:Error: === Handled ensure: ===
+[2017.03.09-01.24.13:073][289]LogOutputDevice:Error: 
+[2017.03.09-01.24.13:073][289]LogOutputDevice:Error: Ensure condition failed: IsObjectValidForDatabase(AssetObject) [File:D:\Build\++UE4+Release-4.14+Compile\Sync\Engine\Source\Editor\BlueprintGraph\Private\BlueprintActionDatabase.cpp] [Line: 1263]
+[2017.03.09-01.24.13:073][289]LogOutputDevice:Error: 
+[2017.03.09-01.24.13:073][289]LogOutputDevice:Error: Stack: 
+[2017.03.09-01.24.13:073][289]LogOutputDevice:Error: UE4Editor-Core.dll
+[2017.03.09-01.24.13:073][289]LogOutputDevice:Error: UE4Editor-Core.dll
+[2017.03.09-01.24.13:073][289]LogOutputDevice:Error: UE4Editor-Core.dll
+[2017.03.09-01.24.13:073][289]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll
+[2017.03.09-01.24.13:073][289]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll
+[2017.03.09-01.24.13:073][289]LogOutputDevice:Error: UE4Editor-CoreUObject.dll
+[2017.03.09-01.24.13:073][289]LogOutputDevice:Error: UE4Editor-CoreUObject.dll
+[2017.03.09-01.24.13:073][289]LogOutputDevice:Error: UE4Editor-CoreUObject.dll
+[2017.03.09-01.24.13:073][289]LogOutputDevice:Error: UE4Editor-CoreUObject.dll
+[2017.03.09-01.24.13:073][289]LogOutputDevice:Error: UE4Editor-Engine.dll
+[2017.03.09-01.24.13:073][289]LogOutputDevice:Error: UE4Editor-Engine.dll
+[2017.03.09-01.24.13:073][289]LogOutputDevice:Error: UE4Editor-Engine.dll
+[2017.03.09-01.24.13:073][289]LogOutputDevice:Error: UE4Editor-UnrealEd.dll
+[2017.03.09-01.24.13:073][289]LogOutputDevice:Error: UE4Editor-UnrealEd.dll
+[2017.03.09-01.24.13:073][289]LogOutputDevice:Error: UE4Editor.exe
+[2017.03.09-01.24.13:073][289]LogOutputDevice:Error: UE4Editor.exe
+[2017.03.09-01.24.13:073][289]LogOutputDevice:Error: UE4Editor.exe
+[2017.03.09-01.24.13:073][289]LogOutputDevice:Error: UE4Editor.exe
+[2017.03.09-01.24.13:073][289]LogOutputDevice:Error: UE4Editor.exe
+[2017.03.09-01.24.13:073][289]LogOutputDevice:Error: KERNEL32.DLL
+[2017.03.09-01.24.13:073][289]LogOutputDevice:Error: ntdll.dll
+[2017.03.09-01.24.13:073][289]LogOutputDevice:Error: 
+[2017.03.09-01.24.13:084][289]LogStats:                SubmitErrorReport -  0.000 s
+[2017.03.09-01.24.13:542][289]LogStats:                    SendNewReport -  0.459 s
+[2017.03.09-01.24.13:542][289]LogStats:             FDebug::EnsureFailed -  0.488 s
+[2017.03.09-01.24.14:245][289]LogAIModule: Creating AISystem for world Fort_Battle
+[2017.03.09-01.24.14:246][289]LogLoad: Game class is 'abyssBattleScene_C'
+[2017.03.09-01.24.14:275][289]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_Fort_Battle.Fort_Battle up for play (max tick rate 0) at 2017.03.08-20.24.14
+[2017.03.09-01.24.14:292][289]LogWorld: Bringing up level for play took: 0.042693
+[2017.03.09-01.24.14:292][289]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.03.09-01.24.14:310][289]LogLoad: Took 2.432620 seconds to LoadMap(/Game/Maps-Levels/Fort_Battle)
+[2017.03.09-01.24.19:359][806]LogBlueprintUserMessages: [BattleHUD_C_0] Enemy missed!
+[2017.03.09-01.24.20:952][978]LogBlueprintUserMessages: [BattleHUD_C_0] Enemy is dead
+[2017.03.09-01.24.22:308][120]LogNet: Browse: /Game/Maps-Levels/Fort/Fort_Exploration
+[2017.03.09-01.24.22:308][120]LogLoad: LoadMap: /Game/Maps-Levels/Fort/Fort_Exploration
+[2017.03.09-01.24.22:448][120]Cmd: MEM
+[2017.03.09-01.24.22:567][120]LogMemory: Platform Memory Stats for Windows
+[2017.03.09-01.24.22:567][120]LogMemory: Process Physical Memory: 1432.12 MB used, 1439.91 MB peak
+[2017.03.09-01.24.22:567][120]LogMemory: Process Virtual Memory: 1817.80 MB used, 1952.16 MB peak
+[2017.03.09-01.24.22:567][120]LogMemory: Physical Memory: 6349.70 MB used,  9991.99 MB free, 16341.69 MB total
+[2017.03.09-01.24.22:567][120]LogMemory: Virtual Memory: 3334.72 MB used,  9991.99 MB free, 134217728.00 MB total
+[2017.03.09-01.24.22:568][120]LogMemory: 
+[2017.03.09-01.24.22:568][120]Allocator Stats for TBB: (not implemented)
+[2017.03.09-01.24.22:753][120]LogTexture:Display: Building textures: Enemy_Lich_AttackFrame2 (BGRA8)
+[2017.03.09-01.24.22:753][120]LogTexture:Display: Building textures: Enemy_Lich_Death (BGRA8)
+[2017.03.09-01.24.22:776][120]LogAIModule: Creating AISystem for world Fort_Exploration
+[2017.03.09-01.24.22:776][120]LogLoad: Game class is 'abyssExplorationMode_C'
+[2017.03.09-01.24.22:789][120]LogWorld: Bringing World /Game/Maps-Levels/Fort/UEDPIE_0_Fort_Exploration.Fort_Exploration up for play (max tick rate 0) at 2017.03.08-20.24.22
+[2017.03.09-01.24.22:790][120]LogWorld: Bringing up level for play took: 0.010783
+[2017.03.09-01.24.22:793][120]LogLoad: Took 0.484426 seconds to LoadMap(/Game/Maps-Levels/Fort/Fort_Exploration)
+[2017.03.09-01.24.44:864][298]LogBlueprintUserMessages: [checkPoint_765] Checkpoint!
+[2017.03.09-01.24.56:104][467]LogNet: Browse: /Game/Maps-Levels/Fort_Battle
+[2017.03.09-01.24.56:104][467]LogLoad: LoadMap: /Game/Maps-Levels/Fort_Battle
+[2017.03.09-01.24.56:232][467]Cmd: MEM
+[2017.03.09-01.24.56:355][467]LogMemory: Platform Memory Stats for Windows
+[2017.03.09-01.24.56:355][467]LogMemory: Process Physical Memory: 1437.45 MB used, 1444.29 MB peak
+[2017.03.09-01.24.56:355][467]LogMemory: Process Virtual Memory: 1811.71 MB used, 1952.16 MB peak
+[2017.03.09-01.24.56:355][467]LogMemory: Physical Memory: 6340.13 MB used,  10001.56 MB free, 16341.69 MB total
+[2017.03.09-01.24.56:355][467]LogMemory: Virtual Memory: 3314.78 MB used,  10001.56 MB free, 134217728.00 MB total
+[2017.03.09-01.24.56:355][467]LogMemory: 
+[2017.03.09-01.24.56:355][467]Allocator Stats for TBB: (not implemented)
+[2017.03.09-01.24.56:477][467]LogAIModule: Creating AISystem for world Fort_Battle
+[2017.03.09-01.24.56:477][467]LogLoad: Game class is 'abyssBattleScene_C'
+[2017.03.09-01.24.56:482][467]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_Fort_Battle.Fort_Battle up for play (max tick rate 0) at 2017.03.08-20.24.56
+[2017.03.09-01.24.56:482][467]LogWorld: Bringing up level for play took: 0.002781
+[2017.03.09-01.24.56:483][467]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.03.09-01.24.56:490][467]LogLoad: Took 0.385368 seconds to LoadMap(/Game/Maps-Levels/Fort_Battle)
+[2017.03.09-01.24.59:071][741]LogBlueprintUserMessages: [BattleHUD_C_1] Enemy missed!
+[2017.03.09-01.25.00:485][895]LogBlueprintUserMessages: [BattleHUD_C_1] Enemy missed!
+[2017.03.09-01.25.04:623][345]LogBlueprintUserMessages: [BattleHUD_C_1] Enemy is dead
+[2017.03.09-01.25.06:139][501]LogNet: Browse: /Game/Maps-Levels/Fort/Fort_Exploration
+[2017.03.09-01.25.06:139][501]LogLoad: LoadMap: /Game/Maps-Levels/Fort/Fort_Exploration
+[2017.03.09-01.25.06:267][501]Cmd: MEM
+[2017.03.09-01.25.06:389][501]LogMemory: Platform Memory Stats for Windows
+[2017.03.09-01.25.06:389][501]LogMemory: Process Physical Memory: 1446.84 MB used, 1455.18 MB peak
+[2017.03.09-01.25.06:389][501]LogMemory: Process Virtual Memory: 1833.14 MB used, 1952.16 MB peak
+[2017.03.09-01.25.06:389][501]LogMemory: Physical Memory: 6363.04 MB used,  9978.65 MB free, 16341.69 MB total
+[2017.03.09-01.25.06:389][501]LogMemory: Virtual Memory: 3342.91 MB used,  9978.65 MB free, 134217728.00 MB total
+[2017.03.09-01.25.06:389][501]LogMemory: 
+[2017.03.09-01.25.06:389][501]Allocator Stats for TBB: (not implemented)
+[2017.03.09-01.25.06:576][501]LogAIModule: Creating AISystem for world Fort_Exploration
+[2017.03.09-01.25.06:577][501]LogLoad: Game class is 'abyssExplorationMode_C'
+[2017.03.09-01.25.06:589][501]LogWorld: Bringing World /Game/Maps-Levels/Fort/UEDPIE_0_Fort_Exploration.Fort_Exploration up for play (max tick rate 0) at 2017.03.08-20.25.06
+[2017.03.09-01.25.06:590][501]LogWorld: Bringing up level for play took: 0.011074
+[2017.03.09-01.25.06:593][501]LogLoad: Took 0.454510 seconds to LoadMap(/Game/Maps-Levels/Fort/Fort_Exploration)
+[2017.03.09-01.25.08:199][664]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu' with GeneratedClass '/Game/Maps-Levels/startMenu.startMenu_C' with ClassGeneratedBy '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu'
+[2017.03.09-01.25.08:274][664]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu' with GeneratedClass '/Game/Maps-Levels/startMenu.startMenu_C' with ClassGeneratedBy '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu'
+[2017.03.09-01.25.09:845][827]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.09-01.25.09:883][827]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu' with GeneratedClass '/Game/Maps-Levels/startMenu.startMenu_C' with ClassGeneratedBy '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu'
+[2017.03.09-01.25.09:883][827]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.09-01.25.09:884][827]PIE: New page: PIE session: startMenu (Mar 8, 2017, 3:25:09 PM)
+[2017.03.09-01.25.09:901][827]LogPlayLevel: Creating play world package: /Game/Maps-Levels/UEDPIE_0_startMenu
+[2017.03.09-01.25.09:902][827]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001335s)
+[2017.03.09-01.25.09:903][827]LogAIModule: Creating AISystem for world startMenu
+[2017.03.09-01.25.09:903][827]LogPlayLevel: PIE: World Init took: (0.000768s)
+[2017.03.09-01.25.09:903][827]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps-Levels/startMenu.startMenu to /Game/Maps-Levels/UEDPIE_0_startMenu.startMenu (0.002335s)
+[2017.03.09-01.25.10:039][827]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.09-01.25.10:055][827]LogInit: FAudioDevice initialized.
+[2017.03.09-01.25.10:121][827]LogLoad: Game class is 'abyssGameMode_C'
+[2017.03.09-01.25.10:124][827]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_startMenu.startMenu up for play (max tick rate 0) at 2017.03.08-20.25.10
+[2017.03.09-01.25.10:124][827]LogWorld: Bringing up level for play took: 0.000936
+[2017.03.09-01.25.10:125][827]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.03.09-01.25.10:130][827]PIE: Info Play in editor start time for /Game/Maps-Levels/UEDPIE_0_startMenu 0.291
+[2017.03.09-01.25.10:130][827]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu' with GeneratedClass '/Game/Maps-Levels/startMenu.startMenu_C' with ClassGeneratedBy '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu'
+[2017.03.09-01.25.11:206][931]LogNet: Browse: /Game/Maps-Levels/Fort/Exploration/Fort_Exploration1
+[2017.03.09-01.25.11:206][931]LogLoad: LoadMap: /Game/Maps-Levels/Fort/Exploration/Fort_Exploration1
+[2017.03.09-01.25.11:334][931]Cmd: MEM
+[2017.03.09-01.25.11:456][931]LogMemory: Platform Memory Stats for Windows
+[2017.03.09-01.25.11:456][931]LogMemory: Process Physical Memory: 1474.98 MB used, 1475.76 MB peak
+[2017.03.09-01.25.11:456][931]LogMemory: Process Virtual Memory: 1850.84 MB used, 1952.16 MB peak
+[2017.03.09-01.25.11:456][931]LogMemory: Physical Memory: 6384.16 MB used,  9957.54 MB free, 16341.69 MB total
+[2017.03.09-01.25.11:456][931]LogMemory: Virtual Memory: 3334.91 MB used,  9957.54 MB free, 134217728.00 MB total
+[2017.03.09-01.25.11:456][931]LogMemory: 
+[2017.03.09-01.25.11:456][931]Allocator Stats for TBB: (not implemented)
+[2017.03.09-01.25.11:610][931]LogAIModule: Creating AISystem for world Fort_Exploration1
+[2017.03.09-01.25.11:610][931]LogLoad: Game class is 'abyssExplorationMode_C'
+[2017.03.09-01.25.11:623][931]LogWorld: Bringing World /Game/Maps-Levels/Fort/Exploration/UEDPIE_0_Fort_Exploration1.Fort_Exploration1 up for play (max tick rate 0) at 2017.03.08-20.25.11
+[2017.03.09-01.25.11:624][931]LogWorld: Bringing up level for play took: 0.010779
+[2017.03.09-01.25.11:627][931]LogLoad: Took 0.420817 seconds to LoadMap(/Game/Maps-Levels/Fort/Exploration/Fort_Exploration1)
+[2017.03.09-01.25.14:373][218]LogNet: Browse: /Game/Maps-Levels/Fort_Battle
+[2017.03.09-01.25.14:373][218]LogLoad: LoadMap: /Game/Maps-Levels/Fort_Battle
+[2017.03.09-01.25.14:497][218]Cmd: MEM
+[2017.03.09-01.25.14:621][218]LogMemory: Platform Memory Stats for Windows
+[2017.03.09-01.25.14:621][218]LogMemory: Process Physical Memory: 1454.46 MB used, 1479.64 MB peak
+[2017.03.09-01.25.14:621][218]LogMemory: Process Virtual Memory: 1837.05 MB used, 1952.16 MB peak
+[2017.03.09-01.25.14:621][218]LogMemory: Physical Memory: 6355.48 MB used,  9986.21 MB free, 16341.69 MB total
+[2017.03.09-01.25.14:621][218]LogMemory: Virtual Memory: 3358.91 MB used,  9986.21 MB free, 134217728.00 MB total
+[2017.03.09-01.25.14:621][218]LogMemory: 
+[2017.03.09-01.25.14:621][218]Allocator Stats for TBB: (not implemented)
+[2017.03.09-01.25.14:743][218]LogAIModule: Creating AISystem for world Fort_Battle
+[2017.03.09-01.25.14:744][218]LogLoad: Game class is 'abyssBattleScene_C'
+[2017.03.09-01.25.14:748][218]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_Fort_Battle.Fort_Battle up for play (max tick rate 0) at 2017.03.08-20.25.14
+[2017.03.09-01.25.14:749][218]LogWorld: Bringing up level for play took: 0.002752
+[2017.03.09-01.25.14:749][218]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.03.09-01.25.14:756][218]LogLoad: Took 0.383847 seconds to LoadMap(/Game/Maps-Levels/Fort_Battle)
+[2017.03.09-01.25.20:186][803]LogBlueprintUserMessages: [BattleHUD_C_2] Enemy missed!
+[2017.03.09-01.25.20:789][865]LogNet: Browse: /Game/Maps-Levels/Fort/Fort_Exploration
+[2017.03.09-01.25.20:789][865]LogLoad: LoadMap: /Game/Maps-Levels/Fort/Fort_Exploration
+[2017.03.09-01.25.20:917][865]Cmd: MEM
+[2017.03.09-01.25.21:037][865]LogMemory: Platform Memory Stats for Windows
+[2017.03.09-01.25.21:037][865]LogMemory: Process Physical Memory: 1446.08 MB used, 1479.64 MB peak
+[2017.03.09-01.25.21:037][865]LogMemory: Process Virtual Memory: 1825.69 MB used, 1952.16 MB peak
+[2017.03.09-01.25.21:037][865]LogMemory: Physical Memory: 6356.55 MB used,  9985.14 MB free, 16341.69 MB total
+[2017.03.09-01.25.21:037][865]LogMemory: Virtual Memory: 3342.91 MB used,  9985.14 MB free, 134217728.00 MB total
+[2017.03.09-01.25.21:037][865]LogMemory: 
+[2017.03.09-01.25.21:037][865]Allocator Stats for TBB: (not implemented)
+[2017.03.09-01.25.21:229][865]LogAIModule: Creating AISystem for world Fort_Exploration
+[2017.03.09-01.25.21:229][865]LogLoad: Game class is 'abyssExplorationMode_C'
+[2017.03.09-01.25.21:242][865]LogWorld: Bringing World /Game/Maps-Levels/Fort/UEDPIE_0_Fort_Exploration.Fort_Exploration up for play (max tick rate 0) at 2017.03.08-20.25.21
+[2017.03.09-01.25.21:243][865]LogWorld: Bringing up level for play took: 0.011325
+[2017.03.09-01.25.21:246][865]LogLoad: Took 0.456483 seconds to LoadMap(/Game/Maps-Levels/Fort/Fort_Exploration)
+[2017.03.09-01.25.25:042][261]LogBlueprintUserMessages: [checkPoint_765] Checkpoint!
+[2017.03.09-01.25.32:188][ 10]LogNet: Browse: /Game/Maps-Levels/Fort_Battle
+[2017.03.09-01.25.32:188][ 10]LogLoad: LoadMap: /Game/Maps-Levels/Fort_Battle
+[2017.03.09-01.25.32:320][ 10]Cmd: MEM
+[2017.03.09-01.25.32:443][ 10]LogMemory: Platform Memory Stats for Windows
+[2017.03.09-01.25.32:443][ 10]LogMemory: Process Physical Memory: 1434.37 MB used, 1479.64 MB peak
+[2017.03.09-01.25.32:443][ 10]LogMemory: Process Virtual Memory: 1817.97 MB used, 1952.16 MB peak
+[2017.03.09-01.25.32:443][ 10]LogMemory: Physical Memory: 6338.09 MB used,  10003.61 MB free, 16341.69 MB total
+[2017.03.09-01.25.32:443][ 10]LogMemory: Virtual Memory: 3350.91 MB used,  10003.61 MB free, 134217728.00 MB total
+[2017.03.09-01.25.32:443][ 10]LogMemory: 
+[2017.03.09-01.25.32:443][ 10]Allocator Stats for TBB: (not implemented)
+[2017.03.09-01.25.32:567][ 10]LogAIModule: Creating AISystem for world Fort_Battle
+[2017.03.09-01.25.32:567][ 10]LogLoad: Game class is 'abyssBattleScene_C'
+[2017.03.09-01.25.32:572][ 10]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_Fort_Battle.Fort_Battle up for play (max tick rate 0) at 2017.03.08-20.25.32
+[2017.03.09-01.25.32:573][ 10]LogWorld: Bringing up level for play took: 0.002851
+[2017.03.09-01.25.32:573][ 10]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.03.09-01.25.32:580][ 10]LogLoad: Took 0.392120 seconds to LoadMap(/Game/Maps-Levels/Fort_Battle)
+[2017.03.09-01.25.34:240][183]LogBlueprintUserMessages: [BattleHUD_C_3] Couldn't escape!
+[2017.03.09-01.25.35:646][336]LogBlueprintUserMessages: [BattleHUD_C_3] Couldn't escape!
+[2017.03.09-01.25.37:052][488]LogBlueprintUserMessages: [BattleHUD_C_3] Couldn't escape!
+[2017.03.09-01.25.38:447][640]LogBlueprintUserMessages: [BattleHUD_C_3] Couldn't escape!
+[2017.03.09-01.25.40:112][820]LogBlueprintUserMessages: [BattleHUD_C_3] Couldn't escape!
+[2017.03.09-01.25.41:998][ 24]LogBlueprintUserMessages: [BattleHUD_C_3] Couldn't escape!
+[2017.03.09-01.25.43:426][179]LogBlueprintUserMessages: [BattleHUD_C_3] Couldn't escape!
+[2017.03.09-01.25.44:685][316]LogBlueprintUserMessages: [BattleHUD_C_3] Couldn't escape!
+[2017.03.09-01.25.46:806][523]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu' with GeneratedClass '/Game/Maps-Levels/startMenu.startMenu_C' with ClassGeneratedBy '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu'
+[2017.03.09-01.25.46:837][523]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu' with GeneratedClass '/Game/Maps-Levels/startMenu.startMenu_C' with ClassGeneratedBy '/Game/Maps-Levels/startMenu.startMenu:PersistentLevel.startMenu'
+[2017.03.09-01.25.50:088][865]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/LossBattle" FILE="C:/Users/nathan/Desktop/Test/Abyss/Content/UMG/LossBattle.uasset" SILENT=true
+[2017.03.09-01.25.50:204][865]LogSavePackage: Save=10.90ms
+[2017.03.09-01.25.50:204][865]LogSavePackage: Moving 'C:/Users/nathan/Desktop/Test/Abyss/Saved/LossBattleA03AB45B45696D4127B5448BEEC3B1AF.tmp' to 'C:/Users/nathan/Desktop/Test/Abyss/Content/UMG/LossBattle.uasset'
+[2017.03.09-01.25.50:207][865]LogSavePackage:Display: Finished SavePackage C:/Users/nathan/Desktop/Test/Abyss/Content/UMG/LossBattle.uasset
+[2017.03.09-01.29.09:557][665]LogAIModule: Creating AISystem for world Fort_Exploration
+[2017.03.09-01.29.33:394][154]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Pasted_image_at_2017_03_08_08_13_PM" FILE="C:/Users/nathan/Desktop/Test/Abyss/Content/Assets/Pasted_image_at_2017_03_08_08_13_PM.uasset" SILENT=true
+[2017.03.09-01.29.33:402][154]LogSavePackage: Save=5.07ms
+[2017.03.09-01.29.33:402][154]LogSavePackage: Moving 'C:/Users/nathan/Desktop/Test/Abyss/Saved/Pasted_image_at_2017_03_08_08_13_PM4D53A2ED426381F879CA6B83F446784D.tmp' to 'C:/Users/nathan/Desktop/Test/Abyss/Content/Assets/Pasted_image_at_2017_03_08_08_13_PM.uasset'
+[2017.03.09-01.29.33:405][154]LogSavePackage:Display: Finished SavePackage C:/Users/nathan/Desktop/Test/Abyss/Content/Assets/Pasted_image_at_2017_03_08_08_13_PM.uasset
+[2017.03.09-01.29.33:431][154]LogSavePackage: Save=12.82ms
+[2017.03.09-01.29.33:431][154]LogSavePackage: Moving 'C:/Users/nathan/Desktop/Test/Abyss/Saved/Pasted_image_at_2017_03_08_08_13_PM_SpriteD121BF2D4F1DE2042F2BB9987638E67B.tmp' to 'C:/Users/nathan/Desktop/Test/Abyss/Content/Assets/Sprites/Other/Pasted_image_at_2017_03_08_08_13_PM_Sprite.uasset'
+[2017.03.09-01.29.33:434][154]LogSavePackage:Display: Finished SavePackage C:/Users/nathan/Desktop/Test/Abyss/Content/Assets/Sprites/Other/Pasted_image_at_2017_03_08_08_13_PM_Sprite.uasset
+[2017.03.09-01.29.33:437][154]Cmd: MAP LOAD FILE="C:/Users/nathan/Desktop/Test/Abyss/Content/Maps-Levels/Fort/Fort_Exploration.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.09-01.29.33:437][154]LightingResults: New page: Lighting Build
+[2017.03.09-01.29.33:438][154]LoadErrors: New page: Loading map: Fort_Exploration.umap
+[2017.03.09-01.29.33:439][154]MapCheck: New page: Map Check
+[2017.03.09-01.29.33:439][154]LightingResults: New page: Lighting Build
+[2017.03.09-01.29.33:685][154]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.09-01.29.33:759][154]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.09-01.29.33:833][154]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 74.643ms to complete.
+[2017.03.09-01.29.33:834][154]LogFileHelpers: Loading map 'Fort_Exploration' took 0.399
+[2017.03.09-01.29.35:525][336]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.09-01.29.35:564][336]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps-Levels/Fort/Fort_Exploration.Fort_Exploration:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration' with GeneratedClass '/Game/Maps-Levels/Fort/Fort_Exploration.Fort_Exploration_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration'
+[2017.03.09-01.29.35:564][336]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.09-01.29.35:564][336]PIE: New page: PIE session: Fort_Exploration (Mar 8, 2017, 3:29:35 PM)
+[2017.03.09-01.29.35:565][336]LogPlayLevel: Creating play world package: /Game/Maps-Levels/Fort/UEDPIE_0_Fort_Exploration
+[2017.03.09-01.29.35:569][336]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004359s)
+[2017.03.09-01.29.35:570][336]LogAIModule: Creating AISystem for world Fort_Exploration
+[2017.03.09-01.29.35:571][336]LogPlayLevel: PIE: World Init took: (0.001144s)
+[2017.03.09-01.29.35:571][336]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps-Levels/Fort/Fort_Exploration.Fort_Exploration to /Game/Maps-Levels/Fort/UEDPIE_0_Fort_Exploration.Fort_Exploration (0.005843s)
+[2017.03.09-01.29.35:699][336]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.09-01.29.35:714][336]LogInit: FAudioDevice initialized.
+[2017.03.09-01.29.35:778][336]LogLoad: Game class is 'abyssExplorationMode_C'
+[2017.03.09-01.29.35:783][336]LogWorld: Bringing World /Game/Maps-Levels/Fort/UEDPIE_0_Fort_Exploration.Fort_Exploration up for play (max tick rate 0) at 2017.03.08-20.29.35
+[2017.03.09-01.29.35:784][336]LogWorld: Bringing up level for play took: 0.003520
+[2017.03.09-01.29.35:788][336]PIE: Info Play in editor start time for /Game/Maps-Levels/Fort/UEDPIE_0_Fort_Exploration -0.051
+[2017.03.09-01.29.35:788][336]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps-Levels/Fort/Fort_Exploration.Fort_Exploration:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration' with GeneratedClass '/Game/Maps-Levels/Fort/Fort_Exploration.Fort_Exploration_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration'
+[2017.03.09-01.29.37:476][527]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps-Levels/Fort/Fort_Exploration.Fort_Exploration:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration' with GeneratedClass '/Game/Maps-Levels/Fort/Fort_Exploration.Fort_Exploration_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration'
+[2017.03.09-01.29.37:540][527]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps-Levels/Fort/Fort_Exploration.Fort_Exploration:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration' with GeneratedClass '/Game/Maps-Levels/Fort/Fort_Exploration.Fort_Exploration_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration'
+[2017.03.09-01.29.40:885][898]LogEditorViewport: Clicking on Actor (context menu): PaperTileMapActor (Fort_TileMap3)
+[2017.03.09-01.29.46:080][382]LogAIModule: Creating AISystem for world Fort_Exploration
+[2017.03.09-01.29.46:219][382]Cmd: MAP LOAD FILE="C:/Users/nathan/Desktop/Test/Abyss/Content/Maps-Levels/Fort/Exploration/Fort_Exploration.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.09-01.29.46:219][382]LightingResults: New page: Lighting Build
+[2017.03.09-01.29.46:220][382]LoadErrors: New page: Loading map: Fort_Exploration.umap
+[2017.03.09-01.29.46:222][382]MapCheck: New page: Map Check
+[2017.03.09-01.29.46:222][382]LightingResults: New page: Lighting Build
+[2017.03.09-01.29.46:493][382]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.09-01.29.46:561][382]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.09-01.29.46:643][382]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 82.409ms to complete.
+[2017.03.09-01.29.46:643][382]LogFileHelpers: Loading map 'Fort_Exploration' took 0.426
+[2017.03.09-01.29.50:413][804]LogAIModule: Creating AISystem for world Fort_Exploration1
+[2017.03.09-01.29.50:551][804]Cmd: MAP LOAD FILE="C:/Users/nathan/Desktop/Test/Abyss/Content/Maps-Levels/Fort/Exploration/Fort_Exploration1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.09-01.29.50:551][804]LightingResults: New page: Lighting Build
+[2017.03.09-01.29.50:552][804]LoadErrors: New page: Loading map: Fort_Exploration1.umap
+[2017.03.09-01.29.50:554][804]MapCheck: New page: Map Check
+[2017.03.09-01.29.50:554][804]LightingResults: New page: Lighting Build
+[2017.03.09-01.29.50:847][804]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.09-01.29.50:914][804]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.09-01.29.50:994][804]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 79.495ms to complete.
+[2017.03.09-01.29.50:994][804]LogFileHelpers: Loading map 'Fort_Exploration1' took 0.444
+[2017.03.09-01.29.53:352][ 53]LogAIModule: Creating AISystem for world Fort_Exploration
+[2017.03.09-01.29.53:495][ 53]Cmd: MAP LOAD FILE="C:/Users/nathan/Desktop/Test/Abyss/Content/Maps-Levels/Fort/Exploration/Fort_Exploration.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.09-01.29.53:495][ 53]LightingResults: New page: Lighting Build
+[2017.03.09-01.29.53:495][ 53]LoadErrors: New page: Loading map: Fort_Exploration.umap
+[2017.03.09-01.29.53:497][ 53]MapCheck: New page: Map Check
+[2017.03.09-01.29.53:497][ 53]LightingResults: New page: Lighting Build
+[2017.03.09-01.29.53:823][ 53]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.09-01.29.53:892][ 53]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.09-01.29.53:974][ 53]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 81.155ms to complete.
+[2017.03.09-01.29.53:974][ 53]LogFileHelpers: Loading map 'Fort_Exploration' took 0.481
+[2017.03.09-01.29.59:018][602]LogAIModule: Creating AISystem for world Fort_Exploration
+[2017.03.09-01.29.59:166][602]Cmd: MAP LOAD FILE="C:/Users/nathan/Desktop/Test/Abyss/Content/Maps-Levels/Fort/Fort_Exploration.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.09-01.29.59:166][602]LightingResults: New page: Lighting Build
+[2017.03.09-01.29.59:167][602]LoadErrors: New page: Loading map: Fort_Exploration.umap
+[2017.03.09-01.29.59:168][602]MapCheck: New page: Map Check
+[2017.03.09-01.29.59:168][602]LightingResults: New page: Lighting Build
+[2017.03.09-01.29.59:530][602]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.09-01.29.59:598][602]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.09-01.29.59:674][602]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 75.602ms to complete.
+[2017.03.09-01.29.59:674][602]LogFileHelpers: Loading map 'Fort_Exploration' took 0.509
+[2017.03.09-01.30.11:961][ 32]LogAIModule: Creating AISystem for world Fort_Exploration
+[2017.03.09-01.30.12:107][ 32]Cmd: MAP LOAD FILE="C:/Users/nathan/Desktop/Test/Abyss/Content/Maps-Levels/Fort/Exploration/Fort_Exploration.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.09-01.30.12:107][ 32]LightingResults: New page: Lighting Build
+[2017.03.09-01.30.12:107][ 32]LoadErrors: New page: Loading map: Fort_Exploration.umap
+[2017.03.09-01.30.12:109][ 32]MapCheck: New page: Map Check
+[2017.03.09-01.30.12:109][ 32]LightingResults: New page: Lighting Build
+[2017.03.09-01.30.12:499][ 32]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.09-01.30.12:569][ 32]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.09-01.30.12:646][ 32]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 76.862ms to complete.
+[2017.03.09-01.30.12:646][ 32]LogFileHelpers: Loading map 'Fort_Exploration' took 0.541
+[2017.03.09-01.30.14:909][285]LogAIModule: Creating AISystem for world Fort_Exploration1
+[2017.03.09-01.30.15:049][285]Cmd: MAP LOAD FILE="C:/Users/nathan/Desktop/Test/Abyss/Content/Maps-Levels/Fort/Exploration/Fort_Exploration1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.09-01.30.15:049][285]LightingResults: New page: Lighting Build
+[2017.03.09-01.30.15:050][285]LoadErrors: New page: Loading map: Fort_Exploration1.umap
+[2017.03.09-01.30.15:051][285]MapCheck: New page: Map Check
+[2017.03.09-01.30.15:051][285]LightingResults: New page: Lighting Build
+[2017.03.09-01.30.15:479][285]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.09-01.30.15:547][285]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.09-01.30.15:624][285]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 76.629ms to complete.
+[2017.03.09-01.30.15:624][285]LogFileHelpers: Loading map 'Fort_Exploration1' took 0.576
+[2017.03.09-01.30.27:605][661]LogAIModule: Creating AISystem for world Fort_Exploration
+[2017.03.09-01.30.27:751][661]Cmd: MAP LOAD FILE="C:/Users/nathan/Desktop/Test/Abyss/Content/Maps-Levels/Fort/Exploration/Fort_Exploration.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.09-01.30.27:751][661]LightingResults: New page: Lighting Build
+[2017.03.09-01.30.27:752][661]LoadErrors: New page: Loading map: Fort_Exploration.umap
+[2017.03.09-01.30.27:753][661]MapCheck: New page: Map Check
+[2017.03.09-01.30.27:753][661]LightingResults: New page: Lighting Build
+[2017.03.09-01.30.28:209][661]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.09-01.30.28:280][661]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.09-01.30.28:354][661]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 74.019ms to complete.
+[2017.03.09-01.30.28:354][661]LogFileHelpers: Loading map 'Fort_Exploration' took 0.605
+[2017.03.09-01.30.33:664][198]LogSavePackage: Save=265.29ms
+[2017.03.09-01.30.33:664][198]LogSavePackage: Moving 'C:/Users/nathan/Desktop/Test/Abyss/Saved/Fort_ExplorationF16C3E7E435B0F97D74FF98ECCABB62D.tmp' to 'C:/Users/nathan/Desktop/Test/Abyss/Content/Maps-Levels/Fort/Exploration/Fort_Exploration.umap'
+[2017.03.09-01.30.33:666][198]LogSavePackage:Display: Finished SavePackage C:/Users/nathan/Desktop/Test/Abyss/Content/Maps-Levels/Fort/Exploration/Fort_Exploration.umap
+[2017.03.09-01.30.34:088][237]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.09-01.30.34:127][237]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration' with GeneratedClass '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration'
+[2017.03.09-01.30.34:127][237]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.09-01.30.34:127][237]PIE: New page: PIE session: Fort_Exploration (Mar 8, 2017, 3:30:34 PM)
+[2017.03.09-01.30.34:128][237]LogPlayLevel: Creating play world package: /Game/Maps-Levels/Fort/Exploration/UEDPIE_0_Fort_Exploration
+[2017.03.09-01.30.34:132][237]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004177s)
+[2017.03.09-01.30.34:133][237]LogAIModule: Creating AISystem for world Fort_Exploration
+[2017.03.09-01.30.34:133][237]LogPlayLevel: PIE: World Init took: (0.000735s)
+[2017.03.09-01.30.34:133][237]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration to /Game/Maps-Levels/Fort/Exploration/UEDPIE_0_Fort_Exploration.Fort_Exploration (0.005162s)
+[2017.03.09-01.30.34:260][237]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.09-01.30.34:276][237]LogInit: FAudioDevice initialized.
+[2017.03.09-01.30.34:313][237]LogLoad: Game class is 'abyssExplorationMode_C'
+[2017.03.09-01.30.34:319][237]LogWorld: Bringing World /Game/Maps-Levels/Fort/Exploration/UEDPIE_0_Fort_Exploration.Fort_Exploration up for play (max tick rate 0) at 2017.03.08-20.30.34
+[2017.03.09-01.30.34:320][237]LogWorld: Bringing up level for play took: 0.004380
+[2017.03.09-01.30.34:325][237]PIE: Info Play in editor start time for /Game/Maps-Levels/Fort/Exploration/UEDPIE_0_Fort_Exploration 0.486
+[2017.03.09-01.30.34:325][237]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration' with GeneratedClass '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration'
+[2017.03.09-01.30.37:356][585]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration' with GeneratedClass '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration'
+[2017.03.09-01.30.37:391][585]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration' with GeneratedClass '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration'
+[2017.03.09-01.32.16:100][422]BlueprintLog: New page: Compile Exploration_Hero
+[2017.03.09-01.32.17:194][465]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Exploration/Exploration_Hero" FILE="C:/Users/nathan/Desktop/Test/Abyss/Content/BluePrints/Exploration/Exploration_Hero.uasset" SILENT=true
+[2017.03.09-01.32.17:496][465]LogSavePackage: Save=231.80ms
+[2017.03.09-01.32.17:497][465]LogSavePackage: Moving 'C:/Users/nathan/Desktop/Test/Abyss/Saved/Exploration_HeroF67C21324F4BE563E11257AFD91DC63D.tmp' to 'C:/Users/nathan/Desktop/Test/Abyss/Content/BluePrints/Exploration/Exploration_Hero.uasset'
+[2017.03.09-01.32.17:500][465]LogSavePackage:Display: Finished SavePackage C:/Users/nathan/Desktop/Test/Abyss/Content/BluePrints/Exploration/Exploration_Hero.uasset
+[2017.03.09-01.32.18:819][611]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.09-01.32.18:861][611]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration' with GeneratedClass '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration'
+[2017.03.09-01.32.18:861][611]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.09-01.32.18:861][611]PIE: New page: PIE session: Fort_Exploration (Mar 8, 2017, 3:32:18 PM)
+[2017.03.09-01.32.18:862][611]LogPlayLevel: Creating play world package: /Game/Maps-Levels/Fort/Exploration/UEDPIE_0_Fort_Exploration
+[2017.03.09-01.32.18:866][611]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004159s)
+[2017.03.09-01.32.18:866][611]LogAIModule: Creating AISystem for world Fort_Exploration
+[2017.03.09-01.32.18:867][611]LogPlayLevel: PIE: World Init took: (0.000780s)
+[2017.03.09-01.32.18:867][611]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration to /Game/Maps-Levels/Fort/Exploration/UEDPIE_0_Fort_Exploration.Fort_Exploration (0.005209s)
+[2017.03.09-01.32.18:997][611]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.09-01.32.19:012][611]LogInit: FAudioDevice initialized.
+[2017.03.09-01.32.19:075][611]LogLoad: Game class is 'abyssExplorationMode_C'
+[2017.03.09-01.32.19:080][611]LogWorld: Bringing World /Game/Maps-Levels/Fort/Exploration/UEDPIE_0_Fort_Exploration.Fort_Exploration up for play (max tick rate 0) at 2017.03.08-20.32.19
+[2017.03.09-01.32.19:081][611]LogWorld: Bringing up level for play took: 0.003693
+[2017.03.09-01.32.19:087][611]PIE: Info Play in editor start time for /Game/Maps-Levels/Fort/Exploration/UEDPIE_0_Fort_Exploration -0.752
+[2017.03.09-01.32.19:087][611]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration' with GeneratedClass '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration'
+[2017.03.09-01.32.34:271][919]LogNet: Browse: /Game/Maps-Levels/Fort_Battle
+[2017.03.09-01.32.34:271][919]LogLoad: LoadMap: /Game/Maps-Levels/Fort_Battle
+[2017.03.09-01.32.34:397][919]Cmd: MEM
+[2017.03.09-01.32.34:515][919]LogMemory: Platform Memory Stats for Windows
+[2017.03.09-01.32.34:515][919]LogMemory: Process Physical Memory: 1633.29 MB used, 1641.32 MB peak
+[2017.03.09-01.32.34:515][919]LogMemory: Process Virtual Memory: 2193.24 MB used, 2208.95 MB peak
+[2017.03.09-01.32.34:515][919]LogMemory: Physical Memory: 6441.32 MB used,  9900.37 MB free, 16341.69 MB total
+[2017.03.09-01.32.34:515][919]LogMemory: Virtual Memory: 3696.03 MB used,  9900.37 MB free, 134217728.00 MB total
+[2017.03.09-01.32.34:515][919]LogMemory: 
+[2017.03.09-01.32.34:515][919]Allocator Stats for TBB: (not implemented)
+[2017.03.09-01.32.34:674][919]LogAIModule: Creating AISystem for world Fort_Battle
+[2017.03.09-01.32.34:675][919]LogLoad: Game class is 'abyssBattleScene_C'
+[2017.03.09-01.32.34:680][919]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_Fort_Battle.Fort_Battle up for play (max tick rate 0) at 2017.03.08-20.32.34
+[2017.03.09-01.32.34:680][919]LogWorld: Bringing up level for play took: 0.002919
+[2017.03.09-01.32.34:680][919]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.03.09-01.32.34:687][919]LogLoad: Took 0.415850 seconds to LoadMap(/Game/Maps-Levels/Fort_Battle)
+[2017.03.09-01.32.39:086][414]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration' with GeneratedClass '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration'
+[2017.03.09-01.32.39:120][414]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration' with GeneratedClass '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort/Exploration/Fort_Exploration.Fort_Exploration:PersistentLevel.Fort_Exploration'
+[2017.03.09-01.32.45:036][ 66]BlueprintLog: New page: Compile Exploration_Hero
+[2017.03.09-01.32.46:104][110]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Exploration/Exploration_Hero" FILE="C:/Users/nathan/Desktop/Test/Abyss/Content/BluePrints/Exploration/Exploration_Hero.uasset" SILENT=true
+[2017.03.09-01.32.46:386][110]LogSavePackage: Save=223.14ms
+[2017.03.09-01.32.46:386][110]LogSavePackage: Moving 'C:/Users/nathan/Desktop/Test/Abyss/Saved/Exploration_Hero10799E754B0CEED0CCA03BA068B41AB4.tmp' to 'C:/Users/nathan/Desktop/Test/Abyss/Content/BluePrints/Exploration/Exploration_Hero.uasset'
+[2017.03.09-01.32.46:391][110]LogSavePackage:Display: Finished SavePackage C:/Users/nathan/Desktop/Test/Abyss/Content/BluePrints/Exploration/Exploration_Hero.uasset
+[2017.03.09-01.33.02:061][748]LogAIModule: Creating AISystem for world Fort_Battle
+[2017.03.09-01.33.02:194][748]Cmd: MAP LOAD FILE="C:/Users/nathan/Desktop/Test/Abyss/Content/Maps-Levels/Fort_Battle.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.09-01.33.02:195][748]LightingResults: New page: Lighting Build
+[2017.03.09-01.33.02:195][748]LoadErrors: New page: Loading map: Fort_Battle.umap
+[2017.03.09-01.33.02:198][748]MapCheck: New page: Map Check
+[2017.03.09-01.33.02:198][748]LightingResults: New page: Lighting Build
+[2017.03.09-01.33.02:672][748]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.09-01.33.02:753][748]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.09-01.33.02:835][748]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 81.674ms to complete.
+[2017.03.09-01.33.02:835][748]LogFileHelpers: Loading map 'Fort_Battle' took 0.642
+[2017.03.09-01.33.32:202][467]BlueprintLog: New page: Compile BattleHUD
+[2017.03.09-01.33.32:793][467]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.09-01.33.32:793][467]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.09-01.33.32:793][467]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.09-01.33.32:793][467]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.09-01.33.33:152][497]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/BattleHUD" FILE="C:/Users/nathan/Desktop/Test/Abyss/Content/UMG/BattleHUD.uasset" SILENT=true
+[2017.03.09-01.33.33:617][497]LogSavePackage: Save=398.00ms
+[2017.03.09-01.33.33:617][497]LogSavePackage: Moving 'C:/Users/nathan/Desktop/Test/Abyss/Saved/BattleHUD1046C4944955D36440D013AA1A37339B.tmp' to 'C:/Users/nathan/Desktop/Test/Abyss/Content/UMG/BattleHUD.uasset'
+[2017.03.09-01.33.33:620][497]LogSavePackage:Display: Finished SavePackage C:/Users/nathan/Desktop/Test/Abyss/Content/UMG/BattleHUD.uasset
+[2017.03.09-01.33.33:979][534]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.09-01.33.34:035][534]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps-Levels/Fort_Battle.Fort_Battle:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort_Battle.Fort_Battle:PersistentLevel.Fort_Battle' with GeneratedClass '/Game/Maps-Levels/Fort_Battle.Fort_Battle_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort_Battle.Fort_Battle:PersistentLevel.Fort_Battle'
+[2017.03.09-01.33.34:035][534]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.09-01.33.34:035][534]PIE: New page: PIE session: Fort_Battle (Mar 8, 2017, 3:33:34 PM)
+[2017.03.09-01.33.34:036][534]LogPlayLevel: Creating play world package: /Game/Maps-Levels/UEDPIE_0_Fort_Battle
+[2017.03.09-01.33.34:039][534]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003599s)
+[2017.03.09-01.33.34:040][534]LogAIModule: Creating AISystem for world Fort_Battle
+[2017.03.09-01.33.34:040][534]LogPlayLevel: PIE: World Init took: (0.000700s)
+[2017.03.09-01.33.34:040][534]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps-Levels/Fort_Battle.Fort_Battle to /Game/Maps-Levels/UEDPIE_0_Fort_Battle.Fort_Battle (0.004539s)
+[2017.03.09-01.33.34:171][534]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.09-01.33.34:187][534]LogInit: FAudioDevice initialized.
+[2017.03.09-01.33.34:267][534]LogLoad: Game class is 'abyssBattleScene_C'
+[2017.03.09-01.33.34:271][534]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_Fort_Battle.Fort_Battle up for play (max tick rate 0) at 2017.03.08-20.33.34
+[2017.03.09-01.33.34:272][534]LogWorld: Bringing up level for play took: 0.002190
+[2017.03.09-01.33.34:272][534]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.03.09-01.33.34:287][534]PIE: Info Play in editor start time for /Game/Maps-Levels/UEDPIE_0_Fort_Battle 0.449
+[2017.03.09-01.33.34:288][534]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps-Levels/Fort_Battle.Fort_Battle:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort_Battle.Fort_Battle:PersistentLevel.Fort_Battle' with GeneratedClass '/Game/Maps-Levels/Fort_Battle.Fort_Battle_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort_Battle.Fort_Battle:PersistentLevel.Fort_Battle'
+[2017.03.09-01.33.38:946][922]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps-Levels/Fort_Battle.Fort_Battle:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort_Battle.Fort_Battle:PersistentLevel.Fort_Battle' with GeneratedClass '/Game/Maps-Levels/Fort_Battle.Fort_Battle_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort_Battle.Fort_Battle:PersistentLevel.Fort_Battle'
+[2017.03.09-01.33.39:017][922]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps-Levels/Fort_Battle.Fort_Battle:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort_Battle.Fort_Battle:PersistentLevel.Fort_Battle' with GeneratedClass '/Game/Maps-Levels/Fort_Battle.Fort_Battle_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort_Battle.Fort_Battle:PersistentLevel.Fort_Battle'
+[2017.03.09-01.33.48:440][946]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.09-01.33.48:485][946]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps-Levels/Fort_Battle.Fort_Battle:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort_Battle.Fort_Battle:PersistentLevel.Fort_Battle' with GeneratedClass '/Game/Maps-Levels/Fort_Battle.Fort_Battle_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort_Battle.Fort_Battle:PersistentLevel.Fort_Battle'
+[2017.03.09-01.33.48:485][946]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.09-01.33.48:485][946]PIE: New page: PIE session: Fort_Battle (Mar 8, 2017, 3:33:48 PM)
+[2017.03.09-01.33.48:486][946]LogPlayLevel: Creating play world package: /Game/Maps-Levels/UEDPIE_0_Fort_Battle
+[2017.03.09-01.33.48:489][946]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003449s)
+[2017.03.09-01.33.48:490][946]LogAIModule: Creating AISystem for world Fort_Battle
+[2017.03.09-01.33.48:490][946]LogPlayLevel: PIE: World Init took: (0.000883s)
+[2017.03.09-01.33.48:490][946]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps-Levels/Fort_Battle.Fort_Battle to /Game/Maps-Levels/UEDPIE_0_Fort_Battle.Fort_Battle (0.004679s)
+[2017.03.09-01.33.48:621][946]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.09-01.33.48:637][946]LogInit: FAudioDevice initialized.
+[2017.03.09-01.33.48:713][946]LogLoad: Game class is 'abyssBattleScene_C'
+[2017.03.09-01.33.48:717][946]LogWorld: Bringing World /Game/Maps-Levels/UEDPIE_0_Fort_Battle.Fort_Battle up for play (max tick rate 0) at 2017.03.08-20.33.48
+[2017.03.09-01.33.48:717][946]LogWorld: Bringing up level for play took: 0.001843
+[2017.03.09-01.33.48:718][946]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.03.09-01.33.48:733][946]PIE: Info Play in editor start time for /Game/Maps-Levels/UEDPIE_0_Fort_Battle 0.894
+[2017.03.09-01.33.48:734][946]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps-Levels/Fort_Battle.Fort_Battle:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort_Battle.Fort_Battle:PersistentLevel.Fort_Battle' with GeneratedClass '/Game/Maps-Levels/Fort_Battle.Fort_Battle_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort_Battle.Fort_Battle:PersistentLevel.Fort_Battle'
+[2017.03.09-01.33.53:913][381]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps-Levels/Fort_Battle.Fort_Battle:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort_Battle.Fort_Battle:PersistentLevel.Fort_Battle' with GeneratedClass '/Game/Maps-Levels/Fort_Battle.Fort_Battle_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort_Battle.Fort_Battle:PersistentLevel.Fort_Battle'
+[2017.03.09-01.33.53:989][381]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps-Levels/Fort_Battle.Fort_Battle:PersistentLevel' has LevelScriptBlueprint '/Game/Maps-Levels/Fort_Battle.Fort_Battle:PersistentLevel.Fort_Battle' with GeneratedClass '/Game/Maps-Levels/Fort_Battle.Fort_Battle_C' with ClassGeneratedBy '/Game/Maps-Levels/Fort_Battle.Fort_Battle:PersistentLevel.Fort_Battle'
+[2017.03.09-01.34.11:160][176]BlueprintLog: New page: Compile BattleHUD
+[2017.03.09-01.34.11:770][176]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.09-01.34.11:770][176]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.09-01.34.11:770][176]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.09-01.34.11:771][176]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  CastFailed
+[2017.03.09-01.34.29:362][ 29]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/BattleHUD" FILE="C:/Users/nathan/Desktop/Test/Abyss/Content/UMG/BattleHUD.uasset" SILENT=true
+[2017.03.09-01.34.29:806][ 29]LogSavePackage: Save=383.98ms
+[2017.03.09-01.34.29:806][ 29]LogSavePackage: Moving 'C:/Users/nathan/Desktop/Test/Abyss/Saved/BattleHUD6FA5C43143CFDE7672B35087D49A7E89.tmp' to 'C:/Users/nathan/Desktop/Test/Abyss/Content/UMG/BattleHUD.uasset'
+[2017.03.09-01.34.29:810][ 29]LogSavePackage:Display: Finished SavePackage C:/Users/nathan/Desktop/Test/Abyss/Content/UMG/BattleHUD.uasset
+[2017.03.09-01.34.34:886][496]Cmd: QUIT_EDITOR
+[2017.03.09-01.34.35:240][496]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.09-01.34.35:281][496]LogExit: Preparing to exit.
+[2017.03.09-01.34.35:290][496]Javascript: undefined
+[2017.03.09-01.34.35:396][496]Javascript: undefined
+[2017.03.09-01.34.35:422][496]LogDirectoryWatcher: A directory notification for 'C:/Users/nathan/Desktop/Test/Abyss/Content/Scripts/' was aborted.
+[2017.03.09-01.34.35:422][496]LogDirectoryWatcher: A directory notification for 'D:/UE4/UE_4.14/Engine/Plugins/Marketplace/UnrealJS/Content/Scripts/' was aborted.
+[2017.03.09-01.34.35:702][496]LogExit: Editor shut down
+[2017.03.09-01.34.35:703][496]LogExit: Transaction tracking system shut down
+[2017.03.09-01.34.36:272][496]LogObj: Freed 0b from 0 cluster array pools.
+[2017.03.09-01.34.36:272][496]LogExit: Object subsystem successfully closed.
+[2017.03.09-01.34.36:318][496]LogD3D11RHI: Shutdown
+[2017.03.09-01.34.36:318][496]LogD3D11RHI: CleanupD3DDevice
+[2017.03.09-01.34.36:464][496]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.03.09-01.34.36:667][496]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.03.09-01.34.36:667][496]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BAA0E9A5F-481D-59C8-7AAD-318C048A8B25%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.3-3249277%2B%2B%2BUE4%2BRelease-4.14&UserID=ebd02eab4bf37fade98294bf0ac2928c%7Cdf2486657973442ea895399024942a3f%7C11ccd397-2015-4e95-b97f-e72c5e310a35&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.03.09-01.34.36:712][496]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (240)
+[2017.03.09-01.34.36:712][496]LogModuleManager: Shutting down and abandoning module TextureEditor (239)
+[2017.03.09-01.34.36:712][496]LogModuleManager: Shutting down and abandoning module SequencerWidgets (238)
+[2017.03.09-01.34.36:712][496]LogModuleManager: Shutting down and abandoning module BlueprintGraph (237)
+[2017.03.09-01.34.36:712][496]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (236)
+[2017.03.09-01.34.36:721][496]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (235)
+[2017.03.09-01.34.36:733][496]LogModuleManager: Shutting down and abandoning module CrashTracker (234)
+[2017.03.09-01.34.36:733][496]LogModuleManager: Shutting down and abandoning module SceneOutliner (233)
+[2017.03.09-01.34.36:733][496]LogModuleManager: Shutting down and abandoning module WidgetCarousel (232)
+[2017.03.09-01.34.36:733][496]LogModuleManager: Shutting down and abandoning module AddContentDialog (231)
+[2017.03.09-01.34.36:733][496]LogDirectoryWatcher: A directory notification for 'D:/UE4/UE_4.14/FeaturePacks/' was aborted.
+[2017.03.09-01.34.36:734][496]LogModuleManager: Shutting down and abandoning module GameplayTags (230)
+[2017.03.09-01.34.36:734][496]LogModuleManager: Shutting down and abandoning module EditorWidgets (229)
+[2017.03.09-01.34.36:734][496]LogModuleManager: Shutting down and abandoning module CollectionManager (228)
+[2017.03.09-01.34.36:734][496]LogDirectoryWatcher: A directory notification for 'C:/Users/nathan/Desktop/Test/Abyss/Content/Collections/' was aborted.
+[2017.03.09-01.34.36:734][496]LogDirectoryWatcher: A directory notification for 'C:/Users/nathan/Desktop/Test/Abyss/Content/Developers/nathan/Collections/' was aborted.
+[2017.03.09-01.34.36:734][496]LogDirectoryWatcher: A directory notification for 'C:/Users/nathan/Desktop/Test/Abyss/Saved/Collections/' was aborted.
+[2017.03.09-01.34.36:735][496]LogModuleManager: Shutting down and abandoning module StatsViewer (227)
+[2017.03.09-01.34.36:748][496]LogModuleManager: Shutting down and abandoning module FoliageEdit (226)
+[2017.03.09-01.34.36:748][496]LogModuleManager: Shutting down and abandoning module LandscapeEditor (225)
+[2017.03.09-01.34.36:757][496]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (224)
+[2017.03.09-01.34.36:757][496]LogModuleManager: Shutting down and abandoning module ActorPickerMode (223)
+[2017.03.09-01.34.36:757][496]LogModuleManager: Shutting down and abandoning module GeometryMode (222)
+[2017.03.09-01.34.36:757][496]LogModuleManager: Shutting down and abandoning module TextureAlignMode (221)
+[2017.03.09-01.34.36:757][496]LogModuleManager: Shutting down and abandoning module BspMode (220)
+[2017.03.09-01.34.36:757][496]LogModuleManager: Shutting down and abandoning module HardwareSurvey (219)
+[2017.03.09-01.34.36:757][496]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (218)
+[2017.03.09-01.34.36:757][496]LogModuleManager: Shutting down and abandoning module AutomationWorker (217)
+[2017.03.09-01.34.36:757][496]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (216)
+[2017.03.09-01.34.36:757][496]LogModuleManager: Shutting down and abandoning module PlacementMode (215)
+[2017.03.09-01.34.36:767][496]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (214)
+[2017.03.09-01.34.36:783][496]LogModuleManager: Shutting down and abandoning module Media (213)
+[2017.03.09-01.34.36:783][496]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (212)
+[2017.03.09-01.34.36:784][496]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (211)
+[2017.03.09-01.34.36:784][496]LogModuleManager: Shutting down and abandoning module CharacterAI (210)
+[2017.03.09-01.34.36:784][496]LogModuleManager: Shutting down and abandoning module SequenceRecorder (209)
+[2017.03.09-01.34.36:784][496]LogModuleManager: Shutting down and abandoning module AudioCapture (208)
+[2017.03.09-01.34.36:784][496]LogModuleManager: Shutting down and abandoning module SmartSnapping (207)
+[2017.03.09-01.34.36:784][496]LogModuleManager: Shutting down and abandoning module SessionServices (206)
+[2017.03.09-01.34.36:784][496]LogModuleManager: Shutting down and abandoning module ViewportSnapping (205)
+[2017.03.09-01.34.36:784][496]LogModuleManager: Shutting down and abandoning module ViewportInteraction (204)
+[2017.03.09-01.34.36:784][496]LogModuleManager: Shutting down and abandoning module LogVisualizer (203)
+[2017.03.09-01.34.36:790][496]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (202)
+[2017.03.09-01.34.36:799][496]LogModuleManager: Shutting down and abandoning module IntroTutorials (201)
+[2017.03.09-01.34.36:802][496]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (200)
+[2017.03.09-01.34.36:802][496]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (199)
+[2017.03.09-01.34.36:802][496]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (198)
+[2017.03.09-01.34.36:802][496]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (196)
+[2017.03.09-01.34.37:261][496]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (195)
+[2017.03.09-01.34.37:261][496]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (194)
+[2017.03.09-01.34.37:261][496]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (193)
+[2017.03.09-01.34.37:261][496]LogModuleManager: Shutting down and abandoning module InputBindingEditor (192)
+[2017.03.09-01.34.37:261][496]LogModuleManager: Shutting down and abandoning module NiagaraEditor (191)
+[2017.03.09-01.34.37:290][496]LogModuleManager: Shutting down and abandoning module MergeActors (190)
+[2017.03.09-01.34.37:300][496]LogModuleManager: Shutting down and abandoning module SizeMap (189)
+[2017.03.09-01.34.37:301][496]LogModuleManager: Shutting down and abandoning module TreeMap (188)
+[2017.03.09-01.34.37:301][496]LogModuleManager: Shutting down and abandoning module ReferenceViewer (187)
+[2017.03.09-01.34.37:301][496]LogModuleManager: Shutting down and abandoning module LocalizationService (186)
+[2017.03.09-01.34.37:301][496]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (185)
+[2017.03.09-01.34.37:309][496]LogModuleManager: Shutting down and abandoning module HardwareTargeting (184)
+[2017.03.09-01.34.37:309][496]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (183)
+[2017.03.09-01.34.37:313][496]LogModuleManager: Shutting down and abandoning module UndoHistory (182)
+[2017.03.09-01.34.37:324][496]LogModuleManager: Shutting down and abandoning module UserFeedback (181)
+[2017.03.09-01.34.37:324][496]LogModuleManager: Shutting down and abandoning module XmlParser (180)
+[2017.03.09-01.34.37:324][496]LogModuleManager: Shutting down and abandoning module Blutility (179)
+[2017.03.09-01.34.37:324][496]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (178)
+[2017.03.09-01.34.37:325][496]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (177)
+[2017.03.09-01.34.37:325][496]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (176)
+[2017.03.09-01.34.37:325][496]LogModuleManager: Shutting down and abandoning module SettingsEditor (175)
+[2017.03.09-01.34.37:338][496]LogModuleManager: Shutting down and abandoning module ProjectLauncher (174)
+[2017.03.09-01.34.37:357][496]LogModuleManager: Shutting down and abandoning module SessionFrontend (173)
+[2017.03.09-01.34.37:371][496]LogModuleManager: Shutting down and abandoning module ProfilerClient (172)
+[2017.03.09-01.34.37:395][496]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (171)
+[2017.03.09-01.34.37:395][496]LogModuleManager: Shutting down and abandoning module DeviceManager (170)
+[2017.03.09-01.34.37:462][496]LogModuleManager: Shutting down and abandoning module AutomationController (169)
+[2017.03.09-01.34.37:462][496]LogModuleManager: Shutting down and abandoning module AutomationWindow (168)
+[2017.03.09-01.34.37:472][496]LogModuleManager: Shutting down and abandoning module Layers (167)
+[2017.03.09-01.34.37:483][496]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (166)
+[2017.03.09-01.34.37:483][496]LogModuleManager: Shutting down and abandoning module DetailCustomizations (165)
+[2017.03.09-01.34.37:484][496]LogModuleManager: Shutting down and abandoning module PackagesDialog (164)
+[2017.03.09-01.34.37:484][496]LogModuleManager: Shutting down and abandoning module AnimGraph (163)
+[2017.03.09-01.34.37:484][496]LogModuleManager: Shutting down and abandoning module Persona (162)
+[2017.03.09-01.34.37:495][496]LogModuleManager: Shutting down and abandoning module Kismet (161)
+[2017.03.09-01.34.37:506][496]LogModuleManager: Shutting down and abandoning module GraphEditor (160)
+[2017.03.09-01.34.37:506][496]LogModuleManager: Shutting down and abandoning module ClassViewer (159)
+[2017.03.09-01.34.37:515][496]LogModuleManager: Shutting down and abandoning module Toolbox (158)
+[2017.03.09-01.34.37:515][496]LogModuleManager: Shutting down and abandoning module ModuleUI (157)
+[2017.03.09-01.34.37:524][496]LogModuleManager: Shutting down and abandoning module MovieSceneTools (156)
+[2017.03.09-01.34.37:533][496]LogModuleManager: Shutting down and abandoning module OutputLog (155)
+[2017.03.09-01.34.37:542][496]LogModuleManager: Shutting down and abandoning module GammaUI (154)
+[2017.03.09-01.34.37:548][496]LogModuleManager: Shutting down and abandoning module Documentation (153)
+[2017.03.09-01.34.37:548][496]LogModuleManager: Shutting down and abandoning module Niagara (152)
+[2017.03.09-01.34.37:548][496]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (151)
+[2017.03.09-01.34.37:548][496]LogModuleManager: Shutting down and abandoning module AnalyticsET (150)
+[2017.03.09-01.34.37:548][496]LogModuleManager: Shutting down and abandoning module PortalServices (149)
+[2017.03.09-01.34.37:548][496]LogModuleManager: Shutting down and abandoning module PortalRpc (148)
+[2017.03.09-01.34.37:548][496]LogModuleManager: Shutting down and abandoning module MessagingRpc (147)
+[2017.03.09-01.34.37:548][496]LogModuleManager: Shutting down and abandoning module GameplayDebugger (146)
+[2017.03.09-01.34.37:548][496]LogModuleManager: Shutting down and abandoning module AITestSuite (145)
+[2017.03.09-01.34.37:548][496]LogModuleManager: Shutting down and abandoning module AIModule (144)
+[2017.03.09-01.34.37:548][496]LogModuleManager: Shutting down and abandoning module ProfilerService (143)
+[2017.03.09-01.34.37:615][496]LogModuleManager: Shutting down and abandoning module TaskGraph (142)
+[2017.03.09-01.34.37:620][496]LogModuleManager: Shutting down and abandoning module SlateRemote (141)
+[2017.03.09-01.34.37:620][496]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (140)
+[2017.03.09-01.34.37:620][496]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (139)
+[2017.03.09-01.34.37:620][496]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (138)
+[2017.03.09-01.34.37:620][496]LogModuleManager: Shutting down and abandoning module CableComponent (137)
+[2017.03.09-01.34.37:620][496]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (136)
+[2017.03.09-01.34.37:620][496]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (134)
+[2017.03.09-01.34.37:635][496]LogModuleManager: Shutting down and abandoning module JavascriptConsole (133)
+[2017.03.09-01.34.37:661][496]LogModuleManager: Shutting down and abandoning module JavascriptEditor (132)
+[2017.03.09-01.34.37:661][496]LogModuleManager: Shutting down and abandoning module HGGifImporter (131)
+[2017.03.09-01.34.37:661][496]LogModuleManager: Shutting down and abandoning module HTML5Networking (130)
+[2017.03.09-01.34.37:673][496]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (129)
+[2017.03.09-01.34.37:673][496]LogModuleManager: Shutting down and abandoning module GeometryCache (128)
+[2017.03.09-01.34.37:673][496]LogModuleManager: Shutting down and abandoning module AlembicLibrary (127)
+[2017.03.09-01.34.37:673][496]LogModuleManager: Shutting down and abandoning module AlembicImporter (126)
+[2017.03.09-01.34.37:679][496]LogModuleManager: Shutting down and abandoning module SuperSearch (125)
+[2017.03.09-01.34.37:679][496]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (124)
+[2017.03.09-01.34.37:679][496]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (123)
+[2017.03.09-01.34.37:679][496]LogModuleManager: Shutting down and abandoning module PluginBrowser (122)
+[2017.03.09-01.34.37:679][496]LogModuleManager: Shutting down and abandoning module DesktopPlatform (121)
+[2017.03.09-01.34.37:679][496]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (120)
+[2017.03.09-01.34.37:679][496]LogModuleManager: Shutting down and abandoning module UObjectPlugin (119)
+[2017.03.09-01.34.37:679][496]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (118)
+[2017.03.09-01.34.37:680][496]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (117)
+[2017.03.09-01.34.37:680][496]LogModuleManager: Shutting down and abandoning module SourceControl (116)
+[2017.03.09-01.34.37:690][496]LogModuleManager: Shutting down and abandoning module GitSourceControl (115)
+[2017.03.09-01.34.37:690][496]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (114)
+[2017.03.09-01.34.37:690][496]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (113)
+[2017.03.09-01.34.37:690][496]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (112)
+[2017.03.09-01.34.37:690][496]LogModuleManager: Shutting down and abandoning module MeshPaint (111)
+[2017.03.09-01.34.37:690][496]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (110)
+[2017.03.09-01.34.37:690][496]LogModuleManager: Shutting down and abandoning module HotReload (109)
+[2017.03.09-01.34.37:690][496]LogModuleManager: Shutting down and abandoning module MainFrame (108)
+[2017.03.09-01.34.37:690][496]LogModuleManager: Shutting down and abandoning module LevelEditor (107)
+[2017.03.09-01.34.37:693][496]LogModuleManager: Shutting down and abandoning module ContentBrowser (106)
+[2017.03.09-01.34.37:694][496]LogModuleManager: Shutting down and abandoning module Paper2DEditor (105)
+[2017.03.09-01.34.37:694][496]LogModuleManager: Shutting down and abandoning module JavascriptWebSocket (104)
+[2017.03.09-01.34.37:694][496]LogModuleManager: Shutting down and abandoning module JavascriptHttp (103)
+[2017.03.09-01.34.37:694][496]LogModuleManager: Shutting down and abandoning module JavascriptUMG (102)
+[2017.03.09-01.34.37:694][496]LogModuleManager: Shutting down and abandoning module V8 (101)
+[2017.03.09-01.34.37:697][496]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (100)
+[2017.03.09-01.34.37:697][496]LogModuleManager: Shutting down and abandoning module Paper2D (99)
+[2017.03.09-01.34.37:697][496]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (98)
+[2017.03.09-01.34.37:697][496]LogModuleManager: Shutting down and abandoning module WmfMedia (97)
+[2017.03.09-01.34.37:706][496]LogModuleManager: Shutting down and abandoning module MediaAssets (96)
+[2017.03.09-01.34.37:706][496]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (95)
+[2017.03.09-01.34.37:706][496]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (94)
+[2017.03.09-01.34.37:706][496]LogModuleManager: Shutting down and abandoning module VREditor (93)
+[2017.03.09-01.34.37:706][496]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (92)
+[2017.03.09-01.34.37:706][496]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (91)
+[2017.03.09-01.34.37:711][496]LogModuleManager: Shutting down and abandoning module FunctionalTesting (90)
+[2017.03.09-01.34.37:711][496]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (89)
+[2017.03.09-01.34.37:719][496]LogModuleManager: Shutting down and abandoning module Sequencer (88)
+[2017.03.09-01.34.37:719][496]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (87)
+[2017.03.09-01.34.37:719][496]LogModuleManager: Shutting down and abandoning module MessageLog (86)
+[2017.03.09-01.34.37:719][496]LogModuleManager: Shutting down and abandoning module AssetTools (85)
+[2017.03.09-01.34.37:719][496]LogModuleManager: Shutting down and abandoning module UMGEditor (84)
+[2017.03.09-01.34.37:719][496]LogModuleManager: Shutting down and abandoning module UMG (83)
+[2017.03.09-01.34.37:719][496]LogModuleManager: Shutting down and abandoning module SlateReflector (82)
+[2017.03.09-01.34.37:745][496]LogModuleManager: Shutting down and abandoning module Slate (81)
+[2017.03.09-01.34.37:745][496]LogModuleManager: Shutting down and abandoning module EditorStyle (80)
+[2017.03.09-01.34.37:747][496]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (79)
+[2017.03.09-01.34.37:747][496]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (78)
+[2017.03.09-01.34.37:747][496]LogModuleManager: Shutting down and abandoning module XAudio2 (77)
+[2017.03.09-01.34.37:747][496]LogModuleManager: Shutting down and abandoning module Networking (75)
+[2017.03.09-01.34.37:747][496]LogModuleManager: Shutting down and abandoning module Core (74)
+[2017.03.09-01.34.37:747][496]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (73)
+[2017.03.09-01.34.37:747][496]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.03.09-01.34.37:747][496]LogDirectoryWatcher: A directory notification for 'C:/Users/nathan/Desktop/Test/Abyss/Content/' was aborted.
+[2017.03.09-01.34.37:747][496]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.03.09-01.34.37:747][496]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Marketplace/UnrealJS/Content/' was aborted.
+[2017.03.09-01.34.37:748][496]LogModuleManager: Shutting down and abandoning module AssetRegistry (72)
+[2017.03.09-01.34.37:969][496]LogModuleManager: Shutting down and abandoning module KismetCompiler (71)
+[2017.03.09-01.34.37:969][496]LogModuleManager: Shutting down and abandoning module PhysXFormats (70)
+[2017.03.09-01.34.37:969][496]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (69)
+[2017.03.09-01.34.37:982][496]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (68)
+[2017.03.09-01.34.37:982][496]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (67)
+[2017.03.09-01.34.37:982][496]LogModuleManager: Shutting down and abandoning module PropertyEditor (66)
+[2017.03.09-01.34.37:982][496]LogModuleManager: Shutting down and abandoning module MeshUtilities (65)
+[2017.03.09-01.34.37:989][496]LogModuleManager: Shutting down and abandoning module DerivedDataCache (64)
+[2017.03.09-01.34.37:995][496]LogDerivedDataCache: Shutdown
+[2017.03.09-01.34.37:995][496]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (63)
+[2017.03.09-01.34.37:995][496]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (62)
+[2017.03.09-01.34.38:002][496]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (61)
+[2017.03.09-01.34.38:002][496]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (60)
+[2017.03.09-01.34.38:015][496]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (59)
+[2017.03.09-01.34.38:015][496]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (58)
+[2017.03.09-01.34.38:015][496]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (57)
+[2017.03.09-01.34.38:015][496]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (56)
+[2017.03.09-01.34.38:024][496]LogModuleManager: Shutting down and abandoning module ImageWrapper (55)
+[2017.03.09-01.34.38:025][496]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (54)
+[2017.03.09-01.34.38:025][496]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (53)
+[2017.03.09-01.34.38:025][496]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (52)
+[2017.03.09-01.34.38:025][496]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (51)
+[2017.03.09-01.34.38:025][496]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (50)
+[2017.03.09-01.34.38:025][496]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (49)
+[2017.03.09-01.34.38:025][496]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (48)
+[2017.03.09-01.34.38:025][496]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (47)
+[2017.03.09-01.34.38:025][496]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (46)
+[2017.03.09-01.34.38:025][496]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (45)
+[2017.03.09-01.34.38:025][496]LogModuleManager: Shutting down and abandoning module Messaging (44)
+[2017.03.09-01.34.38:025][496]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (43)
+[2017.03.09-01.34.38:025][496]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (42)
+[2017.03.09-01.34.38:025][496]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (41)
+[2017.03.09-01.34.38:025][496]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (40)
+[2017.03.09-01.34.38:025][496]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (39)
+[2017.03.09-01.34.38:025][496]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (38)
+[2017.03.09-01.34.38:025][496]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (37)
+[2017.03.09-01.34.38:025][496]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (36)
+[2017.03.09-01.34.38:025][496]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (35)
+[2017.03.09-01.34.38:025][496]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (34)
+[2017.03.09-01.34.38:025][496]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (33)
+[2017.03.09-01.34.38:025][496]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (32)
+[2017.03.09-01.34.38:025][496]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (31)
+[2017.03.09-01.34.38:025][496]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (30)
+[2017.03.09-01.34.38:025][496]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (29)
+[2017.03.09-01.34.38:025][496]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (28)
+[2017.03.09-01.34.38:025][496]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (27)
+[2017.03.09-01.34.38:025][496]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (26)
+[2017.03.09-01.34.38:025][496]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (25)
+[2017.03.09-01.34.38:025][496]LogModuleManager: Shutting down and abandoning module TargetPlatform (24)
+[2017.03.09-01.34.38:025][496]LogModuleManager: Shutting down and abandoning module InputCore (23)
+[2017.03.09-01.34.38:025][496]LogModuleManager: Shutting down and abandoning module Settings (22)
+[2017.03.09-01.34.38:025][496]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (21)
+[2017.03.09-01.34.38:025][496]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (20)
+[2017.03.09-01.34.38:025][496]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2017.03.09-01.34.38:025][496]LogOnline:Display: Unloading online subsystem: NULL
+[2017.03.09-01.34.38:047][496]LogModuleManager: Shutting down and abandoning module SSL (17)
+[2017.03.09-01.34.38:049][496]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2017.03.09-01.34.38:049][496]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2017.03.09-01.34.38:057][496]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.03.09-01.34.38:057][496]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.03.09-01.34.38:057][496]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.03.09-01.34.38:057][496]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.03.09-01.34.38:071][496]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.03.09-01.34.38:088][496]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.03.09-01.34.38:088][496]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.03.09-01.34.38:088][496]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.03.09-01.34.38:088][496]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.03.09-01.34.38:088][496]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.03.09-01.34.38:088][496]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.03.09-01.34.38:100][496]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.03.09-01.34.38:100][496]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.03.09-01.34.38:100][496]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.03.09-01.34.38:117][496]LogExit: Exiting.
+[2017.03.09-01.34.38:151][496]Log file closed, 03/08/17 20:34:38
